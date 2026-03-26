@@ -94,10 +94,22 @@ Takes ~5-7 minutes to complete. If it finishes without errors, move to step 9.
 
 ## 9. Set up cron
 
-Paste this single command (avoids issues with crontab -e):
+Paste this entire block at once:
 
 ```bash
-(crontab -l 2>/dev/null; echo '5 */4 * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1'; echo '30 2 * * * /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1'; echo '45 */6 * * * /root/oracle-lab/scripts/git_push.sh'; echo '0 3 * * 0 find /root/oracle-lab/logs -name "*.log" -mtime +28 -delete') | crontab -
+cat > /tmp/setup_cron.sh << 'SCRIPT'
+#!/bin/bash
+crontab -l 2>/dev/null > /tmp/oracle_cron
+echo '5 */4 * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1' >> /tmp/oracle_cron
+echo '30 2 * * * /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1' >> /tmp/oracle_cron
+echo '45 */6 * * * /root/oracle-lab/scripts/git_push.sh' >> /tmp/oracle_cron
+echo '0 3 * * 0 find /root/oracle-lab/logs -name "*.log" -mtime +28 -delete' >> /tmp/oracle_cron
+crontab /tmp/oracle_cron
+rm /tmp/oracle_cron
+echo "Done. Current crontab:"
+crontab -l
+SCRIPT
+bash /tmp/setup_cron.sh
 ```
 
 ## 10. Verify cron is running
@@ -146,69 +158,29 @@ cd ~/oracle-lab && source venv/bin/activate && source .env && ./scripts/run_cycl
 # Ctrl+B then D to detach. Reconnect later with: tmux attach -t oracle
 ```
 
-## Recovery after disconnect (steps 1-8 already done)
+## Recovery after disconnect
 
-If you get disconnected after the forecast ran but before cron was set up:
-
-```bash
-tmux new -s oracle
-```
-
-Then inside tmux, pull the latest code:
+SSH back in, then:
 
 ```bash
-cd ~/oracle-lab && source .env && git pull --rebase origin main
+tmux attach -t oracle 2>/dev/null || tmux new -s oracle
 ```
 
-Check if forecast data already exists:
+If there's a merge conflict or "uncommitted changes" error on git pull:
 
 ```bash
-ls ~/oracle-lab/briefings/latest.json ~/oracle-lab/state/current.json ~/oracle-lab/contracts/active_contracts.json
+cd ~/oracle-lab && git fetch origin && git reset --hard origin/main
 ```
 
-If those files exist, just push the dashboard (no need to re-run forecasts):
+If cron isn't set up yet, paste the cron setup block from step 9 above.
 
-```bash
-cd ~/oracle-lab && source venv/bin/activate && source .env && bash scripts/push_dashboard.sh
-```
-
-If push_dashboard.sh gives "no such file or directory", the old paths are still on the droplet. Fix with:
-
-```bash
-cd ~/oracle-lab && git config pull.rebase true && git stash && git pull origin main && git stash pop
-```
-
-Then retry:
-
-```bash
-source .env && bash scripts/push_dashboard.sh
-```
-
-If that STILL doesn't work, do it manually:
-
-```bash
-mkdir -p ~/oracle-lab-dashboard/data && cp ~/oracle-lab/contracts/active_contracts.json ~/oracle-lab-dashboard/data/active_contracts.json && cp ~/oracle-lab/briefings/latest.json ~/oracle-lab-dashboard/data/briefing.json && cp ~/oracle-lab/state/current.json ~/oracle-lab-dashboard/data/state.json && cd ~/oracle-lab-dashboard && git add data/ && git commit -m "data: manual push" && git push origin main
-```
-
-If those files DON'T exist, re-run the full cycle:
-
-```bash
-cd ~/oracle-lab && source venv/bin/activate && source .env && ./scripts/run_cycle.sh
-```
-
-Then set up cron:
-
-```bash
-(crontab -l 2>/dev/null; echo '5 */4 * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1'; echo '30 2 * * * /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1'; echo '45 */6 * * * /root/oracle-lab/scripts/git_push.sh'; echo '0 3 * * 0 find /root/oracle-lab/logs -name "*.log" -mtime +28 -delete') | crontab -
-```
-
-Verify:
+Check if cron is already running:
 
 ```bash
 crontab -l
 ```
 
-If you get disconnected again, SSH back in and run `tmux attach -t oracle`.
+If it shows the 4 oracle-lab entries, you're good — the droplet will keep running on its own even if you disconnect.
 
 ## Wipe old dashboard data (fresh start from today)
 
