@@ -1,61 +1,7 @@
 {
-  "last_updated": "2026-03-20T00:05:28Z",
-  "total_cycles": 24,
-  "rankings_by_mse": [
-    {
-      "agent": "naive_baseline",
-      "mse": 7.916e-05,
-      "rank": 1
-    },
-    {
-      "agent": "momentum",
-      "mse": 8.089e-05,
-      "rank": 2
-    },
-    {
-      "agent": "historian",
-      "mse": 0.00010449,
-      "rank": 3
-    },
-    {
-      "agent": "game_theorist",
-      "mse": 0.00022139,
-      "rank": 4
-    },
-    {
-      "agent": "quant",
-      "mse": 0.00266641,
-      "rank": 5
-    }
-  ],
-  "rankings_by_directional": [
-    {
-      "agent": "historian",
-      "directional_accuracy": 0.25,
-      "rank": 1
-    },
-    {
-      "agent": "quant",
-      "directional_accuracy": 0.1739,
-      "rank": 2
-    },
-    {
-      "agent": "game_theorist",
-      "directional_accuracy": 0.1305,
-      "rank": 3
-    },
-    {
-      "agent": "momentum",
-      "directional_accuracy": 0.125,
-      "rank": 4
-    }
-  ],
-  "per_market_mse": {
-    "regime_fall": {
-      "momentum": 8.089e-05,
-      "historian": 0.00010449,
-      "game_theorist": 0.00022139,
-      "quant": 0.00266641
-    }
-  }
+  "last_updated": null,
+  "total_cycles": 0,
+  "rankings_by_mse": [],
+  "rankings_by_directional": [],
+  "per_market_mse": {}
 }
