@@ -2,9 +2,9 @@
 # Oracle Lab — Forecast Cycle (runs every 4 hours)
 # Fetches data, runs LLM forecasts on rolling contracts, runs deterministic agents, evaluates.
 
-source /home/oracle/oracle-lab/.env
-source /home/oracle/oracle-lab/venv/bin/activate
-cd /home/oracle/oracle-lab
+source /root/oracle-lab/.env
+source /root/oracle-lab/venv/bin/activate
+cd /root/oracle-lab
 mkdir -p logs reports status
 
 TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
@@ -74,7 +74,7 @@ python3 evaluate_rolling.py >> "$LOGFILE" 2>&1 || echo "WARN: rolling evaluation
 
 # Stage 5: Generate cycle report
 echo "[10/11] Generating report..." | tee -a "$LOGFILE"
-mkdir -p /home/oracle/oracle-lab/reports
+mkdir -p /root/oracle-lab/reports
 python3 report.py >> "$LOGFILE" 2>&1 || echo "WARN: report generation failed" >> "$LOGFILE"
 
 # Stage 6: Update status page + progress plot
@@ -90,6 +90,6 @@ git commit -m "cycle: $TIMESTAMP" --allow-empty >> "$LOGFILE" 2>&1
 
 # Stage 8: Update public dashboard
 echo "[post] Updating dashboard..." | tee -a "$LOGFILE"
-/home/oracle/oracle-lab/scripts/push_dashboard.sh >> "$LOGFILE" 2>&1 || echo "WARN: dashboard update failed" >> "$LOGFILE"
+/root/oracle-lab/scripts/push_dashboard.sh >> "$LOGFILE" 2>&1 || echo "WARN: dashboard update failed" >> "$LOGFILE"
 
 echo "=== Forecast cycle complete: $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" | tee -a "$LOGFILE"

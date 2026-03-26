@@ -3,7 +3,7 @@
 # Runs Python's http.server on port 8080, restarts on crash.
 # Started by cron @reboot or manually.
 
-cd /home/oracle/oracle-lab
+cd /root/oracle-lab
 mkdir -p logs status
 
 # Generate initial page if missing

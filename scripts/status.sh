@@ -2,7 +2,7 @@
 # Oracle Lab — Quick Status Check
 # Usage: ./scripts/status.sh
 
-cd /home/oracle/oracle-lab
+cd /root/oracle-lab
 
 echo "=== Oracle Lab Status ==="
 echo "Time: $(date -u '+%Y-%m-%d %H:%M UTC')"

@@ -6,8 +6,8 @@
 #   1. Clone the dashboard repo: git clone https://github.com/YOUR_USERNAME/oracle-lab-dashboard.git ~/oracle-lab-dashboard
 #   2. Set up git push auth (same as oracle-lab: token or SSH key)
 
-ORACLE_LAB="/home/oracle/oracle-lab"
-DASHBOARD="/home/oracle/oracle-lab-dashboard"
+ORACLE_LAB="/root/oracle-lab"
+DASHBOARD="/root/oracle-lab-dashboard"
 LOGFILE="$ORACLE_LAB/logs/dashboard_push.log"
 
 TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)

@@ -1,6 +1,6 @@
 #!/bin/bash
 SESSION="oracle-lab"
-PROJECT="/home/oracle/oracle-lab"
+PROJECT="/root/oracle-lab"
 
 # Kill existing session
 tmux kill-session -t $SESSION 2>/dev/null

@@ -3,9 +3,9 @@
 # Uses Sonnet via OpenRouter to modify each agent's forecast.py.
 # No ANTHROPIC_API_KEY needed — only OPENROUTER_API_KEY.
 
-source /home/oracle/oracle-lab/.env
-source /home/oracle/oracle-lab/venv/bin/activate
-cd /home/oracle/oracle-lab
+source /root/oracle-lab/.env
+source /root/oracle-lab/venv/bin/activate
+cd /root/oracle-lab
 
 DATE=$(date +%Y-%m-%d)
 TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
