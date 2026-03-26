@@ -1,0 +1,37 @@
+{
+  "agent": "momentum",
+  "timestamp": "2026-03-15T08:05:35Z",
+  "predictions": {
+    "regime_fall": {
+      "prediction": 0.3007,
+      "current": 0.295,
+      "change_4h": 0.03,
+      "change_24h": 0.04,
+      "news_intensity_raw": 1.756,
+      "decay_adjusted_intensity": 1.756,
+      "blend_weight": 0.165,
+      "momentum_signal": 0.023,
+      "mode": "reversion"
+    }
+  },
+  "methodology_version": "1.1.0",
+  "source_weights": {
+    "wire_service": 1.0,
+    "us_prestige": 0.9,
+    "uk_prestige": 0.85,
+    "regional_specialist": 0.8,
+    "government_official": 1.0,
+    "think_tank": 0.7,
+    "osint": 0.6,
+    "social_media": 0.3,
+    "market_commentary": 0.4
+  },
+  "parameters": {
+    "momentum_weight": 0.6,
+    "reversion_weight": 0.4,
+    "news_threshold": 5,
+    "sigmoid_steepness": 0.5,
+    "lookback_hours": 24,
+    "decay_half_life_hours": 12
+  }
+}

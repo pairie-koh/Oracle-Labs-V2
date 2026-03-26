@@ -1,0 +1,8 @@
+The change works correctly. Here's the summary:
+
+**Change: 1.3.0 → 1.4.0**
+
+- `MAX_NEWS_SHIFT` reduced from 0.025 (2.5pp) → 0.010 (1pp)
+- Sample output: regime_fall 0.2650 → 0.2678 (+0.3pp shift vs prior potential of up to +2.5pp)
+- The naive baseline MSE implies ~0.76pp average 4-hour move; the old 2.5pp cap was 3× that, regularly overshooting. Capping at 1pp keeps the news contribution within the scale of real price movements.
+- Overall MSE trend is improving (0.00029 → 9.1e-05) but still 1.6× naive; this continues the systematic tightening of noise sources.

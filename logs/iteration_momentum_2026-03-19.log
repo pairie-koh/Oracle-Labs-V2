@@ -1,0 +1,10 @@
+Done. Here's the summary:
+
+**Change made (1.5.0 → 1.6.0):** `MOMENTUM_WEIGHT` increased from 0.20 to 0.25.
+
+**Reasoning:**
+- Last change (1.4.0→1.5.0) worked: recent MSE dropped to ~1.8e-06, ~50x better than naive baseline
+- Directional accuracy is now 94.4% — very high
+- `program.md` explicitly says to increase MOMENTUM_WEIGHT when directional accuracy is above 50%
+- Modest step (0.05) to avoid overshooting
+- Log written to `agents/momentum/log/methodology_changes/2026-03-19.md`

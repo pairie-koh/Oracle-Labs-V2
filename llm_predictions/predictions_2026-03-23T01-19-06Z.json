@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-03-23T01:19:06Z",
+  "predictions": [
+    {
+      "question": "Bitcoin Up or Down on March 23?",
+      "source": "rolling",
+      "key": "bitcoin_daily",
+      "type": "binary",
+      "tier": "haiku",
+      "market_price": 0.325,
+      "divergence": 0.0,
+      "timestamp": "2026-03-23T01:19:06Z",
+      "prediction": 0.325
+    },
+    {
+      "question": "Crude Oil (CL) Up or Down on March 23?",
+      "source": "rolling",
+      "key": "oil_daily",
+      "type": "binary",
+      "tier": "haiku",
+      "market_price": 0.65,
+      "divergence": 0.0,
+      "timestamp": "2026-03-23T01:19:06Z",
+      "prediction": 0.65
+    },
+    {
+      "question": "Highest temperature in NYC",
+      "source": "rolling",
+      "key": "nyc_temp",
+      "type": "multi-outcome",
+      "tier": "haiku",
+      "market_price": 0,
+      "divergence": 0.0,
+      "timestamp": "2026-03-23T01:19:06Z",
+      "outcome_predictions": [
+        0.72,
+        0.2,
+        0.042,
+        0.015,
+        0.0065,
+        0.0015,
+        0.012,
+        0.002,
+        0.002,
+        0.001,
+        0.0015
+      ],
+      "outcome_questions": [
+        "Will the highest temperature in New York City be 51\u00b0F or below on March 23?",
+        "Will the highest temperature in New York City be between 52-53\u00b0F on March 23?",
+        "Will the highest temperature in New York City be between 54-55\u00b0F on March 23?",
+        "Will the highest temperature in New York City be between 56-57\u00b0F on March 23?",
+        "Will the highest temperature in New York City be between 58-59\u00b0F on March 23?",
+        "Will the highest temperature in New York City be between 60-61\u00b0F on March 23?",
+        "Will the highest temperature in New York City be between 62-63\u00b0F on March 23?",
+        "Will the highest temperature in New York City be between 64-65\u00b0F on March 23?",
+        "Will the highest temperature in New York City be between 66-67\u00b0F on March 23?",
+        "Will the highest temperature in New York City be between 68-69\u00b0F on March 23?",
+        "Will the highest temperature in New York City be 70\u00b0F or higher on March 23?"
+      ],
+      "outcome_market_prices": [
+        0.72,
+        0.2,
+        0.042,
+        0.015,
+        0.0065,
+        0.0015,
+        0.012,
+        0.002,
+        0.002,
+        0.001,
+        0.0015
+      ]
+    },
+    {
+      "question": "Highest temperature in Miami",
+      "source": "rolling",
+      "key": "miami_temp",
+      "type": "multi-outcome",
+      "tier": "haiku",
+      "market_price": 0,
+      "divergence": 0.0,
+      "timestamp": "2026-03-23T01:19:06Z",
+      "outcome_predictions": [
+        0.004,
+        0.004,
+        0.0035,
+        0.0295,
+        0.071,
+        0.245,
+        0.49,
+        0.15,
+        0.0155,
+        0.009,
+        0.0045
+      ],
+      "outcome_questions": [
+        "Will the highest temperature in Miami be 71\u00b0F or below on March 23?",
+        "Will the highest temperature in Miami be between 72-73\u00b0F on March 23?",
+        "Will the highest temperature in Miami be between 74-75\u00b0F on March 23?",
+        "Will the highest temperature in Miami be between 76-77\u00b0F on March 23?",
+        "Will the highest temperature in Miami be between 78-79\u00b0F on March 23?",
+        "Will the highest temperature in Miami be between 80-81\u00b0F on March 23?",
+        "Will the highest temperature in Miami be between 82-83\u00b0F on March 23?",
+        "Will the highest temperature in Miami be between 84-85\u00b0F on March 23?",
+        "Will the highest temperature in Miami be between 86-87\u00b0F on March 23?",
+        "Will the highest temperature in Miami be between 88-89\u00b0F on March 23?",
+        "Will the highest temperature in Miami be 90\u00b0F or higher on March 23?"
+      ],
+      "outcome_market_prices": [
+        0.004,
+        0.004,
+        0.0035,
+        0.0295,
+        0.071,
+        0.245,
+        0.49,
+        0.15,
+        0.0155,
+        0.009,
+        0.0045
+      ]
+    }
+  ]
+}

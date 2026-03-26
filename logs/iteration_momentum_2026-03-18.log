@@ -1,0 +1,6 @@
+**Done.** Summary:
+
+- **Status:** Currently #1 by MSE (0.00011414 vs naive 0.00011538), with 84.6% per-market directional accuracy.
+- **Change:** `MOMENTUM_WEIGHT` 0.15 → 0.20, version 1.4.0 → 1.5.0.
+- **Rationale:** Strong directional accuracy means our direction calls are reliable. At 0.15, predictions are so conservative they barely move from current price. A 33% increase in momentum weight should better capitalize on the directional edge without taking large risk.
+- **Log:** Written to `agents/momentum/log/methodology_changes/2026-03-18.md`.

@@ -1,0 +1,5 @@
+Done. Here's the summary:
+
+**Change made (v1.5.0 → v1.6.0):** `MAX_NEWS_SHIFT` increased from 0.010 to 0.015.
+
+**Rationale:** Directional accuracy is 94.44% — the historian is calling direction correctly almost every cycle. The remaining gap to the naive baseline (overall MSE 0.00011598 vs 0.00009999) is likely due to the news signal being capped too tightly at 1pp, leaving us under-corrected on cycles where the actual price move exceeds that cap. With directional accuracy this high, a wider cap should reduce — not increase — MSE. The underlying framework from v1.5.0 is untouched since recent cycles were already excellent.

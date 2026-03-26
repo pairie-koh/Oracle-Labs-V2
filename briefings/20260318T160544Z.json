@@ -1,0 +1,290 @@
+{
+  "timestamp": "2026-03-18T16:05:44Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.285,
+      "previous": 0.285,
+      "change_4h": 0.0,
+      "change_24h": -0.02,
+      "history_24h": [
+        {
+          "t": 1773777932,
+          "p": 0.295
+        },
+        {
+          "t": 1773792340,
+          "p": 0.295
+        },
+        {
+          "t": 1773806735,
+          "p": 0.285
+        },
+        {
+          "t": 1773821130,
+          "p": 0.295
+        },
+        {
+          "t": 1773835539,
+          "p": 0.285
+        },
+        {
+          "t": 1773849944,
+          "p": 0.285
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "Supreme Leader Ali Khamenei was killed in a U.S. airstrike on March 16-17, 2026.",
+      "source": "ACLED and regional reporting",
+      "source_category": "osint",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Ali Larijani, secretary of the Supreme National Security Council, was killed in overnight strikes on March 16-17, 2026.",
+      "source": "Iranian state media",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Gholamreza Soleimani, commander of the Basij paramilitary force, was killed in strikes on March 16-17, 2026, confirmed by Iranian state media by late Tuesday, March 17.",
+      "source": "Iranian state media",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israel confirmed strikes on March 15, 2026 that killed two senior IRGC intelligence figures: Abdollah Jalali-Nasab and Amir Shariat in Tehran.",
+      "source": "Israeli military",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israel launched strikes on March 16 targeting a drone facility in South Khorasan Province, Iran.",
+      "source": "Regional reporting",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-16T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US and Israeli strikes on March 10, 2026 targeted IRGC Quds Force headquarters in Tehran and military sites in Bandar Abbas.",
+      "source": "US military/regional reporting",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "On March 15, 2026, explosions and drone strikes targeted military sites including Dezful air base, Isfahan aviation facilities, and Tehran's Tarasht Space Research Institute.",
+      "source": "Regional reporting",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Saudi Arabia, Bahrain, Kuwait, and UAE intercepted Iranian missiles and drones launched during March 15, 2026 strikes.",
+      "source": "Gulf state reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "IRGC and Basij forces expanded checkpoints, patrols, and stop-and-search operations in Tehran as of March 15, 2026 amid drone strikes on their positions.",
+      "source": "Regional reporting",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC Intelligence warned of potential protests on March 12, 2026.",
+      "source": "Regional reporting",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mojtaba Khamenei's inner circle is now dominated by long-standing hardline IRGC commanders following Ali Khamenei's death.",
+      "source": "ACLED analysis",
+      "source_category": "think_tank",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "A coordinated operation involving several hundred members of the People's Mojahedin Organization of Iran (PMOI/MEK) targeted the Supreme Leader's compound in Tehran, with roughly 100 fighters reported killed, wounded, or detained and approximately 150 successfully withdrawing.",
+      "source": "NCRI/regional reporting",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The National Council of Resistance of Iran (NCRI), led by Maryam Rajavi, announced plans for a provisional government and a Ten-Point Plan for democratic transition.",
+      "source": "NCRI",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Opposition support rallies occurred in Rome on March 15 and Paris on March 14, 2026, backing a 'free, democratic, secular, and non-nuclear Iran.'",
+      "source": "Regional reporting",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran launched an unprecedented barrage of missiles and drones at multiple Gulf states, marking the first time Iran attacked all six Gulf Cooperation Council countries simultaneously.",
+      "source": "Regional reporting",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian missile and drone strikes on March 17, 2026 extended beyond military targets to energy infrastructure, civilian airports, and Dubai's luxury districts.",
+      "source": "Regional reporting",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The UAE briefly closed its airspace on March 17, 2026 following new Iranian missile and drone threats.",
+      "source": "UAE government/regional reporting",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US military moved reinforcements, including additional airborne early-warning assets, to the Middle East region.",
+      "source": "US military reporting",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Saudi and Egyptian leaders discussed the regional escalation by phone on or around March 17, 2026.",
+      "source": "Regional reporting",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US strikes on military and security targets in Iran have been ongoing since late February 2026, focused on degrading air defenses, missile sites, and IRGC infrastructure.",
+      "source": "ACLED and regional reporting",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Detention facilities in the Kurdish city of Mariwan were struck on or before March 17, 2026, reportedly resulting in a jailbreak.",
+      "source": "Regional reporting",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The IRGC ordered evacuation of Mariwan on March 3, 2026, suggesting preparations for possible ground confrontation in border regions.",
+      "source": "Regional reporting",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-03T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Government and leadership facilities including the leadership compound, presidential office, Expediency Council, and Assembly of Experts were struck during the campaign.",
+      "source": "Regional reporting",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Political stability ratings for Iran dropped by 10 points, with a 106 basis point increase in sovereign bond spreads as of March 17, 2026.",
+      "source": "Market commentary/financial reporting",
+      "source_category": "market_commentary",
+      "indicator_category": "economic_collapse",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "ACLED analysis indicates the Iranian regime's full capitulation remains unlikely despite the unprecedented military campaign and Khamenei's death.",
+      "source": "ACLED",
+      "source_category": "think_tank",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The surviving Iranian leadership is expected to rebuild nuclear and missile capabilities once hostilities subside, according to analysis.",
+      "source": "ACLED",
+      "source_category": "think_tank",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-17T00:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "Following Supreme Leader Ali Khamenei's confirmed death in US airstrikes on March 16-17, 2026, and Mojtaba Khamenei's succession amid catastrophic military degradation, the Iranian regime faces unprecedented existential crisis with over 85% air defenses destroyed, senior security leadership assassinated, coordinated MEK operations against regime targets, and the opposition announcing provisional government plans. The surviving hardline IRGC-dominated leadership has launched widespread regional strikes on Gulf states including civilian infrastructure, but faces critical internal instability, economic collapse signaled by 106 basis point sovereign bond spread increases, and potential organized opposition mobilization.",
+        "last_major_event": "Supreme Leader Ali Khamenei confirmed killed in US airstrike on March 16-17, 2026, with Mojtaba Khamenei succeeding him; simultaneously, coordinated MEK operation struck the Supreme Leader's compound in Tehran with ~150 fighters successfully withdrawing, while senior security officials Ali Larijani and Gholamreza Soleimani were also killed, and Iran launched unprecedented simultaneous missile and drone barrage targeting all six GCC states including civilian infrastructure.",
+        "last_major_event_time": "2026-03-17T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "critical",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "high",
+        "economic_collapse": "critical",
+        "international_response": "critical"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

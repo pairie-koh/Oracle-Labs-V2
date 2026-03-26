@@ -1,0 +1,7 @@
+Done. Summary:
+
+**Problem:** 0% directional accuracy, MSE 5.9× naive baseline — systematic upward bias.
+
+**Root cause:** The `bias_adjustment` term (`actor.escalation_bias × signal_weight × 0.5`) was added to every directional fact contribution. With most actors having positive escalation_bias, this persistently pushed net_signal up even when facts were de-escalatory.
+
+**Fix (v1.4.0):** Removed `bias_adjustment` entirely. Signal is now purely `credibility × confidence × direction`. The costly-signal bonus already handles actor-vs-direction interactions, so `bias_adjustment` was redundant and harmful.

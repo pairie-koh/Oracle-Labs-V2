@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-19T20:05:46Z
+Briefing: 2026-03-19T20:05:45Z
+
+── Market Snapshot ──
+  regime_fall: 0.275 (4h: +0.000, 24h: -0.010)
+
+── Newswire ──
+  30 facts (22 escalatory, 5 de-escalatory, 3 neutral)
+  Top claims:
+    [succession_dynamics] Ali Khamenei, Iran's previous supreme leader, died on February 28, 2026, and was succee...
+    [military_pressure] Israel claimed it killed Iranian Intelligence Minister Esmail Khatib in an overnight st...
+    [succession_dynamics] Ali Larijani, one of Iran's highest-ranking officials, died on March 17, 2026, with his...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.276   +0.001  intensity=0.9 (decayed), blend=0.11
+  historian          0.276   +0.001  base=0.28 (adaptive), capped_shift=+0.001
+  game_theorist      0.280   +0.005  consensus=0.83, costly_signals=5
+  quant              0.275   +0.000  ewma=0.277, vol=0.033, blend=0.50
+
+  Spread: 0.005 (game_theorist high, quant low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=24, MSE=0.000081, dir_acc=12.5%, P&L=+0.0
+  historian        predictions=24, MSE=0.000104, dir_acc=25.0%, P&L=+0.0
+  game_theorist    predictions=23, MSE=0.000221, dir_acc=13.1%, P&L=+0.0
+  quant            predictions=23, MSE=0.002666, dir_acc=17.4%, P&L=-2.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000079
+  #2 momentum             MSE=0.000081
+  #3 historian            MSE=0.000104
+  #4 game_theorist        MSE=0.000221
+  #5 quant                MSE=0.002666

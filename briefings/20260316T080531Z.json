@@ -1,0 +1,276 @@
+{
+  "timestamp": "2026-03-16T08:05:31Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.285,
+      "previous": 0.285,
+      "change_4h": 0.0,
+      "change_24h": -0.01,
+      "history_24h": [
+        {
+          "t": 1773561935,
+          "p": 0.295
+        },
+        {
+          "t": 1773576333,
+          "p": 0.285
+        },
+        {
+          "t": 1773590735,
+          "p": 0.295
+        },
+        {
+          "t": 1773605131,
+          "p": 0.285
+        },
+        {
+          "t": 1773619542,
+          "p": 0.285
+        },
+        {
+          "t": 1773633932,
+          "p": 0.285
+        },
+        {
+          "t": 1773648331,
+          "p": 0.285
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "USS George H. W. Bush, a third US aircraft carrier, was deployed to the Middle East on March 7, 2026.",
+      "source": "Wire service reports",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-07T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli Air Force strikes on March 11, 2026 hit dozens of Basij and security sites across Tehran districts (1, 14, 15, 16), killing at least 10 personnel.",
+      "source": "Military reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US and Israeli combined forces conducted strikes on Iranian internal security sites, Basij bases, and IRGC facilities in Tehran, Kurdistan Province, Ilam Province, Tabriz, and Esfahan between March 13-14, 2026.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli strikes damaged F-14 aircraft at Esfahan's 8th Tactical Air Base on March 9, 2026.",
+      "source": "Military reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-09T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israeli Defense Force conducted 200+ strikes on Hezbollah and IRGC targets in Beirut since February 28, 2026.",
+      "source": "Military reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "IDF 36th Division and 1st Golani Brigade conducted ground raids and reinforcements in southern Lebanon as of March 11, 2026.",
+      "source": "Military reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Combined forces struck Iranian-backed PMF positions in Iraq's Ninewa, Wasit, Anbar, and Babil provinces on March 11, 2026.",
+      "source": "Military reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC Commander Majid Mousavi stated on March 10, 2026 that Iran is shifting to missiles with 1,000+ kg warheads.",
+      "source": "IRGC official statement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Russia shared drone tactics with Iran as of March 11, 2026 for attacks on US forces.",
+      "source": "Intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran's Foreign Minister Abbas Araghchi denied targeting civilian areas in neighboring states on March 15, 2026.",
+      "source": "Iranian government statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran's Foreign Minister proposed a 'joint investigative committee' with regional governments on March 15, 2026.",
+      "source": "Iranian government statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran issued threats to block the Strait of Hormuz and seek 'compensation' from neighbors on March 15, 2026.",
+      "source": "Iranian government statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Albanian PM planned a terrorism sponsor resolution against Iran as of March 13, 2026.",
+      "source": "Government statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mojtaba Khamenei issued his first message as new leader on March 12, 2026, emphasizing war continuation and Strait closure threats.",
+      "source": "Government statement",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Revolutionary Court chief in Shiraz shifted operations to prison amid pressure as of March 15, 2026.",
+      "source": "Intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC Intelligence warned of enemy plots for protests on March 12, 2026, urging Basij presence.",
+      "source": "IRGC statement",
+      "source_category": "government_official",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Tehran residents reported anti-IRGC night chants including 'death to the IRGC' in Saadat Abad on March 15, 2026 despite expanded patrols.",
+      "source": "Social media and resident reports",
+      "source_category": "social_media",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC ordered constant ground presence against unrest in March 2026, with threats to shoot protesters.",
+      "source": "IRGC statement",
+      "source_category": "government_official",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "UN Fact-Finding Mission on Iran warned on March 15, 2026 of civilians trapped between conflict and repression, potentially crimes against humanity.",
+      "source": "UN statement",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US intelligence assessed the Iranian regime as structurally intact and not near collapse despite tensions.",
+      "source": "US intelligence assessment",
+      "source_category": "government_official",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli statements confirmed strikes on March 15, 2026 killed senior intelligence figure Abdollah Jalali-Nasab.",
+      "source": "Israeli government statement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Combined strikes targeting command structure and western Iran sites continued as of March 15, 2026.",
+      "source": "Military reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran conducted heavy strikes on US bases in Qatar, Kuwait, UAE, and Bahrain earlier in the war before March 13, 2026.",
+      "source": "Military reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Ongoing 2025-2026 protests in Iran involved internet shutdowns and force suppression by the regime.",
+      "source": "Intelligence and news reports",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-15T00:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "Sustained military campaign with third US carrier deployment, coordinated strikes across Iran's territory and regional proxy positions, and senior military/intelligence figure elimination continues alongside new diplomatic overtures and internal security warnings. Mojtaba Khamenei consolidates control with war-continuation messaging while regime structure remains assessed as intact despite widespread strikes and emerging urban unrest.",
+        "last_major_event": "Mojtaba Khamenei issued first message as Supreme Leader on March 12, 2026, emphasizing war continuation and Strait of Hormuz closure threats while new government statements on March 15 propose joint investigative committees alongside territorial threats.",
+        "last_major_event_time": "2026-03-12T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "high",
+        "succession_dynamics": "high",
+        "diplomatic_signals": "critical",
+        "economic_collapse": "critical",
+        "international_response": "critical"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

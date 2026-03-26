@@ -1,0 +1,5 @@
+Done. Here's the summary:
+
+**Change (v1.2.0 → v1.3.0):** Reduced `reversion_forecast` pull coefficient `0.1 → 0.05`.
+
+**Why:** Quant MSE is still ~58× worse than naive baseline. Yesterday's reduction of the momentum pull coefficient (0.5 → 0.15) helped — the most recent per-cycle MSE (0.00230) is the best recent value. The same problem exists in the reversion term: the long-term mean has diverged from current price (the market has been declining), causing the reversion component to pull predictions too far from current price. Halving this coefficient is the natural continuation of the same fix.

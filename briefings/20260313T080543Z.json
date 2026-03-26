@@ -1,0 +1,290 @@
+{
+  "timestamp": "2026-03-13T08:05:43Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.235,
+      "previous": 0.235,
+      "change_4h": 0.0,
+      "change_24h": 0.01,
+      "history_24h": [
+        {
+          "t": 1773317141,
+          "p": 0.215
+        },
+        {
+          "t": 1773331530,
+          "p": 0.215
+        },
+        {
+          "t": 1773345940,
+          "p": 0.225
+        },
+        {
+          "t": 1773360337,
+          "p": 0.225
+        },
+        {
+          "t": 1773374727,
+          "p": 0.235
+        },
+        {
+          "t": 1773389143,
+          "p": 0.235
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "US forces under CENTCOM conducted strikes hitting 5,500 targets in Iran, including ballistic missile and drone facilities, as of March 11, 2026.",
+      "source": "CENTCOM Commander Admiral Brad Cooper",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Israeli Air Force struck IRGC intelligence buildings in northwestern Iran, internal security sites in Tehran districts 14-16, and air force assets on March 11, 2026.",
+      "source": "Critical Threats",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "At least 10 Basij personnel were killed in Israeli strikes on internal security sites in Tehran on March 11, 2026.",
+      "source": "Critical Threats",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US forces destroyed 16 Iranian minelayers near the Strait of Hormuz on March 10, 2026.",
+      "source": "Critical Threats",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran fired over 500 ballistic and naval missiles and 2,000 drones since February 28, 2026, with approximately 40% at Israel and 60% at US targets.",
+      "source": "Critical Threats",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-05T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mojtaba Khamenei has been appointed as Iran's new Supreme Leader following the death of his father, Ayatollah Ali Khamenei.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mojtaba Khamenei was lightly injured but continues to operate, according to an Iranian official statement to Reuters.",
+      "source": "Reuters",
+      "source_category": "wire_service",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US intelligence indicates that Iran's leadership remains largely intact and is not at risk of collapse despite nearly two weeks of bombardment.",
+      "source": "Reuters",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Approximately 2,000 people have been killed over nearly two weeks of bombing in Iran as of March 12, 2026.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The Islamic Revolutionary Guard Corps has tightened its grip on power rather than weakened during the military campaign.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran's police chief threatened to shoot protesters and treat them as enemies during wartime conditions.",
+      "source": "Reuters",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Maryam Rajavi, President-elect of the National Council of Resistance of Iran (NCRI), stated on March 8 that the regime placed the leader's son on the throne.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "A senior NCRI official stated on March 11 that bombing cannot overthrow the regime and that only a popular uprising backed by internal resistance could do so.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Russian President Vladimir Putin spoke with Iranian President Masoud Pezeshkian, emphasizing that Russia supports reducing escalation and returning to a diplomatic track.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Oman's Foreign Minister noted that nuclear negotiations with Iran have reached an advanced stage.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran reported committing not to possess nuclear material capable of producing nuclear weapons and not to stockpile enriched materials.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The UN Security Council adopted Resolution 2817 condemning Iran's attacks against regional neighbors.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran continues to export oil to China through the Strait of Hormuz, with at least 11 million barrels shipped since the war began on February 28, 2026.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "economic_collapse",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The US Justice Department is investigating Iran's use of Binance to evade US sanctions.",
+      "source": "Reuters",
+      "source_category": "wire_service",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The USS Abraham Lincoln and guided-missile destroyers were deployed to the Middle East, announced January 23, 2026.",
+      "source": "Critical Threats",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-01-23T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The USS Gerald R. Ford was deployed to the Middle East on February 13, 2026.",
+      "source": "Critical Threats",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-02-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Israeli IDF conducted 200 strikes on Hezbollah in Beirut since February 28, 2026.",
+      "source": "Critical Threats",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "New leader Mojtaba Khamenei vowed never-ending revenge and a Strait of Hormuz blockade on March 12, 2026.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iranian heavy attacks occurred on March 10-11, 2026, with 13 drones intercepted by Saudi Arabia.",
+      "source": "Critical Threats",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The war between US-Israeli forces and Iran began on February 28, 2026, and continued into its 12th day as of March 12.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-02-28T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Thousands were reportedly killed during nationwide protests in Iran in January 2026.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-01-31T00:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-12T00:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "On day 12 of Operation Epic Fury, US-Israeli forces have conducted sustained air and naval operations with over 5,500 targets struck and multiple carrier strike groups deployed, while Iran has mounted coordinated counterattacks totaling over 500 ballistic and naval missiles and 2,000 drones. The newly appointed Supreme Leader Mojtaba Khamenei has consolidated power with IRGC backing and vowed continued resistance despite approximately 2,000 deaths, while U.S. intelligence assesses the Iranian government as structurally intact with the IRGC tightening its grip on power.",
+        "last_major_event": "Mojtaba Khamenei appointed as new Supreme Leader on March 12, 2026, and vowed never-ending revenge and a Strait of Hormuz blockade, while demonstrating the regime's institutional continuity despite sustained military bombardment.",
+        "last_major_event_time": "2026-03-12T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "high",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "high",
+        "economic_collapse": "moderate",
+        "international_response": "critical"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

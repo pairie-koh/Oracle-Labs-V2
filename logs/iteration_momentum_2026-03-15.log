@@ -1,0 +1,26 @@
+error: unknown option '-C'
+Today's iteration was already completed in an earlier session. Here's the full picture:
+
+---
+
+**Performance Review (v1.1.0)**
+
+- MSE: **0.000132** vs naive baseline **0.000080** — still losing by ~65%
+- Per-market directional accuracy: **97.1%** — direction is excellent
+- Problem: predictions overshoot magnitude because the agent spends nearly all cycles in **reversion mode** (intensity 0.4–0.5, vs threshold of 5), and was nudging predictions toward 0.5, which is the wrong direction for a market sitting near 0.285
+
+**Change Made (v1.1.0 → v1.2.0)**
+
+Reduced `REVERSION_WEIGHT` from **0.4 → 0.15**.
+
+This shrinks the reversion pull by 62.5% in quiet periods. Verified output:
+- Old prediction: 0.285 → **0.288** (+3.5pp above current)  
+- New prediction: 0.285 → **0.286** (+1.1pp above current — much closer to naive)
+
+The momentum signal is untouched so the agent still extrapolates aggressively when high news intensity activates momentum mode.
+
+**Files already in place:**
+- `agents/momentum/forecast.py` — `METHODOLOGY_VERSION = "1.2.0"`, `REVERSION_WEIGHT = 0.15`
+- `agents/momentum/log/methodology_changes/2026-03-15.md` — reasoning documented
+
+No further changes needed today. The one-change-per-iteration rule is satisfied.

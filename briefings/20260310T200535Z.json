@@ -1,0 +1,257 @@
+{
+  "timestamp": "2026-03-10T20:05:35Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.235,
+      "previous": 0.215,
+      "change_4h": 0.02,
+      "change_24h": 0.0,
+      "history_24h": [
+        {
+          "t": 1773087078,
+          "p": 0.255
+        },
+        {
+          "t": 1773087111,
+          "p": 0.255
+        },
+        {
+          "t": 1773090064,
+          "p": 0.255
+        },
+        {
+          "t": 1773099149,
+          "p": 0.255
+        },
+        {
+          "t": 1773100819,
+          "p": 0.255
+        },
+        {
+          "t": 1773100952,
+          "p": 0.255
+        },
+        {
+          "t": 1773101007,
+          "p": 0.255
+        },
+        {
+          "t": 1773159537,
+          "p": 0.215
+        },
+        {
+          "t": 1773173135,
+          "p": 0.235
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "Israeli Air Force completed airstrikes on March 9-10 targeting six major Iranian airbases, destroying IRGC Quds Force aircraft, attack helicopters, runways, and air defense systems.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T02:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli airstrikes hit military targets in Tehran, East Isfahan, and Shiraz, including a Quds Force headquarters in Tehran, with dozens of jets dropping over 170 bombs.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T02:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "IDF destroyed three missile launchers, an IRGC Drone Command Headquarters, and F-14 jets at Esfahan airbase on March 7.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-07T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran's missile and drone capabilities remain severely degraded, with 10 of 17 Artesh Air Force tactical airbases and three ground aviation bases hit since February 28.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran launched nine missile barrages at Israel between March 8 3:00 PM ET and March 9 3:00 PM ET.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-09T20:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran launched 15 ballistic missiles and 18 drones at UAE on March 9.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-09T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "IRGC Ground Forces at Hamzeh Seyyed ol Shohada Base dismantled an armed anti-regime group in Kurdistan Province on March 9, killing one and arresting six.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-09T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Combined force struck a Shahid Soleimani-class corvette off Bandar Lengeh, Hormozgan Province, on March 9.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-09T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "IDF struck over 120 Hezbollah targets in Lebanon on March 8-9, killing Nasr Unit Commander Abu Hussein Ragheb.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-09T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Senior clerics appointed Mojtaba Khamenei as supreme leader on March 8 following Ali Khamenei's death.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "IRGC leaders including Mohammad Bagher Ghalibaf, Ali Larijani, and President Masoud Pezeshkian pledged allegiance to Mojtaba Khamenei on March 8.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "An Interim Leadership Council consisting of Pezeshkian, Chief Justice Gholam-Hossein Mohseni-Eje'i, and Ayatollah Alireza Arafi was established on March 1 per Iran's constitution.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-01T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Hardliners criticized President Pezeshkian's March 7 remarks apologizing to neighbors for Iranian attacks and ordering armed forces to avoid unprovoked strikes.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-07T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC continued attacks on March 7 despite Pezeshkian's orders to avoid unprovoked strikes, indicating leadership rifts.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-07T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Hardline IRGC elements dominate decision-making post-Khamenei killing with low evidence of internal fractures or defections.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israeli strikes as of March 6-7 hit IRGC headquarters, missile sites at Parchin, Shahroud, and Khojir, and leadership facilities including the Assembly of Experts and presidential office.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-07T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli strikes on internal security bases enabled a jailbreak in Mariwan, with IRGC ordering city evacuations.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-07T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Trump stated on March 5 that he deemed Mojtaba Khamenei 'unacceptable' as successor and later called him a 'lightweight' who 'would not last long' without US approval.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-05T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israel echoed Trump's threats regarding the unacceptability of Mojtaba Khamenei as successor.",
+      "source": "News reports",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-05T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Combined force strikes have degraded Iran's internal security in Tehran and western Iran since February 28, striking dozens of institutions.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Approximately 1,900 Iranian commanders and soldiers have been killed since the start of the 2026 war.",
+      "source": "Military intelligence reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-09T00:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-10T02:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "Intensive US-Israeli military campaign continues with major airstrikes on March 9-10 targeting six Iranian airbases, IRGC facilities, and missile infrastructure, while Iran maintains degraded but continued military responses. New Supreme Leader Mojtaba Khamenei consolidates control amid severe military pressure, internal security gaps, and explicit US-Israeli rejection of his legitimacy.",
+        "last_major_event": "Israeli Air Force completed coordinated airstrikes on March 9-10 targeting six major Iranian airbases across Tehran, East Isfahan, and Shiraz, destroying IRGC Quds Force aircraft, attack helicopters, and over 170 bombs dropped on military infrastructure.",
+        "last_major_event_time": "2026-03-10T02:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "high",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "critical",
+        "economic_collapse": "high",
+        "international_response": "high"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

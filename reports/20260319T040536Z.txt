@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-19T04:05:36Z
+Briefing: 2026-03-19T04:05:35Z
+
+── Market Snapshot ──
+  regime_fall: 0.275 (4h: -0.010, 24h: -0.010)
+
+── Newswire ──
+  28 facts (21 escalatory, 3 de-escalatory, 4 neutral)
+  Top claims:
+    [military_pressure] Israeli strikes on March 18 hit Tehran-area headquarters, ballistic missile sites, regi...
+    [military_pressure] On March 17, Israeli strikes killed Basij Commander Brigadier General Gholamreza Soleim...
+    [military_pressure] Approximately 300 Basij commanders were reportedly killed overnight March 16-17 in Isra...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.276   +0.001  intensity=1.6 (decayed), blend=0.16
+  historian          0.281   +0.006  base=0.27 (adaptive), capped_shift=+0.006
+  game_theorist      0.283   +0.008  consensus=0.88, costly_signals=0
+  quant              0.275   +0.000  ewma=0.283, vol=0.042, blend=0.45
+
+  Spread: 0.008 (game_theorist high, quant low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=19, MSE=0.000096, dir_acc=15.8%, P&L=+0.0
+  historian        predictions=19, MSE=0.000110, dir_acc=31.6%, P&L=+0.0
+  game_theorist    predictions=18, MSE=0.000258, dir_acc=16.7%, P&L=+0.0
+  quant            predictions=18, MSE=0.003401, dir_acc=22.2%, P&L=-2.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000095
+  #2 momentum             MSE=0.000096
+  #3 historian            MSE=0.000110
+  #4 game_theorist        MSE=0.000258
+  #5 quant                MSE=0.003401

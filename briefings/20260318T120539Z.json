@@ -1,0 +1,236 @@
+{
+  "timestamp": "2026-03-18T12:05:39Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.285,
+      "previous": 0.295,
+      "change_4h": -0.01,
+      "change_24h": -0.01,
+      "history_24h": [
+        {
+          "t": 1773763535,
+          "p": 0.305
+        },
+        {
+          "t": 1773777932,
+          "p": 0.295
+        },
+        {
+          "t": 1773792340,
+          "p": 0.295
+        },
+        {
+          "t": 1773806735,
+          "p": 0.285
+        },
+        {
+          "t": 1773821130,
+          "p": 0.295
+        },
+        {
+          "t": 1773835539,
+          "p": 0.285
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "Israel conducted extensive strikes across Iran on March 15-16, 2026, targeting over 200 locations including nuclear program infrastructure and IRGC/Basij headquarters.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-16T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli strikes destroyed more than 85% of Iran's air defense systems and radars on March 15-16, 2026.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-16T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israeli strikes targeted over 100 Iranian production and armament facilities and more than 500 command and control targets on March 15-16, 2026.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-16T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The Supreme Leader's aircraft was destroyed at Mehrabad Airport in Tehran during Israeli strikes on March 15-16, 2026.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-16T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israel assassinated Ali Larijani, Iran's security chief, and Gholamreza Soleimani, commander of the Basij paramilitary force, on March 17, 2026.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran's missile launch capacity declined significantly by March 17, 2026, compared to earlier peaks in the campaign.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "A US refueling aircraft crashed in western Iraq on March 13, 2026, killing six crew members after being struck by Iranian missiles.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "An IRGC commander stated on March 10, 2026 that Iran was shifting to firing only missiles with 1,000 kg or larger payloads, moving from saturation tactics to high-impact penetration strikes.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Ordinary Iranian citizens provided targeting intelligence to Israeli and US forces by filming Basij positions and posting on social media in real time.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Over 5,000 total targets have been struck across Iran since the start of the campaign as of March 17, 2026.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israeli and US strikes targeted detention facilities in Kurdish areas including Mariwan, resulting in a reported jailbreak.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "The IRGC ordered evacuation of Mariwan on March 3, 2026, potentially indicating preparations for ground confrontation in the border region.",
+      "source": "Military intelligence report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-03T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Supreme Leader Ali Khamenei was killed in a U.S. airstrike according to reported developments.",
+      "source": "Political analysis report",
+      "source_category": "osint",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Following the Supreme Leader's death, Mojtaba Khamenei's reported inner circle is dominated by long-standing hardline IRGC commanders.",
+      "source": "Political analysis report",
+      "source_category": "osint",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Abu Zar Hejazi and other Basij commanders were killed or targeted on March 17, 2026.",
+      "source": "Political analysis report",
+      "source_category": "osint",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israeli and US strikes targeted Basij bases and checkpoints across Tehran including Kamraniyeh, Enghelab, Azadi, and Fatemi districts.",
+      "source": "Political analysis report",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The People's Mojahedin Organization of Iran (PMOI/MEK) conducted a coordinated operation targeting the Supreme Leader's compound in Tehran.",
+      "source": "Political analysis report",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Approximately 100 MEK fighters were killed, wounded, or detained, while roughly 150 successfully withdrew from the operation against the Supreme Leader's compound.",
+      "source": "Political analysis report",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Iran's government structure reportedly remains stable in 2026 despite the loss of the Supreme Leader.",
+      "source": "Political analysis report",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "A successful popular uprising in Iran remains improbable as the public is unarmed and unorganized despite regime military losses.",
+      "source": "Political analysis report",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "low"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-17T00:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "Following Ali Khamenei's death and Mojtaba Khamenei's succession, the Iranian regime faces catastrophic military degradation with over 5,000 targets struck, 85%+ air defenses destroyed, key security leadership assassinated, and unprecedented internal instability including citizen intelligence sharing and MEK operational activity against regime targets.",
+        "last_major_event": "Israel conducted extensive strikes on March 15-16, 2026, targeting over 200 locations including nuclear infrastructure, IRGC/Basij headquarters, 100+ production facilities, and 500+ command and control targets, while Israeli and US forces assassinated senior security officials Ali Larijani and Gholamreza Soleimani on March 17.",
+        "last_major_event_time": "2026-03-17T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "critical",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "critical",
+        "economic_collapse": "critical",
+        "international_response": "high"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

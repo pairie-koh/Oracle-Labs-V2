@@ -1,0 +1,11 @@
+Done. Here's the summary:
+
+**Change made (v1.4.0 → v1.5.0):** `ESCALATION_SENSITIVITY` reduced from `0.001` to `0.0007`.
+
+**Rationale:**
+- Last change (removing `bias_adjustment`) worked — recent MSE trend shows improvement: `[0.00063, 0.00032, 0.00061, 0.00023, 0.00019]`
+- Per-market directional accuracy is 0.8333 — direction logic is correct, magnitude is the problem
+- A 30% sensitivity reduction shrinks all shifts proportionally, keeping predictions closer to current price
+- This is consistent with the prior successful intervention (0.015 → 0.001 in v1.2.0)
+
+**No revert needed** — v1.4.0's removal of bias_adjustment clearly helped (most recent cycle MSE: 0.00018646, getting close to naive baseline of 0.000125).

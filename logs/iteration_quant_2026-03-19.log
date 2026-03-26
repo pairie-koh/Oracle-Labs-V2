@@ -1,0 +1,5 @@
+Runs cleanly. Summary:
+
+**Change (v1.5.0 → v1.6.0):** Reduced `reversion_forecast` coefficient from `0.05` to `0.03`.
+
+**Rationale:** The last two prediction cycles achieved near-zero squared error (1e-08 and 0.0), confirming the strategy of hugging current price works well in this stable low-vol regime. The reversion pull toward the 24-period mean is the remaining source of unnecessary drift from current price. Reducing it from 0.05 to 0.03 should help maintain the recent near-zero MSE performance. The forecast output confirms predictions remain tightly anchored to current (0.2850 → 0.2851 for regime_fall).

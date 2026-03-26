@@ -1,0 +1,134 @@
+=== Forecast cycle start: 2026-03-12T04:05:01Z ===
+[1/7] Running newswire...
+=== Newswire Pipeline ===
+[1/3] Gathering raw news from Perplexity...
+  [1/2] regime_fall / military_security...
+    Got 3087 chars
+  [2/2] regime_fall / political_diplomatic_economic...
+    Got 2200 chars
+
+[2/3] Normalizing 2 raw reports with Haiku...
+  Calling Haiku for normalization...
+  Normalized: 21 valid facts (dropped 0)
+
+[3/3] Saving facts...
+  Saved 21 facts to fact_history/facts.csv and fact_history/latest.json
+
+=== Newswire complete: 21 facts ===
+[2/7] Updating state...
+=== State Update ===
+  Loaded state for markets: ['regime_fall']
+  Processing 21 facts...
+  Calling Haiku for state update...
+  Saved state to state/current.json
+  State updated via Haiku
+
+  regime_fall:
+    Status: U.S. Central Command has conducted over 5,500 strikes across Iran under Operation Epic Fury, destroying over 60 ships, ballistic missile facilities, and air defenses, while internal stability remains fragile with protests suppressed through repression, prison breaks, and expanded securitization amid succession uncertainty.
+    military_pressure: critical
+    internal_stability: critical
+    succession_dynamics: critical
+    diplomatic_signals: critical
+    economic_collapse: critical
+    international_response: critical
+[3/7] Preparing briefing...
+=== Assembling briefing ===
+Fetching current prices...
+  regime_fall: 0.2250
+Wrote briefing to briefings/20260312T040535Z.json
+Wrote briefings/latest.json
+
+Briefing summary:
+  Timestamp: 2026-03-12T04:05:35Z
+  regime_fall: 0.2250 (4h: -0.0100, 24h: -0.0100)
+  Fresh facts: 21
+  State keys: ['last_updated', 'markets']
+[4/7] Running agent forecasts...
+[momentum v1.1.0] 2026-03-12T04:05:35Z
+  regime_fall: 0.2250 → 0.2290 (reversion, intensity=1.5, blend=0.15, momentum_sig=-0.0075)
+  momentum: OK
+[historian v1.1.0] 2026-03-12T04:05:35Z
+  regime_fall: 0.2250 → 0.2410 (base=0.325, reversion=+0.003000, raw_signal=1.77, capped_shift=+0.013001)
+  historian: OK
+[game_theorist v1.1.0] 2026-03-12T04:05:35Z
+  regime_fall: 0.2250 → 0.4259 (signal=8.927, consensus=0.80, costly=6, esc=16/deesc=4)
+  game_theorist: OK
+[quant v1.1.0] 2026-03-12T04:05:35Z
+  regime_fall: 0.2250 → 0.2767 (ewma=0.2289, vol=0.0550, med_vol=0.0305, blend=0.34, n=352)
+  quant: OK
+[5/7] Evaluating...
+=== Evaluation ===
+  Loaded 352 price history rows
+  momentum: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.000227, Directional=0/1
+  historian: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.001252, Directional=0/1
+  game_theorist: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.079348, Directional=0/1
+  quant: scoring 2 predictions...
+    Scored 2 predictions: MSE=0.004624, Directional=1/2
+
+  Leaderboard updated (5 entries)
+    #1 naive_baseline: MSE=0.000079
+    #2 momentum: MSE=0.000215
+    #3 historian: MSE=0.000224
+    #4 quant: MSE=0.003261
+    #5 game_theorist: MSE=0.037325
+[6/7] Generating report...
+[report] Saved to reports/20260312T040535Z.txt
+[report] Saved to reports/latest.txt
+
+=== Oracle Lab Cycle Report ===
+2026-03-12T04:05:35Z
+Briefing: 2026-03-12T04:05:35Z
+
+── Market Snapshot ──
+  regime_fall: 0.225 (4h: -0.010, 24h: -0.010)
+
+── Newswire ──
+  21 facts (16 escalatory, 3 de-escalatory, 2 neutral)
+  Top claims:
+    [military_pressure] U.S. Central Command conducted over 5,500 strikes inside Iran as part of Operation Epic...
+    [military_pressure] U.S. strikes destroyed Jamaran and Bayandar-class ships at Chabahar port and near the S...
+    [military_pressure] Over 60 Iranian ships have been targeted by U.S. strikes during Operation Epic Fury.
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.229   +0.004  intensity=1.5 (decayed), blend=0.15
+  historian          0.241   +0.016  base=0.33 (adaptive), capped_shift=+0.013
+  game_theorist      0.426   +0.201  consensus=0.80, costly_signals=6
+  quant              0.277   +0.052  ewma=0.229, vol=0.055, blend=0.34
+
+  Spread: 0.197 (game_theorist high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=14, MSE=0.000215, dir_acc=14.3%, P&L=-2.0
+  historian        predictions=13, MSE=0.000224, dir_acc=23.1%, P&L=+1.0
+  game_theorist    predictions=13, MSE=0.037325, dir_acc=15.4%, P&L=+1.0
+  quant            predictions=13, MSE=0.003261, dir_acc=15.4%, P&L=+1.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000079
+  #2 momentum             MSE=0.000215
+  #3 historian            MSE=0.000224
+  #4 quant                MSE=0.003261
+  #5 game_theorist        MSE=0.037325
+
+[7/7] Updating status page...
+[status] Generated status/index.html at 2026-03-11 09:05 PM PT
+Saved to /home/oracle/oracle-lab/scripts/../progress.png (13 predictions/agent, rolling window=3)
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'oracle@claude-dev-1.(none)')
+=== Forecast cycle complete: 2026-03-12T04:05:37Z ===

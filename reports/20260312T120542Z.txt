@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-12T12:05:42Z
+Briefing: 2026-03-12T12:05:41Z
+
+── Market Snapshot ──
+  regime_fall: 0.215 (4h: -0.010, 24h: -0.010)
+
+── Newswire ──
+  22 facts (17 escalatory, 3 de-escalatory, 2 neutral)
+  Top claims:
+    [military_pressure] US Central Command reported destroying 16 Iranian minelayers near the Strait of Hormuz ...
+    [military_pressure] F-22 jets were deployed to Israel's Ovda Airbase on February 24, 2026, as part of US mi...
+    [military_pressure] The USS Gerald R. Ford carrier strike group was positioned off southern Israel by Febru...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.220   +0.005  intensity=0.1 (decayed), blend=0.08
+  historian          0.219   +0.004  base=0.33 (adaptive), capped_shift=+0.001
+  game_theorist      0.511   +0.296  consensus=0.86, costly_signals=4
+  quant              0.278   +0.063  ewma=0.224, vol=0.055, blend=0.34
+
+  Spread: 0.292 (game_theorist high, historian low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=15, MSE=0.000202, dir_acc=13.3%, P&L=-2.0
+  historian        predictions=14, MSE=0.000226, dir_acc=21.4%, P&L=+1.0
+  game_theorist    predictions=14, MSE=0.037541, dir_acc=14.3%, P&L=+1.0
+  quant            predictions=14, MSE=0.003219, dir_acc=14.3%, P&L=+1.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000073
+  #2 momentum             MSE=0.000202
+  #3 historian            MSE=0.000226
+  #4 quant                MSE=0.003219
+  #5 game_theorist        MSE=0.037541

@@ -1,0 +1,362 @@
+{
+  "timestamp": "2026-03-09T23:32:29Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.255,
+      "previous": 0.235,
+      "change_4h": 0.02,
+      "change_24h": -0.07,
+      "history_24h": [
+        {
+          "t": 1773014416,
+          "p": 0.325
+        },
+        {
+          "t": 1773021617,
+          "p": 0.315
+        },
+        {
+          "t": 1773028818,
+          "p": 0.315
+        },
+        {
+          "t": 1773036015,
+          "p": 0.315
+        },
+        {
+          "t": 1773043216,
+          "p": 0.315
+        },
+        {
+          "t": 1773050416,
+          "p": 0.315
+        },
+        {
+          "t": 1773057614,
+          "p": 0.315
+        },
+        {
+          "t": 1773064814,
+          "p": 0.305
+        },
+        {
+          "t": 1773072015,
+          "p": 0.29
+        },
+        {
+          "t": 1773079217,
+          "p": 0.275
+        },
+        {
+          "t": 1773086417,
+          "p": 0.235
+        },
+        {
+          "t": 1773087078,
+          "p": 0.255
+        },
+        {
+          "t": 1773087111,
+          "p": 0.255
+        },
+        {
+          "t": 1773090064,
+          "p": 0.255
+        },
+        {
+          "t": 1773099149,
+          "p": 0.255
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "Joint US-Israeli airstrikes have hit hundreds of targets across 26 Iranian provinces, including Tehran, IRGC bases, and leadership facilities such as Khamenei's compound.",
+      "source": "Multiple military intelligence sources",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-02-28T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The initial US-Israeli air campaign involved a 900-strike wave that killed Supreme Leader Khamenei and senior Iranian figures.",
+      "source": "Military operations reporting",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-02-28T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran's airspace control has been lost from western Iran to central Tehran due to US-Israeli strikes degrading over 200 air defense systems.",
+      "source": "Military intelligence sources",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Six US troops were killed over the weekend when Iranian retaliatory strikes hit a fortified operations center.",
+      "source": "US military sources",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The USS Gerald R. Ford carrier strike group and four destroyers (USS Bainbridge, USS Mahan, USS McFaul, USS Mitscher) have been deployed to the Middle East.",
+      "source": "US military deployment reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The USS Nimitz carrier departed Bremerton with video confirmation on March 8, 2026.",
+      "source": "US military sources",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Virginia National Guard units including the 229th Military Police Company (150 members) deployed to Camp Arifjan, Kuwait.",
+      "source": "US military deployment records",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US Central Command issued a safety warning to Iranian civilians linked to ongoing Operation Epic Fury.",
+      "source": "US Central Command",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian drone strikes were reported on US positions in Kuwait and Erbil on March 5, 2026.",
+      "source": "Military operations reporting",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-05T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Three US F-15s were mistakenly downed by Kuwaiti defenses with pilots safely recovered.",
+      "source": "US military sources",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC-ordered evacuations occurred in border areas on March 3, 2026.",
+      "source": "Military intelligence sources",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-03T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Jailbreaks occurred at facilities such as Mariwan detention facility during US-Israeli strikes.",
+      "source": "Military intelligence sources",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The Islamic Resistance in Iraq claimed 67 drone and missile attacks since late January 2026.",
+      "source": "Islamic Resistance in Iraq statements",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Limited US-Israeli strikes on Iran-backed PMF sites in Iraq killed over 10 fighters between January 28 and March 3, 2026.",
+      "source": "Military intelligence sources",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-03T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iranian Foreign Minister Abbas Araghchi called progress in indirect US-Iran talks mediated by Oman as of February 26, 2026, 'historic' with a deal 'within reach.'",
+      "source": "Iranian Foreign Ministry statements",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-02-26T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US officials including VP J.D. Vance and Secretary Marco Rubio expressed disappointment and skepticism about US-Iran nuclear negotiations as of late February 2026.",
+      "source": "US government officials",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-02-26T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "President Trump set a one-month deadline for a nuclear deal starting from February 12, 2026, with warnings of 'very traumatic' consequences if unmet.",
+      "source": "Trump administration statements",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-02-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Supreme Leader Khamenei rejected US nuclear and missile negotiation terms on February 17, 2026.",
+      "source": "Iranian leadership statements",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-02-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian Foreign Minister Araghchi stated Iran's stance against missile negotiations in February 2026.",
+      "source": "Iranian Foreign Ministry statements",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-02-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The US designated Iran as a state sponsor of wrongful detention on February 27, 2026.",
+      "source": "US State Department",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-02-27T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli intelligence estimated Iran had approximately 120 remaining missile launchers as of March 7, 2026.",
+      "source": "Israeli military intelligence",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-07T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran evacuated non-essential diplomats from Lebanon on March 6, 2026, amid Israeli strikes near its embassy.",
+      "source": "Diplomatic sources",
+      "source_category": "osint",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-06T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Lebanon banned IRGC activity and announced deportation of members on March 5, 2026.",
+      "source": "Lebanese government statements",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-05T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The US campaign against Iran, Operation Epic Fury, continues with sustained airstrikes predicted to last four to five weeks.",
+      "source": "US military sources",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Heavy US military assets including F-16s, F-15E Strike Eagles, B-52H Stratofortress bombers, and Tomahawk missiles from destroyers have been mobilized in the operation.",
+      "source": "US military deployment reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "F-15 fighters from Langley Air Force Base were deployed to the Middle East.",
+      "source": "US military deployment records",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US-Israeli strikes targeted ballistic missile production sites and defense industries in Iran during campaign phases following initial air defense degradation.",
+      "source": "Military intelligence sources",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran's retaliatory barrages hit Gulf Cooperation Council states and US-allied bases including Harir, Erbil, and Camp Buehring in Kuwait.",
+      "source": "Military intelligence sources",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "President Trump commented on March 5 about supporting Kurdish offensives, though this was denied by Iraqi Kurds.",
+      "source": "Trump administration statements",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-05T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "President Trump stated he was influencing Iran's selection of the next Supreme Leader as of March 5, 2026.",
+      "source": "Trump administration statements",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-05T00:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-08T00:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "Active US-Israeli military campaign (Operation Epic Fury) with hundreds of strikes across Iran has degraded air defenses and killed senior leadership including Supreme Leader Khamenei. Diplomatic channels show severe tension with failed nuclear negotiations and continued military escalation.",
+        "last_major_event": "Joint US-Israeli airstrikes killed Supreme Leader Khamenei and senior Iranian figures in a 900-strike wave, with subsequent degradation of over 200 air defense systems across western and central Iran.",
+        "last_major_event_time": "2026-02-28T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "moderate",
+        "succession_dynamics": "high",
+        "diplomatic_signals": "critical",
+        "economic_collapse": "none",
+        "international_response": "moderate"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

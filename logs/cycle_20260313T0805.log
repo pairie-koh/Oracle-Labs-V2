@@ -1,0 +1,134 @@
+=== Forecast cycle start: 2026-03-13T08:05:01Z ===
+[1/7] Running newswire...
+=== Newswire Pipeline ===
+[1/3] Gathering raw news from Perplexity...
+  [1/2] regime_fall / military_security...
+    Got 3375 chars
+  [2/2] regime_fall / political_diplomatic_economic...
+    Got 3857 chars
+
+[2/3] Normalizing 2 raw reports with Haiku...
+  Calling Haiku for normalization...
+  Normalized: 26 valid facts (dropped 0)
+
+[3/3] Saving facts...
+  Saved 26 facts to fact_history/facts.csv and fact_history/latest.json
+
+=== Newswire complete: 26 facts ===
+[2/7] Updating state...
+=== State Update ===
+  Loaded state for markets: ['regime_fall']
+  Processing 26 facts...
+  Calling Haiku for state update...
+  Saved state to state/current.json
+  State updated via Haiku
+
+  regime_fall:
+    Status: On day 12 of Operation Epic Fury, US-Israeli forces have conducted sustained air and naval operations with over 5,500 targets struck and multiple carrier strike groups deployed, while Iran has mounted coordinated counterattacks totaling over 500 ballistic and naval missiles and 2,000 drones. The newly appointed Supreme Leader Mojtaba Khamenei has consolidated power with IRGC backing and vowed continued resistance despite approximately 2,000 deaths, while U.S. intelligence assesses the Iranian government as structurally intact with the IRGC tightening its grip on power.
+    military_pressure: critical
+    internal_stability: high
+    succession_dynamics: critical
+    diplomatic_signals: high
+    economic_collapse: moderate
+    international_response: critical
+[3/7] Preparing briefing...
+=== Assembling briefing ===
+Fetching current prices...
+  regime_fall: 0.2350
+Wrote briefing to briefings/20260313T080543Z.json
+Wrote briefings/latest.json
+
+Briefing summary:
+  Timestamp: 2026-03-13T08:05:43Z
+  regime_fall: 0.2350 (4h: +0.0000, 24h: +0.0100)
+  Fresh facts: 26
+  State keys: ['last_updated', 'markets']
+[4/7] Running agent forecasts...
+[momentum v1.1.0] 2026-03-13T08:05:43Z
+  regime_fall: 0.2350 → 0.2394 (reversion, intensity=1.9, blend=0.18, momentum_sig=0.0005)
+  momentum: OK
+[historian v1.1.0] 2026-03-13T08:05:43Z
+  regime_fall: 0.2350 → 0.2392 (base=0.315, reversion=+0.002400, raw_signal=0.23, capped_shift=+0.001754)
+  historian: OK
+[game_theorist v1.1.0] 2026-03-13T08:05:43Z
+  regime_fall: 0.2350 → 0.3261 (signal=6.075, consensus=0.77, costly=0, esc=17/deesc=5)
+  game_theorist: OK
+[quant v1.1.0] 2026-03-13T08:05:43Z
+  regime_fall: 0.2350 → 0.2771 (ewma=0.2290, vol=0.0476, med_vol=0.0307, blend=0.39, n=359)
+  quant: OK
+[5/7] Evaluating...
+=== Evaluation ===
+  Loaded 359 price history rows
+  momentum: scoring 2 predictions...
+    Scored 2 predictions: MSE=0.000028, Directional=1/2
+  historian: scoring 2 predictions...
+    Scored 2 predictions: MSE=0.000215, Directional=0/2
+  game_theorist: scoring 2 predictions...
+    Scored 2 predictions: MSE=0.002072, Directional=1/2
+  quant: scoring 2 predictions...
+    Scored 2 predictions: MSE=0.000101, Directional=1/2
+
+  Leaderboard updated (5 entries)
+    #1 naive_baseline: MSE=0.000067
+    #2 momentum: MSE=0.000161
+    #3 historian: MSE=0.000216
+    #4 quant: MSE=0.002865
+    #5 game_theorist: MSE=0.036464
+[6/7] Generating report...
+[report] Saved to reports/20260313T080543Z.txt
+[report] Saved to reports/latest.txt
+
+=== Oracle Lab Cycle Report ===
+2026-03-13T08:05:43Z
+Briefing: 2026-03-13T08:05:43Z
+
+── Market Snapshot ──
+  regime_fall: 0.235 (4h: +0.000, 24h: +0.010)
+
+── Newswire ──
+  26 facts (17 escalatory, 5 de-escalatory, 4 neutral)
+  Top claims:
+    [military_pressure] US forces under CENTCOM conducted strikes hitting 5,500 targets in Iran, including ball...
+    [military_pressure] The Israeli Air Force struck IRGC intelligence buildings in northwestern Iran, internal...
+    [military_pressure] At least 10 Basij personnel were killed in Israeli strikes on internal security sites i...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.239   +0.004  intensity=1.9 (decayed), blend=0.18
+  historian          0.239   +0.004  base=0.32 (adaptive), capped_shift=+0.002
+  game_theorist      0.326   +0.091  consensus=0.77, costly_signals=0
+  quant              0.277   +0.042  ewma=0.229, vol=0.048, blend=0.39
+
+  Spread: 0.087 (game_theorist high, historian low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=21, MSE=0.000161, dir_acc=19.1%, P&L=-2.0
+  historian        predictions=20, MSE=0.000216, dir_acc=20.0%, P&L=+1.0
+  game_theorist    predictions=20, MSE=0.036464, dir_acc=20.0%, P&L=+2.0
+  quant            predictions=20, MSE=0.002865, dir_acc=20.0%, P&L=+1.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000067
+  #2 momentum             MSE=0.000161
+  #3 historian            MSE=0.000216
+  #4 quant                MSE=0.002865
+  #5 game_theorist        MSE=0.036464
+
+[7/7] Updating status page...
+[status] Generated status/index.html at 2026-03-13 01:05 AM PT
+Saved to /home/oracle/oracle-lab/scripts/../progress.png (20 predictions/agent, rolling window=4)
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'oracle@claude-dev-1.(none)')
+=== Forecast cycle complete: 2026-03-13T08:05:45Z ===

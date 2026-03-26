@@ -1,0 +1,134 @@
+=== Forecast cycle start: 2026-03-12T16:05:01Z ===
+[1/7] Running newswire...
+=== Newswire Pipeline ===
+[1/3] Gathering raw news from Perplexity...
+  [1/2] regime_fall / military_security...
+    Got 2157 chars
+  [2/2] regime_fall / political_diplomatic_economic...
+    Got 3148 chars
+
+[2/3] Normalizing 2 raw reports with Haiku...
+  Calling Haiku for normalization...
+  Normalized: 16 valid facts (dropped 0)
+
+[3/3] Saving facts...
+  Saved 16 facts to fact_history/facts.csv and fact_history/latest.json
+
+=== Newswire complete: 16 facts ===
+[2/7] Updating state...
+=== State Update ===
+  Loaded state for markets: ['regime_fall']
+  Processing 16 facts...
+  Calling Haiku for state update...
+  Saved state to state/current.json
+  State updated via Haiku
+
+  regime_fall:
+    Status: On day 12 of the US-Israeli campaign, Iran faces cascading military and internal crises: drone strikes now target security checkpoints in Tehran killing security forces and Basij militia, while Mojtaba Khamenei consolidates control through a succession that violates founding Islamic Republic principles, competing with de facto leader Mohammad Larijani amidst reports of IRGC-army tensions, reserve mobilization failures, and critical supply shortages in frontline units.
+    military_pressure: critical
+    internal_stability: critical
+    succession_dynamics: critical
+    diplomatic_signals: high
+    economic_collapse: critical
+    international_response: high
+[3/7] Preparing briefing...
+=== Assembling briefing ===
+Fetching current prices...
+  regime_fall: 0.2150
+Wrote briefing to briefings/20260312T160530Z.json
+Wrote briefings/latest.json
+
+Briefing summary:
+  Timestamp: 2026-03-12T16:05:30Z
+  regime_fall: 0.2150 (4h: +0.0000, 24h: -0.0100)
+  Fresh facts: 16
+  State keys: ['last_updated', 'markets']
+[4/7] Running agent forecasts...
+[momentum v1.1.0] 2026-03-12T16:05:30Z
+  regime_fall: 0.2150 → 0.2201 (reversion, intensity=0.4, blend=0.09, momentum_sig=-0.0005)
+  momentum: OK
+[historian v1.1.0] 2026-03-12T16:05:31Z
+  regime_fall: 0.2150 → 0.2196 (base=0.325, reversion=+0.003300, raw_signal=0.17, capped_shift=+0.001297)
+  historian: OK
+[game_theorist v1.1.0] 2026-03-12T16:05:31Z
+  regime_fall: 0.2150 → 0.2513 (signal=2.420, consensus=0.77, costly=0, esc=10/deesc=3)
+  game_theorist: OK
+[quant v1.1.0] 2026-03-12T16:05:31Z
+  regime_fall: 0.2150 → 0.2372 (ewma=0.2215, vol=0.0553, med_vol=0.0306, blend=0.34, n=355)
+  quant: OK
+[5/7] Evaluating...
+=== Evaluation ===
+  Loaded 355 price history rows
+  momentum: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.000223, Directional=0/1
+  historian: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.000561, Directional=0/1
+  game_theorist: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.051228, Directional=0/1
+  quant: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.005264, Directional=0/1
+
+  Leaderboard updated (5 entries)
+    #1 naive_baseline: MSE=0.000075
+    #2 momentum: MSE=0.000203
+    #3 historian: MSE=0.000249
+    #4 quant: MSE=0.003355
+    #5 game_theorist: MSE=0.038453
+[6/7] Generating report...
+[report] Saved to reports/20260312T160531Z.txt
+[report] Saved to reports/latest.txt
+
+=== Oracle Lab Cycle Report ===
+2026-03-12T16:05:31Z
+Briefing: 2026-03-12T16:05:30Z
+
+── Market Snapshot ──
+  regime_fall: 0.215 (4h: +0.000, 24h: -0.010)
+
+── Newswire ──
+  16 facts (10 escalatory, 3 de-escalatory, 3 neutral)
+  Top claims:
+    [succession_dynamics] Mojtaba Khamenei, son of the late Supreme Leader Ali Khamenei, issued his first written...
+    [succession_dynamics] Mohammad Larijani has been regarded as the de facto leader of Iran since late December ...
+    [succession_dynamics] Mojtaba Khamenei's succession violates the principle established by Ayatollah Ruhollah ...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.220   +0.005  intensity=0.4 (decayed), blend=0.09
+  historian          0.220   +0.005  base=0.33 (adaptive), capped_shift=+0.001
+  game_theorist      0.251   +0.036  consensus=0.77, costly_signals=0
+  quant              0.237   +0.022  ewma=0.222, vol=0.055, blend=0.34
+
+  Spread: 0.032 (game_theorist high, historian low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=16, MSE=0.000203, dir_acc=12.5%, P&L=-2.0
+  historian        predictions=15, MSE=0.000249, dir_acc=20.0%, P&L=+1.0
+  game_theorist    predictions=15, MSE=0.038453, dir_acc=13.3%, P&L=+0.0
+  quant            predictions=15, MSE=0.003355, dir_acc=13.3%, P&L=+0.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000075
+  #2 momentum             MSE=0.000203
+  #3 historian            MSE=0.000249
+  #4 quant                MSE=0.003355
+  #5 game_theorist        MSE=0.038453
+
+[7/7] Updating status page...
+[status] Generated status/index.html at 2026-03-12 09:05 AM PT
+Saved to /home/oracle/oracle-lab/scripts/../progress.png (15 predictions/agent, rolling window=3)
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'oracle@claude-dev-1.(none)')
+=== Forecast cycle complete: 2026-03-12T16:05:33Z ===

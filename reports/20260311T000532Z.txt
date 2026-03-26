@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-11T00:05:32Z
+Briefing: 2026-03-11T00:05:31Z
+
+── Market Snapshot ──
+  regime_fall: 0.235 (4h: +0.000, 24h: -0.020)
+
+── Newswire ──
+  21 facts (15 escalatory, 4 de-escalatory, 2 neutral)
+  Top claims:
+    [military_pressure] Two US carrier strike groups (USS Gerald R. Ford and USS Abraham Lincoln) are operating...
+    [military_pressure] The USS Gerald R. Ford's air wings are supported by 14 US Air Force refueling tankers s...
+    [military_pressure] US B-1B Lancers have arrived at RAF Fairford for defensive operations in the Middle East.
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.239   +0.004  intensity=2.1 (decayed), blend=0.19
+  historian          0.256   +0.021  base=0.34 (adaptive), capped_shift=+0.018
+  game_theorist      0.377   +0.142  consensus=0.76, costly_signals=4
+  quant              0.296   +0.061  ewma=0.240, vol=0.053, blend=0.34
+
+  Spread: 0.138 (game_theorist high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=6, MSE=0.000403, dir_acc=16.7%, P&L=-2.0
+  historian        predictions=5, MSE=0.000118, dir_acc=40.0%, P&L=+2.0
+  game_theorist    predictions=5, MSE=0.036791, dir_acc=20.0%, P&L=+2.0
+  quant            predictions=5, MSE=0.001978, dir_acc=20.0%, P&L=+2.0
+
+── Leaderboard ──
+  #1 historian            MSE=0.000118
+  #2 naive_baseline       MSE=0.000133
+  #3 momentum             MSE=0.000403
+  #4 quant                MSE=0.001978
+  #5 game_theorist        MSE=0.036791

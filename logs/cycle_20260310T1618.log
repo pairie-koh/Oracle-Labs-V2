@@ -1,0 +1,133 @@
+=== Forecast cycle start: 2026-03-10T16:18:18Z ===
+[1/7] Running newswire...
+=== Newswire Pipeline ===
+[1/3] Gathering raw news from Perplexity...
+  [1/2] regime_fall / military_security...
+    Got 3579 chars
+  [2/2] regime_fall / political_diplomatic_economic...
+    Got 3253 chars
+
+[2/3] Normalizing 2 raw reports with Haiku...
+  Calling Haiku for normalization...
+  Normalized: 25 valid facts (dropped 0)
+
+[3/3] Saving facts...
+  Saved 25 facts to fact_history/facts.csv and fact_history/latest.json
+
+=== Newswire complete: 25 facts ===
+[2/7] Updating state...
+=== State Update ===
+  Loaded state for markets: ['regime_fall']
+  Processing 25 facts...
+  Calling Haiku for state update...
+  Saved state to state/current.json
+  State updated via Haiku
+
+  regime_fall:
+    Status: Ongoing intensive US-Israeli military campaign continues with hundreds of additional strikes on Iranian military infrastructure, air bases, and missile facilities as of March 10, 2026. New Supreme Leader Mojtaba Khamenei has been wounded, while Iran attempts continued military responses despite severe degradation of capabilities.
+    military_pressure: critical
+    internal_stability: high
+    succession_dynamics: critical
+    diplomatic_signals: critical
+    economic_collapse: high
+    international_response: high
+[3/7] Preparing briefing...
+=== Assembling briefing ===
+Fetching current prices...
+  regime_fall: 0.2150
+Wrote briefing to briefings/20260310T161857Z.json
+Wrote briefings/latest.json
+
+Briefing summary:
+  Timestamp: 2026-03-10T16:18:57Z
+  regime_fall: 0.2150 (4h: +0.0000, 24h: -0.0750)
+  Fresh facts: 25
+  State keys: ['last_updated', 'markets']
+[4/7] Running agent forecasts...
+[momentum v1.1.0] 2026-03-10T16:18:57Z
+  regime_fall: 0.2150 → 0.2178 (reversion, intensity=3.9, blend=0.37, momentum_sig=-0.0037)
+  momentum: OK
+[historian v1.1.0] 2026-03-10T16:18:57Z
+  regime_fall: 0.2150 → 0.2533 (base=0.340, reversion=+0.003750, raw_signal=5.67, capped_shift=+0.034588)
+  historian: OK
+[game_theorist v1.1.0] 2026-03-10T16:18:57Z
+  regime_fall: 0.2150 → 0.6625 (signal=19.887, consensus=0.96, costly=1, esc=24/deesc=1)
+  game_theorist: OK
+[quant v1.1.0] 2026-03-10T16:18:57Z
+  regime_fall: 0.2150 → 0.3312 (ewma=0.2452, vol=0.0484, med_vol=0.0294, blend=0.37, n=343)
+  quant: OK
+[5/7] Evaluating...
+=== Evaluation ===
+  Loaded 343 price history rows
+  momentum: scoring 4 predictions...
+    Scored 4 predictions: MSE=0.000024, Directional=0/4
+  historian: scoring 3 predictions...
+    Scored 3 predictions: MSE=0.000010, Directional=0/3
+  game_theorist: scoring 3 predictions...
+    Scored 3 predictions: MSE=0.000000, Directional=0/3
+  quant: scoring 3 predictions...
+    Scored 3 predictions: MSE=0.000006, Directional=0/3
+
+  Leaderboard updated (5 entries)
+    #1 historian: MSE=0.000064
+    #2 naive_baseline: MSE=0.000080
+    #3 quant: MSE=0.000161
+    #4 game_theorist: MSE=0.000306
+    #5 momentum: MSE=0.000424
+[6/7] Generating report...
+[report] Saved to reports/20260310T161858Z.txt
+[report] Saved to reports/latest.txt
+
+=== Oracle Lab Cycle Report ===
+2026-03-10T16:18:58Z
+Briefing: 2026-03-10T16:18:57Z
+
+── Market Snapshot ──
+  regime_fall: 0.215 (4h: +0.000, 24h: -0.075)
+
+── Newswire ──
+  25 facts (21 escalatory, 1 de-escalatory, 3 neutral)
+  Top claims:
+    [military_pressure] US warplanes took off toward Iran on March 10, 2026 as part of ongoing operations targe...
+    [military_pressure] President Trump stated on March 9-10, 2026 that Iran's navy, air force, communications,...
+    [military_pressure] Israeli Air Force conducted strikes on six IRGC air bases overnight into March 10, 2026...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.218   +0.003  intensity=3.9 (decayed), blend=0.37
+  historian          0.253   +0.038  base=0.34 (adaptive), capped_shift=+0.035
+  game_theorist      0.662   +0.447  consensus=0.96, costly_signals=1
+  quant              0.331   +0.116  ewma=0.245, vol=0.048, blend=0.37
+
+  Spread: 0.445 (game_theorist high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=5, MSE=0.000424, dir_acc=0.0%, P&L=-2.0
+  historian        predictions=4, MSE=0.000064, dir_acc=25.0%, P&L=+0.0
+  game_theorist    predictions=4, MSE=0.000306, dir_acc=0.0%, P&L=+0.0
+  quant            predictions=4, MSE=0.000161, dir_acc=0.0%, P&L=+0.0
+
+── Leaderboard ──
+  #1 historian            MSE=0.000064
+  #2 naive_baseline       MSE=0.000080
+  #3 quant                MSE=0.000161
+  #4 game_theorist        MSE=0.000306
+  #5 momentum             MSE=0.000424
+
+[7/7] Updating status page...
+[status] Generated status/index.html at 2026-03-10 16:18 UTC
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'oracle@claude-dev-1.(none)')
+=== Forecast cycle complete: 2026-03-10T16:18:58Z ===

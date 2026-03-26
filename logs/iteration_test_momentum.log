@@ -1,0 +1,11 @@
+Done. Here's the summary:
+
+**Performance diagnosis:**
+- Losing to naive baseline by 65% (MSE 0.000132 vs 0.000080) despite 97% directional accuracy
+- Agent spends nearly all cycles in **reversion mode** (intensity 1–4, threshold 5)
+- In reversion mode, it was nudging predictions toward 0.5 — adding systematic upward noise that the naive baseline avoids
+
+**Change made (v1.1.0 → v1.2.0):**
+- `REVERSION_WEIGHT`: 0.4 → 0.15
+
+**Rationale:** This makes quiet-period predictions hug current price more tightly (0.285 → 0.286 vs old ~0.285 → 0.288), reducing the noise penalty from unnecessary reversion pulls. The directional signal is already excellent; the problem was magnitude overshoot, not direction. The momentum component is left untouched so it can still extrapolate when news intensity is high.

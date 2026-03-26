@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-10T16:18:58Z
+Briefing: 2026-03-10T16:18:57Z
+
+── Market Snapshot ──
+  regime_fall: 0.215 (4h: +0.000, 24h: -0.075)
+
+── Newswire ──
+  25 facts (21 escalatory, 1 de-escalatory, 3 neutral)
+  Top claims:
+    [military_pressure] US warplanes took off toward Iran on March 10, 2026 as part of ongoing operations targe...
+    [military_pressure] President Trump stated on March 9-10, 2026 that Iran's navy, air force, communications,...
+    [military_pressure] Israeli Air Force conducted strikes on six IRGC air bases overnight into March 10, 2026...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.218   +0.003  intensity=3.9 (decayed), blend=0.37
+  historian          0.253   +0.038  base=0.34 (adaptive), capped_shift=+0.035
+  game_theorist      0.662   +0.447  consensus=0.96, costly_signals=1
+  quant              0.331   +0.116  ewma=0.245, vol=0.048, blend=0.37
+
+  Spread: 0.445 (game_theorist high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=5, MSE=0.000424, dir_acc=0.0%, P&L=-2.0
+  historian        predictions=4, MSE=0.000064, dir_acc=25.0%, P&L=+0.0
+  game_theorist    predictions=4, MSE=0.000306, dir_acc=0.0%, P&L=+0.0
+  quant            predictions=4, MSE=0.000161, dir_acc=0.0%, P&L=+0.0
+
+── Leaderboard ──
+  #1 historian            MSE=0.000064
+  #2 naive_baseline       MSE=0.000080
+  #3 quant                MSE=0.000161
+  #4 game_theorist        MSE=0.000306
+  #5 momentum             MSE=0.000424

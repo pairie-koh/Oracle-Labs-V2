@@ -1,0 +1,240 @@
+{
+  "timestamp": "2026-03-17T16:05:35Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.305,
+      "previous": 0.295,
+      "change_4h": 0.01,
+      "change_24h": 0.02,
+      "history_24h": [
+        {
+          "t": 1773677185,
+          "p": 0.285
+        },
+        {
+          "t": 1773691540,
+          "p": 0.285
+        },
+        {
+          "t": 1773705940,
+          "p": 0.265
+        },
+        {
+          "t": 1773720352,
+          "p": 0.265
+        },
+        {
+          "t": 1773734741,
+          "p": 0.265
+        },
+        {
+          "t": 1773749131,
+          "p": 0.295
+        },
+        {
+          "t": 1773763535,
+          "p": 0.305
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "Israeli Air Force conducted extensive strikes overnight March 15-16 targeting Tehran infrastructure, IRGC headquarters, and over 100 regime production targets.",
+      "source": "OSINT/military analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2024-03-16T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "By March 16, Israeli Defense Force operations reached over 7,600 strikes from nearly 5,000 sorties, neutralizing 70% of missile launchers and 85% of air defense systems.",
+      "source": "OSINT/military analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2024-03-16T18:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli strikes on March 15 targeted the Supreme Leader's aircraft at Mehrabad Airport in Tehran and military bases in Isfahan, Tabriz, and Shiraz.",
+      "source": "OSINT/military analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2024-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US strikes on Iranian targets as of March 11 included 5,500 ballistic missiles, drones, and Kharg Island infrastructure hit on March 13.",
+      "source": "Military analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2024-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian military capabilities were degraded with 70-85% of missiles and defense systems neutralized by March 16.",
+      "source": "OSINT/military analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2024-03-16T18:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran shifted to high-impact missiles with 1,000+ kg payloads and deployed Russian Shahed drones against US and Gulf targets by March 15.",
+      "source": "Military analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2024-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israeli strikes targeted Basij and internal security sites in Tehran on March 11, resulting in 10+ killed.",
+      "source": "Military analysis",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2024-03-11T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC detention facilities in Marivan, Kurdistan were struck, causing jailbreaks, with IRGC ordering evacuations on March 3.",
+      "source": "OSINT/military analysis",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2024-03-03T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mojtaba Khamenei was elevated to Supreme Leader following his father Ali Khamenei's killing, marking the first father-to-son power transfer since 1979.",
+      "source": "NCRI/opposition sources",
+      "source_category": "social_media",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2024-03-16T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "U.S. intelligence assessments from March 12 indicate Iran's leadership structure remains largely intact despite attacks, with no immediate collapse risk.",
+      "source": "US government intelligence",
+      "source_category": "government_official",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2024-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian regime has intensified repression under wartime emergency, with purges to consolidate new leadership power.",
+      "source": "NCRI/analytical sources",
+      "source_category": "think_tank",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2024-03-16T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Neither Iran nor the U.S. is open to ceasefire talks as of March 14, with Iran demanding strikes end and compensation before considering any pause.",
+      "source": "Analytical sources",
+      "source_category": "think_tank",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2024-03-14T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US rejected mediation by Oman and Egypt for ceasefire negotiations as of March 14.",
+      "source": "Analytical sources",
+      "source_category": "think_tank",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2024-03-14T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PMOI Resistance Units launched grassroots campaigns on March 16 endorsing NCRI's Provisional Government amid wartime crackdowns.",
+      "source": "NCRI/opposition sources",
+      "source_category": "social_media",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2024-03-16T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "PMOI commander reported fierce clashes near Khamenei's Tehran headquarters during February 23 offensive with local resident support, as of March 15.",
+      "source": "NCRI/opposition sources",
+      "source_category": "social_media",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2024-02-23T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Iranian authorities arrested 14 people in Kerman for inciting chaos and seized arms from 54 alleged monarchist and MEK operatives in recent arrests.",
+      "source": "NCRI/analytical sources",
+      "source_category": "think_tank",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2024-03-16T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "UN Fact-Finding Mission warned on March 11 of escalating civilian risks from combined external attacks and internal repression measures.",
+      "source": "UN sources",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2024-03-11T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli Defense Force killed two senior Iranian intelligence officials on March 13, confirmed March 14, targeting command structures.",
+      "source": "Military analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2024-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Campaign airspace control from western Iran to central Tehran was achieved within initial 24 hours via approximately 200 air defense strikes.",
+      "source": "OSINT/military analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2024-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israeli strike waves fluctuated with 56 strikes on March 14, 34 on March 15, maintaining dozens daily throughout the campaign.",
+      "source": "OSINT/military analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2024-03-15T00:00:00Z",
+      "confidence": "high"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-16T12:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "Following Ali Khamenei's death and Mojtaba's succession on March 16, 2026, US-Israeli forces have executed over 7,600 strikes neutralizing 70-85% of Iranian air defenses and missile capabilities, while Iran sustains counterattacks with advanced missiles and drones. The regime faces compounded pressure from degraded military capacity, internal security fractures including detention facility breaches, leadership consolidation efforts, and grassroots opposition activity, though US intelligence assessments indicate leadership structures remain functionally intact despite intensive targeting.",
+        "last_major_event": "Israeli Air Force conducted extensive overnight strikes March 15-16 targeting Tehran infrastructure, IRGC headquarters, the Supreme Leader's aircraft at Mehrabad Airport, and over 100 regime production targets, achieving airspace control within 24 hours and reducing Iranian military capabilities by 70-85%.",
+        "last_major_event_time": "2026-03-16T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "critical",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "high",
+        "economic_collapse": "critical",
+        "international_response": "high"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

@@ -1,0 +1,7 @@
+Done. Summary:
+
+**Change made (v1.5.0 → v1.6.0):** `ESCALATION_SENSITIVITY` 0.0007 → 0.0004
+
+**Why:** Directional accuracy is excellent (94%), so the direction logic is sound. The problem is pure magnitude overshooting — MSE is 2.5× worse than naive baseline. With a typical signal of ~10, the old sensitivity produced ~0.75pp shifts; new sensitivity produces ~0.43pp shifts. This continues the successful reduction trajectory (0.015 → 0.001 → 0.0007 → 0.0004) that has been steadily improving recent-cycle MSE.
+
+**Test output:** `regime_fall: 0.2850 → 0.2893 (signal=10.650, shift=+0.43pp)` — runs cleanly, shift is smaller and proportional.

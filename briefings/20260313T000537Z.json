@@ -1,0 +1,290 @@
+{
+  "timestamp": "2026-03-13T00:05:37Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.225,
+      "previous": 0.225,
+      "change_4h": 0.0,
+      "change_24h": -0.01,
+      "history_24h": [
+        {
+          "t": 1773288335,
+          "p": 0.225
+        },
+        {
+          "t": 1773302743,
+          "p": 0.225
+        },
+        {
+          "t": 1773317141,
+          "p": 0.215
+        },
+        {
+          "t": 1773331530,
+          "p": 0.215
+        },
+        {
+          "t": 1773345940,
+          "p": 0.225
+        },
+        {
+          "t": 1773360337,
+          "p": 0.225
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "US Central Command reported on March 10, 2026 that US forces destroyed 16 Iranian minelayers near the Strait of Hormuz.",
+      "source": "US Central Command",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Operation Epic Fury began on February 28, 2026 and involved strikes on more than 1,000 targets within the first 24 hours, targeting Iranian missile sites and air defense installations.",
+      "source": "US Central Command",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-02-28T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran launched an unprecedented barrage of missiles and drones at all six Gulf Cooperation Council countries (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the UAE), marking the first time Iran attacked all six GCC nations.",
+      "source": "Regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-01T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian attacks extended beyond US military installations to energy infrastructure, civilian airports, and civilian areas.",
+      "source": "Regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-01T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Islamic Resistance in Iraq claimed 67 drone and missile attacks on targets in Iraq and the region within the first three days of the conflict.",
+      "source": "Regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-01T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "At least six US troops were killed at a port in Kuwait as of early March 2026.",
+      "source": "US Department of Defense",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-02T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "By March 2, 2026, a fourth US service member had died during combat operations, with Chairman of the Joint Chiefs of Staff Gen. Dan Caine announcing additional military personnel deployment to the region.",
+      "source": "US Department of Defense",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-02T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The USS Gerald R. Ford and four Norfolk-based destroyers (USS Bainbridge, USS Mahan, USS McFaul, and USS Mitscher) remained deployed in the region as of March 2026.",
+      "source": "US Department of Defense",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Virginia National Guard's 229th Military Police Company was continuing operations at Camp Arifjan, Kuwait, with 150 members mobilized.",
+      "source": "US Department of Defense",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mojtaba Khamenei was appointed Iran's new Supreme Leader following the killing of his father, Ali Khamenei.",
+      "source": "Iranian government",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-09T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mojtaba Khamenei remained absent from public view as of March 2026, with a message read on his behalf on state television closely mirroring IRGC messaging.",
+      "source": "Iranian media",
+      "source_category": "social_media",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Ali Larijani, previously regarded as de facto leader since late December 2025, rallied supporters behind Mojtaba Khamenei despite initial opposition.",
+      "source": "Iranian political reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mojtaba Khamenei issued his first war statement Thursday vowing to keep attacking Gulf Arab neighbors and close the Strait of Hormuz as leverage.",
+      "source": "Iranian government",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran's UN envoy Amir Saeid Iravani stated Thursday that Tehran is not ruling out closing the Strait of Hormuz.",
+      "source": "United Nations",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli PM Netanyahu denounced Mojtaba Khamenei as an IRGC puppet and claimed US-Israeli strikes create conditions for regime fall.",
+      "source": "Israeli government",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "On March 12, 2026, the UN Security Council adopted Resolution 2817 condemning Iran's attacks on six GCC countries and Jordan, including civilian targets and maritime interference.",
+      "source": "United Nations",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Russia called Ali Khamenei's death a 'cynical murder' and showed solidarity with Iran; China stressed sovereignty and opposed regime change; the EU urged de-escalation.",
+      "source": "UN statements and government communications",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Saudi Arabia urged US military action against Iran in response to Ali Khamenei's killing.",
+      "source": "Regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Bahrain reported that a desalination plant was hit during Iranian attacks.",
+      "source": "Regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-01T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The Arab League denounced Iran's 'reckless policy' in response to escalating regional tensions.",
+      "source": "Arab League",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Qatar, Kuwait, and UAE expressed escalation fears following Iran's attacks.",
+      "source": "Regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-01T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Oil prices spiked over 100% due to Iranian attacks on shipping and Strait of Hormuz threats.",
+      "source": "Market commentary",
+      "source_category": "market_commentary",
+      "indicator_category": "economic_collapse",
+      "market": "regime_fall",
+      "time": "2026-03-01T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Russia's Putin expressed support for Iran following Ali Khamenei's death.",
+      "source": "Russian government",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Turkey's Erdogan called Iranians 'brothers' in response to the escalating conflict.",
+      "source": "Turkish government",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The regime expanded securitization efforts amid ongoing conflict, reflecting concerns about US-Israeli actions.",
+      "source": "Regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-10T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Initial public relief at Ali Khamenei's death in Iran shifted to escalation concerns over Mojtaba's IRGC ties.",
+      "source": "Regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-12T00:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "On day 12 of Operation Epic Fury, US-Israeli forces have struck over 5,500 targets including naval assets and missile facilities while Iran mounted coordinated attacks across all six GCC nations and Iraq. Mojtaba Khamenei's succession is consolidating amid IRGC backing, but public sentiment is shifting from relief at Ali Khamenei's death to escalation fears as the new Supreme Leader doubles down on military resistance and Strait of Hormuz closure threats.",
+        "last_major_event": "Mojtaba Khamenei issued his first war statement on March 12, 2026, vowing continued attacks on Gulf Arab neighbors and threatening to close the Strait of Hormuz, while the UN Security Council adopted Resolution 2817 condemning Iran's attacks on GCC countries and Jordan, signaling coordinated international opposition.",
+        "last_major_event_time": "2026-03-12T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "critical",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "critical",
+        "economic_collapse": "critical",
+        "international_response": "critical"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

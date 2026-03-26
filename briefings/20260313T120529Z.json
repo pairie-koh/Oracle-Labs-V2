@@ -1,0 +1,195 @@
+{
+  "timestamp": "2026-03-13T12:05:29Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.245,
+      "previous": 0.235,
+      "change_4h": 0.01,
+      "change_24h": 0.03,
+      "history_24h": [
+        {
+          "t": 1773317141,
+          "p": 0.215
+        },
+        {
+          "t": 1773331530,
+          "p": 0.215
+        },
+        {
+          "t": 1773345940,
+          "p": 0.225
+        },
+        {
+          "t": 1773360337,
+          "p": 0.225
+        },
+        {
+          "t": 1773374727,
+          "p": 0.235
+        },
+        {
+          "t": 1773389143,
+          "p": 0.235
+        },
+        {
+          "t": 1773403529,
+          "p": 0.245
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "The US has deployed at least two carrier strike groups (USS Abraham Lincoln and USS Gerald R. Ford) to the Middle East, with a third (USS George H.W. Bush) preparing to sail from the eastern Mediterranean, totaling over 30 warships.",
+      "source": "CENTCOM",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The IRGC claimed ballistic missile and drone strikes on USS Abraham Lincoln in the Gulf of Oman, though the US denied damage and released photos showing normal operations.",
+      "source": "CENTCOM",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US and CENTCOM reports indicate sinking of 30-43 Iranian vessels including fast attack craft, missile boats, and a drone carrier, and striking approximately 3,000 targets since late February 2026.",
+      "source": "CENTCOM",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Operation Epic Fury, an ongoing US air and naval campaign, shifted from initial decapitation strikes targeting approximately 200 targets to degrading Iran's missile and drone production capabilities.",
+      "source": "CENTCOM",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mojtaba Khamenei was appointed as Iran's new Supreme Leader following the death of his father, Ayatollah Ali Khamenei, by the Assembly of Experts.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:22:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "New Supreme Leader Mojtaba Khamenei vowed in his first statement to continue blocking the Strait of Hormuz, avenge martyrs, and attack US bases.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:22:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian President Masoud Pezeshkian outlined three non-negotiable red lines for peace: formal recognition of Iran's sovereign rights, financial reparations for damages, and international security guarantees against future attacks.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "NCRI opposition figures, including Maryam Rajavi, stated that the appointment of Mojtaba Khamenei as Supreme Leader represents a legitimacy-losing step reliant on repression.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-08T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US intelligence assesses that the Iranian government remains structurally stable and is unlikely to collapse in the near term despite ongoing military strikes.",
+      "source": "US Intelligence",
+      "source_category": "government_official",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran struck two foreign oil tankers on March 12, disrupting global energy markets as part of Strait of Hormuz blockade operations.",
+      "source": "Market Commentary",
+      "source_category": "market_commentary",
+      "indicator_category": "economic_collapse",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US President Trump stated that rising oil prices resulting from the Iran conflict are beneficial.",
+      "source": "Market Commentary",
+      "source_category": "market_commentary",
+      "indicator_category": "economic_collapse",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Thousands were killed in January 2026 protests in Iran, with the IRGC tightening control in the aftermath of US-Israeli military strikes.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-01-15T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US-Israeli strikes targeted IRGC, Basij, and internal security sites in Bushehr, Ahvaz, and Sarvestan on March 12, aimed at weakening repression capabilities.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "NCRI stated that military bombings alone will not topple the Iranian regime without an internal uprising, as outlined in a Paris statement on March 11.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-11T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Approximately 2,000 Iranian deaths have been reported after 12 days of war, including Ayatollah Ali Khamenei.",
+      "source": "NCRI",
+      "source_category": "think_tank",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-13T00:22:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "On day 12-13 of Operation Epic Fury, US-Israeli forces have struck approximately 3,000+ targets including 30-43 Iranian vessels while degrading missile and drone production, with three carrier strike groups now deployed totaling over 30 warships. Mojtaba Khamenei has consolidated power as the new Supreme Leader and vowed continued resistance including Strait of Hormuz blockade operations, while US intelligence assesses the regime as structurally stable despite ~2,000 deaths and opposition claims that military pressure alone cannot achieve regime collapse without internal uprising.",
+        "last_major_event": "Mojtaba Khamenei appointed as Iran's new Supreme Leader on March 12-13, 2026, following his father Ayatollah Ali Khamenei's death, vowing to continue blocking the Strait of Hormuz and attacking US bases while demonstrating institutional continuity despite sustained military bombardment.",
+        "last_major_event_time": "2026-03-13T00:22:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "high",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "high",
+        "economic_collapse": "moderate",
+        "international_response": "critical"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

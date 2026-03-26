@@ -1,0 +1,281 @@
+{
+  "timestamp": "2026-03-15T04:05:35Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.265,
+      "previous": 0.265,
+      "change_4h": 0.0,
+      "change_24h": 0.01,
+      "history_24h": [
+        {
+          "t": 1773475531,
+          "p": 0.255
+        },
+        {
+          "t": 1773489927,
+          "p": 0.255
+        },
+        {
+          "t": 1773504328,
+          "p": 0.265
+        },
+        {
+          "t": 1773518726,
+          "p": 0.265
+        },
+        {
+          "t": 1773533149,
+          "p": 0.265
+        },
+        {
+          "t": 1773547535,
+          "p": 0.265
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "The US deployed approximately 2,500 Marines from the 31st Marine Expeditionary Unit and the amphibious assault ship USS Tripoli to the Middle East.",
+      "source": "US military officials",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US strikes on Iran's Kharg Island destroyed 90 military targets including an airport on March 13, 2026.",
+      "source": "President Trump announcement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israel conducted approximately 7,600 Air Force strikes over two weeks, including over 2,000 on Iranian regime headquarters and 4,700 on the Iranian missile program.",
+      "source": "Israeli military reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Over 380 Hezbollah fighters were eliminated in Israeli strikes on Lebanon, with operations continuing and intensifying.",
+      "source": "Israeli military reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US strikes on Iranian targets sank or destroyed 90 Iranian vessels and resulted in a 95% drop in Iranian drone attacks since the war began two weeks ago.",
+      "source": "Military reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "A missile struck the helipad inside the US Embassy compound in Baghdad on March 13, 2026, during a Level 4 security alert.",
+      "source": "Military incident reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Four US soldiers were killed on March 13, 2026, when a refueling aircraft collided with another aircraft in western Iraq.",
+      "source": "Military reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "A drone strike killed a French soldier and wounded others in northern Iraq on March 12, 2026, targeting coalition troops.",
+      "source": "Military incident reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The IDF estimates that 4,000-5,000 Iranian soldiers have been neutralized during operations Roaring Lion and Epic Fury by day 14 (March 14, 2026).",
+      "source": "Israeli military reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israeli Defense Minister Israel Katz stated on March 14, 2026, that the war against Iran is escalating into a decisive stretch.",
+      "source": "Israeli government statement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran's president spoke with Egypt's leader on March 13, 2026, about de-escalation and ties with Arab states.",
+      "source": "Iranian government reports",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran threatened retaliation against US-linked energy interests in the UAE if its oil infrastructure is hit.",
+      "source": "Iranian government statements",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Anti-regime clerics, including Ali Asghar Hejazi and Alireza Arafi, questioned Supreme Leader Mojtaba Khamenei's health and leadership on March 13, 2026.",
+      "source": "Anti-regime media reports",
+      "source_category": "social_media",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Clerics called for reinstatement of a constitutional Leadership Council to replace Mojtaba Khamenei as Supreme Leader until a new leader is selected.",
+      "source": "Anti-regime media reports",
+      "source_category": "social_media",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mojtaba Khamenei was selected as Supreme Leader by the Assembly of Experts on March 8, 2026, and issued his first statement as leader on March 12.",
+      "source": "Iranian government reports",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-08T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "A nationwide internet blackout in Iran exceeded 13 days as of March 13, 2026, the second-longest in Iranian history.",
+      "source": "Internet monitoring reports",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian government security forces increased street presence to suppress dissent while rallying supporters for demonstrations.",
+      "source": "Military/security reports",
+      "source_category": "government_official",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Israeli PM Benjamin Netanyahu stated on March 12, 2026, that strikes create optimal conditions for toppling the Iranian regime.",
+      "source": "Israeli government statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US Defense Secretary Pete Hegseth said on March 13, 2026, that US strikes functionally defeated Iran's ballistic missile production and left no air defenses.",
+      "source": "US government statement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The IDF struck Tehran air defenses on March 13, 2026.",
+      "source": "Israeli military reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "NCRI's Maryam Rajavi announced a provisional government framework on February 28, 2026, for post-collapse transition in Iran.",
+      "source": "NCRI announcement",
+      "source_category": "think_tank",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-02-28T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Fifteen people were killed in an Isfahan factory strike on March 14, 2026.",
+      "source": "Military incident reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Tehran Basij commander Morteza Darbari was killed on March 14, 2026.",
+      "source": "Military casualty reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US President Donald Trump rejected fresh ceasefire efforts on March 14, 2026, prioritizing military pressure over talks.",
+      "source": "US government statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Approximately 5,000 US troops were stationed in the Gulf region as of March 13-14, 2026, including newly deployed forces.",
+      "source": "US military reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-14T16:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "Unprecedented combined US-Israeli military campaign has degraded Iranian military capacity to critical levels (7,600+ Israeli strikes, 90+ destroyed vessels, 95% reduction in drone capability, 4,000-5,000 Iranian soldiers neutralized) while newly elevated Supreme Leader Mojtaba Khamenei faces internal challenges from clerics questioning his legitimacy and calling for constitutional alternatives. Trump administration has explicitly rejected ceasefire efforts and deployed approximately 5,000 US troops to the region, signaling commitment to continued escalation.",
+        "last_major_event": "US Defense Secretary Pete Hegseth declared on March 13 that US strikes functionally defeated Iran's ballistic missile production and left no air defenses, while Israeli Defense Minister Israel Katz stated on March 14 that the war is escalating into a decisive stretch, coinciding with reports of 4,000-5,000 Iranian soldiers neutralized and renewed calls from anti-regime clerics for Mojtaba Khamenei's replacement.",
+        "last_major_event_time": "2026-03-14T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "high",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "critical",
+        "economic_collapse": "critical",
+        "international_response": "critical"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

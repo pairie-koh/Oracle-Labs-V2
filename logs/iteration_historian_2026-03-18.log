@@ -1,0 +1,8 @@
+Runs cleanly. v1.5.0 is live.
+
+**Summary:**
+
+- **Problem:** MSE (0.00013847) above naive baseline (0.00011538), meaning the reversion mechanism adds more error than it removes.
+- **Change:** `REVERSION_RATE` 0.01 → 0.005 (halved the reversion force)
+- **Effect:** With current price at 0.295 and adaptive base rate at 0.260, the reversion pull is now −0.000175 (was −0.000350) — smaller, less aggressive, closer to naive baseline behavior.
+- **Direction:** Predictions stay closer to current price, reducing systematic squared error from base rate divergence while preserving the mean-reversion identity.

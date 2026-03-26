@@ -1,0 +1,204 @@
+{
+  "timestamp": "2026-03-14T12:05:27Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.255,
+      "previous": 0.255,
+      "change_4h": 0.0,
+      "change_24h": 0.01,
+      "history_24h": [
+        {
+          "t": 1773403529,
+          "p": 0.245
+        },
+        {
+          "t": 1773417944,
+          "p": 0.245
+        },
+        {
+          "t": 1773432325,
+          "p": 0.245
+        },
+        {
+          "t": 1773446728,
+          "p": 0.255
+        },
+        {
+          "t": 1773461124,
+          "p": 0.255
+        },
+        {
+          "t": 1773475531,
+          "p": 0.255
+        },
+        {
+          "t": 1773489927,
+          "p": 0.255
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "The United States deployed 2,500 additional Marines and an amphibious assault ship to the Middle East on March 13-14, 2026.",
+      "source": "US Defense Department announcement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The 31st Marine Expeditionary Unit was deployed as part of US operations, described as the first real movement towards boots on the ground in Iran.",
+      "source": "US Military source",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Over 15,000 targets have been struck in Iran over the course of nearly two weeks of bombing operations, according to Defense Secretary Pete Hegseth.",
+      "source": "Defense Secretary Pete Hegseth",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "President Trump announced fresh US attacks on Karg Island on March 14, 2026, describing it as a vital oil hub and main export terminal for Iran.",
+      "source": "President Trump statement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "13 U.S. military personnel have been killed in the war as of March 13, 2026.",
+      "source": "US Defense Department",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Members of the Vermont Air National Guard's 158th Fighter Wing have been deployed as part of ongoing operations.",
+      "source": "US Military announcement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "President Trump stated the US has 'knocked out most of their missiles' and 'knocked out many of their drones,' characterizing the campaign as hitting Iran 'harder than anybody's been hit since World War II.'",
+      "source": "President Trump statement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mojtaba Khamenei issued his first statement as Supreme Leader on March 12, 2026, following his appointment by the Assembly of Experts on March 8, 2026.",
+      "source": "Iranian government sources",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Ayatollah Ali Khamenei was assassinated in a U.S.-Israel strike on February 28, 2026.",
+      "source": "Iranian government sources",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-02-28T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "An elite counterterrorism unit known as NOPO (Iran's black-clad Counterterrorism Special Force) has been deployed to protect the newly appointed Supreme Leader Mojtaba Khamenei.",
+      "source": "Iranian security sources",
+      "source_category": "government_official",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran struck two foreign oil tankers and targeted critical civilian infrastructure including desalination plants in Iran and Bahrain.",
+      "source": "Regional security reports",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "An Iranian ballistic missile destroyed an office near Erbil in Iraq's Kurdish region, killing one and injuring several others.",
+      "source": "Iraqi Kurdish regional sources",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran continues to limit U.S.-Iranian discussions to nuclear issues only, signaling unwillingness to negotiate on ballistic missile programs or support for its proxy network.",
+      "source": "Iranian government officials",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Supreme Leader Representative Ali Shamkhani confirmed Iran will 'definitely continue' supporting the 'Axis of Resistance' alliance.",
+      "source": "Iranian government statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "President Trump stated 'Potentially yes' when asked about whether National Guard reservists could be called up, noting it 'could be National Guard units. It could be regular Army units in the area,' regarding ground operations in Iran.",
+      "source": "President Trump statement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Oil prices have surged due to the ongoing conflict between the United States and Iran.",
+      "source": "Market reports",
+      "source_category": "market_commentary",
+      "indicator_category": "economic_collapse",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-14T00:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "US-Israeli bombing campaign has expanded to over 15,000 targets with fresh strikes on Kharg Island oil infrastructure, while the 31st Marine Expeditionary Unit and 2,500 additional Marines have been deployed as the first significant ground force movement into Iran. Newly-installed Supreme Leader Mojtaba Khamenei maintains regime cohesion through elite security deployments and defiant statements on proxy support, but faces mounting pressure from degraded military capabilities, economic disruption, and signals of potential ground escalation.",
+        "last_major_event": "President Trump announced fresh US attacks on Kharg Island on March 14, 2026, and confirmed deployment of the 31st Marine Expeditionary Unit as the first real boots-on-ground movement into Iran, while indicating potential further National Guard and Army unit mobilization.",
+        "last_major_event_time": "2026-03-14T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "high",
+        "succession_dynamics": "high",
+        "diplomatic_signals": "critical",
+        "economic_collapse": "critical",
+        "international_response": "critical"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

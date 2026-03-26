@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-13T20:05:26Z
+Briefing: 2026-03-13T20:05:25Z
+
+── Market Snapshot ──
+  regime_fall: 0.245 (4h: +0.000, 24h: +0.020)
+
+── Newswire ──
+  16 facts (12 escalatory, 3 de-escalatory, 1 neutral)
+  Top claims:
+    [military_pressure] Operation Epic Fury was launched on February 29, 2026, with more than 1,000 targets str...
+    [military_pressure] Two carrier strike groups (USS Gerald R. Ford and USS Abraham Lincoln) were operating i...
+    [military_pressure] Four Americans were confirmed killed when an Iranian missile penetrated US air defenses...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.249   +0.004  intensity=1.6 (decayed), blend=0.15
+  historian          0.257   +0.012  base=0.32 (adaptive), capped_shift=+0.010
+  game_theorist      0.384   +0.139  consensus=0.81, costly_signals=3
+  quant              0.283   +0.038  ewma=0.239, vol=0.045, blend=0.41
+
+  Spread: 0.135 (game_theorist high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=23, MSE=0.000150, dir_acc=21.7%, P&L=-2.0
+  historian        predictions=22, MSE=0.000215, dir_acc=22.7%, P&L=+1.0
+  game_theorist    predictions=22, MSE=0.034633, dir_acc=22.7%, P&L=+3.0
+  quant            predictions=22, MSE=0.002748, dir_acc=22.7%, P&L=+2.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000065
+  #2 momentum             MSE=0.000150
+  #3 historian            MSE=0.000215
+  #4 quant                MSE=0.002748
+  #5 game_theorist        MSE=0.034633

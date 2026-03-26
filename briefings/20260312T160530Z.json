@@ -1,0 +1,200 @@
+{
+  "timestamp": "2026-03-12T16:05:30Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.215,
+      "previous": 0.215,
+      "change_4h": 0.0,
+      "change_24h": -0.01,
+      "history_24h": [
+        {
+          "t": 1773259532,
+          "p": 0.225
+        },
+        {
+          "t": 1773273931,
+          "p": 0.235
+        },
+        {
+          "t": 1773288335,
+          "p": 0.225
+        },
+        {
+          "t": 1773302743,
+          "p": 0.225
+        },
+        {
+          "t": 1773317141,
+          "p": 0.215
+        },
+        {
+          "t": 1773331530,
+          "p": 0.215
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "Mojtaba Khamenei, son of the late Supreme Leader Ali Khamenei, issued his first written message on March 11, 2026, calling for continued military resistance against the United States and Israel.",
+      "source": "News report on Iranian leadership",
+      "source_category": "wire_service",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mohammad Larijani has been regarded as the de facto leader of Iran since late December 2025.",
+      "source": "News report on Iranian leadership",
+      "source_category": "wire_service",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2025-12-20T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mojtaba Khamenei's succession violates the principle established by Ayatollah Ruhollah Khomeini, who declared that 'hereditary succession is sinister, evil, and invalid.'",
+      "source": "News report on Iranian leadership",
+      "source_category": "wire_service",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mohammad Larijani played a key role in the deadly crackdown against opposition protests in January 2026.",
+      "source": "News report on Iranian leadership",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-01-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Since Wednesday evening (March 11, 2026), drone strikes have focused on security checkpoints in Tehran, killing members of security forces and Basij militia across multiple districts.",
+      "source": "News report on Iranian security situation",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Wounded army personnel have been denied assistance by the IRGC, according to reports of military tensions.",
+      "source": "News report on Iranian military",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Some frontline Iranian military units operate with minimal ammunition, food, and drinking water.",
+      "source": "News report on Iranian military",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Attempts to mobilize Iranian reserve forces have faltered, with many individuals summoned for military service not reporting to centers.",
+      "source": "News report on Iranian military",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "On March 7, 2026, reports indicated US plans to deploy up to 5 carrier strike groups to the Arabian Sea and Strait of Hormuz near Iran.",
+      "source": "News report on US military deployments",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-07T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "USS George H.W. Bush completed preparations to deploy to the Eastern Mediterranean for strikes on Iran, reported March 7, 2026.",
+      "source": "News report on US military",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-07T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Members of Vermont Air National Guard's 158th Fighter Wing (F-35 operators) deployed as part of US operations in Iran around March 3, 2026.",
+      "source": "News report on US military",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-03T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iranian capabilities include the ability to block the Persian Gulf and sustain operations in western Iran since February 28, 2026.",
+      "source": "News report on Iranian military capabilities",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-02-28T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Mojtaba Khamenei stated that 'the lever of blocking the Strait of Hormuz must continue to be used' as leverage in the conflict.",
+      "source": "News report on Iranian leadership message",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iranian officials were studying possibilities for opening new conflict fronts where the enemy has little experience and is highly vulnerable.",
+      "source": "News report on Iranian military strategy",
+      "source_category": "wire_service",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "A militarily weakened Iranian regime emerging from either a coerced or negotiated settlement appears to be a plausible outcome.",
+      "source": "Analysis of regional situation",
+      "source_category": "think_tank",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "GCC leaders recognize that destabilizing Iran is not a viable option due to potential regional repercussions.",
+      "source": "Analysis of regional diplomacy",
+      "source_category": "think_tank",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "low"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-11T18:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "On day 12 of the US-Israeli campaign, Iran faces cascading military and internal crises: drone strikes now target security checkpoints in Tehran killing security forces and Basij militia, while Mojtaba Khamenei consolidates control through a succession that violates founding Islamic Republic principles, competing with de facto leader Mohammad Larijani amidst reports of IRGC-army tensions, reserve mobilization failures, and critical supply shortages in frontline units.",
+        "last_major_event": "Mojtaba Khamenei issued his first written message on March 11, 2026, calling for continued military resistance and invoking the Strait of Hormuz as strategic leverage, while drone strikes simultaneously targeted Tehran security checkpoints, signaling simultaneous succession consolidation and escalating internal security challenges.",
+        "last_major_event_time": "2026-03-11T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "critical",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "high",
+        "economic_collapse": "critical",
+        "international_response": "high"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

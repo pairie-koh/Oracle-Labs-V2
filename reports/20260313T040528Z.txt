@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-13T04:05:28Z
+Briefing: 2026-03-13T04:05:27Z
+
+── Market Snapshot ──
+  regime_fall: 0.235 (4h: +0.010, 24h: +0.010)
+
+── Newswire ──
+  12 facts (10 escalatory, 1 de-escalatory, 1 neutral)
+  Top claims:
+    [military_pressure] The U.S. deployed up to 5 carrier strike groups to the southeastern Arabian Sea near Ir...
+    [military_pressure] On March 8, 2026, U.S. Navy Arleigh Burke-class destroyers launched Tomahawk missiles a...
+    [military_pressure] Vermont Air National Guard's 158th Fighter Wing (F-35 operators) deployed around March ...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.240   +0.005  intensity=0.9 (decayed), blend=0.11
+  historian          0.241   +0.006  base=0.32 (adaptive), capped_shift=+0.004
+  game_theorist      0.298   +0.063  consensus=0.91, costly_signals=0
+  quant              0.249   +0.014  ewma=0.227, vol=0.056, blend=0.33
+
+  Spread: 0.058 (game_theorist high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=19, MSE=0.000175, dir_acc=15.8%, P&L=-2.0
+  historian        predictions=18, MSE=0.000217, dir_acc=22.2%, P&L=+1.0
+  game_theorist    predictions=18, MSE=0.040285, dir_acc=16.7%, P&L=+1.0
+  quant            predictions=18, MSE=0.003172, dir_acc=16.7%, P&L=+1.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000068
+  #2 momentum             MSE=0.000175
+  #3 historian            MSE=0.000217
+  #4 quant                MSE=0.003172
+  #5 game_theorist        MSE=0.040285

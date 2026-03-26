@@ -1,0 +1,7 @@
+error: unknown option '-C'
+**Done.** Summary:
+
+- **Problem:** Historian MSE (0.00028203) is 3.5x the naive baseline. The `capped_shift` from news was the dominant perturbation — up to ±5pp — and with a persistently positive escalation signal on Iran, it was systematically overshooting.
+- **Change:** `MAX_NEWS_SHIFT` 0.05 → 0.025 (v1.1.0 → v1.2.0)
+- **Effect:** News-driven shift halved (0.0078pp → 0.0038pp in the test run). Predictions stay closer to current price, reducing variance while preserving directional signal.
+- **Verification:** `forecast.py` runs cleanly, outputs `[historian v1.2.0]` with the reduced shift.

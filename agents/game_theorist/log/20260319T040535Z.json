@@ -1,0 +1,79 @@
+{
+  "agent": "game_theorist",
+  "timestamp": "2026-03-19T04:05:35Z",
+  "predictions": {
+    "regime_fall": {
+      "prediction": 0.283478,
+      "current": 0.275,
+      "net_signal": 14.13,
+      "signal_shift": 0.008478,
+      "fact_count": 28,
+      "escalatory_facts": 21,
+      "deescalatory_facts": 3,
+      "consensus_ratio": 0.875,
+      "consensus_scale": 1.5,
+      "costly_signal_count": 0
+    }
+  },
+  "methodology_version": "1.6.0",
+  "source_weights": {
+    "wire_service": 0.9,
+    "us_prestige": 0.85,
+    "uk_prestige": 0.8,
+    "regional_specialist": 0.75,
+    "government_official": 1.0,
+    "think_tank": 0.7,
+    "osint": 0.6,
+    "social_media": 0.3,
+    "market_commentary": 0.4
+  },
+  "parameters": {
+    "actors": {
+      "wire_service": {
+        "escalation_bias": 0.0,
+        "credibility": 0.9
+      },
+      "us_prestige": {
+        "escalation_bias": 0.1,
+        "credibility": 0.85
+      },
+      "uk_prestige": {
+        "escalation_bias": 0.05,
+        "credibility": 0.8
+      },
+      "regional_specialist": {
+        "escalation_bias": -0.1,
+        "credibility": 0.75
+      },
+      "government_official": {
+        "escalation_bias": 0.15,
+        "credibility": 1.0
+      },
+      "think_tank": {
+        "escalation_bias": 0.0,
+        "credibility": 0.7
+      },
+      "osint": {
+        "escalation_bias": 0.2,
+        "credibility": 0.6
+      },
+      "social_media": {
+        "escalation_bias": 0.3,
+        "credibility": 0.3
+      },
+      "market_commentary": {
+        "escalation_bias": 0.0,
+        "credibility": 0.4
+      }
+    },
+    "signal_weights": {
+      "high": 1.0,
+      "medium": 0.5,
+      "low": 0.2
+    },
+    "escalation_sensitivity": 0.0004,
+    "costly_signal_bonus": 1.5,
+    "consensus_high_threshold": 0.8,
+    "consensus_low_threshold": 0.6
+  }
+}

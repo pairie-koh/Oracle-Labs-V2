@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-13T12:05:30Z
+Briefing: 2026-03-13T12:05:29Z
+
+── Market Snapshot ──
+  regime_fall: 0.245 (4h: +0.010, 24h: +0.030)
+
+── Newswire ──
+  15 facts (12 escalatory, 1 de-escalatory, 2 neutral)
+  Top claims:
+    [military_pressure] The US has deployed at least two carrier strike groups (USS Abraham Lincoln and USS Ger...
+    [military_pressure] The IRGC claimed ballistic missile and drone strikes on USS Abraham Lincoln in the Gulf...
+    [military_pressure] US and CENTCOM reports indicate sinking of 30-43 Iranian vessels including fast attack ...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.250   +0.005  intensity=2.4 (decayed), blend=0.22
+  historian          0.264   +0.019  base=0.32 (adaptive), capped_shift=+0.017
+  game_theorist      0.406   +0.161  consensus=0.92, costly_signals=0
+  quant              0.291   +0.046  ewma=0.234, vol=0.045, blend=0.41
+
+  Spread: 0.156 (game_theorist high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=21, MSE=0.000161, dir_acc=19.1%, P&L=-2.0
+  historian        predictions=20, MSE=0.000216, dir_acc=20.0%, P&L=+1.0
+  game_theorist    predictions=20, MSE=0.036464, dir_acc=20.0%, P&L=+2.0
+  quant            predictions=20, MSE=0.002865, dir_acc=20.0%, P&L=+1.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000067
+  #2 momentum             MSE=0.000161
+  #3 historian            MSE=0.000216
+  #4 quant                MSE=0.002865
+  #5 game_theorist        MSE=0.036464

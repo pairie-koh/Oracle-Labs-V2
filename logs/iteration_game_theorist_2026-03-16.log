@@ -1,0 +1,5 @@
+Done. Here's the summary:
+
+**Change made (v1.2.0 → v1.3.0):** `bias_adjustment` is now zeroed out when a fact has no clear directional category (`direction == 0.0`).
+
+**Why this matters:** Yesterday's sensitivity cut (0.015→0.001) was the right diagnosis — last cycle MSE dropped from ~0.05 to 0.00592. But every fact from a positively-biased actor (government officials, OSINT, social media) was still adding a small upward nudge to `net_signal` even when that fact's category wasn't classified as escalatory or de-escalatory. With 30+ facts per cycle and most actors having positive `escalation_bias`, these small pushes accumulated into systematic overprediction. The fix ensures unclassified facts contribute exactly zero — no signal, no noise.

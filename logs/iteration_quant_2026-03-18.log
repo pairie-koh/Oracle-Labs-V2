@@ -1,0 +1,5 @@
+Done. Summary of what was done:
+
+**Change made (v1.4.0 → v1.5.0):** Reduced `momentum_forecast` pull coefficient from `0.15` to `0.08` in `forecast_market()`.
+
+**Why:** Quant is 40× worse than the naive baseline overall, but the MSE trend is improving — last cycle was only 3.15e-05. The residual risk is EWMA lag: when the market moves suddenly, `ewma - current` grows and the 0.15 coefficient drags the forecast away from current price. Halving to 0.08 further anchors predictions to current price, which is the dominant signal in this stable low-vol market. Directional accuracy is already 91.67%, so reducing magnitude of corrections is the right lever.

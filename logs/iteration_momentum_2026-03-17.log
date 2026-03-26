@@ -1,0 +1,5 @@
+Done. Summary:
+
+**Change made (v1.3.0 → v1.4.0):** `MOMENTUM_WEIGHT` reduced from `0.3` → `0.15`
+
+**Why:** Directional accuracy is 0.0/7 — the momentum signal is systematically wrong every time. The naive baseline beats us by 18% on MSE, and last cycle's error spiked 100x. Halving the momentum weight dampens how far predictions overshoot from current price in the wrong direction, moving behavior closer to the naive baseline until the signal starts showing real directional skill.

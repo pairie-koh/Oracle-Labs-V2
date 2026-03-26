@@ -1,0 +1,134 @@
+=== Forecast cycle start: 2026-03-11T00:05:01Z ===
+[1/7] Running newswire...
+=== Newswire Pipeline ===
+[1/3] Gathering raw news from Perplexity...
+  [1/2] regime_fall / military_security...
+    Got 2560 chars
+  [2/2] regime_fall / political_diplomatic_economic...
+    Got 2237 chars
+
+[2/3] Normalizing 2 raw reports with Haiku...
+  Calling Haiku for normalization...
+  Normalized: 21 valid facts (dropped 0)
+
+[3/3] Saving facts...
+  Saved 21 facts to fact_history/facts.csv and fact_history/latest.json
+
+=== Newswire complete: 21 facts ===
+[2/7] Updating state...
+=== State Update ===
+  Loaded state for markets: ['regime_fall']
+  Processing 21 facts...
+  Calling Haiku for state update...
+  Saved state to state/current.json
+  State updated via Haiku
+
+  regime_fall:
+    Status: Intensive US-Israeli military campaign continues with sustained airstrikes targeting Iranian military infrastructure, while two US carrier strike groups, B-1B bombers, and air refueling assets maintain operational pressure. Iran exhibits internal leadership rifts between hardliners and moderates, with Mojtaba Khamenei consolidating succession amid explicit US rejection of his legitimacy and degraded military capabilities.
+    military_pressure: critical
+    internal_stability: critical
+    succession_dynamics: critical
+    diplomatic_signals: critical
+    economic_collapse: high
+    international_response: critical
+[3/7] Preparing briefing...
+=== Assembling briefing ===
+Fetching current prices...
+  regime_fall: 0.2350
+Wrote briefing to briefings/20260311T000531Z.json
+Wrote briefings/latest.json
+
+Briefing summary:
+  Timestamp: 2026-03-11T00:05:31Z
+  regime_fall: 0.2350 (4h: +0.0000, 24h: -0.0200)
+  Fresh facts: 21
+  State keys: ['last_updated', 'markets']
+[4/7] Running agent forecasts...
+[momentum v1.1.0] 2026-03-11T00:05:31Z
+  regime_fall: 0.2350 → 0.2392 (reversion, intensity=2.1, blend=0.19, momentum_sig=-0.0010)
+  momentum: OK
+[historian v1.1.0] 2026-03-11T00:05:31Z
+  regime_fall: 0.2350 → 0.2561 (base=0.335, reversion=+0.003000, raw_signal=2.53, capped_shift=+0.018118)
+  historian: OK
+[game_theorist v1.1.0] 2026-03-11T00:05:31Z
+  regime_fall: 0.2350 → 0.3773 (signal=9.487, consensus=0.76, costly=4, esc=16/deesc=5)
+  game_theorist: OK
+[quant v1.1.0] 2026-03-11T00:05:31Z
+  regime_fall: 0.2350 → 0.2959 (ewma=0.2402, vol=0.0533, med_vol=0.0297, blend=0.34, n=345)
+  quant: OK
+[5/7] Evaluating...
+=== Evaluation ===
+  Loaded 345 price history rows
+  momentum: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.000296, Directional=1/1
+  historian: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.000336, Directional=1/1
+  game_theorist: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.182730, Directional=1/1
+  quant: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.009248, Directional=1/1
+
+  Leaderboard updated (5 entries)
+    #1 historian: MSE=0.000118
+    #2 naive_baseline: MSE=0.000133
+    #3 momentum: MSE=0.000403
+    #4 quant: MSE=0.001978
+    #5 game_theorist: MSE=0.036791
+[6/7] Generating report...
+[report] Saved to reports/20260311T000532Z.txt
+[report] Saved to reports/latest.txt
+
+=== Oracle Lab Cycle Report ===
+2026-03-11T00:05:32Z
+Briefing: 2026-03-11T00:05:31Z
+
+── Market Snapshot ──
+  regime_fall: 0.235 (4h: +0.000, 24h: -0.020)
+
+── Newswire ──
+  21 facts (15 escalatory, 4 de-escalatory, 2 neutral)
+  Top claims:
+    [military_pressure] Two US carrier strike groups (USS Gerald R. Ford and USS Abraham Lincoln) are operating...
+    [military_pressure] The USS Gerald R. Ford's air wings are supported by 14 US Air Force refueling tankers s...
+    [military_pressure] US B-1B Lancers have arrived at RAF Fairford for defensive operations in the Middle East.
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.239   +0.004  intensity=2.1 (decayed), blend=0.19
+  historian          0.256   +0.021  base=0.34 (adaptive), capped_shift=+0.018
+  game_theorist      0.377   +0.142  consensus=0.76, costly_signals=4
+  quant              0.296   +0.061  ewma=0.240, vol=0.053, blend=0.34
+
+  Spread: 0.138 (game_theorist high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=6, MSE=0.000403, dir_acc=16.7%, P&L=-2.0
+  historian        predictions=5, MSE=0.000118, dir_acc=40.0%, P&L=+2.0
+  game_theorist    predictions=5, MSE=0.036791, dir_acc=20.0%, P&L=+2.0
+  quant            predictions=5, MSE=0.001978, dir_acc=20.0%, P&L=+2.0
+
+── Leaderboard ──
+  #1 historian            MSE=0.000118
+  #2 naive_baseline       MSE=0.000133
+  #3 momentum             MSE=0.000403
+  #4 quant                MSE=0.001978
+  #5 game_theorist        MSE=0.036791
+
+[7/7] Updating status page...
+[status] Generated status/index.html at 2026-03-10 05:05 PM PT
+Saved to /home/oracle/oracle-lab/scripts/../progress.png (5 predictions/agent, rolling window=3)
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'oracle@claude-dev-1.(none)')
+=== Forecast cycle complete: 2026-03-11T00:05:33Z ===

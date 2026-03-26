@@ -1,0 +1,281 @@
+{
+  "timestamp": "2026-03-16T12:05:44Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.285,
+      "previous": 0.285,
+      "change_4h": 0.0,
+      "change_24h": 0.0,
+      "history_24h": [
+        {
+          "t": 1773590735,
+          "p": 0.295
+        },
+        {
+          "t": 1773605131,
+          "p": 0.285
+        },
+        {
+          "t": 1773619542,
+          "p": 0.285
+        },
+        {
+          "t": 1773633932,
+          "p": 0.285
+        },
+        {
+          "t": 1773648331,
+          "p": 0.285
+        },
+        {
+          "t": 1773662744,
+          "p": 0.285
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "The Iran war entered its 17th day as of March 16 morning with ongoing escalation and military operations.",
+      "source": "ACLED/News aggregator",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-16T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Overnight into March 15, explosions hit Tehran, Isfahan, Dezful, Hamedan, Shiraz, Tabriz, Garmsar, Qom, and Sirjan, targeting military, security, and state sites.",
+      "source": "ACLED/News sources",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T06:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli strikes killed two senior Iranian intelligence figures: Abdollah Jalali-Nasab and Amir Shariat, both linked to Iran's Khatam al-Anbiya command in Tehran.",
+      "source": "Iranian state media/News reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T06:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US and Israeli forces conducted hundreds of strikes across 26 Iranian provinces, prioritizing air defenses, missiles, IRGC bases, and government facilities including Tehran leadership compounds.",
+      "source": "ACLED",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "IRGC and Basij forces increased checkpoints, patrols, and drone surveillance amid rising military losses.",
+      "source": "News reports/Monitoring sources",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC Intelligence issued a March 12 statement urging constant street presence to counter protests amid rising unrest.",
+      "source": "State media reports",
+      "source_category": "government_official",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Saudi Arabia intercepted 6 Iranian missiles and 34 drones on March 15; Bahrain intercepted 125+ missiles and 200+ drones since war start.",
+      "source": "Gulf state military reports",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "UAE oil operations were disrupted due to Iranian military operations.",
+      "source": "News reports",
+      "source_category": "market_commentary",
+      "indicator_category": "economic_collapse",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mojtaba Khamenei was appointed Supreme Leader on March 8, 2026, and issued his first message during the war emphasizing continued conflict and Basij street presence.",
+      "source": "News reports",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-08T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "On March 13, anti-regime clerics including Ali Asghar Hejazi and Alireza Arafi questioned Mojtaba Khamenei's health and leadership, urging reinstatement of a constitutional Leadership Council.",
+      "source": "Anti-regime reports",
+      "source_category": "osint",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-13T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "An elite NOPO counterterrorism unit has been assigned to protect Mojtaba Khamenei following his father's assassination on February 28.",
+      "source": "News reports",
+      "source_category": "osint",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-08T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Anti-IRGC chants including 'death to the IRGC' were reported in Tehran's Saadat Abad district during ongoing unrest.",
+      "source": "News reports",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iranian regime officials threatened to shoot protesters and revive 1988 massacre tactics amid escalating unrest.",
+      "source": "News reports/Monitoring sources",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Shiraz's Revolutionary Court chief is now operating from prison amid ongoing repression.",
+      "source": "News reports",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Iranian Foreign Minister Abbas Araghchi denied targeting civilians abroad and proposed a joint investigative committee on March 15.",
+      "source": "Government official statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Hamas publicly urged Iran not to target Arab neighbors on March 15.",
+      "source": "Hamas statement",
+      "source_category": "social_media",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli PM Netanyahu stated on March 12 that Israel is 'creating optimal conditions for toppling the regime' from inside via security degradation.",
+      "source": "Israeli government official statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-12T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US Defense Secretary Pete Hegseth confirmed on March 13 that strikes destroyed Iranian missile production capacity.",
+      "source": "US government official statement",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Albanian PM Edi Rama announced on March 13 plans for a parliamentary vote to label Iran as a terrorism sponsor.",
+      "source": "Government official statement",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-13T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US military strikes have been conducted from regional bases and carriers against Iranian targets.",
+      "source": "ACLED/News reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli strikes have targeted Iran's command structure and security enforcers across multiple campaign waves hitting 500 targets with 1,200+ bombs.",
+      "source": "ACLED/News reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Drone strikes continued on Basij and IRGC checkpoints overnight into March 15, causing losses including a Tehran Basij commander.",
+      "source": "State media/News reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T06:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Unconfirmed reports indicate Mossad and special forces presence at Iranian nuclear sites as of March 14.",
+      "source": "News reports/Analysis",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T12:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Iranian strikes have targeted defense firms and military production facilities, functionally defeating ballistic missile production capacity as of March 13.",
+      "source": "News reports",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-13T12:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Regime economic pressures and war threats have fueled broader 2026 protest movements.",
+      "source": "Historical analysis/News reports",
+      "source_category": "osint",
+      "indicator_category": "economic_collapse",
+      "market": "regime_fall",
+      "time": "2026-03-15T12:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-16T12:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "War entered its 17th day with US and Israeli forces conducting hundreds of strikes across 26 provinces, killing senior intelligence officials and degrading missile production capacity, while Mojtaba Khamenei consolidates control amid anti-regime protests, internal security escalation, and emerging diplomatic overtures alongside regime threats to suppress unrest.",
+        "last_major_event": "US and Israeli forces conducted hundreds of strikes across 26 Iranian provinces on March 15, destroying air defenses, missiles, IRGC bases, and government facilities including Tehran leadership compounds, while simultaneously killing senior Iranian intelligence figures Abdollah Jalali-Nasab and Amir Shariat.",
+        "last_major_event_time": "2026-03-15T12:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "critical",
+        "succession_dynamics": "high",
+        "diplomatic_signals": "critical",
+        "economic_collapse": "critical",
+        "international_response": "critical"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

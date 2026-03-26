@@ -1,0 +1,317 @@
+{
+  "timestamp": "2026-03-16T16:06:25Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.285,
+      "previous": 0.285,
+      "change_4h": 0.0,
+      "change_24h": -0.01,
+      "history_24h": [
+        {
+          "t": 1773605131,
+          "p": 0.285
+        },
+        {
+          "t": 1773619542,
+          "p": 0.285
+        },
+        {
+          "t": 1773633932,
+          "p": 0.285
+        },
+        {
+          "t": 1773648331,
+          "p": 0.285
+        },
+        {
+          "t": 1773662744,
+          "p": 0.285
+        },
+        {
+          "t": 1773677185,
+          "p": 0.285
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "US-Israeli combined force conducted airstrikes on Iranian military targets including the 4th Artesh Air Force Tactical Airbase in Dezful and 9th Artesh Air Force Tactical Airbase in Bandar Abbas on March 15.",
+      "source": "CTP-ISW",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli military strikes killed two senior Iranian intelligence figures, Abdollah Jalali-Nasab and Amir Shariat, tied to Khatam al-Anbiya emergency command in Tehran on March 15.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US-Israeli forces conducted airstrikes on Iranian-backed Iraqi militias in al-Qaim, Babylon, and Kirkuk provinces on March 15, killing at least eight fighters from the PMF's 19th Brigade.",
+      "source": "CTP-ISW",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Combined force strikes targeted IRGC Navy ammunition depot in Bushehr Province and Bandar-e Jask port in Hormozgan on March 15.",
+      "source": "CTP-ISW",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Strikes hit security sites and military infrastructure across multiple Iranian cities including Tehran, Isfahan, Dezful, Hamedan, Shiraz, Tabriz, Garmsar, Qom, and Sirjan on March 15.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC Aerospace Force commander Majid Mousavi claimed Iran launched a Sejjil ballistic missile at Israel for the first time during the war on March 15.",
+      "source": "CTP-ISW",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "By March 5, Iran had fired over 500 ballistic/naval missiles and almost 2,000 drones since February 28.",
+      "source": "Fars",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-05T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US and Israeli intelligence assess that the IRGC is effectively controlling strategic decisions because Supreme Leader Mojtaba Khamenei is wounded, with IRGC personnel managing him.",
+      "source": "CBS News and Fox News",
+      "source_category": "us_prestige",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iranian-backed Iraqi militia Kataib Hezbollah conducted two drone attacks on March 14 targeting the former US Victory Base near Baghdad International Airport.",
+      "source": "CTP-ISW",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Saraya Awliya al-Dam claimed five operations on March 14 against US bases in and outside Iraq, including alleged attacks on US forces in Erbil and drones at Victory Base.",
+      "source": "CTP-ISW",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran's Foreign Minister Abbas Araghchi stated on March 16 that Tehran is ready to take the war with Israel and the US as far as necessary in response to attacks.",
+      "source": "Multiple outlets",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-16T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Saudi Arabia intercepted six missiles and 34 drones launched from Iran on March 15.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Bahrain reported downing more than 125 missiles and over 200 drones since the war began, with additional interceptions in the latest wave on March 15.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "A drone attack in the UAE triggered a fire at Fujairah, disrupting some oil-loading operations on March 15.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC Intelligence Organization issued a statement on March 12 calling on IRGC-affiliated and Basij forces to maintain constant presence on the ground to counter enemies creating fear and encouraging street protests.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Checkpoints have multiplied across multiple Iranian cities and Basij forces are deployed at roadblocks as of March 15.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Residents in Tehran reported night-time anti-IRGC chants including 'death to the IRGC' in Saadat Abad as of March 15.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US President Donald Trump told NBC News on March 14 that while Iran wants to make a deal, he is not prepared to negotiate because Iran's terms are not good enough yet.",
+      "source": "NBC News",
+      "source_category": "us_prestige",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian Foreign Affairs Minister Abbas Araghchi stated on March 15 that Iran has neither requested a ceasefire nor negotiations with the United States and is prepared to defend itself as long as necessary.",
+      "source": "Multiple outlets",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Trump administration rejected diplomatic efforts by Middle Eastern allies including Oman and Egypt to initiate peace talks.",
+      "source": "Multiple outlets",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Three Iranian sources separately denied any prospect of negotiations between Iran and the United States.",
+      "source": "Multiple outlets",
+      "source_category": "wire_service",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Law Enforcement Command (LEC) Commander Ahmad Reza Radan announced on March 15 that Iranian security forces have arrested 500 individuals for sending information to Iran's adversaries and anti-regime media.",
+      "source": "Multiple outlets",
+      "source_category": "wire_service",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The UN Independent International Fact-Finding Mission warned on March 11 that Iranian civilians face escalating risks from external military strikes combined with internal security measures, noting unprecedented risk of grave human rights violations.",
+      "source": "UN",
+      "source_category": "government_official",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-11T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Military and law enforcement officials have explicitly categorized domestic protests as military targets.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The PMOI Resistance Units launched a widespread grassroots campaign across major Iranian cities including Tehran, Kermanshah, Qazvin, Karaj, Shiraz, and Ilam, installing banners, posters, and graffiti rejecting dictatorship.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "A PMOI commander described fierce clashes during a February 23 offensive against Khamenei's headquarters in Tehran, highlighting determination to strike at the regime's center.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-02-23T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Strikes targeted buildings linked to ballistic missile production west of Tehran near the Malard Missile Launch Site on March 15.",
+      "source": "CTP-ISW",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Strikes on Basij headquarters in Hamedan Province and Law Enforcement Command headquarters occurred as part of internal security infrastructure targeting on March 15.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Tarasht Space Research Institute in western Tehran was targeted in strikes on March 15.",
+      "source": "Opposition media",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-16T12:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "War entered its 17th day with US and Israeli forces conducting sustained, coordinated strikes across Iranian military infrastructure, including air bases, missile production facilities, and internal security headquarters, while simultaneously Iran escalates missile and drone attacks on regional targets and the regime intensifies internal security crackdowns amid growing anti-regime protests and signs of leadership dysfunction.",
+        "last_major_event": "US and Israeli forces conducted hundreds of coordinated strikes on March 15 across 26 Iranian provinces, targeting air bases (Dezful, Bandar Abbas), IRGC Navy facilities (Bushehr, Bandar-e Jask), ballistic missile production sites, internal security infrastructure (Basij and Law Enforcement Command headquarters), killing senior intelligence officials Abdollah Jalali-Nasab and Amir Shariat, while simultaneously degrading Iran's air defense and missile production capacity.",
+        "last_major_event_time": "2026-03-15T12:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "critical",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "critical",
+        "economic_collapse": "critical",
+        "international_response": "critical"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

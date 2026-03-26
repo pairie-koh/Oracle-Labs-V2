@@ -1,0 +1,7 @@
+error: unknown option '-C'
+**Done.** Summary:
+
+- **Problem:** MSE 514× worse than naive baseline, despite 97% directional accuracy. Agent was predicting the right direction but overshooting by 5–15pp per cycle.
+- **Change:** `ESCALATION_SENSITIVITY` 0.015 → 0.001 (v1.2.0)
+- **Result:** Shifts are now ~0.4pp per cycle, consistent with how little a 4-hour prediction window should deviate from current price on a low-volatility market.
+- **Directional logic unchanged** — costly signal bonus, consensus scaling, and actor credibility remain intact.

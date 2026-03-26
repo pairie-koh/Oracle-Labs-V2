@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-18T16:05:45Z
+Briefing: 2026-03-18T16:05:44Z
+
+── Market Snapshot ──
+  regime_fall: 0.285 (4h: +0.000, 24h: -0.020)
+
+── Newswire ──
+  26 facts (19 escalatory, 2 de-escalatory, 5 neutral)
+  Top claims:
+    [succession_dynamics] Supreme Leader Ali Khamenei was killed in a U.S. airstrike on March 16-17, 2026.
+    [succession_dynamics] Ali Larijani, secretary of the Supreme National Security Council, was killed in overnig...
+    [succession_dynamics] Gholamreza Soleimani, commander of the Basij paramilitary force, was killed in strikes ...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.286   +0.001  intensity=1.2 (decayed), blend=0.13
+  historian          0.287   +0.002  base=0.27 (adaptive), capped_shift=+0.003
+  game_theorist      0.300   +0.015  consensus=0.92, costly_signals=1
+  quant              0.285   +0.000  ewma=0.288, vol=0.041, blend=0.45
+
+  Spread: 0.015 (game_theorist high, quant low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=17, MSE=0.000107, dir_acc=17.6%, P&L=+0.0
+  historian        predictions=17, MSE=0.000122, dir_acc=35.3%, P&L=+0.0
+  game_theorist    predictions=16, MSE=0.000268, dir_acc=18.8%, P&L=+0.0
+  quant            predictions=16, MSE=0.003827, dir_acc=25.0%, P&L=-2.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000106
+  #2 momentum             MSE=0.000107
+  #3 historian            MSE=0.000122
+  #4 game_theorist        MSE=0.000268
+  #5 quant                MSE=0.003827

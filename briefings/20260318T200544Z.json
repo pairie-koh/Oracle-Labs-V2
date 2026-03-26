@@ -1,0 +1,290 @@
+{
+  "timestamp": "2026-03-18T20:05:44Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.285,
+      "previous": 0.285,
+      "change_4h": 0.0,
+      "change_24h": -0.01,
+      "history_24h": [
+        {
+          "t": 1773792340,
+          "p": 0.295
+        },
+        {
+          "t": 1773806735,
+          "p": 0.285
+        },
+        {
+          "t": 1773821130,
+          "p": 0.295
+        },
+        {
+          "t": 1773835539,
+          "p": 0.285
+        },
+        {
+          "t": 1773849944,
+          "p": 0.285
+        },
+        {
+          "t": 1773864344,
+          "p": 0.285
+        }
+      ]
+    }
+  },
+  "fresh_facts": [
+    {
+      "claim": "Israeli forces conducted waves of attacks across Iran on March 17, 2026, targeting Tehran intelligence headquarters, IRGC Navy headquarters, Isfahan, Bandar Abbas, Karaj, Shiraz, Tabriz, and Kermanshah.",
+      "source": "Alma Research / Israeli analysis",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "IDF eliminated Ali Larijani (Supreme National Security Council Secretary) and Gholamreza Soleimani (Basij commander) near Tehran on March 17, 2026, with deaths confirmed by Iranian state media.",
+      "source": "Iranian state media / Alma Research",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T06:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iran fired missiles at Israel on March 17, 2026, following the eliminations of senior military figures, resulting in two Israeli civilian deaths in Ramat Gan.",
+      "source": "Alma Research / Israeli analysis",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T10:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israel launched a ground invasion of southern Lebanon on March 17, 2026, as part of broader military operations.",
+      "source": "Alma Research / Israeli analysis",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US Central Command reported over 7,000 targets struck and 6,500+ air sorties conducted, with 100+ Iranian ships damaged or destroyed since the campaign start as of March 17, 2026.",
+      "source": "US Central Command",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "US and Israeli strikes established airspace control from western Iran to central Tehran within the initial 24 hours, targeting 200+ air defense systems, ballistic missiles, IRGC bases, and leadership sites.",
+      "source": "Alma Research / Israeli analysis",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "A US strike hit an Iranian drone facility in South Khorasan on March 16, 2026, evening.",
+      "source": "ACLED / conflict data",
+      "source_category": "osint",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-16T20:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Iran fired over 500 missiles and 2,000 drones by March 5, 2026, with additional barrages including high-impact strikes with 1,000+ kg payloads continuing since March 10.",
+      "source": "Alma Research / Israeli analysis",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-05T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Saudi Arabia intercepted 6 missiles and 34 drones on early March 15, 2026; Bahrain downed 125+ missiles and 200+ drones since the campaign start.",
+      "source": "Alma Research / regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T06:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Kuwait and UAE intercepted drones, with an incident causing an oil fire in Fujairah during the March 2026 campaign.",
+      "source": "Alma Research / regional reporting",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The IRGC ordered city evacuations, including Mariwan on March 3, 2026, and increased Basij street presence to counter protests.",
+      "source": "NCRI / opposition-linked reporting",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-03T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Anti-IRGC chants were reported in Tehran neighborhoods including Saadat Abad following drone strikes on IRGC and Basij checkpoints as of March 15, 2026.",
+      "source": "NCRI / opposition-linked reporting",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "IRGC Intelligence issued a March 12, 2026 statement ordering constant Basij presence on streets to suppress protests and instability.",
+      "source": "NCRI / opposition-linked reporting",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Reports indicated orders to shoot protesters, with the judiciary reportedly prepared for 1988-style massacre-level executions against opposition as of March 15, 2026.",
+      "source": "NCRI / opposition-linked reporting",
+      "source_category": "osint",
+      "indicator_category": "internal_stability",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Iranian state media claimed the political system remains intact and stable despite assassinations of top figures like Ali Larijani as of March 18, 2026.",
+      "source": "Iranian state media",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-18T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mojtaba Khamenei issued his first statement as new leader on March 12, 2026, emphasizing war continuation, threats to the Strait of Hormuz, and expanded Basij street presence.",
+      "source": "Iranian state media / regional analysis",
+      "source_category": "government_official",
+      "indicator_category": "succession_dynamics",
+      "market": "regime_fall",
+      "time": "2026-03-12T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Iranian Foreign Minister Abbas Araghchi denied targeting civilians in neighboring states as of March 15, 2026, and proposed joint investigative committees with regional partners.",
+      "source": "Iranian government statement",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "An adviser to US President Donald Trump expressed frustration on February 18, 2026, over insufficient progress in US-Iran agreement talks, describing potential weeks-long military campaigns.",
+      "source": "US government reporting",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-02-18T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The Albanian Prime Minister Edi Rama planned a parliamentary vote on March 13, 2026, to label Iran a state sponsor of terrorism.",
+      "source": "Albanian government statement",
+      "source_category": "government_official",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-13T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The US Federal Reserve held rates steady on March 18, 2026, citing uncertainty from the Iran conflict now in its third week, impacting inflation and jobs forecasts.",
+      "source": "US Federal Reserve",
+      "source_category": "government_official",
+      "indicator_category": "economic_collapse",
+      "market": "regime_fall",
+      "time": "2026-03-18T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "Israeli strikes killed senior Iranian intelligence figure Abdollah Jalali-Nasab in Tehran during March 15-16 operations, with the death confirmed by Iranian media.",
+      "source": "Iranian state media / Israeli analysis",
+      "source_category": "government_official",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "claim": "A Fact-Finding Mission on Iran warned of crimes against humanity from trapped civilians amid conflict and repression as of March 15, 2026.",
+      "source": "UN Fact-Finding Mission",
+      "source_category": "think_tank",
+      "indicator_category": "international_response",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "37 attack waves on Iran were reported on March 17, 2026, after a dip to 34 on March 15, with sustained rocket and UAV fire.",
+      "source": "Alma Research / conflict tracking",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "US and Israeli strikes targeted nuclear-adjacent sites, detention facilities, broadcasting infrastructure, and command structures, with unconfirmed reports of Mossad and special forces operations at nuclear facilities.",
+      "source": "Alma Research / Israeli analysis",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-16T00:00:00Z",
+      "confidence": "low"
+    },
+    {
+      "claim": "Hezbollah sustained offensives from Lebanon as part of the broader regional conflict as of March 17, 2026.",
+      "source": "Alma Research / Israeli analysis",
+      "source_category": "regional_specialist",
+      "indicator_category": "military_pressure",
+      "market": "regime_fall",
+      "time": "2026-03-17T00:00:00Z",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Gulf states hosting US military bases denied Iranian claims of US use of their territory or airspace for strikes against Iran.",
+      "source": "Gulf state statements / regional reporting",
+      "source_category": "government_official",
+      "indicator_category": "diplomatic_signals",
+      "market": "regime_fall",
+      "time": "2026-03-15T00:00:00Z",
+      "confidence": "medium"
+    }
+  ],
+  "state": {
+    "last_updated": "2026-03-18T00:00:00Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "Following Supreme Leader Ali Khamenei's confirmed death in US airstrikes on March 16-17, 2026, and Mojtaba Khamenei's succession, the Iranian regime faces catastrophic military collapse with coordinated US-Israeli operations destroying 200+ air defense systems, eliminating senior security leadership (Ali Larijani, Gholamreza Soleimani, Abdollah Jalali-Nasab), and establishing airspace control across western and central Iran. The regime is experiencing simultaneous critical internal instability with emerging anti-IRGC protests, economic deterioration signaled by global financial market uncertainty, and international isolation, while attempting to maintain control through expanded Basij street presence and preparations for large-scale repression.",
+        "last_major_event": "US and Israeli forces conducted synchronized waves of strikes across Iran on March 17, 2026, targeting Tehran intelligence headquarters, IRGC Navy headquarters, and multiple strategic cities (Isfahan, Bandar Abbas, Karaj, Shiraz, Tabriz, Kermanshah), establishing airspace control and eliminating additional senior military figures as part of 7,000+ target campaign with 6,500+ sorties.",
+        "last_major_event_time": "2026-03-17T00:00:00Z",
+        "military_pressure": "critical",
+        "internal_stability": "critical",
+        "succession_dynamics": "critical",
+        "diplomatic_signals": "high",
+        "economic_collapse": "critical",
+        "international_response": "high"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

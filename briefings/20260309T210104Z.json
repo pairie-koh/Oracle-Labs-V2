@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-03-09T21:01:04Z",
+  "market_prices": {
+    "regime_fall": {
+      "current": 0.255,
+      "previous": 0.275,
+      "change_4h": -0.02,
+      "change_24h": -0.07,
+      "history_24h": [
+        {
+          "t": 1773007216,
+          "p": 0.325
+        },
+        {
+          "t": 1773014416,
+          "p": 0.325
+        },
+        {
+          "t": 1773021617,
+          "p": 0.315
+        },
+        {
+          "t": 1773028818,
+          "p": 0.315
+        },
+        {
+          "t": 1773036015,
+          "p": 0.315
+        },
+        {
+          "t": 1773043216,
+          "p": 0.315
+        },
+        {
+          "t": 1773050416,
+          "p": 0.315
+        },
+        {
+          "t": 1773057614,
+          "p": 0.315
+        },
+        {
+          "t": 1773064814,
+          "p": 0.305
+        },
+        {
+          "t": 1773072015,
+          "p": 0.29
+        },
+        {
+          "t": 1773079217,
+          "p": 0.275
+        },
+        {
+          "t": 1773086417,
+          "p": 0.235
+        },
+        {
+          "t": 1773087078,
+          "p": 0.255
+        },
+        {
+          "t": 1773087111,
+          "p": 0.255
+        },
+        {
+          "t": 1773090064,
+          "p": 0.255
+        }
+      ]
+    }
+  },
+  "fresh_facts": [],
+  "state": {
+    "last_updated": "2026-03-09T21:01:04Z",
+    "markets": {
+      "regime_fall": {
+        "current_status": "Updated with 2 new facts as of 2026-03-09T20:14:29Z.",
+        "last_major_event": "Test claim about military deployment",
+        "last_major_event_time": "2026-03-09T10:00:00Z",
+        "military_pressure": "low",
+        "internal_stability": "none",
+        "succession_dynamics": "none",
+        "diplomatic_signals": "none",
+        "economic_collapse": "low",
+        "international_response": "none"
+      }
+    }
+  },
+  "price_history_path": "price_history/prices.csv"
+}

@@ -1,0 +1,36 @@
+=== Oracle Lab Cycle Report ===
+2026-03-15T20:05:31Z
+Briefing: 2026-03-15T20:05:31Z
+
+── Market Snapshot ──
+  regime_fall: 0.285 (4h: -0.010, 24h: +0.020)
+
+── Newswire ──
+  22 facts (14 escalatory, 5 de-escalatory, 3 neutral)
+  Top claims:
+    [military_pressure] Approximately 2,500 U.S. Marines from the 31st Marine Expeditionary Unit and the amphib...
+    [military_pressure] Israel conducted approximately 7,600 airstrikes over two weeks, including 2,000+ on Ira...
+    [military_pressure] U.S. military struck more than 15,000 targets in Iran over nearly two weeks, according ...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.289   +0.004  intensity=0.5 (decayed), blend=0.09
+  historian          0.292   +0.007  base=0.26 (adaptive), capped_shift=+0.008
+  game_theorist      0.341   +0.056  consensus=0.68, costly_signals=3
+  quant              0.324   +0.039  ewma=0.282, vol=0.035, blend=0.48
+
+  Spread: 0.053 (game_theorist high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=35, MSE=0.000132, dir_acc=25.7%, P&L=-2.0
+  historian        predictions=34, MSE=0.000282, dir_acc=26.5%, P&L=+2.0
+  game_theorist    predictions=34, MSE=0.041093, dir_acc=26.5%, P&L=+8.0
+  quant            predictions=34, MSE=0.004852, dir_acc=26.5%, P&L=+7.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000080
+  #2 momentum             MSE=0.000132
+  #3 historian            MSE=0.000282
+  #4 quant                MSE=0.004852
+  #5 game_theorist        MSE=0.041093

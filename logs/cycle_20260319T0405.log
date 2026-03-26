@@ -1,0 +1,157 @@
+=== Forecast cycle start: 2026-03-19T04:05:01Z ===
+[1/7] Running newswire...
+=== Newswire Pipeline ===
+[1/3] Gathering raw news from Perplexity...
+  [1/2] regime_fall / military_security...
+    Got 3012 chars
+  [2/2] regime_fall / political_diplomatic_economic...
+    Got 2580 chars
+
+[2/3] Normalizing 2 raw reports with Haiku...
+  Calling Haiku for normalization...
+  Normalized: 28 valid facts (dropped 0)
+
+[3/3] Saving facts...
+  Saved 28 facts to fact_history/facts.csv and fact_history/latest.json
+
+=== Newswire complete: 28 facts ===
+[2/7] Updating state...
+=== State Update ===
+  Loaded state for markets: ['regime_fall']
+  Processing 28 facts...
+  Calling Haiku for state update...
+  Saved state to state/current.json
+  State updated via Haiku
+
+  regime_fall:
+    Status: Following Supreme Leader Ali Khamenei's death and Mojtaba Khamenei's succession, the Iranian regime faces an unprecedented convergence of external and internal pressures: intensive coordinated US-Israeli military operations have systematically targeted Iranian military command structures, with Israeli strikes on March 17-18 killing approximately 300+ Basij commanders including senior leadership, destroying critical infrastructure, and degrading command-and-control capabilities, while internally the regime deploys expanded Basij forces and judicial repression measures against anti-IRGC protests and unrest in Tehran neighborhoods.
+    military_pressure: critical
+    internal_stability: critical
+    succession_dynamics: critical
+    diplomatic_signals: high
+    economic_collapse: critical
+    international_response: high
+[3/7] Preparing briefing...
+=== Assembling briefing ===
+Fetching current prices...
+  regime_fall: 0.2750
+Wrote briefing to briefings/20260319T040535Z.json
+Wrote briefings/latest.json
+
+Briefing summary:
+  Timestamp: 2026-03-19T04:05:35Z
+  regime_fall: 0.2750 (4h: -0.0100, 24h: -0.0100)
+  Fresh facts: 28
+  State keys: ['last_updated', 'markets']
+[4/7] Running agent forecasts...
+[momentum v1.6.0] 2026-03-19T04:05:35Z
+  regime_fall: 0.2750 → 0.2761 (reversion, intensity=1.6, blend=0.16, momentum_sig=-0.0075)
+  momentum: OK
+[historian v1.6.0] 2026-03-19T04:05:35Z
+  regime_fall: 0.2750 → 0.2807 (base=0.265, reversion=-0.000050, raw_signal=2.68, capped_shift=+0.005719)
+  historian: OK
+[game_theorist v1.6.0] 2026-03-19T04:05:35Z
+  regime_fall: 0.2750 → 0.2835 (signal=14.130, consensus=0.88, costly=0, esc=21/deesc=3)
+  game_theorist: OK
+[quant v1.6.0] 2026-03-19T04:05:36Z
+  regime_fall: 0.2750 → 0.2755 (ewma=0.2832, vol=0.0422, med_vol=0.0331, blend=0.45, n=394)
+  quant: OK
+[5/7] Evaluating...
+=== Evaluation ===
+  Loaded 394 price history rows
+  momentum: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.000002, Directional=0/1
+  historian: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.000006, Directional=0/1
+  game_theorist: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.000128, Directional=0/1
+  quant: scoring 1 predictions...
+    Scored 1 predictions: MSE=0.000000, Directional=0/1
+
+  Leaderboard updated (5 entries)
+    #1 naive_baseline: MSE=0.000095
+    #2 momentum: MSE=0.000096
+    #3 historian: MSE=0.000110
+    #4 game_theorist: MSE=0.000258
+    #5 quant: MSE=0.003401
+[6/7] Generating report...
+[report] Saved to reports/20260319T040536Z.txt
+[report] Saved to reports/latest.txt
+
+=== Oracle Lab Cycle Report ===
+2026-03-19T04:05:36Z
+Briefing: 2026-03-19T04:05:35Z
+
+── Market Snapshot ──
+  regime_fall: 0.275 (4h: -0.010, 24h: -0.010)
+
+── Newswire ──
+  28 facts (21 escalatory, 3 de-escalatory, 4 neutral)
+  Top claims:
+    [military_pressure] Israeli strikes on March 18 hit Tehran-area headquarters, ballistic missile sites, regi...
+    [military_pressure] On March 17, Israeli strikes killed Basij Commander Brigadier General Gholamreza Soleim...
+    [military_pressure] Approximately 300 Basij commanders were reportedly killed overnight March 16-17 in Isra...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.276   +0.001  intensity=1.6 (decayed), blend=0.16
+  historian          0.281   +0.006  base=0.27 (adaptive), capped_shift=+0.006
+  game_theorist      0.283   +0.008  consensus=0.88, costly_signals=0
+  quant              0.275   +0.000  ewma=0.283, vol=0.042, blend=0.45
+
+  Spread: 0.008 (game_theorist high, quant low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  momentum         predictions=19, MSE=0.000096, dir_acc=15.8%, P&L=+0.0
+  historian        predictions=19, MSE=0.000110, dir_acc=31.6%, P&L=+0.0
+  game_theorist    predictions=18, MSE=0.000258, dir_acc=16.7%, P&L=+0.0
+  quant            predictions=18, MSE=0.003401, dir_acc=22.2%, P&L=-2.0
+
+── Leaderboard ──
+  #1 naive_baseline       MSE=0.000095
+  #2 momentum             MSE=0.000096
+  #3 historian            MSE=0.000110
+  #4 game_theorist        MSE=0.000258
+  #5 quant                MSE=0.003401
+
+[7/7] Updating status page...
+[status] Generated status/index.html at 2026-03-18 09:05 PM PT
+Traceback (most recent call last):
+  File "/home/oracle/oracle-lab/scripts/plot_progress.py", line 220, in <module>
+    main()
+  File "/home/oracle/oracle-lab/scripts/plot_progress.py", line 216, in main
+    plot(df, use_time_axis=True)
+  File "/home/oracle/oracle-lab/scripts/plot_progress.py", line 198, in plot
+    plt.savefig(OUTPUT_PNG, dpi=150, bbox_inches="tight")
+  File "/home/oracle/oracle-lab/venv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 1250, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oracle/oracle-lab/venv/lib/python3.12/site-packages/matplotlib/figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/oracle/oracle-lab/venv/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2186, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/home/oracle/oracle-lab/venv/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2042, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/home/oracle/oracle-lab/venv/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/home/oracle/oracle-lab/venv/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 430, in _print_pil
+    mpl.image.imsave(
+  File "/home/oracle/oracle-lab/venv/lib/python3.12/site-packages/matplotlib/image.py", line 1657, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/home/oracle/oracle-lab/venv/lib/python3.12/site-packages/PIL/Image.py", line 2585, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/oracle/oracle-lab/scripts/../progress.png'
+[main b6fd08f] cycle: 2026-03-19T04:05:01Z
+ 27 files changed, 1336 insertions(+), 483 deletions(-)
+ create mode 100644 agents/game_theorist/log/20260319T040535Z.json
+ create mode 100644 agents/historian/log/20260319T040535Z.json
+ create mode 100644 agents/momentum/log/20260319T040535Z.json
+ create mode 100644 agents/quant/log/20260319T040536Z.json
+ create mode 100644 briefings/20260319T040535Z.json
+ create mode 100644 logs/cycle_20260319T0405.log
+ create mode 100644 reports/20260319T040536Z.txt
+=== Forecast cycle complete: 2026-03-19T04:05:37Z ===

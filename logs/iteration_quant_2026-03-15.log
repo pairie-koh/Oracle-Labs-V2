@@ -1,0 +1,6 @@
+error: unknown option '-C'
+Done. Summary:
+
+**Change made (v1.1.0 → v1.2.0):** Reduced momentum pull coefficient from `0.5` to `0.15` in `forecast.py:211`.
+
+**Why this matters:** quant's MSE is 60× worse than the naive baseline despite having near-perfect directional accuracy (97%). The problem isn't direction — it's magnitude. The 0.5 coefficient caused the model to aggressively pull predictions toward the EWMA whenever it lagged (e.g., EWMA=0.15, current=0.05 → old model predicted 0.10, a huge over-correction). At 0.15, the same scenario predicts 0.065 — much closer to the actual stable price. The blended forecast without news now stays much tighter around current price, which is where the stable market will likely be.

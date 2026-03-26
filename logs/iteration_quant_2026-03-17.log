@@ -1,0 +1,7 @@
+Clean run. The prediction is `0.2650 → 0.2661` — a tiny +1.1pp move, staying very close to current price rather than the large erratic swings the news was inducing. With `news_adjustment = 0`, the model now behaves like a well-damped statistical smoother.
+
+**Summary:**
+- Changed `NEWS_FEATURE_WEIGHT` from `0.01` to `0.0` (v1.3.0 → v1.4.0)
+- The `effective_news_weight` formula was silently amplifying news impact in low-vol regimes, creating a systematic escalation-direction bias
+- With news zeroed out, the EWMA + mean-reversion core should produce forecasts much closer to current price, dramatically reducing MSE toward the naive baseline level
+- Log written to `agents/quant/log/methodology_changes/2026-03-17.md`

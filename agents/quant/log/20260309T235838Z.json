@@ -1,0 +1,38 @@
+{
+  "agent": "quant",
+  "timestamp": "2026-03-09T23:58:38Z",
+  "predictions": {
+    "regime_fall": {
+      "prediction": 0.295299,
+      "current": 0.255,
+      "ewma": 0.261421,
+      "long_term_mean": 0.303542,
+      "momentum_forecast": 0.25821,
+      "reversion_forecast": 0.259854,
+      "blended": 0.259151,
+      "volatility": 0.039985,
+      "median_vol": 0.029378,
+      "adaptive_blend": 0.4278,
+      "news_adjustment": 0.036148,
+      "series_length": 339
+    }
+  },
+  "methodology_version": "1.1.0",
+  "source_weights": {
+    "wire_service": 1.0,
+    "us_prestige": 0.9,
+    "uk_prestige": 0.85,
+    "regional_specialist": 0.8,
+    "government_official": 1.0,
+    "think_tank": 0.7,
+    "osint": 0.6,
+    "social_media": 0.3,
+    "market_commentary": 0.4
+  },
+  "parameters": {
+    "momentum_lookback": 6,
+    "reversion_lookback": 24,
+    "base_momentum_blend": 0.5,
+    "news_feature_weight": 0.01
+  }
+}

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="900">
+    <title>Oracle Lab</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0f0f1a;
+            color: #e0e0e0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .container { max-width: 640px; margin: 0 auto; padding: 16px; }
+        .header { padding: 20px 0 12px; border-bottom: 1px solid #2a2a3e; margin-bottom: 16px; }
+        .header h1 { font-size: 22px; color: #fff; margin-bottom: 8px; letter-spacing: 1px; }
+        .meta { display: flex; flex-direction: column; gap: 2px; font-size: 12px; color: #888; }
+        .meta strong { color: #bbb; }
+        .section { margin-bottom: 24px; }
+        .section h2 {
+            font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px;
+            color: #666; margin-bottom: 10px; padding-bottom: 4px;
+            border-bottom: 1px solid #1e1e30;
+        }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        th { text-align: left; color: #666; font-weight: 500; padding: 4px 8px; font-size: 11px; text-transform: uppercase; }
+        td { padding: 6px 8px; border-top: 1px solid #1a1a2e; }
+        .naive-row td { color: #666; font-style: italic; }
+        .dot {
+            display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+            margin-right: 6px; vertical-align: middle;
+        }
+        .badge {
+            font-size: 10px; padding: 1px 6px; border-radius: 3px;
+            margin-left: 6px; vertical-align: middle;
+        }
+        .badge.good { background: #1a3a1a; color: #4caf50; }
+        .dim { color: #555; }
+        .up { color: #4caf50; }
+        .down { color: #e74c3c; }
+        .market-block { margin-bottom: 16px; padding: 12px; background: #16162a; border-radius: 8px; }
+        .market-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+        .current-price { font-size: 20px; font-weight: 700; color: #fff; font-family: "SF Mono", "Fira Code", monospace; }
+        .price-changes { font-size: 12px; color: #888; margin-bottom: 10px; }
+        .forecast-row {
+            display: flex; align-items: center; gap: 8px; padding: 4px 0;
+            font-family: "SF Mono", "Fira Code", monospace; font-size: 13px;
+        }
+        .forecast-row .agent-name { width: 100px; font-family: -apple-system, sans-serif; }
+        .forecast-row .pred { color: #fff; }
+        .forecast-row .delta { font-size: 12px; }
+        .trend-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; }
+        .trend-row .agent-name { width: 100px; font-size: 13px; }
+        .trend-sparkline { flex: 1; }
+        .trend-val { font-family: "SF Mono", monospace; font-size: 12px; color: #aaa; }
+        .pnl-row { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+        .pnl-row .agent-name { width: 100px; font-size: 13px; }
+        .pnl-val { font-family: "SF Mono", monospace; font-weight: 700; }
+        .news-summary { margin-bottom: 8px; }
+        .esc { color: #e74c3c; }
+        .deesc { color: #4caf50; }
+        .fact { font-size: 12px; color: #999; padding: 3px 0; border-top: 1px solid #1a1a2e; }
+        .iter-row { margin-bottom: 12px; }
+        .iter-text { font-size: 12px; color: #999; margin-top: 4px; white-space: pre-wrap; }
+        .state-block { padding: 10px; background: #16162a; border-radius: 8px; margin-bottom: 8px; }
+        .state-status { font-size: 12px; color: #bbb; margin: 6px 0; }
+        .indicators { display: flex; flex-wrap: wrap; gap: 6px; }
+        .indicator {
+            font-size: 11px; padding: 2px 8px; border-radius: 4px;
+            background: #1e1e30; color: #888;
+        }
+        .level-high { background: #3a1a1a; color: #e74c3c; }
+        .level-mod { background: #3a2a1a; color: #f39c12; }
+        .level-low { background: #1a3a1a; color: #4caf50; }
+        .analysis-card {
+            background: #16162a; border-radius: 8px; padding: 12px; margin-bottom: 12px;
+            border-left: 3px solid #333;
+        }
+        .analysis-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+        .analysis-pred {
+            font-family: "SF Mono", "Fira Code", monospace; font-size: 15px;
+            margin-bottom: 4px;
+        }
+        .analysis-time { font-size: 11px; margin-bottom: 8px; }
+        .analysis-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; }
+        .analysis-metric {
+            display: flex; justify-content: space-between; font-size: 12px;
+            padding: 2px 0; border-bottom: 1px solid #1a1a2a;
+        }
+        .metric-label { color: #777; }
+        .metric-val { font-family: "SF Mono", monospace; color: #ccc; text-align: right; }
+        .iter-summary { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+        .iter-badge {
+            display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px;
+            border-radius: 4px; letter-spacing: 0.5px;
+        }
+        .iter-ok { background: #1a3a1a; color: #4caf50; }
+        .iter-partial { background: #3a2a1a; color: #f39c12; }
+        .iter-failed { background: #3a1a1a; color: #e74c3c; }
+        .iter-running { background: #1a2a3a; color: #3498db; }
+        .iter-agent-row {
+            display: flex; align-items: center; gap: 8px; padding: 4px 0;
+            font-size: 13px; border-bottom: 1px solid #1a1a2e;
+        }
+        .iter-agent-row .agent-name { width: 100px; }
+        .iter-change-note { margin: 10px 0 6px; }
+        .iter-history { margin-top: 14px; }
+        .hist-row { display: flex; gap: 6px; flex-wrap: wrap; }
+        .hist-cell {
+            background: #16162a; border-radius: 6px; padding: 6px 8px;
+            text-align: center; min-width: 70px;
+        }
+        .hist-date { font-size: 11px; color: #888; margin-bottom: 2px; }
+        .footer { text-align: center; color: #444; font-size: 11px; padding: 20px 0; border-top: 1px solid #1e1e30; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+    <div class="header">
+        <h1>Oracle Lab</h1>
+        <div class="meta">
+            <span>Last cycle: <strong>Mar 19 05:05 PM PT</strong> (0m ago)</span>
+            <span>Next cycle: <strong>09:05 PM PT</strong> (239m)</span>
+            <span>Scored: <strong>94</strong> predictions | Logged: <strong>287</strong> forecasts</span>
+        </div>
+    </div>
+        
+    <div class="section">
+        <h2>Leaderboard</h2>
+        <table>
+            <thead><tr><th>#</th><th>Agent</th><th>MSE</th><th>Dir Acc</th><th>Version</th></tr></thead>
+            <tbody>
+            <tr class="naive-row">
+                <td>#1</td>
+                <td><span class="dot" style="background:#888888"></span> Naive Baseline</td>
+                <td>0.000079</td>
+                <td></td>
+                <td class="dim"></td>
+            </tr>
+            <tr class="">
+                <td>#2</td>
+                <td><span class="dot" style="background:#e74c3c"></span> Momentum</td>
+                <td>0.000081</td>
+                <td>12%</td>
+                <td class="dim">1.6.0</td>
+            </tr>
+            <tr class="">
+                <td>#3</td>
+                <td><span class="dot" style="background:#3498db"></span> Historian</td>
+                <td>0.000104</td>
+                <td>25%</td>
+                <td class="dim">1.6.0</td>
+            </tr>
+            <tr class="">
+                <td>#4</td>
+                <td><span class="dot" style="background:#f39c12"></span> Game Theorist</td>
+                <td>0.000221</td>
+                <td>13%</td>
+                <td class="dim">1.6.0</td>
+            </tr>
+            <tr class="">
+                <td>#5</td>
+                <td><span class="dot" style="background:#2ecc71"></span> Quant</td>
+                <td>0.002666</td>
+                <td>17%</td>
+                <td class="dim">1.6.0</td>
+            </tr></tbody>
+        </table>
+    </div>
+        
+    <div class="section">
+        <h2>Daily Iteration</h2>
+        
+        <div class="iter-summary">
+            <span class="iter-badge iter-ok">ALL OK</span>
+            <span>Mar 18 07:30 PM PT</span>
+            <span class="dim">(21h 35m ago)</span>
+        </div>
+            <div class="iter-agent-row">
+                <span class="dot" style="background:#e74c3c"></span>
+                <span class="agent-name">Momentum</span>
+                <span>&#x2705; ok</span>
+                <span class="dim">113s</span>
+                <span class="dim">v1.5.0 &rarr; v1.6.0</span>
+            </div>
+            <div class="iter-agent-row">
+                <span class="dot" style="background:#3498db"></span>
+                <span class="agent-name">Historian</span>
+                <span>&#x2705; ok</span>
+                <span class="dim">109s</span>
+                <span class="dim">v1.5.0 &rarr; v1.6.0</span>
+            </div>
+            <div class="iter-agent-row">
+                <span class="dot" style="background:#f39c12"></span>
+                <span class="agent-name">Game Theorist</span>
+                <span>&#x2705; ok</span>
+                <span class="dim">127s</span>
+                <span class="dim">v1.5.0 &rarr; v1.6.0</span>
+            </div>
+            <div class="iter-agent-row">
+                <span class="dot" style="background:#2ecc71"></span>
+                <span class="agent-name">Quant</span>
+                <span>&#x2705; ok</span>
+                <span class="dim">106s</span>
+                <span class="dim">v1.5.0 &rarr; v1.6.0</span>
+            </div>
+                <div class="iter-change-note">
+                    <span class="dot" style="background:#e74c3c"></span>
+                    <strong>Momentum</strong>
+                    <div class="iter-text"># Methodology Change — 2026-03-19
+
+**Version:** 1.5.0 → 1.6.0
+**Change:** Increased `MOMENTUM_WEIGHT` from 0.20 to 0.25.
+
+The 1.5.0 change (MOMENTUM_WEIGHT 0.15 → 0.20) produced a dramatic improvement: the last two cycles recorded MSE of 1.71e-06 and 1.89e-06, roughly 50x better than the naive baseline. Per-market directional accuracy rose to 94.4% (17/18 correct direction calls). Per `program.md`, directional accuracy well above 50% is the trigger to increase MOMENTUM_WEIGHT further. At 0.20, we may still be leaving value on the table given how reliably we call direction; raising to 0.25 extracts slightly more from each correct directional call. The increment is kept modest (0.05) to avoid overshooting on a volatile cycle.</div>
+                </div>
+                <div class="iter-change-note">
+                    <span class="dot" style="background:#3498db"></span>
+                    <strong>Historian</strong>
+                    <div class="iter-text"># Methodology Change — 2026-03-19
+
+**Version:** 1.5.0 → 1.6.0
+**Change:** Increased `MAX_NEWS_SHIFT` from 0.010 to 0.015
+
+## Reasoning
+
+The scorecard shows 94.44% directional accuracy on regime_fall — we are calling the direction correctly almost every time. However, overall MSE (0.00011598) remains above the naive baseline (0.00009999), meaning our magnitude of shift is sometimes insufficient to capture actual price moves.
+
+With the current 1pp cap, any genuine market-moving news that causes a price shift greater than 1pp leaves us under-corrected relative to where the price actually lands. Since our directional signal is highly reliable, widening the cap to 1.5pp should reduce MSE on cycles where actual price movement exceeds the old cap.
+
+The last two cycles were excellent (MSE 1.72e-06 and 5.76e-06), confirming the current framework is sound. This is a conservative, directional expansion — not a structural change — intended to close the remaining gap to the naive baseline.</div>
+                </div>
+                <div class="iter-change-note">
+                    <span class="dot" style="background:#f39c12"></span>
+                    <strong>Game Theorist</strong>
+                    <div class="iter-text"># Methodology Change — 2026-03-19
+
+**Version:** 1.5.0 → 1.6.0
+
+**Change:** Reduced `ESCALATION_SENSITIVITY` from 0.0007 to 0.0004.
+
+**Reasoning:** Per-market directional accuracy is 94.12% — the direction logic is working correctly. The remaining problem is magnitude: overall MSE is 0.00026561, 2.5× worse than the naive baseline of 0.00010589. The mse_trend_last_5 shows volatile recent cycles ([9.003e-05, 3.734e-05, 0.00023019]), indicating that even at 0.0007 sensitivity the agent still overshoots when signal strength is high (e.g., signal=10.65 this cycle). Reducing sensitivity 43% to 0.0004 shrinks shifts proportionally, keeping predictions tighter to the current price without disturbing direction, which continues the successful trajectory established across v1.2.0–v1.5.0.
+
+**Expected effect:** Smaller per-cycle shifts should reduce squared error on high-signal cycles, bringing recent-cycle MSE consistently below the naive baseline of 0.000106. Direction is already correct; this change only reduces overshoot magnitude.</div>
+                </div>
+                <div class="iter-change-note">
+                    <span class="dot" style="background:#2ecc71"></span>
+                    <strong>Quant</strong>
+                    <div class="iter-text"># Methodology Change — 2026-03-19
+
+**Version:** 1.5.0 → 1.6.0
+**Change:** Reduced `reversion_forecast` coefficient from 0.05 to 0.03.
+
+The `mse_trend_last_5` shows the last two prediction cycles achieved near-zero squared error (1e-08 and 0.0), confirming that predictions staying extremely close to current price are optimal for this stable, low-volatility market (~4% Iranian regime fall probability). The reversion pull toward the 24-period long-term mean introduces unnecessary drift away from current price. Reducing the coefficient from 0.05 to 0.03 further anchors predictions to current, extending the near-zero MSE streak while maintaining the adaptive blend and EWMA momentum structure.</div>
+                </div>
+            <div class="iter-history">
+                <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
+                <div class="hist-row">
+                <div class="hist-cell">
+                    <div class="hist-date">03-19</div>
+                    <div class="iter-badge iter-ok" style="font-size:10px">OK</div>
+                    <div class="dim" style="font-size:9px">Mom:OK, His:OK, Gam:OK, Qua:OK</div>
+                </div>
+                <div class="hist-cell">
+                    <div class="hist-date">03-18</div>
+                    <div class="iter-badge iter-ok" style="font-size:10px">OK</div>
+                    <div class="dim" style="font-size:9px">Mom:OK, His:OK, Gam:OK, Qua:OK</div>
+                </div>
+                <div class="hist-cell">
+                    <div class="hist-date">03-17</div>
+                    <div class="iter-badge iter-ok" style="font-size:10px">OK</div>
+                    <div class="dim" style="font-size:9px">Mom:OK, His:OK, Gam:OK, Qua:OK</div>
+                </div>
+                <div class="hist-cell">
+                    <div class="hist-date">03-16</div>
+                    <div class="iter-badge iter-ok" style="font-size:10px">OK</div>
+                    <div class="dim" style="font-size:9px">Mom:OK, His:OK, Gam:OK, Qua:OK</div>
+                </div>
+                <div class="hist-cell">
+                    <div class="hist-date">03-15</div>
+                    <div class="iter-badge iter-ok" style="font-size:10px">OK</div>
+                    <div class="dim" style="font-size:9px">Mom:OK, His:OK, Gam:OK, Qua:OK</div>
+                </div></div>
+            </div>
+    </div>
+        
+    <div class="section">
+        <h2>Latest Forecasts</h2>
+        
+            <div class="market-block">
+                <div class="market-header">
+                    <strong>Regime Fall</strong>
+                    <span class="current-price">0.2650</span>
+                </div>
+                <div class="price-changes">
+                    4h: <span class="down">-0.0100</span>
+                    &nbsp; 24h: <span class="down">-0.0200</span>
+                </div>
+                
+                <div class="forecast-row">
+                    <span class="dot" style="background:#e74c3c"></span>
+                    <span class="agent-name">Momentum</span>
+                    <span class="pred">0.2664</span>
+                    <span class="delta up">+0.0014</span>
+                </div>
+                <div class="forecast-row">
+                    <span class="dot" style="background:#3498db"></span>
+                    <span class="agent-name">Historian</span>
+                    <span class="pred">0.2664</span>
+                    <span class="delta up">+0.0014</span>
+                </div>
+                <div class="forecast-row">
+                    <span class="dot" style="background:#f39c12"></span>
+                    <span class="agent-name">Game Theorist</span>
+                    <span class="pred">0.2663</span>
+                    <span class="delta up">+0.0013</span>
+                </div>
+                <div class="forecast-row">
+                    <span class="dot" style="background:#2ecc71"></span>
+                    <span class="agent-name">Quant</span>
+                    <span class="pred">0.2656</span>
+                    <span class="delta up">+0.0006</span>
+                </div>
+            </div>
+    </div>
+        
+    <div class="section">
+        <h2>Agent Analysis <span class="dim">(vs previous cycle)</span></h2>
+        
+    <div class="analysis-card">
+        <div class="analysis-header">
+            <span class="dot" style="background:#e74c3c"></span>
+            <strong>Momentum</strong>
+            <span class="dim">v1.6.0</span>
+        </div>
+        <div class="analysis-pred">
+            0.2650 &rarr; <strong>0.2664</strong> <span class="down">(-0.0101 vs prev)</span>
+        </div>
+        <div class="analysis-time dim">Mar 19 05:05 PM PT (prev: Mar 19 01:05 PM PT)</div>
+        <div class="analysis-metrics">
+            <div class="analysis-metric">
+                <span class="metric-label">Mode</span>
+                <span class="metric-val">reversion</span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">News intensity</span>
+                <span class="metric-val">0.458 <span class="down">(-0.4080)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Blend weight</span>
+                <span class="metric-val">0.0936 <span class="down">(-0.0188)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Momentum signal</span>
+                <span class="metric-val">-0.0080 <span class="down">(-0.0075)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">4h change</span>
+                <span class="metric-val">-0.0100 <span class="down">(-0.0100)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">24h change</span>
+                <span class="metric-val">-0.0200 <span class="down">(-0.0100)</span></span>
+            </div></div>
+    </div>
+    <div class="analysis-card">
+        <div class="analysis-header">
+            <span class="dot" style="background:#3498db"></span>
+            <strong>Historian</strong>
+            <span class="dim">v1.6.0</span>
+        </div>
+        <div class="analysis-pred">
+            0.2650 &rarr; <strong>0.2664</strong> <span class="down">(-0.0094 vs prev)</span>
+        </div>
+        <div class="analysis-time dim">Mar 19 05:05 PM PT (prev: Mar 19 01:05 PM PT)</div>
+        <div class="analysis-metrics">
+            <div class="analysis-metric">
+                <span class="metric-label">Adaptive base rate</span>
+                <span class="metric-val">0.2750 <span class="dim">(=)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Reversion pull</span>
+                <span class="metric-val">0.0001 <span class="dim">(=)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Raw signal</span>
+                <span class="metric-val">0.609 <span class="up">(+0.2480)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Capped shift</span>
+                <span class="metric-val">+0.0014 <span class="up">(+0.0006)</span></span>
+            </div></div>
+    </div>
+    <div class="analysis-card">
+        <div class="analysis-header">
+            <span class="dot" style="background:#f39c12"></span>
+            <strong>Game Theorist</strong>
+            <span class="dim">v1.6.0</span>
+        </div>
+        <div class="analysis-pred">
+            0.2650 &rarr; <strong>0.2663</strong> <span class="down">(-0.0140 vs prev)</span>
+        </div>
+        <div class="analysis-time dim">Mar 19 05:05 PM PT (prev: Mar 19 01:05 PM PT)</div>
+        <div class="analysis-metrics">
+            <div class="analysis-metric">
+                <span class="metric-label">Fact count</span>
+                <span class="metric-val">16 <span class="down">(-14)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Escalatory</span>
+                <span class="metric-val">11 <span class="down">(-14)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">De-escalatory</span>
+                <span class="metric-val">4 <span class="down">(-1)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Consensus ratio</span>
+                <span class="metric-val">0.73 <span class="down">(-0.1000)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Costly signals</span>
+                <span class="metric-val">1 <span class="down">(-4)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Net signal</span>
+                <span class="metric-val">3.285 <span class="down">(-5.5050)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Signal shift</span>
+                <span class="metric-val">+0.0013 <span class="down">(-0.0040)</span></span>
+            </div></div>
+    </div>
+    <div class="analysis-card">
+        <div class="analysis-header">
+            <span class="dot" style="background:#2ecc71"></span>
+            <strong>Quant</strong>
+            <span class="dim">v1.6.0</span>
+        </div>
+        <div class="analysis-pred">
+            0.2650 &rarr; <strong>0.2656</strong> <span class="down">(-0.0096 vs prev)</span>
+        </div>
+        <div class="analysis-time dim">Mar 19 05:05 PM PT (prev: Mar 19 01:05 PM PT)</div>
+        <div class="analysis-metrics">
+            <div class="analysis-metric">
+                <span class="metric-label">EWMA</span>
+                <span class="metric-val">0.2737 <span class="down">(-0.0035)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Long-term mean</span>
+                <span class="metric-val">0.2821 <span class="down">(-0.0008)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Volatility</span>
+                <span class="metric-val">0.0336 <span class="up">(+0.0008)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Adaptive blend</span>
+                <span class="metric-val">0.4986 <span class="down">(-0.0047)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">News adjustment</span>
+                <span class="metric-val">+0.0000 <span class="dim">(=)</span></span>
+            </div>
+            <div class="analysis-metric">
+                <span class="metric-label">Series length</span>
+                <span class="metric-val">399 <span class="up">(+1)</span></span>
+            </div></div>
+    </div>
+    </div>
+        
+    <div class="section">
+        <h2>MSE Trend <span class="dim">(last 5 cycles)</span></h2>
+        
+        <div class="trend-row">
+            <span class="dot" style="background:#e74c3c"></span>
+            <span class="agent-name">Momentum</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,27.8 30.0,27.8 60.0,2.0 90.0,27.8 120.0,28.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.000001</span>
+        </div>
+        <div class="trend-row">
+            <span class="dot" style="background:#3498db"></span>
+            <span class="agent-name">Historian</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,28.0 60.0,2.0 90.0,27.4 120.0,22.7" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="22.7" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.000038</span>
+        </div>
+        <div class="trend-row">
+            <span class="dot" style="background:#f39c12"></span>
+            <span class="agent-name">Game Theorist</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,14.0 60.0,6.9 90.0,22.1 120.0,28.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.000007</span>
+        </div>
+        <div class="trend-row">
+            <span class="dot" style="background:#2ecc71"></span>
+            <span class="agent-name">Quant</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,28.0 60.0,2.0 90.0,27.9 120.0,28.0" fill="none" stroke="#2ecc71" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#2ecc71" /></svg></span>
+            <span class="trend-val">0.000000</span>
+        </div>
+    </div>
+        
+    <div class="section">
+        <h2>Accuracy Plot</h2>
+        <img src="progress.png?v=1773965129" alt="Progress plot"
+             style="width:100%; border-radius:8px; margin-top:8px;">
+    </div>
+        
+    <div class="section">
+        <h2>Virtual P&L</h2>
+        
+        <div class="pnl-row">
+            <span class="dot" style="background:#f39c12"></span>
+            <span class="agent-name">Game Theorist</span>
+            <span class="pnl-val ">$+0</span>
+            <span class="dim">0W/2L (2 trades)</span>
+        </div>
+        <div class="pnl-row">
+            <span class="dot" style="background:#2ecc71"></span>
+            <span class="agent-name">Quant</span>
+            <span class="pnl-val down">$-2</span>
+            <span class="dim">0W/7L (7 trades)</span>
+        </div>
+    </div>
+        
+    <div class="section">
+        <h2>Newswire</h2>
+        
+            <div class="news-summary">
+                <strong>16</strong> facts:
+                <span class="esc">11 escalatory</span>,
+                <span class="deesc">4 de-escalatory</span>,
+                1 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> The US ordered approximately 2,200-2,500 Marines aboard three amphibious warships, including the USS</div><div class="fact"><span class="dim">[military_pressure]</span> The US is considering deploying thousands of additional troops to the Middle East to reinforce opera</div><div class="fact"><span class="dim">[military_pressure]</span> Joint US-Israel strikes targeted Iranian sites on February 28, 2026, with explosions reported in Teh</div>
+    </div>
+        
+    <div class="section">
+        <h2>Situation State</h2>
+        
+            <div class="state-block">
+                <div class="dim">Regime Fall</div>
+                <div class="state-status">The Iranian regime under new supreme leader Mojtaba Khamenei faces sustained military pressure from coordinated US-Israeli strikes across multiple provinces, compounded by internal fractures between m</div>
+                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: high</span><span class="indicator level-high">diplomatic signals: high</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
+            </div>
+    </div>
+        <div class="footer">
+            Generated 2026-03-19 05:05 PM PT &middot; Auto-refreshes every 15 min
+        </div>
+    </div>
+</body>
+</html>

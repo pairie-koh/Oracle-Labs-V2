@@ -1,0 +1,5 @@
+**Done.** Summary of this iteration:
+
+**Change:** `REVERSION_RATE` 0.03 → 0.01 (version 1.2.0 → 1.3.0)
+
+**Reasoning:** The historian is 3.7x worse than the naive baseline. The naive baseline wins by simply predicting the current price — any deviation adds error. The reversion pull creates a systematic push away from current price every single cycle, compounding error whenever the market isn't actively mean-reverting. The news signal (capped at ±2.5pp) was already the larger variance source and was addressed in 1.2.0. This iteration tackles the always-on reversion drag, reducing it by 2/3rds (0.03 → 0.01) to make predictions hug the current price more tightly while preserving the mean-reversion framework for cycles with a clear directional signal.

@@ -1,0 +1,29 @@
+=== Oracle Lab Cycle Report ===
+2026-03-16T04:05:33Z
+Briefing: 2026-03-16T04:05:32Z
+
+── Market Snapshot ──
+  regime_fall: 0.285 (4h: +0.000, 24h: +0.020)
+
+── Newswire ──
+  23 facts (17 escalatory, 1 de-escalatory, 5 neutral)
+  Top claims:
+    [military_pressure] The United States ordered approximately 2,200-2,500 Marines to deploy to the Middle Eas...
+    [military_pressure] Total US military personnel in the Middle East region reached approximately 5,000, incl...
+    [military_pressure] The United States struck Kharg Island, Iran's main oil export hub, with 90 military tar...
+
+── Forecasts ──
+                      Pred        Δ  Key driver
+  momentum           0.286   +0.001  intensity=2.3 (decayed), blend=0.20
+  historian          0.298   +0.013  base=0.26 (adaptive), capped_shift=+0.013
+  game_theorist      0.309   +0.024  consensus=0.91, costly_signals=2
+  quant              0.407   +0.122  ewma=0.283, vol=0.033, blend=0.50
+
+  Spread: 0.120 (quant high, momentum low)
+  Direction: UP (4/4)
+
+── Evaluation ──
+  (No matured predictions yet)
+
+── Leaderboard ──
+
