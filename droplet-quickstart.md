@@ -193,3 +193,37 @@ git add -A && git commit -m "Clear old dashboard data — fresh start" && git pu
 ```
 
 This only affects the dashboard. All oracle-lab history stays intact.
+
+## Fix: Stuck at `>` prompt
+
+If you pasted something wrong and the terminal shows `>` waiting for input, press `Ctrl+C` to break out. Then retry the command.
+
+## Cron setup (standalone copy-paste block)
+
+If step 9 didn't work or you need to redo it, paste this entire block:
+
+```bash
+cat > /tmp/setup_cron.sh << 'SCRIPT'
+#!/bin/bash
+crontab -l 2>/dev/null > /tmp/oracle_cron
+echo '5 */4 * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1' >> /tmp/oracle_cron
+echo '30 2 * * * /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1' >> /tmp/oracle_cron
+echo '45 */6 * * * /root/oracle-lab/scripts/git_push.sh' >> /tmp/oracle_cron
+echo '0 3 * * 0 find /root/oracle-lab/logs -name "*.log" -mtime +28 -delete' >> /tmp/oracle_cron
+crontab /tmp/oracle_cron
+rm /tmp/oracle_cron
+echo "Done. Current crontab:"
+crontab -l
+SCRIPT
+bash /tmp/setup_cron.sh
+```
+
+You should see output like:
+
+```
+Done. Current crontab:
+5 */4 * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1
+30 2 * * * /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1
+45 */6 * * * /root/oracle-lab/scripts/git_push.sh
+0 3 * * 0 find /root/oracle-lab/logs -name "*.log" -mtime +28 -delete
+```
