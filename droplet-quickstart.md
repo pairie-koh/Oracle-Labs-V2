@@ -340,3 +340,37 @@ echo ""
 echo "=== Starting first forecast cycle ==="
 ./scripts/run_cycle.sh
 ```
+
+## Run a forecast cycle right now
+
+If cron is already set up but you don't want to wait, paste this to run a cycle immediately:
+
+```bash
+tmux new -s oracle 2>/dev/null || tmux attach -t oracle
+```
+
+Then inside tmux:
+
+```bash
+cd ~/oracle-lab && source venv/bin/activate && source .env && ./scripts/run_cycle.sh
+```
+
+You should see output like:
+
+```
+=== Forecast cycle start: 2026-03-27T... ===
+[1/11] Running newswire...
+[2/11] Updating state...
+[3/11] Preparing briefing...
+...
+```
+
+Takes ~15-25 minutes. If you get disconnected, SSH back in and run `tmux attach -t oracle` to see it.
+
+## Check if it worked
+
+```bash
+ls -la ~/oracle-lab/logs/cycle_*.log | tail -3
+tail -20 ~/oracle-lab/logs/cron.log
+cd ~/oracle-lab && git log --oneline -3
+```
