@@ -374,3 +374,27 @@ ls -la ~/oracle-lab/logs/cycle_*.log | tail -3
 tail -20 ~/oracle-lab/logs/cron.log
 cd ~/oracle-lab && git log --oneline -3
 ```
+
+## Fix: Dashboard not updating
+
+If the forecast cycle ran but the dashboard didn't update, paste this:
+
+```bash
+cd ~/oracle-lab-dashboard
+source ~/oracle-lab/.env
+git remote set-url origin https://$GITHUB_TOKEN@github.com/pairie-koh/Trading-Agents-on-Polymarket.git
+git fetch origin
+git reset --hard origin/main
+```
+
+Then push the data:
+
+```bash
+cd ~/oracle-lab && source .env && bash scripts/push_dashboard.sh
+```
+
+Check the push log if it still fails:
+
+```bash
+cat ~/oracle-lab/logs/dashboard_push.log
+```
