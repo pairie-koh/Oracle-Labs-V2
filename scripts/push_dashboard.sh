@@ -19,6 +19,11 @@ if [ ! -d "$DASHBOARD/.git" ]; then
     exit 1
 fi
 
+# Sync with remote first to avoid conflicts (in case dashboard was updated elsewhere)
+cd "$DASHBOARD"
+git fetch origin >> "$LOGFILE" 2>&1
+git reset --hard origin/main >> "$LOGFILE" 2>&1
+
 mkdir -p "$DASHBOARD/data"
 
 # Copy data files
