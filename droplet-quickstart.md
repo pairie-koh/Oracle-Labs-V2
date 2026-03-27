@@ -398,3 +398,23 @@ Check the push log if it still fails:
 ```bash
 cat ~/oracle-lab/logs/dashboard_push.log
 ```
+
+## Fix: Duplicate or broken cron entries
+
+If `crontab -l` shows duplicates or wrong entries, paste this to wipe and recreate cleanly:
+
+```bash
+crontab -r 2>/dev/null
+cat > /tmp/oracle_cron << 'EOF'
+5 */4 * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1
+30 2 * * * /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1
+45 */6 * * * /root/oracle-lab/scripts/git_push.sh
+0 3 * * 0 find /root/oracle-lab/logs -name "*.log" -mtime +28 -delete
+EOF
+crontab /tmp/oracle_cron
+rm /tmp/oracle_cron
+echo "Done:"
+crontab -l
+```
+
+You should see exactly 4 lines. If you see more or fewer, something went wrong — re-paste the block above.
