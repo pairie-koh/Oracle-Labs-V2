@@ -280,3 +280,63 @@ Test the cycle manually to see errors:
 ```bash
 cd ~/oracle-lab && source venv/bin/activate && source .env && bash scripts/run_cycle.sh 2>&1 | head -30
 ```
+
+## Fix everything and start (paste this whole block)
+
+This fixes all common issues and kicks off the first cycle. Paste the entire thing at once:
+
+```bash
+tmux new -s oracle || tmux attach -t oracle
+```
+
+Then paste this inside tmux:
+
+```bash
+cd ~/oracle-lab
+
+# Create logs dir
+mkdir -p logs reports status
+
+# Make scripts executable
+chmod +x scripts/*.sh
+
+# Create .env if it doesn't exist
+if [ ! -f .env ]; then
+  cat > .env << 'EOF'
+export ANTHROPIC_API_KEY="PASTE_YOUR_ANTHROPIC_KEY"
+export GITHUB_TOKEN="PASTE_YOUR_GITHUB_TOKEN"
+export OPENROUTER_API_KEY="PASTE_YOUR_OPENROUTER_KEY"
+export PERPLEXITY_API_KEY="PASTE_YOUR_PERPLEXITY_KEY"
+EOF
+  echo "Created .env — EDIT IT NOW with your real keys:"
+  echo "  nano ~/oracle-lab/.env"
+  echo "Then re-run this block."
+else
+  echo ".env exists:"
+  cat .env
+fi
+```
+
+After confirming .env has your real keys, paste this to set up cron and run the first cycle:
+
+```bash
+cd ~/oracle-lab
+source venv/bin/activate
+source .env
+
+# Set up cron
+crontab -l 2>/dev/null > /tmp/oracle_cron
+echo '5 */4 * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1' >> /tmp/oracle_cron
+echo '30 2 * * * /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1' >> /tmp/oracle_cron
+echo '45 */6 * * * /root/oracle-lab/scripts/git_push.sh' >> /tmp/oracle_cron
+echo '0 3 * * 0 find /root/oracle-lab/logs -name "*.log" -mtime +28 -delete' >> /tmp/oracle_cron
+crontab /tmp/oracle_cron
+rm /tmp/oracle_cron
+echo "Cron set:"
+crontab -l
+
+# Run the first cycle now
+echo ""
+echo "=== Starting first forecast cycle ==="
+./scripts/run_cycle.sh
+```
