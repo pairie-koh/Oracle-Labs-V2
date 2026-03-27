@@ -227,3 +227,56 @@ Done. Current crontab:
 45 */6 * * * /root/oracle-lab/scripts/git_push.sh
 0 3 * * 0 find /root/oracle-lab/logs -name "*.log" -mtime +28 -delete
 ```
+
+## Debug: Cron not running
+
+Paste this to check what's wrong:
+
+```bash
+echo "=== 1. Cron service ==="
+systemctl status cron | head -5
+
+echo ""
+echo "=== 2. Scripts executable? ==="
+ls -la ~/oracle-lab/scripts/run_cycle.sh ~/oracle-lab/scripts/run_iteration.sh ~/oracle-lab/scripts/git_push.sh
+
+echo ""
+echo "=== 3. Logs directory ==="
+ls ~/oracle-lab/logs/ 2>/dev/null || echo "logs/ directory missing — creating it"
+mkdir -p ~/oracle-lab/logs
+
+echo ""
+echo "=== 4. .env file exists and has keys? ==="
+cat ~/oracle-lab/.env
+
+echo ""
+echo "=== 5. Python venv works? ==="
+source ~/oracle-lab/venv/bin/activate && python3 --version
+
+echo ""
+echo "=== 6. Crontab entries ==="
+crontab -l
+```
+
+If `.env` is empty or missing, re-create it:
+
+```bash
+cat > ~/oracle-lab/.env << 'EOF'
+export ANTHROPIC_API_KEY="YOUR_KEY_HERE"
+export GITHUB_TOKEN="YOUR_KEY_HERE"
+export OPENROUTER_API_KEY="YOUR_KEY_HERE"
+export PERPLEXITY_API_KEY="YOUR_KEY_HERE"
+EOF
+```
+
+If scripts aren't executable:
+
+```bash
+chmod +x ~/oracle-lab/scripts/*.sh
+```
+
+Test the cycle manually to see errors:
+
+```bash
+cd ~/oracle-lab && source venv/bin/activate && source .env && bash scripts/run_cycle.sh 2>&1 | head -30
+```
