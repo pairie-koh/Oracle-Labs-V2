@@ -71,57 +71,46 @@ If you get disconnected: `tmux attach -t oracle`
 
 Takes ~15-25 minutes. If it finishes without errors, move to step 8.
 
-## 8. Test cron (verify it actually fires)
+## 8. Test cron with a real forecast cycle
 
-First, schedule two test jobs a few minutes from now:
+Schedule the actual forecast cycle to run in 3 minutes via cron. This tests the full pipeline end-to-end — if new commits appear on GitHub, everything works.
 
 ```bash
+cd ~/oracle-lab && git fetch origin && git reset --hard origin/main && chmod +x scripts/*.sh && mkdir -p logs
+
 NOW_MIN=$(date -u +%M)
 NOW_HOUR=$(date -u +%H)
-TEST1=$(( (NOW_MIN + 3) % 60 ))
-TEST2=$(( (NOW_MIN + 8) % 60 ))
-HOUR1=$NOW_HOUR
-HOUR2=$NOW_HOUR
-if [ $TEST1 -lt $NOW_MIN ]; then HOUR1=$(( (NOW_HOUR + 1) % 24 )); fi
-if [ $TEST2 -lt $NOW_MIN ]; then HOUR2=$(( (NOW_HOUR + 1) % 24 )); fi
+TEST_MIN=$(( (NOW_MIN + 3) % 60 ))
+TEST_HOUR=$NOW_HOUR
+if [ $TEST_MIN -lt $NOW_MIN ]; then TEST_HOUR=$(( (NOW_HOUR + 1) % 24 )); fi
 
 crontab -r 2>/dev/null
 cat > /tmp/oracle_cron << EOF
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-$TEST1 $HOUR1 * * * echo "TEST 1 fired at \$(date -u)" >> /root/oracle-lab/logs/cron_test.log
-$TEST2 $HOUR2 * * * echo "TEST 2 fired at \$(date -u)" >> /root/oracle-lab/logs/cron_test.log
+$TEST_MIN $TEST_HOUR * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1
 EOF
 crontab /tmp/oracle_cron
 rm /tmp/oracle_cron
-mkdir -p /root/oracle-lab/logs
 
+echo "Forecast cycle scheduled at $TEST_HOUR:$(printf '%02d' $TEST_MIN) UTC"
+echo "Current time: $(date -u)"
 echo ""
-echo "Test jobs scheduled:"
 crontab -l
-echo ""
-echo "Check in a few minutes with: cat ~/oracle-lab/logs/cron_test.log"
 ```
 
-Wait ~10 minutes, then check:
+The cycle takes ~15-25 minutes. After ~20 minutes, check:
 
 ```bash
-cat ~/oracle-lab/logs/cron_test.log
+tail -20 ~/oracle-lab/logs/cron.log
+cd ~/oracle-lab && git log --oneline -3
 ```
 
-You should see two lines like:
+You should see a `cycle: 2026-...` commit. The dashboard repo should also have a new `data: 2026-...` commit.
 
-```
-TEST 1 fired at Sat Mar 28 12:03:00 UTC 2026
-TEST 2 fired at Sat Mar 28 12:08:00 UTC 2026
-```
-
-If you see both lines, cron works. Move to step 9.
-
-If the file is empty or missing, cron is broken. Run:
+If the log file is empty after 5 minutes, cron isn't firing. Fix it:
 
 ```bash
-sudo systemctl status cron | head -5
 sudo systemctl start cron
 sudo systemctl enable cron
 ```
