@@ -15,7 +15,7 @@ cd ~/oracle-lab && git fetch origin && git reset --hard origin/main && chmod +x 
 ## 2. Set up scheduled jobs
 
 ```bash
-bash ~/oracle-lab/scripts/setup_timers.sh
+sed -i 's/\r$//' ~/oracle-lab/scripts/setup_timers.sh && bash ~/oracle-lab/scripts/setup_timers.sh
 ```
 
 This creates three systemd timers. You should see 3 timers listed with their next run times.
