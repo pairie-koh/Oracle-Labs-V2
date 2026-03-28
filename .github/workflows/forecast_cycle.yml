@@ -1,9 +1,9 @@
 name: Forecast Cycle
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '5 */4 * * *'   # Every 4 hours at :05 — same as the droplet cron
-  workflow_dispatch:          # Manual trigger from Actions tab
+    - cron: '5 */4 * * *'
 
 jobs:
   forecast:
