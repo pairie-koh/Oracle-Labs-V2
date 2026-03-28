@@ -19,7 +19,7 @@ Description=Oracle Lab Timer Test
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c 'echo "TIMER WORKS $(date -u)" >> /root/oracle-lab/logs/timer_test.log'
+ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && cd /root/oracle-lab && echo "TIMER WORKS $(date -u)" >> logs/timer_test.log && git add logs/timer_test.log && git commit -m "timer test: $(date -u +%%Y-%%m-%%dT%%H:%%M:%%SZ)" && git push origin main'
 EOF
 
 cat > /etc/systemd/system/oracle-test.timer << 'EOF'
