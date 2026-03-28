@@ -1,10 +1,10 @@
 # Droplet Setup
 
-SSH into your droplet, then run these two commands.
+SSH into your droplet, then run these commands.
 
 ## 0. If the terminal is stuck
 
-Press `Ctrl+C` to get your terminal back. The forecast keeps running in the background.
+Press `Ctrl+C` to get your terminal back.
 
 ## 1. Pull latest code
 
@@ -12,129 +12,42 @@ Press `Ctrl+C` to get your terminal back. The forecast keeps running in the back
 cd ~/oracle-lab && git fetch origin && git reset --hard origin/main && chmod +x scripts/*.sh && mkdir -p logs reports status
 ```
 
-## 2. Set up scheduled jobs
+## 2. Start the scheduler
 
 ```bash
-sed -i 's/\r$//' ~/oracle-lab/scripts/setup_timers.sh && bash ~/oracle-lab/scripts/setup_timers.sh
+nohup python3 ~/oracle-lab/scripts/scheduler.py > /dev/null 2>&1 &
+echo "Scheduler running in background (PID: $!)"
 ```
 
-This creates three systemd timers. You should see 3 timers listed with their next run times.
+That's it. The scheduler runs in the background, survives SSH disconnects, and handles all jobs:
+- Forecast cycle every 4h at :05
+- Agent iteration daily at 02:30
+- Git push every 6h at :45
 
-Then start the first forecast cycle:
+You can close SSH. It keeps running.
+
+## Check if it's working
 
 ```bash
-systemctl start --no-block oracle-forecast.service
-echo "Forecast started in background. Watch with: tail -f ~/oracle-lab/logs/cron.log"
+tail -20 ~/oracle-lab/logs/scheduler.log
 ```
 
-You can close SSH — everything runs in the background.
+## Check if the scheduler is running
 
 ```bash
-# --- Forecast cycle: every 4 hours at :05 ---
-cat > /etc/systemd/system/oracle-forecast.service << 'EOF'
-[Unit]
-Description=Oracle Lab Forecast Cycle
-
-[Service]
-Type=oneshot
-WorkingDirectory=/root/oracle-lab
-ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && source /root/oracle-lab/venv/bin/activate && bash /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1'
-EOF
-
-cat > /etc/systemd/system/oracle-forecast.timer << 'EOF'
-[Unit]
-Description=Run Oracle Lab forecast every 4 hours
-
-[Timer]
-OnCalendar=*-*-* 00,04,08,12,16,20:05:00
-Persistent=true
-
-[Install]
-WantedBy=timers.target
-EOF
-
-# --- Agent iteration: daily at 02:30 ---
-cat > /etc/systemd/system/oracle-iteration.service << 'EOF'
-[Unit]
-Description=Oracle Lab Agent Iteration
-
-[Service]
-Type=oneshot
-WorkingDirectory=/root/oracle-lab
-ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && source /root/oracle-lab/venv/bin/activate && bash /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1'
-EOF
-
-cat > /etc/systemd/system/oracle-iteration.timer << 'EOF'
-[Unit]
-Description=Run Oracle Lab agent iteration daily
-
-[Timer]
-OnCalendar=*-*-* 02:30:00
-Persistent=true
-
-[Install]
-WantedBy=timers.target
-EOF
-
-# --- Git push: every 6 hours at :45 ---
-cat > /etc/systemd/system/oracle-gitpush.service << 'EOF'
-[Unit]
-Description=Oracle Lab Git Push
-
-[Service]
-Type=oneshot
-WorkingDirectory=/root/oracle-lab
-ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && bash /root/oracle-lab/scripts/git_push.sh >> /root/oracle-lab/logs/cron.log 2>&1'
-EOF
-
-cat > /etc/systemd/system/oracle-gitpush.timer << 'EOF'
-[Unit]
-Description=Push Oracle Lab to GitHub every 6 hours
-
-[Timer]
-OnCalendar=*-*-* 00,06,12,18:45:00
-Persistent=true
-
-[Install]
-WantedBy=timers.target
-EOF
-
-# Enable and start all timers
-systemctl daemon-reload
-systemctl enable --now oracle-forecast.timer
-systemctl enable --now oracle-iteration.timer
-systemctl enable --now oracle-gitpush.timer
-
-echo ""
-echo "=== Active timers ==="
-systemctl list-timers oracle-*
-
-# Run the first forecast cycle right now
-echo ""
-echo "=== Starting first forecast cycle ==="
-systemctl start oracle-forecast.service
-echo "Cycle started. Watch logs with: tail -f ~/oracle-lab/logs/cron.log"
+ps aux | grep scheduler.py | grep -v grep
 ```
 
-After pasting, you should see the active timers with their next run times, then the forecast cycle starts immediately.
+If it's not running, start it again with step 2.
 
-Watch it run:
+## Stop the scheduler
 
 ```bash
-tail -f ~/oracle-lab/logs/cron.log
+pkill -f scheduler.py
 ```
 
-Takes ~15-25 minutes. After it finishes, check GitHub for a new `cycle:` commit.
-
-## Verify timers are scheduled
-
-```bash
-systemctl list-timers oracle-*
-```
-
-## Check logs
+## Check forecast logs
 
 ```bash
 tail -20 ~/oracle-lab/logs/cron.log
-journalctl -u oracle-forecast.service --no-pager | tail -20
 ```
