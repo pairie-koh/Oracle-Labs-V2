@@ -1,0 +1,41 @@
+name: Agent Iteration
+
+on:
+  schedule:
+    - cron: '30 2 * * *'     # Daily at 02:30 UTC — same as the droplet cron
+  workflow_dispatch:          # Manual trigger from Actions tab
+
+jobs:
+  iterate:
+    runs-on: ubuntu-latest
+
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTERAPIKEY }}
+
+    steps:
+      - name: Checkout oracle-lab
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests numpy pandas scikit-learn
+
+      - name: Create directories
+        run: mkdir -p logs status
+
+      - name: Iterate all agents
+        run: python scripts/iterate_agent.py all
+
+      - name: Commit iteration results
+        run: |
+          git config user.name "Oracle Lab Bot"
+          git config user.email "hello.pairie@gmail.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "iteration: $(date +%Y-%m-%d)"
+          git push
