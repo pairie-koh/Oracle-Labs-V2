@@ -71,73 +71,120 @@ If you get disconnected: `tmux attach -t oracle`
 
 Takes ~15-25 minutes. If it finishes without errors, move to step 8.
 
-## 8. Test cron with a real forecast cycle
+## 8. Set up scheduled jobs (systemd timers)
 
-Schedule the actual forecast cycle to run in 3 minutes via cron. This tests the full pipeline end-to-end — if new commits appear on GitHub, everything works.
+Paste this entire block. It creates three systemd services and timers that replace cron:
 
 ```bash
-cd ~/oracle-lab && git fetch origin && git reset --hard origin/main && chmod +x scripts/*.sh && mkdir -p logs
+# --- Forecast cycle: every 4 hours at :05 ---
+cat > /etc/systemd/system/oracle-forecast.service << 'EOF'
+[Unit]
+Description=Oracle Lab Forecast Cycle
 
-NOW_MIN=$(date -u +%M)
-NOW_HOUR=$(date -u +%H)
-TEST_MIN=$(( (NOW_MIN + 3) % 60 ))
-TEST_HOUR=$NOW_HOUR
-if [ $TEST_MIN -lt $NOW_MIN ]; then TEST_HOUR=$(( (NOW_HOUR + 1) % 24 )); fi
-
-crontab -r 2>/dev/null
-cat > /tmp/oracle_cron << EOF
-SHELL=/bin/bash
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-$TEST_MIN $TEST_HOUR * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1
+[Service]
+Type=oneshot
+WorkingDirectory=/root/oracle-lab
+ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && source /root/oracle-lab/venv/bin/activate && bash /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1'
 EOF
-crontab /tmp/oracle_cron
-rm /tmp/oracle_cron
 
-echo "Forecast cycle scheduled at $TEST_HOUR:$(printf '%02d' $TEST_MIN) UTC"
-echo "Current time: $(date -u)"
+cat > /etc/systemd/system/oracle-forecast.timer << 'EOF'
+[Unit]
+Description=Run Oracle Lab forecast every 4 hours
+
+[Timer]
+OnCalendar=*-*-* 00,04,08,12,16,20:05:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+EOF
+
+# --- Agent iteration: daily at 02:30 ---
+cat > /etc/systemd/system/oracle-iteration.service << 'EOF'
+[Unit]
+Description=Oracle Lab Agent Iteration
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/oracle-lab
+ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && source /root/oracle-lab/venv/bin/activate && bash /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1'
+EOF
+
+cat > /etc/systemd/system/oracle-iteration.timer << 'EOF'
+[Unit]
+Description=Run Oracle Lab agent iteration daily
+
+[Timer]
+OnCalendar=*-*-* 02:30:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+EOF
+
+# --- Git push: every 6 hours at :45 ---
+cat > /etc/systemd/system/oracle-gitpush.service << 'EOF'
+[Unit]
+Description=Oracle Lab Git Push
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/oracle-lab
+ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && bash /root/oracle-lab/scripts/git_push.sh >> /root/oracle-lab/logs/cron.log 2>&1'
+EOF
+
+cat > /etc/systemd/system/oracle-gitpush.timer << 'EOF'
+[Unit]
+Description=Push Oracle Lab to GitHub every 6 hours
+
+[Timer]
+OnCalendar=*-*-* 00,06,12,18:45:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+EOF
+
+# Enable and start all timers
+systemctl daemon-reload
+systemctl enable --now oracle-forecast.timer
+systemctl enable --now oracle-iteration.timer
+systemctl enable --now oracle-gitpush.timer
+
 echo ""
-crontab -l
+echo "=== Active timers ==="
+systemctl list-timers oracle-*
 ```
 
-The cycle takes ~15-25 minutes. After ~20 minutes, check:
+You should see output showing the next run time for each timer.
+
+## 9. Test it — run the forecast cycle now
 
 ```bash
-tail -20 ~/oracle-lab/logs/cron.log
-cd ~/oracle-lab && git log --oneline -3
+systemctl start oracle-forecast.service
 ```
 
-You should see a `cycle: 2026-...` commit. The dashboard repo should also have a new `data: 2026-...` commit.
-
-If the log file is empty after 5 minutes, cron isn't firing. Fix it:
+This runs the forecast cycle immediately. Watch the logs:
 
 ```bash
-sudo systemctl start cron
-sudo systemctl enable cron
+journalctl -u oracle-forecast.service -f
 ```
 
-Then redo step 8.
-
-## 9. Set up real cron jobs
-
-Once the test in step 8 passes, install the real schedule:
+Or check the oracle-lab log:
 
 ```bash
-crontab -r 2>/dev/null
-cat > /tmp/oracle_cron << 'EOF'
-SHELL=/bin/bash
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-5 */4 * * * /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1
-30 2 * * * /root/oracle-lab/scripts/run_iteration.sh >> /root/oracle-lab/logs/cron.log 2>&1
-45 */6 * * * /root/oracle-lab/scripts/git_push.sh >> /root/oracle-lab/logs/cron.log 2>&1
-0 3 * * 0 find /root/oracle-lab/logs -name "*.log" -mtime +28 -delete
-EOF
-crontab /tmp/oracle_cron
-rm /tmp/oracle_cron
-echo "Done:"
-crontab -l
+tail -f ~/oracle-lab/logs/cron.log
 ```
 
-You should see exactly 6 lines (2 config + 4 jobs). The `SHELL` and `PATH` lines at the top are critical — without them, cron can't find `python3` or `git`.
+Takes ~15-25 minutes. After it finishes, check GitHub for a new `cycle:` commit.
+
+## 10. Verify timers are scheduled
+
+```bash
+systemctl list-timers oracle-*
+```
+
+This shows exactly when each job will next fire. If a timer is missing, re-run the setup block from step 8.
 
 ## Schedule
 
