@@ -18,4 +18,9 @@ systemctl enable --now oracle-gitpush.timer && echo "  oracle-gitpush.timer enab
 
 echo ""
 echo "=== Active timers ==="
-systemctl list-timers oracle-*
+systemctl list-timers --all 'oracle-*'
+echo ""
+echo "=== Timer status ==="
+systemctl is-active oracle-forecast.timer && echo "forecast: ACTIVE" || echo "forecast: INACTIVE"
+systemctl is-active oracle-iteration.timer && echo "iteration: ACTIVE" || echo "iteration: INACTIVE"
+systemctl is-active oracle-gitpush.timer && echo "gitpush: ACTIVE" || echo "gitpush: INACTIVE"
