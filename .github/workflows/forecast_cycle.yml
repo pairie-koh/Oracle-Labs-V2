@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPICAPIKEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTERAPIKEY }}
+      PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITYAPIKEY }}
 
     steps:
       - name: Checkout oracle-lab
