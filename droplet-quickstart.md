@@ -2,6 +2,10 @@
 
 SSH into your droplet, then run these two commands.
 
+## 0. If the terminal is stuck
+
+Press `Ctrl+C` to get your terminal back. The forecast keeps running in the background.
+
 ## 1. Pull latest code
 
 ```bash
