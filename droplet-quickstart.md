@@ -8,7 +8,56 @@ SSH into your droplet, then paste each block in order.
 cd ~/oracle-lab && git fetch origin && git reset --hard origin/main && chmod +x scripts/*.sh && mkdir -p logs reports status
 ```
 
-## 2. Set up scheduled jobs and run the first cycle
+## 2. Test that scheduled jobs work
+
+This schedules a test job to run in 2 minutes. If the test file appears, scheduling works on this droplet.
+
+```bash
+cat > /etc/systemd/system/oracle-test.service << 'EOF'
+[Unit]
+Description=Oracle Lab Timer Test
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'echo "TIMER WORKS $(date -u)" >> /root/oracle-lab/logs/timer_test.log'
+EOF
+
+cat > /etc/systemd/system/oracle-test.timer << 'EOF'
+[Unit]
+Description=Test timer — fires in 2 minutes
+
+[Timer]
+OnActiveSec=2min
+AccuracySec=1s
+
+[Install]
+WantedBy=timers.target
+EOF
+
+systemctl daemon-reload
+systemctl enable --now oracle-test.timer
+
+echo "Test timer set. Check in 2 minutes:"
+echo "  cat ~/oracle-lab/logs/timer_test.log"
+echo ""
+systemctl list-timers oracle-test*
+```
+
+Wait 2 minutes, then check:
+
+```bash
+cat ~/oracle-lab/logs/timer_test.log
+```
+
+If you see `TIMER WORKS ...` with a timestamp, scheduling works. Clean up the test and move to step 3:
+
+```bash
+systemctl disable --now oracle-test.timer
+rm /etc/systemd/system/oracle-test.service /etc/systemd/system/oracle-test.timer
+systemctl daemon-reload
+```
+
+## 3. Set up real scheduled jobs and run the first cycle
 
 Paste this entire block:
 
