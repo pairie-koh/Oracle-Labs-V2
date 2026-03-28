@@ -1,6 +1,6 @@
 # Droplet Setup
 
-SSH into your droplet, then paste each block in order.
+SSH into your droplet, then run these two commands.
 
 ## 1. Pull latest code
 
@@ -8,59 +8,22 @@ SSH into your droplet, then paste each block in order.
 cd ~/oracle-lab && git fetch origin && git reset --hard origin/main && chmod +x scripts/*.sh && mkdir -p logs reports status
 ```
 
-## 2. Test that scheduled jobs work
-
-This schedules a test job to run in 2 minutes. If the test file appears, scheduling works on this droplet.
+## 2. Set up scheduled jobs
 
 ```bash
-cat > /etc/systemd/system/oracle-test.service << 'EOF'
-[Unit]
-Description=Oracle Lab Timer Test
-
-[Service]
-Type=oneshot
-ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && cd /root/oracle-lab && echo "TIMER WORKS $(date -u)" >> logs/timer_test.log && git add logs/timer_test.log && git commit -m "timer test: $(date -u +%%Y-%%m-%%dT%%H:%%M:%%SZ)" && git push origin main'
-EOF
-
-cat > /etc/systemd/system/oracle-test.timer << 'EOF'
-[Unit]
-Description=Test timer — fires in 2 minutes
-
-[Timer]
-OnActiveSec=2min
-AccuracySec=1s
-
-[Install]
-WantedBy=timers.target
-EOF
-
-systemctl daemon-reload
-systemctl enable --now oracle-test.timer
-
-echo "Test timer set. Check in 2 minutes:"
-echo "  cat ~/oracle-lab/logs/timer_test.log"
-echo ""
-systemctl list-timers oracle-test*
+bash ~/oracle-lab/scripts/setup_timers.sh
 ```
 
-Wait 2 minutes, then check:
+This creates three systemd timers. You should see 3 timers listed with their next run times.
+
+Then start the first forecast cycle:
 
 ```bash
-cat ~/oracle-lab/logs/timer_test.log 2>/dev/null || echo "NO LOG FILE"
-journalctl -u oracle-test.service --no-pager 2>&1 | tail -10
+systemctl start --no-block oracle-forecast.service
+echo "Forecast started in background. Watch with: tail -f ~/oracle-lab/logs/cron.log"
 ```
 
-If you see `TIMER WORKS ...` with a timestamp, scheduling works. Clean up the test and move to step 3:
-
-```bash
-systemctl disable --now oracle-test.timer
-rm /etc/systemd/system/oracle-test.service /etc/systemd/system/oracle-test.timer
-systemctl daemon-reload
-```
-
-## 3. Set up real scheduled jobs and run the first cycle
-
-Paste this entire block:
+You can close SSH — everything runs in the background.
 
 ```bash
 # --- Forecast cycle: every 4 hours at :05 ---
