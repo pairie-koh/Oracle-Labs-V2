@@ -1,0 +1,7 @@
+[Unit]
+Description=Oracle Lab Forecast Cycle
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/oracle-lab
+ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && source /root/oracle-lab/venv/bin/activate && bash /root/oracle-lab/scripts/run_cycle.sh >> /root/oracle-lab/logs/cron.log 2>&1'

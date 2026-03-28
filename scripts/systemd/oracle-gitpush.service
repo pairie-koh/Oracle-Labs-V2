@@ -1,0 +1,7 @@
+[Unit]
+Description=Oracle Lab Git Push
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/oracle-lab
+ExecStart=/bin/bash -c 'source /root/oracle-lab/.env && bash /root/oracle-lab/scripts/git_push.sh >> /root/oracle-lab/logs/cron.log 2>&1'
