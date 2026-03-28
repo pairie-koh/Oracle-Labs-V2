@@ -4,13 +4,10 @@
 
 SRC=/root/oracle-lab/scripts/systemd
 
-echo "Copying service files..."
-cp "$SRC/oracle-forecast.service" /etc/systemd/system/ && echo "  oracle-forecast.service OK" || echo "  FAILED"
-cp "$SRC/oracle-forecast.timer" /etc/systemd/system/ && echo "  oracle-forecast.timer OK" || echo "  FAILED"
-cp "$SRC/oracle-iteration.service" /etc/systemd/system/ && echo "  oracle-iteration.service OK" || echo "  FAILED"
-cp "$SRC/oracle-iteration.timer" /etc/systemd/system/ && echo "  oracle-iteration.timer OK" || echo "  FAILED"
-cp "$SRC/oracle-gitpush.service" /etc/systemd/system/ && echo "  oracle-gitpush.service OK" || echo "  FAILED"
-cp "$SRC/oracle-gitpush.timer" /etc/systemd/system/ && echo "  oracle-gitpush.timer OK" || echo "  FAILED"
+echo "Copying service files (stripping Windows line endings)..."
+for f in oracle-forecast.service oracle-forecast.timer oracle-iteration.service oracle-iteration.timer oracle-gitpush.service oracle-gitpush.timer; do
+    sed 's/\r$//' "$SRC/$f" > "/etc/systemd/system/$f" && echo "  $f OK" || echo "  $f FAILED"
+done
 
 echo ""
 echo "Enabling timers..."
