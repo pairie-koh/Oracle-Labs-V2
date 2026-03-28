@@ -1,79 +1,16 @@
 # Droplet Setup
 
-SSH into your droplet, then paste each section in order.
+SSH into your droplet, then paste each block in order.
 
-## 1. Install dependencies
-
-```bash
-apt update && apt install -y python3-venv python3-pip git tmux jq
-```
-
-## 2. Clone repos
+## 1. Pull latest code
 
 ```bash
-cd ~
-git clone https://github.com/pairie-koh/Oracle-Labs-V2.git oracle-lab
-git clone https://github.com/pairie-koh/Trading-Agents-on-Polymarket.git oracle-lab-dashboard
+cd ~/oracle-lab && git fetch origin && git reset --hard origin/main && chmod +x scripts/*.sh && mkdir -p logs reports status
 ```
 
-## 3. Set up Python
+## 2. Set up scheduled jobs and run the first cycle
 
-```bash
-cd ~/oracle-lab
-python3 -m venv venv
-source venv/bin/activate
-pip install requests numpy pandas scikit-learn
-```
-
-## 4. Write API keys
-
-```bash
-cat > ~/oracle-lab/.env << 'EOF'
-export ANTHROPIC_API_KEY="YOUR_KEY_HERE"
-export GITHUB_TOKEN="YOUR_KEY_HERE"
-export OPENROUTER_API_KEY="YOUR_KEY_HERE"
-export PERPLEXITY_API_KEY="YOUR_KEY_HERE"
-EOF
-echo 'source ~/oracle-lab/.env' >> ~/.bashrc
-source ~/oracle-lab/.env
-```
-
-## 5. Set up git
-
-```bash
-cd ~/oracle-lab
-git config user.name "Oracle Lab Bot"
-git config user.email "hello.pairie@gmail.com"
-git remote set-url origin https://$GITHUB_TOKEN@github.com/pairie-koh/Oracle-Labs-V2.git
-
-cd ~/oracle-lab-dashboard
-git config user.name "Oracle Lab Bot"
-git config user.email "hello.pairie@gmail.com"
-git remote set-url origin https://$GITHUB_TOKEN@github.com/pairie-koh/Trading-Agents-on-Polymarket.git
-```
-
-## 6. Prepare scripts
-
-```bash
-cd ~/oracle-lab
-chmod +x scripts/*.sh
-mkdir -p logs reports status
-```
-
-## 7. Test the pipeline
-
-```bash
-tmux new -s oracle
-cd ~/oracle-lab && source venv/bin/activate && source .env && ./scripts/run_cycle.sh
-```
-
-If you get disconnected: `tmux attach -t oracle`
-
-Takes ~15-25 minutes. If it finishes without errors, move to step 8.
-
-## 8. Set up scheduled jobs (systemd timers)
-
-Paste this entire block. It creates three systemd services and timers that replace cron:
+Paste this entire block:
 
 ```bash
 # --- Forecast cycle: every 4 hours at :05 ---
@@ -154,23 +91,17 @@ systemctl enable --now oracle-gitpush.timer
 echo ""
 echo "=== Active timers ==="
 systemctl list-timers oracle-*
-```
 
-You should see output showing the next run time for each timer.
-
-## 9. Test it — run the forecast cycle now
-
-```bash
+# Run the first forecast cycle right now
+echo ""
+echo "=== Starting first forecast cycle ==="
 systemctl start oracle-forecast.service
+echo "Cycle started. Watch logs with: tail -f ~/oracle-lab/logs/cron.log"
 ```
 
-This runs the forecast cycle immediately. Watch the logs:
+After pasting, you should see the active timers with their next run times, then the forecast cycle starts immediately.
 
-```bash
-journalctl -u oracle-forecast.service -f
-```
-
-Or check the oracle-lab log:
+Watch it run:
 
 ```bash
 tail -f ~/oracle-lab/logs/cron.log
@@ -178,60 +109,15 @@ tail -f ~/oracle-lab/logs/cron.log
 
 Takes ~15-25 minutes. After it finishes, check GitHub for a new `cycle:` commit.
 
-## 10. Verify timers are scheduled
+## Verify timers are scheduled
 
 ```bash
 systemctl list-timers oracle-*
 ```
 
-This shows exactly when each job will next fire. If a timer is missing, re-run the setup block from step 8.
-
-## Schedule
-
-| Job | Schedule (UTC) | What it does |
-|---|---|---|
-| Forecast cycle | Every 4h at :05 | Fetches news, runs LLM forecasts, evaluates, pushes dashboard |
-| Agent iteration | Daily at 02:30 | Sonnet rewrites agent forecast code based on performance |
-| Git push | Every 6h at :45 | Backs up everything to GitHub |
-| Log cleanup | Sundays at 03:00 | Deletes logs older than 28 days |
-
-## Check if it's working
+## Check logs
 
 ```bash
 tail -20 ~/oracle-lab/logs/cron.log
+journalctl -u oracle-forecast.service --no-pager | tail -20
 ```
-
-## Pull latest code
-
-If the repo was updated from another machine:
-
-```bash
-cd ~/oracle-lab && git fetch origin && git reset --hard origin/main && chmod +x scripts/*.sh
-```
-
-## Fix: Dashboard not updating
-
-```bash
-cd ~/oracle-lab-dashboard
-source ~/oracle-lab/.env
-git remote set-url origin https://$GITHUB_TOKEN@github.com/pairie-koh/Trading-Agents-on-Polymarket.git
-git fetch origin
-git reset --hard origin/main
-cd ~/oracle-lab && source .env && bash scripts/push_dashboard.sh
-```
-
-## Recovery after disconnect
-
-```bash
-tmux attach -t oracle 2>/dev/null || tmux new -s oracle
-```
-
-If there's a merge conflict:
-
-```bash
-cd ~/oracle-lab && git fetch origin && git reset --hard origin/main
-```
-
-## Fix: Stuck at `>` prompt
-
-Press `Ctrl+C` to break out. Then retry the command.
