@@ -46,7 +46,8 @@ systemctl list-timers oracle-test*
 Wait 2 minutes, then check:
 
 ```bash
-cat ~/oracle-lab/logs/timer_test.log
+cat ~/oracle-lab/logs/timer_test.log 2>/dev/null || echo "NO LOG FILE"
+journalctl -u oracle-test.service --no-pager 2>&1 | tail -10
 ```
 
 If you see `TIMER WORKS ...` with a timestamp, scheduling works. Clean up the test and move to step 3:
