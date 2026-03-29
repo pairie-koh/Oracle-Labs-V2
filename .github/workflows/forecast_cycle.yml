@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '5 */4 * * *'
 
+permissions:
+  contents: write
+
 jobs:
   forecast:
     runs-on: ubuntu-latest
@@ -15,10 +18,8 @@ jobs:
       PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITYAPIKEY }}
 
     steps:
-      - name: Checkout oracle-lab
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,58 +30,50 @@ jobs:
         run: pip install requests numpy pandas scikit-learn matplotlib
 
       - name: Create directories
-        run: mkdir -p logs reports status briefings llm_predictions contracts state scoreboard
+        run: mkdir -p logs reports status briefings llm_predictions contracts state scoreboard price_history fact_history agents/momentum/log agents/historian/log agents/game_theorist/log agents/quant/log
 
-      # --- Stage 1: Gather data ---
-      - name: "[1/11] Run newswire"
-        run: python newswire.py || echo "WARN: newswire failed, continuing with stale facts"
+      - name: Newswire
+        run: python newswire.py || echo "WARN newswire failed"
 
-      - name: "[2/11] Update state"
-        run: python state.py || echo "WARN: state update failed"
+      - name: State
+        run: python state.py || echo "WARN state failed"
 
-      - name: "[3/11] Prepare briefing"
+      - name: Prepare briefing
         run: python prepare.py
 
-      # --- Stage 2: Fetch contracts + prices + LLM forecast ---
-      - name: "[4/11] Fetch rolling contracts"
-        run: python rolling_contracts.py || echo "WARN: rolling contracts fetch failed"
+      - name: Rolling contracts
+        run: python rolling_contracts.py || echo "WARN rolling contracts failed"
 
-      - name: "[5/11] Fetch Hyperliquid prices"
-        run: python hyperliquid.py || echo "WARN: Hyperliquid fetch failed"
+      - name: Hyperliquid
+        run: python hyperliquid.py || echo "WARN hyperliquid failed"
 
-      - name: "[6/11] Fetch GDELT news"
-        run: python gdelt.py --timespan 2d || echo "WARN: GDELT fetch failed"
+      - name: GDELT
+        run: python gdelt.py --timespan 2d || echo "WARN gdelt failed"
 
-      - name: "[7/11] Run LLM forecast"
+      - name: LLM forecast
         run: python llm_forecast.py
 
-      # --- Stage 3: Deterministic agent forecasts ---
-      - name: "[8/11] Run agent forecasts"
+      - name: Agent forecasts
         run: |
           for agent in momentum historian game_theorist quant; do
-            python "agents/$agent/forecast.py" briefings/latest.json && echo "  $agent: OK" || echo "  $agent: FAILED"
+            python "agents/$agent/forecast.py" briefings/latest.json || echo "WARN $agent failed"
           done
 
-      # --- Stage 4: Score matured predictions ---
-      - name: "[9/11] Evaluate"
+      - name: Evaluate
         run: |
-          python evaluate.py || echo "WARN: evaluation failed"
-          python evaluate_rolling.py || echo "WARN: rolling evaluation failed"
+          python evaluate.py || echo "WARN evaluation failed"
+          python evaluate_rolling.py || echo "WARN rolling evaluation failed"
 
-      # --- Stage 5: Report + status ---
-      - name: "[10/11] Generate report"
-        run: |
-          mkdir -p reports
-          python report.py || echo "WARN: report generation failed"
+      - name: Report
+        run: python report.py || echo "WARN report failed"
 
-      - name: "[11/11] Update status"
+      - name: Status
         run: |
-          python scripts/generate_status.py || echo "WARN: status page failed"
+          python scripts/generate_status.py || echo "WARN status failed"
           if [ -f scores_history.csv ]; then
             python scripts/plot_progress.py && cp progress.png status/progress.png 2>/dev/null || true
           fi
 
-      # --- Stage 6: Commit results to oracle-lab ---
       - name: Commit results
         run: |
           git config user.name "Oracle Lab Bot"
@@ -88,22 +81,3 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "cycle: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
-
-      # --- Stage 7: Push data to public dashboard ---
-      - name: Push to dashboard
-        run: |
-          git clone https://x-access-token:${{ secrets.PAT }}@github.com/pairie-koh/Trading-Agents-on-Polymarket.git /tmp/dashboard
-          mkdir -p /tmp/dashboard/data
-          cp contracts/active_contracts.json /tmp/dashboard/data/active_contracts.json 2>/dev/null || true
-          cp briefings/latest.json /tmp/dashboard/data/briefing.json 2>/dev/null || true
-          cp state/current.json /tmp/dashboard/data/state.json 2>/dev/null || true
-          cp rolling_scores_history.csv /tmp/dashboard/data/rolling_scores.csv 2>/dev/null || true
-          LATEST_PRED=$(ls -t llm_predictions/predictions_*.json 2>/dev/null | head -1)
-          if [ -n "$LATEST_PRED" ]; then
-            cp "$LATEST_PRED" /tmp/dashboard/data/llm_predictions.json
-          fi
-          cd /tmp/dashboard
-          git config user.name "Oracle Lab Bot"
-          git config user.email "hello.pairie@gmail.com"
-          git add data/
-          git diff --cached --quiet || (git commit -m "data: $(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push)

@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '30 2 * * *'
 
+permissions:
+  contents: write
+
 jobs:
   iterate:
     runs-on: ubuntu-latest
@@ -13,10 +16,8 @@ jobs:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTERAPIKEY }}
 
     steps:
-      - name: Checkout oracle-lab
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
