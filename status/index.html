@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Mar 28 06:23 PM PT</strong> (19m ago)</span>
-            <span>Next cycle: <strong>09:05 PM PT</strong> (142m)</span>
-            <span>Scored: <strong>94</strong> predictions | Logged: <strong>296</strong> forecasts</span>
+            <span>Last cycle: <strong>Mar 28 07:57 PM PT</strong> (19m ago)</span>
+            <span>Next cycle: <strong>09:05 PM PT</strong> (48m)</span>
+            <span>Scored: <strong>94</strong> predictions | Logged: <strong>300</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(9d 23h ago)</span>
+            <span class="dim">(10d 0h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,51 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># Methodology Change — 2026-03-19
+                    <div class="iter-text"># momentum — 2026-03-29
 
-**Version:** 1.5.0 → 1.6.0
-**Change:** Increased `MOMENTUM_WEIGHT` from 0.20 to 0.25.
+Version: 1.6.0 -&gt; 1.7.0
 
-The 1.5.0 change (MOMENTUM_WEIGHT 0.15 → 0.20) produced a dramatic improvement: the last two cycles recorded MSE of 1.71e-06 and 1.89e-06, roughly 50x better than the naive baseline. Per-market directional accuracy rose to 94.4% (17/18 correct direction calls). Per `program.md`, directional accuracy well above 50% is the trigger to increase MOMENTUM_WEIGHT further. At 0.20, we may still be leaving value on the table given how reliably we call direction; raising to 0.25 extracts slightly more from each correct directional call. The increment is kept modest (0.05) to avoid overshooting on a volatile cycle.</div>
+The model has terrible directional accuracy (12.5%), indicating the momentum logic is backwards. Instead of extrapolating momentum in the same direction, I&#x27;m inverting the momentum signal by multiplying it by -1. This should flip my predictions to the opposite direction, potentially improving directional accuracy from 12.5% to 87.5%. I&#x27;m keeping all other parameters the same to isolate this single logical change.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># Methodology Change — 2026-03-19
+                    <div class="iter-text"># historian — 2026-03-29
 
-**Version:** 1.5.0 → 1.6.0
-**Change:** Increased `MAX_NEWS_SHIFT` from 0.010 to 0.015
+Version: 1.6.0 -&gt; 1.7.0
 
-## Reasoning
-
-The scorecard shows 94.44% directional accuracy on regime_fall — we are calling the direction correctly almost every time. However, overall MSE (0.00011598) remains above the naive baseline (0.00009999), meaning our magnitude of shift is sometimes insufficient to capture actual price moves.
-
-With the current 1pp cap, any genuine market-moving news that causes a price shift greater than 1pp leaves us under-corrected relative to where the price actually lands. Since our directional signal is highly reliable, widening the cap to 1.5pp should reduce MSE on cycles where actual price movement exceeds the old cap.
-
-The last two cycles were excellent (MSE 1.72e-06 and 5.76e-06), confirming the current framework is sound. This is a conservative, directional expansion — not a structural change — intended to close the remaining gap to the naive baseline.</div>
+Looking at the scorecard, I can see that while my MSE (0.00010449) is slightly above the naive baseline (7.916e-05), my directional accuracy is extremely poor at 25% overall, despite having 91.67% directional accuracy on the regime_fall market specifically. This suggests my forecasting approach is too conservative and not responding adequately to genuine signals. The most concerning issue is that all source categories show identical 25% directional accuracy, indicating my source weighting system</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># Methodology Change — 2026-03-19
+                    <div class="iter-text"># game_theorist — 2026-03-29
 
-**Version:** 1.5.0 → 1.6.0
+Version: 1.6.0 -&gt; 1.7.0
 
-**Change:** Reduced `ESCALATION_SENSITIVITY` from 0.0007 to 0.0004.
-
-**Reasoning:** Per-market directional accuracy is 94.12% — the direction logic is working correctly. The remaining problem is magnitude: overall MSE is 0.00026561, 2.5× worse than the naive baseline of 0.00010589. The mse_trend_last_5 shows volatile recent cycles ([9.003e-05, 3.734e-05, 0.00023019]), indicating that even at 0.0007 sensitivity the agent still overshoots when signal strength is high (e.g., signal=10.65 this cycle). Reducing sensitivity 43% to 0.0004 shrinks shifts proportionally, keeping predictions tighter to the current price without disturbing direction, which continues the successful trajectory established across v1.2.0–v1.5.0.
-
-**Expected effect:** Smaller per-cycle shifts should reduce squared error on high-signal cycles, bringing recent-cycle MSE consistently below the naive baseline of 0.000106. Direction is already correct; this change only reduces overshoot magnitude.</div>
+My MSE is significantly above the naive baseline and my predictions appear to be too large in magnitude, even though my directional accuracy for regime_fall is good at 91.3%. The recent MSE trend shows dramatic improvement from 0.00023019 to 7.25e-06, indicating smaller predictions work better. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.0004 to 0.0002 to make more conservative predictions while preserving the directional logic that&#x27;s working well. This should help me get closer to the naive baseline performance while maintaining my strong directional accuracy.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># Methodology Change — 2026-03-19
+                    <div class="iter-text"># quant — 2026-03-29
 
-**Version:** 1.5.0 → 1.6.0
-**Change:** Reduced `reversion_forecast` coefficient from 0.05 to 0.03.
+Version: 1.6.0 -&gt; 1.7.0
 
-The `mse_trend_last_5` shows the last two prediction cycles achieved near-zero squared error (1e-08 and 0.0), confirming that predictions staying extremely close to current price are optimal for this stable, low-volatility market (~4% Iranian regime fall probability). The reversion pull toward the 24-period long-term mean introduces unnecessary drift away from current price. Reducing the coefficient from 0.05 to 0.03 further anchors predictions to current, extending the near-zero MSE streak while maintaining the adaptive blend and EWMA momentum structure.</div>
+I&#x27;m reducing both momentum_coefficient and reversion_coefficient by 75% (from 0.08/0.03 to 0.02/0.0075) to make much more conservative predictions. My current MSE is 32x worse than the naive baseline, and my 17.39% directional accuracy suggests I&#x27;m predicting moves that are too large and in the wrong direction. The recent MSE trend shows much smaller errors, indicating that smaller adjustments work better. This change should keep my predictions much closer to current prices while still allowing for some directional bias.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -300,12 +287,12 @@ The `mse_trend_last_5` shows the last two prediction cycles achieved near-zero s
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.6.0</span>
+            <span class="dim">v1.7.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 28 06:42 PM PT (prev: Mar 20 04:52 PM PT)</div>
+        <div class="analysis-time dim">Mar 28 08:16 PM PT (prev: Mar 28 06:42 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -316,36 +303,36 @@ The `mse_trend_last_5` shows the last two prediction cycles achieved near-zero s
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.6.0</span>
+            <span class="dim">v1.7.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 28 06:42 PM PT (prev: Mar 20 04:52 PM PT)</div>
+        <div class="analysis-time dim">Mar 28 08:16 PM PT (prev: Mar 28 06:42 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.6.0</span>
+            <span class="dim">v1.7.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 28 06:42 PM PT (prev: Mar 20 04:52 PM PT)</div>
+        <div class="analysis-time dim">Mar 28 08:16 PM PT (prev: Mar 28 06:42 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#2ecc71"></span>
             <strong>Quant</strong>
-            <span class="dim">v1.6.0</span>
+            <span class="dim">v1.7.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 28 06:42 PM PT (prev: Mar 20 04:53 PM PT)</div>
+        <div class="analysis-time dim">Mar 28 08:16 PM PT (prev: Mar 28 06:42 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     </div>
@@ -401,11 +388,11 @@ The `mse_trend_last_5` shows the last two prediction cycles achieved near-zero s
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>17</strong> facts:
-                <span class="esc">9 escalatory</span>,
-                <span class="deesc">5 de-escalatory</span>,
+                <strong>26</strong> facts:
+                <span class="esc">16 escalatory</span>,
+                <span class="deesc">7 de-escalatory</span>,
                 3 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> The U.S. planned to deploy 3,000-4,000 soldiers from the 82nd Airborne Division to the Middle East, </div><div class="fact"><span class="dim">[military_pressure]</span> Approximately 2,500 Marines from the 31st Marine Expeditionary Unit aboard USS Tripoli were ordered </div><div class="fact"><span class="dim">[military_pressure]</span> U.S. and Israeli strikes have hit 9,000 Iranian targets since February 28, 2026.</div>
+            </div><div class="fact"><span class="dim">[military_pressure]</span> The Pentagon expects to deploy 3,000-4,000 soldiers from the 82nd Airborne Division to unspecified M</div><div class="fact"><span class="dim">[military_pressure]</span> Approximately 2,500 Marines are aboard the USS Boxer amphibious assault ship with accompanying warsh</div><div class="fact"><span class="dim">[military_pressure]</span> The Pentagon is considering deploying an additional 10,000 ground troops, including 82nd Airborne fo</div>
     </div>
         
     <div class="section">
@@ -413,12 +400,12 @@ The `mse_trend_last_5` shows the last two prediction cycles achieved near-zero s
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Iran faces escalating U.S. and Israeli military pressure with over 9,000 targets struck since late February, while the new Supreme Leader and military-dominated security council reject ceasefire terms</div>
-                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: high</span><span class="indicator level-high">succession dynamics: high</span><span class="indicator level-high">diplomatic signals: high</span><span class="indicator level-mod">economic collapse: moderate</span><span class="indicator level-mod">international response: moderate</span></div>
+                <div class="state-status">Massive U.S. and Israeli strikes on March 28 targeted Iran&#x27;s nuclear facilities, military infrastructure, and industrial sites across multiple provinces, with operations described as ahead of schedule</div>
+                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: high</span><span class="indicator level-high">succession dynamics: high</span><span class="indicator level-high">diplomatic signals: high</span><span class="indicator level-high">economic collapse: high</span><span class="indicator level-high">international response: high</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-03-28 06:42 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-03-28 08:16 PM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
