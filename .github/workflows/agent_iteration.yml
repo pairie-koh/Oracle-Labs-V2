@@ -3,7 +3,7 @@ name: Agent Iteration
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2 * * *'
+    - cron: '0 6 * * *'
 
 permissions:
   contents: write
