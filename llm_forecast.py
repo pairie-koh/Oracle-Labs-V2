@@ -323,7 +323,9 @@ Today's date: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}
 IMPORTANT: You must end your response with exactly this format on its own line:
 PROBABILITY: 0.XX
 
-Where 0.XX is your estimated probability (0.00 to 1.00) that this contract resolves YES."""
+Where 0.XX is your estimated probability (0.00 to 1.00) that this contract resolves YES.
+
+NOTE: Don't hedge or play it safe - make confident predictions when the evidence supports them. Markets reward accuracy, not appearing reasonable. If you think an outcome is likely, don't be afraid to assign high probability."""
 
     return prompt
 
@@ -398,7 +400,9 @@ Additionally:
 IMPORTANT: You must end your response with probabilities for each outcome, one per line, in this exact format:
 PROBABILITY [outcome question or short label]: 0.XX
 
-List them in the same order as above."""
+List them in the same order as above.
+
+NOTE: Don't spread probability evenly to hedge - if you think one outcome is most likely, concentrate probability there. Markets reward accuracy, not appearing reasonable."""
 
     return prompt
 
