@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Mar 28 10:45 PM PT</strong> (5m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (133m)</span>
-            <span>Scored: <strong>94</strong> predictions | Logged: <strong>304</strong> forecasts</span>
+            <span>Last cycle: <strong>Mar 29 01:50 AM PT</strong> (5m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (189m)</span>
+            <span>Scored: <strong>94</strong> predictions | Logged: <strong>308</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(10d 3h ago)</span>
+            <span class="dim">(10d 6h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -178,36 +178,36 @@
                     <strong>Momentum</strong>
                     <div class="iter-text"># momentum — 2026-03-29
 
-Version: 1.8.0 -&gt; 1.9.0
+Version: 1.9.0 -&gt; 1.10.0
 
-The momentum agent has extremely poor directional accuracy (12.5%) which is far worse than random chance, indicating the momentum logic is consistently predicting in the wrong direction. The current momentum signal is &quot;following&quot; recent price movements, but in a falling market regime, this appears to be the wrong approach. I&#x27;m reversing the momentum signal to be contrarian instead of trend-following, changing the dual momentum calculation to use negative coefficients (-0.7 for change_4h and -0.3 for normalized change_24h). This should help the agent bet against recent price movements rather than extrapolating them, which may be more appropriate in the current market conditions.</div>
+The directional accuracy of 12.5% indicates the momentum signal is consistently wrong. I&#x27;m reverting from the contrarian momentum approach back to standard momentum (positive coefficients) and reducing the momentum weight from 0.25 to 0.15 to be more conservative. This change should improve directional accuracy by aligning predictions with actual price continuation rather than fighting against it.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
                     <div class="iter-text"># historian — 2026-03-29
 
-Version: 1.8.0 -&gt; 1.9.0
+Version: 1.9.0 -&gt; 1.10.0
 
-Reducing NEWS_SENSITIVITY from 0.25 back to 0.05 to make the model less reactive to news signals. The current high sensitivity appears to be causing over-reaction to news, leading to worse performance than the naive baseline. By making the model more conservative and relying more heavily on mean reversion toward the adaptive base rate, I expect to improve both MSE and directional accuracy.</div>
+I&#x27;m reducing NEWS_SENSITIVITY from 0.05 to 0.03 to make the agent less reactive to news signals. Since my directional accuracy is only 25% and I&#x27;m underperforming the naive baseline, I&#x27;m likely overreacting to news when I should be trusting mean reversion more. As a historian agent focused on base rates, I should be more skeptical of dramatic signals and stick closer to historical patterns. This change should help improve directional accuracy by reducing noise-driven movements.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
                     <div class="iter-text"># game_theorist — 2026-03-29
 
-Version: 1.8.0 -&gt; 1.9.0
+Version: 1.9.0 -&gt; 1.10.0
 
-My directional accuracy of 13% indicates I&#x27;m systematically predicting the wrong direction. The current escalation sensitivity of 0.00005 appears to be causing moves that are consistently wrong. I&#x27;m reducing the escalation sensitivity by 80% to 0.00001 to make much smaller, more conservative adjustments to market prices. This should help identify if the issue is with signal magnitude or signal direction interpretation.</div>
+My directional accuracy of 13% indicates I&#x27;m systematically moving in the wrong direction. The current ESCALATION_SENSITIVITY of 0.00001 is extremely conservative and may not be allowing meaningful response to signals. I&#x27;m increasing ESCALATION_SENSITIVITY from 0.00001 to 0.001 (100x increase) to make my predictions more responsive to the signals I&#x27;m detecting. This should help me capture meaningful moves when there are strong signals, which may improve both MSE and directional accuracy.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
                     <div class="iter-text"># quant — 2026-03-29
 
-Version: 1.8.0 -&gt; 1.9.0
+Version: 1.9.0 -&gt; 1.10.0
 
-The current model is making predictions that are too far from the current price, resulting in MSE 32x worse than the naive baseline. I&#x27;m reducing both momentum_coefficient and reversion_coefficient by 80% (from 0.005 to 0.001 and from 0.0075 to 0.0015 respectively) to make much more conservative predictions that stay closer to the current price. This should dramatically improve MSE while maintaining some directional signal.</div>
+The current model is severely underperforming with MSE 32x worse than naive baseline and only 17% directional accuracy. The momentum and reversion coefficients are causing predictions to deviate too far from current prices. I&#x27;m reducing both momentum_coefficient and reversion_coefficient from 0.001/0.0015 to 0.0001/0.00015 respectively (10x reduction) to make much more conservative predictions that stay closer to current prices. This should dramatically improve MSE performance.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -249,7 +249,7 @@ The current model is making predictions that are too far from the current price,
                     <span class="current-price">0.1850</span>
                 </div>
                 <div class="price-changes">
-                    4h: <span class="down">-0.0100</span>
+                    4h: <span class="">+0.0000</span>
                     &nbsp; 24h: <span class="down">-0.0100</span>
                 </div>
                 
@@ -287,12 +287,12 @@ The current model is making predictions that are too far from the current price,
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.9.0</span>
+            <span class="dim">v1.10.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 28 10:51 PM PT (prev: Mar 28 08:16 PM PT)</div>
+        <div class="analysis-time dim">Mar 29 01:55 AM PT (prev: Mar 28 10:51 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,36 +303,36 @@ The current model is making predictions that are too far from the current price,
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.9.0</span>
+            <span class="dim">v1.10.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 28 10:51 PM PT (prev: Mar 28 08:16 PM PT)</div>
+        <div class="analysis-time dim">Mar 29 01:55 AM PT (prev: Mar 28 10:51 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.9.0</span>
+            <span class="dim">v1.10.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 28 10:51 PM PT (prev: Mar 28 08:16 PM PT)</div>
+        <div class="analysis-time dim">Mar 29 01:55 AM PT (prev: Mar 28 10:51 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#2ecc71"></span>
             <strong>Quant</strong>
-            <span class="dim">v1.9.0</span>
+            <span class="dim">v1.10.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 28 10:51 PM PT (prev: Mar 28 08:16 PM PT)</div>
+        <div class="analysis-time dim">Mar 29 01:55 AM PT (prev: Mar 28 10:51 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     </div>
@@ -388,11 +388,11 @@ The current model is making predictions that are too far from the current price,
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>21</strong> facts:
-                <span class="esc">13 escalatory</span>,
-                <span class="deesc">8 de-escalatory</span>,
-                0 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> USS Tripoli (LHA-7) and the 31st Marine Expeditionary Unit, carrying approximately 3,500 sailors and</div><div class="fact"><span class="dim">[military_pressure]</span> USS Boxer ARG/MEU with approximately 2,500 Marines deployed from San Diego on March 18, 2026, en rou</div><div class="fact"><span class="dim">[military_pressure]</span> The Pentagon was considering deploying 3,000-4,000 soldiers from the 82nd Airborne Division and up t</div>
+                <strong>16</strong> facts:
+                <span class="esc">10 escalatory</span>,
+                <span class="deesc">4 de-escalatory</span>,
+                2 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> USS Tripoli (LHA-7) and its 31st Marine Expeditionary Unit, carrying approximately 3,500 sailors and</div><div class="fact"><span class="dim">[military_pressure]</span> USS Boxer Amphibious Ready Group/Marine Expeditionary Unit deployed from San Diego on March 18, 2026</div><div class="fact"><span class="dim">[military_pressure]</span> Pentagon finalized plans as of March 29, 2026, for potential ground operations in Iran involving 3,0</div>
     </div>
         
     <div class="section">
@@ -400,12 +400,12 @@ The current model is making predictions that are too far from the current price,
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Massive U.S. and Israeli strikes on March 28 targeted Iran&#x27;s nuclear facilities, military infrastructure, and industrial sites across multiple provinces, with approximately 9,000 targets struck and op</div>
-                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: high</span><span class="indicator level-high">succession dynamics: high</span><span class="indicator level-high">diplomatic signals: high</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
+                <div class="state-status">U.S. and Israeli air campaign has struck approximately 9,000 Iranian targets with operations nearing completion, while Pentagon finalizes plans for potential ground operations involving 3,000-4,000 tr</div>
+                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: high</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-03-28 10:51 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-03-29 01:55 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
