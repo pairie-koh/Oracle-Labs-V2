@@ -28,10 +28,13 @@ jobs:
         run: pip install requests numpy pandas scikit-learn
 
       - name: Create directories
-        run: mkdir -p logs status
+        run: mkdir -p logs status llm_iteration_log
 
       - name: Iterate all agents
         run: python scripts/iterate_agent.py all
+
+      - name: Iterate LLM forecaster
+        run: python scripts/iterate_llm.py || echo "WARN LLM iteration skipped (not enough data yet)"
 
       - name: Commit iteration results
         run: |
