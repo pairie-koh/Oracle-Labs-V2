@@ -43,3 +43,27 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "iteration: $(date +%Y-%m-%d)"
           git push
+
+      - name: Push to dashboard
+        run: |
+          git clone https://x-access-token:${{ secrets.PAT }}@github.com/pairie-koh/Trading-Agents-on-Polymarket.git /tmp/dashboard
+          mkdir -p /tmp/dashboard/data
+          # Collect all iteration logs into a single JSON for the dashboard
+          python3 -c "
+          import json, os, glob
+          logs = sorted(glob.glob('llm_iteration_log/*.md'))
+          entries = []
+          for path in logs:
+              date = os.path.basename(path).replace('.md', '')
+              with open(path) as f:
+                  content = f.read()
+              entries.append({'date': date, 'content': content})
+          with open('/tmp/dashboard/data/iteration_log.json', 'w') as f:
+              json.dump({'entries': entries}, f, indent=2)
+          print(f'Wrote {len(entries)} iteration log entries')
+          "
+          cd /tmp/dashboard
+          git config user.name "Oracle Lab Bot"
+          git config user.email "hello.pairie@gmail.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "iteration: $(date +%Y-%m-%d)" && git push)
