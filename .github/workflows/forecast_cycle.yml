@@ -90,6 +90,8 @@ jobs:
           cp briefings/latest.json /tmp/dashboard/data/briefing.json 2>/dev/null || true
           cp state/current.json /tmp/dashboard/data/state.json 2>/dev/null || true
           cp rolling_scores_history.csv /tmp/dashboard/data/rolling_scores.csv 2>/dev/null || true
+          cp scoreboard/latest.json /tmp/dashboard/data/scoreboard.json 2>/dev/null || true
+          cp scores_history.csv /tmp/dashboard/data/scores_history.csv 2>/dev/null || true
           LATEST_PRED=$(ls -t llm_predictions/predictions_*.json 2>/dev/null | head -1)
           if [ -n "$LATEST_PRED" ]; then
             cp "$LATEST_PRED" /tmp/dashboard/data/llm_predictions.json
