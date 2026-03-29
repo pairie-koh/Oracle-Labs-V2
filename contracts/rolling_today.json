@@ -1,524 +1,502 @@
 {
-  "date": "2026-03-23",
-  "fetched_at": "2026-03-23T01:18:56Z",
+  "date": "2026-03-29",
+  "fetched_at": "2026-03-29T01:23:29Z",
   "contracts": {
     "bitcoin_daily": {
       "name": "Bitcoin Up or Down",
-      "slug": "bitcoin-up-or-down-on-march-23-2026",
-      "event_id": "293371",
+      "slug": "bitcoin-up-or-down-on-march-29-2026",
+      "event_id": "314281",
       "category": "economics",
       "type": "binary",
       "status": "active",
       "markets": [
         {
-          "question": "Bitcoin Up or Down on March 23?",
-          "slug": "bitcoin-up-or-down-on-march-23-2026",
-          "condition_id": "0xd9167af2726796d9e60aa9c37e4351712fc3e2f58c8bb7aaca36398b81d36e6d",
+          "question": "Bitcoin Up or Down on March 29?",
+          "slug": "bitcoin-up-or-down-on-march-29-2026",
+          "condition_id": "0x25eb9e1b81d6d229b18311611d1869e87f56b7468ee9b4cc0e235dfb2c72b15a",
           "token_ids": [
-            "39197072940575747724204409755651944960722762844084608736025821816189520619821",
-            "5414755710202536442058403290931563810503437979055437255489286730604012982353"
+            "31247486626288664595271994170725901401877941870023010673225782661034603202695",
+            "75172333948825404723524038267250918990322913040457171732543542126021289686472"
           ],
           "outcomes": [
             "Up",
             "Down"
           ],
           "prices": [
-            0.325,
-            0.675
+            0.315,
+            0.685
           ],
-          "volume": 48868.53859399997,
-          "liquidity": 36898.2429,
-          "end_date": "2026-03-23T16:00:00Z"
+          "volume": 67108.57581399998,
+          "liquidity": 34362.2068,
+          "end_date": "2026-03-29T16:00:00Z"
         }
       ]
     },
     "oil_daily": {
       "name": "Crude Oil (CL) Up or Down",
-      "slug": "cl-up-or-down-on-march-23-2026",
-      "event_id": "289468",
+      "slug": "cl-up-or-down-on-march-29-2026",
       "category": "economics",
       "type": "binary",
-      "status": "active",
-      "markets": [
-        {
-          "question": "Crude Oil (CL) Up or Down on March 23?",
-          "slug": "cl-up-or-down-on-march-23-2026",
-          "condition_id": "0x98045a7279a6e9e8f4eae2d0ebc740f7ba72617b65bb1bf2dfe0f0b9e780db95",
-          "token_ids": [
-            "13357886838656897094511459785807567368558561750586576853756790528116470878343",
-            "51393333139301758652587855117157043709497934963128389326075989110956832783198"
-          ],
-          "outcomes": [
-            "Up",
-            "Down"
-          ],
-          "prices": [
-            0.65,
-            0.35
-          ],
-          "volume": 720.486348,
-          "liquidity": 1250.392,
-          "end_date": "2026-03-23T20:00:00Z"
-        }
-      ]
+      "status": "not_found",
+      "markets": []
     },
     "nyc_temp": {
       "name": "Highest temperature in NYC",
-      "slug": "highest-temperature-in-nyc-on-march-23-2026",
-      "event_id": "285769",
+      "slug": "highest-temperature-in-nyc-on-march-29-2026",
+      "event_id": "306328",
       "category": "weather",
       "type": "multi-outcome",
       "status": "active",
       "markets": [
         {
-          "question": "Will the highest temperature in New York City be 51\u00b0F or below on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-51forbelow",
-          "condition_id": "0x4607c4f04580566f257708a91992ea5b134a609614477d0dd2d771f25c737aee",
+          "question": "Will the highest temperature in New York City be 47\u00b0F or below on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-47forbelow",
+          "condition_id": "0x70ffc1eef2bdb05393f0cdb0d5b210f75e17e9c1bccba2226ee41d3622fd2ed1",
           "token_ids": [
-            "93946555944928930928225244910237854968422028717771601287626748825225053774024",
-            "56992846095342685463113273490274949279032548526208052087518340638568000679941"
+            "57991177763243893921872455543659277780124564305812444244811781795365551491724",
+            "45778417423284058263870343739605253008207279605591585686078730961938791401653"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.72,
-            0.28
+            0.043,
+            0.957
           ],
-          "volume": 9877.512501000012,
-          "liquidity": 473.3399,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 13168.620615000002,
+          "liquidity": 4915.53113,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 52-53\u00b0F on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-52-53f",
-          "condition_id": "0xad211357d05c0ac3f935af7e18ae71704104ec9bd0150aa451659b40a29fe780",
+          "question": "Will the highest temperature in New York City be between 48-49\u00b0F on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-48-49f",
+          "condition_id": "0x7f1d63a485a999801e488cd09af017e7352bb566c76ae7bc2e0f48214b0aa659",
           "token_ids": [
-            "17652438180081861928035502438125536452792286398568892844863073986398583360827",
-            "26638786678712264052690561240861971953001074660101922298105158936856803609668"
+            "99170173478199294427252494862483420251968584543104646482600540850344028624122",
+            "90950820892754327709764283134145658750861226214739273595010808563460665553672"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.2,
-            0.8
+            0.08,
+            0.92
           ],
-          "volume": 5640.268665000003,
-          "liquidity": 581.2798,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 4030.9477899999993,
+          "liquidity": 1300.379,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 54-55\u00b0F on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-54-55f",
-          "condition_id": "0x861e9d1c3865e5f6c5a8b6e7ffdce1d42dff3f335acec335ec1960b37b2126c7",
+          "question": "Will the highest temperature in New York City be between 50-51\u00b0F on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-50-51f",
+          "condition_id": "0x230c27f52e2b9f0dfc52c2316df4541ee731a46455742d19fbb804d53f07db52",
           "token_ids": [
-            "67962778178566185396941859569818101342378813121258781079634589620008940987891",
-            "83036831546807278102403785132178818832516667038990845147150133284581836487925"
+            "98224145115412293308733419101215901907036163240411963961039555483222893345919",
+            "29949582029271884246610003002136683770538027205021479965433394040451890267160"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.042,
-            0.958
+            0.195,
+            0.805
           ],
-          "volume": 8675.002035,
-          "liquidity": 725.88981,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 4068.2308189999985,
+          "liquidity": 1105.0411,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 56-57\u00b0F on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-56-57f",
-          "condition_id": "0xaf7bfa26ec497b47661577dbfd68f7310405fdeaae2222d51f025702e2d9df9b",
+          "question": "Will the highest temperature in New York City be between 52-53\u00b0F on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-52-53f",
+          "condition_id": "0xe8376f83fa2b2d74fb0ea861810df724c6b00356e69c0980df235b4e490e44b9",
           "token_ids": [
-            "72526867260956324659386532473485608631382369051085453582363254817368940729608",
-            "109241454272477930304807859467224529116568767257829893884922985963811271243129"
+            "105072772387631990597572808288256095982842947057961623220152763381181825828452",
+            "107012940677930738455171098518249971115706140709250775270765114490327355771544"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.015,
-            0.985
+            0.305,
+            0.695
           ],
-          "volume": 9201.957596000004,
-          "liquidity": 1216.35385,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 3199.987575,
+          "liquidity": 896.2815,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 58-59\u00b0F on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-58-59f",
-          "condition_id": "0x325694ad464eb4ae34303fdb97c449159d8a65c300f78fb20d9db96a9cb2732c",
+          "question": "Will the highest temperature in New York City be between 54-55\u00b0F on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-54-55f",
+          "condition_id": "0xf8460629f7d7015361bb964cef0baa2fd2c1c10919100a553197709078a0bbd9",
           "token_ids": [
-            "58951484908979801798503554729967021446889809153278412591479984018382323756946",
-            "50601504978955228641081417164836422518313898291514090367176907029522424068512"
+            "11585891287932959543033732809016294386642432648069075648350351132693156491523",
+            "68757054081345805216505142383283228339385455089392443627193222350076296159973"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0065,
-            0.9935
+            0.25,
+            0.75
           ],
-          "volume": 10460.669327000003,
-          "liquidity": 2629.04941,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 3466.3072710000006,
+          "liquidity": 1015.6346,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 60-61\u00b0F on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-60-61f",
-          "condition_id": "0x9660545769d8d1690edc2cdebc6975622e2768cdb1bda52962c21a054b984663",
+          "question": "Will the highest temperature in New York City be between 56-57\u00b0F on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-56-57f",
+          "condition_id": "0xf2ee507344371c931bc8b690b2b3883acf38f2dc1d23aedabc972f6348a78e77",
           "token_ids": [
-            "55392432048257560825183130466628869823282835050331242409558455794959683139544",
-            "28461133442682600906132159032244082714779380695476370557285936376050109234671"
+            "79215366825513957127643053501593080031996011810062520883640664374183314963457",
+            "58241770988489588013646102423413712969438859602232214283593973675504051242852"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0015,
-            0.9985
+            0.105,
+            0.895
           ],
-          "volume": 8314.104714,
-          "liquidity": 3062.62054,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 2209.558828,
+          "liquidity": 1543.8945,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 62-63\u00b0F on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-62-63f",
-          "condition_id": "0x8ae14cdc48ae2e0a321bbc311e306d1fd6fe1e21535f1dae3e04b7641f05b5d3",
+          "question": "Will the highest temperature in New York City be between 58-59\u00b0F on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-58-59f",
+          "condition_id": "0xc2e1c489868b2770f471735dca738fc7e51cabf8308dc305b656d8337a74a240",
           "token_ids": [
-            "55012247446513753814748392735695661359767579266142221244830154604336729406857",
-            "96942583778836308161223127668427890172419348002177063045212490651145428391170"
+            "102047342759328121580758611139367464370088981759042934787863871919275036685067",
+            "5332893388660239516471392155406647211134926843167651410789993375961677349164"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.012,
-            0.988
+            0.031,
+            0.969
           ],
-          "volume": 19096.470727,
-          "liquidity": 1601.48872,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 3112.190045,
+          "liquidity": 1528.88529,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 64-65\u00b0F on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-64-65f",
-          "condition_id": "0xc6fbc7a94d06326d1e3e71e0009dd1ea5a3a36d15629c0a7c3cb3dd0ad03d927",
+          "question": "Will the highest temperature in New York City be between 60-61\u00b0F on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-60-61f",
+          "condition_id": "0x4a481cabdb49eaa87c93433001acfb8402b5e6887641fe5c37a75a2f0b53634c",
           "token_ids": [
-            "67754332082018412236863970097595310312009895233131206191732115168118850659136",
-            "113161705974006553001494153320197413270296547839105139746420287751527085509113"
+            "59763656490662085962374027095790861731535815851064192245248079922710369424409",
+            "69345495290531859490448058374394748294496009843233070073699630234400648330912"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.002,
-            0.998
+            0.0075,
+            0.9925
           ],
-          "volume": 9245.895955000002,
-          "liquidity": 1717.86307,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 2574.901525999999,
+          "liquidity": 2143.20438,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 66-67\u00b0F on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-66-67f",
-          "condition_id": "0x938c2ba88482400af6b6a52d8aca2c0fca69afcacebef3489be982108a60733a",
+          "question": "Will the highest temperature in New York City be between 62-63\u00b0F on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-62-63f",
+          "condition_id": "0xac7298e6aea946704163c5b1ca3259029e2635f96e973a4f3262edeb146b6430",
           "token_ids": [
-            "76916551199105436283187013588062252711800547771664606479652808071892250205049",
-            "44343666661253326344022858586361615704187494856740234572698553302875939544823"
+            "79341135188259187440007924983955064258117920424422228947357455661392404927486",
+            "35241408748272384098749575036593470736045272746171972254314359223044002361495"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.002,
-            0.998
+            0.005,
+            0.995
           ],
-          "volume": 8425.873824999999,
-          "liquidity": 2070.08831,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 5331.991702,
+          "liquidity": 2366.62893,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 68-69\u00b0F on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-68-69f",
-          "condition_id": "0x22e24713e4a2a80d233e9f663bd05c883ce5b3c7141eb59c096b3b5e3f685430",
+          "question": "Will the highest temperature in New York City be between 64-65\u00b0F on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-64-65f",
+          "condition_id": "0xb1a7b7f6e8ba59a8725f64ab52ccc87a4450c46b43ab96030c9a11d5873211bd",
           "token_ids": [
-            "86824495401602816911580633727490855317939348028053991437711133614050497084950",
-            "77955632763397371610149480396801751108033806692859248556235728829913006327065"
+            "23473252462173904887837248183128863427506233949388353444586145989768974472767",
+            "98286937899240297385817850829844629750119282415703825597135831362494498434496"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.001,
-            0.999
+            0.005,
+            0.995
           ],
-          "volume": 13805.597279000001,
-          "liquidity": 2840.38767,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 3452.345763000002,
+          "liquidity": 2362.73912,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be 70\u00b0F or higher on March 23?",
-          "slug": "highest-temperature-in-nyc-on-march-23-2026-70forhigher",
-          "condition_id": "0x103c58de9acb3f414977d079d9ac5ffca2f0ec94da63f8ee38665e695cd8fe18",
+          "question": "Will the highest temperature in New York City be 66\u00b0F or higher on March 29?",
+          "slug": "highest-temperature-in-nyc-on-march-29-2026-66forhigher",
+          "condition_id": "0x722a826c483997eca8c4467fcd4ef63c9f377405d4a6aaca1d0e8e110e1daed5",
           "token_ids": [
-            "38086701514015655480617831445275214146607569163343294741527306125657721960500",
-            "54085238167162254714149836806648474170927798137182866925883977375885365272355"
+            "59653550472752237079321341490867847349626655480885059721910413005858600391017",
+            "77075994138580863629006535936992514406683886628362555474341623151972012480040"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0015,
-            0.9985
+            0.0025,
+            0.9975
           ],
-          "volume": 11592.180296,
-          "liquidity": 3334.42025,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 4824.043860999999,
+          "liquidity": 2348.88364,
+          "end_date": "2026-03-29T12:00:00Z"
         }
       ]
     },
     "miami_temp": {
       "name": "Highest temperature in Miami",
-      "slug": "highest-temperature-in-miami-on-march-23-2026",
-      "event_id": "285772",
+      "slug": "highest-temperature-in-miami-on-march-29-2026",
+      "event_id": "306331",
       "category": "weather",
       "type": "multi-outcome",
       "status": "active",
       "markets": [
         {
-          "question": "Will the highest temperature in Miami be 71\u00b0F or below on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-71forbelow",
-          "condition_id": "0xf0d5bd15732259729b939c40d14df9a60e53378d59873bde6d3a55bc56c8f7f3",
+          "question": "Will the highest temperature in Miami be 71\u00b0F or below on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-71forbelow",
+          "condition_id": "0x43a02267be96657fe007bbd1e4aa21cadacdeab53e02ed81af2bf722a54f3f4a",
           "token_ids": [
-            "8357035524007767367186202829323855246725421521653946483075178678879724690411",
-            "36013819203431405635548427084024000555001900323966918707942654656215209427112"
+            "81307476324459467389991099481393474160031928287696301272077404000665486455129",
+            "114274640360824593549225850570936186478133925373798095010549396536024460708999"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.004,
-            0.996
+            0.005,
+            0.995
           ],
-          "volume": 5157.772651000001,
-          "liquidity": 3326.73518,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 3748.9619310000007,
+          "liquidity": 2157.17811,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 72-73\u00b0F on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-72-73f",
-          "condition_id": "0xbee8e1a45964fc6c8115ef478b7f68600c56380b8df1adc4503377897606e5e1",
+          "question": "Will the highest temperature in Miami be between 72-73\u00b0F on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-72-73f",
+          "condition_id": "0x8b8170adb65acab466cd32e186290abba1684ad268ef0b50627048204fd5c61e",
           "token_ids": [
-            "41422576578353376769108800444576737659340226049099930130230699192645211088187",
-            "35271185292886804704009501555832996453779636584417544317832114940329884508910"
+            "58260191625730033823971107388383369899135763558873801947608816897852079870577",
+            "29527821145632584118459601383576645294284520549392095389110636802116207476715"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.004,
-            0.996
+            0.0055,
+            0.9945
           ],
-          "volume": 6140.041573999981,
-          "liquidity": 3613.80427,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 5307.750924999998,
+          "liquidity": 1854.43756,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 74-75\u00b0F on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-74-75f",
-          "condition_id": "0x546df04f9c2e55aa338e0baf61932710b310c499cbe5468008559ebd90bf7da4",
+          "question": "Will the highest temperature in Miami be between 74-75\u00b0F on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-74-75f",
+          "condition_id": "0x2846105e4d064c5e533626d2e5acbb0390d1226da106b04e0211d9799c168b76",
           "token_ids": [
-            "104466537195367961270188168245976839163041017458860396116630705143684346637698",
-            "27555456281426673975877894795626555392330960337322493992199308367398773086783"
+            "47307601589398388004954025311742853539004745313215191053956331935962876586026",
+            "79347906153162837991805359414213173496393063570845926085043354599906944906551"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0035,
-            0.9965
+            0.023,
+            0.977
           ],
-          "volume": 1780.3393889999977,
-          "liquidity": 2736.01249,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 6172.363048999999,
+          "liquidity": 1467.57942,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 76-77\u00b0F on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-76-77f",
-          "condition_id": "0x4d02d02a214c576a506ccb687d10798621a6d8f737784aa088f1f84df05dccfe",
+          "question": "Will the highest temperature in Miami be between 76-77\u00b0F on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-76-77f",
+          "condition_id": "0x4f04a53678be118957a2829a197418b37f0c36d613c074538116ed32a010cb91",
           "token_ids": [
-            "23549248007587542346230862012780748189673656269028332574208927545604026766872",
-            "30112584337314600136630880802640031979511529262638640409194013951820662970178"
+            "13770430208717146106052858451755513330294474466391967565587045631546742841299",
+            "111591313322227384882732121663111971498490453201104521139644541434813836808108"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0295,
-            0.9705
+            0.19,
+            0.81
           ],
-          "volume": 5658.029326999993,
-          "liquidity": 2122.04449,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 5532.679438000001,
+          "liquidity": 858.8673,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 78-79\u00b0F on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-78-79f",
-          "condition_id": "0x776a6e122152b4fc9130256c0caae0c7f566f3baae3626c2f902e2892121d48f",
+          "question": "Will the highest temperature in Miami be between 78-79\u00b0F on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-78-79f",
+          "condition_id": "0x649386b378b36cd82b8e12350d14349dd1d945fd807b0a313f95b8346ee9568f",
           "token_ids": [
-            "68257392156412892954036161745031228916662124846831250508953460425035557587345",
-            "43383722184037092624036192292891835550614536243609391023428058650748888481517"
+            "1539341256635963827193774637555237824974667968683282761422868367889059898186",
+            "97893767181363295212582059776976395361739355005890526363823728190596851020885"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.071,
-            0.929
+            0.26,
+            0.74
           ],
-          "volume": 5079.025538000005,
-          "liquidity": 815.84761,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 6056.342369000003,
+          "liquidity": 755.1134,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 80-81\u00b0F on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-80-81f",
-          "condition_id": "0xba9e0239608d53ff699e070efb0a0f8cc7c1077b4594daf7513434e893c8aa55",
+          "question": "Will the highest temperature in Miami be between 80-81\u00b0F on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-80-81f",
+          "condition_id": "0xf6194a903aad801dca566996d6b0458356e0991f33cbe7566be0a6b02f64c84c",
           "token_ids": [
-            "44093367794438288285055008149333407040080450852853365008021777744809618050600",
-            "28525956997902070731930150861682023881750424060421612498127943256467356151166"
+            "41040372614235296261896031731534218916137200887193948253150519364170814547407",
+            "111195388484891272094584960007203959394588729068504871454409331542980631431235"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.245,
-            0.755
+            0.37,
+            0.63
           ],
-          "volume": 3080.4796200000005,
-          "liquidity": 559.7768,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 4538.157072000003,
+          "liquidity": 545.3523,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 82-83\u00b0F on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-82-83f",
-          "condition_id": "0xc2bda2028c83e1589b593333ca5aa9b23ce5507f52fd4e0bf869f56580172d85",
+          "question": "Will the highest temperature in Miami be between 82-83\u00b0F on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-82-83f",
+          "condition_id": "0x26e0281329f017d598f45bbd5b7adb7459aaf412b0189eb049db66a05309bd8c",
           "token_ids": [
-            "36044949282924299245696511031144517598233361730597582045101419260587068927494",
-            "23496393355715883005944492060508356805204760666193271791586733837398857097147"
+            "33988497244745065595604960612839185730068940968170221788470370199201934644048",
+            "107414952768856347832266715012033047064291535387017145073716331325473782971058"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.49,
-            0.51
+            0.147,
+            0.853
           ],
-          "volume": 3063.3360460000017,
-          "liquidity": 519.4891,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 4893.6612509999995,
+          "liquidity": 823.58078,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 84-85\u00b0F on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-84-85f",
-          "condition_id": "0xda62be987931b2163530aaad4723124ad08bec16e1fd9917fc2b3ddca17b33ee",
+          "question": "Will the highest temperature in Miami be between 84-85\u00b0F on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-84-85f",
+          "condition_id": "0x4077f68709a6787731d0df50d86d7d48d4814541c6e3fcb0f0e87f3a01daabe5",
           "token_ids": [
-            "28363315661262675030191250342569862563343361483906173640123263046045715340068",
-            "106418635620745577907663463464458590237336086358774981234823595264395413914525"
+            "38160969820887771143325535212410712940123400141388889210124643817200113805257",
+            "92124430652541364292020030645977079693764959717229744308213404620988911939283"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.15,
-            0.85
+            0.0405,
+            0.9595
           ],
-          "volume": 1615.1824100000001,
-          "liquidity": 537.6757,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 5318.456855,
+          "liquidity": 1770.80796,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 86-87\u00b0F on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-86-87f",
-          "condition_id": "0xa0bdba19f9df69c007f08fd54c92a8e7e5ee54a6cf888f19396088ea7f56eb61",
+          "question": "Will the highest temperature in Miami be between 86-87\u00b0F on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-86-87f",
+          "condition_id": "0xe8dc058a6dc1096e6bbfc58143716a94f86eee2be0316a52d08ad4500f587998",
           "token_ids": [
-            "3236766942045998575041052844354590003049255364630716643021802586172622912745",
-            "37291574207261619991154992418964355754353218253151345130671455847378188775913"
+            "82494926465781484564534592490145792216385220379746492580319743366936608885353",
+            "112312569480884296201929236773777399212900787510325889068047574088308136434997"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0155,
-            0.9845
+            0.006,
+            0.994
           ],
-          "volume": 1728.848766,
-          "liquidity": 1257.57735,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 3547.018281000001,
+          "liquidity": 2666.0186,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 88-89\u00b0F on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-88-89f",
-          "condition_id": "0x6943c25bd58cedd7f12e082602564d8e6a874a11f2a06f2458ef4e04da3a89c8",
+          "question": "Will the highest temperature in Miami be between 88-89\u00b0F on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-88-89f",
+          "condition_id": "0x890231db98b195f1da5f847e12b4496c676722635579df87c79ec64cf4d05602",
           "token_ids": [
-            "14292175380406666798850111467612320796451413124645534539243147769408139895674",
-            "27209613851174004100191054149983999437052442040475991258260020774300090237940"
+            "97752349782848915799706185073094556806007895030790905473883852720889917950468",
+            "104442146885263964144254574695725830366360242536229829952476075429797077479492"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.009,
-            0.991
+            0.003,
+            0.997
           ],
-          "volume": 1984.7682649999997,
-          "liquidity": 2242.89359,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 2747.7023720000007,
+          "liquidity": 3144.12178,
+          "end_date": "2026-03-29T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be 90\u00b0F or higher on March 23?",
-          "slug": "highest-temperature-in-miami-on-march-23-2026-90forhigher",
-          "condition_id": "0x214da38ce1e8549c729d5bd2fd818b0dc2158056df6db958c09af8da5ebe5aa9",
+          "question": "Will the highest temperature in Miami be 90\u00b0F or higher on March 29?",
+          "slug": "highest-temperature-in-miami-on-march-29-2026-90forhigher",
+          "condition_id": "0xf235e4feb246794fc1fdc7492876fae4d1d785fee5149cbf36f0bb9b96ed19b0",
           "token_ids": [
-            "113301904535989558015885043092124119686581023659036094702068058015758345246220",
-            "62182035524204079963001245908048878621858004638583302104926133301062323890807"
+            "8046399696149062550555059738871262087907216084926640173060183526425541169657",
+            "68150810041452809380296199387692446464273826476145490394421194604787992894800"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0045,
-            0.9955
+            0.003,
+            0.997
           ],
-          "volume": 2459.647460000002,
-          "liquidity": 3156.62983,
-          "end_date": "2026-03-23T12:00:00Z"
+          "volume": 3065.694404,
+          "liquidity": 3111.67189,
+          "end_date": "2026-03-29T12:00:00Z"
         }
       ]
     }
