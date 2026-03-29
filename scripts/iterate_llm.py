@@ -4,11 +4,15 @@
 Reviews past LLM predictions vs outcomes, identifies patterns in mistakes,
 and asks Sonnet to improve llm_forecast.py (prompts, parameters, reasoning approach).
 
+Uses a search-and-replace approach: Sonnet returns the specific old text to find
+and new text to replace it with, rather than outputting the entire file.
+
 Runs daily after agent iteration. Logs all changes to llm_iteration_log/.
 
 Usage: python scripts/iterate_llm.py
 """
 
+import csv
 import json
 import os
 import re
@@ -29,7 +33,7 @@ LOG_DIR = os.path.join(PROJECT_ROOT, "llm_iteration_log")
 MIN_SCORED_PREDICTIONS = 3  # Don't iterate until we have enough data
 
 
-def call_openrouter(prompt, max_tokens=12000):
+def call_openrouter(prompt, max_tokens=4000):
     """Call OpenRouter API."""
     api_key = os.environ.get("OPENROUTER_API_KEY")
     if not api_key:
@@ -59,7 +63,6 @@ def load_rolling_scores():
     if not os.path.exists(ROLLING_SCORES_PATH):
         return []
 
-    import csv
     with open(ROLLING_SCORES_PATH) as f:
         rows = list(csv.DictReader(f))
     return rows
@@ -126,23 +129,37 @@ def build_performance_report(scores):
     return "\n".join(lines)
 
 
-def extract_code_block(response):
-    """Extract the full llm_forecast.py from the response."""
-    blocks = re.findall(r"```python\n(.*?)```", response, re.DOTALL)
-    if not blocks:
-        blocks = re.findall(r"```\n(.*?)```", response, re.DOTALL)
-    if not blocks:
-        return None
-    return max(blocks, key=len)
+def extract_replacements(response):
+    """Extract SEARCH/REPLACE blocks from Sonnet's response.
+
+    Expected format:
+    <<<SEARCH
+    old text to find
+    >>>
+    <<<REPLACE
+    new text to put in its place
+    >>>
+    """
+    pairs = []
+    # Find all SEARCH...REPLACE pairs
+    pattern = r"<<<SEARCH\n(.*?)>>>\s*<<<REPLACE\n(.*?)>>>"
+    matches = re.findall(pattern, response, re.DOTALL)
+    for old, new in matches:
+        old = old.rstrip("\n")
+        new = new.rstrip("\n")
+        if old and old != new:
+            pairs.append((old, new))
+    return pairs
 
 
 def extract_change_summary(response):
     """Extract the change summary."""
-    match = re.search(r"CHANGE_SUMMARY:\s*\n(.*?)(?:\n```|\Z)", response, re.DOTALL)
+    match = re.search(r"CHANGE_SUMMARY:\s*\n(.*?)(?:\n<<<SEARCH|\Z)", response, re.DOTALL)
     if match:
         return match.group(1).strip()
-    before_code = response.split("```")[0]
-    lines = [l.strip() for l in before_code.strip().split("\n") if l.strip()]
+    # Fallback: take text before first SEARCH block
+    before = response.split("<<<SEARCH")[0]
+    lines = [l.strip() for l in before.strip().split("\n") if l.strip()]
     if lines:
         return " ".join(lines[-5:])[:800]
     return "No summary provided."
@@ -169,6 +186,58 @@ def load_previous_changes():
     return "\n\n---\n\n".join(summaries) if summaries else "No previous iterations."
 
 
+def extract_key_sections(code):
+    """Extract the most important/tunable sections of llm_forecast.py for context.
+
+    Returns a condensed version showing constants, prompt-building functions,
+    and key parameters — the parts Sonnet is most likely to change.
+    """
+    lines = code.split("\n")
+    sections = []
+    in_section = False
+    section_start = 0
+
+    # Always include the first 80 lines (imports, constants, config)
+    sections.append(("HEADER (lines 1-80)", "\n".join(lines[:80])))
+
+    # Find key function definitions and extract them
+    key_functions = [
+        "def build_binary_prompt",
+        "def build_multi_outcome_prompt",
+        "def build_adversarial_prompt",
+        "def apply_shrinkage",
+        "def triage_contract",
+        "SHRINKAGE_KEEP",
+        "SONNET_THRESHOLD",
+        "OPUS_THRESHOLD",
+        "CATEGORY_CUES",
+    ]
+
+    for i, line in enumerate(lines):
+        for key in key_functions:
+            if key in line and not line.strip().startswith("#"):
+                # Extract this function/block (up to 60 lines or next def)
+                start = max(0, i - 2)  # Include a couple lines of context before
+                end = min(len(lines), i + 60)
+                for j in range(i + 1, min(len(lines), i + 80)):
+                    if lines[j].startswith("def ") and j > i + 3:
+                        end = j
+                        break
+                section_text = "\n".join(lines[start:end])
+                sections.append((f"SECTION around line {i+1}", section_text))
+                break
+
+    # Combine, dedup, and return
+    seen = set()
+    result_parts = []
+    for label, text in sections:
+        if text not in seen:
+            seen.add(text)
+            result_parts.append(f"--- {label} ---\n{text}")
+
+    return "\n\n".join(result_parts)
+
+
 def main():
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     print(f"=== LLM Forecast Iteration ({date_str}) ===")
@@ -188,12 +257,16 @@ def main():
     # Read current llm_forecast.py
     with open(LLM_FORECAST_PATH) as f:
         current_code = f.read()
-    print(f"  Current llm_forecast.py: {len(current_code)} chars")
+    print(f"  Current llm_forecast.py: {len(current_code)} chars, {len(current_code.splitlines())} lines")
+
+    # Extract key sections (the file is too large to send in full)
+    key_sections = extract_key_sections(current_code)
+    print(f"  Key sections extracted: {len(key_sections)} chars")
 
     # Load previous changes for context
     previous_changes = load_previous_changes()
 
-    # Build the iteration prompt
+    # Build the iteration prompt — search-and-replace approach
     prompt = f"""You are the AI researcher responsible for improving Oracle Lab's LLM forecasting system.
 
 The system uses LLMs (Haiku for triage, Sonnet for deep dives) to predict outcomes on Polymarket prediction markets. Your job is to review how the system has been performing and make ONE targeted improvement to llm_forecast.py.
@@ -204,8 +277,8 @@ The system uses LLMs (Haiku for triage, Sonnet for deep dives) to predict outcom
 === PREVIOUS ITERATION CHANGES ===
 {previous_changes}
 
-=== CURRENT llm_forecast.py ===
-{current_code}
+=== KEY SECTIONS OF llm_forecast.py ===
+{key_sections}
 
 === YOUR TASK ===
 
@@ -222,43 +295,93 @@ Then make ONE specific, targeted change. Examples of good changes:
 - Adding a specific instruction to the prompt about a systematic mistake
 - Improving how temporal context is used
 - Adding a domain-specific reasoning hint for a contract type that's consistently wrong
-- Fixing the adversarial prompt to better catch errors
 
 Do NOT:
-- Rewrite the entire file from scratch
 - Make multiple unrelated changes at once
-- Change the file structure or imports
 - Remove existing functionality
 - If the previous iteration made things worse, revert that specific change first
 
-IMPORTANT: Respond in exactly this format:
+IMPORTANT: Use this EXACT format. Give the old text to find and the new text to replace it with.
 
 CHANGE_SUMMARY:
 [3-5 sentences explaining what you found in the performance data, what you changed, and why you expect it to help]
 
-```python
-[The COMPLETE updated llm_forecast.py file]
-```"""
+<<<SEARCH
+[exact text from llm_forecast.py to find — copy it precisely, including whitespace]
+>>>
+<<<REPLACE
+[new text to replace it with]
+>>>
+
+You may include up to 3 SEARCH/REPLACE pairs if the change requires edits in multiple places. But keep it focused on ONE logical improvement."""
 
     print(f"  Calling {ITERATION_MODEL} for iteration...")
     try:
-        response = call_openrouter(prompt, max_tokens=16000)
+        response = call_openrouter(prompt, max_tokens=4000)
     except Exception as e:
         print(f"  ERROR calling OpenRouter: {e}")
         sys.exit(1)
 
-    # Extract new code
-    new_code = extract_code_block(response)
-    if not new_code:
-        print("  ERROR: Could not extract code block from response")
+    print(f"  Response received ({len(response)} chars)")
+
+    # Extract search/replace pairs
+    replacements = extract_replacements(response)
+    if not replacements:
+        print("  ERROR: Could not extract SEARCH/REPLACE blocks from response")
         print(f"  Response preview: {response[:500]}...")
         sys.exit(1)
 
-    # Validate it looks like llm_forecast.py
+    print(f"  Found {len(replacements)} replacement(s)")
+
+    # Apply replacements
+    new_code = current_code
+    applied = 0
+    for i, (old_text, new_text) in enumerate(replacements):
+        if old_text in new_code:
+            new_code = new_code.replace(old_text, new_text, 1)
+            applied += 1
+            print(f"  Replacement {i+1}: applied ({len(old_text)} chars -> {len(new_text)} chars)")
+        else:
+            print(f"  Replacement {i+1}: SEARCH text not found in file (skipped)")
+            # Try a fuzzy match — strip leading/trailing whitespace per line
+            old_stripped = "\n".join(l.rstrip() for l in old_text.split("\n"))
+            code_stripped = "\n".join(l.rstrip() for l in new_code.split("\n"))
+            if old_stripped in code_stripped:
+                # Reconstruct: find position in stripped, apply in original
+                # This handles trailing whitespace mismatches
+                new_code_lines = new_code.split("\n")
+                old_lines = old_text.split("\n")
+                new_lines = new_text.split("\n")
+                # Find the start line
+                for start in range(len(new_code_lines) - len(old_lines) + 1):
+                    match = all(
+                        new_code_lines[start + j].rstrip() == old_lines[j].rstrip()
+                        for j in range(len(old_lines))
+                    )
+                    if match:
+                        new_code_lines[start:start + len(old_lines)] = new_lines
+                        new_code = "\n".join(new_code_lines)
+                        applied += 1
+                        print(f"  Replacement {i+1}: applied via fuzzy match")
+                        break
+
+    if applied == 0:
+        print("  ERROR: No replacements could be applied")
+        print("  This may mean the SEARCH text didn't exactly match the file contents.")
+        sys.exit(1)
+
+    # Validate the modified code still has required elements
     required = ["build_binary_prompt", "build_multi_outcome_prompt", "SHRINKAGE_KEEP", "MODELS"]
     missing = [r for r in required if r not in new_code]
     if missing:
-        print(f"  ERROR: New code missing required elements: {missing}")
+        print(f"  ERROR: Modified code missing required elements: {missing}")
+        sys.exit(1)
+
+    # Quick syntax check
+    try:
+        compile(new_code, "llm_forecast.py", "exec")
+    except SyntaxError as e:
+        print(f"  ERROR: Modified code has syntax error: {e}")
         sys.exit(1)
 
     # Write updated llm_forecast.py
@@ -267,7 +390,7 @@ CHANGE_SUMMARY:
         with open(tmp_path, "w") as f:
             f.write(new_code)
         os.replace(tmp_path, LLM_FORECAST_PATH)
-        print(f"  Updated llm_forecast.py")
+        print(f"  Updated llm_forecast.py ({applied} replacement(s) applied)")
     except OSError as e:
         print(f"  ERROR writing file: {e}")
         if os.path.exists(tmp_path):
@@ -280,7 +403,11 @@ CHANGE_SUMMARY:
     log_path = os.path.join(LOG_DIR, f"{date_str}.md")
     with open(log_path, "w") as f:
         f.write(f"# LLM Forecast Iteration — {date_str}\n\n")
-        f.write(summary + "\n")
+        f.write(summary + "\n\n")
+        f.write("## Replacements Applied\n\n")
+        for i, (old_text, new_text) in enumerate(replacements):
+            f.write(f"### Change {i+1}\n")
+            f.write(f"```\n{old_text}\n```\n→\n```\n{new_text}\n```\n\n")
     print(f"  Change log: {log_path}")
     print(f"\n  Summary: {summary[:200]}...")
     print("\n  Done.")
