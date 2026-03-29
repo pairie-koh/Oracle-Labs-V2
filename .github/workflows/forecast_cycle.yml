@@ -81,3 +81,21 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "cycle: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
+
+      - name: Push to dashboard
+        run: |
+          git clone https://x-access-token:${{ secrets.PAT }}@github.com/pairie-koh/Trading-Agents-on-Polymarket.git /tmp/dashboard
+          mkdir -p /tmp/dashboard/data
+          cp contracts/active_contracts.json /tmp/dashboard/data/active_contracts.json 2>/dev/null || true
+          cp briefings/latest.json /tmp/dashboard/data/briefing.json 2>/dev/null || true
+          cp state/current.json /tmp/dashboard/data/state.json 2>/dev/null || true
+          cp rolling_scores_history.csv /tmp/dashboard/data/rolling_scores.csv 2>/dev/null || true
+          LATEST_PRED=$(ls -t llm_predictions/predictions_*.json 2>/dev/null | head -1)
+          if [ -n "$LATEST_PRED" ]; then
+            cp "$LATEST_PRED" /tmp/dashboard/data/llm_predictions.json
+          fi
+          cd /tmp/dashboard
+          git config user.name "Oracle Lab Bot"
+          git config user.email "hello.pairie@gmail.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "data: $(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push)
