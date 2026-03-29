@@ -1,17 +1,78 @@
 {
-  "fetched_at": "2026-03-29T03:02:03Z",
+  "fetched_at": "2026-03-29T05:50:37Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Trump  has no military way out of war and Iran has better card : Experts warn 15 point peace plan is doomed to fail",
+          "domain": "aol.co.uk",
+          "date": "20260328T101500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "War on Iran during nuclear negotiations undermines the US ability to talk peace around the world − and the effects wont end when Trump leaves office",
+          "domain": "theconversation.com",
+          "date": "20260327T153000Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Iran says Israeli attacks on plants  contradict U . S . 10 - day pause",
+          "domain": "upi.com",
+          "date": "20260327T233000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran says Israeli attacks on plants  contradict U . S . 10 - day pause",
+          "domain": "yahoo.com",
+          "date": "20260327T233000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump Iran peace plan puts Obama cowardly deal to shame",
+          "domain": "nypost.com",
+          "date": "20260327T114500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Middle East Power Struggle Faces Defining Moment",
+          "domain": "english.aawsat.com",
+          "date": "20260327T201500Z",
+          "country": "Syria"
+        },
+        {
+          "title": "Iran will exact HEAVY price for Israeli crimes : Araghchi slams Israeli strikes on nuclear sites , steel plants",
+          "domain": "aninews.in",
+          "date": "20260328T001500Z",
+          "country": "India"
+        },
+        {
+          "title": "War on Iran during nuclear negotiations undermines the US ability to talk peace around the world − and the effects wont end when Trump leaves office | National",
+          "domain": "hometownregister.com",
+          "date": "20260327T154500Z",
+          "country": ""
+        },
+        {
+          "title": "War on Iran during nuclear negotiations undermines the US ability to talk peace around the world − and the effects wont end when Trump leaves office | News",
+          "domain": "grandrapidsmn.com",
+          "date": "20260327T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "War on Iran during nuclear negotiations undermines the US ability to talk peace around the world − and the effects wont end when Trump leaves office | National",
+          "domain": "wyomingnewsnow.tv",
+          "date": "20260327T163000Z",
+          "country": ""
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -28,10 +89,10 @@
           "country": "India"
         },
         {
-          "title": "India among 5 nations granted passage via Strait of Hormuz by Iran - Indian Defence Research Wing",
-          "domain": "idrw.org",
-          "date": "20260327T053000Z",
-          "country": "India"
+          "title": "Chinese ships halt attempt to exit Hormuz despite Iran safe passage assurances",
+          "domain": "yahoo.com",
+          "date": "20260329T033000Z",
+          "country": "United States"
         },
         {
           "title": "In the Strait of Hormuz , ships make a bargain to negotiate their safe passage",
@@ -85,72 +146,11 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Rapper - turned - politician Balendra Shah takes oath as Nepal youngest prime minister",
-          "domain": "newindianexpress.com",
-          "date": "20260327T114500Z",
-          "country": "India"
-        },
-        {
-          "title": "Trump claims Iran new supreme leader is  probably gay",
-          "domain": "austinglobe.com",
-          "date": "20260327T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump claims Iran new supreme leader is  probably gay",
-          "domain": "heraldglobe.com",
-          "date": "20260327T163000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump claims Irans new supreme leader is probably gay",
-          "domain": "middleeaststar.com",
-          "date": "20260327T190000Z",
-          "country": "Syria"
-        },
-        {
-          "title": "Trump claims Irans new supreme leader is probably gay",
-          "domain": "newyorkstatesman.com",
-          "date": "20260327T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump claims Irans new supreme leader is probably gay",
-          "domain": "austinglobe.com",
-          "date": "20260327T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump claims Irans new supreme leader is probably gay",
-          "domain": "arabherald.com",
-          "date": "20260327T181500Z",
-          "country": "Syria"
-        },
-        {
-          "title": "Trump claims Irans new supreme leader is probably gay",
-          "domain": "iraqsun.com",
-          "date": "20260327T163000Z",
-          "country": "Iraq"
-        },
-        {
-          "title": "Trump claims Irans new supreme leader is probably gay",
-          "domain": "heraldglobe.com",
-          "date": "20260327T163000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Belgian ex ‑ official appeals war crimes trial over 1961 Congo leader murder",
-          "domain": "africanews.com",
-          "date": "20260328T130000Z",
-          "country": "Nigeria"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -210,12 +210,6 @@
           "country": "United States"
         },
         {
-          "title": "Recession has already arrived in Black America",
-          "domain": "stlamerican.com",
-          "date": "20260329T023000Z",
-          "country": "United States"
-        },
-        {
           "title": "Apparel exports decline in Feb . amid weak global demand",
           "domain": "ft.lk",
           "date": "20260327T204500Z",
@@ -225,6 +219,12 @@
           "title": "Where are the opportunities in European equities ?",
           "domain": "finance.yahoo.com",
           "date": "20260328T061500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Recession has already arrived in Black America",
+          "domain": "stlamerican.com",
+          "date": "20260329T023000Z",
           "country": "United States"
         }
       ]
@@ -302,149 +302,88 @@
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": [
-        {
-          "title": "How Iran conflict has forced Sarb hand on repo rate",
-          "domain": "bizcommunity.com",
-          "date": "20260327T143000Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Spain Inflation Climbs To 21 - month High",
-          "domain": "finanzen.ch",
-          "date": "20260327T111500Z",
-          "country": "Switzerland"
-        },
-        {
-          "title": "Bond yields hit 6 . 94 % amid fears of inflation , monetary tightening",
-          "domain": "indianexpress.com",
-          "date": "20260328T011500Z",
-          "country": "India"
-        },
-        {
-          "title": "FinancialContent - Consumer Sentiment Plunges as Inflation Fears Resurge in March 2026 Reading",
-          "domain": "markets.financialcontent.com",
-          "date": "20260327T220000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Goldman Cuts India Market Outlook",
-          "domain": "rediff.com",
-          "date": "20260327T080000Z",
-          "country": "India"
-        },
-        {
-          "title": "National housing accord collapsing as  critical failure  deepens Australia home crisis",
-          "domain": "realestate.com.au",
-          "date": "20260327T191500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "US consumer sentiment slips as inflation outlook worsens",
-          "domain": "spokesman.com",
-          "date": "20260327T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Consumer sentiment declines as inflation outlook worsens",
-          "domain": "columbian.com",
-          "date": "20260328T040000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Spain Inflation Climbs To 21 - month High",
-          "domain": "rttnews.com",
-          "date": "20260327T114500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Finance news : Inflation could soar to 6 . 4 per cent by June , economists predict",
-          "domain": "9news.com.au",
-          "date": "20260328T101500Z",
-          "country": "Australia"
-        }
-      ]
+      "headlines": []
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Why Is Crypto Crashing ? Bitcoin , XRP , Ethereum , and Solana All Down This Week",
-          "domain": "247wallst.com",
-          "date": "20260328T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "$10 , 000 in XRP and Bitcoin vs $10 , 000 in Nvidia : What Each Could Be Worth by the End of 2026",
-          "domain": "finance.yahoo.com",
-          "date": "20260328T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin falls under $69K due to $14B options expiry",
-          "domain": "news.az",
-          "date": "20260327T140000Z",
-          "country": "Azerbaijan"
-        },
-        {
-          "title": "Solana ( SOL ) Price Prediction : BTC at $68K and 46 Days of Fear",
-          "domain": "openpr.com",
-          "date": "20260328T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Price Drops to $66 , 800 as ETF Outflows Hit $1 . 1 Billion",
-          "domain": "openpr.com",
-          "date": "20260328T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "3 Reasons XRP Rallies Stall What Must Change For A Sustained Recovery",
-          "domain": "newsbtc.com",
-          "date": "20260328T091500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Recovery Time Extends If Selloff Deepens Below $60K",
-          "domain": "cointelegraph.com",
-          "date": "20260328T111500Z",
-          "country": "China"
-        },
-        {
-          "title": "Goldman Sachs Just Quietly Called The Bitcoin Price Bottom But There A Nasty Catch",
-          "domain": "forbes.com",
-          "date": "20260328T124500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran Deadline Moves : Bitcoin Hyper Draws Fresh Presale Interest",
-          "domain": "partners.coinspeaker.com",
-          "date": "20260328T021500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Analysts issue stark Bitcoin warning after largest 2026 options expiry",
-          "domain": "finance.yahoo.com",
-          "date": "20260327T204500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Oil prices could hit $200 per barrel if the war in Iran continues into summer",
+          "domain": "finance.yahoo.com",
+          "date": "20260327T163000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil has surged since the Iran conflict , but gas prices may not be done rising",
+          "domain": "fox10phoenix.com",
+          "date": "20260329T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil has surged since the Iran conflict , but gas prices may not be done rising",
+          "domain": "fox2detroit.com",
+          "date": "20260329T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil has surged since the Iran conflict , but gas prices may not be done rising",
+          "domain": "fox13news.com",
+          "date": "20260329T004500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil has surged since the Iran conflict , but gas prices may not be done rising",
+          "domain": "fox26houston.com",
+          "date": "20260329T004500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil has surged since the Iran conflict , but gas prices may not be done rising",
+          "domain": "fox32chicago.com",
+          "date": "20260329T023000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Current price of oil as of March 27 , 2026",
+          "domain": "fortune.com",
+          "date": "20260327T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil has surged since the Iran conflict , but gas prices may not be done rising",
+          "domain": "fox13seattle.com",
+          "date": "20260329T023000Z",
+          "country": ""
+        },
+        {
+          "title": "FinancialContent - Global Markets Shaken as Brent Crude Surpasses $110 Amid Strait of Hormuz Blockade",
+          "domain": "markets.financialcontent.com",
+          "date": "20260327T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Middle East war news - Russia to ban gasoline exports from April 1 amid West Asia crisis , here why",
+          "domain": "businesstoday.in",
+          "date": "20260328T061500Z",
+          "country": "India"
+        }
+      ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -473,81 +412,81 @@
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "Extracting Books from LLMs . : languagehat . com",
-          "domain": "languagehat.com",
-          "date": "20260327T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gemini 3 . 1 Flash Live is a massive boon to the AI real - time assistance for you and me",
-          "domain": "androidcentral.com",
-          "date": "20260327T224500Z",
-          "country": "China"
-        },
-        {
-          "title": "Apple is opening Siri to pick AI models , but there only only that makes sense to me",
-          "domain": "digitaltrends.com",
-          "date": "20260328T220000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AI as people pleaser : What this study tells us about its sycophantic behavior",
-          "domain": "rappler.com",
-          "date": "20260328T053000Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "Hyperscalers up cloud investments amid AI demand",
-          "domain": "itweb.co.za",
-          "date": "20260327T114500Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Switching to Gemini ? You Can Now Import Chat History , Memories From Rival AIs",
-          "domain": "pcmag.com",
-          "date": "20260327T161500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Apple reportedly plans to open Siri to third - party AI assistants with iOS 27",
-          "domain": "fonearena.com",
-          "date": "20260327T080000Z",
-          "country": "India"
-        },
-        {
-          "title": "Meet Claude Mythos : Leaked Anthropic post reveals the powerful upcoming model",
-          "domain": "mashable.com",
-          "date": "20260327T194500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Omdia : Global Cloud Infrastructure Spending Hits US$110 . 9B in Q4 2025 Amid AI Demand Surge",
-          "domain": "thefastmode.com",
-          "date": "20260327T031500Z",
-          "country": "India"
-        },
-        {
-          "title": "How to Use Claude AI for Excel Financial Modeling",
-          "domain": "geeky-gadgets.com",
-          "date": "20260327T073000Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "GTA 6 Step Aside , GTA 7 Setting Was Just Confirmed",
+          "domain": "screenrant.com",
+          "date": "20260327T121500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Waiting for GTA 6 ? Now you can play it months before the launch as a Rockstar Games tester ; know how and where to apply |",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260327T104500Z",
+          "country": "India"
+        },
+        {
+          "title": "Rockstar Games launches game tester recruitment in Bangalore : How to apply , where to register , and full Associate QA Tester details |",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260328T071500Z",
+          "country": "India"
+        },
+        {
+          "title": "GTA 6 Fans Hyped For New Mechanic With Real - Life Inspiration",
+          "domain": "screenrant.com",
+          "date": "20260328T170000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Here are the best GTA 5 mods to play while you wait for GTA 6",
+          "domain": "destructoid.com",
+          "date": "20260327T204500Z",
+          "country": "Japan"
+        },
+        {
+          "title": "The Timer is Officially Set for PlayStation and Xbox to Follow Nintendo Price Changes",
+          "domain": "gamerant.com",
+          "date": "20260328T203000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Sony Announces Aggressive Price Hikes for PS5 , PS5 Pro , and PlayStation Portal",
+          "domain": "techstory.in",
+          "date": "20260327T234500Z",
+          "country": "India"
+        },
+        {
+          "title": "Kingdom Come : Deliverance 2 Developer Says They Were Fired and Replaced by AI",
+          "domain": "gamerant.com",
+          "date": "20260328T203000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Netflix may add new voice chat feature to its games",
+          "domain": "mobilesyrup.com",
+          "date": "20260327T233000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Movie and streaming trailers have a problem – and Im getting tired of it",
+          "domain": "t3.com",
+          "date": "20260327T184500Z",
+          "country": "United Kingdom"
+        }
+      ]
     }
   }
 }
