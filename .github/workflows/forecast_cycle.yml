@@ -47,6 +47,9 @@ jobs:
       - name: Hyperliquid
         run: python hyperliquid.py || echo "WARN hyperliquid failed"
 
+      - name: Weather
+        run: python weather.py || echo "WARN weather failed"
+
       - name: GDELT
         run: python gdelt.py --timespan 2d || echo "WARN gdelt failed"
 

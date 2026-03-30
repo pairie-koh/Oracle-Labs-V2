@@ -79,6 +79,47 @@ def fetch_all_mids():
     return resp.json()
 
 
+def fetch_daily_open(coin="BTC"):
+    """Fetch today's daily candle open price for a native perp.
+
+    Uses candleSnapshot with 1d interval. The open price of the current
+    daily candle tells us where BTC started the day, which is what the
+    "Bitcoin Up or Down" contract resolves against.
+    """
+    now_ms = int(time.time() * 1000)
+    # Ask for last 48h to ensure we capture today's daily candle
+    start_ms = now_ms - 48 * 60 * 60 * 1000
+
+    resp = requests.post(
+        HYPERLIQUID_API,
+        json={
+            "type": "candleSnapshot",
+            "req": {
+                "coin": coin,
+                "interval": "1d",
+                "startTime": start_ms,
+                "endTime": now_ms,
+            },
+        },
+        timeout=10,
+    )
+    resp.raise_for_status()
+    candles = resp.json()
+
+    if not candles:
+        return None
+
+    # The last candle is today's daily candle
+    latest = candles[-1]
+    return {
+        "open": float(latest["o"]),
+        "high": float(latest["h"]),
+        "low": float(latest["l"]),
+        "close": float(latest["c"]),
+        "timestamp": latest.get("t", 0),
+    }
+
+
 def fetch_builder_price(coin):
     """Fetch latest price for a builder perp via candleSnapshot.
 
@@ -171,6 +212,21 @@ def fetch_prices():
 
             time.sleep(0.1)  # Small delay between builder perp calls
 
+    # Fetch BTC daily candle for intraday context
+    if "BTC" in results:
+        try:
+            btc_daily = fetch_daily_open("BTC")
+            if btc_daily:
+                results["BTC"]["daily_open"] = btc_daily["open"]
+                results["BTC"]["daily_high"] = btc_daily["high"]
+                results["BTC"]["daily_low"] = btc_daily["low"]
+                pct_change = ((results["BTC"]["price"] - btc_daily["open"]) / btc_daily["open"]) * 100
+                results["BTC"]["intraday_pct_change"] = round(pct_change, 2)
+                results["BTC"]["intraday_direction"] = "UP" if pct_change >= 0 else "DOWN"
+                print(f"  BTC daily open: ${btc_daily['open']:,.2f} | change: {pct_change:+.2f}%")
+        except Exception as e:
+            print(f"  WARNING: BTC daily candle failed: {e}")
+
     return results
 
 
@@ -228,6 +284,37 @@ def format_for_prompt():
         lines.append(f"  {label} ({coin}): ${price:,.2f}")
 
     return "\n".join(lines)
+
+
+def format_btc_intraday():
+    """Format BTC intraday context for the bitcoin_daily contract prompt.
+
+    Returns text block with open price, current price, % change, and direction.
+    Returns empty string if data not available.
+    """
+    data = load_prices()
+    if not data or not data.get("prices"):
+        return ""
+
+    btc = data["prices"].get("BTC", {})
+    if "daily_open" not in btc:
+        return ""
+
+    fetched_at = data.get("fetched_at", "unknown")
+    current = btc["price"]
+    open_price = btc["daily_open"]
+    pct = btc.get("intraday_pct_change", 0)
+    direction = btc.get("intraday_direction", "FLAT")
+    high = btc.get("daily_high", current)
+    low = btc.get("daily_low", current)
+
+    return f"""BITCOIN INTRADAY DATA (Hyperliquid, as of {fetched_at}):
+  Today's open: ${open_price:,.2f}
+  Current price: ${current:,.2f}
+  Intraday change: {pct:+.2f}% ({direction})
+  Today's high: ${high:,.2f}
+  Today's low: ${low:,.2f}
+  NOTE: The "Bitcoin Up or Down" contract resolves YES if BTC closes HIGHER than it opened."""
 
 
 def main():

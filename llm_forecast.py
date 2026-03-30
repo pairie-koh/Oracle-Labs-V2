@@ -27,6 +27,8 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 
 from constants import OPENROUTER_API_URL, POLYMARKET_CLOB_URL
 from hyperliquid import format_for_prompt as hyperliquid_price_block
+from hyperliquid import format_btc_intraday as btc_intraday_block
+from weather import format_for_prompt as weather_forecast_block
 from gdelt import format_for_prompt as gdelt_news_block
 from lessons import build_lessons_block
 
@@ -187,6 +189,15 @@ CATEGORY_CUES = {
 - Are there contractual, regulatory, or logistical factors?
 - What do industry insiders and trade publications indicate?
 - How reliable has the source company been with previous timelines?""",
+
+    "weather": """Think about:
+- What does the NWS forecast say for today's high temperature? This is your most reliable signal.
+- Same-day weather forecasts are highly accurate — trust the NWS forecast high.
+- Look at the hourly temperature progression — when does the peak occur?
+- Which temperature bucket does the forecast high fall into? Concentrate probability there.
+- Is there uncertainty (e.g., "high near 65" could be 64-66)? Spread to adjacent buckets.
+- Could rain, cloud cover, or wind cause the actual high to be 1-2 degrees off the forecast?
+- Do NOT spread probability evenly — weather forecasts are precise enough to strongly favor 1-2 buckets.""",
 }
 
 # Fallback for unknown categories
@@ -288,6 +299,12 @@ def build_binary_prompt(contract, market_price, tier):
     if lessons_block:
         context_section += f"\n{lessons_block}\n"
 
+    # Inject targeted context for specific rolling contracts
+    if contract_key == "bitcoin_daily":
+        btc_block = btc_intraday_block()
+        if btc_block:
+            context_section += f"\n{btc_block}\n"
+
     # Get resolution rules and category cues
     resolution_text = contract.get('resolution_rules', '') or contract.get('resolution_source', 'Standard Polymarket resolution')
     category_cues = get_category_cues(contract)
@@ -361,6 +378,16 @@ def build_multi_outcome_prompt(contract, markets_with_prices, tier):
     lessons_block = build_lessons_block(contract_key, domain=domain)
     if lessons_block:
         context_section += f"\n{lessons_block}\n"
+
+    # Inject targeted context for specific rolling contracts
+    if contract_key == "nyc_temp":
+        weather_block = weather_forecast_block(city="nyc")
+        if weather_block:
+            context_section += f"\n{weather_block}\n"
+    elif contract_key == "miami_temp":
+        weather_block = weather_forecast_block(city="miami")
+        if weather_block:
+            context_section += f"\n{weather_block}\n"
 
     # Get resolution rules and category cues
     resolution_text = contract.get('resolution_rules', '') or contract.get('resolution_source', '')
@@ -895,6 +922,7 @@ def load_rolling_contracts():
                 "slug": m.get("slug", ""),
                 "condition_id": m.get("condition_id", ""),
                 "token_ids": m.get("token_ids", []),
+                "category": contract.get("category", ""),
                 "_type": "binary",
                 "_market_price": yes_price,
                 "_source": "rolling",
@@ -919,6 +947,7 @@ def load_rolling_contracts():
                 "question": contract["name"],
                 "description": "",
                 "end_date": markets[0].get("end_date", "") if markets else "",
+                "category": contract.get("category", ""),
                 "_type": "multi-outcome",
                 "_markets": markets_with_prices,
                 "_market_price": 0,  # Not meaningful for multi-outcome
