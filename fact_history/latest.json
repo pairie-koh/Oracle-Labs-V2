@@ -1,218 +1,191 @@
 [
   {
-    "claim": "The USS Boxer amphibious ready group, including a Marine Expeditionary Unit, deployed from San Diego on March 18, 2026, en route to relieve the USS Tripoli at Diego Garcia.",
-    "source": "Pentagon reports",
+    "claim": "The US has conducted over 8,000 strikes on Iranian military targets, including 130 vessels, as stated by Admiral Brad Cooper on March 27, 2026.",
+    "source": "US military official statement",
     "source_category": "government_official",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-03-18T00:00:00Z",
+    "time": "2026-03-27T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "The Pentagon plans to deploy 3,000-4,000 soldiers from the 82nd Airborne Division to unspecified Middle East locations for regional capacity buildup as of March 24, 2026.",
-    "source": "Pentagon reports",
+    "claim": "A planned US strike on Iran's energy facilities was postponed until April 6, 2026, per the US President's announcement on March 26.",
+    "source": "US President announcement",
     "source_category": "government_official",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-03-26T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Combined US-Israeli forces struck areas around Mashhad in Khorasan Razavi Province on March 26, 2026, representing the northeastern-most strikes reported.",
+    "source": "Military operations report",
+    "source_category": "osint",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-03-26T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "IDF strikes targeted over 600 Iranian ballistic missile sites, production facilities in Esfahan Province, and IRGC Navy headquarters in Bushehr through March 24, 2026.",
+    "source": "Israeli military operations report",
+    "source_category": "osint",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
     "time": "2026-03-24T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Approximately 2,500 Marines are deploying with warships including USS Boxer and escorts to address Strait of Hormuz threats and oil infrastructure as of March 20, 2026.",
-    "source": "Pentagon reports",
-    "source_category": "government_official",
+    "claim": "Iran shifted to high-impact missile strikes with 1,000 kg+ payloads as of March 10, 2026, with declining ballistic missile rates due to stock depletion.",
+    "source": "Military intelligence report",
+    "source_category": "osint",
     "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-03-10T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "IRGC personnel suffered heavy casualties from base attacks, including in Tehran, as of March 27, 2026.",
+    "source": "Military intelligence report",
+    "source_category": "osint",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-03-27T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "US bunker-buster strikes targeted the Natanz Nuclear Facility on March 21, 2026.",
+    "source": "Military operations report",
+    "source_category": "osint",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-03-21T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Iranian drone and missile attacks on US bases, including Prince Sultan in Saudi Arabia, wounded 15+ US troops.",
+    "source": "Military incident report",
+    "source_category": "osint",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-03-27T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Minimal military defections were recorded as of March 14-20, 2026, which analysts identified as key for potential regime change.",
+    "source": "Political analysis report",
+    "source_category": "osint",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-03-20T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Iran's foreign minister stated on March 25, 2026, that the government does not plan negotiations to end the war and that no U.S. talks have occurred.",
+    "source": "Iranian foreign ministry statement",
+    "source_category": "government_official",
+    "indicator_category": "diplomatic_signals",
+    "market": "regime_fall",
+    "time": "2026-03-25T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "White House press secretary Karoline Leavitt issued a warning on March 25, 2026, that President Trump would 'hit harder' and 'unleash hell' if Iran does not accept defeat.",
+    "source": "White House press statement",
+    "source_category": "government_official",
+    "indicator_category": "diplomatic_signals",
+    "market": "regime_fall",
+    "time": "2026-03-25T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Iran rejected a U.S. 15-point ceasefire proposal on March 25, 2026.",
+    "source": "Diplomatic negotiations report",
+    "source_category": "government_official",
+    "indicator_category": "diplomatic_signals",
+    "market": "regime_fall",
+    "time": "2026-03-25T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "The Iranian regime tightened control through arrests, checkpoints, and a communications blackout following Israeli strikes as of March 28, 2026.",
+    "source": "Intelligence report",
+    "source_category": "osint",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-03-28T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Opposition group NCRI advocates regime change via internal forces, with figures including Alireza Jafarzadeh and Maryam Rajavi making recent statements to this effect.",
+    "source": "Opposition group statements",
+    "source_category": "social_media",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-03-25T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "A bipartisan U.S. group including Newt Gingrich endorsed NCRI's roadmap on or before March 25, 2026.",
+    "source": "Political statement",
+    "source_category": "government_official",
+    "indicator_category": "international_response",
+    "market": "regime_fall",
+    "time": "2026-03-25T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Large-scale protests occurred in Iran in January 2026 and were suppressed by security forces.",
+    "source": "News report",
+    "source_category": "wire_service",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-01-15T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Iranian Chief Justice Mohseni-Eje'i issued an ultimatum on March 20, 2026, against 'destabilizing elements.'",
+    "source": "Iranian official statement",
+    "source_category": "government_official",
+    "indicator_category": "internal_stability",
     "market": "regime_fall",
     "time": "2026-03-20T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Approximately 50,000 US troops were in the region prior to recent deployments, with 13 killed and 290 wounded in the conflict as of March 24, 2026.",
-    "source": "Pentagon reports",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-03-24T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "The US has struck approximately 9,000 targets in Iran since February 28, 2026, focusing on missiles, navy, and infrastructure under Operation Epic Fury.",
-    "source": "Pentagon reports",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-03-15T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "The conflict began on February 28, 2026, and had entered its fourth week as of late March 2026.",
-    "source": "Pentagon reports",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-02-28T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iran's March 25 ceasefire proposal demanded war reparations, an end to hostilities, and retained Strait of Hormuz control.",
-    "source": "Diplomatic sources",
+    "claim": "US Vice President JD Vance stated on March 29, 2026, that the U.S. may soon exit Iran after achieving most objectives, amid rising tensions.",
+    "source": "US Vice President statement",
     "source_category": "government_official",
     "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-03-25T00:00:00Z",
+    "time": "2026-03-29T00:04:03Z",
     "confidence": "high"
   },
   {
-    "claim": "The US ceasefire position sought nuclear rollback, IAEA monitoring, missile limits, and sanctions relief from Iran.",
-    "source": "Diplomatic sources",
-    "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-03-25T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "President Trump threatened to 'unleash hell' if no ceasefire deal is reached with Iran as of March 2026.",
-    "source": "Government official statements",
-    "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iran dismissed US ceasefire talks as 'negotiating with itself' as of March 2026.",
-    "source": "Diplomatic sources",
-    "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "Thailand secured safe passage for its oil vessels through the Strait of Hormuz on March 28, 2026.",
-    "source": "Regional reports",
-    "source_category": "regional_specialist",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "The Trump administration extended a pause on Iranian energy strikes by 10 days as of March 28, 2026.",
-    "source": "Government official statements",
-    "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "IRGC hardliners have come to dominate Iranian leadership following the killing of Supreme Leader Ali Khamenei and other leadership losses.",
-    "source": "Intelligence reports",
-    "source_category": "government_official",
-    "indicator_category": "succession_dynamics",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Mohammad Bagher Zolghadr was named Secretary of Supreme National Security Council on March 28, 2026, shifting security decisions from government to military structures.",
-    "source": "Iranian government sources",
-    "source_category": "government_official",
-    "indicator_category": "succession_dynamics",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iran-Iraq war-era IRGC figures have been appointed to key roles in the Iranian government as of March 2026.",
-    "source": "Intelligence reports",
-    "source_category": "government_official",
-    "indicator_category": "succession_dynamics",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "No evidence of rapid regime fracture or defections has been reported despite strikes on Iranian leadership facilities as of March 2026.",
-    "source": "Intelligence reports",
-    "source_category": "government_official",
-    "indicator_category": "internal_stability",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "A nationwide internet blackout has persisted in Iran, tightening government control as of March 2026.",
-    "source": "Intelligence reports",
-    "source_category": "government_official",
-    "indicator_category": "internal_stability",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "US strikes have caused jailbreaks in Iranian facilities, such as in Mariwan, but no broader civil unrest has been reported as of late March 2026.",
-    "source": "Intelligence reports",
-    "source_category": "government_official",
-    "indicator_category": "internal_stability",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "The European Parliament raised concerns on March 28, 2026, against promoting specific Iranian opposition leaders.",
-    "source": "European Parliament statements",
-    "source_category": "government_official",
-    "indicator_category": "international_response",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "US strikes have expanded to include targets in Yemen, Iraq, and Gulf shipping as of March 28, 2026.",
-    "source": "Pentagon reports",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "CENTCOM noted Iranian military capability degradation as a result of US military strikes as of March 2026.",
-    "source": "CENTCOM statements",
-    "source_category": "government_official",
+    "claim": "Israeli strikes continued degrading Iran's missile capabilities as of March 28, 2026.",
+    "source": "Military operations report",
+    "source_category": "osint",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
     "time": "2026-03-28T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Oil prices have remained elevated due to disruptions to Strait of Hormuz shipping as of March 2026.",
-    "source": "Market reports",
-    "source_category": "market_commentary",
-    "indicator_category": "economic_collapse",
-    "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "US military strikes have targeted Iranian nuclear, military, and industrial sites, degrading missile and naval capabilities as of March 2026.",
-    "source": "Pentagon reports",
-    "source_category": "government_official",
+    "claim": "Iran fired missiles and drones in response to Israeli strikes as of March 28, 2026.",
+    "source": "Military operations report",
+    "source_category": "osint",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
     "time": "2026-03-28T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Kurdish militias in Iraq have eyed cross-border action against Iran but lack sufficient support as of March 2026.",
-    "source": "Intelligence reports",
-    "source_category": "government_official",
-    "indicator_category": "international_response",
+    "claim": "Israeli strikes occurred in Tehran on March 26-28, 2026, indicating high regime pressure but no regime collapse.",
+    "source": "Military operations report",
+    "source_category": "osint",
+    "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-03-28T00:00:00Z",
-    "confidence": "medium"
+    "time": "2026-03-27T00:00:00Z",
+    "confidence": "high"
   }
 ]
