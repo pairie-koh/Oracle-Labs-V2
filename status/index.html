@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Mar 30 10:47 PM PT</strong> (7m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (129m)</span>
-            <span>Scored: <strong>94</strong> predictions | Logged: <strong>352</strong> forecasts</span>
+            <span>Last cycle: <strong>Mar 31 02:08 AM PT</strong> (9m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (167m)</span>
+            <span>Scored: <strong>94</strong> predictions | Logged: <strong>356</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(12d 3h ago)</span>
+            <span class="dim">(12d 6h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-03-30
+                    <div class="iter-text"># momentum — 2026-03-31
 
-Version: 1.10.0 -&gt; 1.11.0
+Version: 1.11.0 -&gt; 1.12.0
 
-The momentum agent is performing poorly with only 12.5% directional accuracy, suggesting the momentum signal may be inverted. In falling markets, negative momentum (downward price movement) should predict further downward movement, but our current logic may be working against this. I&#x27;m inverting the momentum signal by multiplying it by -1, which should make the agent predict continuation of downward trends rather than fighting against them. This single change should dramatically improve directional accuracy in the current regime_fall market environment.</div>
+Removed the inversion of the momentum signal to return to standard momentum logic. The current 12.5% directional accuracy suggests that the inverted momentum approach is systematically wrong. By removing the negative sign from the momentum signal calculation, we return to the intuitive momentum behavior where positive price changes suggest continued upward movement. This should improve directional accuracy from the current very poor performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-03-30
+                    <div class="iter-text"># historian — 2026-03-31
 
-Version: 1.10.0 -&gt; 1.11.0
+Version: 1.11.0 -&gt; 1.12.0
 
-The historian agent is showing poor directional accuracy (25%) and MSE above baseline, suggesting the mean reversion is too aggressive. I&#x27;m reducing the REVERSION_RATE from 0.03 to 0.015 to make the mean reversion more gradual. This should help the agent avoid fighting genuine trends too strongly while still providing value during periods of overreaction. The lower reversion rate should improve directional accuracy by being less contrarian.</div>
+The current reversion rate of 0.015 appears too aggressive, causing systematic bias against the market direction. Since all source categories show identical poor directional accuracy of 0.25, we&#x27;re likely over-applying mean reversion during periods when genuine trend movement is occurring. I&#x27;m reducing the reversion rate from 0.015 to 0.008 to be less aggressive about pulling predictions toward the base rate, allowing the model to be more responsive to actual market movements while still maintaining the historian&#x27;s mean-reversion philosophy.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-03-30
+                    <div class="iter-text"># game_theorist — 2026-03-31
 
-Version: 1.10.0 -&gt; 1.11.0
+Version: 1.11.0 -&gt; 1.12.0
 
-The current ESCALATION_SENSITIVITY of 0.001 is too low, causing the model to barely respond to signals and resulting in poor directional accuracy. I&#x27;m increasing it to 0.01 (10x higher) to allow the model to make more meaningful adjustments based on the signal analysis. This should help the model better capture directional changes while still maintaining the game theory framework of costly signaling and actor incentives.</div>
+The primary issue is terrible directional accuracy (13%) suggesting my predictions are too conservative and barely moving from current prices. I&#x27;m increasing ESCALATION_SENSITIVITY from 0.01 to 0.03 (3x increase) to make the model more responsive to signals and generate predictions that move further from current prices. This should help capture actual market movements rather than staying too close to the status quo.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-03-30
+                    <div class="iter-text"># quant — 2026-03-31
 
-Version: 1.10.0 -&gt; 1.11.0
+Version: 1.11.0 -&gt; 1.12.0
 
-The current methodology is performing 32x worse than the naive baseline, indicating that my momentum and reversion adjustments are counterproductive. I&#x27;m reducing both momentum_coefficient and reversion_coefficient by 90% (from 0.0001/0.00015 to 0.00001/0.000015 respectively) to make much smaller adjustments from the current price. This should help me get closer to the naive baseline performance while still maintaining some adaptive behavior based on volatility and price dynamics.</div>
+My current performance is catastrophically bad - 32x worse MSE than naive baseline and 17% directional accuracy. The issue is that my momentum_coefficient (0.00001) and reversion_coefficient (0.000015) are causing predictions to deviate too far from current prices in what appears to be a stable market regime. I&#x27;m reducing both coefficients by 90% - momentum to 0.000001 and reversion to 0.0000015 - to make much smaller, more conservative price adjustments. This should dramatically reduce MSE by keeping predictions closer to current values while still maintaining some directional signal.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -287,12 +287,12 @@ The current methodology is performing 32x worse than the naive baseline, indicat
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.11.0</span>
+            <span class="dim">v1.12.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 30 10:55 PM PT (prev: Mar 30 08:05 PM PT)</div>
+        <div class="analysis-time dim">Mar 31 02:17 AM PT (prev: Mar 30 10:55 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,36 +303,36 @@ The current methodology is performing 32x worse than the naive baseline, indicat
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.11.0</span>
+            <span class="dim">v1.12.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 30 10:55 PM PT (prev: Mar 30 08:05 PM PT)</div>
+        <div class="analysis-time dim">Mar 31 02:17 AM PT (prev: Mar 30 10:55 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.11.0</span>
+            <span class="dim">v1.12.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 30 10:55 PM PT (prev: Mar 30 08:05 PM PT)</div>
+        <div class="analysis-time dim">Mar 31 02:17 AM PT (prev: Mar 30 10:55 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#2ecc71"></span>
             <strong>Quant</strong>
-            <span class="dim">v1.11.0</span>
+            <span class="dim">v1.12.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 30 10:55 PM PT (prev: Mar 30 08:05 PM PT)</div>
+        <div class="analysis-time dim">Mar 31 02:17 AM PT (prev: Mar 30 10:55 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     </div>
@@ -388,11 +388,11 @@ The current methodology is performing 32x worse than the naive baseline, indicat
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>24</strong> facts:
+                <strong>18</strong> facts:
                 <span class="esc">15 escalatory</span>,
-                <span class="deesc">6 de-escalatory</span>,
-                3 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> 3,000-4,000 soldiers from the 82nd Airborne Division deployed from Fort Bragg, North Carolina to the</div><div class="fact"><span class="dim">[military_pressure]</span> Thousands of Marines from USS Boxer, USS Portland, and USS Comstock deployed to the Middle East alon</div><div class="fact"><span class="dim">[military_pressure]</span> US military had 50,000 troops in the Middle East region prior to recent deployments.</div>
+                <span class="deesc">1 de-escalatory</span>,
+                2 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> At least 2,500 Marines and sailors aboard the USS Tripoli arrived in the Middle East with aviation a</div><div class="fact"><span class="dim">[military_pressure]</span> The USS Tripoli carries over 3,500 sailors and Marines from the 31st Marine Expeditionary Unit.</div><div class="fact"><span class="dim">[military_pressure]</span> Elements of the 82nd Airborne Division have been deployed to the Middle East region positioned withi</div>
     </div>
         
     <div class="section">
@@ -400,12 +400,12 @@ The current methodology is performing 32x worse than the naive baseline, indicat
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Massive U.S. military escalation with 50,000+ regional troops, 3,500 additional forces deployed, and strikes on 9,000+ Iranian targets proceeding despite Trump&#x27;s diplomatic pause through April 6, whil</div>
-                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
+                <div class="state-status">US military presence in West Asia has surged to over 57,000 troops with planned additional 10,000 deployments, including USS Tripoli&#x27;s 3,500-person MEU and 82nd Airborne elements positioned near Kharg</div>
+                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: high</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-03-30 10:55 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-03-31 02:17 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
