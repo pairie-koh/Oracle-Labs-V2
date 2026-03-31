@@ -194,10 +194,11 @@ CATEGORY_CUES = {
 - What does the NWS forecast say for today's high temperature? This is your most reliable signal.
 - Same-day weather forecasts are highly accurate — trust the NWS forecast high.
 - Look at the hourly temperature progression — when does the peak occur?
-- Which temperature bucket does the forecast high fall into? Concentrate probability there.
-- Is there uncertainty (e.g., "high near 65" could be 64-66)? Spread to adjacent buckets.
+- Which temperature bucket does the forecast high fall into? Put 60-70% probability there.
+- Put 15-20% in each adjacent bucket to account for minor forecast errors.
+- Put minimal probability (1-5%) in non-adjacent buckets unless there's extreme uncertainty.
 - Could rain, cloud cover, or wind cause the actual high to be 1-2 degrees off the forecast?
-- Do NOT spread probability evenly — weather forecasts are precise enough to strongly favor 1-2 buckets.""",
+- Be aggressive: if forecast says 67°F and the bucket is 65-69°F, that bucket should get most of your probability mass.""",
 }
 
 # Fallback for unknown categories
