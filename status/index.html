@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Mar 31 10:58 PM PT</strong> (8m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (117m)</span>
-            <span>Scored: <strong>154</strong> predictions | Logged: <strong>372</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 01 02:14 AM PT</strong> (8m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (162m)</span>
+            <span>Scored: <strong>158</strong> predictions | Logged: <strong>376</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(13d 3h ago)</span>
+            <span class="dim">(13d 6h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-03-31
+                    <div class="iter-text"># momentum — 2026-04-01
 
-Version: 1.11.0 -&gt; 1.12.0
+Version: 1.12.0 -&gt; 1.13.0
 
-Removed the inversion of the momentum signal to return to standard momentum logic. The current 12.5% directional accuracy suggests that the inverted momentum approach is systematically wrong. By removing the negative sign from the momentum signal calculation, we return to the intuitive momentum behavior where positive price changes suggest continued upward movement. This should improve directional accuracy from the current very poor performance.</div>
+I&#x27;m increasing MOMENTUM_WEIGHT from 0.15 to 0.45 to make the agent more decisive in following price trends when news intensity is high. The current weight of 0.15 is too conservative and results in predictions that barely deviate from current prices, leading to poor directional accuracy of only 7.69%. By tripling the momentum weight, the agent should generate more conviction in its directional calls while still maintaining the sigmoid blending mechanism. This change should improve directional accuracy even if it temporarily increases MSE, as the current performance is far below acceptable levels.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-03-31
+                    <div class="iter-text"># historian — 2026-04-01
 
-Version: 1.11.0 -&gt; 1.12.0
+Version: 1.12.0 -&gt; 1.13.0
 
-The current reversion rate of 0.015 appears too aggressive, causing systematic bias against the market direction. Since all source categories show identical poor directional accuracy of 0.25, we&#x27;re likely over-applying mean reversion during periods when genuine trend movement is occurring. I&#x27;m reducing the reversion rate from 0.015 to 0.008 to be less aggressive about pulling predictions toward the base rate, allowing the model to be more responsive to actual market movements while still maintaining the historian&#x27;s mean-reversion philosophy.</div>
+The historian agent is performing very poorly with only 15.38% directional accuracy and MSE worse than the naive baseline. The mean reversion strategy appears to be too aggressive, consistently predicting moves opposite to the actual market direction. I&#x27;m reducing the REVERSION_RATE from 0.008 to 0.004 to make the model less aggressive about reverting to the mean, which should improve directional accuracy by not fighting real trends as strongly.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-03-31
+                    <div class="iter-text"># game_theorist — 2026-04-01
 
-Version: 1.11.0 -&gt; 1.12.0
+Version: 1.12.0 -&gt; 1.13.0
 
-The primary issue is terrible directional accuracy (13%) suggesting my predictions are too conservative and barely moving from current prices. I&#x27;m increasing ESCALATION_SENSITIVITY from 0.01 to 0.03 (3x increase) to make the model more responsive to signals and generate predictions that move further from current prices. This should help capture actual market movements rather than staying too close to the status quo.</div>
+The agent has extremely poor directional accuracy (10.53%) suggesting systematic misinterpretation of signals. I&#x27;m reducing the COSTLY_SIGNAL_BONUS from 1.5 to 1.2 to see if the current 50% amplification of &quot;costly signals&quot; (statements against actor bias) is causing overreaction to noise rather than meaningful strategic signals. This should make the model less sensitive to what I&#x27;m interpreting as costly signaling while maintaining the core game theory framework.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-03-31
+                    <div class="iter-text"># quant — 2026-04-01
 
-Version: 1.11.0 -&gt; 1.12.0
+Version: 1.12.0 -&gt; 1.13.0
 
-My current performance is catastrophically bad - 32x worse MSE than naive baseline and 17% directional accuracy. The issue is that my momentum_coefficient (0.00001) and reversion_coefficient (0.000015) are causing predictions to deviate too far from current prices in what appears to be a stable market regime. I&#x27;m reducing both coefficients by 90% - momentum to 0.000001 and reversion to 0.0000015 - to make much smaller, more conservative price adjustments. This should dramatically reduce MSE by keeping predictions closer to current values while still maintaining some directional signal.</div>
+I&#x27;m inverting the adaptive blend logic because my directional accuracy is catastrophically bad (10.53%). Currently, high volatility leads to more reversion, but in a falling regime, high volatility should mean following the downward momentum more aggressively. I&#x27;m changing the adaptive blend calculation so that high volatility increases momentum weight instead of decreasing it, which should help me correctly predict the direction of price movements in volatile falling markets.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -246,36 +246,36 @@ My current performance is catastrophically bad - 32x worse MSE than naive baseli
             <div class="market-block">
                 <div class="market-header">
                     <strong>Regime Fall</strong>
-                    <span class="current-price">0.1150</span>
+                    <span class="current-price">0.1050</span>
                 </div>
                 <div class="price-changes">
-                    4h: <span class="">+0.0000</span>
-                    &nbsp; 24h: <span class="down">-0.0500</span>
+                    4h: <span class="down">-0.0100</span>
+                    &nbsp; 24h: <span class="down">-0.0600</span>
                 </div>
                 
                 <div class="forecast-row">
                     <span class="dot" style="background:#e74c3c"></span>
                     <span class="agent-name">Momentum</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.1150</span>
+                    <span class="delta down">-0.1050</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#3498db"></span>
                     <span class="agent-name">Historian</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.1150</span>
+                    <span class="delta down">-0.1050</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#f39c12"></span>
                     <span class="agent-name">Game Theorist</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.1150</span>
+                    <span class="delta down">-0.1050</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#2ecc71"></span>
                     <span class="agent-name">Quant</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.1150</span>
+                    <span class="delta down">-0.1050</span>
                 </div>
             </div>
     </div>
@@ -287,12 +287,12 @@ My current performance is catastrophically bad - 32x worse MSE than naive baseli
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.12.0</span>
+            <span class="dim">v1.13.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 31 11:07 PM PT (prev: Mar 31 01:58 PM PT)</div>
+        <div class="analysis-time dim">Apr 01 02:22 AM PT (prev: Mar 31 11:07 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,36 +303,36 @@ My current performance is catastrophically bad - 32x worse MSE than naive baseli
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.12.0</span>
+            <span class="dim">v1.13.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 31 11:07 PM PT (prev: Mar 31 01:58 PM PT)</div>
+        <div class="analysis-time dim">Apr 01 02:22 AM PT (prev: Mar 31 11:07 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.12.0</span>
+            <span class="dim">v1.13.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 31 11:07 PM PT (prev: Mar 31 01:58 PM PT)</div>
+        <div class="analysis-time dim">Apr 01 02:22 AM PT (prev: Mar 31 11:07 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#2ecc71"></span>
             <strong>Quant</strong>
-            <span class="dim">v1.12.0</span>
+            <span class="dim">v1.13.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Mar 31 11:07 PM PT (prev: Mar 31 01:58 PM PT)</div>
+        <div class="analysis-time dim">Apr 01 02:22 AM PT (prev: Mar 31 11:07 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     </div>
@@ -343,26 +343,26 @@ My current performance is catastrophically bad - 32x worse MSE than naive baseli
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,26.7 60.0,28.0 90.0,28.0 120.0,2.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.001102</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,27.7 30.0,28.0 60.0,28.0 90.0,22.6 120.0,2.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.005346</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,23.8 60.0,27.9 90.0,27.1 120.0,2.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#3498db" /></svg></span>
-            <span class="trend-val">0.000997</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,27.1 30.0,28.0 60.0,27.8 90.0,22.2 120.0,2.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.004412</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,28.0 60.0,28.0 90.0,28.0 120.0,2.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#f39c12" /></svg></span>
-            <span class="trend-val">0.111479</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,28.0 60.0,28.0 90.0,24.3 120.0,2.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.783225</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#2ecc71"></span>
             <span class="agent-name">Quant</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,25.9 60.0,28.0 90.0,28.0 120.0,2.0" fill="none" stroke="#2ecc71" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#2ecc71" /></svg></span>
-            <span class="trend-val">0.000636</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,27.6 30.0,28.0 60.0,28.0 90.0,23.4 120.0,2.0" fill="none" stroke="#2ecc71" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#2ecc71" /></svg></span>
+            <span class="trend-val">0.003600</span>
         </div>
     </div>
         
@@ -379,8 +379,8 @@ My current performance is catastrophically bad - 32x worse MSE than naive baseli
         <div class="pnl-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="pnl-val down">$-22</span>
-            <span class="dim">0W/11L (11 trades)</span>
+            <span class="pnl-val down">$-28</span>
+            <span class="dim">0W/12L (12 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -394,11 +394,11 @@ My current performance is catastrophically bad - 32x worse MSE than naive baseli
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>25</strong> facts:
-                <span class="esc">17 escalatory</span>,
-                <span class="deesc">6 de-escalatory</span>,
-                2 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> IRGC announced on March 31, 2026, threats to target US companies, bases, and hotels in Gulf Cooperat</div><div class="fact"><span class="dim">[military_pressure]</span> IDF conducted over 600 strikes on Iranian ballistic missile sites by March 24, including Esfahan Pro</div><div class="fact"><span class="dim">[military_pressure]</span> US conducted over 200 strikes in 24 hours around March 31 using B-2 bombers with GBU-57 bunker buste</div>
+                <strong>20</strong> facts:
+                <span class="esc">13 escalatory</span>,
+                <span class="deesc">4 de-escalatory</span>,
+                3 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> Pentagon plans to deploy 3,000–4,000 soldiers from the 82nd Airborne Division to unspecified Middle </div><div class="fact"><span class="dim">[military_pressure]</span> USS Gerald R. Ford was deployed to the Middle East between February 13–27, 2026.</div><div class="fact"><span class="dim">[military_pressure]</span> 12 F-22 fighter jets were deployed to Israel&#x27;s Ovda Airbase on February 24, 2026.</div>
     </div>
         
     <div class="section">
@@ -406,12 +406,12 @@ My current performance is catastrophically bad - 32x worse MSE than naive baseli
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">US-Israeli coalition has executed 13,000+ strikes including 600+ IDF strikes on missile sites and 200+ B-2 strikes on Isfahan targets, while Iran retaliates with threats against GCC targets and demons</div>
+                <div class="state-status">Supreme Leader Ali Khamenei was assassinated on February 28, 2026, and replaced by his son Mojtaba on March 8, 2026, consolidating IRGC hardliner control amid ongoing U.S.-Israeli military campaign in</div>
                 <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-03-31 11:07 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-01 02:22 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
