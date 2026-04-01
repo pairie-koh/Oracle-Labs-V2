@@ -24,25 +24,32 @@ ROLLING_SCORES_CSV = "rolling_scores_history.csv"
 ROLLING_SCORES_COLUMNS = [
     "date", "contract_key", "contract_name", "contract_type",
     "prediction", "market_price", "outcome", "correct",
-    "squared_error", "tier", "timestamp",
+    "squared_error", "market_squared_error", "edge_vs_market",
+    "tier", "timestamp",
 ]
+
+# Predictions made after this hour (UTC) are excluded — by late day the market
+# already reflects the outcome, so "predicting" the market price is hindsight.
+INFO_LEAKAGE_CUTOFF_HOUR = 14  # 2pm UTC = ~10am ET
 
 
 def load_predictions_for_date(target_date):
-    """Load LLM predictions that were made for a specific date's rolling contracts.
+    """Load LLM predictions that were made DURING the target date's contract window.
 
-    Looks through llm_predictions/ for predictions whose rolling contracts
-    match the target date.
+    Rolling contracts for date D cover the calendar day in UTC. We only score
+    predictions made on that same calendar day AND before the info leakage
+    cutoff (early enough that the outcome wasn't already known from the market).
     """
     predictions_dir = "llm_predictions"
     if not os.path.isdir(predictions_dir):
         return []
 
-    # Load latest predictions file — in production this would match by date
-    # For now, scan all prediction files and find ones with rolling contracts
+    target_str = target_date.strftime("%Y-%m-%d")
+    cutoff_hour = INFO_LEAKAGE_CUTOFF_HOUR
+
     all_preds = []
 
-    for fname in sorted(os.listdir(predictions_dir), reverse=True):
+    for fname in sorted(os.listdir(predictions_dir)):
         if not fname.endswith(".json") or fname == "latest.json":
             continue
 
@@ -53,11 +60,31 @@ def load_predictions_for_date(target_date):
         except (json.JSONDecodeError, IOError):
             continue
 
+        pred_timestamp = data.get("timestamp", "")
+        if not pred_timestamp:
+            continue
+
+        # Parse prediction timestamp
+        try:
+            pred_dt = datetime.fromisoformat(pred_timestamp.replace("Z", "+00:00"))
+        except (ValueError, AttributeError):
+            continue
+
+        # Only include predictions made ON the target date (same calendar day UTC)
+        if pred_dt.strftime("%Y-%m-%d") != target_str:
+            continue
+
+        # Info leakage filter: reject predictions made after cutoff
+        if pred_dt.hour >= cutoff_hour:
+            print(f"    SKIP {fname}: made at {pred_dt.strftime('%H:%M')} UTC "
+                  f"(after {cutoff_hour}:00 cutoff)")
+            continue
+
         preds = data.get("predictions", [])
         rolling_preds = [p for p in preds if p.get("source") == "rolling"]
         if rolling_preds:
             all_preds.append({
-                "timestamp": data.get("timestamp", ""),
+                "timestamp": pred_timestamp,
                 "predictions": rolling_preds,
             })
 
@@ -271,15 +298,66 @@ def score_multi_outcome_prediction(predictions, outcomes):
     }
 
 
-def append_rolling_scores(rows):
-    """Append scored rolling predictions to the cumulative CSV."""
-    file_exists = os.path.exists(ROLLING_SCORES_CSV) and os.path.getsize(ROLLING_SCORES_CSV) > 0
-    with open(ROLLING_SCORES_CSV, "a", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=ROLLING_SCORES_COLUMNS)
-        if not file_exists:
-            writer.writeheader()
+def load_already_scored_rolling():
+    """Load set of (date, contract_key, timestamp) already in rolling CSV."""
+    already = set()
+    if os.path.exists(ROLLING_SCORES_CSV):
+        with open(ROLLING_SCORES_CSV, "r") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                key = (row.get("date", ""), row.get("contract_key", ""),
+                       row.get("timestamp", ""))
+                already.add(key)
+    return already
+
+
+def _read_all_rolling_rows():
+    """Read all rows from rolling CSV, tolerating schema mismatches."""
+    if not os.path.exists(ROLLING_SCORES_CSV) or os.path.getsize(ROLLING_SCORES_CSV) == 0:
+        return []
+    with open(ROLLING_SCORES_CSV, "r", newline="") as f:
+        reader = csv.DictReader(f)
+        return list(reader)
+
+
+def _deduplicate_rows(rows):
+    """Remove duplicate rows by (date, contract_key, timestamp) key, keeping first."""
+    seen = set()
+    unique = []
+    for row in rows:
+        key = (row.get("date", ""), row.get("contract_key", ""),
+               row.get("timestamp", ""))
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(row)
+    return unique
+
+
+def _rewrite_rolling_csv(rows):
+    """Rewrite the entire rolling CSV with current schema and deduplicated rows."""
+    with open(ROLLING_SCORES_CSV, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=ROLLING_SCORES_COLUMNS,
+                                extrasaction="ignore")
+        writer.writeheader()
         for row in rows:
             writer.writerow(row)
+
+
+def append_rolling_scores(rows):
+    """Append scored rolling predictions to the cumulative CSV, skipping duplicates.
+
+    Also deduplicates the entire file on each write to prevent drift from
+    schema changes or repeated evaluation runs.
+    """
+    existing = _read_all_rolling_rows()
+    all_rows = existing + rows
+    deduped = _deduplicate_rows(all_rows)
+
+    new_count = len(deduped) - len(_deduplicate_rows(existing))
+    _rewrite_rolling_csv(deduped)
+
+    return new_count
 
 
 STATIC_SCORES_CSV = "static_scores_history.csv"
@@ -520,11 +598,14 @@ def run_rolling_evaluation(target_date=None):
 
                     score = score_binary_prediction(prediction, outcome)
                     market_score = score_binary_prediction(market_price, outcome)
+                    mkt_se = market_score["squared_error"]
+                    edge = mkt_se - score["squared_error"]
 
                     correct_str = "CORRECT" if score["correct"] else "WRONG"
+                    edge_str = f"+{edge:.4f}" if edge > 0 else f"{edge:.4f}"
                     print(f"    Prediction: {prediction:.3f} | Market: {market_price:.3f} | "
                           f"Outcome: {outcome:.0f} | {correct_str} | "
-                          f"SE: {score['squared_error']:.4f} (market SE: {market_score['squared_error']:.4f})")
+                          f"SE: {score['squared_error']:.4f} (market SE: {mkt_se:.4f}) edge={edge_str}")
 
                     scored_rows.append({
                         "date": date_str,
@@ -536,6 +617,8 @@ def run_rolling_evaluation(target_date=None):
                         "outcome": outcome,
                         "correct": score["correct"],
                         "squared_error": score["squared_error"],
+                        "market_squared_error": mkt_se,
+                        "edge_vs_market": round(edge, 6),
                         "tier": tier,
                         "timestamp": pred_file["timestamp"],
                     })
@@ -570,10 +653,13 @@ def run_rolling_evaluation(target_date=None):
                         continue
 
                     market_score = score_multi_outcome_prediction(market_prices, outcomes)
+                    mkt_se = market_score["squared_error"] if market_score else 0
+                    edge = mkt_se - score["squared_error"]
 
                     correct_str = "CORRECT WINNER" if score["correct"] else "WRONG WINNER"
-                    market_se = market_score["squared_error"] if market_score else "?"
-                    print(f"    {correct_str} | SE: {score['squared_error']:.4f} (market SE: {market_se})")
+                    edge_str = f"+{edge:.4f}" if edge > 0 else f"{edge:.4f}"
+                    print(f"    {correct_str} | SE: {score['squared_error']:.4f} "
+                          f"(market SE: {mkt_se:.4f}) edge={edge_str}")
 
                     scored_rows.append({
                         "date": date_str,
@@ -585,18 +671,24 @@ def run_rolling_evaluation(target_date=None):
                         "outcome": json.dumps([o["resolved_price"] for o in outcomes]),
                         "correct": score["correct"],
                         "squared_error": score["squared_error"],
+                        "market_squared_error": round(mkt_se, 6),
+                        "edge_vs_market": round(edge, 6),
                         "tier": tier,
                         "timestamp": pred_file["timestamp"],
                     })
 
-    # Save scores
+    # Save scores (dedup happens inside append_rolling_scores)
     if scored_rows:
-        append_rolling_scores(scored_rows)
+        new_count = append_rolling_scores(scored_rows)
         correct_count = sum(1 for r in scored_rows if r["correct"])
         avg_se = sum(r["squared_error"] for r in scored_rows) / len(scored_rows)
-        print(f"\n  === Scored {len(scored_rows)} rolling predictions ===")
+        avg_mkt_se = sum(r["market_squared_error"] for r in scored_rows) / len(scored_rows)
+        avg_edge = sum(r["edge_vs_market"] for r in scored_rows) / len(scored_rows)
+        print(f"\n  === Scored {len(scored_rows)} rolling predictions ({new_count} new, {len(scored_rows) - new_count} already in CSV) ===")
         print(f"  Accuracy: {correct_count}/{len(scored_rows)} ({100*correct_count/len(scored_rows):.0f}%)")
         print(f"  Average SE: {avg_se:.4f}")
+        print(f"  Average market SE: {avg_mkt_se:.4f}")
+        print(f"  Average edge vs market: {avg_edge:.4f} ({'BEATING' if avg_edge > 0 else 'LOSING TO'} market)")
         print(f"  Saved to {ROLLING_SCORES_CSV}")
     else:
         print(f"\n  No rolling predictions scored this cycle.")
