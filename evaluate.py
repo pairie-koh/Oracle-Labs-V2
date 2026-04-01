@@ -260,6 +260,13 @@ def update_scorecard(agent, new_scores):
     scorecard = load_scorecard(agent)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
+    # Migrate old scorecards missing newer keys
+    scorecard.setdefault("per_horizon", {})
+    scorecard.setdefault("per_market", {})
+    scorecard.setdefault("mse_trend_last_5", [])
+    scorecard.setdefault("source_performance", {})
+    scorecard.setdefault("virtual_pnl", {"total": 0.0, "trades": 0, "wins": 0, "losses": 0})
+
     # Accumulate
     all_se = []
     all_naive_se = []

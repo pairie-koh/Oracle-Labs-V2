@@ -1386,6 +1386,11 @@ def save_predictions(predictions, timestamp):
             if "_pre_adversarial_predictions" in p:
                 entry["pre_adversarial_predictions"] = p["_pre_adversarial_predictions"]
 
+        # Save truncated reasoning for iteration feedback loop
+        reasoning = p.get("_reasoning", "")
+        if reasoning and reasoning not in ("[dry run]",):
+            entry["reasoning_excerpt"] = reasoning[:500]
+
         summary.append(entry)
 
     # Save summary (compact, for scoring)

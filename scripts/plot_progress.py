@@ -46,6 +46,9 @@ AGENTS = ["momentum", "historian", "game_theorist", "quant"]
 def load_live_data():
     """Load scores_history.csv into a DataFrame with datetime index."""
     df = pd.read_csv(LIVE_CSV)
+    df["timestamp"] = pd.to_numeric(df["timestamp"], errors="coerce")
+    df = df.dropna(subset=["timestamp"])
+    df = df.drop_duplicates(subset=["timestamp", "agent", "market"])
     df["datetime"] = pd.to_datetime(df["timestamp"], unit="s", utc=True)
     df = df.sort_values("datetime").reset_index(drop=True)
     # Assign sequential cycle numbers per agent for rolling calculations

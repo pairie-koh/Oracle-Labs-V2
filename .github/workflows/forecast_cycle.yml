@@ -83,6 +83,7 @@ jobs:
           git config user.email "hello.pairie@gmail.com"
           git add -A
           git diff --cached --quiet || git commit -m "cycle: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase || true
           git push
 
       - name: Push to dashboard
