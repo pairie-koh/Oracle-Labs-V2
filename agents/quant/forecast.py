@@ -30,7 +30,7 @@ from constants import MARKETS, PRICE_CSV, FORECAST_HORIZONS
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.12.0"
+METHODOLOGY_VERSION = "1.13.0"
 
 MOMENTUM_LOOKBACK = 6       # EWMA span for short-term momentum
 REVERSION_LOOKBACK = 24     # number of recent price points for long-term mean
@@ -209,9 +209,9 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
         print(f"  Vol ratio:   {color}{ratio:.2f}× ({regime}){RESET}")
         time.sleep(LIVE_DELAY * 3)
 
-    # Adaptive blend: low vol → trend-follow (high blend), high vol → revert (low blend)
+    # Adaptive blend: INVERTED LOGIC - high vol → trend-follow (high blend), low vol → revert (low blend)
     vol_ratio = min(vol / (2 * median_vol), 1.0)
-    adaptive_blend = 0.3 + 0.4 * (1.0 - vol_ratio)
+    adaptive_blend = 0.3 + 0.4 * vol_ratio
 
     # Momentum forecast: pull toward EWMA (scaled by horizon)
     # Much smaller coefficient to stay closer to current price

@@ -49,8 +49,8 @@ MAX_OPUS_PER_CYCLE = 5    # Cap Opus calls per cycle
 # Overconfidence shrinkage: pull LLM estimates toward market price.
 # 0.0 = ignore LLM entirely (use market), 1.0 = trust LLM fully (no shrinkage).
 # 0.5 = split the difference. Research shows LLMs are systematically overconfident,
-# but prediction markets can also be wrong. We keep 60% of LLM divergence from market.
-SHRINKAGE_KEEP = 0.6
+# but prediction markets can also be wrong. We keep 75% of LLM divergence from market.
+SHRINKAGE_KEEP = 0.75
 
 
 # ── Overconfidence Shrinkage ────────────────────────────────────────────────
@@ -60,8 +60,8 @@ def shrink_toward_market(llm_prob, market_price):
 
     adjusted = market + SHRINKAGE_KEEP * (llm - market)
 
-    With SHRINKAGE_KEEP=0.6: if LLM says 0.80 and market is 0.50,
-    adjusted = 0.50 + 0.6*(0.80-0.50) = 0.68 instead of 0.80.
+    With SHRINKAGE_KEEP=0.75: if LLM says 0.80 and market is 0.50,
+    adjusted = 0.50 + 0.75*(0.80-0.50) = 0.725 instead of 0.80.
     """
     adjusted = market_price + SHRINKAGE_KEEP * (llm_prob - market_price)
     return max(0.0, min(1.0, adjusted))
