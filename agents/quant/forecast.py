@@ -30,11 +30,11 @@ from constants import MARKETS, PRICE_CSV, FORECAST_HORIZONS
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.13.0"
+METHODOLOGY_VERSION = "1.14.0"
 
 MOMENTUM_LOOKBACK = 6       # EWMA span for short-term momentum
 REVERSION_LOOKBACK = 24     # number of recent price points for long-term mean
-BASE_MOMENTUM_BLEND = 0.5   # baseline blend (adapted by volatility)
+BASE_MOMENTUM_BLEND = 0.5   # fixed blend (no longer adapted by volatility)
 NEWS_FEATURE_WEIGHT = 0.0   # zeroed: news was anti-predictive (escalation bias in stable market)
 
 SOURCE_WEIGHTS = {
@@ -196,7 +196,7 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
         print(f"  Mean: {GREEN}{long_mean:.6f}{RESET}")
         time.sleep(LIVE_DELAY * 2)
 
-    # Rolling volatility
+    # Rolling volatility (for info only now)
     vol, median_vol = compute_volatility(series, REVERSION_LOOKBACK)
 
     if live:
@@ -209,9 +209,8 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
         print(f"  Vol ratio:   {color}{ratio:.2f}× ({regime}){RESET}")
         time.sleep(LIVE_DELAY * 3)
 
-    # Adaptive blend: INVERTED LOGIC - high vol → trend-follow (high blend), low vol → revert (low blend)
-    vol_ratio = min(vol / (2 * median_vol), 1.0)
-    adaptive_blend = 0.3 + 0.4 * vol_ratio
+    # Fixed blend (no longer adaptive)
+    fixed_blend = BASE_MOMENTUM_BLEND
 
     # Momentum forecast: pull toward EWMA (scaled by horizon)
     # Much smaller coefficient to stay closer to current price
@@ -224,16 +223,15 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
     reversion_forecast = current + (long_mean - current) * reversion_coefficient
 
     if live:
-        print(f"\n{BOLD}▸ Adaptive blend{RESET}")
-        print(f"  Vol ratio (capped): {CYAN}{vol_ratio:.4f}{RESET}")
-        print(f"  Blend weight:       {GREEN}{adaptive_blend:.4f}{RESET} "
+        print(f"\n{BOLD}▸ Fixed blend{RESET}")
+        print(f"  Blend weight:       {GREEN}{fixed_blend:.4f}{RESET} "
               f"{DIM}(1.0=momentum, 0.0=reversion){RESET}")
         print(f"  Momentum forecast:  {CYAN}{momentum_forecast:.6f}{RESET}")
         print(f"  Reversion forecast: {CYAN}{reversion_forecast:.6f}{RESET}")
         time.sleep(LIVE_DELAY * 3)
 
     # Blend
-    blended = adaptive_blend * momentum_forecast + (1.0 - adaptive_blend) * reversion_forecast
+    blended = fixed_blend * momentum_forecast + (1.0 - fixed_blend) * reversion_forecast
 
     # News adjustment scaled by inverse volatility
     news_score = compute_news_feature(facts, market_key, live=live)
@@ -261,8 +259,8 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
         print(f"│ {BOLD}{market_key:<48s}{RESET}│")
         print(f"│ {current:.4f} ──→ {GREEN}{prediction:.4f}{RESET}  "
               f"({sign}{delta_pp:.1f}pp) @ {horizon_label}{' ' * max(0, 19 - len(f'{sign}{delta_pp:.1f}pp) @ {horizon_label}'))}│")
-        print(f"│ blend: {adaptive_blend:.2f} | vol: {vol:.4f} | n={len(series)}"
-              f"{' ' * max(0, 24 - len(f'blend: {adaptive_blend:.2f} | vol: {vol:.4f} | n={len(series)}'))}│")
+        print(f"│ blend: {fixed_blend:.2f} | vol: {vol:.4f} | n={len(series)}"
+              f"{' ' * max(0, 24 - len(f'blend: {fixed_blend:.2f} | vol: {vol:.4f} | n={len(series)}'))}│")
         print(f"└─────────────────────────────────────────────────┘")
 
     return {
@@ -275,7 +273,7 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
         "blended": round(blended, 6),
         "volatility": round(vol, 6),
         "median_vol": round(median_vol, 6),
-        "adaptive_blend": round(adaptive_blend, 4),
+        "fixed_blend": round(fixed_blend, 4),
         "news_adjustment": round(news_adj, 6),
         "series_length": len(series),
     }
@@ -334,7 +332,7 @@ def make_forecasts(briefing_path, live=False):
             for hz_label, pred in horizons.items():
                 print(f"  {mk} @ {hz_label}: {pred['current']:.4f} -> {pred['prediction']:.4f} "
                       f"(ewma={pred['ewma']:.4f}, vol={pred['volatility']:.4f}, "
-                      f"med_vol={pred['median_vol']:.4f}, blend={pred['adaptive_blend']:.2f}, "
+                      f"med_vol={pred['median_vol']:.4f}, blend={pred['fixed_blend']:.2f}, "
                       f"n={pred['series_length']})")
 
     return forecast
