@@ -1,40 +1,40 @@
 {
-  "date": "2026-04-01",
-  "fetched_at": "2026-04-01T20:53:04Z",
+  "date": "2026-04-02",
+  "fetched_at": "2026-04-02T02:45:39Z",
   "contracts": {
     "bitcoin_daily": {
       "name": "Bitcoin Up or Down",
-      "slug": "bitcoin-up-or-down-on-april-1-2026",
-      "event_id": "325748",
+      "slug": "bitcoin-up-or-down-on-april-2-2026",
+      "event_id": "329415",
       "category": "economics",
       "type": "binary",
       "status": "active",
       "markets": [
         {
-          "question": "Bitcoin Up or Down on April 1?",
-          "slug": "bitcoin-up-or-down-on-april-1-2026",
-          "condition_id": "0x9771043b53950c29278ce2ce7c923116774a2fdd23600b0c658a214ca05bc6d2",
+          "question": "Bitcoin Up or Down on April 2?",
+          "slug": "bitcoin-up-or-down-on-april-2-2026",
+          "condition_id": "0xd929f31620d6418f5d8fb2b6855c3d2529b6bddc3747cd9c76810a5fe87d7c69",
           "token_ids": [
-            "93912086737073295300979503496795013222155535857288194381208837453373591709985",
-            "27530024601867903736360810848522690800608265786865508331879057113011022464515"
+            "103328202544699946303992387402263642654209291228044965469414992267123740242938",
+            "2210196238074586096284229184408315719975176337034136060624141647260583226908"
           ],
           "outcomes": [
             "Up",
             "Down"
           ],
           "prices": [
-            1.0,
-            0.0
+            0.055,
+            0.945
           ],
-          "volume": 427152.0997260001,
-          "liquidity": 0.0,
-          "end_date": "2026-04-01T16:00:00Z"
+          "volume": 131221.61069799992,
+          "liquidity": 39328.9759,
+          "end_date": "2026-04-02T16:00:00Z"
         }
       ]
     },
     "oil_daily": {
       "name": "Crude Oil (CL) Up or Down",
-      "slug": "cl-up-or-down-on-april-1-2026",
+      "slug": "cl-up-or-down-on-april-2-2026",
       "category": "economics",
       "type": "binary",
       "status": "not_found",
@@ -42,19 +42,99 @@
     },
     "nyc_temp": {
       "name": "Highest temperature in NYC",
-      "slug": "highest-temperature-in-nyc-on-april-1-2026",
-      "event_id": "322434",
+      "slug": "highest-temperature-in-nyc-on-april-2-2026",
+      "event_id": "322470",
       "category": "weather",
       "type": "multi-outcome",
       "status": "active",
       "markets": [
         {
-          "question": "Will the highest temperature in New York City be between 80-81\u00b0F on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-80-81f",
-          "condition_id": "0xb94e7f5f75d3bf215207a9d2f4844a5dc25785ec39f8240f93ee40458dc4f251",
+          "question": "Will the highest temperature in New York City be 59\u00b0F or below on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-59forbelow",
+          "condition_id": "0xf2f7d9ef69fc0492e690aa93595c763be46562e4af5e0214e2409d2b7f63f883",
           "token_ids": [
-            "54171219140185716386042746755445541282940443040338736518845014562907119602872",
-            "51503118528839653508380235517831553156921004531346090573468603872950955559993"
+            "85886639677317208738047564754437758610208341446198967352442537622154407877225",
+            "46972598202397753547275039949588257989321512032558424630867099206864652496986"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.994,
+            0.006
+          ],
+          "volume": 15442.395099000007,
+          "liquidity": 8708.35574,
+          "end_date": "2026-04-02T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 62-63\u00b0F on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-62-63f",
+          "condition_id": "0x7c3565595607c20d4d96ea0a9ba948b47e67d3a5a8894cebeb40672c45481d2f",
+          "token_ids": [
+            "115450501340987616142849643588309171183573433418620181012785915380668718646930",
+            "21577588628467436813692594774571220317203657732334416520397252661979140397909"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.0025,
+            0.9975
+          ],
+          "volume": 7839.784694000007,
+          "liquidity": 1661.88133,
+          "end_date": "2026-04-02T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 66-67\u00b0F on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-66-67f",
+          "condition_id": "0x98eea30469ef636013b3bd04a080d60a8baf68149f498505bfb750043d9e3960",
+          "token_ids": [
+            "36880383384068228033165379596137624952186738369593600028963874589946590573687",
+            "24303939316738494305202226311342711827415530085569084961941636245864050266494"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.001,
+            0.999
+          ],
+          "volume": 8390.662409,
+          "liquidity": 6467.63586,
+          "end_date": "2026-04-02T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 70-71\u00b0F on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-70-71f",
+          "condition_id": "0x3c2b5b6d110b0f462e53588d17714dc73bd4e2da9f76ffc0d0da924fa0efa44e",
+          "token_ids": [
+            "26482703109421893381021904783404525647623385544324222242188306529460475747390",
+            "38947408973407499066234815703542149725102990435845802977278020983369103149353"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.0005,
+            0.9995
+          ],
+          "volume": 6608.2693469999995,
+          "liquidity": 7080.36139,
+          "end_date": "2026-04-02T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 74-75\u00b0F on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-74-75f",
+          "condition_id": "0xf0ba06c9398ef4bf77fc3b08583959cd92e5d1fc396e93a5e3bcee767112bf71",
+          "token_ids": [
+            "86031981104333640351342700434125867076064353926107635093185797108820098211248",
+            "49017673654810439122051702320801794679922890555212360423187677848747976788673"
           ],
           "outcomes": [
             "Yes",
@@ -64,17 +144,17 @@
             0.0015,
             0.9985
           ],
-          "volume": 50392.29547799999,
-          "liquidity": 14497.25072,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 11316.084269000004,
+          "liquidity": 7085.84648,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 82-83\u00b0F on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-82-83f",
-          "condition_id": "0xb371469e235165159f0937ee2a18c68c98c4cee2c52281d273b72792fad7fb9e",
+          "question": "Will the highest temperature in New York City be 78\u00b0F or higher on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-78forhigher",
+          "condition_id": "0xe9ae2385a930ccd32e45fb5e36d3f2d85c4e468c119ea7247d367b68b5ca7d6d",
           "token_ids": [
-            "111492716541528831307077700758090621623215299311304705545431874960843833434133",
-            "66539416238774183061960562730918038544909815513086195197813994482908708910917"
+            "92962718260185976245697739170954402427482749920829442482939322615700698945906",
+            "28030690143254329365688248799983019231263207588945167530129667220045688760154"
           ],
           "outcomes": [
             "Yes",
@@ -84,17 +164,57 @@
             0.0005,
             0.9995
           ],
-          "volume": 37229.85920799999,
-          "liquidity": 11000.98956,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 8360.522348,
+          "liquidity": 8086.99746,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 86-87\u00b0F on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-86-87f",
-          "condition_id": "0xf9b2b811fd6e2a92c0e04f4a84956bea90f64794fee7fcd256ca4237a1478340",
+          "question": "Will the highest temperature in New York City be between 60-61\u00b0F on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-60-61f",
+          "condition_id": "0x0be653ca69c68ded247b9d147148bf2eb29246f3c3bdc0efa4b58c25a8c00a6e",
           "token_ids": [
-            "9788147006432793494111116571342049565584084627518081579704568460014923155216",
-            "19323794154922178034484088536386496016365516836505542563921719918986039150356"
+            "12898720845583618272758343325771198763442902284920344001539671600192994778287",
+            "61611830799791999035940783083743167230438641981432339620787187438664658806995"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.005,
+            0.995
+          ],
+          "volume": 8119.169687000001,
+          "liquidity": 6199.28106,
+          "end_date": "2026-04-02T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 64-65\u00b0F on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-64-65f",
+          "condition_id": "0xa85902fa44fbc31b08f2aac03dd6b7e574f5ea558ff12ff6d802f4b909157daf",
+          "token_ids": [
+            "6371049074401262656700146383779464657747011680765703393214420429060229483574",
+            "51636642824704579720631337000071961203917372006604224840797258956154731533530"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.002,
+            0.998
+          ],
+          "volume": 7939.164374000004,
+          "liquidity": 3137.9286,
+          "end_date": "2026-04-02T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 68-69\u00b0F on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-68-69f",
+          "condition_id": "0x2f968f418c60d61a43db50abc4212e190169f2ec5380e114945c419617702045",
+          "token_ids": [
+            "55814057122060282333795571789082952644423413503299713615839669659592336397842",
+            "101646707381934392679908890963477421028566581173818002626384762313390833208572"
           ],
           "outcomes": [
             "Yes",
@@ -104,97 +224,17 @@
             0.0005,
             0.9995
           ],
-          "volume": 7410.723158000004,
-          "liquidity": 13500.37206,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 9974.188209000002,
+          "liquidity": 5753.72425,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be 69\u00b0F or below on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-69forbelow",
-          "condition_id": "0x6bd06f0944055678cc7259ea6bc09b86e6c1c298977ecf0889556ac1cc441d13",
+          "question": "Will the highest temperature in New York City be between 72-73\u00b0F on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-72-73f",
+          "condition_id": "0x06db41976d738600f524a05b1a3d83968680518280aec2787eeb16941d07b5a6",
           "token_ids": [
-            "95349145231820624343906785744596217891981251324496735520170602436462705272467",
-            "56555534613829111170630924442903922001128081253342788098334161351322128907054"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 21740.699574000002,
-          "liquidity": 0.0,
-          "end_date": "2026-04-01T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be between 70-71\u00b0F on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-70-71f",
-          "condition_id": "0x2c5f478fcc1c646de065049595329012801f4abfc3f80f66e2fc0eb7f43066b6",
-          "token_ids": [
-            "59902640488486297103872423940926081426522724390210154714018775919358378946382",
-            "58395434708876846098889780626495485156676455736697879046439998220961016906661"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 20172.958521000004,
-          "liquidity": 0.0,
-          "end_date": "2026-04-01T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be between 74-75\u00b0F on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-74-75f",
-          "condition_id": "0x7788d1af2a163cc4f98b73423b39bcafc0f33bc17bfebd58fe7c25878cf0f7c9",
-          "token_ids": [
-            "7636404651181090629018996922565122568271416679482847024675129602534757836747",
-            "54774878785222412901018054307315197935430765125456642451052090339870258555642"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 21757.991384999998,
-          "liquidity": 0.0,
-          "end_date": "2026-04-01T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be between 84-85\u00b0F on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-84-85f",
-          "condition_id": "0x025dd464e5a7eec0bbf474fd81b34fcbdd60b7f5ecbed2dcb151567f9b7a52c1",
-          "token_ids": [
-            "22323115213557616043249806771446784642776778377151467116211065983720524903882",
-            "108080674894913672940864793208447886776202340979096195783922846031873352324738"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0015,
-            0.9985
-          ],
-          "volume": 11618.221663000006,
-          "liquidity": 11200.35043,
-          "end_date": "2026-04-01T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be 88\u00b0F or higher on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-88forhigher",
-          "condition_id": "0xa6ad00b0aa5d6ce6c4414b9f9fec86807d9418f707c265c902b0961cceb2be77",
-          "token_ids": [
-            "101051697150609090496458942329887002926800087060557529181499509581135181482221",
-            "3734300891375117104629193903010258170609850995112800521700420971318080789107"
+            "8126250563201626207355065918411909642517316664077366691602929163804496502369",
+            "113694165748995962768855433875729365344855600661434488878573970673577849522107"
           ],
           "outcomes": [
             "Yes",
@@ -204,37 +244,17 @@
             0.0005,
             0.9995
           ],
-          "volume": 16338.820996000004,
-          "liquidity": 14118.22762,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 7412.135986999998,
+          "liquidity": 7000.61708,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 72-73\u00b0F on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-72-73f",
-          "condition_id": "0x25c3b003a1766b83c4afc56fb322aeb980eeddea6edc7d5e1acbc88c29a62c99",
+          "question": "Will the highest temperature in New York City be between 76-77\u00b0F on April 2?",
+          "slug": "highest-temperature-in-nyc-on-april-2-2026-76-77f",
+          "condition_id": "0xf225d54ac0b59e1e254897da9fba0d891fdd6526723e6a8dabbca65bf193636b",
           "token_ids": [
-            "107793285546473782276588068816873996155882232407279517826375406018806619517212",
-            "43987095650765378449446136611794909316279342112902764947658062040249440967937"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 69716.19285100001,
-          "liquidity": 0.0,
-          "end_date": "2026-04-01T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be between 76-77\u00b0F on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-76-77f",
-          "condition_id": "0x91a06c6753ccfbd29444bc3560cdd77d2aa762e71c642eeeb6ec111bc78e1e2d",
-          "token_ids": [
-            "96021226877982110853360003287136659975508017231483777937070994164274736301073",
-            "45952063803576906014403519599975236410235798712330941494638595287948076484573"
+            "28369836785452637627479831424126750674155983300158877317560999791800705708654",
+            "51583901725158583053981575127918122109760957795140337208349802862619611132645"
           ],
           "outcomes": [
             "Yes",
@@ -244,259 +264,239 @@
             0.0005,
             0.9995
           ],
-          "volume": 25820.485082000003,
-          "liquidity": 59540.53215,
-          "end_date": "2026-04-01T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be between 78-79\u00b0F on April 1?",
-          "slug": "highest-temperature-in-nyc-on-april-1-2026-78-79f",
-          "condition_id": "0x2a3e24ed3363c56d984c95316fb2d5dbda53e4b1b01a7b78bd22a405ded92e00",
-          "token_ids": [
-            "75034764003650295068407231046673889018994508348263737915857227989026584565306",
-            "54615921540929614035011900199116070927414976361611328410133303785176291755951"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.9985,
-            0.0015
-          ],
-          "volume": 37399.421952000026,
-          "liquidity": 14504.34247,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 7273.042752999997,
+          "liquidity": 6987.22472,
+          "end_date": "2026-04-02T12:00:00Z"
         }
       ]
     },
     "miami_temp": {
       "name": "Highest temperature in Miami",
-      "slug": "highest-temperature-in-miami-on-april-1-2026",
-      "event_id": "317268",
+      "slug": "highest-temperature-in-miami-on-april-2-2026",
+      "event_id": "322473",
       "category": "weather",
       "type": "multi-outcome",
       "status": "active",
       "markets": [
         {
-          "question": "Will the highest temperature in Miami be 73\u00b0F or below on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-73forbelow",
-          "condition_id": "0x17711651978d4779cb964acbebb6c06e67ee00799632036485bbf48bd5bfbe72",
+          "question": "Will the highest temperature in Miami be between 74-75\u00b0F on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-74-75f",
+          "condition_id": "0xd0132603bebfeb4a23035bfe9743ad644f4dfb0fa4e3f5d13bd4ea483439fbdc",
           "token_ids": [
-            "23453062116163018923405635918518522209221204448130705306523608168310059824002",
-            "71497325650693032806211642317419305134933390081350717201770237621940086640142"
+            "27466575127727599464277582024160060538373300301145301719229340586222222385163",
+            "32069046651264608409541605315553071690487081207069832036451133517256405915737"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0,
-            1.0
+            0.0065,
+            0.9935
           ],
-          "volume": 26436.24605800009,
-          "liquidity": 0.0,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 4391.200249999997,
+          "liquidity": 1690.01351,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 74-75\u00b0F on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-74-75f",
-          "condition_id": "0x34c90dc8fde04aaff9fd9daa225452c00222e49be81084ef6a26e8567997293b",
+          "question": "Will the highest temperature in Miami be between 82-83\u00b0F on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-82-83f",
+          "condition_id": "0xe768941e2a154433cc3964caf7fbc5da1f750d05b7c75cf87069c2d01f83c1c1",
           "token_ids": [
-            "114305210228565238064257629047970698952219512570509874549192064717112080404269",
-            "69388754196270195380742133733824313877194770928225121578017991255035040483095"
+            "69922258390466544056334367627609629108782534771398356817450913840885035835487",
+            "55137688494725561567614541449419682873923438016210242172452183023317970033497"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0,
-            1.0
+            0.165,
+            0.835
           ],
-          "volume": 16186.033158000006,
-          "liquidity": 0.0,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 3856.416860000002,
+          "liquidity": 763.6001,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 76-77\u00b0F on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-76-77f",
-          "condition_id": "0x7a1d7636feca015690c4de71dd7f60263eb99e8db72bacf28821f4373713ccfa",
+          "question": "Will the highest temperature in Miami be 90\u00b0F or higher on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-90forhigher",
+          "condition_id": "0x7b36d726772a11867a2bf24717d66aa9a21c965193d17669823521c1528108bd",
           "token_ids": [
-            "97023673603434000534901854983564128695331147524815608002406374461629945386948",
-            "72834289574721523764419892601483857239533105309425904444205341515990390696732"
+            "96750727658888441273087091230050598825044427695928621355968386787800935762229",
+            "21114153006243132034689643808296909303937803503585443197015781294318468317078"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0,
-            1.0
+            0.0015,
+            0.9985
           ],
-          "volume": 58695.06821200005,
-          "liquidity": 0.0,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 6950.542219000002,
+          "liquidity": 6492.87652,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 78-79\u00b0F on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-78-79f",
-          "condition_id": "0x51a2003180dcf2c74f3c8726172b37e567be29c666b4c047bf491e37bee5302e",
+          "question": "Will the highest temperature in Miami be between 86-87\u00b0F on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-86-87f",
+          "condition_id": "0xd1ca25376978a5ca7e9a32c8b3bbe0280983c9f312d25d33e0729ea293f3dfe2",
           "token_ids": [
-            "54771877658221222577934505216661596657679600709069177594248176818845145626766",
-            "108602921540610743853100992420277037045220912165257366000780870715704435989709"
+            "83654628246984914660507105621523566935383458621442771678579919586505491589381",
+            "76519414642014018777125284793817670136858915096356905373185824409114747256444"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.646,
-            0.354
+            0.0025,
+            0.9975
           ],
-          "volume": 22926.013340000038,
-          "liquidity": 192.02978,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 3257.031358,
+          "liquidity": 2073.32142,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 80-81\u00b0F on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-80-81f",
-          "condition_id": "0xf9407db61c4d1bd2a7373a9934d84cd0d771cd6be3bcd3f412cd51f07f95db98",
+          "question": "Will the highest temperature in Miami be between 72-73\u00b0F on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-72-73f",
+          "condition_id": "0x36c528bb26ca7c53e4d24c1c2478181d55d0c95a06a47681c7456eabd32820ad",
           "token_ids": [
-            "28249345100006735506388263496372912836220669612831994572803605321879950901076",
-            "3511621660005603183905210757518490123533811357400153443075007092242940392677"
+            "110219703208424800274922215491072469522048865100408353182000000552514463560783",
+            "105460604928181632341836654722103787839101482013697458809841971414433728440393"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.37,
-            0.63
+            0.0005,
+            0.9995
           ],
-          "volume": 17557.586623000025,
-          "liquidity": 665.7067,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 7908.406364,
+          "liquidity": 4690.68,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 82-83\u00b0F on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-82-83f",
-          "condition_id": "0xd4e26aefddeaf8eada3b0e201c397681cb07e1b61cb5ac3448943508aad714c9",
+          "question": "Will the highest temperature in Miami be between 76-77\u00b0F on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-76-77f",
+          "condition_id": "0xd04bce90179d970e239013c20b1e598a633ec8f8f115b3f3dc3596aa866d6623",
           "token_ids": [
-            "15195391266331481160805199506519470424826954293610701503364785001813187858700",
-            "21864810401273414365591245447503137902736893594175184949234913687030779773117"
+            "45922658647149373526752109595547983703504333128368953137372117118067364052147",
+            "74358380002223033859224549133271189040442374019458850995494748952337074190976"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.029,
-            0.971
+            0.032,
+            0.968
           ],
-          "volume": 17936.554715000024,
-          "liquidity": 325.83103,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 4299.843707000001,
+          "liquidity": 745.93809,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 84-85\u00b0F on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-84-85f",
-          "condition_id": "0xbefddeb2d7bc3a32b39506604967c05550301a86b1c611a1f2963b9de7e96630",
+          "question": "Will the highest temperature in Miami be 71\u00b0F or below on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-71forbelow",
+          "condition_id": "0xc70db6a8c25a615e0a66371982b91f008fe9c99d100918975c4b1358595fa693",
           "token_ids": [
-            "39134538414422448316452733337848068078111936436705468459568482621313789816099",
-            "64815096537821562052933021285838409523240264333006811532452345425250728634636"
+            "23011896140867592287476193604439514839899330525188924910620538073565080986122",
+            "107130316194465304954793869973559299988166329582053585820283416674598685434331"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0055,
-            0.9945
+            0.0005,
+            0.9995
           ],
-          "volume": 15352.506708999996,
-          "liquidity": 656.00301,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 9486.770636,
+          "liquidity": 28296.68019,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 86-87\u00b0F on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-86-87f",
-          "condition_id": "0xa9381836a2943eb2b462517db3ed6285690edbbb58b0b6a3d56e40ca6d0a710b",
+          "question": "Will the highest temperature in Miami be between 78-79\u00b0F on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-78-79f",
+          "condition_id": "0xfa1266be35db5f6df88df603d5d3d814b671607bce2f054ee86a4426fdd34ea6",
           "token_ids": [
-            "114805474701846623758816679988805146854209154516033233985106183737957988110974",
-            "110635008764867422634879003711040810354195670525000022241860390415814037350569"
+            "99573851658025327820949205101250794336766561611337237681670630295556425633872",
+            "41431711267476843969342320264383331804726008686096175222172290530635437082989"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0035,
-            0.9965
+            0.335,
+            0.665
           ],
-          "volume": 8400.530356000005,
-          "liquidity": 1836.82184,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 4005.0048140000026,
+          "liquidity": 750.5563,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 88-89\u00b0F on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-88-89f",
-          "condition_id": "0x88d32f6ecd59f3ead6f034992bbac9a284da96d7c87dc3e82576686fbb571814",
+          "question": "Will the highest temperature in Miami be between 80-81\u00b0F on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-80-81f",
+          "condition_id": "0x8f403edd808df6137c78f1740cda0864076a708b3394e866823789f71e32cf5f",
           "token_ids": [
-            "111533714629492155161113290473437596842785515392159538627496925897958496275470",
-            "15231293389664485993303410265625676779037369266484363841003449656009642347321"
+            "16797016714907977474571540167973076771888887385441064470123679475485079346976",
+            "81981877581513926495780313824526664565244173997445712267598989239964610584935"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0035,
-            0.9965
+            0.525,
+            0.475
           ],
-          "volume": 14602.450259999985,
-          "liquidity": 1632.29745,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 5680.13863,
+          "liquidity": 646.3146,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 90-91\u00b0F on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-90-91f",
-          "condition_id": "0xa004f53eedf2ea63c9c90a1915e5147a0d17ecd2f2039401aa04809ccddbe6bc",
+          "question": "Will the highest temperature in Miami be between 84-85\u00b0F on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-84-85f",
+          "condition_id": "0x90522f25756daf6dd9de05ea27373429ece0bfe93b6a4960afc300ed8f725740",
           "token_ids": [
-            "99653025661873899802656910393508962468170942214905554617790612771140953878524",
-            "46743291619238167067626293616984760094893390464774903286733786964973137092386"
+            "87727489254780625199674872590923121510234738792353182965646023380643318136968",
+            "88863836419970593274364537308006467088432574829466183785122672004385168042503"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.001,
-            0.999
+            0.0315,
+            0.9685
           ],
-          "volume": 15303.588487999996,
-          "liquidity": 6567.10988,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 3504.2844609999997,
+          "liquidity": 682.68655,
+          "end_date": "2026-04-02T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be 92\u00b0F or higher on April 1?",
-          "slug": "highest-temperature-in-miami-on-april-1-2026-92forhigher",
-          "condition_id": "0x4f0845eea08dbd5c7a3a69b3b83f46bf39d9e17df6fbf93b1f5a4599860a8d88",
+          "question": "Will the highest temperature in Miami be between 88-89\u00b0F on April 2?",
+          "slug": "highest-temperature-in-miami-on-april-2-2026-88-89f",
+          "condition_id": "0xc4de353930c7374555fb97b0f5e38882b781f3c2996975a5f3f12b7df9e9a716",
           "token_ids": [
-            "51324099281602241676134134591769404356615837805942922855555858559084453104229",
-            "60636654871722225227468667359480533852370669294191301355312874739921012684296"
+            "105036196113436477668405178577982596344054635634532716802856935510922998733118",
+            "25217483119692265995175925544481592903885309308587930919482020225217521733348"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.001,
-            0.999
+            0.0025,
+            0.9975
           ],
-          "volume": 23648.117351000004,
-          "liquidity": 7740.0305,
-          "end_date": "2026-04-01T12:00:00Z"
+          "volume": 3547.184912000001,
+          "liquidity": 3408.85149,
+          "end_date": "2026-04-02T12:00:00Z"
         }
       ]
     }
