@@ -1,17 +1,78 @@
 {
-  "fetched_at": "2026-04-02T17:09:18Z",
+  "fetched_at": "2026-04-02T20:49:09Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Iran Foreign Minister Again Denies That Negotiations With the US Are Taking Place",
+          "domain": "news.antiwar.com",
+          "date": "20260331T231500Z",
+          "country": "United States"
+        },
+        {
+          "title": "David Harsanyi : Trump Iran deal must be nothing like Obama",
+          "domain": "unionleader.com",
+          "date": "20260401T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran is skeptical about diplomacy for now , US intelligence says",
+          "domain": "bostonglobe.com",
+          "date": "20260402T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "U . S . is close to achieving its main objectives in operation against Iran - Trump",
+          "domain": "trend.az",
+          "date": "20260402T034500Z",
+          "country": "Azerbaijan"
+        },
+        {
+          "title": "U . S . to intensify strikes against Iran in next two to three weeks",
+          "domain": "trend.az",
+          "date": "20260402T034500Z",
+          "country": "Azerbaijan"
+        },
+        {
+          "title": "Iron Iran : West Asia War Escalation Raises Fears of Regional Catastrophe",
+          "domain": "outlookindia.com",
+          "date": "20260401T131500Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran shoots down U . S . UAV in its Lorestan Province",
+          "domain": "trend.az",
+          "date": "20260401T094500Z",
+          "country": "Azerbaijan"
+        },
+        {
+          "title": "Iran Foreign Minister Araghchi says speaking to Steve Witkoff does not mean negotiations",
+          "domain": "news.webindia123.com",
+          "date": "20260401T180000Z",
+          "country": "India"
+        },
+        {
+          "title": "We will consider when Hormuz is open : Trump says Iran seeking ceasefire",
+          "domain": "ynetnews.com",
+          "date": "20260401T150000Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Iran IRGC reveal intensive missile attack on U . S . and Israeli positions",
+          "domain": "trend.az",
+          "date": "20260401T121500Z",
+          "country": "Azerbaijan"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -52,12 +113,6 @@
           "country": "India"
         },
         {
-          "title": "Trump threatened to bomb Iran civilian infrastructure if they dont reopen the Strait of Hormuz , Iran responded by attacking a Kuwaiti oil tanker",
-          "domain": "attackofthefanboy.com",
-          "date": "20260331T190000Z",
-          "country": "Japan"
-        },
-        {
           "title": "Foreign Secretary Vikram Misri to partake in  Strait of Hormuz talk called by Britain : MEA",
           "domain": "moneycontrol.com",
           "date": "20260402T124500Z",
@@ -80,16 +135,83 @@
           "domain": "aljazeera.com",
           "date": "20260401T011500Z",
           "country": "United States"
+        },
+        {
+          "title": "Strait of Hormuz shipping blockade update",
+          "domain": "spacewar.com",
+          "date": "20260401T180000Z",
+          "country": "Iraq"
         }
       ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "A hearing on extending Zimbabwe president term erupts in chaos",
+          "domain": "seattletimes.com",
+          "date": "20260331T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "A hearing on extending Zimbabwe president term erupts in chaos",
+          "domain": "clickondetroit.com",
+          "date": "20260331T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "A hearing on extending Zimbabwe president term erupts in chaos",
+          "domain": "wboc.com",
+          "date": "20260331T220000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Myanmar resistance groups pledge to oust military - backed civilian government",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260401T091500Z",
+          "country": "India"
+        },
+        {
+          "title": "Myanmar parliament to elect new president on Friday",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260402T081500Z",
+          "country": "Malaysia"
+        },
+        {
+          "title": "Netanyahu says Israel will continue to  crush Iran terror regime",
+          "domain": "channelnewsasia.com",
+          "date": "20260401T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Build some courage and take it : Trump tells allies to take Strait of Hormuz as he says Iran war will end  in weeks",
+          "domain": "lbc.co.uk",
+          "date": "20260402T044500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "A hearing on extending Zimbabwe president term erupts in chaos",
+          "domain": "thezimbabwean.co",
+          "date": "20260402T000000Z",
+          "country": "Zimbabwe"
+        },
+        {
+          "title": "Iranian president , FM reemerge in public despite Netanyahu threatened  10 plagues",
+          "domain": "ynetnews.com",
+          "date": "20260331T223000Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Trump tells weary public Iran war goals nearly accomplished | SBS News in Easy English 2 April 2026",
+          "domain": "sbs.com.au",
+          "date": "20260402T060000Z",
+          "country": "Australia"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -198,10 +320,10 @@
           "country": "United States"
         },
         {
-          "title": "Ominous Walmart signal that predicted last FOUR downturns flashes red again",
-          "domain": "dailymail.co.uk",
-          "date": "20260331T184500Z",
-          "country": "United Kingdom"
+          "title": "The Iran war is bad for inflation but worse for growth",
+          "domain": "newsday.com",
+          "date": "20260402T201500Z",
+          "country": "United States"
         },
         {
           "title": "Ever Wonder Where $7 Trillion Goes ?",
@@ -216,15 +338,15 @@
           "country": "United States"
         },
         {
-          "title": "US jobless aid filings fall to 202 , 000 as layoffs remain low despite uncertainty of Iran war",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260402T134500Z",
-          "country": "India"
+          "title": "A Recession May Be the Only Clear Way Out of Iran War : KPMG Economist",
+          "domain": "businessinsider.com",
+          "date": "20260402T183000Z",
+          "country": "United States"
         },
         {
-          "title": "US jobless aid filings fall to 202 , 000 as layoffs remain low",
-          "domain": "sun-sentinel.com",
-          "date": "20260402T161500Z",
+          "title": "The  Black recession  is here : Trump tariffs gutted Black workers and Black - owned businesses",
+          "domain": "thegrio.com",
+          "date": "20260402T201500Z",
           "country": "United States"
         }
       ]
@@ -239,15 +361,15 @@
       ],
       "headlines": [
         {
-          "title": "Fed Chairman Jerome Powell Speaks At Harvard",
-          "domain": "b101.iheart.com",
-          "date": "20260331T180000Z",
-          "country": "United States"
-        },
-        {
           "title": "Powell sends message on U . S . economy and AI - related job loss fear",
           "domain": "finance.yahoo.com",
           "date": "20260401T034500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed holds interest rates steady in 1st move since war with Iran spiked oil prices",
+          "domain": "knzr.com",
+          "date": "20260402T183000Z",
           "country": "United States"
         },
         {
@@ -281,15 +403,15 @@
           "country": "United States"
         },
         {
-          "title": "Powell says Fed can  wait and see  how war affects inflation - Marianas Variety News & Views",
-          "domain": "mvariety.com",
-          "date": "20260331T173000Z",
-          "country": "United States"
-        },
-        {
           "title": "Powell reassures interest rates are in  good place",
           "domain": "americanbazaaronline.com",
           "date": "20260401T023000Z",
+          "country": "United States"
+        },
+        {
+          "title": "OPTIONS FOR REDUCING THE SIZE OF THE FED BALANCE SHEET",
+          "domain": "insurancenewsnet.com",
+          "date": "20260402T193000Z",
           "country": "United States"
         },
         {
@@ -332,12 +454,6 @@
           "country": "United States"
         },
         {
-          "title": "Portugal registers increase in inflation",
-          "domain": "theportugalnews.com",
-          "date": "20260331T191500Z",
-          "country": "Portugal"
-        },
-        {
           "title": "Inflation drops to 3 . 2 % in March … lowest since 2021 rebasing GSS",
           "domain": "ghanaiantimes.com.gh",
           "date": "20260402T101500Z",
@@ -366,6 +482,12 @@
           "domain": "washingtonexaminer.com",
           "date": "20260401T130000Z",
           "country": "United States"
+        },
+        {
+          "title": "Ghana inflation falls to 3 . 2 % as disinflation streak hits 15 months",
+          "domain": "graphic.com.gh",
+          "date": "20260401T120000Z",
+          "country": "Ghana"
         }
       ]
     },
@@ -377,12 +499,6 @@
       ],
       "headlines": [
         {
-          "title": "Bitcoin Sell - Offs Are Ramping Up As Price Struggles , But Where Is All That BTC Going To ?",
-          "domain": "newsbtc.com",
-          "date": "20260331T180000Z",
-          "country": "United States"
-        },
-        {
           "title": "Bitcoin Holds $67K As Fear Index Stays In Extreme Zone",
           "domain": "cointelegraph.com",
           "date": "20260401T001500Z",
@@ -392,12 +508,6 @@
           "title": "Bitcoin Holds Modest Gains After Five - Month Losing Streak Ends",
           "domain": "finance.yahoo.com",
           "date": "20260401T103000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Price Faces Rising Sell Pressure As Downtrend Nears Six - Month Streak",
-          "domain": "bitcoinmagazine.com",
-          "date": "20260331T200000Z",
           "country": "United States"
         },
         {
@@ -435,77 +545,28 @@
           "domain": "cointelegraph.com",
           "date": "20260401T050000Z",
           "country": "China"
+        },
+        {
+          "title": "Bitcoin Price Climbs 3 % to $68 , 500 as Morgan Stanley ETF Launch",
+          "domain": "openpr.com",
+          "date": "20260401T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin on track to snap a five month losing streak",
+          "domain": "finance.yahoo.com",
+          "date": "20260331T211500Z",
+          "country": "United States"
         }
       ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": [
-        {
-          "title": "Petrol Prices to cross Rs350 Per Litre in Pakistan in April amid Global Oil Surge ?",
-          "domain": "pakobserver.net",
-          "date": "20260401T180000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "US gas prices hit $4 per gallon for first time since 2022",
-          "domain": "kvia.com",
-          "date": "20260331T190000Z",
-          "country": "United States"
-        },
-        {
-          "title": "US gas prices hit $4 per gallon for first time since 2022",
-          "domain": "wpsdlocal6.com",
-          "date": "20260331T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "National Gas Prices Approach $4 Per Gallon as Seasonal and Global Factors Converge – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "date": "20260331T183000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Current price of oil as of April 1 , 2026",
-          "domain": "fortune.com",
-          "date": "20260401T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "wcnc.com",
-          "date": "20260401T120000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "wthr.com",
-          "date": "20260401T120000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "king5.com",
-          "date": "20260401T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "wkyc.com",
-          "date": "20260401T121500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "kare11.com",
-          "date": "20260401T120000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -540,12 +601,6 @@
           "country": "United States"
         },
         {
-          "title": "We have to be on guard : Pelosi says Trump and Republicans may hack into voting machines to rig midterm elections * WorldNetDaily * by Cristina Laila , The Gateway Pundit",
-          "domain": "wnd.com",
-          "date": "20260331T191500Z",
-          "country": "United States"
-        },
-        {
           "title": "NDGOP endorses Alex Balazs for U . S . House , setting up primary rematch with Rep . Julie Fedorchak",
           "domain": "willistonherald.com",
           "date": "20260401T150000Z",
@@ -573,6 +628,12 @@
           "title": "Why Democrats still face an uphill climb to win the Senate : From the Politics Desk",
           "domain": "nbcnews.com",
           "date": "20260331T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Can Being the Lesser of Two Evils Save the Republican Congressional Majority ?",
+          "domain": "conservativehq.com",
+          "date": "20260402T134500Z",
           "country": "United States"
         }
       ]
@@ -609,12 +670,6 @@
           "country": "Pakistan"
         },
         {
-          "title": "Good Day Atlanta viewer information : March 31 , 2026",
-          "domain": "fox5atlanta.com",
-          "date": "20260331T181500Z",
-          "country": "United States"
-        },
-        {
           "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
           "domain": "fox5atlanta.com",
           "date": "20260402T030000Z",
@@ -643,6 +698,12 @@
           "domain": "nypost.com",
           "date": "20260401T163000Z",
           "country": "United States"
+        },
+        {
+          "title": "World Cup chaos as FIFA ticket blunder leaves fans trapped in wrong queue as seats vanish in last chance to buy",
+          "domain": "dailymail.co.uk",
+          "date": "20260401T190000Z",
+          "country": "United Kingdom"
         }
       ]
     },
@@ -702,88 +763,27 @@
           "country": "United States"
         },
         {
+          "title": "Timberwolves looking to avoid mark that almost every NBA champion doesnt have",
+          "domain": "dunkingwithwolves.com",
+          "date": "20260402T201500Z",
+          "country": "United States"
+        },
+        {
           "title": "Pistons end long stretch of futility with first division title in 18 years",
           "domain": "yoursourceone.com",
           "date": "20260401T080000Z",
           "country": ""
-        },
-        {
-          "title": "What The Latest NBA Salary Cap Projections Mean For The Indiana Pacers",
-          "domain": "forbes.com",
-          "date": "20260401T053000Z",
-          "country": "United States"
         }
       ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "LLM Consensus Matches or Outperforms the Best AI Models in Expert Evaluation Without Performance Degradation",
-          "domain": "newjerseytelegraph.com",
-          "date": "20260402T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AI models will secretly scheme to protect other AI models from being shut down , researchers find",
-          "domain": "fortune.com",
-          "date": "20260401T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AI Models Lie , Cheat , and Steal to Protect Other Models From Being Deleted",
-          "domain": "wired.com",
-          "date": "20260401T190000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Apple is about to turn Siri into a switchboard for competing AI models and if it works , the iPhone becomes the most powerful AI distribution platform on the planet without building the best AI",
-          "domain": "dmnews.com",
-          "date": "20260402T020000Z",
-          "country": "United States"
-        },
-        {
-          "title": "From AI self - preservation to  peer preservation : New study raises alarm over hidden risks",
-          "domain": "thenews.com.pk",
-          "date": "20260402T140000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Microsoft Builds Its Own AI Model Stack To Reduce OpenAI Dependence",
-          "domain": "forbes.com",
-          "date": "20260402T161500Z",
-          "country": "United States"
-        },
-        {
-          "title": "That a great point !: Overly agreeable AI models shown to harm people judgment",
-          "domain": "mv-voice.com",
-          "date": "20260401T231500Z",
-          "country": "United States"
-        },
-        {
-          "title": "This tool lets you run prompts on multiple AI programs at once",
-          "domain": "nypost.com",
-          "date": "20260401T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "OpenAI Just Pulled the Plug on Sora . Is This AI Stock the Biggest Winner ?",
-          "domain": "finance.yahoo.com",
-          "date": "20260402T013000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Business . Scoop » AI Tools Can Interpret NZ Privacy Policies With Up To 85 % Accuracy",
-          "domain": "business.scoop.co.nz",
-          "date": "20260401T214500Z",
-          "country": "New Zealand"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
@@ -796,12 +796,6 @@
           "title": "GTA Cover Artist Stephen Bliss Explains The Unusual Reason He Was Hired By Rockstar Games",
           "domain": "gameranx.com",
           "date": "20260402T114500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Former Rockstar lead debunks GTA 4 zombies rumor as  probably an experiment that didnt work out  as  artists were always trying to put zombies in things",
-          "domain": "gamesradar.com",
-          "date": "20260331T180000Z",
           "country": "United States"
         },
         {
@@ -823,6 +817,12 @@
           "country": "United States"
         },
         {
+          "title": "It Official : PlayStation 5 Consoles Are Now More Expensive",
+          "domain": "gamerant.com",
+          "date": "20260402T194500Z",
+          "country": "United States"
+        },
+        {
           "title": "GTA IV Could Have Had A Cancelled Theme Park",
           "domain": "gameranx.com",
           "date": "20260401T123000Z",
@@ -841,15 +841,15 @@
           "country": "United States"
         },
         {
-          "title": "GTA Online Weekly Update : April 2 - 8 - Power Up Gaming",
-          "domain": "powerupgaming.co.uk",
-          "date": "20260402T024500Z",
-          "country": "United Kingdom"
+          "title": "Jack Black wants to join the Red Dead Redemption franchise",
+          "domain": "polygon.com",
+          "date": "20260402T201500Z",
+          "country": "United States"
         },
         {
-          "title": "Fans Noticed GTA V Enhanced Water Systems Broke After The Last Patch",
-          "domain": "gameranx.com",
-          "date": "20260402T114500Z",
+          "title": "Xbox Launches Spring Sale 2026",
+          "domain": "gamerant.com",
+          "date": "20260402T194500Z",
           "country": "United States"
         }
       ]
