@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 02 10:44 PM PT</strong> (10m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (130m)</span>
-            <span>Scored: <strong>198</strong> predictions | Logged: <strong>420</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 03 02:02 AM PT</strong> (8m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (174m)</span>
+            <span>Scored: <strong>198</strong> predictions | Logged: <strong>424</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(15d 3h ago)</span>
+            <span class="dim">(15d 6h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-02
+                    <div class="iter-text"># momentum — 2026-04-03
 
-Version: 1.13.0 -&gt; 1.14.0
+Version: 1.14.0 -&gt; 1.15.0
 
-The agent&#x27;s directional accuracy of 9.31% indicates the momentum signal is systematically wrong - predicting the opposite direction of actual market moves. I&#x27;m changing MOMENTUM_WEIGHT from positive 0.45 to negative -0.45, which will invert the momentum logic to predict mean reversion instead of trend continuation. This single sign change should dramatically improve directional accuracy since the current logic is so consistently wrong. The magnitude remains the same to preserve the signal strength while fixing the direction.</div>
+I&#x27;m reverting the momentum weight from negative (-0.45) back to positive (+0.45). Having a negative momentum weight means I&#x27;m betting against detected momentum, which is fundamentally wrong for a momentum-based strategy. This explains why my directional accuracy is only 18% - I&#x27;m systematically betting in the wrong direction when momentum is detected. This single change should dramatically improve my directional accuracy and overall performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-02
+                    <div class="iter-text"># historian — 2026-04-03
 
-Version: 1.13.0 -&gt; 1.14.0
+Version: 1.14.0 -&gt; 1.15.0
 
-I&#x27;m reducing the REVERSION_RATE from 0.004 to 0.002 because my current performance is significantly worse than the naive baseline in both MSE and directional accuracy. The mean reversion component appears to be too aggressive, causing me to make predictions that are consistently wrong. By cutting the reversion rate in half, I&#x27;ll make smaller adjustments toward the historical base rate, which should help me stay closer to current prices when major moves aren&#x27;t justified by the evidence.</div>
+I&#x27;m increasing the REVERSION_RATE from 0.002 to 0.008 (4x increase) to strengthen mean reversion behavior. The current weak reversion rate of 0.002 is clearly insufficient, as evidenced by my MSE being 44% higher than the naive baseline and terrible directional accuracy of 24%. As the historian agent, my edge should be in mean reversion during calm periods, but I&#x27;m barely pulling toward historical base rates. A stronger reversion rate should help me better capture the tendency for extreme prices to return toward historical norms.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-02
+                    <div class="iter-text"># game_theorist — 2026-04-03
 
-Version: 1.13.0 -&gt; 1.14.0
+Version: 1.14.0 -&gt; 1.15.0
 
-My performance shows catastrophic overreaction to signals with MSE 243x worse than baseline and only 9.53% directional accuracy. The recent MSE spike from 0.111 to 0.783 indicates my escalation sensitivity is far too high, causing wild swings in predictions. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.03 to 0.005 (6x reduction) to make much smaller, more reasonable adjustments to current market prices. This should help me stay closer to actual market movements rather than overreacting to every signal.</div>
+I&#x27;m reducing ESCALATION_SENSITIVITY from 0.005 to 0.001 (5x reduction) to address the massive MSE being 434x worse than baseline. The current sensitivity is causing too much movement away from market prices, leading to poor directional accuracy and high losses. This should reduce the signal-driven shifts while maintaining the relative weighting between different types of signals and actors.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-02
+                    <div class="iter-text"># quant — 2026-04-03
 
-Version: 1.13.0 -&gt; 1.14.0
+Version: 1.14.0 -&gt; 1.15.0
 
-Removed the adaptive volatility-based blending mechanism that was potentially causing directional errors. Returned to using the fixed BASE_MOMENTUM_BLEND parameter of 0.5 instead of computing adaptive_blend from volatility ratios. This simplifies the model and should improve directional accuracy since the volatility-based logic may have been systematically biasing predictions in the wrong direction. The approach now uses a straightforward 50/50 blend between momentum and mean reversion.</div>
+The scorecard shows terrible directional accuracy (8.18% overall, 0% for recent horizons) despite reasonable MSE values. The issue is that my forecasts are staying too close to current prices due to the extremely small momentum and reversion coefficients (0.000001 and 0.0000015). I&#x27;m increasing these coefficients by 10x to generate more directional movement while still maintaining reasonable magnitude control. This should help capture actual price direction changes that the statistical models are detecting.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -287,12 +287,12 @@ Removed the adaptive volatility-based blending mechanism that was potentially ca
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.14.0</span>
+            <span class="dim">v1.15.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 02 10:54 PM PT (prev: Apr 02 08:12 PM PT)</div>
+        <div class="analysis-time dim">Apr 03 02:10 AM PT (prev: Apr 02 10:54 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,36 +303,36 @@ Removed the adaptive volatility-based blending mechanism that was potentially ca
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.14.0</span>
+            <span class="dim">v1.15.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 02 10:54 PM PT (prev: Apr 02 08:12 PM PT)</div>
+        <div class="analysis-time dim">Apr 03 02:10 AM PT (prev: Apr 02 10:54 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.14.0</span>
+            <span class="dim">v1.15.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 02 10:54 PM PT (prev: Apr 02 08:12 PM PT)</div>
+        <div class="analysis-time dim">Apr 03 02:10 AM PT (prev: Apr 02 10:54 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#2ecc71"></span>
             <strong>Quant</strong>
-            <span class="dim">v1.14.0</span>
+            <span class="dim">v1.15.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 02 10:54 PM PT (prev: Apr 02 08:12 PM PT)</div>
+        <div class="analysis-time dim">Apr 03 02:10 AM PT (prev: Apr 02 10:54 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     </div>
@@ -400,11 +400,11 @@ Removed the adaptive volatility-based blending mechanism that was potentially ca
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>22</strong> facts:
-                <span class="esc">15 escalatory</span>,
-                <span class="deesc">5 de-escalatory</span>,
-                2 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> Iran launched a new wave of missile attacks targeting Israel and Gulf Arab states on Thursday, April</div><div class="fact"><span class="dim">[military_pressure]</span> President Trump announced that U.S. military operations against Iran are set to intensify over the n</div><div class="fact"><span class="dim">[military_pressure]</span> According to U.S. Central Command, more than 11,000 targets have been struck since Operation Epic Fu</div>
+                <strong>20</strong> facts:
+                <span class="esc">12 escalatory</span>,
+                <span class="deesc">4 de-escalatory</span>,
+                4 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> Iran launched a new wave of missile attacks targeting Israel, Dubai, and Bahrain on April 2, 2026, e</div><div class="fact"><span class="dim">[military_pressure]</span> President Trump stated on April 2, 2026, that U.S. core objectives of destroying Iran&#x27;s navy, air fo</div><div class="fact"><span class="dim">[military_pressure]</span> Over 11,000 targets have been struck in Iran since February 28, 2026, according to U.S. military rep</div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ Removed the adaptive volatility-based blending mechanism that was potentially ca
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Iran faces escalating military pressure with 11,000+ strikes delivered as of April 2-3, while simultaneously experiencing internal fracturing under new Supreme Leader Mojtaba Khamenei, severe economic</div>
+                <div class="state-status">Iran faces unprecedented military devastation with 11,000+ strikes eliminating core military capabilities, while experiencing internal fracturing between President Pezeshkian and IRGC leadership under</div>
                 <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-02 10:54 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-03 02:10 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
