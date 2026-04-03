@@ -14,5 +14,14 @@
     "action": "no_change",
     "before_avg_se": 0.09512191304347828,
     "result": "no_change"
+  },
+  {
+    "date": "2026-04-03",
+    "summary": "Miami temperature contracts have 33% accuracy vs 75% for NYC, with avg SE of 0.068 vs 0.034. Miami predictions spread probability across buckets 7-9 but consistently resolve in bucket 1. The current weather guidance assumes middle-range temperatures but doesn't emphasize actually reading the specifi",
+    "action": "change",
+    "replacements_applied": 1,
+    "before_avg_se": 0.08525631250000001,
+    "after_avg_se": null,
+    "result": "pending"
   }
 ]

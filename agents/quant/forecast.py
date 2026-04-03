@@ -30,7 +30,7 @@ from constants import MARKETS, PRICE_CSV, FORECAST_HORIZONS
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.14.0"
+METHODOLOGY_VERSION = "1.15.0"
 
 MOMENTUM_LOOKBACK = 6       # EWMA span for short-term momentum
 REVERSION_LOOKBACK = 24     # number of recent price points for long-term mean
@@ -213,13 +213,13 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
     fixed_blend = BASE_MOMENTUM_BLEND
 
     # Momentum forecast: pull toward EWMA (scaled by horizon)
-    # Much smaller coefficient to stay closer to current price
-    momentum_coefficient = 0.000001 * horizon_scale
+    # Increased coefficient 10x to generate more directional movement
+    momentum_coefficient = 0.00001 * horizon_scale
     momentum_forecast = current + (ewma - current) * momentum_coefficient
 
     # Reversion forecast: pull toward long-term mean (scaled by horizon)
-    # Much smaller coefficient to stay closer to current price
-    reversion_coefficient = 0.0000015 * horizon_scale
+    # Increased coefficient 10x to generate more directional movement
+    reversion_coefficient = 0.000015 * horizon_scale
     reversion_forecast = current + (long_mean - current) * reversion_coefficient
 
     if live:
