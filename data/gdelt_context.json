@@ -1,78 +1,17 @@
 {
-  "fetched_at": "2026-04-03T13:20:11Z",
+  "fetched_at": "2026-04-03T16:57:28Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": [
-        {
-          "title": "As war drags on , US reiterates Trump open to diplomacy with Iran",
-          "domain": "aljazeera.com",
-          "date": "20260402T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Former Iranian FM urges Iran to declare victory and strike deal to end war",
-          "domain": "middleeasteye.net",
-          "date": "20260403T110000Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Iran is skeptical about diplomacy for now , US intelligence says",
-          "domain": "bostonglobe.com",
-          "date": "20260402T010000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran former top diplomat suggests terms to end the war – The Frontier Post",
-          "domain": "thefrontierpost.com",
-          "date": "20260403T110000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "U . S . is close to achieving its main objectives in operation against Iran - Trump",
-          "domain": "trend.az",
-          "date": "20260402T034500Z",
-          "country": "Azerbaijan"
-        },
-        {
-          "title": "U . S . to intensify strikes against Iran in next two to three weeks",
-          "domain": "trend.az",
-          "date": "20260402T034500Z",
-          "country": "Azerbaijan"
-        },
-        {
-          "title": "Iran Foreign Minister Araghchi says speaking to Steve Witkoff does not mean negotiations",
-          "domain": "news.webindia123.com",
-          "date": "20260401T180000Z",
-          "country": "India"
-        },
-        {
-          "title": "We will consider when Hormuz is open : Trump says Iran seeking ceasefire",
-          "domain": "ynetnews.com",
-          "date": "20260401T150000Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Iran former top diplomat urges deal with US to end war",
-          "domain": "freemalaysiatoday.com",
-          "date": "20260403T093000Z",
-          "country": "Malaysia"
-        },
-        {
-          "title": "Iran fires on targets across the Middle East while Israel and US hit Tehran",
-          "domain": "eadt.co.uk",
-          "date": "20260403T113000Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -131,16 +70,16 @@
           "country": "India"
         },
         {
-          "title": "After Hormuz Crisis , Will Bab al - Mandab Strait Become The Next Global Trade Flashpoint Amid IRGC Threats During US - Iran War ?",
-          "domain": "newsx.com",
-          "date": "20260401T143000Z",
-          "country": "India"
-        },
-        {
           "title": "Strait of Hormuz shipping blockade update",
           "domain": "spacewar.com",
           "date": "20260401T180000Z",
           "country": "Iraq"
+        },
+        {
+          "title": "Iran war live updates : Trump says Iran should make a deal  before it is too late  after strike on key bridge",
+          "domain": "abc.net.au",
+          "date": "20260402T201500Z",
+          "country": "Australia"
         }
       ]
     },
@@ -154,11 +93,72 @@
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Gov . DeSantis signs bill increasing proof of citizenship requirements for voting in Florida",
+          "domain": "wtsp.com",
+          "date": "20260402T001500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Ron DeSantis Hit With Lawsuit Hours After Signing Florida SAVE Act",
+          "domain": "newsweek.com",
+          "date": "20260402T114500Z",
+          "country": "United States"
+        },
+        {
+          "title": "CITIZENSHIP CHECK : DeSantis Signs Florida Version of the SAVE Act , Tightens Voter ID Rules",
+          "domain": "hannity.com",
+          "date": "20260401T170000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Lawsuit filed after DeSantis signs Fla . SAVE Act requiring proof of citizenship to vote",
+          "domain": "cbs12.com",
+          "date": "20260401T201500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Opinion : The SAVE Act is sound public policy for Alaska",
+          "domain": "adn.com",
+          "date": "20260403T033000Z",
+          "country": "United States"
+        },
+        {
+          "title": "DeSantis and Reeves sign voter citizenship law , sparking legal challenges",
+          "domain": "foxnews.com",
+          "date": "20260403T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "DeSantis signs proof of citizenship elections bill in The Villages , voting rights advocates sue",
+          "domain": "wcjb.com",
+          "date": "20260401T203000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mississippi governor signs bill aiming to ensure only citizens vote",
+          "domain": "supertalk.fm",
+          "date": "20260401T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Lawsuit Filed Minutes After DeSantis Signs Florida Version of SAVE Act , Says Bill Targets a  Fictional Threat",
+          "domain": "mediaite.com",
+          "date": "20260401T203000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Florida Gov . Ron DeSantis signs state version of SAVE Act into law",
+          "domain": "upi.com",
+          "date": "20260401T210000Z",
+          "country": "United States"
+        }
+      ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -170,29 +170,212 @@
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Inflation Is Rising , And The Fed Main Tool To Fix It Might Not Work",
+          "domain": "finance.yahoo.com",
+          "date": "20260403T083000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed holds interest rates steady in 1st move since war with Iran spiked oil prices",
+          "domain": "knzr.com",
+          "date": "20260402T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Will CD interest rates rise this April ? 3 things experts say to consider now",
+          "domain": "cbsnews.com",
+          "date": "20260401T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Jerome Powell gives surprisingly great news to US investors it a wealth surge you could miss . How to make most of it",
+          "domain": "finance.yahoo.com",
+          "date": "20260403T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "US mortgage rates climb for fifth - straight week , pushed up by Iran war worries",
+          "domain": "us.cnn.com",
+          "date": "20260402T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "OPTIONS FOR REDUCING THE SIZE OF THE FED BALANCE SHEET",
+          "domain": "insurancenewsnet.com",
+          "date": "20260402T193000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed Chair Powell Warns : Another Supply Shock Is Coming",
+          "domain": "finance.yahoo.com",
+          "date": "20260402T031500Z",
+          "country": "United States"
+        },
+        {
+          "title": "March Jobs Report Expected to Show a Bounce Back in Hiring",
+          "domain": "morningstar.com",
+          "date": "20260402T171500Z",
+          "country": "China"
+        },
+        {
+          "title": "4 Reasons Why Goldman Sachs Thinks Fed Rate - Hike Odds Are Too High",
+          "domain": "businessinsider.com",
+          "date": "20260401T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "FinancialContent - Fed at a Crossroads : Market Braces for Crucial Speeches by Bowman and Logan Amid Stagflation Fears",
+          "domain": "markets.financialcontent.com",
+          "date": "20260401T220000Z",
+          "country": "United States"
+        }
+      ]
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Inflation drops to 3 . 2 % in March – GSS",
+          "domain": "theheraldghana.com",
+          "date": "20260401T170000Z",
+          "country": "Ghana"
+        },
+        {
+          "title": "Icelandic annual inflation drops to 14 % | IceNews",
+          "domain": "icenews.is",
+          "date": "20260403T110000Z",
+          "country": "Iceland"
+        },
+        {
+          "title": "South Korea Inflation Rises Modestly in March Amid Oil Price Pressures",
+          "domain": "econotimes.com",
+          "date": "20260402T030000Z",
+          "country": "United States"
+        },
+        {
+          "title": "The gap between reported and felt inflation is about to widen : RBI should take note",
+          "domain": "livemint.com",
+          "date": "20260402T100000Z",
+          "country": "India"
+        },
+        {
+          "title": "Inflation in focus for markets jostled by Middle East war signals",
+          "domain": "marketscreener.com",
+          "date": "20260403T110000Z",
+          "country": ""
+        },
+        {
+          "title": "West Asia war poses no recession risk for India , but economic slowdown is on the cards : Madan Sabnavis",
+          "domain": "livemint.com",
+          "date": "20260403T010000Z",
+          "country": "India"
+        },
+        {
+          "title": "Inflation drops to 3 . 2 % in March … lowest since 2021 rebasing GSS",
+          "domain": "ghanaiantimes.com.gh",
+          "date": "20260402T101500Z",
+          "country": "Ghana"
+        },
+        {
+          "title": "Inflation eases slightly to 3 . 2 %, lowest since 2021 rebasing",
+          "domain": "thebftonline.com",
+          "date": "20260401T214500Z",
+          "country": "Ghana"
+        },
+        {
+          "title": "Cyprus inflation rises in March as price pressures renew",
+          "domain": "cyprus-mail.com",
+          "date": "20260402T131500Z",
+          "country": "Cyprus"
+        },
+        {
+          "title": "Georgia annual inflation reaches 4 . 3 % in March 2026",
+          "domain": "georgiatoday.ge",
+          "date": "20260403T113000Z",
+          "country": "Georgia"
+        }
+      ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "The Beginner Guide to Buying Your First Cryptocurrency",
+          "domain": "fool.com",
+          "date": "20260403T121500Z",
+          "country": "United States"
+        },
+        {
+          "title": "FBTC Has $12 . 3 Billion in Assets but a 76 % Chance Bitcoin Falls Further This Year",
+          "domain": "247wallst.com",
+          "date": "20260403T101500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Price Headed To $120 , 000 ? Why This analyst Thinks It A Good Time To Buy",
+          "domain": "newsbtc.com",
+          "date": "20260402T203000Z",
+          "country": "United States"
+        },
+        {
+          "title": "BlackRock Files Ticker For Bitcoin Premium Income ETF As Bitcoin Strategy Expands",
+          "domain": "bitcoinmagazine.com",
+          "date": "20260401T203000Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Bitcoin Bleed Is Almost Over , But Will Price Reach $40 , 000 Before Bouncing ?",
+          "domain": "newsbtc.com",
+          "date": "20260401T223000Z",
+          "country": "United States"
+        },
+        {
+          "title": "New Bitcoin Crash Ahead ? Bloomberg Strategist Forecasts Return To $10 , 000 – Here Why",
+          "domain": "newsbtc.com",
+          "date": "20260403T091500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Treasury Sell - Off Could Signal Deeper Capitulation Coming : Analyst",
+          "domain": "cointelegraph.com",
+          "date": "20260401T183000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Price Climbs 3 % to $68 , 500 as Morgan Stanley ETF Launch",
+          "domain": "openpr.com",
+          "date": "20260401T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Are The Rising Oil Prices Bullish Or Bearish For The Bitcoin Price ?",
+          "domain": "newsbtc.com",
+          "date": "20260403T003000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Analyst Predicts Bitcoin Price Is Headed To $121 , 000 In 2 Months , But There A Problem",
+          "domain": "newsbtc.com",
+          "date": "20260402T164500Z",
+          "country": "United States"
+        }
+      ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -220,9 +403,9 @@
           "country": "Canada"
         },
         {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "thv11.com",
-          "date": "20260401T134500Z",
+          "title": "For the First Time in Four Years , National Average Exceeds $4 / Gallon",
+          "domain": "kltz.com",
+          "date": "20260403T154500Z",
           "country": "United States"
         },
         {
@@ -230,18 +413,6 @@
           "domain": "moneycontrol.com",
           "date": "20260402T014500Z",
           "country": "India"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "5newsonline.com",
-          "date": "20260401T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Jacksonville gas prices surge : Regular hits $4 . 25 , diesel sets new record",
-          "domain": "news4jax.com",
-          "date": "20260401T133000Z",
-          "country": "United States"
         },
         {
           "title": "Near - term oil prices hit record premium over later deliveries after Trump vows more attacks on Iran",
@@ -260,25 +431,159 @@
           "domain": "forbes.com",
           "date": "20260401T171500Z",
           "country": "United States"
+        },
+        {
+          "title": "$100 Oil Isnt Enough to Balance Alberta Books",
+          "domain": "oilprice.com",
+          "date": "20260403T011500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Dizzying fuel prices are determined by factors largely outside of a gas station control",
+          "domain": "adn.com",
+          "date": "20260403T033000Z",
+          "country": "United States"
         }
       ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Sen . Bill Cassidy Backed DEI Bureaucracy Across 4 Major Senate Votes",
+          "domain": "breitbart.com",
+          "date": "20260403T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Georgia elections bill fails , which could lead to quick switch to hand - marked ballots",
+          "domain": "mdjonline.com",
+          "date": "20260403T101500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Senate candidate ripped over  word salad  response to whether world is better off without ayatollah",
+          "domain": "yahoo.com",
+          "date": "20260402T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Massachusetts Initiative for a Top - Two System",
+          "domain": "ballot-access.org",
+          "date": "20260402T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "President Trump executive order cracks down on mail - in voting using new DHS data base – World Tribune : U . S . Politics and Culture , Geostrategy , China , North Korea , Corporate Watch , Media Watch",
+          "domain": "worldtribune.com",
+          "date": "20260402T030000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Michigan Senate candidate El - Sayed accused of comparing Trump to ayatollah",
+          "domain": "foxnews.com",
+          "date": "20260402T124500Z",
+          "country": "United States"
+        },
+        {
+          "title": "This doom loop is the power behind the throne on which Trump sits",
+          "domain": "alternet.org",
+          "date": "20260403T113000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump Set To Unveil His $1 . 5 Trillion Military Budget Request Amid Raging Iran War",
+          "domain": "news.antiwar.com",
+          "date": "20260403T041500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump Cabinet shake - up clock ticking as Republican Senate majority hangs in balance",
+          "domain": "rawstory.com",
+          "date": "20260402T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Can Being the Lesser of Two Evils Save the Republican Congressional Majority ?",
+          "domain": "conservativehq.com",
+          "date": "20260402T134500Z",
+          "country": "United States"
+        }
+      ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "2026 World Cup winner predictions : Spain , France lead odds",
+          "domain": "fox10phoenix.com",
+          "date": "20260401T201500Z",
+          "country": "United States"
+        },
+        {
+          "title": "2026 World Cup winner predictions : Spain , France lead odds",
+          "domain": "fox5ny.com",
+          "date": "20260401T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Morning Coffee : Canada odds to reach World Cup knockout stage improve with Italy exit – TSN",
+          "domain": "tsn.ca",
+          "date": "20260401T170000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
+          "domain": "fox5atlanta.com",
+          "date": "20260402T030000Z",
+          "country": "United States"
+        },
+        {
+          "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
+          "domain": "fox2detroit.com",
+          "date": "20260402T033000Z",
+          "country": "United States"
+        },
+        {
+          "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
+          "domain": "fox9.com",
+          "date": "20260402T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup chaos as FIFA ticket blunder leaves fans trapped in wrong queue as seats vanish in last chance to buy",
+          "domain": "dailymail.co.uk",
+          "date": "20260401T190000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
+          "domain": "fox13seattle.com",
+          "date": "20260402T020000Z",
+          "country": ""
+        },
+        {
+          "title": "Did somebody say Lego World Cup 2026 sets ?",
+          "domain": "creativebloq.com",
+          "date": "20260402T223000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "FIFA appears to have technical difficulties with World Cup ticket sales",
+          "domain": "nbcmiami.com",
+          "date": "20260401T220000Z",
+          "country": "United States"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -290,12 +595,73 @@
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "LLM Consensus Matches or Outperforms the Best AI Models in Expert Evaluation Without Performance Degradation",
+          "domain": "newjerseytelegraph.com",
+          "date": "20260402T130000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Claude Code leak puts enterprise trust at risk as security , governance concerns mount",
+          "domain": "infoworld.com",
+          "date": "20260403T031500Z",
+          "country": "United States"
+        },
+        {
+          "title": "AI models will secretly scheme to protect other AI models from being shut down , researchers find",
+          "domain": "fortune.com",
+          "date": "20260401T170000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AI Models Lie , Cheat , and Steal to Protect Other Models From Being Deleted",
+          "domain": "wired.com",
+          "date": "20260401T190000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Microsoft aims to create large cutting - edge AI models by 2027",
+          "domain": "eastbaytimes.com",
+          "date": "20260402T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Apple is about to turn Siri into a switchboard for competing AI models and if it works , the iPhone becomes the most powerful AI distribution platform on the planet without building the best AI",
+          "domain": "dmnews.com",
+          "date": "20260402T020000Z",
+          "country": "United States"
+        },
+        {
+          "title": "From AI self - preservation to  peer preservation : New study raises alarm over hidden risks",
+          "domain": "thenews.com.pk",
+          "date": "20260402T140000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Microsoft releases foundational AI models targeting enterprises",
+          "domain": "siliconrepublic.com",
+          "date": "20260403T094500Z",
+          "country": "Ireland"
+        },
+        {
+          "title": "Microsoft Builds Its Own AI Model Stack To Reduce OpenAI Dependence",
+          "domain": "forbes.com",
+          "date": "20260402T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "That a great point !: Overly agreeable AI models shown to harm people judgment",
+          "domain": "mv-voice.com",
+          "date": "20260401T231500Z",
+          "country": "United States"
+        }
+      ]
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
@@ -320,18 +686,6 @@
           "title": "Xbox Game Pass is Officially Losing One of the Best Games of All Time",
           "domain": "gamerant.com",
           "date": "20260403T011500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Developer Has Spent Nearly $3 Billion on Staff Costs Alone Since 2019 , and That Just Rockstar North",
-          "domain": "wccftech.com",
-          "date": "20260401T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Rockstar said GTA 6 marketing wouldnt start until the summer , but the wait for Trailer 3 has been so long that some fans have decided to disagree",
-          "domain": "gamesradar.com",
-          "date": "20260401T161500Z",
           "country": "United States"
         },
         {
@@ -363,6 +717,18 @@
           "domain": "timesofindia.indiatimes.com",
           "date": "20260403T091500Z",
           "country": "India"
+        },
+        {
+          "title": "Rumor : Did Rockstar Take Action Against The GTA IV Beta Leak ? And Why ?",
+          "domain": "gameranx.com",
+          "date": "20260402T114500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Games Leaving PS Plus in May 2026 Might Include Hit RPGs",
+          "domain": "playstationlifestyle.net",
+          "date": "20260402T210000Z",
+          "country": "Japan"
         }
       ]
     }
