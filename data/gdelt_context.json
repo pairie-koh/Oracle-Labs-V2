@@ -1,225 +1,103 @@
 {
-  "fetched_at": "2026-04-03T02:55:31Z",
+  "fetched_at": "2026-04-03T05:52:09Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "As war drags on , US reiterates Trump open to diplomacy with Iran",
+          "domain": "aljazeera.com",
+          "date": "20260402T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran is skeptical about diplomacy for now , US intelligence says",
+          "domain": "bostonglobe.com",
+          "date": "20260402T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "U . S . is close to achieving its main objectives in operation against Iran - Trump",
+          "domain": "trend.az",
+          "date": "20260402T034500Z",
+          "country": "Azerbaijan"
+        },
+        {
+          "title": "U . S . to intensify strikes against Iran in next two to three weeks",
+          "domain": "trend.az",
+          "date": "20260402T034500Z",
+          "country": "Azerbaijan"
+        },
+        {
+          "title": "Iron Iran : West Asia War Escalation Raises Fears of Regional Catastrophe",
+          "domain": "outlookindia.com",
+          "date": "20260401T131500Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran shoots down U . S . UAV in its Lorestan Province",
+          "domain": "trend.az",
+          "date": "20260401T094500Z",
+          "country": "Azerbaijan"
+        },
+        {
+          "title": "Iran Foreign Minister Araghchi says speaking to Steve Witkoff does not mean negotiations",
+          "domain": "news.webindia123.com",
+          "date": "20260401T180000Z",
+          "country": "India"
+        },
+        {
+          "title": "We will consider when Hormuz is open : Trump says Iran seeking ceasefire",
+          "domain": "ynetnews.com",
+          "date": "20260401T150000Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Iran IRGC reveal intensive missile attack on U . S . and Israeli positions",
+          "domain": "trend.az",
+          "date": "20260401T121500Z",
+          "country": "Azerbaijan"
+        },
+        {
+          "title": "Iran strikes area hosting U . S . surveillance and refueling aircraft",
+          "domain": "trend.az",
+          "date": "20260401T121500Z",
+          "country": "Azerbaijan"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": [
-        {
-          "title": "UAE accuses Iran of holding Strait of Hormuz  hostage , pushes for an international maritime task force – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "date": "20260401T233000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Secret passwords and crypto payments : Inside Iran mysterious new  tollbooth system  in the Strait of Hormuz",
-          "domain": "independent.co.uk",
-          "date": "20260402T124500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Trump says Iran war could end in  two or three week : Here why the real crisis is still unfolding",
-          "domain": "moneycontrol.com",
-          "date": "20260401T124500Z",
-          "country": "India"
-        },
-        {
-          "title": "India joins united kingdom - led international talks to reopen Strait of Hormuz",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260402T124500Z",
-          "country": "India"
-        },
-        {
-          "title": "India joins united kingdom - led international talks to reopen Strait of Hormuz",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260402T124500Z",
-          "country": "India"
-        },
-        {
-          "title": "Foreign Secretary Vikram Misri to partake in  Strait of Hormuz talk called by Britain : MEA",
-          "domain": "moneycontrol.com",
-          "date": "20260402T124500Z",
-          "country": "India"
-        },
-        {
-          "title": "After Hormuz Crisis , Will Bab al - Mandab Strait Become The Next Global Trade Flashpoint Amid IRGC Threats During US - Iran War ?",
-          "domain": "newsx.com",
-          "date": "20260401T143000Z",
-          "country": "India"
-        },
-        {
-          "title": "Strait of Hormuz shipping blockade update",
-          "domain": "spacewar.com",
-          "date": "20260401T180000Z",
-          "country": "Iraq"
-        },
-        {
-          "title": "Iran war live updates : Trump says Iran should make a deal  before it is too late  after strike on key bridge",
-          "domain": "abc.net.au",
-          "date": "20260402T201500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Lib Dems call for 10p fuel duty cut to help motorists with Iran living costs",
-          "domain": "standard.co.uk",
-          "date": "20260402T184500Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Myanmar resistance groups pledge to oust military - backed civilian government",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260401T091500Z",
-          "country": "India"
-        },
-        {
-          "title": "US negotiator in 2015 Iran nuclear deal says Donald Trump  delusional  on nuclear and regime change",
-          "domain": "abc.net.au",
-          "date": "20260403T020000Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Myanmar parliament to elect new president on Friday",
-          "domain": "freemalaysiatoday.com",
-          "date": "20260402T081500Z",
-          "country": "Malaysia"
-        },
-        {
-          "title": "James Carville makes shocking prediction that Trump presidency could end early if Dems sweep the midterms",
-          "domain": "independent.co.uk",
-          "date": "20260403T000000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Russian Embassy Outraged After US - Israeli Strikes Damage Orthodox Church In Tehran",
-          "domain": "zerohedge.com",
-          "date": "20260403T013000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Build some courage and take it : Trump tells allies to take Strait of Hormuz as he says Iran war will end  in weeks",
-          "domain": "lbc.co.uk",
-          "date": "20260402T044500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "US negotiator in 2015 Iran nuclear deal says Donald Trump is  delusional  on nuclear and regime change - 03 - Apr - 2026",
-          "domain": "home.nzcity.co.nz",
-          "date": "20260403T014500Z",
-          "country": "New Zealand"
-        },
-        {
-          "title": "US negotiator in 2015 Iran nuclear deal says Donald Trump is  delusional  on nuclear and regime change - 03 - Apr - 2026",
-          "domain": "home.nzcity.co.nz",
-          "date": "20260403T014500Z",
-          "country": "New Zealand"
-        },
-        {
-          "title": "Trump tells weary public Iran war goals nearly accomplished | SBS News in Easy English 2 April 2026",
-          "domain": "sbs.com.au",
-          "date": "20260402T060000Z",
-          "country": "Australia"
-        },
-        {
-          "title": "A hearing on extending Zimbabwe president term erupts in chaos",
-          "domain": "thezimbabwean.co",
-          "date": "20260402T000000Z",
-          "country": "Zimbabwe"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": [
-        {
-          "title": "Gov . DeSantis signs bill increasing proof of citizenship requirements for voting in Florida",
-          "domain": "wtsp.com",
-          "date": "20260402T001500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Ron DeSantis Hit With Lawsuit Hours After Signing Florida SAVE Act",
-          "domain": "newsweek.com",
-          "date": "20260402T114500Z",
-          "country": "United States"
-        },
-        {
-          "title": "CITIZENSHIP CHECK : DeSantis Signs Florida Version of the SAVE Act , Tightens Voter ID Rules",
-          "domain": "hannity.com",
-          "date": "20260401T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Lawsuit filed after DeSantis signs Fla . SAVE Act requiring proof of citizenship to vote",
-          "domain": "cbs12.com",
-          "date": "20260401T201500Z",
-          "country": "United States"
-        },
-        {
-          "title": "DeSantis and Reeves sign voter citizenship law , sparking legal challenges",
-          "domain": "foxnews.com",
-          "date": "20260403T010000Z",
-          "country": "United States"
-        },
-        {
-          "title": "DeSantis signs proof of citizenship elections bill in The Villages , voting rights advocates sue",
-          "domain": "wcjb.com",
-          "date": "20260401T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Mississippi governor signs bill aiming to ensure only citizens vote",
-          "domain": "supertalk.fm",
-          "date": "20260401T221500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Lawsuit Filed Minutes After DeSantis Signs Florida Version of SAVE Act , Says Bill Targets a  Fictional Threat",
-          "domain": "mediaite.com",
-          "date": "20260401T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Florida Gov . Ron DeSantis signs state version of SAVE Act into law",
-          "domain": "upi.com",
-          "date": "20260401T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Elections ,  domestic terrorist  bills sent to DeSantis – NBC 6 South Florida",
-          "domain": "nbcmiami.com",
-          "date": "20260401T170000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -233,12 +111,6 @@
           "domain": "hellenicshippingnews.com",
           "date": "20260402T013000Z",
           "country": "China"
-        },
-        {
-          "title": "The stagflation trap : Why nightmare scenario looms for every Aussie with a mortgage . PVO reports on a ghost of the 1970s that could be about to return with a vengeance",
-          "domain": "dailymail.co.uk",
-          "date": "20260401T044500Z",
-          "country": "United Kingdom"
         },
         {
           "title": "Moody Recession Model Is Just 1 Percentage Point Away From a Signal That Has Never Been Wrong .",
@@ -287,6 +159,12 @@
           "domain": "english.aawsat.com",
           "date": "20260402T223000Z",
           "country": "Syria"
+        },
+        {
+          "title": "US jobless aid filings fall to 202 , 000 as layoffs remain low despite uncertainty of Iran war",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260402T134500Z",
+          "country": "India"
         }
       ]
     },
@@ -299,12 +177,6 @@
         "who-will-be-confirmed-as-fed-chair"
       ],
       "headlines": [
-        {
-          "title": "Powell sends message on U . S . economy and AI - related job loss fear",
-          "domain": "finance.yahoo.com",
-          "date": "20260401T034500Z",
-          "country": "United States"
-        },
         {
           "title": "Fed holds interest rates steady in 1st move since war with Iran spiked oil prices",
           "domain": "knzr.com",
@@ -358,6 +230,12 @@
           "domain": "morningstar.com",
           "date": "20260402T171500Z",
           "country": "China"
+        },
+        {
+          "title": "4 Reasons Why Goldman Sachs Thinks Fed Rate - Hike Odds Are Too High",
+          "domain": "businessinsider.com",
+          "date": "20260401T180000Z",
+          "country": "United States"
         }
       ]
     },
@@ -385,12 +263,6 @@
           "domain": "livemint.com",
           "date": "20260402T100000Z",
           "country": "India"
-        },
-        {
-          "title": "Is Pessimism About the U . S . Economy Justified ?",
-          "domain": "freerepublic.com",
-          "date": "20260401T044500Z",
-          "country": "United States"
         },
         {
           "title": "West Asia war poses no recession risk for India , but economic slowdown is on the cards : Madan Sabnavis",
@@ -427,6 +299,12 @@
           "domain": "washingtonexaminer.com",
           "date": "20260401T130000Z",
           "country": "United States"
+        },
+        {
+          "title": "Ghana inflation falls to 3 . 2 % as disinflation streak hits 15 months",
+          "domain": "graphic.com.gh",
+          "date": "20260401T120000Z",
+          "country": "Ghana"
         }
       ]
     },
@@ -456,12 +334,6 @@
           "country": "United States"
         },
         {
-          "title": "Bitcoin holds gains in Asia after five - month losing streak ends",
-          "domain": "businesstimes.com.sg",
-          "date": "20260401T054500Z",
-          "country": "Singapore"
-        },
-        {
           "title": "The Bitcoin Bleed Is Almost Over , But Will Price Reach $40 , 000 Before Bouncing ?",
           "domain": "newsbtc.com",
           "date": "20260401T223000Z",
@@ -471,12 +343,6 @@
           "title": "Bitcoin Treasury Sell - Off Could Signal Deeper Capitulation Coming : Analyst",
           "domain": "cointelegraph.com",
           "date": "20260401T183000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin , Stocks Pile On Gains As US , Iran Consider Ending War",
-          "domain": "cointelegraph.com",
-          "date": "20260401T050000Z",
           "country": "China"
         },
         {
@@ -496,77 +362,28 @@
           "domain": "finance.yahoo.com",
           "date": "20260401T121500Z",
           "country": "United States"
+        },
+        {
+          "title": "Analyst Predicts Bitcoin Price Is Headed To $121 , 000 In 2 Months , But There A Problem",
+          "domain": "newsbtc.com",
+          "date": "20260402T164500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Rally To $75K Still Possible Despite Huge Macro Challenges",
+          "domain": "cointelegraph.com",
+          "date": "20260402T220000Z",
+          "country": "China"
         }
       ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": [
-        {
-          "title": "Petrol Prices to cross Rs350 Per Litre in Pakistan in April amid Global Oil Surge ?",
-          "domain": "pakobserver.net",
-          "date": "20260401T180000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "US Rig Count Rises For First Time in Three Weeks",
-          "domain": "oilprice.com",
-          "date": "20260402T201500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oil prices continue to climb and could surge to US$150 if access to Strait of Hormuz remains disrupted",
-          "domain": "theglobeandmail.com",
-          "date": "20260403T013000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Current price of oil as of April 1 , 2026",
-          "domain": "fortune.com",
-          "date": "20260401T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "wcnc.com",
-          "date": "20260401T120000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "wthr.com",
-          "date": "20260401T120000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "king5.com",
-          "date": "20260401T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "wkyc.com",
-          "date": "20260401T121500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "kare11.com",
-          "date": "20260401T120000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices dip after topping $4 , but remain elevated nationwide",
-          "domain": "ktvb.com",
-          "date": "20260401T121500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -577,15 +394,15 @@
       ],
       "headlines": [
         {
-          "title": "South Carolina Democratic Party reports  record - breaking  candidate recruitment for 2026 elections",
-          "domain": "wistv.com",
-          "date": "20260401T050000Z",
-          "country": "United States"
-        },
-        {
           "title": "Trump has a $300 million war chest for the midterms and 2028 . How will he use it ?",
           "domain": "yahoo.com",
           "date": "20260401T124500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Sen . Bill Cassidy Backed DEI Bureaucracy Across 4 Major Senate Votes",
+          "domain": "breitbart.com",
+          "date": "20260403T044500Z",
           "country": "United States"
         },
         {
@@ -625,15 +442,15 @@
           "country": "United States"
         },
         {
-          "title": "Trump Cabinet shake - up clock ticking as Republican Senate majority hangs in balance",
-          "domain": "rawstory.com",
-          "date": "20260402T214500Z",
+          "title": "Trump Set To Unveil His $1 . 5 Trillion Military Budget Request Amid Raging Iran War",
+          "domain": "news.antiwar.com",
+          "date": "20260403T041500Z",
           "country": "United States"
         },
         {
-          "title": "Can Being the Lesser of Two Evils Save the Republican Congressional Majority ?",
-          "domain": "conservativehq.com",
-          "date": "20260402T134500Z",
+          "title": "Trump Cabinet shake - up clock ticking as Republican Senate majority hangs in balance",
+          "domain": "rawstory.com",
+          "date": "20260402T214500Z",
           "country": "United States"
         }
       ]
@@ -658,16 +475,16 @@
           "country": "United States"
         },
         {
-          "title": "Morning Coffee : Canada odds to reach World Cup knockout stage improve with Italy exit – TSN",
-          "domain": "tsn.ca",
-          "date": "20260401T170000Z",
-          "country": "Canada"
-        },
-        {
           "title": "Italy again miss out on Fifa World Cup as Bosnia , Turkiye , Czechs , Sweden qualify",
           "domain": "geo.tv",
           "date": "20260401T074500Z",
           "country": "Pakistan"
+        },
+        {
+          "title": "Morning Coffee : Canada odds to reach World Cup knockout stage improve with Italy exit – TSN",
+          "domain": "tsn.ca",
+          "date": "20260401T170000Z",
+          "country": "Canada"
         },
         {
           "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
@@ -721,12 +538,6 @@
           "country": "Canada"
         },
         {
-          "title": "What the data actually says about MLB and NBA popularity",
-          "domain": "awfulannouncing.com",
-          "date": "20260401T041500Z",
-          "country": "United States"
-        },
-        {
           "title": "NBA shifts the Spurs to the Eastern Conference",
           "domain": "poundingtherock.com",
           "date": "20260401T150000Z",
@@ -763,15 +574,21 @@
           "country": ""
         },
         {
-          "title": "What The Latest NBA Salary Cap Projections Mean For The Indiana Pacers",
-          "domain": "forbes.com",
-          "date": "20260401T053000Z",
-          "country": "United States"
-        },
-        {
           "title": "The NBA anti - tanking plans and how they could affect the Mavs – Part I",
           "domain": "mavsmoneyball.com",
           "date": "20260401T123000Z",
+          "country": "United States"
+        },
+        {
+          "title": "DraftKings Promo Code : Get $200 Bonus for Spurs - Warriors , NBA Games on Wednesday",
+          "domain": "covers.com",
+          "date": "20260402T020000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Warriors instant analysis : GSW strengthens Wembanyama MVP case",
+          "domain": "pressdemocrat.com",
+          "date": "20260402T081500Z",
           "country": "United States"
         }
       ]
@@ -788,6 +605,12 @@
           "title": "LLM Consensus Matches or Outperforms the Best AI Models in Expert Evaluation Without Performance Degradation",
           "domain": "newjerseytelegraph.com",
           "date": "20260402T130000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Claude Code leak puts enterprise trust at risk as security , governance concerns mount",
+          "domain": "infoworld.com",
+          "date": "20260403T031500Z",
           "country": "United States"
         },
         {
@@ -837,12 +660,6 @@
           "domain": "nypost.com",
           "date": "20260401T210000Z",
           "country": "United States"
-        },
-        {
-          "title": "AI models will deceive you to save their own kind",
-          "domain": "theregister.com",
-          "date": "20260403T000000Z",
-          "country": ""
         }
       ]
     },
