@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-02T20:41:36Z",
+  "fetched_at": "2026-04-03T02:48:26Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -7,117 +7,45 @@
       "relevant_to": [
         "nyc_temp"
       ],
-      "today_high": 46,
+      "today_high": 70,
       "today_high_unit": "F",
-      "today_forecast": "Mostly Cloudy",
-      "today_detail": "Mostly cloudy, with a high near 46. Northeast wind around 15 mph.",
-      "wind": "15 mph",
-      "wind_direction": "NE",
-      "tonight_low": 44,
-      "tonight_forecast": "Chance Very Light Rain",
+      "today_forecast": "Areas Of Fog then Partly Sunny",
+      "today_detail": "Areas of fog before noon. Partly sunny. High near 70, with temperatures falling to around 68 in the afternoon. Southeast wind 5 to 12 mph.",
+      "wind": "5 to 12 mph",
+      "wind_direction": "SE",
+      "tonight_low": 58,
+      "tonight_forecast": "Partly Cloudy",
       "hourly": [
         {
-          "hour": "2026-04-02T16:00:00-04:00",
-          "temp": 45,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-04-02T17:00:00-04:00",
-          "temp": 45,
-          "unit": "F",
-          "short": "Cloudy"
-        },
-        {
-          "hour": "2026-04-02T18:00:00-04:00",
-          "temp": 44,
-          "unit": "F",
-          "short": "Chance Very Light Rain"
-        },
-        {
-          "hour": "2026-04-02T19:00:00-04:00",
-          "temp": 44,
-          "unit": "F",
-          "short": "Chance Very Light Rain"
-        },
-        {
-          "hour": "2026-04-02T20:00:00-04:00",
-          "temp": 44,
-          "unit": "F",
-          "short": "Chance Very Light Rain"
-        },
-        {
-          "hour": "2026-04-02T21:00:00-04:00",
-          "temp": 44,
-          "unit": "F",
-          "short": "Chance Very Light Rain"
-        },
-        {
           "hour": "2026-04-02T22:00:00-04:00",
-          "temp": 44,
+          "temp": 42,
           "unit": "F",
           "short": "Chance Very Light Rain"
         },
         {
           "hour": "2026-04-02T23:00:00-04:00",
-          "temp": 44,
+          "temp": 42,
           "unit": "F",
           "short": "Chance Very Light Rain"
         }
       ],
-      "peak_temp": 45,
-      "peak_hour": "2026-04-02T16:00:00-04:00"
+      "peak_temp": 42,
+      "peak_hour": "2026-04-02T22:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
       "relevant_to": [
         "miami_temp"
       ],
-      "today_high": 85,
+      "today_high": 87,
       "today_high_unit": "F",
-      "today_forecast": "Chance Showers And Thunderstorms",
-      "today_detail": "A chance of showers and thunderstorms. Mostly cloudy, with a high near 85. Southeast wind around 9 mph, with gusts as high as 21 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible.",
-      "wind": "9 mph",
-      "wind_direction": "SE",
-      "tonight_low": 64,
-      "tonight_forecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
+      "today_forecast": "Sunny then Slight Chance Showers And Thunderstorms",
+      "today_detail": "A slight chance of showers and thunderstorms between 2pm and 3pm. Sunny, with a high near 87. East wind 5 to 12 mph, with gusts as high as 24 mph. Chance of precipitation is 20%.",
+      "wind": "5 to 12 mph",
+      "wind_direction": "E",
+      "tonight_low": 63,
+      "tonight_forecast": "Mostly Clear",
       "hourly": [
-        {
-          "hour": "2026-04-02T16:00:00-04:00",
-          "temp": 84,
-          "unit": "F",
-          "short": "Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-02T17:00:00-04:00",
-          "temp": 82,
-          "unit": "F",
-          "short": "Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-02T18:00:00-04:00",
-          "temp": 80,
-          "unit": "F",
-          "short": "Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-02T19:00:00-04:00",
-          "temp": 79,
-          "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-02T20:00:00-04:00",
-          "temp": 73,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-04-02T21:00:00-04:00",
-          "temp": 72,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
         {
           "hour": "2026-04-02T22:00:00-04:00",
           "temp": 70,
@@ -131,8 +59,8 @@
           "short": "Mostly Cloudy"
         }
       ],
-      "peak_temp": 84,
-      "peak_hour": "2026-04-02T16:00:00-04:00"
+      "peak_temp": 70,
+      "peak_hour": "2026-04-02T22:00:00-04:00"
     }
   }
 }
