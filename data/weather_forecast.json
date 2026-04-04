@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-04T16:43:05Z",
+  "fetched_at": "2026-04-04T20:39:20Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -7,89 +7,71 @@
       "relevant_to": [
         "nyc_temp"
       ],
-      "today_high": 75,
+      "today_high": 70,
       "today_high_unit": "F",
-      "today_forecast": "Mostly Sunny then Slight Chance Light Rain",
-      "today_detail": "A slight chance of rain after 5pm. Mostly sunny. High near 75, with temperatures falling to around 60 in the afternoon. East wind 7 to 16 mph. Chance of precipitation is 20%.",
-      "wind": "7 to 16 mph",
+      "today_forecast": "Slight Chance Rain Showers",
+      "today_detail": "A slight chance of rain showers before 5pm. Mostly cloudy. High near 70, with temperatures falling to around 60 in the afternoon. East wind 10 to 16 mph. Chance of precipitation is 20%.",
+      "wind": "10 to 16 mph",
       "wind_direction": "E",
-      "tonight_low": 47,
-      "tonight_forecast": "Chance Light Rain",
+      "tonight_low": 45,
+      "tonight_forecast": "Chance Rain Showers",
       "hourly": [
         {
-          "hour": "2026-04-04T12:00:00-04:00",
-          "temp": 71,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-04T13:00:00-04:00",
-          "temp": 73,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-04T14:00:00-04:00",
-          "temp": 74,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
           "hour": "2026-04-04T15:00:00-04:00",
-          "temp": 75,
+          "temp": 67,
           "unit": "F",
-          "short": "Partly Sunny"
+          "short": "Slight Chance Rain Showers"
         },
         {
           "hour": "2026-04-04T16:00:00-04:00",
-          "temp": 67,
+          "temp": 64,
           "unit": "F",
-          "short": "Mostly Cloudy"
+          "short": "Slight Chance Rain Showers"
         },
         {
           "hour": "2026-04-04T17:00:00-04:00",
           "temp": 60,
           "unit": "F",
-          "short": "Slight Chance Light Rain"
+          "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-04-04T18:00:00-04:00",
-          "temp": 55,
+          "temp": 56,
           "unit": "F",
-          "short": "Slight Chance Light Rain"
+          "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-04-04T19:00:00-04:00",
-          "temp": 52,
+          "temp": 51,
           "unit": "F",
-          "short": "Slight Chance Light Rain"
+          "short": "Cloudy"
         },
         {
           "hour": "2026-04-04T20:00:00-04:00",
-          "temp": 50,
+          "temp": 48,
           "unit": "F",
-          "short": "Slight Chance Light Rain"
+          "short": "Cloudy"
         },
         {
           "hour": "2026-04-04T21:00:00-04:00",
-          "temp": 49,
+          "temp": 46,
           "unit": "F",
-          "short": "Slight Chance Light Rain"
+          "short": "Cloudy"
         },
         {
           "hour": "2026-04-04T22:00:00-04:00",
-          "temp": 48,
+          "temp": 45,
           "unit": "F",
-          "short": "Slight Chance Light Rain"
+          "short": "Cloudy"
         },
         {
           "hour": "2026-04-04T23:00:00-04:00",
-          "temp": 48,
+          "temp": 45,
           "unit": "F",
-          "short": "Chance Light Rain"
+          "short": "Chance Rain Showers"
         }
       ],
-      "peak_temp": 75,
+      "peak_temp": 67,
       "peak_hour": "2026-04-04T15:00:00-04:00"
     },
     "miami": {
@@ -99,46 +81,22 @@
       ],
       "today_high": 87,
       "today_high_unit": "F",
-      "today_forecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-      "today_detail": "A slight chance of showers and thunderstorms between 4pm and 5pm. Mostly sunny, with a high near 87. East wind 6 to 12 mph, with gusts as high as 23 mph. Chance of precipitation is 20%.",
-      "wind": "6 to 12 mph",
+      "today_forecast": "Sunny",
+      "today_detail": "Sunny, with a high near 87. East wind around 12 mph.",
+      "wind": "12 mph",
       "wind_direction": "E",
       "tonight_low": 63,
-      "tonight_forecast": "Slight Chance Showers And Thunderstorms then Mostly Clear",
+      "tonight_forecast": "Mostly Clear",
       "hourly": [
-        {
-          "hour": "2026-04-04T12:00:00-04:00",
-          "temp": 82,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-04T13:00:00-04:00",
-          "temp": 84,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-04T14:00:00-04:00",
-          "temp": 85,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-04T15:00:00-04:00",
-          "temp": 85,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
         {
           "hour": "2026-04-04T16:00:00-04:00",
           "temp": 86,
           "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
+          "short": "Mostly Sunny"
         },
         {
           "hour": "2026-04-04T17:00:00-04:00",
-          "temp": 84,
+          "temp": 85,
           "unit": "F",
           "short": "Sunny"
         },
@@ -146,19 +104,19 @@
           "hour": "2026-04-04T18:00:00-04:00",
           "temp": 83,
           "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-04-04T19:00:00-04:00",
           "temp": 81,
           "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-04-04T20:00:00-04:00",
           "temp": 74,
           "unit": "F",
-          "short": "Slight Chance Rain Showers"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-04-04T21:00:00-04:00",
