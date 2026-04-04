@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-03T20:50:01Z",
+  "fetched_at": "2026-04-04T02:44:25Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -25,16 +25,22 @@
           "country": "United States"
         },
         {
+          "title": "Why Gulf States Should Reject Zarif Terms for Ending Iran War",
+          "domain": "foreignpolicy.com",
+          "date": "20260403T213000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Ex - Iranian diplomat Zarif calls for US deal to end ongoing conflict",
+          "domain": "dailypost.ng",
+          "date": "20260403T223000Z",
+          "country": "Nigeria"
+        },
+        {
           "title": "Former Iranian FM urges Iran to declare victory and strike deal to end war",
           "domain": "middleeasteye.net",
           "date": "20260403T110000Z",
           "country": "Israel"
-        },
-        {
-          "title": "Iran is skeptical about diplomacy for now , US intelligence says",
-          "domain": "bostonglobe.com",
-          "date": "20260402T010000Z",
-          "country": "United States"
         },
         {
           "title": "Iran former top diplomat suggests terms to end the war – The Frontier Post",
@@ -61,16 +67,10 @@
           "country": "Malaysia"
         },
         {
-          "title": "Iran fires on targets across the Middle East while Israel and US hit Tehran",
-          "domain": "eadt.co.uk",
-          "date": "20260403T113000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Iran reviews messages from intermediaries ; warns of readiness for  any type of attack  including ground assault",
-          "domain": "aninews.in",
-          "date": "20260402T001500Z",
-          "country": "India"
+          "title": "Iran threatens continued strikes on Israel",
+          "domain": "trend.az",
+          "date": "20260403T210000Z",
+          "country": "Azerbaijan"
         }
       ]
     },
@@ -82,12 +82,6 @@
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
       "headlines": [
-        {
-          "title": "UAE accuses Iran of holding Strait of Hormuz  hostage , pushes for an international maritime task force – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "date": "20260401T233000Z",
-          "country": "United States"
-        },
         {
           "title": "Inside Iran Selective Strait of Hormuz Blockade : Friendly Nations , Oil Flows and Rising Global Energy Risks",
           "domain": "gulfnews.com",
@@ -105,6 +99,12 @@
           "domain": "theweek.in",
           "date": "20260403T034500Z",
           "country": "India"
+        },
+        {
+          "title": "Iran names 5  friendly nation free to use Strait of Hormuz - Russia and China included | World | News",
+          "domain": "express.co.uk",
+          "date": "20260404T014500Z",
+          "country": "United Kingdom"
         },
         {
           "title": "India joins united kingdom - led international talks to reopen Strait of Hormuz",
@@ -146,80 +146,80 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Myanmar junta leader elected president , cementing grip on power",
-          "domain": "english.kyodonews.net",
-          "date": "20260403T161500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "Myanmar junta retains power as its chief wins the presidency",
-          "domain": "businesstimes.com.sg",
-          "date": "20260403T101500Z",
-          "country": "Singapore"
-        },
-        {
-          "title": "Myanmar junta chief Min Aung Hlaing appointed president after  sham  election | Myanmar",
-          "domain": "theguardian.com",
-          "date": "20260403T110000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "From coup to presidency : Myanmar junta leader tightens grip on power",
-          "domain": "thenews.com.pk",
-          "date": "20260403T110000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Myanmar junta chief Min Aung Hlaing elected president",
-          "domain": "yasstribune.com.au",
-          "date": "20260403T104500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "US negotiator in 2015 Iran nuclear deal says Donald Trump  delusional  on nuclear and regime change",
-          "domain": "abc.net.au",
-          "date": "20260403T020000Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Myanmar parliament to elect new president on Friday",
-          "domain": "freemalaysiatoday.com",
-          "date": "20260402T081500Z",
-          "country": "Malaysia"
-        },
-        {
-          "title": "Myanmar junta chief elected as president",
-          "domain": "digitaljournal.com",
-          "date": "20260403T101500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Myanmar junta chief elected president by pro - military MPs",
-          "domain": "thedailystar.net",
-          "date": "20260403T164500Z",
-          "country": "Bangladesh"
-        },
-        {
-          "title": "James Carville makes shocking prediction that Trump presidency could end early if Dems sweep the midterms",
-          "domain": "independent.co.uk",
-          "date": "20260403T000000Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Ron DeSantis Hit With Lawsuit Hours After Signing Florida SAVE Act",
+          "domain": "newsweek.com",
+          "date": "20260402T114500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Opinion : The SAVE Act is sound public policy for Alaska",
+          "domain": "adn.com",
+          "date": "20260403T033000Z",
+          "country": "United States"
+        },
+        {
+          "title": "DeSantis and Reeves sign voter citizenship law , sparking legal challenges",
+          "domain": "foxnews.com",
+          "date": "20260403T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Save The Vote , Stand For Truth | 960 WELI | The Sean Hannity Show",
+          "domain": "960weli.iheart.com",
+          "date": "20260404T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Lawsuit challenges new Florida version of SAVE America Act",
+          "domain": "yahoo.com",
+          "date": "20260403T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Black Americans Could Be Disproportionately Harmed by SAVE Act .",
+          "domain": "thyblackman.com",
+          "date": "20260403T043000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GOP States Are Taking Voter Suppression Into Their Own Hands",
+          "domain": "jezebel.com",
+          "date": "20260403T003000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Elections officials call Trump order on mail voting confounding",
+          "domain": "bostonglobe.com",
+          "date": "20260402T043000Z",
+          "country": "United States"
+        },
+        {
+          "title": "SAVE Act is about rigging the election",
+          "domain": "nwlaborpress.org",
+          "date": "20260403T233000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Dem Rep Asks Town Hall Audience to Raise a Hand If They Dont Have a Photo ID ( Cue the Backfire !)",
+          "domain": "twitchy.com",
+          "date": "20260402T151500Z",
+          "country": "United States"
+        }
+      ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -235,21 +235,21 @@
           "country": "United States"
         },
         {
-          "title": "Prolonged war in Iran could tip the global economy into recession | Hellenic Shipping News Worldwide",
-          "domain": "hellenicshippingnews.com",
-          "date": "20260402T013000Z",
-          "country": "China"
+          "title": "FinancialContent - Services Sector Slumps : S & P Global PMI Hits 49 . 8 as Energy Crises and Geopolitical Strife End Three - Year Growth Streak",
+          "domain": "markets.financialcontent.com",
+          "date": "20260403T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Kalshi Now Places the Odds of a Recession in 2026 at 28 %. 2 ETFs to Buy to Hedge Your Downside .",
+          "domain": "finance.yahoo.com",
+          "date": "20260404T020000Z",
+          "country": "United States"
         },
         {
           "title": "The Iran war is bad for inflation but worse for growth",
           "domain": "newsday.com",
           "date": "20260402T201500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Ever Wonder Where $7 Trillion Goes ?",
-          "domain": "zerohedge.com",
-          "date": "20260401T231500Z",
           "country": "United States"
         },
         {
@@ -318,6 +318,12 @@
           "country": "United States"
         },
         {
+          "title": "Judge rejects DOJ bid to unblock subpoenas targeting Fed Jerome Powell in biting opinion",
+          "domain": "nypost.com",
+          "date": "20260403T204500Z",
+          "country": "United States"
+        },
+        {
           "title": "US mortgage rates climb for fifth - straight week , pushed up by Iran war worries",
           "domain": "us.cnn.com",
           "date": "20260402T210000Z",
@@ -327,6 +333,12 @@
           "title": "OPTIONS FOR REDUCING THE SIZE OF THE FED BALANCE SHEET",
           "domain": "insurancenewsnet.com",
           "date": "20260402T193000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Federal Judge Upholds Block on Subpoenas for Fed Chair Powell",
+          "domain": "theepochtimes.com",
+          "date": "20260403T204500Z",
           "country": "United States"
         },
         {
@@ -346,18 +358,6 @@
           "domain": "morningstar.com",
           "date": "20260402T171500Z",
           "country": "China"
-        },
-        {
-          "title": "Judge denies Justice Department request to revive Federal Reserve subpoenas",
-          "domain": "cbsnews.com",
-          "date": "20260403T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "FinancialContent - Fed at a Crossroads : Market Braces for Crucial Speeches by Bowman and Logan Amid Stagflation Fears",
-          "domain": "markets.financialcontent.com",
-          "date": "20260401T220000Z",
-          "country": "United States"
         }
       ]
     },
@@ -377,6 +377,12 @@
       ],
       "headlines": [
         {
+          "title": "Bitcoin ( BTC ) Price Prediction : BTC Tests Critical $66 . 8K Floor Will Bear Flag Trigger a Sharp Drop or Reversal ?",
+          "domain": "bravenewcoin.com",
+          "date": "20260404T014500Z",
+          "country": "United States"
+        },
+        {
           "title": "The Beginner Guide to Buying Your First Cryptocurrency",
           "domain": "fool.com",
           "date": "20260403T121500Z",
@@ -392,12 +398,6 @@
           "title": "Bitcoin Price Headed To $120 , 000 ? Why This analyst Thinks It A Good Time To Buy",
           "domain": "newsbtc.com",
           "date": "20260402T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Bitcoin Bleed Is Almost Over , But Will Price Reach $40 , 000 Before Bouncing ?",
-          "domain": "newsbtc.com",
-          "date": "20260401T223000Z",
           "country": "United States"
         },
         {
@@ -470,12 +470,6 @@
           "country": "Spain"
         },
         {
-          "title": "Oil slides after Trump says US will end its war on Iran soon - Moneycontrol . com",
-          "domain": "moneycontrol.com",
-          "date": "20260402T014500Z",
-          "country": "India"
-        },
-        {
           "title": "Trump Loses Grip as Oil Surge Signals Deeper Crisis",
           "domain": "finance.yahoo.com",
           "date": "20260403T173000Z",
@@ -504,6 +498,12 @@
           "domain": "adn.com",
           "date": "20260403T033000Z",
           "country": "United States"
+        },
+        {
+          "title": "Dizzying US fuel prices are determined by factors largely outside of a gas station control",
+          "domain": "local10.com",
+          "date": "20260402T210000Z",
+          "country": "United States"
         }
       ]
     },
@@ -519,6 +519,18 @@
           "title": "Sen . Bill Cassidy Backed DEI Bureaucracy Across 4 Major Senate Votes",
           "domain": "breitbart.com",
           "date": "20260403T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Former GOP mayor unleashes the snooze in sleepy Fox News debut",
+          "domain": "alternet.org",
+          "date": "20260404T014500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Georgia elections bill fails , which could lead to quick switch to hand - marked ballots",
+          "domain": "northwestgeorgianews.com",
+          "date": "20260403T214500Z",
           "country": "United States"
         },
         {
@@ -540,15 +552,15 @@
           "country": "United States"
         },
         {
-          "title": "President Trump executive order cracks down on mail - in voting using new DHS data base – World Tribune : U . S . Politics and Culture , Geostrategy , China , North Korea , Corporate Watch , Media Watch",
-          "domain": "worldtribune.com",
-          "date": "20260402T030000Z",
-          "country": "United States"
-        },
-        {
           "title": "Michigan Senate candidate El - Sayed accused of comparing Trump to ayatollah",
           "domain": "foxnews.com",
           "date": "20260402T124500Z",
+          "country": "United States"
+        },
+        {
+          "title": "President Trump executive order cracks down on mail - in voting using new DHS data base – World Tribune : U . S . Politics and Culture , Geostrategy , China , North Korea , Corporate Watch , Media Watch",
+          "domain": "worldtribune.com",
+          "date": "20260402T030000Z",
           "country": "United States"
         },
         {
@@ -562,89 +574,16 @@
           "domain": "news.antiwar.com",
           "date": "20260403T041500Z",
           "country": "United States"
-        },
-        {
-          "title": "Trump Cabinet shake - up clock ticking as Republican Senate majority hangs in balance",
-          "domain": "rawstory.com",
-          "date": "20260402T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Can Being the Lesser of Two Evils Save the Republican Congressional Majority ?",
-          "domain": "conservativehq.com",
-          "date": "20260402T134500Z",
-          "country": "United States"
         }
       ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "2026 World Cup winner predictions : Spain , France lead odds",
-          "domain": "fox5ny.com",
-          "date": "20260401T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
-          "domain": "fox5atlanta.com",
-          "date": "20260402T030000Z",
-          "country": "United States"
-        },
-        {
-          "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
-          "domain": "fox2detroit.com",
-          "date": "20260402T033000Z",
-          "country": "United States"
-        },
-        {
-          "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
-          "domain": "fox9.com",
-          "date": "20260402T010000Z",
-          "country": "United States"
-        },
-        {
-          "title": "2026 World Cup tickets : Final sales window open ; Resale starts April 2",
-          "domain": "fox13seattle.com",
-          "date": "20260402T020000Z",
-          "country": ""
-        },
-        {
-          "title": "Did somebody say Lego World Cup 2026 sets ?",
-          "domain": "creativebloq.com",
-          "date": "20260402T223000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "FIFA appears to have technical difficulties with World Cup ticket sales",
-          "domain": "nbcmiami.com",
-          "date": "20260401T220000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bafana Bafana World Cup return meets Lego global stage",
-          "domain": "citizen.co.za",
-          "date": "20260402T161500Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "FIFA World Cup trophy visits Salt Lake City",
-          "domain": "ksl.com",
-          "date": "20260402T030000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iraq Completes 48 - team Line up for 2026 World Cup – THISDAYLIVE",
-          "domain": "thisdaylive.com",
-          "date": "20260402T041500Z",
-          "country": "Nigeria"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -654,15 +593,15 @@
       ],
       "headlines": [
         {
-          "title": "Live stream Spurs vs Warriors : NBA , TV channel , start time",
-          "domain": "thebiglead.com",
-          "date": "20260402T020000Z",
-          "country": "United States"
-        },
-        {
           "title": "Spurs vs Warriors LIVE Score Updates : Tight game ( 40 - 43 ) | 04 / 01 / 2026",
           "domain": "vavel.com",
           "date": "20260402T034500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Where does James Harden rank among all - time NBA shooting guards ?",
+          "domain": "fansided.com",
+          "date": "20260403T224500Z",
           "country": "United States"
         },
         {
@@ -678,16 +617,22 @@
           "country": "United States"
         },
         {
+          "title": "Luka Doncic injury update may have big implications for Lakers star",
+          "domain": "yardbarker.com",
+          "date": "20260404T003000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Vote Now : Will the Trail Blazers Advance to the 2026 NBA Playoffs ?",
+          "domain": "blazersedge.com",
+          "date": "20260403T234500Z",
+          "country": "United States"
+        },
+        {
           "title": "Namibia : Wemby Rampant Again As Spurs Rack Up 10th Straight Win",
           "domain": "allafrica.com",
           "date": "20260403T173000Z",
           "country": "Nigeria"
-        },
-        {
-          "title": "DraftKings Promo Code : Get $200 Bonus for Spurs - Warriors , NBA Games on Wednesday",
-          "domain": "covers.com",
-          "date": "20260402T020000Z",
-          "country": "United States"
         },
         {
           "title": "NBA 65 - Game Awards Rule Claims More Victims , And Luka Dončić Could Be Next",
@@ -706,84 +651,17 @@
           "domain": "pressdemocrat.com",
           "date": "20260402T081500Z",
           "country": "United States"
-        },
-        {
-          "title": "Warriors instant analysis : GSW strengthens Wembanyama MVP case",
-          "domain": "eastbaytimes.com",
-          "date": "20260402T064500Z",
-          "country": "United States"
         }
       ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "LLM Consensus Matches or Outperforms the Best AI Models in Expert Evaluation Without Performance Degradation",
-          "domain": "newjerseytelegraph.com",
-          "date": "20260402T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Claude Code leak puts enterprise trust at risk as security , governance concerns mount",
-          "domain": "infoworld.com",
-          "date": "20260403T031500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Microsoft aims to create large cutting - edge AI models by 2027",
-          "domain": "eastbaytimes.com",
-          "date": "20260402T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Apple is about to turn Siri into a switchboard for competing AI models and if it works , the iPhone becomes the most powerful AI distribution platform on the planet without building the best AI",
-          "domain": "dmnews.com",
-          "date": "20260402T020000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Microsoft releases foundational AI models targeting enterprises",
-          "domain": "siliconrepublic.com",
-          "date": "20260403T094500Z",
-          "country": "Ireland"
-        },
-        {
-          "title": "From AI self - preservation to  peer preservation : New study raises alarm over hidden risks",
-          "domain": "thenews.com.pk",
-          "date": "20260402T140000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Microsoft Builds Its Own AI Model Stack To Reduce OpenAI Dependence",
-          "domain": "forbes.com",
-          "date": "20260402T161500Z",
-          "country": "United States"
-        },
-        {
-          "title": "That a great point !: Overly agreeable AI models shown to harm people judgment",
-          "domain": "mv-voice.com",
-          "date": "20260401T231500Z",
-          "country": "United States"
-        },
-        {
-          "title": "This tool lets you run prompts on multiple AI programs at once",
-          "domain": "nypost.com",
-          "date": "20260401T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AI models will deceive you to save their own kind",
-          "domain": "theregister.com",
-          "date": "20260403T000000Z",
-          "country": ""
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
@@ -799,9 +677,21 @@
           "country": "Japan"
         },
         {
+          "title": "Is GTA 6 Long Development The Result Of A Complete Engine Rebuild ? It Probably More Complicated Than That",
+          "domain": "kotaku.com",
+          "date": "20260403T224500Z",
+          "country": "Japan"
+        },
+        {
           "title": "Man Finds Xbox 360 Dev Kit At Garage Sale With A Hidden Gem Game Inside",
           "domain": "slashgear.com",
           "date": "20260403T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Xbox Game Pass Is Losing Its Best Game at the Worst Possible Time",
+          "domain": "comicbook.com",
+          "date": "20260404T014500Z",
           "country": "United States"
         },
         {
@@ -838,18 +728,6 @@
           "title": "Best Xbox Game Pass games to play this weekend ( April 3 - 5 2026 )",
           "domain": "polygon.com",
           "date": "20260403T200000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Worthplaying |  Grand Theft Auto Online  Update Adds New Law Enforcement Vehicles , Limited - Time Outfits , And Much More",
-          "domain": "worthplaying.com",
-          "date": "20260402T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "It Official : PlayStation 5 Consoles Are Now More Expensive",
-          "domain": "gamerant.com",
-          "date": "20260402T194500Z",
           "country": "United States"
         }
       ]

@@ -1,0 +1,54 @@
+{
+  "agent": "quant",
+  "timestamp": "2026-04-04T02:56:18Z",
+  "predictions": {
+    "regime_fall": {
+      "24h": {
+        "prediction": 0.135,
+        "current": 0.135,
+        "ewma": 0.137134,
+        "long_term_mean": 0.130833,
+        "momentum_forecast": 0.135,
+        "reversion_forecast": 0.135,
+        "blended": 0.135,
+        "volatility": 0.064699,
+        "median_vol": 0.036084,
+        "fixed_blend": 0.5,
+        "news_adjustment": 0.0,
+        "series_length": 436
+      },
+      "7d": {
+        "prediction": 0.134999,
+        "current": 0.135,
+        "ewma": 0.137134,
+        "long_term_mean": 0.130833,
+        "momentum_forecast": 0.135001,
+        "reversion_forecast": 0.134997,
+        "blended": 0.134999,
+        "volatility": 0.064699,
+        "median_vol": 0.036084,
+        "fixed_blend": 0.5,
+        "news_adjustment": 0.0,
+        "series_length": 436
+      }
+    }
+  },
+  "methodology_version": "1.15.0",
+  "source_weights": {
+    "wire_service": 1.0,
+    "us_prestige": 0.9,
+    "uk_prestige": 0.85,
+    "regional_specialist": 0.8,
+    "government_official": 1.0,
+    "think_tank": 0.7,
+    "osint": 0.6,
+    "social_media": 0.3,
+    "market_commentary": 0.4
+  },
+  "parameters": {
+    "momentum_lookback": 6,
+    "reversion_lookback": 24,
+    "base_momentum_blend": 0.5,
+    "news_feature_weight": 0.0
+  }
+}
