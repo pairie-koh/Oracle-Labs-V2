@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-04-04T05:30:40Z",
-  "n_files_scanned": 38,
+  "generated_at": "2026-04-04T08:55:56Z",
+  "n_files_scanned": 39,
   "per_contract": {
     "bitcoin_daily": {
-      "n_predictions": 38,
+      "n_predictions": 39,
       "history": [
-        {
-          "timestamp": "2026-04-03T13:20:11Z",
-          "tier": "sonnet",
-          "type": "binary",
-          "prediction": 0.37,
-          "market_price": 0.385,
-          "signed_error": -0.015000000000000013
-        },
         {
           "timestamp": "2026-04-03T16:57:28Z",
           "tier": "haiku",
@@ -44,23 +36,23 @@
           "prediction": 0.57,
           "market_price": 0.565,
           "signed_error": 0.0050000000000000044
+        },
+        {
+          "timestamp": "2026-04-04T08:54:43Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.66,
+          "market_price": 0.685,
+          "signed_error": -0.025000000000000022
         }
       ],
-      "avg_signed_error": 0.005,
+      "avg_signed_error": 0.004,
       "avg_abs_error": 0.053,
       "bias": "neutral"
     },
     "nyc_temp": {
-      "n_predictions": 38,
+      "n_predictions": 39,
       "history": [
-        {
-          "timestamp": "2026-04-03T13:20:11Z",
-          "tier": "opus",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.03767735006014778,
-          "max_outcome_div": 0.0987051039697543,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-04-03T16:57:28Z",
           "tier": "opus",
@@ -92,21 +84,21 @@
           "avg_outcome_div": 0.005590909090909099,
           "max_outcome_div": 0.02950000000000008,
           "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-04-04T08:54:43Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.005454545454545463,
+          "max_outcome_div": 0.02950000000000008,
+          "n_outcomes": 11
         }
       ],
-      "avg_multi_div": 0.016
+      "avg_multi_div": 0.015
     },
     "miami_temp": {
-      "n_predictions": 32,
+      "n_predictions": 33,
       "history": [
-        {
-          "timestamp": "2026-04-03T13:20:11Z",
-          "tier": "opus",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.029909090909090916,
-          "max_outcome_div": 0.09500000000000003,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-04-03T16:57:28Z",
           "tier": "opus",
@@ -138,9 +130,17 @@
           "avg_outcome_div": 0.10222727272727271,
           "max_outcome_div": 0.32499999999999996,
           "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-04-04T08:54:43Z",
+          "tier": "opus",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.10381818181818181,
+          "max_outcome_div": 0.32649999999999996,
+          "n_outcomes": 11
         }
       ],
-      "avg_multi_div": 0.036
+      "avg_multi_div": 0.038
     },
     "us-iran-nuclear-deal-before-2027": {
       "n_predictions": 13,

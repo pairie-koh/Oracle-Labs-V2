@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 03 10:23 PM PT</strong> (6m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (154m)</span>
-            <span>Scored: <strong>218</strong> predictions | Logged: <strong>444</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 04 01:50 AM PT</strong> (5m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (189m)</span>
+            <span>Scored: <strong>222</strong> predictions | Logged: <strong>448</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(16d 3h ago)</span>
+            <span class="dim">(16d 6h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-03
+                    <div class="iter-text"># momentum — 2026-04-04
 
-Version: 1.14.0 -&gt; 1.15.0
+Version: 1.15.0 -&gt; 1.16.0
 
-I&#x27;m reverting the momentum weight from negative (-0.45) back to positive (+0.45). Having a negative momentum weight means I&#x27;m betting against detected momentum, which is fundamentally wrong for a momentum-based strategy. This explains why my directional accuracy is only 18% - I&#x27;m systematically betting in the wrong direction when momentum is detected. This single change should dramatically improve my directional accuracy and overall performance.</div>
+I&#x27;m increasing the MOMENTUM_WEIGHT from 0.45 to 0.7 to make more aggressive momentum predictions. The current conservative approach is underperforming the naive baseline significantly, and while my 24h directional accuracy is excellent at 96.67%, my overall performance suggests I need to be more decisive in my momentum extrapolations. This should help capture stronger directional signals when news intensity is high.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-03
+                    <div class="iter-text"># historian — 2026-04-04
 
-Version: 1.14.0 -&gt; 1.15.0
+Version: 1.15.0 -&gt; 1.16.0
 
-I&#x27;m increasing the REVERSION_RATE from 0.002 to 0.008 (4x increase) to strengthen mean reversion behavior. The current weak reversion rate of 0.002 is clearly insufficient, as evidenced by my MSE being 44% higher than the naive baseline and terrible directional accuracy of 24%. As the historian agent, my edge should be in mean reversion during calm periods, but I&#x27;m barely pulling toward historical base rates. A stronger reversion rate should help me better capture the tendency for extreme prices to return toward historical norms.</div>
+I&#x27;m reducing the REVERSION_RATE from 0.008 to 0.005 to make the model less aggressive in pulling toward historical base rates. The current high reversion rate is causing the model to fight against genuine market trends, resulting in poor directional accuracy (29.09%) and MSE performance worse than the naive baseline. By reducing the reversion strength, I&#x27;ll allow the model to be more responsive to current market conditions while still maintaining the historical perspective that defines my approach.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-03
+                    <div class="iter-text"># game_theorist — 2026-04-04
 
-Version: 1.14.0 -&gt; 1.15.0
+Version: 1.15.0 -&gt; 1.16.0
 
-I&#x27;m reducing ESCALATION_SENSITIVITY from 0.005 to 0.001 (5x reduction) to address the massive MSE being 434x worse than baseline. The current sensitivity is causing too much movement away from market prices, leading to poor directional accuracy and high losses. This should reduce the signal-driven shifts while maintaining the relative weighting between different types of signals and actors.</div>
+Looking at the scorecard, my MSE of 0.17770349 is significantly worse than the naive baseline of 0.00043705, indicating I&#x27;m moving too much on signals. My directional accuracy is terrible at 25.93%, suggesting my signal interpretation is fundamentally flawed. The ESCALATION_SENSITIVITY of 0.001 is still causing excessive movement despite recent reductions. I&#x27;m reducing it by 90% to 0.0001 to minimize overreaction to signals and get closer to the baseline performance before making directional improvements.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-03
+                    <div class="iter-text"># quant — 2026-04-04
 
-Version: 1.14.0 -&gt; 1.15.0
+Version: 1.15.0 -&gt; 1.16.0
 
-The scorecard shows terrible directional accuracy (8.18% overall, 0% for recent horizons) despite reasonable MSE values. The issue is that my forecasts are staying too close to current prices due to the extremely small momentum and reversion coefficients (0.000001 and 0.0000015). I&#x27;m increasing these coefficients by 10x to generate more directional movement while still maintaining reasonable magnitude control. This should help capture actual price direction changes that the statistical models are detecting.</div>
+The current momentum coefficient of 0.00001 is far too conservative, resulting in predictions that barely deviate from current prices and terrible directional accuracy of 7.4%. I&#x27;m increasing the momentum coefficient by 10x from 0.00001 to 0.0001 to generate more meaningful directional movement in predictions. This should improve directional accuracy by allowing the EWMA signal to have more influence on the forecast. The reversion coefficient remains unchanged to maintain the momentum/reversion balance.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -287,12 +287,12 @@ The scorecard shows terrible directional accuracy (8.18% overall, 0% for recent 
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.15.0</span>
+            <span class="dim">v1.16.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 03 10:30 PM PT (prev: Apr 03 07:56 PM PT)</div>
+        <div class="analysis-time dim">Apr 04 01:55 AM PT (prev: Apr 03 10:30 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,36 +303,36 @@ The scorecard shows terrible directional accuracy (8.18% overall, 0% for recent 
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.15.0</span>
+            <span class="dim">v1.16.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 03 10:30 PM PT (prev: Apr 03 07:56 PM PT)</div>
+        <div class="analysis-time dim">Apr 04 01:55 AM PT (prev: Apr 03 10:30 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.15.0</span>
+            <span class="dim">v1.16.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 03 10:30 PM PT (prev: Apr 03 07:56 PM PT)</div>
+        <div class="analysis-time dim">Apr 04 01:55 AM PT (prev: Apr 03 10:30 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#2ecc71"></span>
             <strong>Quant</strong>
-            <span class="dim">v1.15.0</span>
+            <span class="dim">v1.16.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 03 10:30 PM PT (prev: Apr 03 07:56 PM PT)</div>
+        <div class="analysis-time dim">Apr 04 01:55 AM PT (prev: Apr 03 10:30 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     </div>
@@ -343,25 +343,25 @@ The scorecard shows terrible directional accuracy (8.18% overall, 0% for recent 
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,27.5 30.0,20.1 60.0,21.3 90.0,2.0 120.0,28.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.000061</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,20.1 30.0,21.3 60.0,2.0 90.0,28.0 120.0,26.5" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="26.5" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.000132</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,17.3 60.0,28.0 90.0,6.3 120.0,25.3" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="25.3" r="3" fill="#3498db" /></svg></span>
-            <span class="trend-val">0.000075</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,14.9 30.0,27.5 60.0,2.0 90.0,24.2 120.0,28.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.000052</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,27.8 60.0,28.0 90.0,27.0 120.0,27.7" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="27.7" r="3" fill="#f39c12" /></svg></span>
-            <span class="trend-val">0.023409</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,23.8 30.0,28.0 60.0,8.0 90.0,20.8 120.0,2.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.041128</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#2ecc71"></span>
             <span class="agent-name">Quant</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,7.2 30.0,7.2 60.0,7.2 90.0,2.0 120.0,28.0" fill="none" stroke="#2ecc71" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#2ecc71" /></svg></span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,7.2 30.0,7.2 60.0,2.0 90.0,28.0 120.0,28.0" fill="none" stroke="#2ecc71" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#2ecc71" /></svg></span>
             <span class="trend-val">0.000000</span>
         </div>
     </div>
@@ -386,7 +386,7 @@ The scorecard shows terrible directional accuracy (8.18% overall, 0% for recent 
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
             <span class="pnl-val down">$-22</span>
-            <span class="dim">10W/17L (27 trades)</span>
+            <span class="dim">10W/18L (28 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -401,10 +401,10 @@ The scorecard shows terrible directional accuracy (8.18% overall, 0% for recent 
         
             <div class="news-summary">
                 <strong>25</strong> facts:
-                <span class="esc">11 escalatory</span>,
-                <span class="deesc">11 de-escalatory</span>,
+                <span class="esc">14 escalatory</span>,
+                <span class="deesc">8 de-escalatory</span>,
                 3 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> Blasts were heard in Tehran on April 4, 2026 at 05:00 IST (00:30 UTC), following Iran&#x27;s rejection of</div><div class="fact"><span class="dim">[diplomatic_signals]</span> Iran rejected a U.S. ceasefire proposal delivered through a friendly nation and responded with conti</div><div class="fact"><span class="dim">[military_pressure]</span> The Strait of Hormuz has been closed to normal traffic since late February 2026 following U.S. and I</div>
+            </div><div class="fact"><span class="dim">[military_pressure]</span> Iran&#x27;s IRGC Aerospace Force shot down a U.S. F-15 fighter jet over Iran, with one crew member rescue</div><div class="fact"><span class="dim">[military_pressure]</span> Iran reportedly hit a U.S. A-10 Warthog aircraft, with the pilot ejecting in Kuwait.</div><div class="fact"><span class="dim">[military_pressure]</span> Two U.S. rescue helicopters were reportedly hit by Iran during search and rescue operations.</div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ The scorecard shows terrible directional accuracy (8.18% overall, 0% for recent 
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Iran rejected U.S. ceasefire proposals and responded with continued attacks including blasts in Tehran on April 4, while the Strait of Hormuz remains closed and international coalition efforts proceed</div>
+                <div class="state-status">Iran&#x27;s regime faces escalating military pressure with U.S. and Israeli forces conducting sustained operations, including downing of U.S. aircraft, while simultaneous diplomatic engagement through regi</div>
                 <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-03 10:30 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-04 01:55 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
