@@ -191,15 +191,14 @@ CATEGORY_CUES = {
 - How reliable has the source company been with previous timelines?""",
 
     "weather": """Think about:
-- FIRST: What exact temperature does the NWS forecast say for today's high? Write this number down.
-- SECOND: Look at the temperature buckets and find which one contains this forecast temperature.
-- THIRD: Put 60-70% probability in that specific bucket containing the NWS forecast.
-- Same-day weather forecasts are highly accurate — trust the NWS forecast high over your intuition.
+- What does the NWS forecast say for today's high temperature? This is your most reliable signal.
+- Same-day weather forecasts are highly accurate — trust the NWS forecast high.
 - Look at the hourly temperature progression — when does the peak occur?
+- Which temperature bucket does the forecast high fall into? Put 60-70% probability there.
 - Put 15-20% in each adjacent bucket to account for minor forecast errors.
 - Put minimal probability (1-5%) in non-adjacent buckets unless there's extreme uncertainty.
 - Could rain, cloud cover, or wind cause the actual high to be 1-2 degrees off the forecast?
-- DO NOT spread probability across multiple non-adjacent buckets. Focus on the forecast number.""",
+- Be aggressive: if forecast says 67°F and the bucket is 65-69°F, that bucket should get most of your probability mass.""",
 }
 
 # Fallback for unknown categories
