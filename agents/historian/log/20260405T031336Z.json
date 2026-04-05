@@ -1,0 +1,46 @@
+{
+  "agent": "historian",
+  "timestamp": "2026-04-05T03:13:36Z",
+  "predictions": {
+    "regime_fall": {
+      "24h": {
+        "prediction": 0.140047,
+        "current": 0.135,
+        "adaptive_base_rate": 0.135,
+        "reversion_pull": 0.0,
+        "raw_signal": 1.871,
+        "capped_shift": 0.005047
+      },
+      "7d": {
+        "prediction": 0.170328,
+        "current": 0.135,
+        "adaptive_base_rate": 0.135,
+        "reversion_pull": 0.0,
+        "raw_signal": 1.871,
+        "capped_shift": 0.035328
+      }
+    }
+  },
+  "methodology_version": "1.16.0",
+  "source_weights": {
+    "wire_service": 1.0,
+    "us_prestige": 0.9,
+    "uk_prestige": 0.85,
+    "regional_specialist": 0.8,
+    "government_official": 1.0,
+    "think_tank": 0.7,
+    "osint": 0.6,
+    "social_media": 0.3,
+    "market_commentary": 0.4
+  },
+  "parameters": {
+    "default_base_rates": {
+      "regime_fall": 0.15
+    },
+    "adaptive_lookback_days": 7,
+    "reversion_rate": 0.005,
+    "news_sensitivity": 0.03,
+    "max_news_shift": 0.015,
+    "decay_half_life_hours": 18
+  }
+}

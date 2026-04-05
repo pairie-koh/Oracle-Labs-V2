@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-04T20:44:02Z",
+  "fetched_at": "2026-04-05T03:01:21Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -12,12 +12,6 @@
         "us-iran-nuclear-deal-by-april-30"
       ],
       "headlines": [
-        {
-          "title": "As war drags on , US reiterates Trump open to diplomacy with Iran",
-          "domain": "aljazeera.com",
-          "date": "20260402T214500Z",
-          "country": "United States"
-        },
         {
           "title": "Why Gulf States Should Reject Zarif Terms for Ending Iran War",
           "domain": "foreignpolicy.com",
@@ -71,6 +65,12 @@
           "domain": "freemalaysiatoday.com",
           "date": "20260403T093000Z",
           "country": "Malaysia"
+        },
+        {
+          "title": "Iran threatens continued strikes on Israel",
+          "domain": "trend.az",
+          "date": "20260403T210000Z",
+          "country": "Azerbaijan"
         }
       ]
     },
@@ -200,87 +200,26 @@
           "country": "Philippines"
         },
         {
-          "title": "US negotiator in 2015 Iran nuclear deal says Donald Trump  delusional  on nuclear and regime change",
-          "domain": "abc.net.au",
-          "date": "20260403T020000Z",
-          "country": "Australia"
-        },
-        {
           "title": "Myanmar junta chief Min Aung Hlaing elected president",
           "domain": "yasstribune.com.au",
           "date": "20260403T104500Z",
           "country": "Australia"
+        },
+        {
+          "title": "Myanmar junta chief elected as president",
+          "domain": "digitaljournal.com",
+          "date": "20260403T101500Z",
+          "country": "United States"
         }
       ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": [
-        {
-          "title": "Opinion : The SAVE Act is sound public policy for Alaska",
-          "domain": "adn.com",
-          "date": "20260403T033000Z",
-          "country": "United States"
-        },
-        {
-          "title": "DeSantis and Reeves sign voter citizenship law , sparking legal challenges",
-          "domain": "foxnews.com",
-          "date": "20260403T010000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Save The Vote , Stand For Truth | 960 WELI | The Sean Hannity Show",
-          "domain": "960weli.iheart.com",
-          "date": "20260404T010000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Lawsuit challenges new Florida version of SAVE America Act",
-          "domain": "yahoo.com",
-          "date": "20260403T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Black Americans Could Be Disproportionately Harmed by SAVE Act .",
-          "domain": "thyblackman.com",
-          "date": "20260403T043000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GOP States Are Taking Voter Suppression Into Their Own Hands",
-          "domain": "jezebel.com",
-          "date": "20260403T003000Z",
-          "country": "United States"
-        },
-        {
-          "title": "SAVE Act is about rigging the election",
-          "domain": "nwlaborpress.org",
-          "date": "20260403T233000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Florida , Mississippi join wave of states tightening voter citizenship rules",
-          "domain": "foxwilmington.com",
-          "date": "20260403T101500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Nebraska Secretary of State Bob Evnen exclusive",
-          "domain": "nebraska.tv",
-          "date": "20260404T030000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gov . Ron DeSantis Signs Florida Version Of SAVE Act Into Law",
-          "domain": "ipowerrichmond.com",
-          "date": "20260403T214500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -320,6 +259,12 @@
           "country": "United States"
         },
         {
+          "title": "Collision of force inching US near  recession  of historic proportions : researcher",
+          "domain": "rawstory.com",
+          "date": "20260404T210000Z",
+          "country": "United States"
+        },
+        {
           "title": "Italy public deficit falls but still above EU ceiling : official",
           "domain": "thepeninsulaqatar.com",
           "date": "20260403T163000Z",
@@ -332,42 +277,158 @@
           "country": "United States"
         },
         {
-          "title": "War Hits Lebanon Dollar Lifeline , Remittances Fall Sharply",
-          "domain": "english.aawsat.com",
-          "date": "20260402T223000Z",
-          "country": "Syria"
-        },
-        {
-          "title": "Jobless filings fall as layoffs remain low despite the uncertainty of the Iran war",
-          "domain": "latimes.com",
-          "date": "20260402T233000Z",
-          "country": "United States"
-        },
-        {
           "title": "Manila Bulletin - As stagflation looms , reforms key to shield Filipinos from economic pain",
           "domain": "mb.com.ph",
           "date": "20260403T163000Z",
           "country": "Philippines"
+        },
+        {
+          "title": "US jobless aid filings fall to 202 , 000 as layoffs remain low despite uncertainty of Iran war",
+          "domain": "timesfreepress.com",
+          "date": "20260403T171500Z",
+          "country": "United States"
         }
       ]
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "The Fed Held Rates Again : Why Long - Term Investors May Not Need to Do Anything",
+          "domain": "finance.yahoo.com",
+          "date": "20260404T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Inflation Is Rising , And The Fed Main Tool To Fix It Might Not Work",
+          "domain": "finance.yahoo.com",
+          "date": "20260403T083000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Jerome Powell gives surprisingly great news to US investors it a wealth surge you could miss . How to make most of it",
+          "domain": "finance.yahoo.com",
+          "date": "20260403T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Judge rejects DOJ bid to unblock subpoenas targeting Fed Jerome Powell in biting opinion",
+          "domain": "nypost.com",
+          "date": "20260403T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Breakeven hiring negative : The economy can shed jobs and still keep the unemployment rate flat",
+          "domain": "fortune.com",
+          "date": "20260404T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "New Fed Chair Coming ; Diversify Income With CLOs",
+          "domain": "etftrends.com",
+          "date": "20260404T204500Z",
+          "country": "China"
+        },
+        {
+          "title": "Federal Judge Upholds Block on Subpoenas for Fed Chair Powell",
+          "domain": "theepochtimes.com",
+          "date": "20260403T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Jobs data , Iran war add to inflation fears for retirees",
+          "domain": "morningstar.com",
+          "date": "20260403T200000Z",
+          "country": "China"
+        },
+        {
+          "title": "Stronger , broader hiring could ease Fed job market worries",
+          "domain": "businesstimes.com.sg",
+          "date": "20260404T050000Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "Judge denies Justice Department request to revive Federal Reserve subpoenas",
+          "domain": "cbsnews.com",
+          "date": "20260403T174500Z",
+          "country": "United States"
+        }
+      ]
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Icelandic annual inflation drops to 14 % | IceNews",
+          "domain": "icenews.is",
+          "date": "20260403T110000Z",
+          "country": "Iceland"
+        },
+        {
+          "title": "CPI moves up 3 . 51 % in Q1 on March high pressure",
+          "domain": "vietnamnet.vn",
+          "date": "20260404T173000Z",
+          "country": "Vietnam"
+        },
+        {
+          "title": "Inflation in focus for markets jostled by Middle East war signals",
+          "domain": "marketscreener.com",
+          "date": "20260403T110000Z",
+          "country": ""
+        },
+        {
+          "title": "Real Assets May Be the Missing Piece in Portfolios",
+          "domain": "etftrends.com",
+          "date": "20260404T204500Z",
+          "country": "China"
+        },
+        {
+          "title": "Seeing The Forest Through the Trees",
+          "domain": "etftrends.com",
+          "date": "20260404T204500Z",
+          "country": "China"
+        },
+        {
+          "title": "Georgia annual inflation reaches 4 . 3 % in March 2026",
+          "domain": "georgiatoday.ge",
+          "date": "20260403T113000Z",
+          "country": "Georgia"
+        },
+        {
+          "title": "Turkey Inflation Eases To 30 . 87 % In March",
+          "domain": "finanznachrichten.de",
+          "date": "20260403T091500Z",
+          "country": "Germany"
+        },
+        {
+          "title": "Crude above $100 will push inflation beyond 6 %, trigger rate hikes : HSBC",
+          "domain": "rediff.com",
+          "date": "20260403T200000Z",
+          "country": "India"
+        },
+        {
+          "title": "FinancialContent - Bond Market Rebellion : 10 - Year Yield Hits 4 . 37 % as Strong Jobs and Energy Shocks Reshape Inflation Outlook",
+          "domain": "markets.financialcontent.com",
+          "date": "20260403T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Weekly Mortgage Rates Flat ; Jobs Report Is Surprisingly Strong",
+          "domain": "fairfieldsuntimes.com",
+          "date": "20260403T224500Z",
+          "country": "United States"
+        }
+      ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
@@ -485,18 +546,6 @@
           "country": "United States"
         },
         {
-          "title": "Senate candidate ripped over  word salad  response to whether world is better off without ayatollah",
-          "domain": "yahoo.com",
-          "date": "20260402T234500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Massachusetts Initiative for a Top - Two System",
-          "domain": "ballot-access.org",
-          "date": "20260402T210000Z",
-          "country": "United States"
-        },
-        {
           "title": "It time to name and shame these Trump villains",
           "domain": "rawstory.com",
           "date": "20260404T023000Z",
@@ -513,6 +562,18 @@
           "domain": "news.antiwar.com",
           "date": "20260403T041500Z",
           "country": "United States"
+        },
+        {
+          "title": "They cant stand it anymore : Stunning number of GOP state leaders quit over Trump chaos",
+          "domain": "rawstory.com",
+          "date": "20260404T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump budget proposes 10 % cut in discretionary spending , increased defense spending",
+          "domain": "bangordailynews.com",
+          "date": "20260403T161500Z",
+          "country": "United States"
         }
       ]
     },
@@ -523,12 +584,6 @@
         "2026-fifa-world-cup-winner-595"
       ],
       "headlines": [
-        {
-          "title": "Did somebody say Lego World Cup 2026 sets ?",
-          "domain": "creativebloq.com",
-          "date": "20260402T223000Z",
-          "country": "United Kingdom"
-        },
         {
           "title": "FIFA World Cup final tickets hit $10 , 990 , a 585 % jump from Qatar 2022 ; some reportedly resold for $20 , 000",
           "domain": "economictimes.indiatimes.com",
@@ -572,26 +627,93 @@
           "country": "United States"
         },
         {
-          "title": "NFF names Busari Flamingos head coach",
-          "domain": "dailypost.ng",
-          "date": "20260402T210000Z",
-          "country": "Nigeria"
-        },
-        {
           "title": "Vancouver health - care workers provide safety advice about drug use for FIFA World Cup visitors",
           "domain": "cbc.ca",
           "date": "20260404T164500Z",
           "country": "Canada"
+        },
+        {
+          "title": "Liberia : FIFA Threatens LFA With Global Ban Over  Third - Party Interference  in Elections",
+          "domain": "allafrica.com",
+          "date": "20260403T164500Z",
+          "country": "Nigeria"
+        },
+        {
+          "title": "2026 World Cup : 7 legends who could be having their last dance",
+          "domain": "vanguardngr.com",
+          "date": "20260404T100000Z",
+          "country": "Nigeria"
         }
       ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Cooper Flagg Drops 51 for Mavericks , Becomes First Teen to Hit 50 in NBA Game",
+          "domain": "jagranjosh.com",
+          "date": "20260404T091500Z",
+          "country": "India"
+        },
+        {
+          "title": "Where does James Harden rank among all - time NBA shooting guards ?",
+          "domain": "fansided.com",
+          "date": "20260403T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "NBA Tanking Fix : Why Relegation and Better Incentives are the Key",
+          "domain": "forbes.com",
+          "date": "20260403T184500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Luka Doncic injury update may have big implications for Lakers star",
+          "domain": "yardbarker.com",
+          "date": "20260404T003000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Vote Now : Will the Trail Blazers Advance to the 2026 NBA Playoffs ?",
+          "domain": "blazersedge.com",
+          "date": "20260403T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Namibia : Wemby Rampant Again As Spurs Rack Up 10th Straight Win",
+          "domain": "allafrica.com",
+          "date": "20260403T173000Z",
+          "country": "Nigeria"
+        },
+        {
+          "title": "Antetokounmpo , Bucks split is inevitable after latest feud",
+          "domain": "yardbarker.com",
+          "date": "20260404T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "NBA 65 - Game Awards Rule Claims More Victims , And Luka Dončić Could Be Next",
+          "domain": "forbes.com",
+          "date": "20260403T113000Z",
+          "country": "United States"
+        },
+        {
+          "title": "NBA stars are missing a shocking amount of national TV games",
+          "domain": "awfulannouncing.com",
+          "date": "20260403T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Luka Doncic Out for Season , Will Seek Exception to 65 - Game Rule",
+          "domain": "blazersedge.com",
+          "date": "20260403T234500Z",
+          "country": "United States"
+        }
+      ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
@@ -608,22 +730,16 @@
           "country": "United States"
         },
         {
-          "title": "Microsoft aims to create large cutting - edge AI models by 2027",
-          "domain": "eastbaytimes.com",
-          "date": "20260402T210000Z",
-          "country": "United States"
-        },
-        {
           "title": "Microsoft releases foundational AI models targeting enterprises",
           "domain": "siliconrepublic.com",
           "date": "20260403T094500Z",
           "country": "Ireland"
         },
         {
-          "title": "AI models will deceive you to save their own kind",
-          "domain": "theregister.com",
-          "date": "20260403T000000Z",
-          "country": ""
+          "title": "Gemini and Claude Beat Detection Tools in AI Writing Test",
+          "domain": "newsghana.com.gh",
+          "date": "20260404T210000Z",
+          "country": "Ghana"
         },
         {
           "title": "Qehwa AI : Pakistani Developer Creates World First Pashto AI LLM and Chatbot",
@@ -636,12 +752,6 @@
           "domain": "hindustantimes.com",
           "date": "20260403T041500Z",
           "country": "India"
-        },
-        {
-          "title": "Microsoft launches new high - speed voice and image models",
-          "domain": "siliconangle.com",
-          "date": "20260402T220000Z",
-          "country": "United States"
         },
         {
           "title": "Google Gemma 4 Runs Frontier AI On A Single GPU",
@@ -660,6 +770,18 @@
           "domain": "fortune.com",
           "date": "20260403T234500Z",
           "country": "United States"
+        },
+        {
+          "title": "Google AI Overtakes Perplexity , Becomes No . 2 Referral To Websites",
+          "domain": "mediapost.com",
+          "date": "20260403T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gemini Overtakes Perplexity , Becomes No . 2 Chatbot Referral To Websites",
+          "domain": "mediapost.com",
+          "date": "20260404T133000Z",
+          "country": "United States"
         }
       ]
     },
@@ -675,12 +797,6 @@
           "domain": "gamerant.com",
           "date": "20260404T160000Z",
           "country": "United States"
-        },
-        {
-          "title": "GTA 6 Bets Reveal Fan Anxiety Over Another Delay - PlayStation LifeStyle",
-          "domain": "playstationlifestyle.net",
-          "date": "20260402T210000Z",
-          "country": "Japan"
         },
         {
           "title": "Is GTA 6 Long Development The Result Of A Complete Engine Rebuild ? It Probably More Complicated Than That",
@@ -707,12 +823,6 @@
           "country": "Japan"
         },
         {
-          "title": "Xbox Game Pass is Officially Losing One of the Best Games of All Time",
-          "domain": "gamerant.com",
-          "date": "20260403T011500Z",
-          "country": "United States"
-        },
-        {
           "title": "Take - Two lays off AI team",
           "domain": "eurogamer.net",
           "date": "20260404T201500Z",
@@ -728,6 +838,18 @@
           "title": "Take - Two Has Reportedly Laid Off its AI Team , Including the Department Head",
           "domain": "wccftech.com",
           "date": "20260403T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Best Xbox Game Pass games to play this weekend ( April 3 - 5 2026 )",
+          "domain": "polygon.com",
+          "date": "20260403T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 parent company Take - Two reportedly lays off its AI - focused staff :  Shifting priorities from upper management have impacted my team",
+          "domain": "gamesradar.com",
+          "date": "20260404T160000Z",
           "country": "United States"
         }
       ]
