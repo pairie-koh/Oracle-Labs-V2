@@ -1,78 +1,17 @@
 {
-  "fetched_at": "2026-04-06T17:04:14Z",
+  "fetched_at": "2026-04-06T20:48:11Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": [
-        {
-          "title": "Iran Strikes Kuwait , Zarif Proposes Plan to End Gulf War",
-          "domain": "dailypioneer.com",
-          "date": "20260404T190000Z",
-          "country": "India"
-        },
-        {
-          "title": "A Reminder for Trump Critics : Years of Diplomacy Ended in a Nuclear North Korea",
-          "domain": "legalinsurrection.com",
-          "date": "20260406T050000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran - US Ceasefire Talks : Pakistan Brokers  Islamabad Accord  to Reopen Strait of Hormuz",
-          "domain": "econotimes.com",
-          "date": "20260406T101500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Pakistan Proposes Immediate Iran - US Ceasefire ,  Islamabad Accord  To Reopen Strait Of Hormuz – Report",
-          "domain": "saharareporters.com",
-          "date": "20260406T111500Z",
-          "country": "Nigeria"
-        },
-        {
-          "title": "First ceasefire , then nuclear deal : Will US , Iran finally make peace ? Inside the Pakistan - proposed plan",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260406T084500Z",
-          "country": "India"
-        },
-        {
-          "title": "Trump gives Iran 48 - hour warning​",
-          "domain": "prokerala.com",
-          "date": "20260404T180000Z",
-          "country": "India"
-        },
-        {
-          "title": "JD Vance scrambles to end Iran war as Donald Trump ready  rain hell  | World | News",
-          "domain": "express.co.uk",
-          "date": "20260406T150000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "US , Iran , Mediators In Ceasefire Talks Before Promised Catastrophic Escalation : Axios",
-          "domain": "zerohedge.com",
-          "date": "20260406T113000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Donald Trump Warns  All Hell  Will Rain Down As He Gives Iran Deadline",
-          "domain": "newsweek.com",
-          "date": "20260404T183000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Zarif Peace Roadmap Meets a Wall of Gulf Distrust And the Wreckage It Refuses to Name",
-          "domain": "spacedaily.com",
-          "date": "20260405T141500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -93,12 +32,6 @@
           "domain": "zerohedge.com",
           "date": "20260405T043000Z",
           "country": "United States"
-        },
-        {
-          "title": "Another India - Bound LPG Tanker Crosses Hormuz Amid Middle East Tensions , Boosts Supply Hopes",
-          "domain": "idrw.org",
-          "date": "20260404T173000Z",
-          "country": "India"
         },
         {
           "title": "Iran says Iraqi ships are allowed to use Strait of Hormuz",
@@ -141,77 +74,22 @@
           "domain": "10news.com",
           "date": "20260405T194500Z",
           "country": "United States"
+        },
+        {
+          "title": "Trump threatens to strike Iran infrastructure over Strait of Hormuz blockade",
+          "domain": "fox17online.com",
+          "date": "20260405T220000Z",
+          "country": "United States"
         }
       ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Detained Nigerien president reaches end of official term | Africa News",
-          "domain": "africa.com",
-          "date": "20260405T101500Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Rights group files  genocide  complaint against Myanmar president - elect : AGO - Asia & Pacific",
-          "domain": "thejakartapost.com",
-          "date": "20260406T131500Z",
-          "country": "Indonesia"
-        },
-        {
-          "title": "ZCC leader Mutendi backs CAB3 seeking to extend Mnangagwa term of office",
-          "domain": "newzimbabwe.com",
-          "date": "20260406T110000Z",
-          "country": "Zimbabwe"
-        },
-        {
-          "title": "Do not impeach Orengo now , MP Atandi tells MCAs",
-          "domain": "the-star.co.ke",
-          "date": "20260405T170000Z",
-          "country": "Kenya"
-        },
-        {
-          "title": "Puducherry will be granted statehood when Rahul Gandhi becomes PM , Mallikarjun Kharge says | Puducherry News",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260404T181500Z",
-          "country": "India"
-        },
-        {
-          "title": "PM Modi casts West Bengal polls as fear vs BJP trust",
-          "domain": "theshillongtimes.com",
-          "date": "20260406T001500Z",
-          "country": "India"
-        },
-        {
-          "title": "A War That Went Awry",
-          "domain": "gatestoneinstitute.org",
-          "date": "20260405T114500Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Elections Without Hope : Myanmar Endless Military Rule",
-          "domain": "voiceofvienna.org",
-          "date": "20260406T030000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Israeli war achievements potentially limited by use of force , sources say",
-          "domain": "jpost.com",
-          "date": "20260405T151500Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Israeli war achievements potentially limited by use of force , sources say",
-          "domain": "jpost.com",
-          "date": "20260405T153000Z",
-          "country": "Israel"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -251,6 +129,12 @@
           "country": "United States"
         },
         {
+          "title": "Elections ,  Domestic Terrorist  Bills Sent to DeSantis | News",
+          "domain": "southdadenewsleader.com",
+          "date": "20260406T164500Z",
+          "country": "United States"
+        },
+        {
           "title": "AG Story",
           "domain": "komonews.com",
           "date": "20260405T061500Z",
@@ -273,83 +157,16 @@
           "domain": "thenews.com.pk",
           "date": "20260405T124500Z",
           "country": "Pakistan"
-        },
-        {
-          "title": "23 states sue Trump over new executive order targeting mail voting",
-          "domain": "yahoo.com",
-          "date": "20260405T144500Z",
-          "country": "United States"
         }
       ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "Public braced for global recession , poll shows , amid plea to recall Dáil over fuel crisis",
-          "domain": "independent.ie",
-          "date": "20260405T063000Z",
-          "country": "Ireland"
-        },
-        {
-          "title": "China economic slowdown deepens as public confidence wanes",
-          "domain": "news.webindia123.com",
-          "date": "20260405T133000Z",
-          "country": "India"
-        },
-        {
-          "title": "China economic slowdown deepens as public confidence wanes",
-          "domain": "aninews.in",
-          "date": "20260405T141500Z",
-          "country": "India"
-        },
-        {
-          "title": "China economic slowdown deepens as public confidence wanes",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260405T124500Z",
-          "country": "India"
-        },
-        {
-          "title": "Open Thread : How About a Real Jobs Plan ?",
-          "domain": "newsbusters.org",
-          "date": "20260404T173000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Collision of force inching US near  recession  of historic proportions : researcher",
-          "domain": "rawstory.com",
-          "date": "20260404T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Jamie Dimon warns that the Iran war could bring an economic  skunk  to the party",
-          "domain": "cnn.com",
-          "date": "20260406T121500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Jamie Dimon warns that the Iran war could bring an economic  skunk  to the party",
-          "domain": "us.cnn.com",
-          "date": "20260406T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "A Brutal Blow to the Poor : Fuel Hike Exposes the Harsh Reality of Living in Malawi Today - Malawi Nyasa Times",
-          "domain": "nyasatimes.com",
-          "date": "20260405T141500Z",
-          "country": "Malawi"
-        },
-        {
-          "title": "U . S . inflation data take center stage : Crypto Week Ahead",
-          "domain": "coindesk.com",
-          "date": "20260406T101500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -379,16 +196,22 @@
           "country": "United States"
         },
         {
-          "title": "Breakeven hiring negative : The economy can shed jobs and still keep the unemployment rate flat",
-          "domain": "fortune.com",
-          "date": "20260404T181500Z",
-          "country": "United States"
+          "title": "Valuation Reset Amid Geopolitical Shock . Uncertainty Persists but Opportunities Are Emerging",
+          "domain": "etftrends.com",
+          "date": "20260406T201500Z",
+          "country": "China"
         },
         {
           "title": "New Fed Chair Coming ; Diversify Income With CLOs",
           "domain": "etftrends.com",
           "date": "20260404T204500Z",
           "country": "China"
+        },
+        {
+          "title": "FinancialContent - The Wage Growth Whisper : Why a 0 . 2 % Reading Offers the Fed a Lifeline Amidst a Hiring Surge",
+          "domain": "markets.financialcontent.com",
+          "date": "20260406T173000Z",
+          "country": "United States"
         },
         {
           "title": "Iran War End Unlikely to Boost Wall Street , Analysts Suggest",
@@ -403,22 +226,16 @@
           "country": "United States"
         },
         {
-          "title": "FinancialContent - The  Warsh Shock : Resilient March Jobs Report Crowns the  Dollar King  as Gold and Silver Crater",
-          "domain": "markets.financialcontent.com",
-          "date": "20260406T154500Z",
-          "country": "United States"
-        },
-        {
           "title": "Week Ahead : Critical Inflation Test for Fed as Oil Price Shock Moves from Fear to Data",
           "domain": "actionforex.com",
           "date": "20260405T133000Z",
           "country": "United Kingdom"
         },
         {
-          "title": "10 - Year Treasury Yield Long - Term Perspective : March 2026",
-          "domain": "etftrends.com",
-          "date": "20260404T204500Z",
-          "country": "China"
+          "title": "FinancialContent - The  Warsh Shock : Resilient March Jobs Report Crowns the  Dollar King  as Gold and Silver Crater",
+          "domain": "markets.financialcontent.com",
+          "date": "20260406T154500Z",
+          "country": "United States"
         }
       ]
     },
@@ -468,6 +285,12 @@
           "country": "United States"
         },
         {
+          "title": "Standard Chartered Bank Predicts $500K Bitcoin as Price Climbs",
+          "domain": "finance.yahoo.com",
+          "date": "20260406T174500Z",
+          "country": "United States"
+        },
+        {
           "title": "Bitcoin News : Large Holders Distribute 188 , 000 BTC While Schwab",
           "domain": "openpr.com",
           "date": "20260405T131500Z",
@@ -490,153 +313,25 @@
           "domain": "benzinga.com",
           "date": "20260406T073000Z",
           "country": "United States"
-        },
-        {
-          "title": "Current price of Bitcoin for April 6 , 2026",
-          "domain": "fortune.com",
-          "date": "20260406T134500Z",
-          "country": "United States"
         }
       ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": [
-        {
-          "title": "Will the Stock Market Crash as the Oil Shock Hits the Economy ? History Says the S & P 500 Will Do This Next .",
-          "domain": "fool.com",
-          "date": "20260406T110000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Will the Stock Market Crash as the Oil Shock Hits the Economy ? History Says the S & P 500 Will Do This Next .",
-          "domain": "fool.com",
-          "date": "20260406T084500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oil Prices Jump Above $110 as Hormuz Closure Fears Deepen Amid Iran War",
-          "domain": "moroccoworldnews.com",
-          "date": "20260406T144500Z",
-          "country": "Morocco"
-        },
-        {
-          "title": "Why Oil Prices Just Soared 70 % Despite A U . S . Supply Glut . Here Are The Surprise Winners And Losers",
-          "domain": "forbes.com",
-          "date": "20260405T200000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Current price of oil as of April 6 , 2026",
-          "domain": "fortune.com",
-          "date": "20260406T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices rise again Sunday , remain above $4 as upward trend continues",
-          "domain": "wcnc.com",
-          "date": "20260405T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices rise again Sunday , remain above $4 as upward trend continues",
-          "domain": "wfmynews2.com",
-          "date": "20260405T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices rise again Sunday , remain above $4 as upward trend continues",
-          "domain": "wnep.com",
-          "date": "20260405T140000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices rise again Sunday , remain above $4 as upward trend continues",
-          "domain": "kgw.com",
-          "date": "20260405T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices rise again Sunday , remain above $4 as upward trend continues",
-          "domain": "wtsp.com",
-          "date": "20260405T151500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": [
-        {
-          "title": "Democrats Get  Record - Breaking  Boost Heading Into Midterms",
-          "domain": "newsweek.com",
-          "date": "20260406T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Georgia special congressional runoff",
-          "domain": "clickorlando.com",
-          "date": "20260406T113000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Georgia special congressional runoff",
-          "domain": "isp.netscape.com",
-          "date": "20260406T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to expect in Georgia special congressional runoff",
-          "domain": "wdbo.com",
-          "date": "20260406T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to expect in Georgia special congressional runoff",
-          "domain": "wgauradio.com",
-          "date": "20260406T120000Z",
-          "country": "United States"
-        },
-        {
-          "title": "SRN - US News - Taylorville Daily News",
-          "domain": "taylorvilledailynews.com",
-          "date": "20260406T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Georgia special congressional runoff",
-          "domain": "ktvo.com",
-          "date": "20260406T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump endorses Steve Hilton in California governor race",
-          "domain": "kcra.com",
-          "date": "20260406T153000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Georgia special congressional runoff",
-          "domain": "bozemandailychronicle.com",
-          "date": "20260406T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Georgia special congressional runoff",
-          "domain": "wellandtribune.ca",
-          "date": "20260406T143000Z",
-          "country": "Canada"
-        }
-      ]
+      "headlines": []
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
@@ -650,6 +345,12 @@
           "domain": "middleeastmonitor.com",
           "date": "20260405T143000Z",
           "country": "Israel"
+        },
+        {
+          "title": "NYC taxpayers to shell out whopping $90M on FIFA World Cup",
+          "domain": "nypost.com",
+          "date": "20260406T190000Z",
+          "country": "United States"
         },
         {
           "title": "World Cup should not be about  making as much money as possible  – Swinney",
@@ -698,12 +399,6 @@
           "domain": "salisburyjournal.co.uk",
           "date": "20260405T221500Z",
           "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup should not be about  making as much money as possible  – Swinney",
-          "domain": "oxfordmail.co.uk",
-          "date": "20260406T124500Z",
-          "country": "United Kingdom"
         }
       ]
     },
@@ -745,45 +440,106 @@
           "country": "United States"
         },
         {
-          "title": "Antetokounmpo , Bucks split is inevitable after latest feud",
-          "domain": "yardbarker.com",
-          "date": "20260404T200000Z",
+          "title": "Peter Points : NBA Best Bets Today ( Predictions , Prop Bets for Nikola Jokic , Spurs , Knicks - Hawks )",
+          "domain": "si.com",
+          "date": "20260406T171500Z",
           "country": "United States"
         },
         {
-          "title": "Amare Stoudemire , Candace Parker named to 2026 Hall of Fame class",
-          "domain": "joxfm.com",
-          "date": "20260404T181500Z",
+          "title": "Former NBA Champion Michael Malone Lands Major Coaching Gig : Report",
+          "domain": "wilm.iheart.com",
+          "date": "20260406T201500Z",
           "country": "United States"
         },
         {
-          "title": "Amare Stoudemire , Candace Parker named to 2026 Hall of Fame class",
-          "domain": "thefan1075.com",
-          "date": "20260404T184500Z",
+          "title": "Former NBA Champion Michael Malone Lands Major Coaching Gig : Report",
+          "domain": "590kqnt.iheart.com",
+          "date": "20260406T201500Z",
           "country": "United States"
         },
         {
-          "title": "Amare Stoudemire , Candace Parker named to 2026 Hall of Fame class",
-          "domain": "phoenixherald.com",
-          "date": "20260404T200000Z",
+          "title": "Former NBA Champion Michael Malone Lands Major Coaching Gig : Report",
+          "domain": "960weli.iheart.com",
+          "date": "20260406T201500Z",
           "country": "United States"
         },
         {
-          "title": "Amare Stoudemire , Candace Parker named to 2026 Hall of Fame class",
-          "domain": "nashvilleherald.com",
-          "date": "20260404T210000Z",
+          "title": "The NBA stretch run has arrived . Here a look at what happening",
+          "domain": "hendersondispatch.com",
+          "date": "20260406T184500Z",
           "country": "United States"
         }
       ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "This prompt turns ChatGPT into Grammarly Pro",
+          "domain": "howtogeek.com",
+          "date": "20260405T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "How I use Claude for strategy , Gemini for research and ChatGPT for  the grind",
+          "domain": "tomsguide.com",
+          "date": "20260406T143000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Researchers find top AI models will go to  extraordinary length to stay active including deceiving users , ignoring prompts , and tampering with settings",
+          "domain": "techradar.com",
+          "date": "20260405T144500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Siri + Gemini : Why Google is the only partner capable of saving Apple assistant",
+          "domain": "myhostnews.com",
+          "date": "20260405T150000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Azerbaijan lifts veil on AI chatbot market share data for March 2026",
+          "domain": "trend.az",
+          "date": "20260406T050000Z",
+          "country": "Azerbaijan"
+        },
+        {
+          "title": "Introducing nanocode : The best Claude Code that $200 can buy . · salmanmohammadi / nanocode · Discussion # 1",
+          "domain": "github.com",
+          "date": "20260405T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Cut your workload and save time with this all - in - one AI assistant on sale for $29 . 99",
+          "domain": "macworld.com",
+          "date": "20260405T084500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gemini and Claude Beat Detection Tools in AI Writing Test",
+          "domain": "newsghana.com.gh",
+          "date": "20260404T210000Z",
+          "country": "Ghana"
+        },
+        {
+          "title": "I hit Claude new usage limits and It changed how I use AI forever",
+          "domain": "tomsguide.com",
+          "date": "20260405T143000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Anthropic Blocks OpenClaw from Claude Subscriptions to Cut Costs",
+          "domain": "el-balad.com",
+          "date": "20260406T124500Z",
+          "country": "Egypt"
+        }
+      ]
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
@@ -803,12 +559,6 @@
           "domain": "news.az",
           "date": "20260406T071500Z",
           "country": "Azerbaijan"
-        },
-        {
-          "title": "Take - Two lays off AI team",
-          "domain": "eurogamer.net",
-          "date": "20260404T201500Z",
-          "country": "United Kingdom"
         },
         {
           "title": "Take - Two Interactive cuts AI team ahead of GTA VI release",
@@ -833,6 +583,12 @@
           "domain": "gameranx.com",
           "date": "20260406T061500Z",
           "country": "United States"
+        },
+        {
+          "title": "Former Rockstar Audio Engineer Says  My 20 - Year Tenure is No Longer Good Enough to Get a Job",
+          "domain": "gamingbolt.com",
+          "date": "20260406T164500Z",
+          "country": "Japan"
         },
         {
           "title": "A Leap of Fail , Expanding Arkham , and Supernatural San Andreas : Here are some of Gamereactor favourite Easter Eggs -",
