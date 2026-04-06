@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-06T09:20:05Z",
+  "fetched_at": "2026-04-06T13:26:17Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -24,11 +24,72 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Detained Nigerien president reaches end of official term | Africa News",
+          "domain": "africa.com",
+          "date": "20260405T101500Z",
+          "country": "South Africa"
+        },
+        {
+          "title": "ZCC leader Mutendi backs CAB3 seeking to extend Mnangagwa term of office",
+          "domain": "newzimbabwe.com",
+          "date": "20260406T110000Z",
+          "country": "Zimbabwe"
+        },
+        {
+          "title": "PH - Myanmar engagement continues after military leader election win",
+          "domain": "globalsecurity.org",
+          "date": "20260404T133000Z",
+          "country": "Syria"
+        },
+        {
+          "title": "PH to maintain Myanmar ties after election | The Manila Times",
+          "domain": "manilatimes.net",
+          "date": "20260404T164500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "GOP faces  existential threat  with draft of post - midterm investigations : analysis",
+          "domain": "rawstory.com",
+          "date": "20260404T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "President al - Sharaa visit to London opens promising investment prospects",
+          "domain": "sana.sy",
+          "date": "20260404T160000Z",
+          "country": "Syria"
+        },
+        {
+          "title": "Myanmar former junta chief elected president by parliament",
+          "domain": "globalsecurity.org",
+          "date": "20260404T133000Z",
+          "country": "Syria"
+        },
+        {
+          "title": "Do not impeach Orengo now , MP Atandi tells MCAs",
+          "domain": "the-star.co.ke",
+          "date": "20260405T170000Z",
+          "country": "Kenya"
+        },
+        {
+          "title": "Puducherry will be granted statehood when Rahul Gandhi becomes PM , Mallikarjun Kharge says | Puducherry News",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260404T181500Z",
+          "country": "India"
+        },
+        {
+          "title": "PM Modi casts West Bengal polls as fear vs BJP trust",
+          "domain": "theshillongtimes.com",
+          "date": "20260406T001500Z",
+          "country": "India"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -68,15 +129,15 @@
           "country": "United States"
         },
         {
-          "title": "Michael R . Worthington : A look at the SAVE Act , its effect on voters",
-          "domain": "rockymounttelegram.com",
-          "date": "20260405T131500Z",
-          "country": "United States"
-        },
-        {
           "title": "AG Story",
           "domain": "komonews.com",
           "date": "20260405T061500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Michael R . Worthington : A look at the SAVE Act , its effect on voters",
+          "domain": "rockymounttelegram.com",
+          "date": "20260405T131500Z",
           "country": "United States"
         },
         {
@@ -143,28 +204,28 @@
           "country": "United States"
         },
         {
+          "title": "Jamie Dimon warns that the Iran war could bring an economic  skunk  to the party",
+          "domain": "cnn.com",
+          "date": "20260406T121500Z",
+          "country": "United States"
+        },
+        {
           "title": "A Brutal Blow to the Poor : Fuel Hike Exposes the Harsh Reality of Living in Malawi Today - Malawi Nyasa Times",
           "domain": "nyasatimes.com",
           "date": "20260405T141500Z",
           "country": "Malawi"
         },
         {
+          "title": "U . S . inflation data take center stage : Crypto Week Ahead",
+          "domain": "coindesk.com",
+          "date": "20260406T101500Z",
+          "country": "United States"
+        },
+        {
           "title": "Seeing The Forest Through the Trees",
           "domain": "etftrends.com",
           "date": "20260404T204500Z",
           "country": "China"
-        },
-        {
-          "title": "Malawi : A Brutal Blow to the Poor - Fuel Hike Exposes the Harsh Reality of Living in Malawi Today",
-          "domain": "allafrica.com",
-          "date": "20260406T061500Z",
-          "country": "Nigeria"
-        },
-        {
-          "title": "Which is the Poorest Country in Europe ?",
-          "domain": "jagranjosh.com",
-          "date": "20260405T210000Z",
-          "country": "India"
         }
       ]
     },
@@ -196,6 +257,12 @@
           "country": "United States"
         },
         {
+          "title": "The Federal Reserve March and April Inflation Forecast Is In -- and Things Just Keep Getting Uglier for Wall Street",
+          "domain": "fool.com",
+          "date": "20260406T110000Z",
+          "country": "United States"
+        },
+        {
           "title": "Breakeven hiring negative : The economy can shed jobs and still keep the unemployment rate flat",
           "domain": "fortune.com",
           "date": "20260404T181500Z",
@@ -212,12 +279,6 @@
           "domain": "el-balad.com",
           "date": "20260405T224500Z",
           "country": "Egypt"
-        },
-        {
-          "title": "Bitcoin Price : BTC Just Had Its First Green Month Since September Can April Build on the Momentum ?",
-          "domain": "finance.yahoo.com",
-          "date": "20260404T131500Z",
-          "country": "United States"
         },
         {
           "title": "Week Ahead : Critical Inflation Test for Fed as Oil Price Shock Moves from Fear to Data",
@@ -310,11 +371,72 @@
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Crypto News : Pepeto Reveals Defi Tools While Bitcoin Price Prediction Points to $200 , 000 and a Bull Run While Markets Hunt for the Next Dogecoin",
+          "domain": "portal.sina.com.hk",
+          "date": "20260406T053000Z",
+          "country": "Hong Kong"
+        },
+        {
+          "title": "Analyst Who Called Bitcoin Top Says Price Is Going To $200 , 000 , But Should You Buy Now ?",
+          "domain": "newsbtc.com",
+          "date": "20260404T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Drops Below $67K on Trump Speech",
+          "domain": "riotimesonline.com",
+          "date": "20260406T101500Z",
+          "country": "Brazil"
+        },
+        {
+          "title": "Liberation Day  Trump Tariff Shock Sends Bitcoin Toward $66K",
+          "domain": "forbes.com",
+          "date": "20260405T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin price analysis : BTC enters April at its most hated level since the war began",
+          "domain": "coindesk.com",
+          "date": "20260405T150000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin News : Large Holders Distribute 188 , 000 BTC While Schwab",
+          "domain": "openpr.com",
+          "date": "20260405T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Polkadot News : DOT at $1 . 24 Down 97 % From ATH as Large BTC Holders",
+          "domain": "openpr.com",
+          "date": "20260405T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin 85 % Collapse Era Is Now Over , Cathie Wood Says",
+          "domain": "newsbtc.com",
+          "date": "20260404T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Analyst Identifies $63 , 000 As Key Support For Next Bitcoin Move",
+          "domain": "newsbtc.com",
+          "date": "20260405T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin whales are selling the most aggressively on record while ETFs and Strategy keep buying",
+          "domain": "coindesk.com",
+          "date": "20260404T150000Z",
+          "country": "United States"
+        }
+      ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -327,6 +449,12 @@
           "title": "Will the Stock Market Crash as the Oil Shock Hits the Economy ? History Says the S & P 500 Will Do This Next .",
           "domain": "fool.com",
           "date": "20260406T084500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Will the Stock Market Crash as the Oil Shock Hits the Economy ? History Says the S & P 500 Will Do This Next .",
+          "domain": "fool.com",
+          "date": "20260406T110000Z",
           "country": "United States"
         },
         {
@@ -354,6 +482,12 @@
           "country": "United States"
         },
         {
+          "title": "Oil prices rise as Brent tops $110 amid Middle East tensions",
+          "domain": "sana.sy",
+          "date": "20260406T110000Z",
+          "country": "Syria"
+        },
+        {
           "title": "Gas prices rise again Sunday , remain above $4 as upward trend continues",
           "domain": "kgw.com",
           "date": "20260405T150000Z",
@@ -370,18 +504,6 @@
           "domain": "kvue.com",
           "date": "20260405T123000Z",
           "country": "United States"
-        },
-        {
-          "title": "Gas prices rise again Sunday , remain above $4 as upward trend continues",
-          "domain": "wltx.com",
-          "date": "20260405T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices rise again Sunday , remain above $4 as upward trend continues",
-          "domain": "wkyc.com",
-          "date": "20260405T123000Z",
-          "country": "United States"
         }
       ]
     },
@@ -393,6 +515,24 @@
         "balance-of-power-2026-midterms"
       ],
       "headlines": [
+        {
+          "title": "AP Decision Notes : What to expect in Georgia special congressional runoff",
+          "domain": "clickorlando.com",
+          "date": "20260406T113000Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to expect in Georgia special congressional runoff",
+          "domain": "wgauradio.com",
+          "date": "20260406T120000Z",
+          "country": "United States"
+        },
+        {
+          "title": "SRN - US News - Taylorville Daily News",
+          "domain": "taylorvilledailynews.com",
+          "date": "20260406T130000Z",
+          "country": "United States"
+        },
         {
           "title": "Is the S & P 500 Headed for a Correction Ahead of the Midterm Elections ? Here What History Says Will Happen Before November , and What Comes Next .",
           "domain": "finance.yahoo.com",
@@ -406,9 +546,27 @@
           "country": "United States"
         },
         {
+          "title": "AP Decision Notes : What to expect in Wisconsin spring election – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "date": "20260406T123000Z",
+          "country": "Canada"
+        },
+        {
           "title": "Is the Trump Bull Market in Its Final Act ? History Offers a Decisive Answer .",
           "domain": "fool.com",
           "date": "20260405T124500Z",
+          "country": "United States"
+        },
+        {
+          "title": "AP Decision Notes : What to expect in Wisconsin spring election",
+          "domain": "stcatharinesstandard.ca",
+          "date": "20260406T120000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "White House To Submit $1 . 5 Trillion Military Budget Proposal Amid Iran Conflict – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "date": "20260406T123000Z",
           "country": "United States"
         },
         {
@@ -416,113 +574,16 @@
           "domain": "rawstory.com",
           "date": "20260404T210000Z",
           "country": "United States"
-        },
-        {
-          "title": "Who will Trump fire next ? Cabinet shakeup could expand , source tells Fox News",
-          "domain": "fox4news.com",
-          "date": "20260404T200000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Who will Trump fire next ? Cabinet shakeup could expand , source tells Fox News",
-          "domain": "fox10phoenix.com",
-          "date": "20260404T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Who will Trump fire next ? Cabinet shakeup could expand , source tells Fox News",
-          "domain": "fox29.com",
-          "date": "20260404T204500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Who will Trump fire next ? Cabinet shakeup could expand , source tells Fox News",
-          "domain": "fox2detroit.com",
-          "date": "20260404T204500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Who will Trump fire next ? Cabinet shakeup could expand , source tells Fox News",
-          "domain": "fox5ny.com",
-          "date": "20260404T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Who will Trump fire next ? Cabinet shakeup could expand , source tells Fox News",
-          "domain": "fox26houston.com",
-          "date": "20260404T210000Z",
-          "country": "United States"
         }
       ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "Iran awaits FIFA guarantees for World Cup participation",
-          "domain": "middleeastmonitor.com",
-          "date": "20260405T143000Z",
-          "country": "Israel"
-        },
-        {
-          "title": "John Swinney calls on FIFA to act on World Cup ticket pricing",
-          "domain": "heraldscotland.com",
-          "date": "20260406T070000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup tickets  simply unaffordable  for too many Scotland fans , Swinney says",
-          "domain": "edp24.co.uk",
-          "date": "20260405T224500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup tickets  simply unaffordable  for too many Scotland fans , Swinney says",
-          "domain": "echo-news.co.uk",
-          "date": "20260405T221500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup tickets  simply unaffordable  for too many Scotland fans , Swinney says",
-          "domain": "salisburyjournal.co.uk",
-          "date": "20260405T221500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup tickets  simply unaffordable  for too many Scotland fans , Swinney says",
-          "domain": "ipswichstar.co.uk",
-          "date": "20260405T230000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup tickets  simply unaffordable  for too many Scotland fans , Swinney says",
-          "domain": "theboltonnews.co.uk",
-          "date": "20260405T230000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Councillors , advocates concerned over Vancouver human rights plan ahead of FIFA World Cup",
-          "domain": "cbc.ca",
-          "date": "20260405T161500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "THE BLIND COULD SEE IT ! - Jamaica Observer",
-          "domain": "jamaicaobserver.com",
-          "date": "20260404T120000Z",
-          "country": "Jamaica"
-        },
-        {
-          "title": "John Swinney sends Fifa boss letter urging  fair price at World Cup for Tartan Army",
-          "domain": "dailyrecord.co.uk",
-          "date": "20260405T044500Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -665,11 +726,72 @@
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "It Officially the End of an Era for GTA 6",
+          "domain": "gamerant.com",
+          "date": "20260404T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 Leak Reveals New Next - Gen Feature",
+          "domain": "comicbook.com",
+          "date": "20260405T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Rockstar is pushing boundaries in GTA 6 , leak suggests",
+          "domain": "news.az",
+          "date": "20260406T071500Z",
+          "country": "Azerbaijan"
+        },
+        {
+          "title": "Take - Two lays off AI team",
+          "domain": "eurogamer.net",
+          "date": "20260404T201500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "The Best Open - World Games Still Stuck on Older Systems",
+          "domain": "dualshockers.com",
+          "date": "20260405T164500Z",
+          "country": "Japan"
+        },
+        {
+          "title": "Take - Two Interactive cuts AI team ahead of GTA VI release",
+          "domain": "thenews.com.pk",
+          "date": "20260405T104500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Take - Two Interactive Lays Off AI Team After CEO Dismisses Tech Ability to Create Next  GTA",
+          "domain": "techstory.in",
+          "date": "20260405T201500Z",
+          "country": "India"
+        },
+        {
+          "title": "Dataminers Believe GTA V Was Hiding The Protagonist Of Cancelled Spy Game Agent",
+          "domain": "gameranx.com",
+          "date": "20260406T061500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 parent company Take - Two reportedly lays off its AI - focused staff :  Shifting priorities from upper management have impacted my team",
+          "domain": "gamesradar.com",
+          "date": "20260404T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Some of the Rarest Platinum Trophies in Gaming History Are Surprising",
+          "domain": "gamerant.com",
+          "date": "20260404T160000Z",
+          "country": "United States"
+        }
+      ]
     }
   }
 }
