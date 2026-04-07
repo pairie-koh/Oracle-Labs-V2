@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 06 10:50 PM PT</strong> (9m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (125m)</span>
-            <span>Scored: <strong>290</strong> predictions | Logged: <strong>510</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 07 02:11 AM PT</strong> (8m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (165m)</span>
+            <span>Scored: <strong>294</strong> predictions | Logged: <strong>513</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(19d 3h ago)</span>
+            <span class="dim">(19d 6h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-06
+                    <div class="iter-text"># momentum — 2026-04-07
 
-Version: 1.17.0 -&gt; 1.18.0
+Version: 1.18.0 -&gt; 1.19.0
 
-The agent is performing poorly with 16.2% overall directional accuracy and MSE above the naive baseline. The 4h horizon shows 0% directional accuracy, indicating the momentum signal is too aggressive for short-term predictions. I&#x27;m reducing MOMENTUM_WEIGHT from 0.3 to 0.15 to make predictions more conservative and closer to current prices, which should improve directional accuracy and reduce MSE.</div>
+The current momentum and reversion weights (0.15 each) are far too conservative, causing predictions to barely deviate from current prices and resulting in terrible directional accuracy of 15%. I&#x27;m increasing both MOMENTUM_WEIGHT and REVERSION_WEIGHT from 0.15 to 0.6 each to make more decisive predictions that can actually capture market movements. This should significantly improve directional accuracy and help beat the naive baseline by making predictions that meaningfully differ from the current price.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-06
+                    <div class="iter-text"># historian — 2026-04-07
 
-Version: 1.17.0 -&gt; 1.18.0
+Version: 1.18.0 -&gt; 1.19.0
 
-I&#x27;m increasing the REVERSION_RATE from 0.005 to 0.015 to provide stronger mean reversion toward the historical base rate. The current reversion rate is too weak, allowing the forecast to drift too far from historical norms. Since the historian&#x27;s edge should be maintaining calibrated priors and not overreacting to dramatic headlines, a stronger pull toward the adaptive base rate should improve performance, especially during calmer periods when mean reversion is the right strategy.</div>
+I&#x27;m reducing the REVERSION_RATE from 0.015 to 0.008 to be less aggressive about mean reversion. The current rate appears to be fighting against genuine market movements too strongly, resulting in poor directional accuracy and MSE above the naive baseline. A gentler reversion rate should allow me to better follow market trends while still providing some stabilizing effect. This change should improve both directional accuracy and overall MSE performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-06
+                    <div class="iter-text"># game_theorist — 2026-04-07
 
-Version: 1.17.0 -&gt; 1.18.0
+Version: 1.18.0 -&gt; 1.19.0
 
-I&#x27;m increasing ESCALATION_SENSITIVITY from 0.005 to 0.025 (5x increase) to make predictions more responsive to signal changes. The current sensitivity is so low that predictions barely move from current prices, leading to terrible directional accuracy and MSE performance. This change should allow the model to capture meaningful directional movements while still maintaining the game theory framework of costly signaling and actor incentives.</div>
+I&#x27;m reducing ESCALATION_SENSITIVITY from 0.025 to 0.01 to address the terrible directional accuracy of 19.4%. The current sensitivity appears to be causing systematic overreaction to signals, leading to predictions that consistently move in the wrong direction. By reducing the sensitivity, I hope to make smaller, more accurate adjustments that better reflect the actual market dynamics rather than overshooting the target.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-06
+                    <div class="iter-text"># quant — 2026-04-07
 
-Version: 1.17.0 -&gt; 1.18.0
+Version: 1.18.0 -&gt; 1.19.0
 
-The coefficients for momentum and reversion forecasting are too conservative, resulting in predictions that barely move from current prices and terrible directional accuracy (8.97%). I&#x27;m increasing both momentum_coefficient and reversion_coefficient by 10x to make more meaningful directional predictions while still being disciplined about position sizing. This should help capture actual price movements rather than making tiny adjustments that don&#x27;t reflect real market dynamics.</div>
+Reverting momentum calculation from EWMA back to linear regression slope. The EWMA approach appears to be generating too much noise in the momentum signal, contributing to poor directional accuracy. Linear regression provides a more stable trend estimate by fitting a line through recent price points rather than exponentially weighting recent observations. This should improve signal quality in the current stable market regime where small price fluctuations might be causing EWMA to overreact.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -246,36 +246,36 @@ The coefficients for momentum and reversion forecasting are too conservative, re
             <div class="market-block">
                 <div class="market-header">
                     <strong>Regime Fall</strong>
-                    <span class="current-price">0.1250</span>
+                    <span class="current-price">0.1150</span>
                 </div>
                 <div class="price-changes">
-                    4h: <span class="">+0.0000</span>
-                    &nbsp; 24h: <span class="down">-0.0100</span>
+                    4h: <span class="down">-0.0100</span>
+                    &nbsp; 24h: <span class="down">-0.0200</span>
                 </div>
                 
                 <div class="forecast-row">
                     <span class="dot" style="background:#e74c3c"></span>
                     <span class="agent-name">Momentum</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.1250</span>
+                    <span class="delta down">-0.1150</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#3498db"></span>
                     <span class="agent-name">Historian</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.1250</span>
+                    <span class="delta down">-0.1150</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#f39c12"></span>
                     <span class="agent-name">Game Theorist</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.1250</span>
+                    <span class="delta down">-0.1150</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#2ecc71"></span>
                     <span class="agent-name">Quant</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.1250</span>
+                    <span class="delta down">-0.1150</span>
                 </div>
             </div>
     </div>
@@ -287,12 +287,12 @@ The coefficients for momentum and reversion forecasting are too conservative, re
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.18.0</span>
+            <span class="dim">v1.19.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 06 10:59 PM PT (prev: Apr 06 08:07 PM PT)</div>
+        <div class="analysis-time dim">Apr 07 02:19 AM PT (prev: Apr 06 10:59 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,24 +303,24 @@ The coefficients for momentum and reversion forecasting are too conservative, re
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.18.0</span>
+            <span class="dim">v1.19.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 06 10:59 PM PT (prev: Apr 06 08:07 PM PT)</div>
+        <div class="analysis-time dim">Apr 07 02:19 AM PT (prev: Apr 06 10:59 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.18.0</span>
+            <span class="dim">v1.19.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 06 10:59 PM PT (prev: Apr 06 08:07 PM PT)</div>
+        <div class="analysis-time dim">Apr 07 02:19 AM PT (prev: Apr 06 10:59 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
@@ -343,25 +343,25 @@ The coefficients for momentum and reversion forecasting are too conservative, re
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,28.0 60.0,2.0 90.0,13.2 120.0,23.4" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="23.4" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.000101</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,2.0 60.0,13.2 90.0,23.4 120.0,4.6" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="4.6" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.000503</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,10.7 30.0,28.0 60.0,20.5 90.0,5.9 120.0,2.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#3498db" /></svg></span>
-            <span class="trend-val">0.001824</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,20.5 60.0,5.9 90.0,2.0 120.0,14.5" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="14.5" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.000954</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,23.1 30.0,28.0 60.0,2.0 90.0,9.9 120.0,19.7" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="19.7" r="3" fill="#f39c12" /></svg></span>
-            <span class="trend-val">0.029584</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,2.0 60.0,9.9 90.0,19.7 120.0,12.8" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="12.8" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.051756</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#2ecc71"></span>
             <span class="agent-name">Quant</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,28.0 60.0,2.0 90.0,2.0 120.0,2.0" fill="none" stroke="#2ecc71" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#2ecc71" /></svg></span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,2.0 60.0,2.0 90.0,2.0 120.0,2.0" fill="none" stroke="#2ecc71" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#2ecc71" /></svg></span>
             <span class="trend-val">0.000100</span>
         </div>
     </div>
@@ -379,14 +379,14 @@ The coefficients for momentum and reversion forecasting are too conservative, re
         <div class="pnl-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="pnl-val down">$-2</span>
-            <span class="dim">1W/4L (5 trades)</span>
+            <span class="pnl-val down">$-3</span>
+            <span class="dim">1W/5L (6 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="pnl-val down">$-26</span>
-            <span class="dim">10W/27L (37 trades)</span>
+            <span class="pnl-val down">$-27</span>
+            <span class="dim">10W/28L (38 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -400,11 +400,11 @@ The coefficients for momentum and reversion forecasting are too conservative, re
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>15</strong> facts:
-                <span class="esc">12 escalatory</span>,
-                <span class="deesc">3 de-escalatory</span>,
-                0 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> US forces conducted major strikes including A-10s and B-1 bombers targeting IRGC bunkers, with one b</div><div class="fact"><span class="dim">[military_pressure]</span> IRGC intelligence chief Maj. Gen. Majid Khademi was killed in a joint US-Israeli airstrike on Monday</div><div class="fact"><span class="dim">[military_pressure]</span> Israel executed extensive strikes in Tehran targeting IRGC sites, missile facilities, and petrochemi</div>
+                <strong>29</strong> facts:
+                <span class="esc">17 escalatory</span>,
+                <span class="deesc">9 de-escalatory</span>,
+                3 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> U.S.-Israeli strikes killed IRGC intelligence chief Maj. Gen. Majid Khademi and at least 25 others i</div><div class="fact"><span class="dim">[diplomatic_signals]</span> President Trump issued a deadline of Tuesday 8 PM Washington time (April 8, 00:00 UTC) for Iran to r</div><div class="fact"><span class="dim">[military_pressure]</span> Israeli strikes hit Tehran early Tuesday local time, targeting IRGC sites, missile facilities, and p</div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ The coefficients for momentum and reversion forecasting are too conservative, re
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Day 41 sees conflicting succession reports with claims of Supreme Leader Khamenei&#x27;s death and establishment of a Provisional Leadership Council, while military escalation continues with Israeli strike</div>
+                <div class="state-status">Day 42 sees intensifying military escalation with Israeli strikes on Tehran infrastructure and IRGC sites on April 8, while Iran continues regional attacks and vows &#x27;Operation Crushing Revenge&#x27; for IR</div>
                 <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-06 10:59 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-07 02:19 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
