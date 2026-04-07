@@ -30,9 +30,9 @@ from constants import MARKETS, PRICE_CSV, FORECAST_HORIZONS
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.18.0"
+METHODOLOGY_VERSION = "1.19.0"
 
-MOMENTUM_LOOKBACK = 6       # EWMA span for short-term momentum
+MOMENTUM_LOOKBACK = 6       # number of recent price points for momentum (linear slope)
 REVERSION_LOOKBACK = 24     # number of recent price points for long-term mean
 BASE_MOMENTUM_BLEND = 0.5   # fixed blend (no longer adapted by volatility)
 NEWS_FEATURE_WEIGHT = 0.0   # zeroed: news was anti-predictive (escalation bias in stable market)
@@ -68,11 +68,21 @@ def load_price_series(market_key):
     return series
 
 
-def compute_ewma(series, span):
-    """Compute EWMA of the price series — more robust than linear regression."""
+def compute_momentum(series, lookback):
+    """Compute linear slope of recent prices — more stable than EWMA."""
     if len(series) < 2:
         return series.iloc[-1] if len(series) > 0 else 0.5
-    return series.ewm(span=span).mean().iloc[-1]
+    
+    recent = series.tail(lookback)
+    if len(recent) < 2:
+        return recent.iloc[-1]
+    
+    x = np.arange(len(recent))
+    y = recent.values
+    slope, intercept = np.polyfit(x, y, 1)
+    # Project to next point
+    next_x = len(recent)
+    return slope * next_x + intercept
 
 
 def compute_volatility(series, lookback):
@@ -177,15 +187,15 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
             print(f"  Range: {CYAN}{series.iloc[0]:.4f}{RESET} → {CYAN}{series.iloc[-1]:.4f}{RESET}")
         time.sleep(LIVE_DELAY * 3)
 
-    # EWMA momentum (smoother than linear slope)
-    ewma = compute_ewma(series, MOMENTUM_LOOKBACK)
+    # Linear regression momentum (more stable than EWMA)
+    momentum_projection = compute_momentum(series, MOMENTUM_LOOKBACK)
 
     if live:
-        print(f"\n{BOLD}▸ EWMA momentum {DIM}(span={MOMENTUM_LOOKBACK}){RESET}")
-        print(f"  EWMA value: {GREEN}{ewma:.6f}{RESET}")
+        print(f"\n{BOLD}▸ Linear momentum {DIM}(lookback={MOMENTUM_LOOKBACK}){RESET}")
+        print(f"  Projected:  {GREEN}{momentum_projection:.6f}{RESET}")
         print(f"  Current:    {CYAN}{current:.6f}{RESET}")
-        diff = ewma - current
-        print(f"  Deviation:  {YELLOW}{diff:+.6f}{RESET}")
+        diff = momentum_projection - current
+        print(f"  Momentum:   {YELLOW}{diff:+.6f}{RESET}")
         time.sleep(LIVE_DELAY * 3)
 
     # Long-term mean for reversion target
@@ -212,13 +222,11 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
     # Fixed blend (no longer adaptive)
     fixed_blend = BASE_MOMENTUM_BLEND
 
-    # Momentum forecast: REVERT AWAY from EWMA (mean reversion dominates)
-    # Increased coefficient to make more meaningful directional predictions
+    # Momentum forecast: use projected momentum value with scaled coefficient
     momentum_coefficient = 0.00001 * horizon_scale
-    momentum_forecast = current - (ewma - current) * momentum_coefficient
+    momentum_forecast = current + (momentum_projection - current) * momentum_coefficient
 
     # Reversion forecast: pull toward long-term mean (scaled by horizon)
-    # Increased coefficient to make more meaningful directional predictions
     reversion_coefficient = 0.000015 * horizon_scale
     reversion_forecast = current + (long_mean - current) * reversion_coefficient
 
@@ -266,7 +274,7 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
     return {
         "prediction": round(prediction, 6),
         "current": current,
-        "ewma": round(ewma, 6),
+        "momentum_projection": round(momentum_projection, 6),
         "long_term_mean": round(long_term_mean, 6),
         "momentum_forecast": round(momentum_forecast, 6),
         "reversion_forecast": round(reversion_forecast, 6),
@@ -331,7 +339,7 @@ def make_forecasts(briefing_path, live=False):
         for mk, horizons in predictions.items():
             for hz_label, pred in horizons.items():
                 print(f"  {mk} @ {hz_label}: {pred['current']:.4f} -> {pred['prediction']:.4f} "
-                      f"(ewma={pred['ewma']:.4f}, vol={pred['volatility']:.4f}, "
+                      f"(momentum={pred['momentum_projection']:.4f}, vol={pred['volatility']:.4f}, "
                       f"med_vol={pred['median_vol']:.4f}, blend={pred['fixed_blend']:.2f}, "
                       f"n={pred['series_length']})")
 
