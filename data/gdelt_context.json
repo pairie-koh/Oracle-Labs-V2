@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-07T09:17:08Z",
+  "fetched_at": "2026-04-07T13:35:53Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -23,6 +23,12 @@
           "domain": "tribuneindia.com",
           "date": "20260406T223000Z",
           "country": "India"
+        },
+        {
+          "title": "Trump Threatens Iran Power Grid Strikes as Tuesday Deadline Nears , Says Each Plant Will Be  Burning  and  Exploding",
+          "domain": "ibtimes.co.uk",
+          "date": "20260407T094500Z",
+          "country": "United Kingdom"
         },
         {
           "title": "Iran - US Ceasefire Talks : Pakistan Brokers  Islamabad Accord  to Reopen Strait of Hormuz",
@@ -64,12 +70,6 @@
           "title": "Iran resists as Trump ramps up threats , raising stakes for talks",
           "domain": "ktul.com",
           "date": "20260406T201500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran resists as Trump ramps up threats , raising stakes for talks",
-          "domain": "news3lv.com",
-          "date": "20260406T210000Z",
           "country": "United States"
         }
       ]
@@ -146,141 +146,19 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Detained Nigerien president reaches end of official term | Africa News",
-          "domain": "africa.com",
-          "date": "20260405T101500Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Rights group files  genocide  complaint against Myanmar president - elect : AGO - Asia & Pacific",
-          "domain": "thejakartapost.com",
-          "date": "20260406T131500Z",
-          "country": "Indonesia"
-        },
-        {
-          "title": "Union MoS Kirti Vardhan Singh to embark on four - day visit to Myanmar for inauguration ceremony of new President",
-          "domain": "news.webindia123.com",
-          "date": "20260406T164500Z",
-          "country": "India"
-        },
-        {
-          "title": "ZCC leader Mutendi backs CAB3 seeking to extend Mnangagwa term of office",
-          "domain": "newzimbabwe.com",
-          "date": "20260406T110000Z",
-          "country": "Zimbabwe"
-        },
-        {
-          "title": "Union MoS Kirti Vardhan Singh to embark on four - day visit to Myanmar for inauguration ceremony of new President",
-          "domain": "newyorkstatesman.com",
-          "date": "20260406T221500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Union MoS Kirti Vardhan Singh to embark on four - day visit to Myanmar for inauguration ceremony of new President",
-          "domain": "iraqsun.com",
-          "date": "20260406T193000Z",
-          "country": "Iraq"
-        },
-        {
-          "title": "Union MoS Kirti Vardhan Singh to embark on four - day visit to Myanmar for inauguration ceremony of new President",
-          "domain": "newyorktelegraph.com",
-          "date": "20260406T193000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Union MoS Kirti Vardhan Singh to embark on four - day visit to Myanmar for inauguration ceremony of new President",
-          "domain": "nepalnational.com",
-          "date": "20260406T193000Z",
-          "country": "Nepal"
-        },
-        {
-          "title": "Union MoS Kirti Vardhan Singh to embark on four - day visit to Myanmar for inauguration ceremony of new President",
-          "domain": "bignewsnetwork.com",
-          "date": "20260406T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Regime Change – Sometimes It Works , Often It Doesnt",
-          "domain": "ipsnews.net",
-          "date": "20260406T194500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": [
-        {
-          "title": "Trump SAVE America Act would end voter registration drives nationwide | Freeaccess",
-          "domain": "idahostatejournal.com",
-          "date": "20260406T223000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why Trump is trying to build a massive voter database",
-          "domain": "us.cnn.com",
-          "date": "20260405T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why Trump is trying to build a massive voter database",
-          "domain": "cnn.com",
-          "date": "20260405T124500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why Trump is trying to build a massive voter database",
-          "domain": "edition.cnn.com",
-          "date": "20260405T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Reader View : SAVE Act threatens to disenfranchise voters",
-          "domain": "duluthnewstribune.com",
-          "date": "20260406T234500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Elections ,  Domestic Terrorist  Bills Sent to DeSantis | News",
-          "domain": "southdadenewsleader.com",
-          "date": "20260406T164500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Michael R . Worthington : A look at the SAVE Act , its effect on voters",
-          "domain": "rockymounttelegram.com",
-          "date": "20260405T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "ABC Stephanopoulos Says Mail Ballot EO Is to  Subvert the Midterms",
-          "domain": "newsbusters.org",
-          "date": "20260405T221500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump plan for a massive voter database sparks intensifying debate among election officials",
-          "domain": "thenews.com.pk",
-          "date": "20260405T124500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "23 states sue Trump over new executive order targeting mail voting",
-          "domain": "yahoo.com",
-          "date": "20260405T144500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -290,10 +168,28 @@
       ],
       "headlines": [
         {
+          "title": "Economist Mark Zandi Says There One Signal US May Already Be in Recession",
+          "domain": "businessinsider.com",
+          "date": "20260407T103000Z",
+          "country": "United States"
+        },
+        {
           "title": "Will the RBA choose a recession for Australia ?",
           "domain": "independentaustralia.net",
           "date": "20260407T034500Z",
           "country": "Australia"
+        },
+        {
+          "title": "Italy Service Sector Contracts for First Time in 16 Months Amid Rising Costs and Weakening Demand",
+          "domain": "econotimes.com",
+          "date": "20260407T110000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Are Stagflation Fears Creeping Back Into the Picture ? Here What the Data and Fed Chair Jerome Powell Have to Say .",
+          "domain": "fool.com",
+          "date": "20260407T093000Z",
+          "country": "United States"
         },
         {
           "title": "Will the RBA choose a recession for Australia",
@@ -308,10 +204,16 @@
           "country": "India"
         },
         {
-          "title": "China economic slowdown deepens as public confidence wanes",
-          "domain": "news.webindia123.com",
-          "date": "20260405T133000Z",
-          "country": "India"
+          "title": "Economically naive , ignorant and at times stupid : Labour blasted as Iran war sends Britain hurtling towards recession",
+          "domain": "dailymail.co.uk",
+          "date": "20260407T111500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Economically naive , ignorant and at times stupid : Labour blasted as Iran war sends Britain hurtling towards recession",
+          "domain": "dailymail.co.uk",
+          "date": "20260407T120000Z",
+          "country": "United Kingdom"
         },
         {
           "title": "China economic slowdown deepens as public confidence wanes",
@@ -320,33 +222,9 @@
           "country": "India"
         },
         {
-          "title": "China economic slowdown deepens as public confidence wanes",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260405T124500Z",
-          "country": "India"
-        },
-        {
           "title": "Jamie Dimon warns that the Iran war could bring an economic  skunk  to the party",
           "domain": "cnn.com",
           "date": "20260406T121500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Jamie Dimon warns that the Iran war could bring an economic  skunk  to the party",
-          "domain": "us.cnn.com",
-          "date": "20260406T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "A Brutal Blow to the Poor : Fuel Hike Exposes the Harsh Reality of Living in Malawi Today - Malawi Nyasa Times",
-          "domain": "nyasatimes.com",
-          "date": "20260405T141500Z",
-          "country": "Malawi"
-        },
-        {
-          "title": "U . S . inflation data take center stage : Crypto Week Ahead",
-          "domain": "coindesk.com",
-          "date": "20260406T101500Z",
           "country": "United States"
         }
       ]
@@ -363,13 +241,13 @@
         {
           "title": "Opinion : If You Think the End of the Iran War Will Lead to a  Trump Bump  on Wall Street , Youll Be Sorely Disappointed",
           "domain": "fool.com",
-          "date": "20260405T124500Z",
+          "date": "20260405T211500Z",
           "country": "United States"
         },
         {
-          "title": "Opinion : If You Think the End of the Iran War Will Lead to a  Trump Bump  on Wall Street , Youll Be Sorely Disappointed",
+          "title": "Are Stagflation Fears Creeping Back Into the Picture ? Here What the Data and Fed Chair Jerome Powell Have to Say .",
           "domain": "fool.com",
-          "date": "20260405T211500Z",
+          "date": "20260407T093000Z",
           "country": "United States"
         },
         {
@@ -385,6 +263,12 @@
           "country": "China"
         },
         {
+          "title": "Top CD rates April 7 , 2026 : Lock in up to up to 4 . 20 %",
+          "domain": "fortune.com",
+          "date": "20260407T111500Z",
+          "country": "United States"
+        },
+        {
           "title": "FinancialContent - Resilience Amidst the Storm : March Jobs Report Defies Expectations as Energy Inflation Looms",
           "domain": "markets.financialcontent.com",
           "date": "20260406T214500Z",
@@ -397,22 +281,16 @@
           "country": "United States"
         },
         {
-          "title": "Key Events This Week : CPI , PCE , Durable , FOMC Minutes And More",
-          "domain": "zerohedge.com",
-          "date": "20260406T141500Z",
-          "country": "United States"
-        },
-        {
           "title": "Iran War End Unlikely to Boost Wall Street , Analysts Suggest",
           "domain": "el-balad.com",
           "date": "20260405T224500Z",
           "country": "Egypt"
         },
         {
-          "title": "Week Ahead : Critical Inflation Test for Fed as Oil Price Shock Moves from Fear to Data",
-          "domain": "actionforex.com",
-          "date": "20260405T133000Z",
-          "country": "United Kingdom"
+          "title": "Key Events This Week : CPI , PCE , Durable , FOMC Minutes And More",
+          "domain": "zerohedge.com",
+          "date": "20260406T141500Z",
+          "country": "United States"
         },
         {
           "title": "FinancialContent - The  Warsh Shock : Resilient March Jobs Report Crowns the  Dollar King  as Gold and Silver Crater",
@@ -430,9 +308,21 @@
       ],
       "headlines": [
         {
+          "title": "Sweden Inflation Rises To 0 . 6 %",
+          "domain": "finanznachrichten.de",
+          "date": "20260407T091500Z",
+          "country": "Germany"
+        },
+        {
           "title": "US inflation seen spiking in first snapshot since Iran war",
           "domain": "finance.yahoo.com",
           "date": "20260405T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Why April 10 Could Be a Big Day for the Stock Market",
+          "domain": "fool.com",
+          "date": "20260407T123000Z",
           "country": "United States"
         },
         {
@@ -450,20 +340,8 @@
         {
           "title": "Retirees Could Get a Much Bigger Social Security Raise in 2027 -- Thanks to Inflation",
           "domain": "fool.com",
-          "date": "20260405T124500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Retirees Could Get a Much Bigger Social Security Raise in 2027 -- Thanks to Inflation",
-          "domain": "fool.com",
           "date": "20260405T231500Z",
           "country": "United States"
-        },
-        {
-          "title": "Week Ahead : Critical Inflation Test for Fed as Oil Price Shock Moves from Fear to Data",
-          "domain": "actionforex.com",
-          "date": "20260405T133000Z",
-          "country": "United Kingdom"
         },
         {
           "title": "US Inflation Surges in First Report Post - Iran Conflict",
@@ -493,72 +371,11 @@
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Crypto News : Pepeto Reveals Defi Tools While Bitcoin Price Prediction Points to $200 , 000 and a Bull Run While Markets Hunt for the Next Dogecoin",
-          "domain": "portal.sina.com.hk",
-          "date": "20260406T053000Z",
-          "country": "Hong Kong"
-        },
-        {
-          "title": "This Bitcoin Trader Lost Millions In 2 Weeks , Here How",
-          "domain": "newsbtc.com",
-          "date": "20260407T033000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Analyst Reveals How To Trade The Bitcoin Cycle , Predicts When Price Will Hit $215 , 000",
-          "domain": "newsbtc.com",
-          "date": "20260407T033000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Drops Below $67K on Trump Speech",
-          "domain": "riotimesonline.com",
-          "date": "20260406T101500Z",
-          "country": "Brazil"
-        },
-        {
-          "title": "5 Best Crypto Casinos in 2026 - Top Bitcoin Casino Sites",
-          "domain": "punchng.com",
-          "date": "20260406T154500Z",
-          "country": "Nigeria"
-        },
-        {
-          "title": "Bitcoin price analysis : BTC enters April at its most hated level since the war began",
-          "domain": "coindesk.com",
-          "date": "20260405T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Liberation Day  Trump Tariff Shock Sends Bitcoin Toward $66K",
-          "domain": "forbes.com",
-          "date": "20260405T200000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Standard Chartered Bank Predicts $500K Bitcoin as Price Climbs",
-          "domain": "finance.yahoo.com",
-          "date": "20260406T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin News : Large Holders Distribute 188 , 000 BTC While Schwab",
-          "domain": "openpr.com",
-          "date": "20260405T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Polkadot News : DOT at $1 . 24 Down 97 % From ATH as Large BTC Holders",
-          "domain": "openpr.com",
-          "date": "20260405T131500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -592,6 +409,12 @@
           "country": "Morocco"
         },
         {
+          "title": "crude oil update : Why are oil prices nearing $110 , and will Brent and US WTI crude futures continue to rise or fall again ? Analysts insights , market outlook and what should investors do now",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260407T110000Z",
+          "country": "India"
+        },
+        {
           "title": "AAA : Average Rhode Island gas price climbs 17 cents week over week",
           "domain": "thewesterlysun.com",
           "date": "20260407T000000Z",
@@ -619,12 +442,6 @@
           "title": "Gas prices rise again Sunday , remain above $4 as upward trend continues",
           "domain": "wfmynews2.com",
           "date": "20260405T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices continue slow but steady climb in month 2 of the US - Iran war",
-          "domain": "wwltv.com",
-          "date": "20260406T204500Z",
           "country": "United States"
         }
       ]
@@ -656,6 +473,12 @@
           "domain": "nypost.com",
           "date": "20260406T190000Z",
           "country": "United States"
+        },
+        {
+          "title": "KEEPING IT JAMAICAN - Jamaica Observer",
+          "domain": "jamaicaobserver.com",
+          "date": "20260407T110000Z",
+          "country": "Jamaica"
         },
         {
           "title": "World Cup should not be about  making as much money as possible  – Swinney",
@@ -694,16 +517,10 @@
           "country": "United Kingdom"
         },
         {
-          "title": "World Cup tickets  simply unaffordable  for too many Scotland fans , Swinney says",
-          "domain": "echo-news.co.uk",
-          "date": "20260405T221500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup tickets  simply unaffordable  for too many Scotland fans , Swinney says",
-          "domain": "salisburyjournal.co.uk",
-          "date": "20260405T221500Z",
-          "country": "United Kingdom"
+          "title": "Why Montreal isnt hosting the World Cup and FIFA rigid rules for Toronto , Vancouver",
+          "domain": "cbc.ca",
+          "date": "20260407T110000Z",
+          "country": "Canada"
         }
       ]
     },
@@ -833,16 +650,16 @@
           "country": "United States"
         },
         {
-          "title": "Anthropic Blocks OpenClaw from Claude Subscriptions to Cut Costs",
-          "domain": "el-balad.com",
-          "date": "20260406T124500Z",
-          "country": "Egypt"
-        },
-        {
           "title": "The  skills  could well change the way we use ChatGPT ( and AI in general )",
           "domain": "myhostnews.com",
           "date": "20260405T150000Z",
           "country": "United States"
+        },
+        {
+          "title": "Anthropic Blocks OpenClaw from Claude Subscriptions to Cut Costs",
+          "domain": "el-balad.com",
+          "date": "20260406T124500Z",
+          "country": "Egypt"
         }
       ]
     },
@@ -853,6 +670,18 @@
         "gta-6-launch-postponed-again"
       ],
       "headlines": [
+        {
+          "title": "Former Rockstar developer believes GTA VI will borrow ideas from Red Dead Redemption 2",
+          "domain": "femalefirst.co.uk",
+          "date": "20260407T130000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "GTA 6 Release Date Update Addresses Third Delay",
+          "domain": "screenrant.com",
+          "date": "20260407T123000Z",
+          "country": "United States"
+        },
         {
           "title": "GTA 6 Leak Reveals New Next - Gen Feature",
           "domain": "comicbook.com",
@@ -866,10 +695,10 @@
           "country": "Azerbaijan"
         },
         {
-          "title": "Take - Two Interactive cuts AI team ahead of GTA VI release",
-          "domain": "thenews.com.pk",
-          "date": "20260405T104500Z",
-          "country": "Pakistan"
+          "title": "Grand Theft Auto 5  is leaving Xbox Game Pass this month",
+          "domain": "nme.com",
+          "date": "20260407T093000Z",
+          "country": "United Kingdom"
         },
         {
           "title": "The Best Open - World Games Still Stuck on Older Systems",
@@ -878,40 +707,28 @@
           "country": "Japan"
         },
         {
+          "title": "GTA 6 might not feature an entirely rebuilt Rage Engine after all , as one report says it more of an expansion on what Rockstar used in Red Dead Redemption 2",
+          "domain": "gamesradar.com",
+          "date": "20260407T111500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Here What Some Former Rockstar Devs Have To Say About GTA 6",
+          "domain": "gameranx.com",
+          "date": "20260407T110000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA IV Datamining Raises The Question : Was GTA Chinatown Wars Originally GTA IV DLC ?",
+          "domain": "gameranx.com",
+          "date": "20260407T110000Z",
+          "country": "United States"
+        },
+        {
           "title": "Take - Two Interactive Lays Off AI Team After CEO Dismisses Tech Ability to Create Next  GTA",
           "domain": "techstory.in",
           "date": "20260405T201500Z",
           "country": "India"
-        },
-        {
-          "title": "Dataminers Believe GTA V Was Hiding The Protagonist Of Cancelled Spy Game Agent",
-          "domain": "gameranx.com",
-          "date": "20260406T061500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Former Rockstar Audio Engineer Says  My 20 - Year Tenure is No Longer Good Enough to Get a Job",
-          "domain": "gamingbolt.com",
-          "date": "20260406T164500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "Netflix debuts Playground gaming app for kids",
-          "domain": "perthnow.com.au",
-          "date": "20260406T203000Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Netflix debuts new  Playground  gaming app for kids",
-          "domain": "thestar.com.my",
-          "date": "20260407T010000Z",
-          "country": "Malaysia"
-        },
-        {
-          "title": "A Leap of Fail , Expanding Arkham , and Supernatural San Andreas : Here are some of Gamereactor favourite Easter Eggs -",
-          "domain": "gamereactor.eu",
-          "date": "20260405T133000Z",
-          "country": "United States"
         }
       ]
     }
