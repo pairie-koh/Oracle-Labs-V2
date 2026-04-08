@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 07 10:50 PM PT</strong> (6m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (128m)</span>
-            <span>Scored: <strong>309</strong> predictions | Logged: <strong>528</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 08 02:09 AM PT</strong> (7m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (167m)</span>
+            <span>Scored: <strong>312</strong> predictions | Logged: <strong>531</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(20d 3h ago)</span>
+            <span class="dim">(20d 6h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-07
+                    <div class="iter-text"># momentum — 2026-04-08
 
-Version: 1.18.0 -&gt; 1.19.0
+Version: 1.19.0 -&gt; 1.20.0
 
-The current momentum and reversion weights (0.15 each) are far too conservative, causing predictions to barely deviate from current prices and resulting in terrible directional accuracy of 15%. I&#x27;m increasing both MOMENTUM_WEIGHT and REVERSION_WEIGHT from 0.15 to 0.6 each to make more decisive predictions that can actually capture market movements. This should significantly improve directional accuracy and help beat the naive baseline by making predictions that meaningfully differ from the current price.</div>
+The agent&#x27;s directional accuracy of 16.48% indicates momentum signals are consistently wrong. In the current &quot;regime_fall&quot; environment, aggressive momentum extrapolation is counterproductive. I&#x27;m reducing MOMENTUM_WEIGHT from 0.6 to 0.3 to make the agent less aggressive about following recent price movements and allow more mean-reverting behavior, which should be more appropriate during falling market conditions.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-07
+                    <div class="iter-text"># historian — 2026-04-08
 
-Version: 1.18.0 -&gt; 1.19.0
+Version: 1.19.0 -&gt; 1.20.0
 
-I&#x27;m reducing the REVERSION_RATE from 0.015 to 0.008 to be less aggressive about mean reversion. The current rate appears to be fighting against genuine market movements too strongly, resulting in poor directional accuracy and MSE above the naive baseline. A gentler reversion rate should allow me to better follow market trends while still providing some stabilizing effect. This change should improve both directional accuracy and overall MSE performance.</div>
+I&#x27;m increasing the REVERSION_RATE from 0.008 to 0.025 to make mean reversion more aggressive. The current rate is too weak, leading to poor directional accuracy (21.54%) and MSE above the naive baseline. With stronger mean reversion, I should better capture the tendency for extreme movements to reverse, which is core to my historical perspective. This should improve both directional accuracy and MSE performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-07
+                    <div class="iter-text"># game_theorist — 2026-04-08
 
-Version: 1.18.0 -&gt; 1.19.0
+Version: 1.19.0 -&gt; 1.20.0
 
-I&#x27;m reducing ESCALATION_SENSITIVITY from 0.025 to 0.01 to address the terrible directional accuracy of 19.4%. The current sensitivity appears to be causing systematic overreaction to signals, leading to predictions that consistently move in the wrong direction. By reducing the sensitivity, I hope to make smaller, more accurate adjustments that better reflect the actual market dynamics rather than overshooting the target.</div>
+I&#x27;m reducing ESCALATION_SENSITIVITY from 0.01 to 0.003 to dramatically reduce the magnitude of my price movements. My signal detection appears to be working well (98.72% directional accuracy on regime_fall), but I&#x27;m moving way too aggressively on those signals, causing my MSE to be 421x worse than baseline. This should maintain my directional accuracy while bringing my predictions much closer to actual market movements.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-07
+                    <div class="iter-text"># quant — 2026-04-08
 
-Version: 1.18.0 -&gt; 1.19.0
+Version: 1.19.0 -&gt; 1.20.0
 
-Reverting momentum calculation from EWMA back to linear regression slope. The EWMA approach appears to be generating too much noise in the momentum signal, contributing to poor directional accuracy. Linear regression provides a more stable trend estimate by fitting a line through recent price points rather than exponentially weighting recent observations. This should improve signal quality in the current stable market regime where small price fluctuations might be causing EWMA to overreact.</div>
+I&#x27;m reducing the momentum blend weight from 0.5 to 0.2, giving much more weight to mean reversion (80% vs 20%). In a falling market regime, momentum-based predictions likely cause the model to chase trends downward when prices should revert to mean. This should improve directional accuracy by favoring reversion over trend continuation. The current 8.24% directional accuracy suggests the model is systematically wrong, likely due to over-relying on momentum in a mean-reverting environment.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -246,10 +246,10 @@ Reverting momentum calculation from EWMA back to linear regression slope. The EW
             <div class="market-block">
                 <div class="market-header">
                     <strong>Regime Fall</strong>
-                    <span class="current-price">0.0850</span>
+                    <span class="current-price">0.0750</span>
                 </div>
                 <div class="price-changes">
-                    4h: <span class="">+0.0000</span>
+                    4h: <span class="down">-0.0100</span>
                     &nbsp; 24h: <span class="down">-0.0400</span>
                 </div>
                 
@@ -257,25 +257,25 @@ Reverting momentum calculation from EWMA back to linear regression slope. The EW
                     <span class="dot" style="background:#e74c3c"></span>
                     <span class="agent-name">Momentum</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0750</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#3498db"></span>
                     <span class="agent-name">Historian</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0750</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#f39c12"></span>
                     <span class="agent-name">Game Theorist</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0750</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#2ecc71"></span>
                     <span class="agent-name">Quant</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0750</span>
                 </div>
             </div>
     </div>
@@ -287,12 +287,12 @@ Reverting momentum calculation from EWMA back to linear regression slope. The EW
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.19.0</span>
+            <span class="dim">v1.20.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 07 10:56 PM PT (prev: Apr 07 08:15 PM PT)</div>
+        <div class="analysis-time dim">Apr 08 02:17 AM PT (prev: Apr 07 10:56 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,24 +303,24 @@ Reverting momentum calculation from EWMA back to linear regression slope. The EW
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.19.0</span>
+            <span class="dim">v1.20.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 07 10:56 PM PT (prev: Apr 07 08:15 PM PT)</div>
+        <div class="analysis-time dim">Apr 08 02:17 AM PT (prev: Apr 07 10:56 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.19.0</span>
+            <span class="dim">v1.20.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 07 10:56 PM PT (prev: Apr 07 08:15 PM PT)</div>
+        <div class="analysis-time dim">Apr 08 02:17 AM PT (prev: Apr 07 10:56 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
@@ -343,20 +343,20 @@ Reverting momentum calculation from EWMA back to linear regression slope. The EW
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,19.7 30.0,21.8 60.0,23.4 90.0,28.0 120.0,2.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.001570</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,22.3 30.0,23.8 60.0,28.0 90.0,4.2 120.0,2.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.001713</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,23.6 30.0,26.3 60.0,26.0 90.0,28.0 120.0,2.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#3498db" /></svg></span>
-            <span class="trend-val">0.005483</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,26.6 30.0,26.3 60.0,28.0 90.0,6.5 120.0,2.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.006611</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,25.0 30.0,15.5 60.0,28.0 90.0,2.5 120.0,2.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#f39c12" /></svg></span>
-            <span class="trend-val">0.429025</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,21.5 30.0,28.0 60.0,14.7 90.0,14.4 120.0,2.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.819025</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -379,14 +379,14 @@ Reverting momentum calculation from EWMA back to linear regression slope. The EW
         <div class="pnl-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="pnl-val down">$-7</span>
-            <span class="dim">1W/6L (7 trades)</span>
+            <span class="pnl-val down">$-11</span>
+            <span class="dim">1W/7L (8 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="pnl-val down">$-30</span>
-            <span class="dim">13W/30L (43 trades)</span>
+            <span class="pnl-val down">$-34</span>
+            <span class="dim">13W/31L (44 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -400,11 +400,11 @@ Reverting momentum calculation from EWMA back to linear regression slope. The EW
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>15</strong> facts:
-                <span class="esc">10 escalatory</span>,
-                <span class="deesc">4 de-escalatory</span>,
-                1 neutral
-            </div><div class="fact"><span class="dim">[diplomatic_signals]</span> Iran rejected a US-proposed ceasefire on April 6, 2026, aimed at pausing the war and reopening the S</div><div class="fact"><span class="dim">[diplomatic_signals]</span> The US presented a 15-point peace proposal to Iran on April 3-4, 2026, through indirect talks via Pa</div><div class="fact"><span class="dim">[diplomatic_signals]</span> Iranian officials rejected the US peace proposal on April 4, 2026, stating no realistic talks were p</div>
+                <strong>24</strong> facts:
+                <span class="esc">11 escalatory</span>,
+                <span class="deesc">10 de-escalatory</span>,
+                3 neutral
+            </div><div class="fact"><span class="dim">[diplomatic_signals]</span> US President Donald Trump set a deadline of 8 PM Eastern Time on April 8, 2026, threatening massive </div><div class="fact"><span class="dim">[military_pressure]</span> Iran&#x27;s media reported attacks on Kharg Island, bridges, and railway tracks as of April 8, 2026.</div><div class="fact"><span class="dim">[diplomatic_signals]</span> Iran rejected a US ceasefire proposal on April 6, 2026, to pause the war and reopen the Strait of Ho</div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ Reverting momentum calculation from EWMA back to linear regression slope. The EW
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Day 42 escalation has reached maximum intensity with US and Israeli forces destroying 13,000+ targets across Iran on April 7-8, 2026, while Trump&#x27;s contradictory diplomatic posturing (5-day pause thro</div>
-                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
+                <div class="state-status">Day 42 escalation has intensified with Trump issuing an 8 PM EDT April 8 deadline for Strait of Hormuz reopening while Israel accelerates strikes on Tehran airports and targeting senior IRGC officials</div>
+                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-07 10:56 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-08 02:17 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
