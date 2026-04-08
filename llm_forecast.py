@@ -195,7 +195,8 @@ CATEGORY_CUES = {
 - Same-day weather forecasts are highly accurate — trust the NWS forecast high.
 - Look at the hourly temperature progression — when does the peak occur?
 - Which temperature bucket does the forecast high fall into? Put 60-70% probability there.
-- Put 15-20% in each adjacent bucket to account for minor forecast errors.
+- For hot climates (Miami, etc): if forecast is 75°F+, bias toward HIGHER buckets since heat tends to exceed forecasts more than cool weather.
+- For moderate climates: put 15-20% in each adjacent bucket for forecast errors.
 - Put minimal probability (1-5%) in non-adjacent buckets unless there's extreme uncertainty.
 - Could rain, cloud cover, or wind cause the actual high to be 1-2 degrees off the forecast?
 - Be aggressive: if forecast says 67°F and the bucket is 65-69°F, that bucket should get most of your probability mass.""",

@@ -52,5 +52,14 @@
     "action": "no_change",
     "before_avg_se": 0.07627545000000001,
     "result": "no_change"
+  },
+  {
+    "date": "2026-04-08",
+    "summary": "Miami temperature contracts show 41% accuracy vs 69% for NYC, with avg SE of 0.064 vs 0.034. The model spreads probability across middle buckets but Miami consistently resolves in the highest bucket. The current guidance to put \"15-20% in each adjacent bucket\" creates too much mass in cooler tempera",
+    "action": "change",
+    "replacements_applied": 1,
+    "before_avg_se": 0.07161996739130436,
+    "after_avg_se": null,
+    "result": "pending"
   }
 ]
