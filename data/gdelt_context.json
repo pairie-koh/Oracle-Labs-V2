@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-08T02:59:40Z",
+  "fetched_at": "2026-04-08T05:54:20Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -19,15 +19,21 @@
           "country": "United States"
         },
         {
+          "title": "Donald Trump announces 11th - hour Iran ceasefire",
+          "domain": "aol.co.uk",
+          "date": "20260408T030000Z",
+          "country": "United Kingdom"
+        },
+        {
           "title": "What Iran 10 - point peace plan that Trump says is  not good enough ? | International Trade News",
           "domain": "aljazeera.com",
           "date": "20260407T134500Z",
           "country": "United States"
         },
         {
-          "title": "A Reminder for Trump Critics : Years of Diplomacy Ended in a Nuclear North Korea",
-          "domain": "legalinsurrection.com",
-          "date": "20260406T050000Z",
+          "title": "US , Iran OK 2 - week ceasefire , terms differ : Update",
+          "domain": "argusmedia.com",
+          "date": "20260408T033000Z",
           "country": "United States"
         },
         {
@@ -49,27 +55,21 @@
           "country": "United States"
         },
         {
-          "title": "Iran - US Ceasefire Talks : Pakistan Brokers  Islamabad Accord  to Reopen Strait of Hormuz",
-          "domain": "econotimes.com",
-          "date": "20260406T101500Z",
+          "title": "Bridge linking Saudi Arabia to Bahrain closed over Iranian threats as Trump deadline nears",
+          "domain": "fox61.com",
+          "date": "20260408T044500Z",
           "country": "United States"
         },
         {
-          "title": "Pakistan Proposes Immediate Iran - US Ceasefire ,  Islamabad Accord  To Reopen Strait Of Hormuz – Report",
-          "domain": "saharareporters.com",
-          "date": "20260406T111500Z",
-          "country": "Nigeria"
+          "title": "US and Iran agree to 2 - week ceasefire but Israel says deal doesnt include fight against Hezbollah - Boston News , Weather , Sports",
+          "domain": "whdh.com",
+          "date": "20260408T040000Z",
+          "country": "United States"
         },
         {
-          "title": "Iran claims  victory  over US and Israel after Trump ceasefire announcement : Full text here",
-          "domain": "hindustantimes.com",
-          "date": "20260408T013000Z",
-          "country": "India"
-        },
-        {
-          "title": "Iran resists as Trump ramps up threats , raising stakes for talks",
-          "domain": "komonews.com",
-          "date": "20260406T203000Z",
+          "title": "US and Iran agree to 2 - week ceasefire as Trump pulls back on threats",
+          "domain": "mercurynews.com",
+          "date": "20260408T044500Z",
           "country": "United States"
         }
       ]
@@ -113,12 +113,6 @@
           "country": "United Kingdom"
         },
         {
-          "title": "West Asia crisis : Iranian foreign minister dials EAM Jaishankar",
-          "domain": "siasat.com",
-          "date": "20260406T030000Z",
-          "country": "India"
-        },
-        {
           "title": "Pessimism Grows over Iraq Prospects for Resuming Oil Exports",
           "domain": "english.aawsat.com",
           "date": "20260406T113000Z",
@@ -135,6 +129,12 @@
           "domain": "cbsnews.com",
           "date": "20260406T204500Z",
           "country": "United States"
+        },
+        {
+          "title": "The war is turning Iran into a major world power",
+          "domain": "straitstimes.com",
+          "date": "20260408T033000Z",
+          "country": "Singapore"
         },
         {
           "title": "CORRECTED : Strait of Hormuz shipping blockade update",
@@ -284,72 +284,11 @@
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "Economist Mark Zandi Says There One Signal US May Already Be in Recession",
-          "domain": "businessinsider.com",
-          "date": "20260407T103000Z",
-          "country": "United States"
-        },
-        {
-          "title": "New  Vicious Cycle Index  points to  uncomfortably high  recession risks",
-          "domain": "newsweek.com",
-          "date": "20260407T151500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Will the RBA choose a recession for Australia ?",
-          "domain": "independentaustralia.net",
-          "date": "20260407T034500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Oil , Inflation , & Recession",
-          "domain": "zerohedge.com",
-          "date": "20260407T201500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Italy Service Sector Contracts for First Time in 16 Months Amid Rising Costs and Weakening Demand",
-          "domain": "econotimes.com",
-          "date": "20260407T110000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Are Stagflation Fears Creeping Back Into the Picture ? Here What the Data and Fed Chair Jerome Powell Have to Say .",
-          "domain": "fool.com",
-          "date": "20260407T093000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Will the RBA choose a recession for Australia",
-          "domain": "australiannews.net",
-          "date": "20260407T034500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Fitch unit cuts India economic growth targets amid Iran war",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260407T043000Z",
-          "country": "India"
-        },
-        {
-          "title": "March Jobs Report 2026 : $4 Gas Exposes Labor Market Cracks - State Street SPDR S & P Regional Banking ETF (",
-          "domain": "benzinga.com",
-          "date": "20260407T221500Z",
-          "country": "United States"
-        },
-        {
-          "title": "From falling U . S . wealth to Indian factory closures , oil shock raises global recession risk",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260407T204500Z",
-          "country": "India"
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -391,6 +330,12 @@
           "country": "United States"
         },
         {
+          "title": "Fed Jefferson  cautiou about labor market gains",
+          "domain": "americanbanker.com",
+          "date": "20260408T033000Z",
+          "country": "United States"
+        },
+        {
           "title": "Valuation Reset Amid Geopolitical Shock . Uncertainty Persists but Opportunities Are Emerging",
           "domain": "etftrends.com",
           "date": "20260406T201500Z",
@@ -412,12 +357,6 @@
           "title": "FinancialContent - The Wage Growth Whisper : Why a 0 . 2 % Reading Offers the Fed a Lifeline Amidst a Hiring Surge",
           "domain": "markets.financialcontent.com",
           "date": "20260406T173000Z",
-          "country": "United States"
-        },
-        {
-          "title": "FinancialContent - Strong Jobs Report : US Hiring Surprises as Unemployment Tumbles",
-          "domain": "markets.financialcontent.com",
-          "date": "20260407T214500Z",
           "country": "United States"
         }
       ]
@@ -450,12 +389,6 @@
           "country": "China"
         },
         {
-          "title": "Crypto News : Pepeto Reveals Defi Tools While Bitcoin Price Prediction Points to $200 , 000 and a Bull Run While Markets Hunt for the Next Dogecoin",
-          "domain": "portal.sina.com.hk",
-          "date": "20260406T053000Z",
-          "country": "Hong Kong"
-        },
-        {
           "title": "Bitcoin Rainbow Chart Says Price Is Ranging Above $60 , 000 For A Reason , Here Why",
           "domain": "newsbtc.com",
           "date": "20260407T174500Z",
@@ -480,6 +413,18 @@
           "country": "China"
         },
         {
+          "title": "Bitcoin Price Breaks $72 , 000 After US - Iran Ceasefire What Comes Next ?",
+          "domain": "newsbtc.com",
+          "date": "20260408T031500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Binance Case Study : Bitcoin Price Is Decoupling From the Fed and ETFs in 2026",
+          "domain": "finance.yahoo.com",
+          "date": "20260408T031500Z",
+          "country": "United States"
+        },
+        {
           "title": "Spot Bitcoin ETFs explained : Pros , cons and hidden risks",
           "domain": "nypost.com",
           "date": "20260407T094500Z",
@@ -490,12 +435,6 @@
           "domain": "finance.yahoo.com",
           "date": "20260408T001500Z",
           "country": "United States"
-        },
-        {
-          "title": "Bitcoin Drops Below $67K on Trump Speech",
-          "domain": "riotimesonline.com",
-          "date": "20260406T101500Z",
-          "country": "Brazil"
         }
       ]
     },
@@ -531,15 +470,15 @@
           "country": "United States"
         },
         {
-          "title": "Oregon Gas Prices Top $5 A Gallon | K103 Portland",
-          "domain": "k103.iheart.com",
-          "date": "20260407T213000Z",
-          "country": "United States"
-        },
-        {
           "title": "Oregon Gas Prices Top $5 A Gallon",
           "domain": "jamn1075.iheart.com",
           "date": "20260407T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oregon Gas Prices Top $5 A Gallon | K103 Portland",
+          "domain": "k103.iheart.com",
+          "date": "20260407T213000Z",
           "country": "United States"
         },
         {
@@ -550,162 +489,40 @@
         },
         {
           "title": "War in Iran : Oil markets changed forever by Donald Trump",
-          "domain": "watoday.com.au",
-          "date": "20260408T023000Z",
+          "domain": "smh.com.au",
+          "date": "20260408T024500Z",
           "country": "Australia"
         },
         {
-          "title": "AAA : TN Gas Prices Surge 22 Cents",
-          "domain": "939theduck.com",
-          "date": "20260406T231500Z",
-          "country": ""
+          "title": "War in Iran : Oil markets changed forever by Donald Trump",
+          "domain": "theage.com.au",
+          "date": "20260408T030000Z",
+          "country": "Australia"
         },
         {
-          "title": "Will the Stock Market Crash as the Oil Shock Hits the Economy ? History Says the S & P 500 Will Do This Next .",
-          "domain": "fool.com",
-          "date": "20260406T110000Z",
-          "country": "United States"
+          "title": "War in Iran : Oil markets changed forever by Donald Trump",
+          "domain": "watoday.com.au",
+          "date": "20260408T023000Z",
+          "country": "Australia"
         }
       ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": [
-        {
-          "title": "Democrats Get  Record - Breaking  Boost Heading Into Midterms",
-          "domain": "newsweek.com",
-          "date": "20260406T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "CNN Data Guru Hits Dems With Shock Poll Reality",
-          "domain": "thedailybeast.com",
-          "date": "20260406T190000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Georgia special congressional runoff",
-          "domain": "clickorlando.com",
-          "date": "20260406T113000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Georgia special congressional runoff",
-          "domain": "isp.netscape.com",
-          "date": "20260406T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Republicans Could Lose These Four Senate Seats : Analyst",
-          "domain": "newsweek.com",
-          "date": "20260407T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Poll Reveals Donald Trump Bleeding Support in Grave Midterm Warning",
-          "domain": "thedailybeast.com",
-          "date": "20260406T190000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Republican Clay Fuller Defeats Shawn Harris in Race for Greene Former Seat",
-          "domain": "coosavalleynews.com",
-          "date": "20260408T021500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Steve Daine handpicked Senate successor Kurt Alme vows to keep Montana in Republican hands in 2026",
-          "domain": "yahoo.com",
-          "date": "20260407T151500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to expect in Georgia special congressional runoff",
-          "domain": "wdbo.com",
-          "date": "20260406T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to expect in Georgia special congressional runoff",
-          "domain": "wgauradio.com",
-          "date": "20260406T120000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "Falconets resume camp in Abuja ahead of Malawi qualifier",
-          "domain": "theeagleonline.com.ng",
-          "date": "20260407T191500Z",
-          "country": "Nigeria"
-        },
-        {
-          "title": "NYC taxpayers to shell out whopping $90M on FIFA World Cup",
-          "domain": "nypost.com",
-          "date": "20260406T190000Z",
-          "country": "United States"
-        },
-        {
-          "title": "KEEPING IT JAMAICAN - Jamaica Observer",
-          "domain": "jamaicaobserver.com",
-          "date": "20260407T110000Z",
-          "country": "Jamaica"
-        },
-        {
-          "title": "World Cup should not be about  making as much money as possible  – Swinney",
-          "domain": "edp24.co.uk",
-          "date": "20260406T130000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup should not be about  making as much money as possible  – Swinney",
-          "domain": "theargus.co.uk",
-          "date": "20260406T143000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup should not be about  making as much money as possible  – Swinney",
-          "domain": "ipswichstar.co.uk",
-          "date": "20260406T131500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "John Swinney calls on FIFA to act on World Cup ticket pricing",
-          "domain": "heraldscotland.com",
-          "date": "20260406T070000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Why Montreal isnt hosting the World Cup and FIFA rigid rules for Toronto , Vancouver",
-          "domain": "cbc.ca",
-          "date": "20260407T110000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "World Cup should not be about  making as much money as possible  – Swinney",
-          "domain": "eveningnews24.co.uk",
-          "date": "20260406T143000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "World Cup should not be about  making as much money as possible  – Swinney",
-          "domain": "oxfordmail.co.uk",
-          "date": "20260406T124500Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -809,16 +626,22 @@
           "country": "United States"
         },
         {
+          "title": "Anthropic claims its new AI model , Mythos , is a cybersecurity  reckoning",
+          "domain": "theglobeandmail.com",
+          "date": "20260408T031500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Anthropic New Model Is So Scarily Powerful It Wont Be Released , Anthropic Says",
+          "domain": "gizmodo.com",
+          "date": "20260408T043000Z",
+          "country": "United States"
+        },
+        {
           "title": "Anthropic Launches  Project Glasswing  to Stealthily Spot Cybersecurity Issues for Rivals",
           "domain": "gizmodo.com",
           "date": "20260407T210000Z",
           "country": "United States"
-        },
-        {
-          "title": "Azerbaijan lifts veil on AI chatbot market share data for March 2026",
-          "domain": "trend.az",
-          "date": "20260406T050000Z",
-          "country": "Azerbaijan"
         },
         {
           "title": "Anthropic launches Project Glasswing for cyber defence",
@@ -831,12 +654,6 @@
           "domain": "finance.yahoo.com",
           "date": "20260407T160000Z",
           "country": "United States"
-        },
-        {
-          "title": "Anthropic Blocks OpenClaw from Claude Subscriptions to Cut Costs",
-          "domain": "el-balad.com",
-          "date": "20260406T124500Z",
-          "country": "Egypt"
         },
         {
           "title": "AGENTS . md : Helpful agent briefing or token hog ?",
