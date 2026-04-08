@@ -1,52 +1,7 @@
 [
   {
-    "claim": "US conducted strikes on Iranian nuclear facilities on April 7, 2026, using B-2 bombers and a 30,000-pound bunker buster bomb against Fordow, Natanz, and Isfahan sites.",
-    "source": "US military/Trump administration statements",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-07T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "President Trump claimed Iranian nuclear facilities were 'totally obliterated' in the April 7 strikes.",
-    "source": "Trump administration statements",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-07T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iran announced the 98th wave of 'Operation True Promise 4' on April 8, 2026, including IRGC Navy cruise missile strikes on multiple US and Israeli targets.",
-    "source": "Iranian IRGC spokesperson",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-08T00:04:38Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iranian IRGC Navy conducted cruise missile strikes on the container ship SDN7, causing extensive fire.",
-    "source": "Iranian IRGC spokesperson",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "Iranian forces intercepted multiple drones including Orbit, Hermes 900, and MQ9 aircraft over Iranian territory.",
-    "source": "Iranian IRGC spokesperson",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "Israeli Prime Minister Netanyahu praised the US strikes on April 7 as a 'very successful attack' embodying 'peace through strength.'",
-    "source": "Israeli government statement",
+    "claim": "President Trump announced a conditional two-week ceasefire with Iran on April 7, 2026, suspending U.S. bombing in exchange for Iran halting defensive operations and ensuring safe passage through the Strait of Hormuz.",
+    "source": "Pentagon briefing",
     "source_category": "government_official",
     "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
@@ -54,183 +9,246 @@
     "confidence": "high"
   },
   {
-    "claim": "Supreme Leader Ali Khamenei was killed in US-Israeli strikes on February 28, 2026.",
-    "source": "Iranian government/diplomatic sources",
+    "claim": "The Pentagon declared victory over Iran under Operation Epic Fury, detailed in a briefing by Secretary of War Pete Hegseth and Joint Chiefs Chairman Gen. Dan Caine on April 8, 2026.",
+    "source": "Pentagon briefing",
     "source_category": "government_official",
-    "indicator_category": "succession_dynamics",
+    "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-02-28T00:00:00Z",
+    "time": "2026-04-08T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Mojtaba Khamenei was appointed successor to Supreme Leader by the Assembly of Experts following Ali Khamenei's death.",
-    "source": "Iranian government sources",
-    "source_category": "government_official",
-    "indicator_category": "succession_dynamics",
+    "claim": "Explosions were reported on Iranian Gulf islands including near Lavan Island Oil Refinery (at least three blasts) and Siri Island hours after the ceasefire announcement on April 9, 2026.",
+    "source": "Wire service report",
+    "source_category": "wire_service",
+    "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-02-28T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "The IRGC stated it will respect the ceasefire per orders from Supreme Leader Ayatollah Seyyed Mojtaba Khamenei but will keep 'fingers on the trigger' and remain prepared for escalated response.",
+    "source": "IRGC statement",
+    "source_category": "government_official",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Reports indicate a leadership vacuum in Iran with Mojtaba Khamenei possibly injured and no unified command.",
-    "source": "Diplomatic/intelligence reports",
+    "claim": "Iran launched missiles intercepted by Jordan and a missile barrage targeted by UAE air defenses; Kuwait responded to an extensive wave of Iranian drones.",
+    "source": "Wire service report",
+    "source_category": "wire_service",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "A gas processing facility in Abu Dhabi was hit by Iranian fire, igniting a fire that restarted after temporary halt on April 9, 2026.",
+    "source": "Wire service report",
+    "source_category": "wire_service",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Iranian Foreign Minister Seyed Abbas Araghchi confirmed halting defensive operations if the U.S. stops attacks and proposed a 10-point plan including U.S. withdrawal and Strait control.",
+    "source": "Government official statement",
+    "source_category": "government_official",
+    "indicator_category": "diplomatic_signals",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Supreme Leader Ali Khamenei was killed in late February 2026 in U.S./Israel strikes; his son Mojtaba Khamenei was appointed successor by the Assembly of Experts.",
+    "source": "News report",
+    "source_category": "wire_service",
+    "indicator_category": "succession_dynamics",
+    "market": "regime_fall",
+    "time": "2026-02-28T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "President Masoud Pezeshkian faces complete political deadlock and backlash for signaling conditional war-ending willingness, with the IRGC assuming key state functions.",
+    "source": "News analysis",
     "source_category": "regional_specialist",
-    "indicator_category": "succession_dynamics",
+    "indicator_category": "internal_stability",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "A two-week US-Iran ceasefire took effect on April 8, 2026, with Israel also agreeing to the terms.",
-    "source": "US and Iranian government sources",
+    "claim": "Pezeshkian appointed IRGC hardliner Mohammad Bagher Zolghadr as Supreme National Security Council secretary, replacing assassinated Ali Larijani.",
+    "source": "News report",
+    "source_category": "wire_service",
+    "indicator_category": "succession_dynamics",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Tensions exist between IRGC chief Ahmad Vahidi and President Pezeshkian over war management and economic fallout.",
+    "source": "News analysis",
+    "source_category": "regional_specialist",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Hardliners branded ex-Foreign Minister Mohammad Javad Zarif a traitor for anti-war calls and urged his arrest along with ex-President Hassan Rouhani.",
+    "source": "State media report",
+    "source_category": "government_official",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "State TV warned civilians against revealing officials' locations and frames protests as enemy warfare.",
+    "source": "State media report",
+    "source_category": "government_official",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "President Trump announced productive and constructive talks with Iran, postponing strikes on its power grid and energy infrastructure for at least five days.",
+    "source": "Trump statement",
     "source_category": "government_official",
     "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "US President Trump postponed attacks on Iranian energy infrastructure and power plants for at least five days.",
-    "source": "Trump administration statements",
+    "claim": "U.S. envoys Steve Witkoff and Jared Kushner are leading negotiations with a top Iranian official according to Trump's claim.",
+    "source": "Trump statement",
     "source_category": "government_official",
     "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "high"
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
   },
   {
-    "claim": "US envoys Steve Witkoff and Jared Kushner engaged a top Iranian official by phone regarding ceasefire negotiations.",
-    "source": "US government statements",
-    "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iran received a 15-point US peace plan via Pakistan that includes reopening the Strait of Hormuz, missile limits, sanctions relief, and nuclear rollback.",
-    "source": "US and Iranian government sources",
-    "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "President Masoud Pezeshkian publicly accused IRGC commanders of sabotaging the ceasefire, exposing top-level rifts.",
+    "claim": "Iran denies direct talks with the U.S. but acknowledges messages via friendly states including Egypt, Pakistan, and Turkey.",
     "source": "Iranian government statement",
     "source_category": "government_official",
-    "indicator_category": "internal_stability",
+    "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Iranian hardliners labeled ex-Foreign Minister Zarif a 'traitor' for urging war's end and called for his arrest.",
-    "source": "Iranian hardline faction statements",
+    "claim": "A 15-point U.S. peace plan delivered via Pakistan calls for reopening the Strait of Hormuz, missile limits, sanctions relief, and nuclear rollback.",
+    "source": "News report",
+    "source_category": "wire_service",
+    "indicator_category": "diplomatic_signals",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Iran's Foreign Minister Abbas Araghchi is reviewing the U.S. peace plan without intent to negotiate, while a senior official insists war ends only on Tehran's terms.",
+    "source": "Iranian government statement",
     "source_category": "government_official",
-    "indicator_category": "internal_stability",
+    "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Mohammad Bagher Zolghadr, a hardline ex-IRGC deputy, replaced the killed Ali Larijani as Security Council chief.",
-    "source": "Iranian government sources",
+    "claim": "Trump issued ultimatums to reopen the Strait by Tuesday or face destruction of power plants and threatened seizing Kharg Island and Iran's oil.",
+    "source": "Trump statement",
     "source_category": "government_official",
-    "indicator_category": "internal_stability",
+    "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "War has severed Iran's Dubai trade lifeline and triggered 'violent' economic shocks from declining checks and balances.",
-    "source": "Economic analysis/diplomatic reports",
+    "claim": "Iran released 20 cargo ships starting Monday but portrays Strait control as a financial asset.",
+    "source": "News report",
+    "source_category": "wire_service",
+    "indicator_category": "economic_collapse",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "War exacerbates sanctions' toll on livelihoods, with IRGC-Pezeshkian disputes over economic damage.",
+    "source": "News analysis",
     "source_category": "regional_specialist",
     "indicator_category": "economic_collapse",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "A drone attack damaged Saudi Arabia's East-West oil pipeline hours after the ceasefire took effect.",
-    "source": "Regional reporting",
-    "source_category": "regional_specialist",
-    "indicator_category": "military_pressure",
+    "claim": "Trump ratcheted sanctions prior to the war, and threats target infrastructure and oil to force Strait reopening.",
+    "source": "News analysis",
+    "source_category": "wire_service",
+    "indicator_category": "economic_collapse",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "Trump plans to remove Iran's nuclear material and considers extracting enriched uranium.",
-    "source": "Trump administration statements",
+    "claim": "State broadcaster escalates anti-dissent rhetoric, portraying protests as enemy-orchestrated amid strikes on intelligence compounds and Basij bases.",
+    "source": "State media report",
     "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
+    "indicator_category": "internal_stability",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Intensive pre-deadline strikes killed 49 civilians and injured 58 on Monday per HRANA reporting.",
-    "source": "HRANA (Human Rights Activists News Agency)",
-    "source_category": "regional_specialist",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-06T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "Security forces executed at least five protesters last week on protest- and security-related charges.",
-    "source": "Human rights reporting",
+    "claim": "Recent protests are cited as the most serious unrest ever faced by the regime.",
+    "source": "News analysis",
     "source_category": "regional_specialist",
     "indicator_category": "internal_stability",
     "market": "regime_fall",
-    "time": "2026-04-01T00:00:00Z",
-    "confidence": "medium"
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "low"
   },
   {
-    "claim": "Iran affirmed continued defense using 'all means necessary' against US and Israeli actions.",
-    "source": "Iranian government statement",
-    "source_category": "government_official",
+    "claim": "Israel accelerated strikes on Tehran airports, aircraft, and IRGC intelligence chief Majid Khademi.",
+    "source": "News report",
+    "source_category": "wire_service",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "high"
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "medium"
   },
   {
-    "claim": "Parliament speaker Mohammad Bagher Ghalibaf denied that US-Iran direct talks occurred.",
-    "source": "Iranian government statement",
-    "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Combined force strikes disrupted Iranian railways and roads, potentially limiting weapons transport, per April 7 analysis.",
-    "source": "Military analysis",
-    "source_category": "regional_specialist",
+    "claim": "Houthis entered the war, potentially threatening Bab al-Mandab.",
+    "source": "News report",
+    "source_category": "wire_service",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-04-07T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
+    "confidence": "low"
+  },
+  {
+    "claim": "The U.S. rescued a downed F-15E pilot.",
+    "source": "News report",
+    "source_category": "wire_service",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "Iran insists the war ends only on its terms, including cessation of all-front fighting and non-aggression guarantees.",
-    "source": "Iranian government statements",
-    "source_category": "government_official",
+    "claim": "Iran's parliament speaker Mohammad Bagher Ghalibaf denied U.S. talks on social media.",
+    "source": "Social media statement",
+    "source_category": "social_media",
     "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
+    "time": "2026-04-09T00:00:00Z",
     "confidence": "high"
-  },
-  {
-    "claim": "Mediators including Egypt, Pakistan, and Turkey have conveyed messages between US and Iran.",
-    "source": "Diplomatic reporting",
-    "source_category": "regional_specialist",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "medium"
   }
 ]
