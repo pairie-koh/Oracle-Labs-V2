@@ -1,17 +1,78 @@
 {
-  "fetched_at": "2026-04-09T09:22:08Z",
+  "fetched_at": "2026-04-09T14:02:58Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Iran ceasefire : trust will be vital but it in short supply right now",
+          "domain": "theconversation.com",
+          "date": "20260408T131500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "US , Iran to hold 1st round of talks on peace deal in Pakistan on Saturday : White House",
+          "domain": "koreaherald.com",
+          "date": "20260409T004500Z",
+          "country": "South Korea"
+        },
+        {
+          "title": "Trump Called 90 Million Iranians Animals , So Bombing Them Is Just  Pest Control",
+          "domain": "crooksandliars.com",
+          "date": "20260407T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran representative hails nation  indescribable  historical greatness amid crisis , Deputy Speaker warns leader wont sign unless conditions met",
+          "domain": "aninews.in",
+          "date": "20260408T111500Z",
+          "country": "India"
+        },
+        {
+          "title": "Donald Trump announces 11th - hour Iran ceasefire",
+          "domain": "aol.co.uk",
+          "date": "20260408T030000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "No Uranium enrichment : Trump claims  regime change  in Iran , ties ceasefire to nuclear curbs & tariffs",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260408T130000Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran Declares  Win  After Ceasefire , Warns Conflict Not Over",
+          "domain": "siliconindia.com",
+          "date": "20260408T060000Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran and Donald Trump red lines as two - week ceasefire begins",
+          "domain": "newsweek.com",
+          "date": "20260409T030000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US , Iran OK 2 - week ceasefire , terms differ : Update",
+          "domain": "argusmedia.com",
+          "date": "20260408T033000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Europe hails US - Iran ceasefire . Yet major questions hang over deal",
+          "domain": "euronews.com",
+          "date": "20260408T144500Z",
+          "country": "United States"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -154,11 +215,72 @@
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Trump election order , SAVE Act , rely on  flawed  system",
+          "domain": "upi.com",
+          "date": "20260407T163000Z",
+          "country": "United States"
+        },
+        {
+          "title": "SAVE America Act Has Failsafe To Ensure Enforcement",
+          "domain": "zerohedge.com",
+          "date": "20260409T011500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Susan Collins has taken a bold stand for secure elections",
+          "domain": "pressherald.com",
+          "date": "20260408T123000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Susan Collins has taken a bold stand for secure elections",
+          "domain": "centralmaine.com",
+          "date": "20260408T123000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Sen . Graham seeks way to push elements of SAVE Act through reconciliation package",
+          "domain": "abcnews4.com",
+          "date": "20260408T233000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Sen . Graham eyes reconciliation to advance SAVE Act voter ID provisions",
+          "domain": "foxnews.com",
+          "date": "20260407T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Federal Elections Policy : Executive Orders , Legislation and County Impacts",
+          "domain": "naco.org",
+          "date": "20260408T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Why I Believe the Senate Must Reject the SAVE America Act",
+          "domain": "thenation.com",
+          "date": "20260407T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The  raving and  falsehood of Trump planned AG pick are getting  scarier : lawyer",
+          "domain": "alternet.org",
+          "date": "20260408T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Republican grand plan to fund ICE is crumbling under the weight of too many bizarre demands , and it getting worse",
+          "domain": "attackofthefanboy.com",
+          "date": "20260408T000000Z",
+          "country": "Japan"
+        }
+      ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -167,12 +289,6 @@
         "us-recession-by-end-of-2026"
       ],
       "headlines": [
-        {
-          "title": "Economist Mark Zandi Says There One Signal US May Already Be in Recession",
-          "domain": "businessinsider.com",
-          "date": "20260407T103000Z",
-          "country": "United States"
-        },
         {
           "title": "New  Vicious Cycle Index  points to  uncomfortably high  recession risks",
           "domain": "newsweek.com",
@@ -189,18 +305,6 @@
           "title": "Oil , Inflation and Recession - LewRockwell",
           "domain": "lewrockwell.com",
           "date": "20260408T074500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Italy Service Sector Contracts for First Time in 16 Months Amid Rising Costs and Weakening Demand",
-          "domain": "econotimes.com",
-          "date": "20260407T110000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Are Stagflation Fears Creeping Back Into the Picture ? Here What the Data and Fed Chair Jerome Powell Have to Say .",
-          "domain": "fool.com",
-          "date": "20260407T093000Z",
           "country": "United States"
         },
         {
@@ -226,6 +330,24 @@
           "domain": "economictimes.indiatimes.com",
           "date": "20260407T204500Z",
           "country": "India"
+        },
+        {
+          "title": "From falling U . S . wealth to Indian factory closures , oil shock raises global recession risk",
+          "domain": "marketscreener.com",
+          "date": "20260407T163000Z",
+          "country": ""
+        },
+        {
+          "title": "Powell Says No Rate Hike Needed to Fight Oil Shock : Here Is Why Investors Should Not Declare Victory on Inflation Just Yet",
+          "domain": "fool.com",
+          "date": "20260409T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Buyers report construction cost surge",
+          "domain": "constructionenquirer.com",
+          "date": "20260408T103000Z",
+          "country": "United Kingdom"
         }
       ]
     },
@@ -257,12 +379,6 @@
           "country": "Canada"
         },
         {
-          "title": "Are Stagflation Fears Creeping Back Into the Picture ? Here What the Data and Fed Chair Jerome Powell Have to Say .",
-          "domain": "fool.com",
-          "date": "20260407T093000Z",
-          "country": "United States"
-        },
-        {
           "title": "The Fed Biggest Risks Now Have Nothing To Do With Rates",
           "domain": "forbes.com",
           "date": "20260407T211500Z",
@@ -287,295 +403,57 @@
           "country": "United States"
         },
         {
-          "title": "Cleveland Fed president warns rate hike possible if inflation stays high",
-          "domain": "foxbusiness.com",
-          "date": "20260408T181500Z",
+          "title": "More Federal Reserve officials see possible rate hikes this year",
+          "domain": "sandiegouniontribune.com",
+          "date": "20260409T013000Z",
+          "country": "United States"
+        },
+        {
+          "title": "More Federal Reserve officials see possible rate hikes this year , minutes show",
+          "domain": "clickondetroit.com",
+          "date": "20260408T201500Z",
           "country": "United States"
         },
         {
           "title": "More Federal Reserve officials see possible rate hikes this year",
-          "domain": "sandiegouniontribune.com",
-          "date": "20260409T013000Z",
+          "domain": "pilotonline.com",
+          "date": "20260408T210000Z",
           "country": "United States"
         }
       ]
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": [
-        {
-          "title": "RBI holds repo rate at 5 . 25 percent amid inflation concerns , global uncertainty",
-          "domain": "mid-day.com",
-          "date": "20260408T070000Z",
-          "country": "India"
-        },
-        {
-          "title": "RBI keeps policy rate unchanged amid inflationary pressure",
-          "domain": "tribuneindia.com",
-          "date": "20260408T064500Z",
-          "country": "India"
-        },
-        {
-          "title": "RBI Repo Rate : RBI Holds Steady on Interest Rate at 5 . 25 % Amid Global Turmoil , ETRealty",
-          "domain": "realty.economictimes.indiatimes.com",
-          "date": "20260408T094500Z",
-          "country": "India"
-        },
-        {
-          "title": "RBI MPC meeting 2026 : Central bank sets FY27 inflation forecast at 4 . 6 % amidst conflict in West Asia",
-          "domain": "businesstoday.in",
-          "date": "20260408T070000Z",
-          "country": "India"
-        },
-        {
-          "title": "UPSC Prelims S . E . E . Snapshot : Dimethyl Ether , New Base year of CPI , Tar Balls quick look",
-          "domain": "indianexpress.com",
-          "date": "20260408T094500Z",
-          "country": "India"
-        },
-        {
-          "title": "March CPI Forecast to Reflect Surge in Energy Prices from Iran War",
-          "domain": "morningstar.com",
-          "date": "20260408T231500Z",
-          "country": "China"
-        },
-        {
-          "title": "Why April 10 Could Be a Big Day for the Stock Market",
-          "domain": "fool.com",
-          "date": "20260407T123000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Cleveland Fed president warns rate hike possible if inflation stays high",
-          "domain": "foxbusiness.com",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "RBI keeps policy rate unchanged amid inflationary pressure",
-          "domain": "kashmirreader.com",
-          "date": "20260408T123000Z",
-          "country": "India"
-        },
-        {
-          "title": "March CPI Report : Iran War Is Expected to Boost Inflation",
-          "domain": "kiplinger.com",
-          "date": "20260407T210000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Bitcoin Holds $67K as Wintermute Flags Sentiment Divergence",
-          "domain": "cointelegraph.com",
-          "date": "20260407T203000Z",
-          "country": "China"
-        },
-        {
-          "title": "Crypto News : Pepeto Defi Exchange Update While Bitcoin Price Prediction Targets $200 , 000 as Ceasefire Lifts Crypto Market",
-          "domain": "portal.sina.com.hk",
-          "date": "20260409T031500Z",
-          "country": "Hong Kong"
-        },
-        {
-          "title": "Crypto News : Pepeto Defi Exchange Update While Bitcoin Price Prediction Targets $200 , 000 as Ceasefire Lifts Crypto Market",
-          "domain": "manilatimes.net",
-          "date": "20260409T031500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "BTC Accumulation Hits 4 . 37M as Network Activity Sends Mixed Signal",
-          "domain": "cointelegraph.com",
-          "date": "20260408T013000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Surges 5 % But ETFs Bled $159M : Is This A Bull Trap ?",
-          "domain": "benzinga.com",
-          "date": "20260408T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Rainbow Chart Says Price Is Ranging Above $60 , 000 For A Reason , Here Why",
-          "domain": "newsbtc.com",
-          "date": "20260407T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Ceasefire lifts bitcoin , but animal spirits may not return just yet",
-          "domain": "coindesk.com",
-          "date": "20260408T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "US Spot Bitcoin ETFs Hit Strongest Gains Since February",
-          "domain": "cointelegraph.com",
-          "date": "20260407T110000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin jumps 4 % to $71K as US - Iran ceasefire boosts sentiment ; Ethereum follows higher",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260408T060000Z",
-          "country": "India"
-        },
-        {
-          "title": "Bitcoin Price Breaks $72 , 000 After US - Iran Ceasefire What Comes Next ?",
-          "domain": "newsbtc.com",
-          "date": "20260408T031500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": [
-        {
-          "title": "Global Oil Price hits $115 per barrel amid US - Israeli Strikes on Iran Kharg Island",
-          "domain": "pakobserver.net",
-          "date": "20260407T163000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Oregon Gas Prices Top $5 A Gallon | News Radio 1190 KEX",
-          "domain": "1190kex.iheart.com",
-          "date": "20260407T194500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oregon Gas Prices Top $5 A Gallon | 105 . 9 The Brew",
-          "domain": "1059thebrew.iheart.com",
-          "date": "20260407T201500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oregon Gas Prices Top $5 A Gallon",
-          "domain": "jamn1075.iheart.com",
-          "date": "20260407T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oregon Gas Prices Top $5 A Gallon | K103 Portland",
-          "domain": "k103.iheart.com",
-          "date": "20260407T213000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oregon Gas Prices Top $5 A Gallon | Z100 Portland",
-          "domain": "z100portland.iheart.com",
-          "date": "20260407T190000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Crude oil and petroleum product prices increased sharply in the first quarter of 2026 – Oil & Gas 360",
-          "domain": "oilandgas360.com",
-          "date": "20260407T221500Z",
-          "country": "United States"
-        },
-        {
-          "title": "War in Iran : Oil markets changed forever by Donald Trump",
-          "domain": "smh.com.au",
-          "date": "20260408T024500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "War in Iran : Oil markets changed forever by Donald Trump",
-          "domain": "theage.com.au",
-          "date": "20260408T030000Z",
-          "country": "Australia"
-        },
-        {
-          "title": "War in Iran : Oil markets changed forever by Donald Trump",
-          "domain": "watoday.com.au",
-          "date": "20260408T023000Z",
-          "country": "Australia"
-        }
-      ]
+      "headlines": []
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": [
-        {
-          "title": "When is Pennsylvania primary registration deadline ?",
-          "domain": "fox29.com",
-          "date": "20260408T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "When is Pennsylvania primary registration deadline ?",
-          "domain": "fox5dc.com",
-          "date": "20260408T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "wrvo.org",
-          "date": "20260408T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "wgcu.org",
-          "date": "20260408T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "kwbu.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "wypr.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "news.wfsu.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "ypradio.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "kwit.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "ijpr.org",
-          "date": "20260409T020000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
@@ -597,27 +475,9 @@
           "country": "Nigeria"
         },
         {
-          "title": "KEEPING IT JAMAICAN - Jamaica Observer",
-          "domain": "jamaicaobserver.com",
-          "date": "20260407T110000Z",
-          "country": "Jamaica"
-        },
-        {
           "title": "FIFA World Cup 2026 : American Dream announces Fan Fest",
           "domain": "fox5ny.com",
           "date": "20260408T220000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why Montreal isnt hosting the World Cup and FIFA rigid rules for Toronto , Vancouver",
-          "domain": "cbc.ca",
-          "date": "20260407T110000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Budweiser Honors 40 Years of FIFA World Cup™ Legacy with Limited - Edition Collectible Pack and Nostalgia - Themed Platform",
-          "domain": "postandcourier.com",
-          "date": "20260407T110000Z",
           "country": "United States"
         },
         {
@@ -627,232 +487,67 @@
           "country": "United States"
         },
         {
-          "title": "Thousands of Stadium Workers Demand FIFA Bar ICE From World Cup",
-          "domain": "newsweek.com",
-          "date": "20260407T130000Z",
-          "country": "United States"
-        },
-        {
           "title": "Breeder Cup Releases Challenge Series Schedule",
           "domain": "bloodhorse.com",
           "date": "20260408T223000Z",
           "country": "United States"
         },
         {
-          "title": "Iran Awaiting FIFA Response on World Cup Venue Switch",
-          "domain": "english.aawsat.com",
-          "date": "20260407T111500Z",
-          "country": "Syria"
+          "title": "World Cup 2026 : Malaysians Ask Who Is Going To Be Our Official Local Broadcaster ?",
+          "domain": "therakyatpost.com",
+          "date": "20260408T044500Z",
+          "country": "Malaysia"
+        },
+        {
+          "title": "FIFA releases plans for cross - Canada World Cup celebration tour",
+          "domain": "globalnews.ca",
+          "date": "20260408T181500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "City of Kamloops lands provincial funding for FIFA World Cup watch parties",
+          "domain": "castanetkamloops.net",
+          "date": "20260408T223000Z",
+          "country": ""
+        },
+        {
+          "title": "Will Donald Trump present the World Cup 2026 trophy to the winning country ?",
+          "domain": "fourfourtwo.com",
+          "date": "20260408T131500Z",
+          "country": "Spain"
+        },
+        {
+          "title": "How NJ Transit plans to manage World Cup crowds on NJ Transit",
+          "domain": "nj1015.com",
+          "date": "20260407T220000Z",
+          "country": "United States"
         }
       ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": [
-        {
-          "title": "Arizona among the favorites to win 2027 NCAA Tournament championship",
-          "domain": "zonazealots.com",
-          "date": "20260407T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Giannis Antetokounmpo messy Bucks divorce increases pressure on Knicks",
-          "domain": "nydailynews.com",
-          "date": "20260408T023000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Cooper Flagg retakes Rookie of the Year odds lead from Kon Knueppel as race heats up",
-          "domain": "nypost.com",
-          "date": "20260407T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Portland Trail Blazers vs San Antonio Spurs LIVE Score Updates in NBA Game | 04 / 08 / 2026",
-          "domain": "vavel.com",
-          "date": "20260409T003000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Cooper Flagg , Kon Knueppel , NBA Rookie of the Year Odds",
-          "domain": "complex.com",
-          "date": "20260408T014500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The NBA stretch run has arrived . Here a look at what happening",
-          "domain": "sitkasentinel.com",
-          "date": "20260408T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Tyrese Haliburton Takes Major Step for First Time Since Game 7 Achilles Injury",
-          "domain": "si.com",
-          "date": "20260409T030000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Karl - Anthony Towns might luck his way into All - NBA honor thanks to much - hated rule",
-          "domain": "dailyknicks.com",
-          "date": "20260408T171500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Wizards remain in full - blown tank mode with Anthony Davis - Trae Young injury news",
-          "domain": "yardbarker.com",
-          "date": "20260408T064500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The NBA stretch run has arrived . Here a look at what happening",
-          "domain": "969wsig.com",
-          "date": "20260407T141500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "Meta debuts Muse Spark multimodal reasoning model",
-          "domain": "siliconangle.com",
-          "date": "20260409T003000Z",
-          "country": "United States"
-        },
-        {
-          "title": "I found the best AI chatbot for my actual tasks using this one tool",
-          "domain": "makeuseof.com",
-          "date": "20260408T000000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Project Glasswing aims to secure the world software , and Anthropic mythology",
-          "domain": "hindustantimes.com",
-          "date": "20260409T081500Z",
-          "country": "India"
-        },
-        {
-          "title": "Meta First AI Model From Its Superintelligence Lab Doesnt Exactly Spark Joy",
-          "domain": "gizmodo.com",
-          "date": "20260408T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Anthropic releases preview of new AI model Mythos for cyber defence",
-          "domain": "businesstoday.in",
-          "date": "20260408T070000Z",
-          "country": "India"
-        },
-        {
-          "title": "Meta new model is as open as Zuckerberg private school",
-          "domain": "theregister.com",
-          "date": "20260409T031500Z",
-          "country": ""
-        },
-        {
-          "title": "Anthropic claims new AI model Mythos is cyber security  reckoning",
-          "domain": "nzherald.co.nz",
-          "date": "20260408T060000Z",
-          "country": "New Zealand"
-        },
-        {
-          "title": "Anthropic Unveils Claude Mythos and Project Glasswing The AI Model Too Dangerous to Release Publicly",
-          "domain": "bravenewcoin.com",
-          "date": "20260407T234500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Anthropic claims its new AI model , Mythos , is a cybersecurity  reckoning",
-          "domain": "theglobeandmail.com",
-          "date": "20260408T031500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Why Stateful AI Continuation Is Becoming Critical for Agent Workflows",
-          "domain": "cbncompass.ca",
-          "date": "20260408T131500Z",
-          "country": "Canada"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": [
-        {
-          "title": "Former Rockstar developer believes GTA VI will borrow ideas from Red Dead Redemption 2",
-          "domain": "femalefirst.co.uk",
-          "date": "20260407T130000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "GTA 6 Release Date Update Addresses Third Delay",
-          "domain": "screenrant.com",
-          "date": "20260407T123000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA Online fans might not have to wait long after GTA 6 launch , reputable leaker says",
-          "domain": "destructoid.com",
-          "date": "20260408T223000Z",
-          "country": "Japan"
-        },
-        {
-          "title": "GTA 5 Leak May Have Revealed Protagonist from Canceled Rockstar Game",
-          "domain": "gamerant.com",
-          "date": "20260407T194500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Leak Sparks Delay Panic - Truth Finally Revealed Before Big Launch",
-          "domain": "cineblitz.in",
-          "date": "20260407T190000Z",
-          "country": "India"
-        },
-        {
-          "title": "Xbox Game Pass is losing one of its best games at the worst possible time get it now while it cheap before it leaves Microsoft service",
-          "domain": "windowscentral.com",
-          "date": "20260407T221500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Grand Theft Auto 5  is leaving Xbox Game Pass this month",
-          "domain": "nme.com",
-          "date": "20260407T093000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Samson : The $25 GTA 6 Rival Everyone Is Talking About Drops This Week",
-          "domain": "forbes.com",
-          "date": "20260408T093000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 might not feature an entirely rebuilt Rage Engine after all , as one report says it more of an expansion on what Rockstar used in Red Dead Redemption 2",
-          "domain": "gamesradar.com",
-          "date": "20260407T111500Z",
-          "country": "United States"
-        },
-        {
-          "title": "New GTA 6 leak hints at massive gameplay upgrade inspired by Red Dead",
-          "domain": "radiotimes.com",
-          "date": "20260407T163000Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     }
   }
 }
