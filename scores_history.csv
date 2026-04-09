@@ -485,3 +485,15 @@ timestamp,agent,market,predicted,actual,current_price,squared_error,naive_se,dir
 1775595757.0,naive_baseline,regime_fall,0.135,0.1,0.135,0.001225,0.001225,False,N/A,24h
 1775595757.0,game_theorist,regime_fall,0.408,0.1,0.135,0.094864,0.001225,False,1.19.0,24h
 1775595757.0,naive_baseline,regime_fall,0.135,0.1,0.135,0.001225,0.001225,False,N/A,24h
+1775618148.0,momentum,regime_fall,0.01,0.105,0.085,0.009025,0.0004,False,1.19.0,24h
+1775618148.0,naive_baseline,regime_fall,0.085,0.105,0.085,0.0004,0.0004,False,N/A,24h
+1775627814.0,momentum,regime_fall,0.153119,0.105,0.085,0.00231544,0.0004,True,1.19.0,24h
+1775627814.0,naive_baseline,regime_fall,0.085,0.105,0.085,0.0004,0.0004,False,N/A,24h
+1775618148.0,historian,regime_fall,0.109851,0.105,0.085,2.353e-05,0.0004,True,1.19.0,24h
+1775618148.0,naive_baseline,regime_fall,0.085,0.105,0.085,0.0004,0.0004,False,N/A,24h
+1775627814.0,historian,regime_fall,0.087967,0.105,0.085,0.00029012,0.0004,True,1.19.0,24h
+1775627814.0,naive_baseline,regime_fall,0.085,0.105,0.085,0.0004,0.0004,False,N/A,24h
+1775618148.0,game_theorist,regime_fall,0.2695,0.105,0.085,0.02706025,0.0004,True,1.19.0,24h
+1775618148.0,naive_baseline,regime_fall,0.085,0.105,0.085,0.0004,0.0004,False,N/A,24h
+1775627814.0,game_theorist,regime_fall,0.2014,0.105,0.085,0.00929296,0.0004,True,1.19.0,24h
+1775627814.0,naive_baseline,regime_fall,0.085,0.105,0.085,0.0004,0.0004,False,N/A,24h
