@@ -59,7 +59,15 @@
     "action": "change",
     "replacements_applied": 1,
     "before_avg_se": 0.07161996739130436,
-    "after_avg_se": null,
-    "result": "pending"
+    "after_avg_se": 0.11401841666666668,
+    "result": "reverted"
+  },
+  {
+    "date": "2026-04-09",
+    "summary": "Auto-reverted changes from 2026-04-09 due to degraded performance",
+    "action": "revert",
+    "before_avg_se": 0.07123027884615384,
+    "after_avg_se": 0.11401841666666668,
+    "result": "reverted"
   }
 ]
