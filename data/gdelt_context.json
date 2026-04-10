@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-10T03:05:12Z",
+  "fetched_at": "2026-04-10T06:06:54Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -24,11 +24,72 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Shah son rejects US  regime change  claim , says Iran still under same rulers despite war",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260409T013000Z",
+          "country": "India"
+        },
+        {
+          "title": "MACAU DAILY TIMES 澳門每日時報1999 President of Niger  killed in ambush",
+          "domain": "macaudailytimes.com.mo",
+          "date": "20260409T011500Z",
+          "country": "Macau"
+        },
+        {
+          "title": "Even if Victor Orbán is ousted on Sunday , Hungary return to liberal democracy is not guaranteed | Gabriela Greilinger and Cas Mudde",
+          "domain": "theguardian.com",
+          "date": "20260410T050000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Bangladesh FM in India , most senior visit since 2024 uprising",
+          "domain": "thepeninsulaqatar.com",
+          "date": "20260408T141500Z",
+          "country": "Qatar"
+        },
+        {
+          "title": "How did Benjamin Netanyahu pitch the Iran war to Donald Trump ?",
+          "domain": "jpost.com",
+          "date": "20260409T011500Z",
+          "country": "Israel"
+        },
+        {
+          "title": "How did Benjamin Netanyahu pitch the Iran war to Donald Trump ?",
+          "domain": "jpost.com",
+          "date": "20260409T004500Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Nobel Peace Prize suggestions emerge for PM Shehbaz for Iran - US ceasefire",
+          "domain": "pakobserver.net",
+          "date": "20260408T090000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Guinea - Bissau on edge after activist killing",
+          "domain": "dw.com",
+          "date": "20260409T083000Z",
+          "country": "Germany"
+        },
+        {
+          "title": "Venezuela appoints attorney general , replacing key Maduro ally",
+          "domain": "bssnews.net",
+          "date": "20260410T043000Z",
+          "country": "Bangladesh"
+        },
+        {
+          "title": "Trump rails at Nato again after meeting with Mark Rutte",
+          "domain": "morningstaronline.co.uk",
+          "date": "20260409T193000Z",
+          "country": "United Kingdom"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -69,14 +130,14 @@
         },
         {
           "title": "It going to be chao : On rural Navajo Nation , tribal leaders slam voter - ID bill",
-          "domain": "wknofm.org",
-          "date": "20260409T184500Z",
+          "domain": "klcc.org",
+          "date": "20260409T231500Z",
           "country": "United States"
         },
         {
           "title": "It going to be chao : On rural Navajo Nation , tribal leaders slam voter - ID bill",
-          "domain": "klcc.org",
-          "date": "20260409T231500Z",
+          "domain": "wknofm.org",
+          "date": "20260409T184500Z",
           "country": "United States"
         },
         {
@@ -170,13 +231,74 @@
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "NY Fed Chief John Williams Claims Powell Can Remain Chair After Term Expires",
+          "domain": "breitbart.com",
+          "date": "20260409T020000Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Most Anticipated Announcement of the Year Is Less Than 24 Hours Away -- and the Stock Market Isnt Ready for It",
+          "domain": "fool.com",
+          "date": "20260410T021500Z",
+          "country": "United States"
+        },
+        {
+          "title": "More Federal Reserve officials see possible rate hikes this year , minutes show – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "date": "20260408T184500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "More Federal Reserve officials see possible rate hikes this year , minutes show",
+          "domain": "mynorthwest.com",
+          "date": "20260408T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "More Federal Reserve officials see possible rate hikes this year , minutes show",
+          "domain": "isp.netscape.com",
+          "date": "20260408T193000Z",
+          "country": "United States"
+        },
+        {
+          "title": "More Federal Reserve officials see possible rate hikes this year , minutes show",
+          "domain": "wcbi.com",
+          "date": "20260408T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed official says interest rate hike possible as gas prices , inflation remain elevated",
+          "domain": "fox5atlanta.com",
+          "date": "20260410T021500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed official says interest rate hike possible as gas prices , inflation remain elevated",
+          "domain": "fox6now.com",
+          "date": "20260409T230000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed official says interest rate hike possible as gas prices , inflation remain elevated",
+          "domain": "fox9.com",
+          "date": "20260410T014500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed official says interest rate hike possible as gas prices , inflation remain elevated",
+          "domain": "fox26houston.com",
+          "date": "20260409T231500Z",
+          "country": "United States"
+        }
+      ]
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
@@ -249,158 +371,158 @@
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
-    },
-    "Gas prices / oil prices": {
-      "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
-      "relevant_to": [
-        "will-gas-hit-by-end-of-march"
-      ],
       "headlines": [
         {
-          "title": "War in Iran : Oil markets changed forever by Donald Trump",
-          "domain": "brisbanetimes.com.au",
-          "date": "20260408T033000Z",
-          "country": "Australia"
+          "title": "Crypto News : Pepeto Defi Exchange Update While Bitcoin Price Prediction Targets $200 , 000 as Ceasefire Lifts Crypto Market",
+          "domain": "portal.sina.com.hk",
+          "date": "20260409T031500Z",
+          "country": "Hong Kong"
         },
         {
-          "title": "Crude oil prices drop after ceasefire announcement - Introduction",
-          "domain": "autocarindia.com",
-          "date": "20260408T081500Z",
-          "country": "India"
-        },
-        {
-          "title": "Prices drop at gas stations in Austria",
-          "domain": "gazetaexpress.com",
-          "date": "20260409T174500Z",
-          "country": "Kosovo"
-        },
-        {
-          "title": "Elevated fuel prices seen remaining after US pauses hostilities in Iran",
-          "domain": "bworldonline.com",
-          "date": "20260408T181500Z",
+          "title": "Crypto News : Pepeto Defi Exchange Update While Bitcoin Price Prediction Targets $200 , 000 as Ceasefire Lifts Crypto Market",
+          "domain": "manilatimes.net",
+          "date": "20260409T031500Z",
           "country": "Philippines"
         },
         {
-          "title": "China continues control measures for gasoline , diesel prices",
-          "domain": "china.org.cn",
-          "date": "20260408T034500Z",
-          "country": "China"
-        },
-        {
-          "title": "Gas prices continue to rise as Iran agrees to reopen Strait of Hormuz",
-          "domain": "kvue.com",
-          "date": "20260408T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices continue to rise as Iran agrees to reopen Strait of Hormuz",
-          "domain": "wltx.com",
-          "date": "20260408T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices continue to rise as Iran agrees to reopen Strait of Hormuz",
-          "domain": "kare11.com",
+          "title": "Bitcoin Surges 5 % But ETFs Bled $159M : Is This A Bull Trap ?",
+          "domain": "benzinga.com",
           "date": "20260408T131500Z",
           "country": "United States"
         },
         {
-          "title": "Gas prices continue to rise as Iran agrees to reopen Strait of Hormuz",
-          "domain": "wusa9.com",
-          "date": "20260408T151500Z",
+          "title": "Higher Before Lower : How Bitcoin Price Will Get To $240 , 000",
+          "domain": "newsbtc.com",
+          "date": "20260409T134500Z",
           "country": "United States"
         },
         {
-          "title": "Gas prices continue to rise as Iran agrees to reopen Strait of Hormuz",
-          "domain": "fox43.com",
-          "date": "20260408T151500Z",
+          "title": "Bitcoin ( BTC ) Price Prediction : BTC Holds $70K Support as IBIT Signals Bullish Momentum Toward $74K Breakout",
+          "domain": "bravenewcoin.com",
+          "date": "20260409T231500Z",
           "country": "United States"
+        },
+        {
+          "title": "Ceasefire lifts bitcoin , but animal spirits may not return just yet",
+          "domain": "coindesk.com",
+          "date": "20260408T143000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Morning Minute : Iran Wants Bitcoin to Let Oil Tankers Through the Strait",
+          "domain": "finance.yahoo.com",
+          "date": "20260409T123000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Has Satoshi Nakamoto Finally Been Unmasked ? Believe It or Not , Bitcoin is Rising",
+          "domain": "finance.yahoo.com",
+          "date": "20260410T041500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin BTC USD price crash prediction to zero : He predicted 2008 crash now he says Bitcoin ( BTC USD ) could collapse to zero . Should crypto investors worry ?",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260409T140000Z",
+          "country": "India"
+        },
+        {
+          "title": "Bitcoin Consolidates at $71K as Ceasefire Holds",
+          "domain": "riotimesonline.com",
+          "date": "20260409T083000Z",
+          "country": "Brazil"
         }
       ]
     },
+    "Gas prices / oil prices": {
+      "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
+      "article_count": 0,
+      "relevant_to": [
+        "will-gas-hit-by-end-of-march"
+      ],
+      "headlines": []
+    },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": [
-        {
-          "title": "When is Pennsylvania primary registration deadline ?",
-          "domain": "fox29.com",
-          "date": "20260408T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "When is Pennsylvania primary registration deadline ?",
-          "domain": "fox5dc.com",
-          "date": "20260408T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Polling Data Spells Potential Disaster for Republicans in the Midterms",
-          "domain": "truthout.org",
-          "date": "20260409T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "wrvo.org",
-          "date": "20260408T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "wgcu.org",
-          "date": "20260408T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "kwbu.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "wypr.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "news.wfsu.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "ypradio.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats keep doing better in elections since Trump returned to office",
-          "domain": "kwit.org",
-          "date": "20260408T181500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "2026 World Cup Betting : New IRS Tax Rules for Winnings",
+          "domain": "kiplinger.com",
+          "date": "20260409T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bilums off to Oceania World Cup qualifiers",
+          "domain": "thenational.com.pg",
+          "date": "20260409T040000Z",
+          "country": "Papua New Guinea"
+        },
+        {
+          "title": "FIFA World Cup 2026 : American Dream announces Fan Fest",
+          "domain": "fox5ny.com",
+          "date": "20260408T220000Z",
+          "country": "United States"
+        },
+        {
+          "title": "FIFA Removes Ndala From 2026 World Cup Following AFCON Final Controversy",
+          "domain": "moroccoworldnews.com",
+          "date": "20260409T184500Z",
+          "country": "Morocco"
+        },
+        {
+          "title": "How Ronaldo and Portugal could play at BC Place during FIFA World Cup | Daily Hive",
+          "domain": "dailyhive.com",
+          "date": "20260409T174500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Breeder Cup Releases Challenge Series Schedule",
+          "domain": "bloodhorse.com",
+          "date": "20260408T223000Z",
+          "country": "United States"
+        },
+        {
+          "title": "FIFA World Cup celebration tour coming to Cranbrook | Cranbrook Daily Townsman",
+          "domain": "cranbrooktownsman.com",
+          "date": "20260409T174500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "France to train at Bentley University in Waltham for 2026 World Cup",
+          "domain": "wcvb.com",
+          "date": "20260409T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "How to make the most of the World Cup in Vancouver and Toronto",
+          "domain": "o.canada.com",
+          "date": "20260409T180000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "How to make the most of the World Cup in Vancouver and Toronto | The Kingston Whig Standard",
+          "domain": "thewhig.com",
+          "date": "20260409T201500Z",
+          "country": "Canada"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -482,72 +604,11 @@
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": [
-        {
-          "title": "GTA 6 Leak Narrows Down Release Window for New Grand Theft Auto Online",
-          "domain": "gamerant.com",
-          "date": "20260409T194500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Mission Featuring Famous Rapper Leaked",
-          "domain": "comicbook.com",
-          "date": "20260409T140000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Possible GTA 6 Mission Details Leaked",
-          "domain": "gamerant.com",
-          "date": "20260409T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Gameplay Leak Confirms Well Be Playing This Game For Years",
-          "domain": "screenrant.com",
-          "date": "20260409T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Official Price Update Has Left Gamers Pretty Happy",
-          "domain": "screenrant.com",
-          "date": "20260409T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 insider claims user - generated content could  produce millionaires",
-          "domain": "tribune.com.pk",
-          "date": "20260409T103000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Best GTA 5 mods 2026 - from graphics updates to new cars",
-          "domain": "pcgamesn.com",
-          "date": "20260410T000000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA Online fans might not have to wait long after GTA 6 launch , reputable leaker says",
-          "domain": "destructoid.com",
-          "date": "20260408T223000Z",
-          "country": "Japan"
-        },
-        {
-          "title": "GTA 5 Fans Stunned After Revelation Of Cut Content",
-          "domain": "screenrant.com",
-          "date": "20260409T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Online tipped for December debut , may support up to 32 players",
-          "domain": "digit.in",
-          "date": "20260409T144500Z",
-          "country": "India"
-        }
-      ]
+      "headlines": []
     }
   }
 }

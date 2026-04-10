@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-04-10T03:19:15Z",
-  "n_files_scanned": 73,
+  "generated_at": "2026-04-10T06:09:37Z",
+  "n_files_scanned": 74,
   "per_contract": {
     "bitcoin_daily": {
-      "n_predictions": 73,
+      "n_predictions": 74,
       "history": [
-        {
-          "timestamp": "2026-04-09T09:22:08Z",
-          "tier": "opus",
-          "type": "binary",
-          "prediction": 0.48,
-          "market_price": 0.405,
-          "signed_error": 0.07499999999999996
-        },
         {
           "timestamp": "2026-04-09T14:02:58Z",
           "tier": "haiku",
@@ -44,23 +36,23 @@
           "prediction": 0.48,
           "market_price": 0.365,
           "signed_error": 0.11499999999999999
+        },
+        {
+          "timestamp": "2026-04-10T06:06:54Z",
+          "tier": "opus",
+          "type": "binary",
+          "prediction": 0.48,
+          "market_price": 0.405,
+          "signed_error": 0.07499999999999996
         }
       ],
-      "avg_signed_error": -0.0,
+      "avg_signed_error": 0.001,
       "avg_abs_error": 0.069,
       "bias": "neutral"
     },
     "nyc_temp": {
-      "n_predictions": 73,
+      "n_predictions": 74,
       "history": [
-        {
-          "timestamp": "2026-04-09T09:22:08Z",
-          "tier": "opus",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.007227272727272729,
-          "max_outcome_div": 0.025000000000000022,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-04-09T14:02:58Z",
           "tier": "sonnet",
@@ -92,21 +84,21 @@
           "avg_outcome_div": 0.047136363636363636,
           "max_outcome_div": 0.16,
           "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-04-10T06:06:54Z",
+          "tier": "opus",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.036500000000000005,
+          "max_outcome_div": 0.10500000000000004,
+          "n_outcomes": 11
         }
       ],
       "avg_multi_div": 0.018
     },
     "miami_temp": {
-      "n_predictions": 67,
+      "n_predictions": 68,
       "history": [
-        {
-          "timestamp": "2026-04-09T09:22:08Z",
-          "tier": "opus",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.01981818181818182,
-          "max_outcome_div": 0.09499999999999997,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-04-09T14:02:58Z",
           "tier": "sonnet",
@@ -137,6 +129,14 @@
           "type": "multi-outcome",
           "avg_outcome_div": 0.007764626462646259,
           "max_outcome_div": 0.022970297029702935,
+          "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-04-10T06:06:54Z",
+          "tier": "opus",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.009227272727272728,
+          "max_outcome_div": 0.03999999999999998,
           "n_outcomes": 11
         }
       ],
