@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 09 11:02 PM PT</strong> (7m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (115m)</span>
-            <span>Scored: <strong>348</strong> predictions | Logged: <strong>564</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 10 02:17 AM PT</strong> (7m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (160m)</span>
+            <span>Scored: <strong>348</strong> predictions | Logged: <strong>567</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(22d 3h ago)</span>
+            <span class="dim">(22d 6h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-09
+                    <div class="iter-text"># momentum — 2026-04-10
 
-Version: 1.20.0 -&gt; 1.21.0
+Version: 1.21.0 -&gt; 1.22.0
 
-Looking at my scorecard, I have extremely poor directional accuracy at 17.45% which is much worse than random chance. My MSE is also above the naive baseline. The MSE trend shows recent worsening performance. Since I&#x27;m in pure momentum mode with very high directional accuracy in regime_fall but terrible overall performance, I need to shift the balance. I&#x27;m increasing REVERSION_WEIGHT from 0.6 to 0.8 and decreasing MOMENTUM_WEIGHT from 0.3 to 0.1 to favor mean reversion over momentum extrapolation, which should help when markets are overextended.</div>
+The current parameters are producing terrible directional accuracy (17.4%) and MSE worse than the naive baseline. The momentum weight of 0.1 is far too low, making the model overly conservative and unable to capture actual price movements. I&#x27;m increasing MOMENTUM_WEIGHT from 0.1 to 0.3 to give more weight to the momentum signal when news flow justifies it. This should improve directional accuracy by making the model more responsive to actual market dynamics while still maintaining some reversion component.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-09
+                    <div class="iter-text"># historian — 2026-04-10
 
-Version: 1.20.0 -&gt; 1.21.0
+Version: 1.21.0 -&gt; 1.22.0
 
-The current reversion rate of 0.025 appears too aggressive, causing the model to fight genuine trends and resulting in poor directional accuracy (22%). The dramatic MSE improvement in recent periods suggests the model is adapting, but the reversion component is still too strong. I&#x27;m reducing REVERSION_RATE from 0.025 to 0.015 to allow the model to follow trends better while still providing some mean reversion value during calm periods.</div>
+The current reversion rate of 0.015 is too aggressive and causing the model to fight against persistent trends, resulting in poor directional accuracy (23.94%) and MSE that&#x27;s 2x worse than baseline. I&#x27;m reducing the reversion rate from 0.015 to 0.008 to be less aggressive about pulling toward historical base rates and allow the model to better follow market momentum while still providing some stabilizing influence.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-09
+                    <div class="iter-text"># game_theorist — 2026-04-10
 
-Version: 1.20.0 -&gt; 1.21.0
+Version: 1.21.0 -&gt; 1.22.0
 
-I&#x27;m increasing ESCALATION_SENSITIVITY from 0.003 to 0.008 to make my predictions more responsive to detected signals. My current directional accuracy of 22.3% suggests I&#x27;m not moving far enough from the current price when I detect meaningful signals. The recent MSE improvement to 0.018 indicates the direction is right, but I need stronger reactions to achieve better directional accuracy and beat the naive baseline.</div>
+The agent is performing catastrophically with MSE 330x worse than baseline and only 23% directional accuracy. The escalation sensitivity of 0.008 is still causing massive overreactions to news signals, leading to predictions that swing wildly from current prices. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.008 to 0.002 to dramatically reduce the magnitude of forecast adjustments and bring predictions closer to current market prices, which should immediately improve MSE performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-09
+                    <div class="iter-text"># quant — 2026-04-10
 
-Version: 1.20.0 -&gt; 1.21.0
+Version: 1.21.0 -&gt; 1.22.0
 
-I&#x27;m dramatically increasing the momentum coefficient from 0.00001 to 0.0005 (50x increase) while keeping the reversion coefficient smaller. In a falling regime, momentum should dominate to capture the downward trend. My current ultra-conservative coefficients are making predictions too close to current prices, failing to capture the directional movements needed for better directional accuracy.</div>
+The current momentum coefficient of 0.0005 is causing massive overshooting in a falling market regime, resulting in catastrophic directional accuracy (8.24%) and MSE 3.5x worse than baseline. I&#x27;m reducing the momentum coefficient from 0.0005 to 0.00005 (10x reduction) to make much more conservative momentum adjustments. This should help prevent the extreme predictions that are causing the systematic bias and poor performance.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -246,36 +246,36 @@ I&#x27;m dramatically increasing the momentum coefficient from 0.00001 to 0.0005
             <div class="market-block">
                 <div class="market-header">
                     <strong>Regime Fall</strong>
-                    <span class="current-price">0.0850</span>
+                    <span class="current-price">0.0950</span>
                 </div>
                 <div class="price-changes">
-                    4h: <span class="">+0.0000</span>
-                    &nbsp; 24h: <span class="down">-0.0200</span>
+                    4h: <span class="up">+0.0100</span>
+                    &nbsp; 24h: <span class="down">-0.0100</span>
                 </div>
                 
                 <div class="forecast-row">
                     <span class="dot" style="background:#e74c3c"></span>
                     <span class="agent-name">Momentum</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0950</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#3498db"></span>
                     <span class="agent-name">Historian</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0950</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#f39c12"></span>
                     <span class="agent-name">Game Theorist</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0950</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#2ecc71"></span>
                     <span class="agent-name">Quant</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0950</span>
                 </div>
             </div>
     </div>
@@ -287,12 +287,12 @@ I&#x27;m dramatically increasing the momentum coefficient from 0.00001 to 0.0005
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.21.0</span>
+            <span class="dim">v1.22.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 09 11:09 PM PT (prev: Apr 09 08:19 PM PT)</div>
+        <div class="analysis-time dim">Apr 10 02:24 AM PT (prev: Apr 09 11:09 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,24 +303,24 @@ I&#x27;m dramatically increasing the momentum coefficient from 0.00001 to 0.0005
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.21.0</span>
+            <span class="dim">v1.22.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 09 11:09 PM PT (prev: Apr 09 08:19 PM PT)</div>
+        <div class="analysis-time dim">Apr 10 02:24 AM PT (prev: Apr 09 11:09 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.21.0</span>
+            <span class="dim">v1.22.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 09 11:09 PM PT (prev: Apr 09 08:19 PM PT)</div>
+        <div class="analysis-time dim">Apr 10 02:24 AM PT (prev: Apr 09 11:09 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
@@ -400,11 +400,11 @@ I&#x27;m dramatically increasing the momentum coefficient from 0.00001 to 0.0005
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>26</strong> facts:
-                <span class="esc">16 escalatory</span>,
+                <strong>25</strong> facts:
+                <span class="esc">9 escalatory</span>,
                 <span class="deesc">10 de-escalatory</span>,
-                0 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> The Pentagon executed Operation Epic Fury, a sustained military campaign against Iranian capabilitie</div><div class="fact"><span class="dim">[military_pressure]</span> More than 10,000 missions were flown during Operation Epic Fury, including 62 bomber missions with 1</div><div class="fact"><span class="dim">[military_pressure]</span> More than 13,000 targets were struck in combined operations during Operation Epic Fury.</div>
+                6 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> Operation Epic Fury, a 38-day US military campaign against Iran, resulted in destruction of Iran&#x27;s b</div><div class="fact"><span class="dim">[succession_dynamics]</span> Supreme Leader Ayatollah Ali Khamenei was killed on the first day of the 40-day US-Iran conflict.</div><div class="fact"><span class="dim">[succession_dynamics]</span> A three-member Provisional Leadership Council consisting of President Pezeshkian, judiciary chief Gh</div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ I&#x27;m dramatically increasing the momentum coefficient from 0.00001 to 0.0005
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Operation Epic Fury decimated Iranian military capabilities with 13,000+ targets struck across 38 days, destroying ~90% of weapons factories and ~80% of the nuclear industrial base, forcing Iran into </div>
-                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
+                <div class="state-status">Supreme Leader Khamenei was killed on March 1, triggering establishment of a Provisional Leadership Council (Pezeshkian, Mohseni-Ejei, Arafi) to hold interim power while a new Supreme Leader is select</div>
+                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-09 11:09 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-10 02:24 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
