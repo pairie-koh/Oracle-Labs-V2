@@ -76,5 +76,14 @@
     "action": "no_change",
     "before_avg_se": 0.07565663793103446,
     "result": "no_change"
+  },
+  {
+    "date": "2026-04-11",
+    "summary": "The system shows poor overall performance with 58% accuracy and negative edge vs market (-0.006), indicating systematic overconfidence. Recent performance degraded from SE 0.081 to 0.147 (+0.066). With the LLM consistently losing to market baseline, the current SHRINKAGE_KEEP=0.75 is too aggressive.",
+    "action": "change",
+    "replacements_applied": 1,
+    "before_avg_se": 0.08059863199999996,
+    "after_avg_se": null,
+    "result": "pending"
   }
 ]

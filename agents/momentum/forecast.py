@@ -27,9 +27,9 @@ LIVE_DELAY = 0.03
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 # The iteration cycle modifies these based on performance.
 
-METHODOLOGY_VERSION = "1.22.0"
+METHODOLOGY_VERSION = "1.23.0"
 
-MOMENTUM_WEIGHT = 0.3
+MOMENTUM_WEIGHT = 0.7
 REVERSION_WEIGHT = 0.8
 NEWS_THRESHOLD = 5       # midpoint of sigmoid blend
 SIGMOID_STEEPNESS = 0.5  # how sharp the transition from reversion to momentum
@@ -221,7 +221,7 @@ def make_forecasts(briefing_path, live=False):
             "reversion_weight": REVERSION_WEIGHT,
             "news_threshold": NEWS_THRESHOLD,
             "sigmoid_steepness": SIGMOID_STEEPNESS,
-            "lookback_hours": LOOKBACK_HOURS,
+            "lookbook_hours": LOOKBACK_HOURS,
             "decay_half_life_hours": DECAY_HALF_LIFE_HOURS,
         },
     }
