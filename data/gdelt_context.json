@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-11T16:48:36Z",
+  "fetched_at": "2026-04-11T20:45:47Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -64,16 +64,16 @@
           "country": "United States"
         },
         {
-          "title": "Strait of Hormuz Crisis Explained : Why Iran Toll Strategy Matters",
-          "domain": "indianexpress.com",
-          "date": "20260410T043000Z",
-          "country": "India"
-        },
-        {
           "title": "Only Iran  Friendly  Ships Allowed Transit Through Strait , As Tankers Pile Up Near Hormuz , Waiting To Cross",
           "domain": "zerohedge.com",
           "date": "20260410T171500Z",
           "country": "United States"
+        },
+        {
+          "title": "Strait of Hormuz Crisis Explained : Why Iran Toll Strategy Matters",
+          "domain": "indianexpress.com",
+          "date": "20260410T043000Z",
+          "country": "India"
         },
         {
           "title": "Trump blasts  dishonorable  Iran over its handling of Strait of Hormuz",
@@ -85,11 +85,72 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Will ASEAN Welcome Myanmar Back Into Its Fold ?",
+          "domain": "foreignpolicy.com",
+          "date": "20260410T060000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Cuban president defiant despite Trump pressure to resign - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+          "domain": "dominicanrepublicpost.com",
+          "date": "20260410T124500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Cuban president defiant despite Trump pressure to resign - Grenada Chronicle – Daily Grenada And Caribbean News",
+          "domain": "grenadachronicle.com",
+          "date": "20260410T123000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Myanmar junta chief sworn in as president",
+          "domain": "ewn.co.za",
+          "date": "20260410T103000Z",
+          "country": "South Africa"
+        },
+        {
+          "title": "Myanmar junta chief sworn in as President",
+          "domain": "thehindu.com",
+          "date": "20260410T071500Z",
+          "country": "India"
+        },
+        {
+          "title": "BBCs Jeremy Bowen Debunks Trumps Iran War Claims | HuffPost united kingdom Politics",
+          "domain": "huffingtonpost.co.uk",
+          "date": "20260410T083000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Starmer Time : Countdown to the May 7 British Local Elections",
+          "domain": "hotair.com",
+          "date": "20260410T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Myanmar faces  a lot of challenges to overcome",
+          "domain": "canberratimes.com.au",
+          "date": "20260410T134500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Myanmar Junta Chief Sworn in as President",
+          "domain": "deccanchronicle.com",
+          "date": "20260410T063000Z",
+          "country": "India"
+        },
+        {
+          "title": "Myanmar coup leader Min Aung Hlaing sworn in as president | Elections News",
+          "domain": "aljazeera.com",
+          "date": "20260410T101500Z",
+          "country": "United States"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -129,12 +190,6 @@
           "country": "United States"
         },
         {
-          "title": "It going to be chao : On rural Navajo Nation , tribal leaders slam voter - ID bill",
-          "domain": "wknofm.org",
-          "date": "20260409T184500Z",
-          "country": "United States"
-        },
-        {
           "title": "Republican debunks noncitizen voter panic after his own investigation",
           "domain": "alternet.org",
           "date": "20260410T133000Z",
@@ -153,9 +208,15 @@
           "country": "United States"
         },
         {
-          "title": "Secretary of state addresses election security at Madison County GOP convention",
-          "domain": "norfolkdailynews.com",
-          "date": "20260409T181500Z",
+          "title": "Federal judge dismisses another DOJ lawsuit seeking voter data",
+          "domain": "koat.com",
+          "date": "20260410T053000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Federal judge dismisses another DOJ lawsuit seeking voter data",
+          "domain": "wxii12.com",
+          "date": "20260410T043000Z",
           "country": "United States"
         }
       ]
@@ -186,18 +247,6 @@
           "country": "Egypt"
         },
         {
-          "title": "US economy grows 0 . 5 % in Q4 ; shutdown , weak consumption weigh on pace",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260409T173000Z",
-          "country": "India"
-        },
-        {
-          "title": "FinancialContent - Labor Market Resilience : March Jobs Report Shatters Forecasts as Healthcare and Construction Lead the Charge",
-          "domain": "markets.financialcontent.com",
-          "date": "20260409T191500Z",
-          "country": "United States"
-        },
-        {
           "title": "Iran Conflict Reshapes Global Economy : Boosts Russia , China ; Hurts America",
           "domain": "el-balad.com",
           "date": "20260410T140000Z",
@@ -210,22 +259,34 @@
           "country": "United States"
         },
         {
-          "title": "Mark Zandi  vicious cycle index  is pointing to  uncomfortably high  risk of recession",
-          "domain": "seekingalpha.com",
-          "date": "20260409T173000Z",
-          "country": "United States"
-        },
-        {
           "title": "Egypt is the canary in the coal mine for a global debt crisis",
           "domain": "theglobeandmail.com",
           "date": "20260410T184500Z",
           "country": "Canada"
         },
         {
-          "title": "10 recession - proof business ideas - Shelbyville Times - Gazette",
-          "domain": "t-g.com",
-          "date": "20260409T180000Z",
+          "title": "Blue - Collar Jobs Were Supposed to Be AI - Proof . Not Anymore",
+          "domain": "entrepreneur.com",
+          "date": "20260410T200000Z",
           "country": "United States"
+        },
+        {
+          "title": "What could the US - Iran ceasefire mean for inflation , jobs ?",
+          "domain": "abcnews.com",
+          "date": "20260410T201500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Capitol Fax . com - Your Illinois News Radar » Feds : Illinois economy grew to $1 . 2 trillion in 2025",
+          "domain": "capitolfax.com",
+          "date": "20260409T213000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US economy slows to 0 . 5 per cent growth in fourth quarter amid shutdown impact",
+          "domain": "thehindubusinessline.com",
+          "date": "20260410T050000Z",
+          "country": "India"
         }
       ]
     },
@@ -275,12 +336,6 @@
           "country": "United States"
         },
         {
-          "title": "Prices surged in March after oil shock set off by Iran war",
-          "domain": "abc30.com",
-          "date": "20260410T190000Z",
-          "country": "United States"
-        },
-        {
           "title": "Fed official says interest rate hike possible as gas prices , inflation remain elevated",
           "domain": "fox6now.com",
           "date": "20260409T230000Z",
@@ -290,6 +345,12 @@
           "title": "Fed official says interest rate hike possible as gas prices , inflation remain elevated",
           "domain": "fox5ny.com",
           "date": "20260410T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Prices surged in March after oil shock set off by Iran war",
+          "domain": "abc30.com",
+          "date": "20260410T190000Z",
           "country": "United States"
         },
         {
@@ -338,16 +399,16 @@
           "country": "United States"
         },
         {
-          "title": "Inflation Spikes in March as Economists Warn of Spillover Effects in the Months Ahead",
-          "domain": "morningstar.com",
-          "date": "20260410T174500Z",
-          "country": "China"
-        },
-        {
           "title": "Latest CPI doesnt capture falling rents in some metro areas",
           "domain": "marketplace.org",
           "date": "20260411T003000Z",
           "country": "United States"
+        },
+        {
+          "title": "Inflation Spikes in March as Economists Warn of Spillover Effects in the Months Ahead",
+          "domain": "morningstar.com",
+          "date": "20260410T174500Z",
+          "country": "China"
         },
         {
           "title": "US consumer prices surge as expected in March",
@@ -389,6 +450,12 @@
           "country": "United States"
         },
         {
+          "title": "Bitcoin News : Morgan Stanley Just Launched the Cheapest Bitcoin ETF on the Market",
+          "domain": "finance.yahoo.com",
+          "date": "20260411T193000Z",
+          "country": "United States"
+        },
+        {
           "title": "Has Satoshi Nakamoto Finally Been Unmasked ? Believe It or Not , Bitcoin is Rising",
           "domain": "finance.yahoo.com",
           "date": "20260410T041500Z",
@@ -407,12 +474,6 @@
           "country": "United States"
         },
         {
-          "title": "Q1 2026 Digital Asset Review",
-          "domain": "coindesk.com",
-          "date": "20260409T184500Z",
-          "country": "United States"
-        },
-        {
           "title": "Bitcoin , Ethereum outperform gold and silver in March amid Iran conflict : Report",
           "domain": "moneycontrol.com",
           "date": "20260410T074500Z",
@@ -425,87 +486,26 @@
           "country": "United States"
         },
         {
-          "title": "Why Bitcoin , Ethereum Institutional Interest Rebounded In March",
-          "domain": "benzinga.com",
-          "date": "20260409T191500Z",
+          "title": "The Crypto Overview Wall Street Reads While Pepeto Presale",
+          "domain": "openpr.com",
+          "date": "20260411T181500Z",
           "country": "United States"
         },
         {
-          "title": "Bitcoin and ethereum price today , Thursday , April 9 , 2026 : Crypto rally slows as ceasefire wavers",
-          "domain": "finance.yahoo.com",
-          "date": "20260409T171500Z",
-          "country": "United States"
+          "title": "Inflation Cools , Bitcoin Rises but Interest Rate Cut Odds Still at Zero",
+          "domain": "cointelegraph.com",
+          "date": "20260410T194500Z",
+          "country": "China"
         }
       ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": [
-        {
-          "title": "Prices drop at gas stations in Austria",
-          "domain": "gazetaexpress.com",
-          "date": "20260409T174500Z",
-          "country": "Kosovo"
-        },
-        {
-          "title": "Current price of oil as of April 10 , 2026",
-          "domain": "fortune.com",
-          "date": "20260410T163000Z",
-          "country": "United States"
-        },
-        {
-          "title": "China producer prices turns positive as inflation gets boost from Iran oil shock",
-          "domain": "cnbc.com",
-          "date": "20260410T024500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas Check : Arizona pump prices climbing as crude oil remains high",
-          "domain": "yumasun.com",
-          "date": "20260410T084500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Hyperliquid Traders Face Widespread Liquidations as Oil Prices Collapse",
-          "domain": "finance.yahoo.com",
-          "date": "20260410T060000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices fall for second day as Iran ceasefire eases oil pressure",
-          "domain": "wfaa.com",
-          "date": "20260411T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices fall for second day as Iran ceasefire eases oil pressure",
-          "domain": "wcnc.com",
-          "date": "20260411T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices fall for second day as Iran ceasefire eases oil pressure",
-          "domain": "khou.com",
-          "date": "20260411T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices fall for second day as Iran ceasefire eases oil pressure",
-          "domain": "wfmynews2.com",
-          "date": "20260411T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices fall for second day as Iran ceasefire eases oil pressure",
-          "domain": "10tv.com",
-          "date": "20260411T131500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -520,12 +520,6 @@
           "domain": "aninews.in",
           "date": "20260411T053000Z",
           "country": "India"
-        },
-        {
-          "title": "Polling Data Spells Potential Disaster for Republicans in the Midterms",
-          "domain": "truthout.org",
-          "date": "20260409T184500Z",
-          "country": "United States"
         },
         {
           "title": "Trump  Political Warrior  James Blair departs White House to lead midterm charge",
@@ -574,6 +568,12 @@
           "domain": "thenation.com",
           "date": "20260410T171500Z",
           "country": "United States"
+        },
+        {
+          "title": "[ Correspondent column ] Trump real red line isnt Iran nuclear program",
+          "domain": "hani.co.kr",
+          "date": "20260410T093000Z",
+          "country": "South Korea"
         }
       ]
     },
@@ -591,12 +591,6 @@
           "country": "Spain"
         },
         {
-          "title": "FIFA Removes Ndala From 2026 World Cup Following AFCON Final Controversy",
-          "domain": "moroccoworldnews.com",
-          "date": "20260409T184500Z",
-          "country": "Morocco"
-        },
-        {
           "title": "FIFA raises ticket prices for 2026 World Cup and faces strong criticism",
           "domain": "gazetaexpress.com",
           "date": "20260411T011500Z",
@@ -607,12 +601,6 @@
           "domain": "gazetaexpress.com",
           "date": "20260411T011500Z",
           "country": "Kosovo"
-        },
-        {
-          "title": "How Ronaldo and Portugal could play at BC Place during FIFA World Cup | Daily Hive",
-          "domain": "dailyhive.com",
-          "date": "20260409T174500Z",
-          "country": "Canada"
         },
         {
           "title": "Canada new FIFA World Cup song features Nelly Furtado | Daily Hive",
@@ -627,12 +615,6 @@
           "country": "South Africa"
         },
         {
-          "title": "FIFA World Cup celebration tour coming to Cranbrook | Cranbrook Daily Townsman",
-          "domain": "cranbrooktownsman.com",
-          "date": "20260409T174500Z",
-          "country": "Canada"
-        },
-        {
           "title": "Football Ferns v Fiji : Live updates from the Women World Cup qualifier in Hamilton",
           "domain": "nzherald.co.nz",
           "date": "20260411T044500Z",
@@ -642,6 +624,24 @@
           "title": "France to train at Bentley University in Waltham for 2026 World Cup",
           "domain": "wcvb.com",
           "date": "20260409T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Why is the NRG Stadium sign being taken down in Houston ?",
+          "domain": "fox26houston.com",
+          "date": "20260409T231500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Capcom Pro Tour 2026 details revealed with an even larger focus on Japan and one new region added",
+          "domain": "eventhubs.com",
+          "date": "20260410T224500Z",
+          "country": "Japan"
+        },
+        {
+          "title": "How Technology Is Transforming the Fan Experience at the 2026 FIFA World Cup in New York – AlleyWatch",
+          "domain": "alleywatch.com",
+          "date": "20260410T161500Z",
           "country": "United States"
         }
       ]
@@ -696,12 +696,6 @@
           "country": "United States"
         },
         {
-          "title": "Breaking News - ESPN NBA Schedule Update : Two Matchups Added for Final Day of Regular Season on April 12",
-          "domain": "thefutoncritic.com",
-          "date": "20260409T191500Z",
-          "country": "United States"
-        },
-        {
           "title": "Deadlines and Commitments : What next edition",
           "domain": "netsdaily.com",
           "date": "20260410T190000Z",
@@ -712,78 +706,23 @@
           "domain": "bleacherreport.com",
           "date": "20260409T211500Z",
           "country": "United States"
+        },
+        {
+          "title": "Pacer Tyrese Haliburton shares exciting injury update",
+          "domain": "yardbarker.com",
+          "date": "20260410T003000Z",
+          "country": "United States"
         }
       ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "Our Checkout Code Gives You 5 Years of ChatOn All - in - One AI Tools Experience for Less Than Half Price",
-          "domain": "gizmodo.com",
-          "date": "20260411T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Anthropic and OpenAI target big businesses with enterprise - grade controls and lower pricing",
-          "domain": "siliconangle.com",
-          "date": "20260410T034500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Anthropic Claude Mythos sparks security fears as Powell , Bessent warn bank CEOs",
-          "domain": "thenews.com.pk",
-          "date": "20260410T080000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Anthropic says its own new model is too dangerous for the public but not these Big Tech companies",
-          "domain": "theblaze.com",
-          "date": "20260409T211500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Google Gemini AI can answer your questions with 3D models and simulations",
-          "domain": "theverge.com",
-          "date": "20260409T213000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gemini Can Now Respond With 3D Models , Interactive Simulations",
-          "domain": "pcmag.com",
-          "date": "20260410T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Study : Google  AI Overview  Spews False Information on Wide Variety of Topics",
-          "domain": "breitbart.com",
-          "date": "20260410T234500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Pricey AI blood test services promise answers . Do they deliver ?",
-          "domain": "mashable.com",
-          "date": "20260410T124500Z",
-          "country": "United States"
-        },
-        {
-          "title": "IT stocks slide up to 3 % after TCS Q4 earnings . What spooking investors ?",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260410T080000Z",
-          "country": "India"
-        },
-        {
-          "title": "Gemini interactive visuals : 3 fun and easy things to try",
-          "domain": "digit.in",
-          "date": "20260410T220000Z",
-          "country": "India"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
@@ -793,22 +732,16 @@
       ],
       "headlines": [
         {
+          "title": "Rockstar Hackers Threaten GTA 6 Studio With Major Leak",
+          "domain": "screenrant.com",
+          "date": "20260411T164500Z",
+          "country": "United States"
+        },
+        {
           "title": "GTA 6 fans rejoice as PC release date could be sooner than we thought",
           "domain": "mirror.co.uk",
           "date": "20260410T103000Z",
           "country": "United Kingdom"
-        },
-        {
-          "title": "GTA 6 Leak Narrows Down Release Window for New Grand Theft Auto Online",
-          "domain": "gamerant.com",
-          "date": "20260409T194500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Possible GTA 6 Mission Details Leaked",
-          "domain": "gamerant.com",
-          "date": "20260409T174500Z",
-          "country": "United States"
         },
         {
           "title": "Best GTA 5 mods 2026 - from graphics updates to new cars",
@@ -823,9 +756,15 @@
           "country": "United States"
         },
         {
-          "title": "GTA 5 Fans Stunned After Revelation Of Cut Content",
-          "domain": "screenrant.com",
-          "date": "20260409T174500Z",
+          "title": "GTA 6 Developer Rockstar Confirms Third - Party Data Breach",
+          "domain": "ign.com",
+          "date": "20260411T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 satire may have less  impact  because reality has gotten so screwed up , says GTA 5 Lester actor",
+          "domain": "gamesradar.com",
+          "date": "20260411T180000Z",
           "country": "United States"
         },
         {
@@ -841,15 +780,15 @@
           "country": "United States"
         },
         {
-          "title": "CM Punk Role In Grand Theft Auto 6 Rumor Killer",
-          "domain": "wrestlezone.com",
-          "date": "20260409T213000Z",
+          "title": "GTA 6 Rockstar breached by hacker group with secret data up for ransom",
+          "domain": "polygon.com",
+          "date": "20260411T174500Z",
           "country": "United States"
         },
         {
-          "title": "Our Hype for Samson on PS5 Crashes as GTA - Like Gets Slammed by Reviews",
+          "title": "GTA 6 Dev Confirms Another Data Breach , Hackers Demand Ransom",
           "domain": "pushsquare.com",
-          "date": "20260409T173000Z",
+          "date": "20260411T180000Z",
           "country": "Japan"
         }
       ]

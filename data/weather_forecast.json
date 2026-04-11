@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-11T16:44:00Z",
+  "fetched_at": "2026-04-11T20:41:10Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -10,11 +10,69 @@
       "today_high": 64,
       "today_high_unit": "F",
       "today_forecast": "Sunny",
-      "today_detail": "Sunny. High near 64, with temperatures falling to around 62 in the afternoon. Northwest wind 16 to 20 mph.",
-      "wind": "16 to 20 mph",
+      "today_detail": "Sunny. High near 64, with temperatures falling to around 62 in the afternoon. Northwest wind around 17 mph, with gusts as high as 29 mph.",
+      "wind": "17 mph",
       "wind_direction": "NW",
-      "tonight_low": 43,
-      "tonight_forecast": "Clear"
+      "tonight_low": 44,
+      "tonight_forecast": "Clear",
+      "hourly": [
+        {
+          "hour": "2026-04-11T15:00:00-04:00",
+          "temp": 62,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-04-11T16:00:00-04:00",
+          "temp": 62,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-04-11T17:00:00-04:00",
+          "temp": 62,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-04-11T18:00:00-04:00",
+          "temp": 60,
+          "unit": "F",
+          "short": "Clear"
+        },
+        {
+          "hour": "2026-04-11T19:00:00-04:00",
+          "temp": 58,
+          "unit": "F",
+          "short": "Clear"
+        },
+        {
+          "hour": "2026-04-11T20:00:00-04:00",
+          "temp": 57,
+          "unit": "F",
+          "short": "Clear"
+        },
+        {
+          "hour": "2026-04-11T21:00:00-04:00",
+          "temp": 55,
+          "unit": "F",
+          "short": "Clear"
+        },
+        {
+          "hour": "2026-04-11T22:00:00-04:00",
+          "temp": 54,
+          "unit": "F",
+          "short": "Clear"
+        },
+        {
+          "hour": "2026-04-11T23:00:00-04:00",
+          "temp": 53,
+          "unit": "F",
+          "short": "Clear"
+        }
+      ],
+      "peak_temp": 62,
+      "peak_hour": "2026-04-11T15:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
@@ -24,36 +82,12 @@
       "today_high": 82,
       "today_high_unit": "F",
       "today_forecast": "Mostly Sunny",
-      "today_detail": "Mostly sunny, with a high near 82. Northeast wind 5 to 10 mph, with gusts as high as 23 mph.",
-      "wind": "5 to 10 mph",
+      "today_detail": "Mostly sunny, with a high near 82. Northeast wind around 10 mph, with gusts as high as 23 mph.",
+      "wind": "10 mph",
       "wind_direction": "NE",
-      "tonight_low": 59,
+      "tonight_low": 58,
       "tonight_forecast": "Mostly Clear",
       "hourly": [
-        {
-          "hour": "2026-04-11T12:00:00-04:00",
-          "temp": 78,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-11T13:00:00-04:00",
-          "temp": 79,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-11T14:00:00-04:00",
-          "temp": 80,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-11T15:00:00-04:00",
-          "temp": 80,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
         {
           "hour": "2026-04-11T16:00:00-04:00",
           "temp": 80,
@@ -64,13 +98,13 @@
           "hour": "2026-04-11T17:00:00-04:00",
           "temp": 81,
           "unit": "F",
-          "short": "Sunny"
+          "short": "Partly Sunny"
         },
         {
           "hour": "2026-04-11T18:00:00-04:00",
-          "temp": 78,
+          "temp": 79,
           "unit": "F",
-          "short": "Mostly Clear"
+          "short": "Partly Cloudy"
         },
         {
           "hour": "2026-04-11T19:00:00-04:00",
@@ -98,7 +132,7 @@
         },
         {
           "hour": "2026-04-11T23:00:00-04:00",
-          "temp": 66,
+          "temp": 65,
           "unit": "F",
           "short": "Mostly Clear"
         }
