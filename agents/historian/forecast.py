@@ -28,7 +28,7 @@ LIVE_DELAY = 0.03
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.23.0"
+METHODOLOGY_VERSION = "1.24.0"
 
 # Fallback base rates if price history is unavailable
 DEFAULT_BASE_RATES = {
@@ -36,7 +36,7 @@ DEFAULT_BASE_RATES = {
 }
 
 ADAPTIVE_LOOKBACK_DAYS = 7   # days of price history for adaptive base rate
-REVERSION_RATE = 0.025       # how strongly to pull toward base rate per cycle
+REVERSION_RATE = 0.01        # how strongly to pull toward base rate per cycle
 NEWS_SENSITIVITY = 0.08      # scaling factor inside tanh
 MAX_NEWS_SHIFT = 0.015        # max absolute shift from news (1.5pp)
 DECAY_HALF_LIFE_HOURS = 18    # historian cares about slower signals

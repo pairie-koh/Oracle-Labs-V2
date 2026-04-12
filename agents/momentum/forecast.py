@@ -27,7 +27,7 @@ LIVE_DELAY = 0.03
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 # The iteration cycle modifies these based on performance.
 
-METHODOLOGY_VERSION = "1.23.0"
+METHODOLOGY_VERSION = "1.24.0"
 
 MOMENTUM_WEIGHT = 0.7
 REVERSION_WEIGHT = 0.8
@@ -126,14 +126,15 @@ def forecast_market(market_key, market_data, facts, now_utc, horizon_hours=4, li
         time.sleep(LIVE_DELAY * 3)
 
     # Sigmoid blend: smooth transition from reversion to momentum mode
-    blend_weight = 1.0 / (1.0 + math.exp(-SIGMOID_STEEPNESS * (intensity - NEWS_THRESHOLD)))
+    # INVERTED: high news intensity now favors reversion, low intensity favors momentum
+    blend_weight = 1.0 / (1.0 + math.exp(SIGMOID_STEEPNESS * (intensity - NEWS_THRESHOLD)))
 
     if live:
-        print(f"\n{BOLD}▸ Sigmoid blend{RESET}")
+        print(f"\n{BOLD}▸ Sigmoid blend (INVERTED){RESET}")
         print(f"  intensity={CYAN}{intensity:.3f}{RESET} vs threshold={CYAN}{NEWS_THRESHOLD}{RESET}")
-        print(f"  blend = 1/(1+exp(-{SIGMOID_STEEPNESS}×({intensity:.3f}-{NEWS_THRESHOLD}))) = "
+        print(f"  blend = 1/(1+exp(+{SIGMOID_STEEPNESS}×({intensity:.3f}-{NEWS_THRESHOLD}))) = "
               f"{GREEN}{blend_weight:.4f}{RESET}")
-        mode = "MOMENTUM (high news flow)" if blend_weight > 0.5 else "REVERSION (low news flow)"
+        mode = "MOMENTUM (low news flow)" if blend_weight > 0.5 else "REVERSION (high news flow)"
         print(f"  Mode: {BOLD}{mode}{RESET}")
         time.sleep(LIVE_DELAY * 3)
 
