@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 12 11:20 PM PT</strong> (9m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (95m)</span>
-            <span>Scored: <strong>402</strong> predictions | Logged: <strong>618</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 13 03:01 AM PT</strong> (8m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (115m)</span>
+            <span>Scored: <strong>405</strong> predictions | Logged: <strong>621</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(25d 3h ago)</span>
+            <span class="dim">(25d 7h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-12
+                    <div class="iter-text"># momentum — 2026-04-13
 
-Version: 1.23.0 -&gt; 1.24.0
+Version: 1.24.0 -&gt; 1.25.0
 
-The agent&#x27;s directional accuracy of 17.3% indicates the momentum logic is backwards - markets appear to be mean-reverting rather than continuing trends. I&#x27;m inverting the blend logic so that high news intensity triggers reversion mode (pulling toward equilibrium) while low news intensity uses momentum extrapolation. This should fix the consistently wrong directional predictions and improve performance versus the naive baseline.</div>
+The current performance shows extremely poor directional accuracy at 21.8%, well below random chance, and MSE significantly higher than the naive baseline (0.00131008 vs 0.00038504). The inverted sigmoid logic where high news intensity favors reversion and low intensity favors momentum appears to be fundamentally flawed. I&#x27;m reverting to standard momentum theory: high news flow should drive momentum (trend continuation), while low news flow should favor mean reversion. This aligns with conventional market wisdom that breaking news creates directional moves that persist in the short term.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-12
+                    <div class="iter-text"># historian — 2026-04-13
 
-Version: 1.23.0 -&gt; 1.24.0
+Version: 1.24.0 -&gt; 1.25.0
 
-I&#x27;m reducing the REVERSION_RATE from 0.025 to 0.01 to make the mean reversion component less aggressive. The current MSE is more than double the naive baseline, suggesting my forecasts are consistently moving in the wrong direction. By reducing the reversion rate, I&#x27;ll make smaller adjustments away from current prices, which should help reduce the magnitude of prediction errors and potentially improve directional accuracy.</div>
+Looking at the scorecard, the historian agent is performing very poorly with directional accuracy of only 27.3% (much worse than random) despite having excellent MSE performance. The agent is consistently predicting in the wrong direction. The current reversion rate of 0.01 is extremely conservative and may be preventing the agent from responding adequately to market signals. I&#x27;m increasing the reversion rate from 0.01 to 0.05 to make the agent more responsive to deviations from the adaptive base rate, which should help improve directional accuracy.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-12
+                    <div class="iter-text"># game_theorist — 2026-04-13
 
-Version: 1.23.0 -&gt; 1.24.0
+Version: 1.24.0 -&gt; 1.25.0
 
-I&#x27;m increasing ESCALATION_SENSITIVITY from 0.0005 to 0.05 - a 100x increase. My current sensitivity is so low that even strong signals barely move my predictions away from current prices, making me perform worse than the naive baseline while having terrible directional accuracy. This change should make me more responsive to the costly signals and actor incentives I&#x27;m designed to detect, potentially improving both MSE and directional accuracy by actually making meaningful predictions rather than staying too close to current values.</div>
+The agent is performing catastrophically with MSE 300x worse than the naive baseline and only 28% directional accuracy. The primary issue is excessive sensitivity to signals, causing dramatic overreactions that move predictions too far from current market prices. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.05 to 0.005 (a 10x reduction) to make the agent much more conservative and closer to current prices, which should dramatically improve MSE performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-12
+                    <div class="iter-text"># quant — 2026-04-13
 
-Version: 1.23.0 -&gt; 1.24.0
+Version: 1.24.0 -&gt; 1.25.0
 
-The agent&#x27;s MSE (0.00115713) is 3.5x worse than the naive baseline, indicating predictions are too far from actual outcomes. While directional accuracy is good for 24h forecasts (97.96%), the magnitude of predictions is too large, causing poor MSE performance. I&#x27;m reducing the momentum coefficient from 0.0002 back to 0.00005 to make more conservative predictions that stay closer to current prices. This should improve MSE while maintaining directional accuracy.</div>
+The current momentum coefficient of 0.00005 is too conservative, resulting in predictions that barely move from current prices and poor directional accuracy (8.24%). Despite having reasonable momentum detection through linear regression, the coefficient is so small that it&#x27;s not translating into meaningful directional signals. I&#x27;m increasing the momentum coefficient from 0.00005 to 0.0002 to make the model more responsive to detected momentum patterns while keeping the successful mean-reversion bias intact.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -250,7 +250,7 @@ The agent&#x27;s MSE (0.00115713) is 3.5x worse than the naive baseline, indicat
                 </div>
                 <div class="price-changes">
                     4h: <span class="">+0.0000</span>
-                    &nbsp; 24h: <span class="up">+0.0100</span>
+                    &nbsp; 24h: <span class="">+0.0000</span>
                 </div>
                 
                 <div class="forecast-row">
@@ -287,12 +287,12 @@ The agent&#x27;s MSE (0.00115713) is 3.5x worse than the naive baseline, indicat
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.24.0</span>
+            <span class="dim">v1.25.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 12 11:29 PM PT (prev: Apr 12 08:50 PM PT)</div>
+        <div class="analysis-time dim">Apr 13 03:09 AM PT (prev: Apr 12 11:29 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,24 +303,24 @@ The agent&#x27;s MSE (0.00115713) is 3.5x worse than the naive baseline, indicat
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.24.0</span>
+            <span class="dim">v1.25.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 12 11:29 PM PT (prev: Apr 12 08:50 PM PT)</div>
+        <div class="analysis-time dim">Apr 13 03:09 AM PT (prev: Apr 12 11:29 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.24.0</span>
+            <span class="dim">v1.25.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 12 11:29 PM PT (prev: Apr 12 08:50 PM PT)</div>
+        <div class="analysis-time dim">Apr 13 03:09 AM PT (prev: Apr 12 11:29 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
@@ -343,20 +343,20 @@ The agent&#x27;s MSE (0.00115713) is 3.5x worse than the naive baseline, indicat
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,22.5 60.0,28.0 90.0,12.0 120.0,20.5" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="20.5" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.001085</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,25.7 30.0,28.0 60.0,21.3 90.0,24.9 120.0,2.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.007629</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,2.0 60.0,27.5 90.0,8.8 120.0,11.3" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="11.3" r="3" fill="#3498db" /></svg></span>
-            <span class="trend-val">0.000295</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,28.0 60.0,9.0 90.0,11.5 120.0,20.7" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="20.7" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.000155</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,2.0 60.0,13.6 90.0,15.4 120.0,5.7" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="5.7" r="3" fill="#f39c12" /></svg></span>
-            <span class="trend-val">0.000642</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,24.4 60.0,28.0 90.0,9.3 120.0,22.8" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="22.8" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.000441</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -374,7 +374,7 @@ The agent&#x27;s MSE (0.00115713) is 3.5x worse than the naive baseline, indicat
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
             <span class="pnl-val down">$-8</span>
-            <span class="dim">10W/18L (28 trades)</span>
+            <span class="dim">10W/19L (29 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#3498db"></span>
@@ -386,7 +386,7 @@ The agent&#x27;s MSE (0.00115713) is 3.5x worse than the naive baseline, indicat
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
             <span class="pnl-val down">$-41</span>
-            <span class="dim">22W/43L (65 trades)</span>
+            <span class="dim">22W/44L (66 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -400,11 +400,11 @@ The agent&#x27;s MSE (0.00115713) is 3.5x worse than the naive baseline, indicat
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>18</strong> facts:
-                <span class="esc">12 escalatory</span>,
-                <span class="deesc">5 de-escalatory</span>,
-                1 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> U.S. President Trump announced a naval blockade of the Strait of Hormuz targeting Iranian ports, set</div><div class="fact"><span class="dim">[military_pressure]</span> U.S. Central Command confirmed implementation of a naval blockade on all maritime traffic to and fro</div><div class="fact"><span class="dim">[diplomatic_signals]</span> Iranian Foreign Minister Abbas Araghchi criticized the U.S. blockade as &#x27;maximalism&#x27; and &#x27;shifting g</div>
+                <strong>26</strong> facts:
+                <span class="esc">17 escalatory</span>,
+                <span class="deesc">7 de-escalatory</span>,
+                2 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> President Trump announced a naval blockade of the Strait of Hormuz effective April 14, 2026, targeti</div><div class="fact"><span class="dim">[military_pressure]</span> US warships USS Michael Murphy and USS Frankie Eie Peterson Jr. transited the Strait of Hormuz over </div><div class="fact"><span class="dim">[military_pressure]</span> IRGC forces released footage on April 11-12, 2026 of warning a US Navy destroyer in the Strait of Ho</div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ The agent&#x27;s MSE (0.00115713) is 3.5x worse than the naive baseline, indicat
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">U.S. naval blockade of Iranian ports is now operationally implemented as of April 13, while Iran&#x27;s interim leadership responds with military warnings and diplomatic accusations of bad faith. Israeli s</div>
-                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: high</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
+                <div class="state-status">A fragile two-week ceasefire mediated by Pakistan is holding unevenly as Trump announced a naval blockade effective April 14 targeting Iranian oil exports, while intense internal power struggles betwe</div>
+                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-12 11:29 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-13 03:09 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
