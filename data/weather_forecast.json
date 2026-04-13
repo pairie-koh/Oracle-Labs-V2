@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-12T20:43:33Z",
+  "fetched_at": "2026-04-13T03:28:12Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -7,51 +7,15 @@
       "relevant_to": [
         "nyc_temp"
       ],
-      "today_high": 58,
+      "today_high": 78,
       "today_high_unit": "F",
-      "today_forecast": "Mostly Sunny",
-      "today_detail": "Mostly sunny. High near 58, with temperatures falling to around 56 in the afternoon. South wind around 14 mph.",
-      "wind": "14 mph",
-      "wind_direction": "S",
-      "tonight_low": 51,
-      "tonight_forecast": "Mostly Cloudy",
+      "today_forecast": "Mostly Cloudy",
+      "today_detail": "Mostly cloudy, with a high near 78. Southwest wind 8 to 15 mph, with gusts as high as 25 mph.",
+      "wind": "8 to 15 mph",
+      "wind_direction": "SW",
+      "tonight_low": 61,
+      "tonight_forecast": "Partly Cloudy",
       "hourly": [
-        {
-          "hour": "2026-04-12T16:00:00-04:00",
-          "temp": 57,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-12T17:00:00-04:00",
-          "temp": 56,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-12T18:00:00-04:00",
-          "temp": 54,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-04-12T19:00:00-04:00",
-          "temp": 53,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-04-12T20:00:00-04:00",
-          "temp": 51,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-04-12T21:00:00-04:00",
-          "temp": 51,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
         {
           "hour": "2026-04-12T22:00:00-04:00",
           "temp": 51,
@@ -65,65 +29,23 @@
           "short": "Mostly Cloudy"
         }
       ],
-      "peak_temp": 57,
-      "peak_hour": "2026-04-12T16:00:00-04:00"
+      "peak_temp": 51,
+      "peak_hour": "2026-04-12T22:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
       "relevant_to": [
         "miami_temp"
       ],
-      "today_high": 83,
+      "today_high": 85,
       "today_high_unit": "F",
       "today_forecast": "Sunny",
-      "today_detail": "Sunny, with a high near 83. East wind around 13 mph, with gusts as high as 26 mph.",
-      "wind": "13 mph",
-      "wind_direction": "E",
-      "tonight_low": 58,
-      "tonight_forecast": "Mostly Clear",
+      "today_detail": "Sunny, with a high near 85. Northeast wind 5 to 12 mph, with gusts as high as 23 mph.",
+      "wind": "5 to 12 mph",
+      "wind_direction": "NE",
+      "tonight_low": 61,
+      "tonight_forecast": "Mostly Cloudy",
       "hourly": [
-        {
-          "hour": "2026-04-12T16:00:00-04:00",
-          "temp": 82,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-04-12T17:00:00-04:00",
-          "temp": 82,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-04-12T18:00:00-04:00",
-          "temp": 80,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-12T19:00:00-04:00",
-          "temp": 77,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-12T20:00:00-04:00",
-          "temp": 74,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-12T21:00:00-04:00",
-          "temp": 70,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-12T22:00:00-04:00",
-          "temp": 67,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
         {
           "hour": "2026-04-12T23:00:00-04:00",
           "temp": 66,
@@ -131,8 +53,8 @@
           "short": "Mostly Clear"
         }
       ],
-      "peak_temp": 82,
-      "peak_hour": "2026-04-12T16:00:00-04:00"
+      "peak_temp": 66,
+      "peak_hour": "2026-04-12T23:00:00-04:00"
     }
   }
 }
