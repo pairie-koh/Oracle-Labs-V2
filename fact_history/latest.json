@@ -1,7 +1,16 @@
 [
   {
-    "claim": "US President Donald Trump announced a military blockade of Iranian ports in the Strait of Hormuz on April 13, 2026, deploying at least 13 US warships to halt tankers and cut off Iran's energy exports following failed nuclear talks in Pakistan.",
-    "source": "US Government Official Statement",
+    "claim": "The US military initiated a naval blockade of Iranian ports in the Strait of Hormuz on April 13, 2026, deploying at least 13 warships to intercept vessels and enforce economic pressure.",
+    "source": "US Central Command / Presidential announcement",
+    "source_category": "government_official",
+    "indicator_category": "international_response",
+    "market": "regime_fall",
+    "time": "2026-04-13T10:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "US Central Command (CENTCOM) is conducting mine-clearing operations using guided-missile destroyers USS Frank E. Peterson and USS Michael Murphy, with upcoming underwater drones.",
+    "source": "US Central Command",
     "source_category": "government_official",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
@@ -9,26 +18,8 @@
     "confidence": "high"
   },
   {
-    "claim": "At least 13 US warships are enforcing a blockade targeting ships entering or exiting Iranian ports to pressure Iran economically and diplomatically amid a fragile ceasefire.",
-    "source": "US Military Command",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-13T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iranian state media released footage on April 12, 2026, showing IRGC forces issuing a 'last warning' to US destroyers USS Michael Murphy and USS Frank E. Peterson Jr. in the Strait of Hormuz, claiming missiles and drones were locked on them.",
-    "source": "Iranian State Media",
-    "source_category": "social_media",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-12T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "US CENTCOM denied Iranian claims of a standoff or US retreat involving USS Michael Murphy and USS Frank E. Peterson Jr. in the Strait of Hormuz.",
-    "source": "US CENTCOM",
+    "claim": "Iran's Revolutionary Guard Corps (IRGC) warned of a harsh response including mine-laying in the Strait of Hormuz to challenge US forces.",
+    "source": "Iranian state media",
     "source_category": "government_official",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
@@ -36,127 +27,109 @@
     "confidence": "high"
   },
   {
-    "claim": "Additional US forces, including underwater drones, were set to join mine-clearing efforts in the Strait of Hormuz where Iran has laid mines since the war began on February 28, 2026.",
-    "source": "US Military Command",
+    "claim": "Iranian state media released footage from April 12 showing IRGC claiming missile and drone locks on a US Navy destroyer that forced a retreat, though US CENTCOM denies any standoff occurred.",
+    "source": "Iranian state media / US CENTCOM",
     "source_category": "government_official",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-04-13T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Trump claimed Iran's navy, air force, anti-aircraft systems, radar, and leadership are neutralized with no Iranian business occurring in the strait.",
-    "source": "US Government Official Statement",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-13T00:00:00Z",
+    "time": "2026-04-12T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "US-Iran nuclear talks in Islamabad ended around April 12-13, 2026, after over 20 hours of failed negotiations centered on Iran's nuclear program.",
-    "source": "Wire Service",
-    "source_category": "wire_service",
+    "claim": "The IRGC has asserted control over the Strait of Hormuz since February 28, 2026, sporadically attacking ships and laying mines.",
+    "source": "Multiple sources",
+    "source_category": "government_official",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-02-28T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "US-Iran ceasefire talks in Islamabad ended on April 13, 2026, preceding the US blockade announcement.",
+    "source": "Government sources",
+    "source_category": "government_official",
     "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
     "time": "2026-04-13T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Israeli airstrikes on June 15, 2026, targeted Iranian regime institutions including the Justice Ministry, Foreign Affairs Ministry, Ministry of Intelligence and Security (MOIS), and Law Enforcement Command (LEC) headquarters in Tehran.",
-    "source": "Wire Service",
-    "source_category": "wire_service",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-06-15T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Prime Minister Benjamin Netanyahu confirmed the killing of IRGC Intelligence Organization Chief Brigadier General Mohammad Kazemi, his deputy Hassan Mohaghegh, and officer Mohsen Bagheri in the June 15, 2026 airstrikes.",
-    "source": "Israeli Government Official",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-06-15T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Supreme Leader Ali Khamenei appointed Major General Amir Hatami as overall Artesh commander, replacing Abdol Rahim Mousavi, signaling internal military adjustments under pressure.",
-    "source": "Iranian Government Official",
+    "claim": "Supreme Leader Ali Khamenei appointed Major General Amir Hatami as overall Artesh (regular military) commander, replacing Major General Abdol Rahim Mousavi.",
+    "source": "Iranian government sources",
     "source_category": "government_official",
     "indicator_category": "succession_dynamics",
     "market": "regime_fall",
-    "time": "2026-06-15T00:00:00Z",
+    "time": "2026-04-14T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "IDF attacks on energy infrastructure occurred on June 14, 2026, followed by an airstrike on an airbase near Mashhad.",
-    "source": "Israeli Military",
-    "source_category": "government_official",
+    "claim": "Hard-line factions in Iran consolidated power and sidelined reformists via Guardian Council vetting since 2020.",
+    "source": "Regional specialist analysis",
+    "source_category": "regional_specialist",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-04-14T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Iran maintains an internet blackout lasting 41 days as of early 2026 amid heavy fighting.",
+    "source": "Multiple sources",
+    "source_category": "regional_specialist",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-04-14T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "The Iranian regime executed 14 people, including seven linked to January 2026 anti-government protests, with arrests and summons ongoing.",
+    "source": "Regional sources",
+    "source_category": "regional_specialist",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-04-14T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Stringent international sanctions persist against Iran due to its anti-Western stance, exacerbating economic isolation.",
+    "source": "Regional analyst",
+    "source_category": "regional_specialist",
+    "indicator_category": "economic_collapse",
+    "market": "regime_fall",
+    "time": "2026-04-14T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Severe energy shortages occurred in Iran during winter 2024-2025, worsening inflation and poverty.",
+    "source": "Regional sources",
+    "source_category": "regional_specialist",
+    "indicator_category": "economic_collapse",
+    "market": "regime_fall",
+    "time": "2025-02-01T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Israeli Defense Forces expanded strikes on June 15, 2025, to regime institutions including the Justice and Foreign Affairs Ministries in Tehran and an Artesh airbase near Mashhad.",
+    "source": "Israeli and regional sources",
+    "source_category": "regional_specialist",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-06-14T00:00:00Z",
+    "time": "2025-06-15T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "An Iranian Armed Forces General Staff outlet called for Basij paramilitary deployment for widespread patrols, stop-and-search posts, and countering alleged Mossad infiltration to suppress dissent.",
-    "source": "Iranian Government Official",
-    "source_category": "government_official",
-    "indicator_category": "internal_stability",
-    "market": "regime_fall",
-    "time": "2026-06-15T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "Iran conducted two ballistic missile waves against Israel since June 14, 2026, but its Axis of Resistance partners have not significantly intervened.",
-    "source": "Wire Service",
-    "source_category": "wire_service",
+    "claim": "Israeli strikes on June 14-15, 2025, targeted Iranian energy infrastructure that could deepen energy shortages.",
+    "source": "Regional sources",
+    "source_category": "regional_specialist",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-06-15T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iranian officials stated no return to US-Iran nuclear negotiations will occur until Israel halts attacks and Iran completes retaliation.",
-    "source": "Iranian Government Official",
-    "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-06-15T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "A senior Lebanese official pushed for a temporary ceasefire, with Israel-Lebanon talks set to start the following week per Axios reporting.",
-    "source": "Axios",
-    "source_category": "wire_service",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-06-15T00:00:00Z",
+    "time": "2025-06-15T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "Iran maintained internet blackout and repression tools despite arrests as of April 2026, following a fragile US-Iran ceasefire.",
-    "source": "Wire Service",
-    "source_category": "wire_service",
-    "indicator_category": "internal_stability",
-    "market": "regime_fall",
-    "time": "2026-04-13T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "CSIS analysis on April 8, 2026, highlighted unresolved Iranian nuclear ambitions and shadow war risks.",
-    "source": "CSIS",
-    "source_category": "think_tank",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-04-08T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Institute for the Study of War described prior protests as the most serious unrest ever faced by the Iranian regime.",
-    "source": "ISW",
-    "source_category": "think_tank",
-    "indicator_category": "internal_stability",
+    "claim": "Legal experts affirm the US blockade is lawful under naval warfare rules, allowing inspections of neutral ships and potential boarding or seizure for non-compliance.",
+    "source": "Legal analysis sources",
+    "source_category": "regional_specialist",
+    "indicator_category": "international_response",
     "market": "regime_fall",
     "time": "2026-04-13T00:00:00Z",
     "confidence": "medium"
