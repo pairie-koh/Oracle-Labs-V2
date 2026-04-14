@@ -1,16 +1,16 @@
 [
   {
-    "claim": "The US military initiated a naval blockade of Iranian ports in the Strait of Hormuz on April 13, 2026, deploying at least 13 warships to intercept vessels and enforce economic pressure.",
-    "source": "US Central Command / Presidential announcement",
+    "claim": "US military deployed at least 13 warships including USS George HW Bush aircraft carrier to enforce a naval blockade of Iranian ports in the Strait of Hormuz, effective April 13, 2026 at 10:00 a.m. Eastern.",
+    "source": "US government statements and military reports",
     "source_category": "government_official",
-    "indicator_category": "international_response",
+    "indicator_category": "military_pressure",
     "market": "regime_fall",
     "time": "2026-04-13T10:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "US Central Command (CENTCOM) is conducting mine-clearing operations using guided-missile destroyers USS Frank E. Peterson and USS Michael Murphy, with upcoming underwater drones.",
-    "source": "US Central Command",
+    "claim": "President Trump announced the blockade aims to choke Iran's energy exports by targeting ships entering or leaving Iranian ports and those paying Iran tolls.",
+    "source": "US government official statements",
     "source_category": "government_official",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
@@ -18,118 +18,91 @@
     "confidence": "high"
   },
   {
-    "claim": "Iran's Revolutionary Guard Corps (IRGC) warned of a harsh response including mine-laying in the Strait of Hormuz to challenge US forces.",
-    "source": "Iranian state media",
+    "claim": "IRGC claimed on April 12 to have locked missiles and drones on US destroyers USS Michael Murphy and USS Frank E. Peterson Jr. in the Strait of Hormuz on April 11, but US CENTCOM denied any standoff occurred.",
+    "source": "IRGC state media and US CENTCOM",
     "source_category": "government_official",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-04-12T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iranian state media released footage from April 12 showing IRGC claiming missile and drone locks on a US Navy destroyer that forced a retreat, though US CENTCOM denies any standoff occurred.",
-    "source": "Iranian state media / US CENTCOM",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-12T00:00:00Z",
+    "time": "2026-04-11T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "The IRGC has asserted control over the Strait of Hormuz since February 28, 2026, sporadically attacking ships and laying mines.",
-    "source": "Multiple sources",
+    "claim": "IRGC has warned of a harsh response to the blockade and threatened to mine the Strait of Hormuz area.",
+    "source": "Iranian state media and IRGC statements",
     "source_category": "government_official",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-02-28T00:00:00Z",
+    "time": "2026-04-13T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "US-Iran ceasefire talks in Islamabad ended on April 13, 2026, preceding the US blockade announcement.",
-    "source": "Government sources",
-    "source_category": "government_official",
+    "claim": "US and Iranian negotiation teams were resuming peace talks in Islamabad during the week of April 13, 2026.",
+    "source": "News reports citing diplomatic sources",
+    "source_category": "wire_service",
     "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
     "time": "2026-04-13T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Supreme Leader Ali Khamenei appointed Major General Amir Hatami as overall Artesh (regular military) commander, replacing Major General Abdol Rahim Mousavi.",
-    "source": "Iranian government sources",
-    "source_category": "government_official",
-    "indicator_category": "succession_dynamics",
-    "market": "regime_fall",
-    "time": "2026-04-14T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Hard-line factions in Iran consolidated power and sidelined reformists via Guardian Council vetting since 2020.",
-    "source": "Regional specialist analysis",
-    "source_category": "regional_specialist",
-    "indicator_category": "internal_stability",
-    "market": "regime_fall",
-    "time": "2026-04-14T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "Iran maintains an internet blackout lasting 41 days as of early 2026 amid heavy fighting.",
-    "source": "Multiple sources",
-    "source_category": "regional_specialist",
-    "indicator_category": "internal_stability",
+    "claim": "Nuclear and peace talks between the US and Iran collapsed in Pakistan over the weekend prior to April 13, 2026.",
+    "source": "News reports",
+    "source_category": "wire_service",
+    "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-04-14T00:00:00Z",
+    "time": "2026-04-12T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "The Iranian regime executed 14 people, including seven linked to January 2026 anti-government protests, with arrests and summons ongoing.",
-    "source": "Regional sources",
-    "source_category": "regional_specialist",
-    "indicator_category": "internal_stability",
-    "market": "regime_fall",
-    "time": "2026-04-14T00:00:00Z",
-    "confidence": "medium"
-  },
-  {
-    "claim": "Stringent international sanctions persist against Iran due to its anti-Western stance, exacerbating economic isolation.",
-    "source": "Regional analyst",
-    "source_category": "regional_specialist",
+    "claim": "Iran's central bank warned that rebuilding the country's war-damaged economy could take more than a decade.",
+    "source": "News reports citing Iranian central bank",
+    "source_category": "wire_service",
     "indicator_category": "economic_collapse",
     "market": "regime_fall",
-    "time": "2026-04-14T00:00:00Z",
+    "time": "2026-04-13T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Severe energy shortages occurred in Iran during winter 2024-2025, worsening inflation and poverty.",
-    "source": "Regional sources",
-    "source_category": "regional_specialist",
+    "claim": "A 41-day internet blackout in Iran has caused estimated economic losses of at least $35 million per day from impacts on small businesses and startups.",
+    "source": "News reports citing Iranian government officials",
+    "source_category": "wire_service",
     "indicator_category": "economic_collapse",
     "market": "regime_fall",
-    "time": "2025-02-01T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Israeli Defense Forces expanded strikes on June 15, 2025, to regime institutions including the Justice and Foreign Affairs Ministries in Tehran and an Artesh airbase near Mashhad.",
-    "source": "Israeli and regional sources",
-    "source_category": "regional_specialist",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2025-06-15T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Israeli strikes on June 14-15, 2025, targeted Iranian energy infrastructure that could deepen energy shortages.",
-    "source": "Regional sources",
-    "source_category": "regional_specialist",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2025-06-15T00:00:00Z",
+    "time": "2026-04-13T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "Legal experts affirm the US blockade is lawful under naval warfare rules, allowing inspections of neutral ships and potential boarding or seizure for non-compliance.",
-    "source": "Legal analysis sources",
-    "source_category": "regional_specialist",
-    "indicator_category": "international_response",
+    "claim": "US naval blockade starting Monday April 13, 2026 could rapidly cripple Iran's economy by cutting off most trade and halting oil exports, triggering inflation and currency pressure within days.",
+    "source": "News analysis and Iranian government assessments",
+    "source_category": "wire_service",
+    "indicator_category": "economic_collapse",
+    "market": "regime_fall",
+    "time": "2026-04-13T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Iran executed at least 1,639 people in 2025, the highest annual number since 1989, including 14 people hanged for connections to January anti-government protests.",
+    "source": "News reports citing human rights organizations",
+    "source_category": "wire_service",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2025-12-31T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Iran adopted a dual messaging strategy of defiance toward Washington's pressure while leaving the door to diplomacy open.",
+    "source": "News reports citing diplomatic analysis",
+    "source_category": "wire_service",
+    "indicator_category": "diplomatic_signals",
+    "market": "regime_fall",
+    "time": "2026-04-13T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "According to former State Department negotiator Aaron David Miller, Iran believes it holds a winning position and lacks the same sense of urgency as the Trump administration to reach a comprehensive agreement.",
+    "source": "News reports citing Aaron David Miller analysis",
+    "source_category": "think_tank",
+    "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
     "time": "2026-04-13T00:00:00Z",
     "confidence": "medium"

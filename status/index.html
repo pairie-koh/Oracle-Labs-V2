@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 13 11:03 PM PT</strong> (9m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (111m)</span>
-            <span>Scored: <strong>417</strong> predictions | Logged: <strong>636</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 14 02:25 AM PT</strong> (9m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (149m)</span>
+            <span>Scored: <strong>420</strong> predictions | Logged: <strong>639</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(26d 3h ago)</span>
+            <span class="dim">(26d 7h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-13
+                    <div class="iter-text"># momentum — 2026-04-14
 
-Version: 1.24.0 -&gt; 1.25.0
+Version: 1.25.0 -&gt; 1.26.0
 
-The current performance shows extremely poor directional accuracy at 21.8%, well below random chance, and MSE significantly higher than the naive baseline (0.00131008 vs 0.00038504). The inverted sigmoid logic where high news intensity favors reversion and low intensity favors momentum appears to be fundamentally flawed. I&#x27;m reverting to standard momentum theory: high news flow should drive momentum (trend continuation), while low news flow should favor mean reversion. This aligns with conventional market wisdom that breaking news creates directional moves that persist in the short term.</div>
+The directional accuracy of 21.73% is extremely poor, suggesting systematic over-prediction in the wrong direction. The current MOMENTUM_WEIGHT of 0.7 may be causing excessive extrapolation of recent price movements. I&#x27;m reducing MOMENTUM_WEIGHT from 0.7 to 0.3 to make momentum predictions more conservative and see if this improves directional accuracy. This should reduce the magnitude of momentum-based predictions while keeping the overall logic intact.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-13
+                    <div class="iter-text"># historian — 2026-04-14
 
-Version: 1.24.0 -&gt; 1.25.0
+Version: 1.25.0 -&gt; 1.26.0
 
-Looking at the scorecard, the historian agent is performing very poorly with directional accuracy of only 27.3% (much worse than random) despite having excellent MSE performance. The agent is consistently predicting in the wrong direction. The current reversion rate of 0.01 is extremely conservative and may be preventing the agent from responding adequately to market signals. I&#x27;m increasing the reversion rate from 0.01 to 0.05 to make the agent more responsive to deviations from the adaptive base rate, which should help improve directional accuracy.</div>
+The agent is significantly underperforming with MSE 2x worse than baseline and directional accuracy at only 27%. The current NEWS_SENSITIVITY of 0.08 appears to be causing overreaction to news signals, which goes against the historian&#x27;s core philosophy of incremental adjustments and skepticism of dramatic headlines. I&#x27;m reducing NEWS_SENSITIVITY from 0.08 to 0.04 to make the model more conservative and rely more heavily on mean reversion, which should be the historian&#x27;s primary edge.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-13
+                    <div class="iter-text"># game_theorist — 2026-04-14
 
-Version: 1.24.0 -&gt; 1.25.0
+Version: 1.25.0 -&gt; 1.26.0
 
-The agent is performing catastrophically with MSE 300x worse than the naive baseline and only 28% directional accuracy. The primary issue is excessive sensitivity to signals, causing dramatic overreactions that move predictions too far from current market prices. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.05 to 0.005 (a 10x reduction) to make the agent much more conservative and closer to current prices, which should dramatically improve MSE performance.</div>
+I&#x27;m reducing ESCALATION_SENSITIVITY from 0.005 to 0.001 (5x reduction). The current sensitivity is causing predictions to move too far from current prices, resulting in MSE that&#x27;s over 300x worse than the naive baseline. Since the naive baseline (making no changes) performs much better, I need to make my predictions much more conservative and closer to current market prices.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-13
+                    <div class="iter-text"># quant — 2026-04-14
 
-Version: 1.24.0 -&gt; 1.25.0
+Version: 1.25.0 -&gt; 1.26.0
 
-The current momentum coefficient of 0.00005 is too conservative, resulting in predictions that barely move from current prices and poor directional accuracy (8.24%). Despite having reasonable momentum detection through linear regression, the coefficient is so small that it&#x27;s not translating into meaningful directional signals. I&#x27;m increasing the momentum coefficient from 0.00005 to 0.0002 to make the model more responsive to detected momentum patterns while keeping the successful mean-reversion bias intact.</div>
+The current momentum coefficient of 0.0002 is causing predictions to overshoot, resulting in MSE that&#x27;s 3.5x worse than the naive baseline. I&#x27;m reducing the momentum coefficient from 0.0002 to 0.00005 to make more conservative adjustments while still capturing directional signals. This should improve both MSE (by staying closer to current prices) and directional accuracy (by not overshooting reversals). I&#x27;m keeping all other parameters the same to isolate this change&#x27;s impact.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -246,36 +246,36 @@ The current momentum coefficient of 0.00005 is too conservative, resulting in pr
             <div class="market-block">
                 <div class="market-header">
                     <strong>Regime Fall</strong>
-                    <span class="current-price">0.0950</span>
+                    <span class="current-price">0.1050</span>
                 </div>
                 <div class="price-changes">
-                    4h: <span class="">+0.0000</span>
-                    &nbsp; 24h: <span class="down">-0.0100</span>
+                    4h: <span class="up">+0.0100</span>
+                    &nbsp; 24h: <span class="">+0.0000</span>
                 </div>
                 
                 <div class="forecast-row">
                     <span class="dot" style="background:#e74c3c"></span>
                     <span class="agent-name">Momentum</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0950</span>
+                    <span class="delta down">-0.1050</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#3498db"></span>
                     <span class="agent-name">Historian</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0950</span>
+                    <span class="delta down">-0.1050</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#f39c12"></span>
                     <span class="agent-name">Game Theorist</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0950</span>
+                    <span class="delta down">-0.1050</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#2ecc71"></span>
                     <span class="agent-name">Quant</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0950</span>
+                    <span class="delta down">-0.1050</span>
                 </div>
             </div>
     </div>
@@ -287,12 +287,12 @@ The current momentum coefficient of 0.00005 is too conservative, resulting in pr
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.25.0</span>
+            <span class="dim">v1.26.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 13 11:13 PM PT (prev: Apr 13 08:39 PM PT)</div>
+        <div class="analysis-time dim">Apr 14 02:34 AM PT (prev: Apr 13 11:13 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,24 +303,24 @@ The current momentum coefficient of 0.00005 is too conservative, resulting in pr
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.25.0</span>
+            <span class="dim">v1.26.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 13 11:13 PM PT (prev: Apr 13 08:39 PM PT)</div>
+        <div class="analysis-time dim">Apr 14 02:34 AM PT (prev: Apr 13 11:13 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.25.0</span>
+            <span class="dim">v1.26.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 13 11:13 PM PT (prev: Apr 13 08:39 PM PT)</div>
+        <div class="analysis-time dim">Apr 14 02:34 AM PT (prev: Apr 13 11:13 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
@@ -343,20 +343,20 @@ The current momentum coefficient of 0.00005 is too conservative, resulting in pr
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,8.1 30.0,28.0 60.0,10.7 90.0,14.2 120.0,2.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.009762</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,10.7 60.0,14.2 90.0,2.0 120.0,11.3" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="11.3" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.006507</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,27.4 30.0,23.6 60.0,26.5 90.0,2.0 120.0,28.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#3498db" /></svg></span>
-            <span class="trend-val">0.000106</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,23.6 30.0,26.5 60.0,2.0 90.0,28.0 120.0,14.3" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="14.3" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.001191</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,17.5 60.0,2.6 90.0,2.0 120.0,27.8" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="27.8" r="3" fill="#f39c12" /></svg></span>
-            <span class="trend-val">0.007225</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,17.7 30.0,2.6 60.0,2.0 90.0,28.0 120.0,2.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.801025</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -373,20 +373,20 @@ The current momentum coefficient of 0.00005 is too conservative, resulting in pr
         <div class="pnl-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="pnl-val down">$-8</span>
-            <span class="dim">11W/22L (33 trades)</span>
+            <span class="pnl-val down">$-9</span>
+            <span class="dim">11W/23L (34 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="pnl-val down">$-10</span>
-            <span class="dim">7W/11L (18 trades)</span>
+            <span class="pnl-val down">$-11</span>
+            <span class="dim">7W/12L (19 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="pnl-val down">$-39</span>
-            <span class="dim">24W/46L (70 trades)</span>
+            <span class="pnl-val down">$-40</span>
+            <span class="dim">24W/47L (71 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -400,11 +400,11 @@ The current momentum coefficient of 0.00005 is too conservative, resulting in pr
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>15</strong> facts:
-                <span class="esc">11 escalatory</span>,
-                <span class="deesc">3 de-escalatory</span>,
-                1 neutral
-            </div><div class="fact"><span class="dim">[international_response]</span> The US military initiated a naval blockade of Iranian ports in the Strait of Hormuz on April 13, 202</div><div class="fact"><span class="dim">[military_pressure]</span> US Central Command (CENTCOM) is conducting mine-clearing operations using guided-missile destroyers </div><div class="fact"><span class="dim">[military_pressure]</span> Iran&#x27;s Revolutionary Guard Corps (IRGC) warned of a harsh response including mine-laying in the Stra</div>
+                <strong>12</strong> facts:
+                <span class="esc">8 escalatory</span>,
+                <span class="deesc">4 de-escalatory</span>,
+                0 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> US military deployed at least 13 warships including USS George HW Bush aircraft carrier to enforce a</div><div class="fact"><span class="dim">[military_pressure]</span> President Trump announced the blockade aims to choke Iran&#x27;s energy exports by targeting ships enteri</div><div class="fact"><span class="dim">[military_pressure]</span> IRGC claimed on April 12 to have locked missiles and drones on US destroyers USS Michael Murphy and </div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ The current momentum coefficient of 0.00005 is too conservative, resulting in pr
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Iran faces compounding pressures from a sustained US naval blockade (initiated April 13), Israeli airstrikes decimating regime security leadership (June 14-15), and intensified internal repression wit</div>
+                <div class="state-status">Iran faces a comprehensive multi-front pressure campaign initiated in April 2026, combining a US naval blockade targeting energy exports, internal security crackdowns with mass arrests and executions,</div>
                 <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-13 11:13 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-14 02:35 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
