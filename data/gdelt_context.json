@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-14T21:06:26Z",
+  "fetched_at": "2026-04-15T03:01:26Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -15,12 +15,73 @@
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "US - sanctioned Chinese tanker crosses Strait of Hormuz despite Trump blockade",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260414T040000Z",
+          "country": "India"
+        },
+        {
+          "title": "US - sanctioned Chinese tanker passes through Strait of Hormuz",
+          "domain": "jpost.com",
+          "date": "20260414T071500Z",
+          "country": "Israel"
+        },
+        {
+          "title": "China reacts to Trump blockade of Iranian ports as tensions escalate",
+          "domain": "newsweek.com",
+          "date": "20260413T233000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Chinese tanker goes through Strait of Hormuz , defying Trump",
+          "domain": "katu.com",
+          "date": "20260414T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Chinese tanker goes through Strait of Hormuz , defying Trump",
+          "domain": "abc6onyourside.com",
+          "date": "20260414T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Chinese tanker goes through Strait of Hormuz , defying Trump",
+          "domain": "wcyb.com",
+          "date": "20260414T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Chinese tanker goes through Strait of Hormuz , defying Trump",
+          "domain": "wsbt.com",
+          "date": "20260414T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "US - sanctioned tankers pass Strait of Hormuz despite US blockade , data shows",
+          "domain": "tribune.com.pk",
+          "date": "20260414T121500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Chinese tanker goes through Strait of Hormuz , defying Trump",
+          "domain": "upnorthlive.com",
+          "date": "20260414T170000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Chinese tanker goes through Strait of Hormuz , defying Trump",
+          "domain": "kval.com",
+          "date": "20260414T184500Z",
+          "country": "United States"
+        }
+      ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
@@ -32,80 +93,80 @@
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": [
-        {
-          "title": "As Trump SAVE America Act Stalls in Congress , Red States Pass Their Own Versions",
-          "domain": "truthout.org",
-          "date": "20260414T004500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Proposed federal bill could complicate voter registration for Penn students , experts say",
-          "domain": "thedp.com",
-          "date": "20260413T063000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Susan Collins should reverse course on SAVE America Act",
-          "domain": "centralmaine.com",
-          "date": "20260413T220000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Sen . England discusses funding cuts , voter checks , death penalty for child sex assault",
-          "domain": "wlox.com",
-          "date": "20260413T220000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump voting restrictions bill may fail , but parts live on in 23 states | WABX 107 . 5",
-          "domain": "wabx.net",
-          "date": "20260414T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Natalie Crawford : Georgians deserve election stability",
-          "domain": "daily-tribune.com",
-          "date": "20260414T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Nevadan Dems ready to sue if SAVE America Act passes",
-          "domain": "wyomingnewsnow.tv",
-          "date": "20260414T004500Z",
-          "country": ""
-        },
-        {
-          "title": "Nevadan Dems ready to sue if SAVE America Act passes",
-          "domain": "thedigitalcourier.com",
-          "date": "20260414T004500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Governor Ivey signs Alabama Post - Election Audit Act to bolster election integrity",
-          "domain": "utv44.com",
-          "date": "20260414T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Feds subpoena Texas counties for voter records – Houston Public Media",
-          "domain": "houstonpublicmedia.org",
-          "date": "20260413T143000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Need an economic downturn : Economist issues major call as inflation spirals out of control , recession fears mount",
+          "domain": "skynews.com.au",
+          "date": "20260414T053000Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Rachel Reeves hit by triple hammerblow as recession warnings grow",
+          "domain": "express.co.uk",
+          "date": "20260414T141500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "US Recession Prediction 2026 : Polymarket Odds Hit 30 %",
+          "domain": "forbes.com",
+          "date": "20260415T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil red alert : Ten of 12 postwar recessions were preceded by price spike",
+          "domain": "washingtonexaminer.com",
+          "date": "20260413T111500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Manila Bulletin - Fix the energy problem before the next downturn",
+          "domain": "mb.com.ph",
+          "date": "20260414T184500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "New Zealand PSI Drops to 46 . 0 , BNZ Sees Economy Nearing Contraction",
+          "domain": "actionforex.com",
+          "date": "20260413T063000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "This Indicator Has Called Every Recession Over the Last 80 Years . Here What It Saying Now .",
+          "domain": "fool.com",
+          "date": "20260414T094500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Pension Reforms Are Working . Leave Them Alone .",
+          "domain": "governing.com",
+          "date": "20260414T080000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Tim Wilson believes foolish government spending is key for driving inflation higher and increasing recession risk",
+          "domain": "skynews.com.au",
+          "date": "20260414T010000Z",
+          "country": "Australia"
+        },
+        {
+          "title": "US inflation accelerates in March as energy prices surge amid Mideast conflict",
+          "domain": "china.org.cn",
+          "date": "20260413T031500Z",
+          "country": "China"
+        }
+      ]
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -127,11 +188,72 @@
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Bitcoin Price Prediction : BTC Holds $74K Can MACD Golden Cross and IBIT Rebound Push It to $85K ?",
+          "domain": "bravenewcoin.com",
+          "date": "20260414T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Goldman Sachs Targets Income with New Bitcoin ETF Filing",
+          "domain": "cointelegraph.com",
+          "date": "20260414T224500Z",
+          "country": "China"
+        },
+        {
+          "title": "$3 . 5 Trillion Goldman Sachs Files For Bitcoin Premium Income ETF",
+          "domain": "bitcoinmagazine.com",
+          "date": "20260414T203000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin nears $75 , 000 as crypto market rallies on $1 . 1 billion inflows ; Ethereum holds above $2 , 300",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260414T060000Z",
+          "country": "India"
+        },
+        {
+          "title": "Crypto News : Pepeto Project Growth Update While Bull Run Loads and Bitcoin Price Prediction Turns Bullish",
+          "domain": "manilatimes.net",
+          "date": "20260414T033000Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Why Every Bitcoin Macro Triangle Breakdown Has Led To A Retracement Phase",
+          "domain": "newsbtc.com",
+          "date": "20260414T231500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Ethereum Forex Forecast 14 / 04",
+          "domain": "dailyforex.com",
+          "date": "20260414T161500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Has Bitcoin Bottomed ? The Odds Are Just 25 %, Prominent Analyst Says",
+          "domain": "benzinga.com",
+          "date": "20260414T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "BTC Price Rebounds Above $74 , 000 Despite Ongoing Middle East Tensions",
+          "domain": "finance.yahoo.com",
+          "date": "20260414T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin tests high end of trading range amid Iran optimism",
+          "domain": "moneycontrol.com",
+          "date": "20260415T021500Z",
+          "country": "India"
+        }
+      ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -140,6 +262,30 @@
         "will-gas-hit-by-end-of-march"
       ],
       "headlines": [
+        {
+          "title": "Gas Prices Decline Slightly | K103 Portland",
+          "domain": "k103.iheart.com",
+          "date": "20260415T013000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Prices Decline Slightly | Z100 Portland",
+          "domain": "z100portland.iheart.com",
+          "date": "20260415T020000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Prices Decline Slightly | 105 . 9 The Brew",
+          "domain": "1059thebrew.iheart.com",
+          "date": "20260415T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Prices Decline Slightly | 106 . 7 The Eagle",
+          "domain": "1067theeagle.iheart.com",
+          "date": "20260415T014500Z",
+          "country": "United States"
+        },
         {
           "title": "Global Oil prices dip to around $96 amid Hope for Fresh US - Iran Talks",
           "domain": "en.dailypakistan.com.pk",
@@ -175,110 +321,86 @@
           "domain": "asiaone.com",
           "date": "20260414T044500Z",
           "country": "Singapore"
-        },
-        {
-          "title": "Florida gas prices plunge 20 cents in 10 days , AAA says",
-          "domain": "cbs12.com",
-          "date": "20260413T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Current price of oil as of April 14 , 2026",
-          "domain": "fortune.com",
-          "date": "20260414T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Are gas prices still rising ? What to know in NC during Iran blockade",
-          "domain": "finance.yahoo.com",
-          "date": "20260414T194500Z",
-          "country": "United States"
-        },
-        {
-          "title": "AAA : Michigan gas prices drop after setting new 2026 - high | News , Sports , Jobs",
-          "domain": "thealpenanews.com",
-          "date": "20260414T090000Z",
-          "country": "United States"
         }
       ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": [
-        {
-          "title": "Conservative GOP governor : Republicans facing a  tough  uphill climb",
-          "domain": "alternet.org",
-          "date": "20260414T164500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Maryland redistricting dies as Democrats refuse to touch political hot potato",
-          "domain": "washingtonexaminer.com",
-          "date": "20260414T201500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Project 2025 author Paul Dans drops primary challenge to Lindsey Graham in South Carolina",
-          "domain": "mynorthwest.com",
-          "date": "20260413T204500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Project 2025 author Paul Dans drops primary challenge to Lindsey Graham in South Carolina",
-          "domain": "winchesterstar.com",
-          "date": "20260413T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Republicans receive another grim midterm forecast",
-          "domain": "theblaze.com",
-          "date": "20260414T000000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Will voters turn against Donald Trump in the US midterms ? What we know so far",
-          "domain": "theconversation.com",
-          "date": "20260414T161500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "MAGA Senate Stronghold Rocked by  Toss - Up  Prediction in Crucial Ohio Race",
-          "domain": "thedailybeast.com",
-          "date": "20260413T151500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Election forecasters boost Democrat chances of holding Ohio 1st Congressional District",
-          "domain": "wlwt.com",
-          "date": "20260413T030000Z",
-          "country": "United States"
-        },
-        {
-          "title": "A key analyst no longer views North Carolina Senate race as a toss - up",
-          "domain": "yahoo.com",
-          "date": "20260414T011500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Cooper outraised Whatley in early 2026 , as millions poured into both campaigns",
-          "domain": "wral.com",
-          "date": "20260414T191500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Official : Liverpool Women Sign Vivien Endemann From Wolfsburg For July",
+          "domain": "liverpooloffside.sbnation.com",
+          "date": "20260413T043000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Visa and HDFC Bank Bring Indian Fans Closer to FIFA World Cup 2026",
+          "domain": "deccanchronicle.com",
+          "date": "20260413T191500Z",
+          "country": "India"
+        },
+        {
+          "title": "FIFA World Rankings : Latest rankings ahead of World Cup 2026",
+          "domain": "fourfourtwo.com",
+          "date": "20260414T110000Z",
+          "country": "Spain"
+        },
+        {
+          "title": "Women European Qualifier",
+          "domain": "tvguide.co.uk",
+          "date": "20260414T124500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "MetLife Stadium To Be Renamed For World Cup 2026",
+          "domain": "710wor.iheart.com",
+          "date": "20260414T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know about Fleet Week as it sails into Houston for the first time",
+          "domain": "houston.culturemap.com",
+          "date": "20260415T013000Z",
+          "country": "United States"
+        },
+        {
+          "title": "MetLife Stadium temporarily changes its name for World Cup",
+          "domain": "nbcnewyork.com",
+          "date": "20260413T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "MetLife Stadium Renamed for World Cup",
+          "domain": "wnnj.iheart.com",
+          "date": "20260414T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Will NJ Transit raise ticket prices during FIFA World Cup ?",
+          "domain": "fox5ny.com",
+          "date": "20260414T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup fans furious after spending thousands on  premium  nosebleed tickets",
+          "domain": "nypost.com",
+          "date": "20260414T173000Z",
+          "country": "United States"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -290,12 +412,73 @@
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Study finds top AI models still struggle with clinical reasoning",
+          "domain": "news-medical.net",
+          "date": "20260414T233000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AI fails at primary patient diagnosis more than 80 % of the time , study finds",
+          "domain": "euronews.com",
+          "date": "20260414T074500Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI Has a New GPT - 5 . 4 - Cyber Model . Here Why You Cant Use It",
+          "domain": "cnet.com",
+          "date": "20260414T221500Z",
+          "country": "Japan"
+        },
+        {
+          "title": "Generative AI falls short in diagnostic reasoning despite accuracy",
+          "domain": "news-medical.net",
+          "date": "20260414T040000Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI unveils GPT - 5 . 4 - Cyber a week after rival announcement of AI model",
+          "domain": "marketscreener.com",
+          "date": "20260414T224500Z",
+          "country": ""
+        },
+        {
+          "title": "FinancialContent - The GPT - 6 Horizon : Market Braces for  Spud  as OpenAI Stargate Era Dawns",
+          "domain": "markets.financialcontent.com",
+          "date": "20260414T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI unveils GPT ‑ 5 . 4 ‑ Cyber , an AI model for defensive cybersecurity",
+          "domain": "9to5mac.com",
+          "date": "20260414T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI unveils GPT - 5 . 4 - Cyber a week after rival announcement of AI model",
+          "domain": "businesstimes.com.sg",
+          "date": "20260414T233000Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "I use Claude , Gemini , and ChatGPT every day here the only one you should pay for",
+          "domain": "tech.yahoo.com",
+          "date": "20260414T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI Debuts GPT - 5 . 4 - Cyber That Specializes in Cybersecurity Is It for Public Use ?",
+          "domain": "ibtimes.com.au",
+          "date": "20260415T023000Z",
+          "country": "Australia"
+        }
+      ]
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
@@ -353,16 +536,16 @@
           "country": "Japan"
         },
         {
-          "title": "Is GTA 6 Coming in 2026 ? Hackers Threaten Massive Developer Leak In 72 - Hour Countdown",
-          "domain": "ibtimes.co.uk",
-          "date": "20260413T004500Z",
-          "country": "United Kingdom"
-        },
-        {
           "title": "Rockstar hackers release their stolen data , reveal that Rockstar was right to not pay them anything for it",
           "domain": "tech.yahoo.com",
           "date": "20260414T151500Z",
           "country": "United States"
+        },
+        {
+          "title": "Rockstar hacked again , says it wont impact players or GTA VI",
+          "domain": "mobilesyrup.com",
+          "date": "20260413T211500Z",
+          "country": "Canada"
         }
       ]
     }
