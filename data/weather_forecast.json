@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-15T20:58:06Z",
+  "fetched_at": "2026-04-16T03:23:47Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -7,123 +7,45 @@
       "relevant_to": [
         "nyc_temp"
       ],
-      "today_high": 87,
+      "today_high": 88,
       "today_high_unit": "F",
-      "today_forecast": "Slight Chance Showers And Thunderstorms",
-      "today_detail": "A slight chance of showers and thunderstorms after 5pm. Mostly sunny, with a high near 87. Southwest wind around 13 mph. Chance of precipitation is 20%.",
-      "wind": "13 mph",
+      "today_forecast": "Mostly Sunny",
+      "today_detail": "Mostly sunny. High near 88, with temperatures falling to around 86 in the afternoon. Southwest wind 5 to 13 mph.",
+      "wind": "5 to 13 mph",
       "wind_direction": "SW",
       "tonight_low": 67,
-      "tonight_forecast": "Chance Showers And Thunderstorms",
+      "tonight_forecast": "Mostly Cloudy",
       "hourly": [
         {
-          "hour": "2026-04-15T16:00:00-04:00",
-          "temp": 87,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-15T17:00:00-04:00",
-          "temp": 87,
-          "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-15T18:00:00-04:00",
-          "temp": 86,
-          "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-15T19:00:00-04:00",
-          "temp": 85,
-          "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-15T20:00:00-04:00",
-          "temp": 82,
-          "unit": "F",
-          "short": "Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-15T21:00:00-04:00",
-          "temp": 80,
-          "unit": "F",
-          "short": "Chance Showers And Thunderstorms"
-        },
-        {
           "hour": "2026-04-15T22:00:00-04:00",
-          "temp": 75,
+          "temp": 77,
           "unit": "F",
           "short": "Chance Showers And Thunderstorms"
         },
         {
           "hour": "2026-04-15T23:00:00-04:00",
-          "temp": 74,
+          "temp": 75,
           "unit": "F",
           "short": "Slight Chance Rain Showers"
         }
       ],
-      "peak_temp": 87,
-      "peak_hour": "2026-04-15T16:00:00-04:00"
+      "peak_temp": 77,
+      "peak_hour": "2026-04-15T22:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
       "relevant_to": [
         "miami_temp"
       ],
-      "today_high": 84,
+      "today_high": 88,
       "today_high_unit": "F",
-      "today_forecast": "Mostly Sunny",
-      "today_detail": "Mostly sunny, with a high near 84. East wind around 6 mph.",
-      "wind": "6 mph",
+      "today_forecast": "Sunny",
+      "today_detail": "Sunny, with a high near 88. East wind around 7 mph.",
+      "wind": "7 mph",
       "wind_direction": "E",
-      "tonight_low": 58,
-      "tonight_forecast": "Mostly Clear",
+      "tonight_low": 59,
+      "tonight_forecast": "Partly Cloudy",
       "hourly": [
-        {
-          "hour": "2026-04-15T16:00:00-04:00",
-          "temp": 84,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-04-15T17:00:00-04:00",
-          "temp": 82,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-04-15T18:00:00-04:00",
-          "temp": 82,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-15T19:00:00-04:00",
-          "temp": 79,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-15T20:00:00-04:00",
-          "temp": 73,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-15T21:00:00-04:00",
-          "temp": 71,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-15T22:00:00-04:00",
-          "temp": 68,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
         {
           "hour": "2026-04-15T23:00:00-04:00",
           "temp": 66,
@@ -131,8 +53,8 @@
           "short": "Mostly Clear"
         }
       ],
-      "peak_temp": 84,
-      "peak_hour": "2026-04-15T16:00:00-04:00"
+      "peak_temp": 66,
+      "peak_hour": "2026-04-15T23:00:00-04:00"
     }
   }
 }
