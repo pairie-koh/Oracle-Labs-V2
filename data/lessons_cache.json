@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-04-17T09:29:14Z",
-  "n_files_scanned": 117,
+  "generated_at": "2026-04-17T13:50:02Z",
+  "n_files_scanned": 118,
   "per_contract": {
     "bitcoin_daily": {
-      "n_predictions": 117,
+      "n_predictions": 118,
       "history": [
-        {
-          "timestamp": "2026-04-16T17:25:10Z",
-          "tier": "haiku",
-          "type": "binary",
-          "prediction": 0.9995,
-          "market_price": 0.9995,
-          "signed_error": 0.0
-        },
         {
           "timestamp": "2026-04-16T20:59:55Z",
           "tier": "haiku",
@@ -44,23 +36,23 @@
           "prediction": 0.865,
           "market_price": 0.865,
           "signed_error": 0.0
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.948,
+          "market_price": 0.948,
+          "signed_error": 0.0
         }
       ],
       "avg_signed_error": -0.005,
-      "avg_abs_error": 0.059,
+      "avg_abs_error": 0.058,
       "bias": "neutral"
     },
     "nyc_temp": {
-      "n_predictions": 117,
+      "n_predictions": 118,
       "history": [
-        {
-          "timestamp": "2026-04-16T17:25:10Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-04-16T20:59:55Z",
           "tier": "haiku",
@@ -87,6 +79,14 @@
         },
         {
           "timestamp": "2026-04-17T09:29:12Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
           "tier": "haiku",
           "type": "multi-outcome",
           "avg_outcome_div": 0.0,
@@ -97,16 +97,8 @@
       "avg_multi_div": 0.017
     },
     "miami_temp": {
-      "n_predictions": 111,
+      "n_predictions": 112,
       "history": [
-        {
-          "timestamp": "2026-04-16T17:25:10Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-04-16T20:59:55Z",
           "tier": "haiku",
@@ -138,21 +130,21 @@
           "avg_outcome_div": 0.0,
           "max_outcome_div": 0.0,
           "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 11
         }
       ],
       "avg_multi_div": 0.025
     },
     "us-iran-nuclear-deal-before-2027": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "binary",
-          "prediction": 0.705,
-          "market_price": 0.705,
-          "signed_error": 0.0
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -184,23 +176,23 @@
           "prediction": 0.73,
           "market_price": 0.73,
           "signed_error": 0.0
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.775,
+          "market_price": 0.775,
+          "signed_error": 0.0
         }
       ],
-      "avg_signed_error": -0.025,
-      "avg_abs_error": 0.046,
+      "avg_signed_error": -0.024,
+      "avg_abs_error": 0.045,
       "bias": "TOO LOW"
     },
     "us-iran-nuclear-deal-by-april-30": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "binary",
-          "prediction": 0.4085,
-          "market_price": 0.4085,
-          "signed_error": 0.0
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -232,23 +224,23 @@
           "prediction": 0.434,
           "market_price": 0.434,
           "signed_error": 0.0
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.5755,
+          "market_price": 0.5755,
+          "signed_error": 0.0
         }
       ],
       "avg_signed_error": -0.023,
-      "avg_abs_error": 0.033,
+      "avg_abs_error": 0.032,
       "bias": "TOO LOW"
     },
     "strait-of-hormuz-traffic-returns-to-normal-by-april-30": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "binary",
-          "prediction": 0.235,
-          "market_price": 0.235,
-          "signed_error": 0.0
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -280,23 +272,23 @@
           "prediction": 0.275,
           "market_price": 0.275,
           "signed_error": 0.0
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.47,
+          "market_price": 0.47,
+          "signed_error": 0.0
         }
       ],
       "avg_signed_error": -0.017,
-      "avg_abs_error": 0.031,
+      "avg_abs_error": 0.03,
       "bias": "neutral"
     },
     "will-iran-close-the-strait-of-hormuz-by-2027": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.08333333333333333,
-          "max_outcome_div": 0.5,
-          "n_outcomes": 6
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -323,6 +315,14 @@
         },
         {
           "timestamp": "2026-04-17T03:23:30Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.08333333333333333,
+          "max_outcome_div": 0.5,
+          "n_outcomes": 6
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
           "tier": "haiku",
           "type": "multi-outcome",
           "avg_outcome_div": 0.08333333333333333,
@@ -330,19 +330,11 @@
           "n_outcomes": 6
         }
       ],
-      "avg_multi_div": 0.442
+      "avg_multi_div": 0.433
     },
     "next-leader-out-of-power-before-2027-795": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 15
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -369,6 +361,14 @@
         },
         {
           "timestamp": "2026-04-17T03:23:30Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 15
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
           "tier": "haiku",
           "type": "multi-outcome",
           "avg_outcome_div": 0.0,
@@ -379,16 +379,8 @@
       "avg_multi_div": 0.012
     },
     "save-act-signed-into-law-in-2026": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "binary",
-          "prediction": 0.12,
-          "market_price": 0.12,
-          "signed_error": 0.0
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -420,6 +412,14 @@
           "prediction": 0.105,
           "market_price": 0.105,
           "signed_error": 0.0
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.095,
+          "market_price": 0.095,
+          "signed_error": 0.0
         }
       ],
       "avg_signed_error": -0.004,
@@ -427,16 +427,8 @@
       "bias": "neutral"
     },
     "us-recession-by-end-of-2026": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "binary",
-          "prediction": 0.295,
-          "market_price": 0.295,
-          "signed_error": 0.0
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -468,6 +460,14 @@
           "prediction": 0.255,
           "market_price": 0.255,
           "signed_error": 0.0
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.265,
+          "market_price": 0.265,
+          "signed_error": 0.0
         }
       ],
       "avg_signed_error": 0.002,
@@ -475,16 +475,8 @@
       "bias": "neutral"
     },
     "fed-decision-in-april": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 4
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -511,6 +503,14 @@
         },
         {
           "timestamp": "2026-04-17T03:23:30Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 4
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
           "tier": "haiku",
           "type": "multi-outcome",
           "avg_outcome_div": 0.0,
@@ -567,16 +567,8 @@
       "avg_multi_div": 0.017
     },
     "what-price-will-bitcoin-hit-before-2027": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 15
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -608,21 +600,21 @@
           "avg_outcome_div": 0.0,
           "max_outcome_div": 0.0,
           "n_outcomes": 15
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 15
         }
       ],
-      "avg_multi_div": 0.569
+      "avg_multi_div": 0.555
     },
     "jerome-powell-out-as-fed-chair-by": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 2
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -654,21 +646,21 @@
           "avg_outcome_div": 0.0,
           "max_outcome_div": 0.0,
           "n_outcomes": 2
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 2
         }
       ],
-      "avg_multi_div": 0.5
+      "avg_multi_div": 0.488
     },
     "who-will-be-confirmed-as-fed-chair": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 15
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -700,21 +692,21 @@
           "avg_outcome_div": 0.0,
           "max_outcome_div": 0.0,
           "n_outcomes": 15
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 15
         }
       ],
-      "avg_multi_div": 0.404
+      "avg_multi_div": 0.394
     },
     "which-party-will-win-the-house-in-2026": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 9
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -746,21 +738,21 @@
           "avg_outcome_div": 0.0,
           "max_outcome_div": 0.0,
           "n_outcomes": 9
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 9
         }
       ],
-      "avg_multi_div": 0.359
+      "avg_multi_div": 0.35
     },
     "balance-of-power-2026-midterms": {
-      "n_predictions": 39,
+      "n_predictions": 40,
       "history": [
-        {
-          "timestamp": "2026-04-15T03:01:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 5
-        },
         {
           "timestamp": "2026-04-15T13:55:34Z",
           "tier": "haiku",
@@ -792,9 +784,17 @@
           "avg_outcome_div": 0.0,
           "max_outcome_div": 0.0,
           "n_outcomes": 5
+        },
+        {
+          "timestamp": "2026-04-17T13:49:36Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 5
         }
       ],
-      "avg_multi_div": 0.041
+      "avg_multi_div": 0.04
     },
     "2026-fifa-world-cup-winner-595": {
       "n_predictions": 20,
@@ -1097,22 +1097,22 @@
   },
   "per_domain": {
     "geopolitics": {
-      "n_predictions": 234,
+      "n_predictions": 240,
       "avg_signed_error": -0.017,
-      "avg_abs_error": 0.031,
+      "avg_abs_error": 0.03,
       "bias": "neutral",
-      "avg_multi_div": 0.227
+      "avg_multi_div": 0.223
     },
     "economics": {
-      "n_predictions": 143,
+      "n_predictions": 146,
       "avg_signed_error": 0.002,
       "avg_abs_error": 0.017,
       "bias": "neutral",
-      "avg_multi_div": 0.225
+      "avg_multi_div": 0.221
     },
     "politics": {
-      "n_predictions": 156,
-      "avg_multi_div": 0.326
+      "n_predictions": 160,
+      "avg_multi_div": 0.318
     },
     "sports": {
       "n_predictions": 40,
