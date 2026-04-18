@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-18T16:50:32Z",
+  "fetched_at": "2026-04-18T20:43:13Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -9,37 +9,13 @@
       ],
       "today_high": 59,
       "today_high_unit": "F",
-      "today_forecast": "Patchy Fog then Partly Sunny",
-      "today_detail": "Patchy fog before 11am. Partly sunny. High near 59, with temperatures falling to around 53 in the afternoon. East wind 7 to 14 mph.",
-      "wind": "7 to 14 mph",
-      "wind_direction": "E",
+      "today_forecast": "Partly Sunny",
+      "today_detail": "Partly sunny. High near 59, with temperatures falling to around 55 in the afternoon. Southeast wind around 14 mph.",
+      "wind": "14 mph",
+      "wind_direction": "SE",
       "tonight_low": 50,
-      "tonight_forecast": "Cloudy then Chance Rain Showers",
+      "tonight_forecast": "Cloudy then Patchy Fog",
       "hourly": [
-        {
-          "hour": "2026-04-18T12:00:00-04:00",
-          "temp": 58,
-          "unit": "F",
-          "short": "Partly Sunny"
-        },
-        {
-          "hour": "2026-04-18T13:00:00-04:00",
-          "temp": 59,
-          "unit": "F",
-          "short": "Partly Sunny"
-        },
-        {
-          "hour": "2026-04-18T14:00:00-04:00",
-          "temp": 57,
-          "unit": "F",
-          "short": "Partly Sunny"
-        },
-        {
-          "hour": "2026-04-18T15:00:00-04:00",
-          "temp": 56,
-          "unit": "F",
-          "short": "Partly Sunny"
-        },
         {
           "hour": "2026-04-18T16:00:00-04:00",
           "temp": 56,
@@ -48,9 +24,9 @@
         },
         {
           "hour": "2026-04-18T17:00:00-04:00",
-          "temp": 53,
+          "temp": 55,
           "unit": "F",
-          "short": "Mostly Cloudy"
+          "short": "Partly Sunny"
         },
         {
           "hour": "2026-04-18T18:00:00-04:00",
@@ -74,13 +50,13 @@
           "hour": "2026-04-18T21:00:00-04:00",
           "temp": 52,
           "unit": "F",
-          "short": "Cloudy"
+          "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-04-18T22:00:00-04:00",
           "temp": 52,
           "unit": "F",
-          "short": "Cloudy"
+          "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-04-18T23:00:00-04:00",
@@ -89,82 +65,58 @@
           "short": "Cloudy"
         }
       ],
-      "peak_temp": 59,
-      "peak_hour": "2026-04-18T13:00:00-04:00"
+      "peak_temp": 56,
+      "peak_hour": "2026-04-18T16:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
       "relevant_to": [
         "miami_temp"
       ],
-      "today_high": 91,
+      "today_high": 90,
       "today_high_unit": "F",
-      "today_forecast": "Patchy Fog then Slight Chance Rain Showers",
-      "today_detail": "Patchy fog before 9am, then a slight chance of rain showers. Mostly sunny, with a high near 91. East wind around 5 mph. Chance of precipitation is 20%.",
+      "today_forecast": "Mostly Sunny",
+      "today_detail": "Mostly sunny, with a high near 90. East wind around 5 mph.",
       "wind": "5 mph",
       "wind_direction": "E",
       "tonight_low": 66,
-      "tonight_forecast": "Slight Chance Rain Showers",
+      "tonight_forecast": "Slight Chance Rain Showers then Mostly Cloudy",
       "hourly": [
         {
-          "hour": "2026-04-18T12:00:00-04:00",
-          "temp": 86,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-04-18T13:00:00-04:00",
-          "temp": 88,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-04-18T14:00:00-04:00",
-          "temp": 89,
+          "hour": "2026-04-18T16:00:00-04:00",
+          "temp": 90,
           "unit": "F",
           "short": "Mostly Sunny"
         },
         {
-          "hour": "2026-04-18T15:00:00-04:00",
-          "temp": 91,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-04-18T16:00:00-04:00",
-          "temp": 89,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
           "hour": "2026-04-18T17:00:00-04:00",
-          "temp": 89,
+          "temp": 88,
           "unit": "F",
-          "short": "Slight Chance Rain Showers"
+          "short": "Mostly Sunny"
         },
         {
           "hour": "2026-04-18T18:00:00-04:00",
-          "temp": 89,
+          "temp": 88,
           "unit": "F",
           "short": "Partly Cloudy"
         },
         {
           "hour": "2026-04-18T19:00:00-04:00",
-          "temp": 83,
+          "temp": 84,
           "unit": "F",
-          "short": "Slight Chance Rain Showers"
+          "short": "Partly Cloudy"
         },
         {
           "hour": "2026-04-18T20:00:00-04:00",
           "temp": 79,
           "unit": "F",
-          "short": "Slight Chance Rain Showers"
+          "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-04-18T21:00:00-04:00",
           "temp": 77,
           "unit": "F",
-          "short": "Slight Chance Rain Showers"
+          "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-04-18T22:00:00-04:00",
@@ -176,11 +128,11 @@
           "hour": "2026-04-18T23:00:00-04:00",
           "temp": 72,
           "unit": "F",
-          "short": "Slight Chance Rain Showers"
+          "short": "Mostly Cloudy"
         }
       ],
-      "peak_temp": 91,
-      "peak_hour": "2026-04-18T15:00:00-04:00"
+      "peak_temp": 90,
+      "peak_hour": "2026-04-18T16:00:00-04:00"
     }
   }
 }

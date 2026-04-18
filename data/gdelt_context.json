@@ -1,26 +1,148 @@
 {
-  "fetched_at": "2026-04-18T16:54:41Z",
+  "fetched_at": "2026-04-18T20:50:29Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Trump says Iran to give up enriched uranium , signals deal  very soon",
+          "domain": "moneycontrol.com",
+          "date": "20260417T023000Z",
+          "country": "India"
+        },
+        {
+          "title": "US - Iran talks : No date set as Hormuz tensions persist - Pakistan Today",
+          "domain": "pakistantoday.com.pk",
+          "date": "20260418T184500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Trump claims Iran has agreed to hand over enriched uranium stockpile ; says peace deal is close",
+          "domain": "newindianexpress.com",
+          "date": "20260416T234500Z",
+          "country": "India"
+        },
+        {
+          "title": "Next round of US - Iran peace talks expected to begin from Monday - what we know so far",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260418T024500Z",
+          "country": "India"
+        },
+        {
+          "title": "Cash for nuclear stockpile ? US , Iran weigh $20 billion Uranium deal as talks gather pace : Report",
+          "domain": "moneycontrol.com",
+          "date": "20260417T151500Z",
+          "country": "India"
+        },
+        {
+          "title": "Three Quotes That Explain Why U . S .– Iran Talks Have Failed",
+          "domain": "theamericanconservative.com",
+          "date": "20260417T053000Z",
+          "country": "United States"
+        },
+        {
+          "title": "This Isnt Just Trump War on Iran . Both Parties Paved the Way for Disaster .",
+          "domain": "truthout.org",
+          "date": "20260417T184500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran closes Strait of Hormuz again over US blockade of its ports",
+          "domain": "aljazeera.com",
+          "date": "20260418T151500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Hormuz opening lifts deal prospects",
+          "domain": "tribune.com.pk",
+          "date": "20260418T050000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "If we dont do a deal …: Trump warns Iran of  more bomb ahead of peace talks",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260418T054500Z",
+          "country": "India"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Another Indian oil tanker crosses Hormuz as Iran shuts Strait for US | India News",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260418T111500Z",
+          "country": "India"
+        },
+        {
+          "title": "Iranian gunboats reportedly fire on tanker in Strait of Hormuz",
+          "domain": "manchestereveningnews.co.uk",
+          "date": "20260418T153000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Iranian forces open fire in Strait of Hormuz ; Indian vessels turn back",
+          "domain": "rediff.com",
+          "date": "20260418T143000Z",
+          "country": "India"
+        },
+        {
+          "title": "Pakistan oil tanker makes rare entry and exit through Hormuz",
+          "domain": "moneycontrol.com",
+          "date": "20260417T063000Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran fires on tanker as it reimposes Strait of Hormuz restrictions",
+          "domain": "abc15.com",
+          "date": "20260418T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran has declared that the Strait of Hormuz is open , what is known about the situation there",
+          "domain": "gazetaexpress.com",
+          "date": "20260418T084500Z",
+          "country": "Kosovo"
+        },
+        {
+          "title": "Hormuz  safety valve  snaps shut : Iran reimposes blockade , fires on tankers",
+          "domain": "aninews.in",
+          "date": "20260418T151500Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran fires on tanker as it reimposes Strait of Hormuz restrictions",
+          "domain": "10news.com",
+          "date": "20260418T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump says Hormuz open , but Iran blockade stays",
+          "domain": "prokerala.com",
+          "date": "20260417T151500Z",
+          "country": "India"
+        },
+        {
+          "title": "Tanker fired upon by Iranian gunboats near Strait of Hormuz , says UKMTO",
+          "domain": "moneycontrol.com",
+          "date": "20260418T131500Z",
+          "country": "India"
+        }
+      ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
@@ -40,12 +162,6 @@
           "domain": "nzherald.co.nz",
           "date": "20260417T010000Z",
           "country": "New Zealand"
-        },
-        {
-          "title": "Bangkok Post - Myanmar looks east again in search of legitimacy",
-          "domain": "bangkokpost.com",
-          "date": "20260416T194500Z",
-          "country": "Thailand"
         },
         {
           "title": "Christopher Luxon speaks to media amid leadership speculation , questions over contact with senior MP",
@@ -88,6 +204,12 @@
           "domain": "asia.nikkei.com",
           "date": "20260417T140000Z",
           "country": "Japan"
+        },
+        {
+          "title": "Ex - Burmese president freed , Suu Kyi sentence cut",
+          "domain": "taipeitimes.com",
+          "date": "20260417T173000Z",
+          "country": "Taiwan"
         }
       ]
     },
@@ -102,12 +224,6 @@
           "title": "Mike Lindell Wont Let a Pesky Contempt of Court Finding Get Him Down",
           "domain": "talkingpointsmemo.com",
           "date": "20260416T211500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Civil rights advocates fear citizenship verification law may block  many  naturalized voters | Indiana",
-          "domain": "journalgazette.net",
-          "date": "20260416T200000Z",
           "country": "United States"
         },
         {
@@ -156,6 +272,12 @@
           "title": "Polls show support for GOP - backed election changes ahead of midterms",
           "domain": "wcyb.com",
           "date": "20260417T231500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Polls show support for GOP - backed election changes ahead of midterms",
+          "domain": "wsbt.com",
+          "date": "20260417T220000Z",
           "country": "United States"
         }
       ]
@@ -231,13 +353,74 @@
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "The Probability of a Stock Market Crash Under Donald Trump Is Climbing -- and the Blame May Lie With the President Himself",
+          "domain": "fool.com",
+          "date": "20260418T084500Z",
+          "country": "United States"
+        },
+        {
+          "title": "A Potential Worst - Case Scenario Is Setting Up for the Stock Market on May 15 -- and There No Sweeping This Under the Rug",
+          "domain": "fool.com",
+          "date": "20260418T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "A Potential Worst - Case Scenario Is Setting Up for the Stock Market on May 15 -- and There No Sweeping This Under the Rug",
+          "domain": "fool.com",
+          "date": "20260418T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed Chair nominee discloses stunning vast wealth in court filings",
+          "domain": "finance.yahoo.com",
+          "date": "20260417T033000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Father , Don , and Fed Chair Role Explored",
+          "domain": "el-balad.com",
+          "date": "20260417T053000Z",
+          "country": "Egypt"
+        },
+        {
+          "title": "Fed Chair Nominee Kevin Warsh Confirmation Hearing Looms Despite Democrat Objections",
+          "domain": "yahoo.com",
+          "date": "20260417T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Sen . Warren calls for greater transparency into Federal Reserve nominee financial holdings",
+          "domain": "isp.netscape.com",
+          "date": "20260417T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "A Potential Worst - Case Scenario Is Setting Up for the Stock Market on May 15 -- and There No Sweeping This Under the Rug",
+          "domain": "finance.yahoo.com",
+          "date": "20260418T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump issues ultimatum to Fed chair as Bitcoin trembles at $75 , 000 .  Ill have to fire him",
+          "domain": "finance.yahoo.com",
+          "date": "20260417T190000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Business Lookahead : Warsh , war and worsening conditions ?",
+          "domain": "marketscreener.com",
+          "date": "20260417T194500Z",
+          "country": ""
+        }
+      ]
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
@@ -262,6 +445,12 @@
           "title": "Social Security 2027 Cost - of - Living Adjustment ( COLA ) Estimate Is Getting a  Trump Bump  -- Here How Much Extra You Might Receive",
           "domain": "fool.com",
           "date": "20260418T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Social Security 2027 Cost - of - Living Adjustment ( COLA ) Estimate Is Getting a  Trump Bump  -- Here How Much Extra You Might Receive",
+          "domain": "fool.com",
+          "date": "20260418T200000Z",
           "country": "United States"
         },
         {
@@ -299,12 +488,6 @@
           "domain": "forbes.com",
           "date": "20260417T180000Z",
           "country": "United States"
-        },
-        {
-          "title": "Govt hikes DA to 60 % for central employees and pensioners",
-          "domain": "thehindubusinessline.com",
-          "date": "20260418T120000Z",
-          "country": "India"
         }
       ]
     },
@@ -325,12 +508,6 @@
           "title": "Bitcoin Price Prediction as Fear and Greed Index , ETF Inflows , Open Interest Spikes",
           "domain": "banklesstimes.com",
           "date": "20260418T084500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why Did The Bitcoin Price Rally Past $75 , 000 Despite The US - Iran War ?",
-          "domain": "newsbtc.com",
-          "date": "20260416T204500Z",
           "country": "United States"
         },
         {
@@ -370,10 +547,16 @@
           "country": "United States"
         },
         {
-          "title": "Bitcoin price news : BTC slides after failing at key resistance levels",
-          "domain": "coindesk.com",
-          "date": "20260416T190000Z",
-          "country": "United States"
+          "title": "Bitcoin holds near $74 , 600 , Ethereum steady above $2 , 300 amid volatility ; technicals signal strength",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260417T083000Z",
+          "country": "India"
+        },
+        {
+          "title": "Major Bitcoin Mining Companies Sold More BTC in Q1 2026 Than All of 2025",
+          "domain": "cointelegraph.com",
+          "date": "20260416T223000Z",
+          "country": "China"
         }
       ]
     },
@@ -448,12 +631,73 @@
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Im Sure Republicans Were Happy to Hear This News Regarding Their 2026 Midterm Plans",
+          "domain": "townhall.com",
+          "date": "20260418T114500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Im Sure Republicans Were Happy to Hear This News Regarding Their 2026 Midterm Plans",
+          "domain": "wcbm.com",
+          "date": "20260418T151500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Im realizing Platner could be Maine next senator",
+          "domain": "pressherald.com",
+          "date": "20260417T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Democrat chances of winning Virginia redistricting battle Polls",
+          "domain": "newsweek.com",
+          "date": "20260416T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Wisconsin spring general election results",
+          "domain": "lawrentian.com",
+          "date": "20260417T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Panicked  top Republicans sound the alarm as they identify three key threats to GOP chances ahead of midterm elections and urge major changes ... with even deep red states at risk",
+          "domain": "dailymail.co.uk",
+          "date": "20260418T061500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Vice President JD Vance to campaign with Zach Nunn in Iowa",
+          "domain": "thegazette.com",
+          "date": "20260417T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Democrat Analilia Mejia wins New Jersey special election for US House",
+          "domain": "wxii12.com",
+          "date": "20260417T021500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Democrat Analilia Mejia wins New Jersey special election for US House",
+          "domain": "wbaltv.com",
+          "date": "20260417T020000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Democrat Analilia Mejia wins New Jersey special election for US House",
+          "domain": "wesh.com",
+          "date": "20260417T044500Z",
+          "country": "United States"
+        }
+      ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
@@ -473,73 +717,12 @@
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "Claude Opus 4 . 7 benchmarks coding performance : Claude Opus 4 . 7 hits 92 % honesty rate are we closer than ever to human - like AI with less hallucination ? Here what Anthropic new AI model is capable of",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260417T223000Z",
-          "country": "India"
-        },
-        {
-          "title": "Anthropic Unveils Claude Opus 4 . 7 : Try It , Safety Features , and Benchmarks",
-          "domain": "el-balad.com",
-          "date": "20260417T053000Z",
-          "country": "Egypt"
-        },
-        {
-          "title": "Anthropic Claude Opus 4 . 7 Beats GPT - 5 . 4 in Coding Benchmark",
-          "domain": "iclarified.com",
-          "date": "20260416T190000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Anthropic Ships Claude Opus 4 . 7 as Mythos Stays Under Lock and Key",
-          "domain": "bravenewcoin.com",
-          "date": "20260416T223000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Claude Design : 3 ways Anthropic is sharpening Opus 4 . 7 against GPT - 5 . 4 and Gemini 3 . 1 Pro",
-          "domain": "el-balad.com",
-          "date": "20260417T170000Z",
-          "country": "Egypt"
-        },
-        {
-          "title": "I reclaimed 15 hours this week with AI Agents here is the exact setup I used to automate my workflow",
-          "domain": "tomsguide.com",
-          "date": "20260417T063000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Anthropic : Claude Opus 4 . 7 has a 92 % honesty rate , fewer hallucinations",
-          "domain": "mashable.com",
-          "date": "20260417T213000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Anthropic Unveils Opus 4 . 7 Model , Elevating Advanced Software Engineering",
-          "domain": "el-balad.com",
-          "date": "20260416T173000Z",
-          "country": "Egypt"
-        },
-        {
-          "title": "Anthropic launches Claude Opus 4 . 7 with coding , visual reasoning improvements",
-          "domain": "siliconangle.com",
-          "date": "20260417T024500Z",
-          "country": "United States"
-        },
-        {
-          "title": "OpenAI launches GPT - Rosalind for life sciences research",
-          "domain": "itbrief.co.nz",
-          "date": "20260417T173000Z",
-          "country": "New Zealand"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
@@ -561,12 +744,6 @@
           "country": "United States"
         },
         {
-          "title": "Worthplaying |  Grand Theft Auto Online  Update Adds New Stoner Survival , Hunting Pack ( Get Lamar ) Map , 420 - Themed Bonuses and Much More",
-          "domain": "worthplaying.com",
-          "date": "20260416T200000Z",
-          "country": "United States"
-        },
-        {
           "title": "Shinyhunters stories at Techdirt .",
           "domain": "techdirt.com",
           "date": "20260417T054500Z",
@@ -585,12 +762,6 @@
           "country": "Japan"
         },
         {
-          "title": "GTA Online Goes Full 420 Mode With Wild Rewards , Trippy Survival And Big Payouts",
-          "domain": "thexboxhub.com",
-          "date": "20260416T191500Z",
-          "country": "United Kingdom"
-        },
-        {
           "title": "64 % of game devs believe AI has negative impact on creativity | Gaming | Entertainment",
           "domain": "express.co.uk",
           "date": "20260418T083000Z",
@@ -607,6 +778,18 @@
           "domain": "gamenguide.com",
           "date": "20260418T150000Z",
           "country": "United States"
+        },
+        {
+          "title": "This 76 Metacritic Game Has the Perfect - Sized Open World , and It Ruined Bigger Open Worlds for Me",
+          "domain": "gamerant.com",
+          "date": "20260417T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Canada - wide warrant issued for suspects in AI fraud scheme",
+          "domain": "torontosun.com",
+          "date": "20260417T160000Z",
+          "country": "Canada"
         }
       ]
     }
