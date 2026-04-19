@@ -1,42 +1,24 @@
 [
   {
-    "claim": "US military has deployed over 10,000 troops enforcing a naval blockade of Iranian ports using 12 ships and 100 aircraft, turning back 14-23 vessels.",
-    "source": "CENTCOM/Washington Post",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "US military plans to board and seize Iran-bound tankers in international waters beyond Middle East waters to escalate economic pressure.",
-    "source": "Washington Post",
-    "source_category": "us_prestige",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Approximately 10,000 additional US troops are deploying to the Middle East by end-April 2026, with contingency plans including special forces ground operations if diplomacy fails.",
-    "source": "Washington Post",
-    "source_category": "us_prestige",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "A fragile US-Iran ceasefire is set to expire on April 22, 2026.",
-    "source": "Multiple sources",
+    "claim": "US Central Command implemented a full naval blockade of Iranian ports and key shipping routes in the Strait of Hormuz, with at least 23 Iran-bound ships turned back since earlier in the week.",
+    "source": "Wall Street Journal / US officials",
     "source_category": "wire_service",
-    "indicator_category": "diplomatic_signals",
+    "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-04-22T00:00:00Z",
+    "time": "2026-04-19T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Iran's IRGC has reimposed strict military control over the Strait of Hormuz and deployed fast attack boats using swarm tactics to monitor and confront vessels.",
+    "claim": "The US plans to board and seize Iran-linked commercial vessels in international waters beyond the Middle East to increase economic pressure.",
+    "source": "Wall Street Journal",
+    "source_category": "wire_service",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-04-19T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Approximately 10,000 additional US troops are deploying to the Middle East by the end of April.",
     "source": "Hindustan Times",
     "source_category": "regional_specialist",
     "indicator_category": "military_pressure",
@@ -45,161 +27,143 @@
     "confidence": "high"
   },
   {
-    "claim": "Iran reportedly fired on commercial tankers, including Indian-linked vessels, amid daily sea encounters with US-deployed forces.",
-    "source": "Hindustan Times",
-    "source_category": "regional_specialist",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "US Secretary of Defense Pete Hegseth stated Iran's command and control is 'highly degraded,' giving it 'high incentive' to maintain the ceasefire.",
+    "claim": "US Defense Secretary Pete Hegseth stated on April 17 that the US can transition from blockade to major combat operations.",
     "source": "Government official statement",
     "source_category": "government_official",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
+    "time": "2026-04-17T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Iran declared the Strait of Hormuz closed and warned of full shutdown if the US blockade persists.",
+    "source": "Times of India",
+    "source_category": "regional_specialist",
+    "indicator_category": "diplomatic_signals",
+    "market": "regime_fall",
+    "time": "2026-04-19T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf warned of Hormuz closure in response to the US blockade on April 18.",
+    "source": "Government official statement",
+    "source_category": "government_official",
+    "indicator_category": "diplomatic_signals",
+    "market": "regime_fall",
     "time": "2026-04-18T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "IRGC warned ships approaching Hormuz that they risk being classified as enemy accomplices and reimposed controls citing US breaches of ceasefire terms.",
-    "source": "IRGC statements",
-    "source_category": "government_official",
+    "claim": "Two Indian-linked vessels reportedly came under fire near the Strait of Hormuz.",
+    "source": "Times of India",
+    "source_category": "regional_specialist",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
+    "time": "2026-04-19T00:00:00Z",
+    "confidence": "medium"
   },
   {
-    "claim": "Iran's chief negotiator warned of a 'heavy price' for the US and allies if the siege persists, with potential full Hormuz closure threatened.",
-    "source": "Iranian government official",
-    "source_category": "government_official",
+    "claim": "Iran rejected a second round of US talks in a 21-hour Islamabad session led by VP JD Vance, accusing the US of excessive demands on the nuclear program while maintaining military pressure.",
+    "source": "News reports",
+    "source_category": "wire_service",
     "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
+    "time": "2026-04-19T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "President Trump convened a high-level Situation Room emergency meeting over IRGC defying Hormuz restrictions.",
-    "source": "Government official",
-    "source_category": "government_official",
+    "claim": "US-Iran ceasefire talks in Islamabad collapsed on April 11 after internal Iranian disagreements and an order from top security officials.",
+    "source": "News reports",
+    "source_category": "wire_service",
     "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iran and the US are pursuing a second round of ceasefire talks, potentially resuming in Pakistan within days before the April 22, 2026 ceasefire expiration.",
-    "source": "Pakistan government/Iranian officials",
-    "source_category": "government_official",
-    "indicator_category": "diplomatic_signals",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iran abandoned US ceasefire talks in Islamabad on April 11, 2026 due to sharp internal disagreements and an order from its top security official.",
-    "source": "Iranian officials",
-    "source_category": "government_official",
-    "indicator_category": "internal_stability",
     "market": "regime_fall",
     "time": "2026-04-11T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Iranian officials refuse to engage in nuclear negotiations until Israel halts attacks and Iran completes retaliation.",
-    "source": "Iranian government officials",
-    "source_category": "government_official",
+    "claim": "President Trump stated talks with Iran could resume over the next two days following the failed Islamabad negotiations.",
+    "source": "New York Post",
+    "source_category": "us_prestige",
     "indicator_category": "diplomatic_signals",
     "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "President Pezeshkian faces fierce hardline backlash for a conditional war-end offer and signaling diplomacy, exposing rifts with military leaders.",
-    "source": "Iranian political analysis",
-    "source_category": "regional_specialist",
-    "indicator_category": "succession_dynamics",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "The IRGC has assumed control over key functions in Iran, leaving President Pezeshkian in 'complete political deadlock.'",
-    "source": "Iranian political sources",
-    "source_category": "regional_specialist",
-    "indicator_category": "succession_dynamics",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
+    "time": "2026-04-19T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "State media sharply criticized Foreign Minister Araghchi for comments about Hormuz reopening, accusing the diplomatic team of aiding Trump.",
-    "source": "Iranian state media",
-    "source_category": "government_official",
-    "indicator_category": "internal_stability",
+    "claim": "Iran's central bank warned President Pezeshkian that rebuilding the war-damaged economy may take over a decade.",
+    "source": "News reports",
+    "source_category": "wire_service",
+    "indicator_category": "economic_collapse",
     "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Hardline factions branded ex-Foreign Minister Zarif a 'traitor' for ending-war calls, urging his and ex-President Rouhani's arrest.",
-    "source": "Iranian hardline sources",
-    "source_category": "government_official",
-    "indicator_category": "internal_stability",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
+    "time": "2026-04-19T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "Supreme Leader Khamenei appointed Mojtaba Khamenei in what sources describe as a 'logical outcome' of the system's design.",
-    "source": "Iranian government sources",
-    "source_category": "government_official",
-    "indicator_category": "succession_dynamics",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Maj. Gen. Amir Hatami was appointed as Artesh commander as an 'active deterrence' proponent following military leadership changes.",
-    "source": "Iranian government sources",
-    "source_category": "government_official",
-    "indicator_category": "succession_dynamics",
-    "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iran's central bank warned President Pezeshkian that rebuilding the war-damaged economy could take over a decade.",
-    "source": "Iranian central bank",
-    "source_category": "government_official",
+    "claim": "Iran's economy shows structural symptoms of currency distrust and monetary regime shift beyond high inflation.",
+    "source": "News reports",
+    "source_category": "wire_service",
     "indicator_category": "economic_collapse",
     "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "high"
+    "time": "2026-04-19T00:00:00Z",
+    "confidence": "medium"
   },
   {
-    "claim": "Iran's economy shows structural collapse characterized by hyperinflation, currency distrust, and monetary regime shift symptoms.",
-    "source": "Economic analysis sources",
-    "source_category": "regional_specialist",
-    "indicator_category": "economic_collapse",
+    "claim": "President Pezeshkian faces fierce backlash and complete political deadlock from hardliners and the IRGC over his conditional war-end offer.",
+    "source": "News reports",
+    "source_category": "wire_service",
+    "indicator_category": "internal_stability",
     "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
+    "time": "2026-04-19T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "IRGC commanders forced the appointment of Mohammad Bagher Zolghadr as Pezeshkian's SNSC secretary.",
+    "source": "News reports",
+    "source_category": "wire_service",
+    "indicator_category": "succession_dynamics",
+    "market": "regime_fall",
+    "time": "2026-04-19T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Supreme Leader Khamenei appointed Major General Amir Hatami as Artesh commander, replacing Mousavi.",
+    "source": "News reports",
+    "source_category": "wire_service",
+    "indicator_category": "succession_dynamics",
+    "market": "regime_fall",
+    "time": "2026-04-19T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Israeli strikes since June 14 targeted Iranian energy infrastructure including the Shahran oil depot, degrading military and nuclear sustainment capabilities.",
-    "source": "Israeli/Western intelligence sources",
-    "source_category": "government_official",
+    "claim": "Hardliners branded former Foreign Minister Zarif a traitor warranting arrest alongside former President Rouhani.",
+    "source": "News reports",
+    "source_category": "wire_service",
+    "indicator_category": "internal_stability",
+    "market": "regime_fall",
+    "time": "2026-04-19T00:00:00Z",
+    "confidence": "medium"
+  },
+  {
+    "claim": "Israel's June 14 strikes hit critical energy infrastructure including the Shahran oil depot, degrading military and nuclear sustainment capabilities.",
+    "source": "News reports",
+    "source_category": "wire_service",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
     "time": "2026-06-14T00:00:00Z",
     "confidence": "high"
   },
   {
-    "claim": "Israeli PM Netanyahu confirmed June 15 IDF strike killed IRGC Intelligence Chief Brig. Gen. Mohammad Kazemi, deputy Hassan Mohaghegh, and officer Mohsen Bagheri.",
-    "source": "Israeli government official statement",
+    "claim": "Israeli strikes targeted regime institutions including the Justice Ministry, Foreign Ministry, and internal security forces (MOIS and LEC anti-riot units).",
+    "source": "News reports",
+    "source_category": "wire_service",
+    "indicator_category": "military_pressure",
+    "market": "regime_fall",
+    "time": "2026-06-14T00:00:00Z",
+    "confidence": "high"
+  },
+  {
+    "claim": "Israeli PM Netanyahu confirmed a June 15 strike killed IRGC Intelligence Chief Kazemi, deputy Mohaghegh, and officer Bagheri.",
+    "source": "Government official statement",
     "source_category": "government_official",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
@@ -207,48 +171,39 @@
     "confidence": "high"
   },
   {
-    "claim": "IDF expanded strikes to eastern Iran including Mashhad airbase for air superiority and regime institutions such as Justice and Foreign Ministries.",
-    "source": "Israeli military sources",
-    "source_category": "government_official",
+    "claim": "The IDF expanded operations eastward to Mashhad airbase for air superiority.",
+    "source": "News reports",
+    "source_category": "wire_service",
     "indicator_category": "military_pressure",
     "market": "regime_fall",
     "time": "2026-06-15T00:00:00Z",
-    "confidence": "high"
+    "confidence": "medium"
   },
   {
-    "claim": "Israeli strikes targeted Iranian repression architecture including intelligence compounds, police and Basij bases, and judicial buildings used for internal security.",
-    "source": "Israeli military sources",
-    "source_category": "government_official",
-    "indicator_category": "military_pressure",
-    "market": "regime_fall",
-    "time": "2026-06-15T00:00:00Z",
-    "confidence": "high"
-  },
-  {
-    "claim": "Iran's Axis of Resistance partners have failed to impose costs on Israel in response to recent military strikes.",
-    "source": "Regional analysis sources",
-    "source_category": "regional_specialist",
+    "claim": "Iran's Axis proxies have not significantly intervened in response to Israeli military operations.",
+    "source": "News reports",
+    "source_category": "wire_service",
     "indicator_category": "international_response",
     "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
+    "time": "2026-06-15T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "State broadcaster frames civil protests as 'enemy' warfare and warns against revealing officials' civilian hideouts.",
-    "source": "Iranian state media",
-    "source_category": "government_official",
+    "claim": "State TV warned against revealing officials' civilian hideouts and framed dissent as enemy warfare.",
+    "source": "News reports",
+    "source_category": "wire_service",
     "indicator_category": "internal_stability",
     "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
+    "time": "2026-04-19T00:00:00Z",
     "confidence": "medium"
   },
   {
-    "claim": "Energy infrastructure degradation and strikes on internal security forces could destabilize the Iranian regime through shortages and reduced repression capabilities.",
-    "source": "Regional analysis",
-    "source_category": "regional_specialist",
+    "claim": "A pro-government rally screened a Lebanese singer's video that broke hijab and solo female singing taboos.",
+    "source": "News reports",
+    "source_category": "wire_service",
     "indicator_category": "internal_stability",
     "market": "regime_fall",
-    "time": "2026-04-18T00:00:00Z",
-    "confidence": "medium"
+    "time": "2026-04-19T00:00:00Z",
+    "confidence": "low"
   }
 ]
