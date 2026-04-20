@@ -30,7 +30,7 @@ from constants import MARKETS, PRICE_CSV, FORECAST_HORIZONS
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.27.0"
+METHODOLOGY_VERSION = "1.28.0"
 
 MOMENTUM_LOOKBACK = 6       # number of recent price points for momentum (linear slope)
 REVERSION_LOOKBACK = 24     # number of recent price points for long-term mean
@@ -222,8 +222,8 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
     # Fixed blend (no longer adaptive)
     fixed_blend = BASE_MOMENTUM_BLEND
 
-    # Momentum forecast: use projected momentum value with scaled coefficient (increased from 0.00005 to 0.0003)
-    momentum_coefficient = 0.0003 * horizon_scale  # increased for more responsive predictions
+    # Momentum forecast: use projected momentum value with scaled coefficient (increased from 0.0003 to 0.002)
+    momentum_coefficient = 0.002 * horizon_scale  # significantly increased for more responsive predictions
     momentum_forecast = current + (momentum_projection - current) * momentum_coefficient
 
     # Reversion forecast: pull toward long-term mean (scaled by horizon)
