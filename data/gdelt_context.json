@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-20T06:29:27Z",
+  "fetched_at": "2026-04-20T10:11:29Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -24,72 +24,11 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "World : Myanmar release of Suu Kyi top ally spurs small democ",
-          "domain": "newvision.co.ug",
-          "date": "20260418T124500Z",
-          "country": "Uganda"
-        },
-        {
-          "title": "Gen Z protests around the world : Success or epic fail ?",
-          "domain": "nzherald.co.nz",
-          "date": "20260420T054500Z",
-          "country": "New Zealand"
-        },
-        {
-          "title": "Polity and Governance MCQs on Union Executive and Legislature , President , Vice President , Prime Minister , and Parliament",
-          "domain": "jagranjosh.com",
-          "date": "20260419T151500Z",
-          "country": "India"
-        },
-        {
-          "title": "Myanmar release of Aung San Suu Kyi top ally spurs small democracy hope",
-          "domain": "channelnewsasia.com",
-          "date": "20260418T081500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The  absolute cinema  of life after Orbán : Hungary new leader takes on the authoritarian state",
-          "domain": "nbcnews.com",
-          "date": "20260419T100000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Luxon standing down  not going to happen  despite National drop in poll",
-          "domain": "odt.co.nz",
-          "date": "20260420T013000Z",
-          "country": "New Zealand"
-        },
-        {
-          "title": "Myanmar release of Suu Kyi top ally spurs small democracy hope",
-          "domain": "dailyexpress.com.my",
-          "date": "20260419T063000Z",
-          "country": "Malaysia"
-        },
-        {
-          "title": "Allies back Starmer as Mandelson and Epstein leave the united kingdom leader fighting for his job – Winnipeg Free Press",
-          "domain": "winnipegfreepress.com",
-          "date": "20260419T110000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "British Prime Minister Starmer faces angry lawmakers over Mandelson appointment as ambassador – Winnipeg Free Press",
-          "domain": "winnipegfreepress.com",
-          "date": "20260420T050000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Allies back Starmer as Mandelson and Epstein leave the united kingdom leader fighting for his job",
-          "domain": "clickondetroit.com",
-          "date": "20260419T113000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -162,167 +101,228 @@
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "UK to narrowly avoid recession and jobless rate to surge , Item Club warns",
-          "domain": "aol.co.uk",
-          "date": "20260420T000000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "UK to narrowly avoid recession and jobless rate to surge , Item Club warns",
-          "domain": "lbc.co.uk",
-          "date": "20260420T021500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "ABC News leads the media shonks in fomenting fear of recession",
-          "domain": "independentaustralia.net",
-          "date": "20260420T020000Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Albanese government  populist  cash splashes panned by former RBA staffer John Simon after stern IMF warning",
-          "domain": "skynews.com.au",
-          "date": "20260419T193000Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Iran war : united kingdom to  flirt  with recession and 250 , 000 to lose jobs amid fallout , warn forecasters",
-          "domain": "independent.co.uk",
-          "date": "20260420T024500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "UK to  flirt  with recession and 250 , 000 to lose jobs amid Iran war fallout , warn forecasters",
-          "domain": "aol.co.uk",
-          "date": "20260420T003000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Experts Warn That Recession Risks Are Increasing . Here What That Means for Investors",
-          "domain": "fool.com",
-          "date": "20260418T140000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Global oil shocks may hit US growth , India impact likely limited : SBI Research",
-          "domain": "aninews.in",
-          "date": "20260419T081500Z",
-          "country": "India"
-        },
-        {
-          "title": "UK to narrowly avoid recession and jobless rate to surge , Item Club warns",
-          "domain": "edp24.co.uk",
-          "date": "20260420T020000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "UK to narrowly avoid recession and jobless rate to surge , Item Club warns",
-          "domain": "bournemouthecho.co.uk",
-          "date": "20260420T003000Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
+      "headlines": []
+    },
+    "US inflation / CPI": {
+      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
+      "article_count": 10,
+      "relevant_to": [
+        "march-inflation-us-annual"
+      ],
       "headlines": [
         {
-          "title": "Top Fed officials rethink rate cuts as peace talks begin",
-          "domain": "finance.yahoo.com",
-          "date": "20260420T034500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Probability of a Stock Market Crash Under Donald Trump Is Climbing -- and the Blame May Lie With the President Himself",
+          "title": "Social Security 2027 Cost - of - Living Adjustment ( COLA ) Is on Track to Do Something That Hasnt Happened Since 1997",
           "domain": "fool.com",
-          "date": "20260418T084500Z",
+          "date": "20260419T111500Z",
           "country": "United States"
         },
         {
-          "title": "A Potential Worst - Case Scenario Is Setting Up for the Stock Market on May 15 -- and There No Sweeping This Under the Rug",
+          "title": "Is a Big Social Security Raise Coming in 2027 ? Here the New Estimate .",
+          "domain": "fool.com",
+          "date": "20260419T111500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Social Security 2027 Cost - of - Living Adjustment ( COLA ) Estimate Is Getting a  Trump Bump  -- Here How Much Extra You Might Receive",
           "domain": "fool.com",
           "date": "20260418T140000Z",
           "country": "United States"
         },
         {
-          "title": "A Potential Worst - Case Scenario Is Setting Up for the Stock Market on May 15 -- and There No Sweeping This Under the Rug",
+          "title": "Social Security 2027 Cost - of - Living Adjustment ( COLA ) Estimate Is Getting a  Trump Bump  -- Here How Much Extra You Might Receive",
           "domain": "fool.com",
           "date": "20260418T200000Z",
           "country": "United States"
         },
         {
-          "title": "Donald Trump Threatens to Fire Jerome Powell if the Fed Chair Stays On as Governor",
-          "domain": "foreignpolicyjournal.com",
-          "date": "20260418T223000Z",
-          "country": "Israel"
+          "title": "Airfares , petrol pumps , mortgages : Inflation to jump due to Iran war",
+          "domain": "cityam.com",
+          "date": "20260420T094500Z",
+          "country": "United Kingdom"
         },
         {
-          "title": "A Potential Worst - Case Scenario Is Setting Up for the Stock Market on May 15 -- and There No Sweeping This Under the Rug",
-          "domain": "finance.yahoo.com",
-          "date": "20260418T140000Z",
-          "country": "United States"
+          "title": "Week Ahead for FX , Bonds : U . S . Retail Sales , PMI Data Due as Focus Remains on Middle East",
+          "domain": "morningstar.com",
+          "date": "20260419T224500Z",
+          "country": "China"
         },
         {
-          "title": "The currency war premium unwinds . What next ?",
+          "title": "Week Ahead for FX , Bonds : U . S . Retail Sales , PMI Data Due as Focus Remains on Middle East",
+          "domain": "marketscreener.com",
+          "date": "20260419T214500Z",
+          "country": ""
+        },
+        {
+          "title": "Market outlook for the week of 20th - 24th April",
+          "domain": "investinglive.com",
+          "date": "20260420T093000Z",
+          "country": ""
+        },
+        {
+          "title": "Conflict in Iran impacts Portugal economy",
+          "domain": "theportugalnews.com",
+          "date": "20260420T003000Z",
+          "country": "Portugal"
+        },
+        {
+          "title": "Economists pick March quarter CPI to be the lull before the storm",
           "domain": "interest.co.nz",
-          "date": "20260419T220000Z",
+          "date": "20260418T223000Z",
           "country": "New Zealand"
-        },
+        }
+      ]
+    },
+    "Bitcoin / crypto markets": {
+      "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
+      "article_count": 10,
+      "relevant_to": [
+        "what-price-will-bitcoin-hit-before-2027"
+      ],
+      "headlines": [
         {
-          "title": "Enterprise Financial Services , Community Bank , and Flagstar Financial Shares Skyrocket , What You Need To Know",
-          "domain": "finance.yahoo.com",
-          "date": "20260418T074500Z",
+          "title": "Bitcoin Shows Classic  Wall Of Worry  Rally As Retail Lags Behind",
+          "domain": "newsbtc.com",
+          "date": "20260419T151500Z",
           "country": "United States"
         },
         {
-          "title": "WSFS Financial , United Community Banks , and U . S . Bancorp Stocks Trade Up , What You Need To Know",
-          "domain": "finance.yahoo.com",
-          "date": "20260418T083000Z",
+          "title": "Bitcoin Halts Gains as US - Iran War , Hormuz Closure Make a Comeback",
+          "domain": "cointelegraph.com",
+          "date": "20260419T163000Z",
+          "country": "China"
+        },
+        {
+          "title": "Crypto News : Pepeto Presale Demand Update as Bitcoin Price Prediction Targets $250 , 000",
+          "domain": "manilatimes.net",
+          "date": "20260420T013000Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Bitcoin consolidates near $74 , 500 after hitting 10 - week high of $78 , 000 as Hormuz tensions weigh on sentiment",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260420T094500Z",
+          "country": "India"
+        },
+        {
+          "title": "Bitcoin and Crypto Latin America 2026 : Guide",
+          "domain": "riotimesonline.com",
+          "date": "20260420T024500Z",
+          "country": "Brazil"
+        },
+        {
+          "title": "Best Crypto To Buy Now : BTC Breaks $78K and $820M Gets Liquidated",
+          "domain": "openpr.com",
+          "date": "20260419T120000Z",
           "country": "United States"
         },
         {
-          "title": "NBT Bancorp and Banc of California Shares Are Soaring , What You Need To Know",
+          "title": "Best Crypto Presale : AlphaPepe Stage 13 Fills Past $890K as BTC",
+          "domain": "openpr.com",
+          "date": "20260419T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Where Will Bitcoin Be in 5 Years ?",
           "domain": "finance.yahoo.com",
-          "date": "20260418T081500Z",
+          "date": "20260419T111500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Can Bitcoin Buyers Join The Breakout Party ? Analyst Says Not Yet",
+          "domain": "newsbtc.com",
+          "date": "20260418T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Wall Street Biggest Wealth Manager Now Has a Public Bitcoin Wallet",
+          "domain": "finance.yahoo.com",
+          "date": "20260420T043000Z",
           "country": "United States"
         }
       ]
     },
-    "US inflation / CPI": {
-      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 0,
-      "relevant_to": [
-        "march-inflation-us-annual"
-      ],
-      "headlines": []
-    },
-    "Bitcoin / crypto markets": {
-      "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
-      "relevant_to": [
-        "what-price-will-bitcoin-hit-before-2027"
-      ],
-      "headlines": []
-    },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "When will gas prices go back down ? Experts weigh in on where things are headed .",
+          "domain": "finance.yahoo.com",
+          "date": "20260418T143000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices surge 7 %: US energy secretary issues warning as gas tops $4 per gallon amid Hormuz tensions",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260420T040000Z",
+          "country": "India"
+        },
+        {
+          "title": "If We Net Export Oil , Why Are Gas Prices Going Up ?",
+          "domain": "jalopnik.com",
+          "date": "20260419T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices rise again after amid US - Iran standoff in Hormuz",
+          "domain": "bnnbloomberg.ca",
+          "date": "20260420T004500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Jiyad : US - Israeli War Against Iran - Detrimental Impacts on Iraq",
+          "domain": "iraq-businessnews.com",
+          "date": "20260420T023000Z",
+          "country": "Iraq"
+        },
+        {
+          "title": "Oil new normal : Why Brent and WTI crude face a fresh Hormuz shock",
+          "domain": "businesstoday.in",
+          "date": "20260420T040000Z",
+          "country": "India"
+        },
+        {
+          "title": "Oil prices rise anew after a US - Iran standoff in the Strait of Hormuz strands tankers",
+          "domain": "isp.netscape.com",
+          "date": "20260420T033000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices rise anew after a US - Iran standoff in the Strait of Hormuz strands tankers",
+          "domain": "seattletimes.com",
+          "date": "20260420T003000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices rise anew after a US - Iran standoff in the Strait of Hormuz strands tankers",
+          "domain": "wtop.com",
+          "date": "20260420T051500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices rise anew after a US - Iran standoff in the Strait of Hormuz strands tankers",
+          "domain": "ksat.com",
+          "date": "20260420T020000Z",
+          "country": "United States"
+        }
+      ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -335,141 +335,19 @@
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "Fans flocking to see FIFA World Cup trophy in Kansas City",
-          "domain": "kmbc.com",
-          "date": "20260419T164500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Falconets intensify preparations for Malawi qualifier clash",
-          "domain": "punchng.com",
-          "date": "20260419T060000Z",
-          "country": "Nigeria"
-        },
-        {
-          "title": "Every FIFA country code at World Cup 2026",
-          "domain": "fourfourtwo.com",
-          "date": "20260418T150000Z",
-          "country": "Spain"
-        },
-        {
-          "title": "Gouged : World Cup fans to pay  insane  $150 for NY stadium train ticket",
-          "domain": "geo.tv",
-          "date": "20260418T071500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "We need thi : Toronto businesses hoping FIFA tourism draw will provide relief after a hard winter",
-          "domain": "cbc.ca",
-          "date": "20260419T113000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "England World Cup fans face huge cost to travel to New Jersey Metlife Stadium",
-          "domain": "mirror.co.uk",
-          "date": "20260418T104500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "New Jersey $150 transit fare will have  chilling effect ,  FIFA warns",
-          "domain": "cyprus-mail.com",
-          "date": "20260418T153000Z",
-          "country": "Cyprus"
-        },
-        {
-          "title": "CC Sabathia Proposes Fix for $150 NJ Transit World Cup Tickets",
-          "domain": "el-balad.com",
-          "date": "20260418T203000Z",
-          "country": "Egypt"
-        },
-        {
-          "title": "McArdle is expecting a  cup final  in Malta",
-          "domain": "irishfa.com",
-          "date": "20260418T103000Z",
-          "country": "Ireland"
-        },
-        {
-          "title": "Ghana Plans Trade Expo in Boston to Tap World Cup",
-          "domain": "ghanamma.com",
-          "date": "20260418T151500Z",
-          "country": "Ghana"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": [
-        {
-          "title": "2026 NBA Playoff Forecast : Bracket Picks , Upsets , Conference and Finals Champions",
-          "domain": "el-balad.com",
-          "date": "20260418T154500Z",
-          "country": "Egypt"
-        },
-        {
-          "title": "Inside the numbers : Some notes going into NBA playoffs",
-          "domain": "durangoherald.com",
-          "date": "20260418T113000Z",
-          "country": "United States"
-        },
-        {
-          "title": "How to Watch the 2026 NBA Playoffs Live Online : Games and Availability",
-          "domain": "variety.com",
-          "date": "20260418T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Top 10 buzzer beaters in NBA Playoff history",
-          "domain": "thebiglead.com",
-          "date": "20260418T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Nba Bracket at the April 17 inflection point",
-          "domain": "el-balad.com",
-          "date": "20260418T063000Z",
-          "country": "Egypt"
-        },
-        {
-          "title": "NBA Playoffs : Why Thunder Have The Right Ingredients To Repeat",
-          "domain": "forbes.com",
-          "date": "20260419T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Saturday NBA Best Bets April 18 NBA Predictions & Picks",
-          "domain": "thespread.com",
-          "date": "20260418T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "VikingsTerritory Drops 2026 NBA Playoff Predictions",
-          "domain": "vikingsterritory.com",
-          "date": "20260418T123000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Sixer history against the Celtics in the playoffs",
-          "domain": "libertyballers.com",
-          "date": "20260419T063000Z",
-          "country": "United States"
-        },
-        {
-          "title": "NBA playoffs , not awards , drive Pistons star Cade Cunningham after last year 1st - round exit – Macomb Daily",
-          "domain": "macombdaily.com",
-          "date": "20260418T131500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
@@ -498,12 +376,6 @@
           "domain": "screenrant.com",
           "date": "20260419T160000Z",
           "country": "United States"
-        },
-        {
-          "title": "64 % of game devs believe AI has negative impact on creativity | Gaming | Entertainment",
-          "domain": "express.co.uk",
-          "date": "20260418T083000Z",
-          "country": "United Kingdom"
         },
         {
           "title": "Red Dead Redemption 3 and the Human Cost of a Legacy Too Tight to Reopen",
@@ -546,6 +418,12 @@
           "domain": "vice.com",
           "date": "20260419T133000Z",
           "country": "United States"
+        },
+        {
+          "title": "Wind chills and flurries in the forecast for the next few days",
+          "domain": "toronto.citynews.ca",
+          "date": "20260419T160000Z",
+          "country": ""
         }
       ]
     }
