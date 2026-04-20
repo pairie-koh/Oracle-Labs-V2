@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-19T20:44:38Z",
+  "fetched_at": "2026-04-20T03:28:17Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -9,61 +9,13 @@
       ],
       "today_high": 54,
       "today_high_unit": "F",
-      "today_forecast": "Rain Showers",
-      "today_detail": "Rain showers before 5pm. Mostly cloudy. High near 54, with temperatures falling to around 50 in the afternoon. Northwest wind 18 to 22 mph, with gusts as high as 32 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible.",
-      "wind": "18 to 22 mph",
+      "today_forecast": "Chance Rain Showers",
+      "today_detail": "A chance of rain showers between 8am and 4pm. Partly sunny. High near 54, with temperatures falling to around 52 in the afternoon. Northwest wind 7 to 14 mph. Chance of precipitation is 40%.",
+      "wind": "7 to 14 mph",
       "wind_direction": "NW",
-      "tonight_low": 42,
+      "tonight_low": 34,
       "tonight_forecast": "Mostly Clear",
       "hourly": [
-        {
-          "hour": "2026-04-19T15:00:00-04:00",
-          "temp": 48,
-          "unit": "F",
-          "short": "Rain Showers"
-        },
-        {
-          "hour": "2026-04-19T16:00:00-04:00",
-          "temp": 49,
-          "unit": "F",
-          "short": "Slight Chance Rain Showers"
-        },
-        {
-          "hour": "2026-04-19T17:00:00-04:00",
-          "temp": 50,
-          "unit": "F",
-          "short": "Partly Sunny"
-        },
-        {
-          "hour": "2026-04-19T18:00:00-04:00",
-          "temp": 51,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-04-19T19:00:00-04:00",
-          "temp": 49,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-04-19T20:00:00-04:00",
-          "temp": 50,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-04-19T21:00:00-04:00",
-          "temp": 49,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-04-19T22:00:00-04:00",
-          "temp": 48,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
         {
           "hour": "2026-04-19T23:00:00-04:00",
           "temp": 47,
@@ -71,65 +23,23 @@
           "short": "Clear"
         }
       ],
-      "peak_temp": 51,
-      "peak_hour": "2026-04-19T18:00:00-04:00"
+      "peak_temp": 47,
+      "peak_hour": "2026-04-19T23:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
       "relevant_to": [
         "miami_temp"
       ],
-      "today_high": 89,
+      "today_high": 83,
       "today_high_unit": "F",
-      "today_forecast": "Slight Chance Showers And Thunderstorms",
-      "today_detail": "A slight chance of showers and thunderstorms after 5pm. Partly sunny, with a high near 89. West wind around 3 mph. Chance of precipitation is 20%.",
-      "wind": "3 mph",
-      "wind_direction": "W",
-      "tonight_low": 64,
-      "tonight_forecast": "Slight Chance Showers And Thunderstorms then Mostly Cloudy",
+      "today_forecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
+      "today_detail": "A slight chance of showers and thunderstorms between 11am and noon, then a chance of showers and thunderstorms between noon and 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 83. North wind 3 to 12 mph, with gusts as high as 24 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible.",
+      "wind": "3 to 12 mph",
+      "wind_direction": "N",
+      "tonight_low": 60,
+      "tonight_forecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
       "hourly": [
-        {
-          "hour": "2026-04-19T15:00:00-04:00",
-          "temp": 88,
-          "unit": "F",
-          "short": "Partly Sunny"
-        },
-        {
-          "hour": "2026-04-19T16:00:00-04:00",
-          "temp": 88,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-04-19T17:00:00-04:00",
-          "temp": 86,
-          "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-19T18:00:00-04:00",
-          "temp": 85,
-          "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-19T19:00:00-04:00",
-          "temp": 83,
-          "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-04-19T20:00:00-04:00",
-          "temp": 77,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-04-19T21:00:00-04:00",
-          "temp": 75,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
         {
           "hour": "2026-04-19T22:00:00-04:00",
           "temp": 74,
@@ -143,8 +53,8 @@
           "short": "Mostly Cloudy"
         }
       ],
-      "peak_temp": 88,
-      "peak_hour": "2026-04-19T15:00:00-04:00"
+      "peak_temp": 74,
+      "peak_hour": "2026-04-19T22:00:00-04:00"
     }
   }
 }
