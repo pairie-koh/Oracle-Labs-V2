@@ -1,0 +1,93 @@
+{
+  "agent": "game_theorist",
+  "timestamp": "2026-04-21T21:11:57Z",
+  "predictions": {
+    "regime_fall": {
+      "24h": {
+        "prediction": 0.1039,
+        "current": 0.085,
+        "net_signal": 0.75,
+        "signal_shift": 0.0189,
+        "fact_count": 21,
+        "escalatory_facts": 10,
+        "deescalatory_facts": 8,
+        "consensus_ratio": 0.556,
+        "consensus_scale": 0.7,
+        "costly_signal_count": 0
+      },
+      "7d": {
+        "prediction": 0.2173,
+        "current": 0.085,
+        "net_signal": 0.75,
+        "signal_shift": 0.1323,
+        "fact_count": 21,
+        "escalatory_facts": 10,
+        "deescalatory_facts": 8,
+        "consensus_ratio": 0.556,
+        "consensus_scale": 0.7,
+        "costly_signal_count": 0
+      }
+    }
+  },
+  "methodology_version": "1.29.0",
+  "source_weights": {
+    "wire_service": 0.9,
+    "us_prestige": 0.85,
+    "uk_prestige": 0.8,
+    "regional_specialist": 0.75,
+    "government_official": 1.0,
+    "think_tank": 0.7,
+    "osint": 0.6,
+    "social_media": 0.3,
+    "market_commentary": 0.4
+  },
+  "parameters": {
+    "actors": {
+      "wire_service": {
+        "escalation_bias": 0.0,
+        "credibility": 0.9
+      },
+      "us_prestige": {
+        "escalation_bias": 0.1,
+        "credibility": 0.85
+      },
+      "uk_prestige": {
+        "escalation_bias": 0.05,
+        "credibility": 0.8
+      },
+      "regional_specialist": {
+        "escalation_bias": -0.1,
+        "credibility": 0.75
+      },
+      "government_official": {
+        "escalation_bias": 0.15,
+        "credibility": 1.0
+      },
+      "think_tank": {
+        "escalation_bias": 0.0,
+        "credibility": 0.7
+      },
+      "osint": {
+        "escalation_bias": 0.2,
+        "credibility": 0.6
+      },
+      "social_media": {
+        "escalation_bias": 0.3,
+        "credibility": 0.3
+      },
+      "market_commentary": {
+        "escalation_bias": 0.0,
+        "credibility": 0.4
+      }
+    },
+    "signal_weights": {
+      "high": 1.0,
+      "medium": 0.5,
+      "low": 0.2
+    },
+    "escalation_sensitivity": 0.006,
+    "costly_signal_bonus": 1.2,
+    "consensus_high_threshold": 0.8,
+    "consensus_low_threshold": 0.6
+  }
+}
