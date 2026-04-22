@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-22T03:25:35Z",
+  "fetched_at": "2026-04-22T06:11:06Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -23,6 +23,12 @@
           "domain": "khaama.com",
           "date": "20260421T063000Z",
           "country": "Afghanistan"
+        },
+        {
+          "title": "Trump threatens to bomb Iran if deal not reached today",
+          "domain": "theshillongtimes.com",
+          "date": "20260422T043000Z",
+          "country": "India"
         },
         {
           "title": "US Iran Talks Face Decisive Moment as Ceasefire Deadline Looms",
@@ -65,23 +71,78 @@
           "domain": "wcoapensacola.com",
           "date": "20260421T101500Z",
           "country": "United States"
-        },
-        {
-          "title": "Diplomacy vs . Direct Messaging : The Growing Gap in US - Iran Peace Talks",
-          "domain": "newstalk1030.com",
-          "date": "20260421T101500Z",
-          "country": "United States"
         }
       ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Iran says tanker  Silly City  enters waters despite US naval blockade",
+          "domain": "moneycontrol.com",
+          "date": "20260421T123000Z",
+          "country": "India"
+        },
+        {
+          "title": "Hormuz Traffic At Standstill After US Ship Seizure",
+          "domain": "zerohedge.com",
+          "date": "20260420T220000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iranian cargo ship  defies US blockade  in Strait of Hormuz amid oil price fears",
+          "domain": "dailystar.co.uk",
+          "date": "20260421T081500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Shipping traffic through Hormuz still largely halted",
+          "domain": "al-monitor.com",
+          "date": "20260421T140000Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Strait of Hormuz Closed Again After U . S . Maintains Blockade of Iranian Ports – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "date": "20260421T141500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Hormuz flashpoint : Indian Navy steps up vigil after ships targeted , issues advisory",
+          "domain": "businesstoday.in",
+          "date": "20260420T143000Z",
+          "country": "India"
+        },
+        {
+          "title": "I expect to be bombing  says Trump , as ceasefire nears expiry",
+          "domain": "afr.com",
+          "date": "20260421T171500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Fraud in the strait ? How crypto scamsters are targeting ships stuck in Hormuz",
+          "domain": "businesstoday.in",
+          "date": "20260421T113000Z",
+          "country": "India"
+        },
+        {
+          "title": "Iranian cargo ship defies Trump blockade to transit Strait of Hormuz",
+          "domain": "express.co.uk",
+          "date": "20260421T010000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Distress call captures tanker under fire , Iran shuts Hormuz trapping thousands of sailors",
+          "domain": "yahoo.com",
+          "date": "20260420T104500Z",
+          "country": "United States"
+        }
+      ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
@@ -103,16 +164,16 @@
           "country": "United Kingdom"
         },
         {
+          "title": "The politicized Constitutional Court",
+          "domain": "thaipoliticalprisoners.wordpress.com",
+          "date": "20260422T040000Z",
+          "country": "United States"
+        },
+        {
           "title": "Ed Miliband : I feared Mandelson appointment appointment would  blow up",
           "domain": "independent.co.uk",
           "date": "20260421T121500Z",
           "country": "United Kingdom"
-        },
-        {
-          "title": "Gen Z protests around the world : Success or epic fail ?",
-          "domain": "nzherald.co.nz",
-          "date": "20260420T054500Z",
-          "country": "New Zealand"
         },
         {
           "title": "Ed Miliband says he warned Mandelson would  blow up  as Starmer braces for sacked Foreign Office chief to tell his side of story TODAY",
@@ -133,12 +194,6 @@
           "country": "Philippines"
         },
         {
-          "title": "British Prime Minister Starmer faces angry lawmakers over Mandelson appointment as ambassador – Winnipeg Free Press",
-          "domain": "winnipegfreepress.com",
-          "date": "20260420T050000Z",
-          "country": "Canada"
-        },
-        {
           "title": "Keir Starmer time as Prime Minister is dead and buried | Politics | News",
           "domain": "express.co.uk",
           "date": "20260421T163000Z",
@@ -149,6 +204,12 @@
           "domain": "english.aawsat.com",
           "date": "20260420T070000Z",
           "country": "Syria"
+        },
+        {
+          "title": "British Prime Minister Starmer faces angry lawmakers over Mandelson appointment as ambassador",
+          "domain": "clickondetroit.com",
+          "date": "20260420T071500Z",
+          "country": "United States"
         }
       ]
     },
@@ -271,12 +332,6 @@
           "country": "United States"
         },
         {
-          "title": "UK to narrowly avoid recession and jobless rate to surge , Item Club warns",
-          "domain": "swindonadvertiser.co.uk",
-          "date": "20260420T034500Z",
-          "country": "United Kingdom"
-        },
-        {
           "title": "Takeaway coffee sales plunge as fuel and living costs dent Australian spending . Is the economy next ?",
           "domain": "theguardian.com",
           "date": "20260422T011500Z",
@@ -287,6 +342,12 @@
           "domain": "fijisun.com.fj",
           "date": "20260421T063000Z",
           "country": "Fiji"
+        },
+        {
+          "title": "Goldman Sachs Group chief Solomon says US recession risk could be  one tweet away",
+          "domain": "moneycontrol.com",
+          "date": "20260421T183000Z",
+          "country": "India"
         }
       ]
     },
@@ -299,12 +360,6 @@
         "who-will-be-confirmed-as-fed-chair"
       ],
       "headlines": [
-        {
-          "title": "Top Fed officials rethink rate cuts as peace talks begin",
-          "domain": "finance.yahoo.com",
-          "date": "20260420T034500Z",
-          "country": "United States"
-        },
         {
           "title": "Warsh insists he wouldnt do Trump bidding as Fed chair",
           "domain": "americanbanker.com",
@@ -357,6 +412,12 @@
           "title": "Kevin Warsh testifies that the Fed will remain  strictly independent",
           "domain": "finance.yahoo.com",
           "date": "20260421T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump Fed pick Kevin Warsh faces Senate confirmation hearing Tuesday",
+          "domain": "foxnews.com",
+          "date": "20260421T094500Z",
           "country": "United States"
         }
       ]
@@ -424,8 +485,8 @@
         },
         {
           "title": "UK inflation set to rise after Middle East conflict pushed up fuel prices",
-          "domain": "yorkpress.co.uk",
-          "date": "20260422T024500Z",
+          "domain": "ipswichstar.co.uk",
+          "date": "20260422T041500Z",
           "country": "United Kingdom"
         }
       ]
@@ -474,15 +535,21 @@
           "country": "United States"
         },
         {
-          "title": "Forget Shiba Inu ( SHIB ): All Hype , No Durable Adoption",
+          "title": "Chinese crypto tycoon eyes Hong Kong capital with bitcoin asset management push",
           "domain": "finance.yahoo.com",
-          "date": "20260420T164500Z",
+          "date": "20260422T044500Z",
           "country": "United States"
         },
         {
-          "title": "Wall Street Biggest Wealth Manager Now Has a Public Bitcoin Wallet",
+          "title": "Chinese crypto tycoon eyes Hong Kong capital with bitcoin asset management push",
+          "domain": "marketscreener.com",
+          "date": "20260422T043000Z",
+          "country": ""
+        },
+        {
+          "title": "Forget Shiba Inu ( SHIB ): All Hype , No Durable Adoption",
           "domain": "finance.yahoo.com",
-          "date": "20260420T043000Z",
+          "date": "20260420T164500Z",
           "country": "United States"
         },
         {
@@ -490,22 +557,77 @@
           "domain": "fool.com",
           "date": "20260420T183000Z",
           "country": "United States"
-        },
-        {
-          "title": "Kevin OLeary Says Bitcoin , Ethereum Give Him Almost All Of Crypto Exposure :  I Cut The Garbage And Kept",
-          "domain": "benzinga.com",
-          "date": "20260420T054500Z",
-          "country": "United States"
         }
       ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Gas Prices Decline Slightly | Z100 Portland",
+          "domain": "z100portland.iheart.com",
+          "date": "20260422T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Prices Decline Slightly | 106 . 7 The Eagle",
+          "domain": "1067theeagle.iheart.com",
+          "date": "20260422T001500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Prices Decline Slightly | JAMN 107 . 5",
+          "domain": "jamn1075.iheart.com",
+          "date": "20260422T031500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Global Oil Prices ease as Brent crude holds near $94 amid roller - coaster ride",
+          "domain": "en.dailypakistan.com.pk",
+          "date": "20260421T080000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Even For Americans , In A War , Energy Independence Has Its Limits",
+          "domain": "forbes.com",
+          "date": "20260420T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AAA : TN Gas Prices Fall 11 Cents",
+          "domain": "939theduck.com",
+          "date": "20260420T210000Z",
+          "country": ""
+        },
+        {
+          "title": "Clarksville Gas Prices Rank Third Cheapest Across Tennessee - Clarksville Online - Clarksville News , Sports , Events and Information",
+          "domain": "clarksvilleonline.com",
+          "date": "20260421T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "AAA : Average Rhode Island gas price drops 4 cents",
+          "domain": "thewesterlysun.com",
+          "date": "20260420T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "AAA : Michigan gas prices see first double digit drop in weeks | News , Sports , Jobs",
+          "domain": "thealpenanews.com",
+          "date": "20260422T014500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fuel Prices in Austria Continue to Plummet",
+          "domain": "vol.at",
+          "date": "20260421T104500Z",
+          "country": "Austria"
+        }
+      ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -552,6 +674,12 @@
           "country": "United States"
         },
         {
+          "title": "Chuck Schumer  Is Not A Creative Guy , Says Ted Cruz , Predicts Democrats Will Shutdown Government Before",
+          "domain": "benzinga.com",
+          "date": "20260422T044500Z",
+          "country": "United States"
+        },
+        {
           "title": "House GOP campaign arm touts record $47 million fundraising haul to kick off midterm push",
           "domain": "wcbi.com",
           "date": "20260421T011500Z",
@@ -568,230 +696,102 @@
           "domain": "yahoo.com",
           "date": "20260421T080000Z",
           "country": "United States"
-        },
-        {
-          "title": "At the Races : Virginia is for voters",
-          "domain": "rollcall.com",
-          "date": "20260421T121500Z",
-          "country": "United States"
         }
       ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "Teams with most appearances in FIFA World Cup",
-          "domain": "thebiglead.com",
-          "date": "20260420T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "FIFA Sets Training Camp Date for World Cup Referees",
-          "domain": "moroccoworldnews.com",
-          "date": "20260421T221500Z",
-          "country": "Morocco"
-        },
-        {
-          "title": "Boston Mayor Michelle Wu details plans for FIFA Fan Festival on City Hall Plaza ahead of World Cup",
-          "domain": "wcvb.com",
-          "date": "20260421T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bafana Bafana jersey voted BEST in FIFA World Cup",
-          "domain": "thesouthafrican.com",
-          "date": "20260421T220000Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Hisense Ignites the Countdown to the FIFA World Cup 2026™ , Showcasing Next - Generation Home Entertainment and Smart Living",
-          "domain": "manilatimes.net",
-          "date": "20260421T101500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "World Cup 2026 tickets drop April 22 with last - minute sales phase",
-          "domain": "fox4news.com",
-          "date": "20260421T204500Z",
-          "country": "United States"
-        },
-        {
-          "title": "World Cup 2026 tickets drop April 22 with last - minute sales phase",
-          "domain": "fox2detroit.com",
-          "date": "20260421T201500Z",
-          "country": "United States"
-        },
-        {
-          "title": "World Cup 2026 tickets drop April 22 with last - minute sales phase",
-          "domain": "foxla.com",
-          "date": "20260421T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "World Cup 2026 tickets drop April 22 with last - minute sales phase",
-          "domain": "fox26houston.com",
-          "date": "20260421T164500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Boston shares details on FIFA Fan Festival at City Hall plaza",
-          "domain": "turnto10.com",
-          "date": "20260421T221500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": [
-        {
-          "title": "Stephen A . Smith makes glaring Golden State Warriors mistake",
-          "domain": "awfulannouncing.com",
-          "date": "20260420T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "US cities with teams alive across NBA , NHL , and NFL playoffs",
-          "domain": "thebiglead.com",
-          "date": "20260421T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "How to watch NBA Playoffs 2026 : live streams , schedule",
-          "domain": "chinatechnews.com",
-          "date": "20260421T001500Z",
-          "country": "China"
-        },
-        {
-          "title": "Steph Curry leaving Warriors not a concern to Kendrick Perkins – NBC Bay Area",
-          "domain": "nbcbayarea.com",
-          "date": "20260422T010000Z",
-          "country": "United States"
-        },
-        {
-          "title": "FanDuel Promo Code : Get $250 Bonus for Timberwolves vs . Nuggets Game 2 , BetProtect+ for NBA Playoffs on Monday",
-          "domain": "covers.com",
-          "date": "20260421T014500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Edwards and Randle rally Timberwolves past Nuggets 119 - 114 to even series at 1 apiece",
-          "domain": "durangoherald.com",
-          "date": "20260422T004500Z",
-          "country": "United States"
-        },
-        {
-          "title": "FanDuel Promo Code : Get $250 Bonus Bets for NBA , NHL Playoffs , MLB Games on Tuesday",
-          "domain": "covers.com",
-          "date": "20260421T151500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Detroit Piston playoffs X - factor Daniss Jenkins  grateful  ahead of postseason debut",
-          "domain": "shorelinemedia.net",
-          "date": "20260420T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "FanDuel Promo Code : Claim $250 Bonus Bets for Rockets vs . Lakers on Tuesday",
-          "domain": "covers.com",
-          "date": "20260422T004500Z",
-          "country": "United States"
-        },
-        {
-          "title": "DraftKings Promo Code : Get $300 Bonus Bets for MLB , NBA Playoffs , Stanley Cup Playoffs on Tuesday",
-          "domain": "covers.com",
-          "date": "20260421T151500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "Atropos Health Launches Alexandria : The World Largest Medical Evidence Library",
-          "domain": "hitconsultant.net",
-          "date": "20260422T004500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Kimi K2 . 6 Tech Blog : Advancing Open - Source Coding",
-          "domain": "kimi.com",
-          "date": "20260420T191500Z",
-          "country": ""
-        },
-        {
-          "title": "Large language models ( LLMs ) performed poorly in navigating early clinical diagnostic uncertainty",
-          "domain": "2minutemedicine.com",
-          "date": "20260421T001500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Google taps Sergey Brin to lead a specialized AI strike team to take on Anthropic Claude : Report",
-          "domain": "livemint.com",
-          "date": "20260421T071500Z",
-          "country": "India"
-        },
-        {
-          "title": "OpenAI Unveils New Image Generator to Usher in an AI Slop  Renaissance",
-          "domain": "gizmodo.com",
-          "date": "20260421T213000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Google has a Sergey Brin problem , and it called Claude Code",
-          "domain": "digit.in",
-          "date": "20260421T200000Z",
-          "country": "India"
-        },
-        {
-          "title": "Google Cloud next big moment and what it needs to continue its ascent",
-          "domain": "fortune.com",
-          "date": "20260421T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "CodingPlanX : Unified AI Model Gateway - Dynamic Business",
-          "domain": "dynamicbusiness.com",
-          "date": "20260422T023000Z",
-          "country": "Australia"
-        },
-        {
-          "title": "ChatGPT vs Claude vs Gemini : India AI Platform Battle Explained",
-          "domain": "dailypioneer.com",
-          "date": "20260421T020000Z",
-          "country": "India"
-        },
-        {
-          "title": "LLMs hallucinate the most when you ask them to do this",
-          "domain": "makeuseof.com",
-          "date": "20260421T213000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "GTA 6 price leak : GTA 6 Price leak sparks debate : Is Grand Theft Auto VI headed for a $100 Tag ?",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260420T154500Z",
+          "country": "India"
+        },
+        {
+          "title": "GTA 6 Is Ruining the 2026 Gaming Year",
+          "domain": "dualshockers.com",
+          "date": "20260421T184500Z",
+          "country": "Japan"
+        },
+        {
+          "title": "Rockstar Boss Throws Shade at Elon Musk Over GTA 6 Comment",
+          "domain": "gamerant.com",
+          "date": "20260420T164500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Two weeks after laying off AI team , GTA 6 boss says we must embrace the technology",
+          "domain": "pcgamesn.com",
+          "date": "20260421T113000Z",
+          "country": "United States"
+        },
+        {
+          "title": "10 Must - Play Best Open World Games 2026 : Top Open World Games You Cant Miss",
+          "domain": "gamenguide.com",
+          "date": "20260421T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Dan Houser  Absurdaverse  Adds Rachel Dratch , Dan Soder , Ari Matti & More to Voice Cast",
+          "domain": "animationmagazine.net",
+          "date": "20260422T050000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Worthplaying | Dan Houser  Absurdaverse  Recruits First Batch Of Voice Over Actors",
+          "domain": "worthplaying.com",
+          "date": "20260421T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Take - Two CEO : AI Should Replace Elon Musk , Not Creatives",
+          "domain": "respawn.outlookindia.com",
+          "date": "20260421T133000Z",
+          "country": "India"
+        },
+        {
+          "title": "Global Turbine Asia Advances Aerospace Growth , Capabilities and Talent Development Through Strategic Partnerships",
+          "domain": "jcnnewswire.com",
+          "date": "20260421T133000Z",
+          "country": "Japan"
+        },
+        {
+          "title": "Global Turbine Asia Advances Aerospace Growth , Capabilities and Talent Development Through Strategic Partnerships",
+          "domain": "jcnnewswire.com",
+          "date": "20260421T181500Z",
+          "country": "Japan"
+        }
+      ]
     }
   }
 }
