@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 21 11:03 PM PT</strong> (10m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (110m)</span>
-            <span>Scored: <strong>561</strong> predictions | Logged: <strong>780</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 22 02:26 AM PT</strong> (11m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (146m)</span>
+            <span>Scored: <strong>564</strong> predictions | Logged: <strong>783</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(34d 3h ago)</span>
+            <span class="dim">(34d 7h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-21
+                    <div class="iter-text"># momentum — 2026-04-22
 
-Version: 1.28.0 -&gt; 1.29.0
+Version: 1.29.0 -&gt; 1.30.0
 
-The current system is heavily biased toward reversion (0.8 weight) with weak momentum (0.3 weight), resulting in terrible directional accuracy of 22.91%. In a falling market regime, I need to strengthen momentum signals and reduce the reversion bias. I&#x27;m increasing MOMENTUM_WEIGHT from 0.3 to 0.7 and decreasing REVERSION_WEIGHT from 0.8 to 0.4 to make the system more responsive to actual market direction. This should help capture the falling trend that the market is clearly in.</div>
+The agent is performing very poorly with MSE 9x worse than the naive baseline and only 23.9% directional accuracy. The core issue appears to be over-aggressive momentum extrapolation. In falling market regimes, strong momentum signals may be causing predictions in the wrong direction. I&#x27;m reducing MOMENTUM_WEIGHT from 0.7 to 0.3 to make the agent less aggressive in extrapolating recent price moves and see if this improves directional accuracy.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-21
+                    <div class="iter-text"># historian — 2026-04-22
 
-Version: 1.28.0 -&gt; 1.29.0
+Version: 1.29.0 -&gt; 1.30.0
 
-The historian agent is performing terribly with MSE more than double the naive baseline and only 28% directional accuracy. The high volatility in recent MSE trends suggests I&#x27;m overreacting to news signals. I&#x27;m reducing NEWS_SENSITIVITY from 0.035 to 0.015 to make predictions more stable and rely more heavily on the mean reversion component, which should be the historian&#x27;s core strength during calm periods.</div>
+I&#x27;m increasing NEWS_SENSITIVITY from 0.015 to 0.025 to make the model more responsive to genuine escalation/de-escalation signals. The current low directional accuracy (28.25%) and poor MSE performance relative to baseline suggests I&#x27;m not reacting enough to real information in the market. This increase should help me capture more directional moves while still maintaining the tanh cap to prevent overreaction to noise.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-21
+                    <div class="iter-text"># game_theorist — 2026-04-22
 
-Version: 1.28.0 -&gt; 1.29.0
+Version: 1.29.0 -&gt; 1.30.0
 
-I&#x27;m increasing ESCALATION_SENSITIVITY from 0.002 to 0.006 to allow for more meaningful price movements while still being more conservative than the original 0.015 value. The current sensitivity is too low, causing my predictions to stay too close to current prices and miss important directional signals. This moderate increase should improve my ability to respond to genuine escalatory and de-escalatory signals without the extreme bias that was causing systematic overestimation.</div>
+The agent is showing systematic over-prediction of escalation with very high MSE compared to the naive baseline, despite high directional accuracy. The escalation sensitivity of 0.006 is still too high when combined with consensus scaling and costly signal bonuses. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.006 to 0.003 to better calibrate predictions and reduce the systematic upward bias that&#x27;s causing poor MSE performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-21
+                    <div class="iter-text"># quant — 2026-04-22
 
-Version: 1.28.0 -&gt; 1.29.0
+Version: 1.29.0 -&gt; 1.30.0
 
-The current momentum coefficient of 0.002 is causing severe overshooting, leading to 8.24% directional accuracy and MSE 3.5x worse than baseline. I&#x27;m reducing the momentum coefficient from 0.002 to 0.0005 to make predictions more conservative and closer to current prices. This should improve directional accuracy by reducing the magnitude of prediction errors when momentum signals are wrong.</div>
+I&#x27;m reducing the momentum coefficient from 0.0005 to 0.0002 to make more conservative predictions. The current coefficient appears to be causing overshooting, leading to poor directional accuracy (8.24%) and MSE that&#x27;s 3.5x worse than the naive baseline. By making smaller momentum adjustments, I should achieve better calibration and avoid the systematic directional errors that are hurting my performance.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -250,7 +250,7 @@ The current momentum coefficient of 0.002 is causing severe overshooting, leadin
                 </div>
                 <div class="price-changes">
                     4h: <span class="">+0.0000</span>
-                    &nbsp; 24h: <span class="">+0.0000</span>
+                    &nbsp; 24h: <span class="up">+0.0100</span>
                 </div>
                 
                 <div class="forecast-row">
@@ -287,12 +287,12 @@ The current momentum coefficient of 0.002 is causing severe overshooting, leadin
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.29.0</span>
+            <span class="dim">v1.30.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 21 11:14 PM PT (prev: Apr 21 08:41 PM PT)</div>
+        <div class="analysis-time dim">Apr 22 02:38 AM PT (prev: Apr 21 11:14 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,24 +303,24 @@ The current momentum coefficient of 0.002 is causing severe overshooting, leadin
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.29.0</span>
+            <span class="dim">v1.30.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 21 11:14 PM PT (prev: Apr 21 08:41 PM PT)</div>
+        <div class="analysis-time dim">Apr 22 02:38 AM PT (prev: Apr 21 11:14 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.29.0</span>
+            <span class="dim">v1.30.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 21 11:14 PM PT (prev: Apr 21 08:41 PM PT)</div>
+        <div class="analysis-time dim">Apr 22 02:38 AM PT (prev: Apr 21 11:14 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
@@ -343,20 +343,20 @@ The current momentum coefficient of 0.002 is causing severe overshooting, leadin
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,26.7 30.0,24.9 60.0,28.0 90.0,25.5 120.0,2.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.006692</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,24.9 30.0,28.0 60.0,25.5 90.0,2.0 120.0,13.8" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="13.8" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.003666</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,14.3 30.0,22.7 60.0,26.4 90.0,2.0 120.0,28.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#3498db" /></svg></span>
-            <span class="trend-val">0.000038</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,22.7 30.0,26.4 60.0,2.0 90.0,28.0 120.0,25.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="25.0" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.000086</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,27.9 60.0,28.0 90.0,27.8 120.0,26.8" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="26.8" r="3" fill="#f39c12" /></svg></span>
-            <span class="trend-val">0.001506</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,25.2 30.0,28.0 60.0,23.2 90.0,3.9 120.0,2.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.001616</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -374,7 +374,7 @@ The current momentum coefficient of 0.002 is causing severe overshooting, leadin
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
             <span class="pnl-val down">$-24</span>
-            <span class="dim">19W/52L (71 trades)</span>
+            <span class="dim">19W/53L (72 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#3498db"></span>
@@ -386,7 +386,7 @@ The current momentum coefficient of 0.002 is causing severe overshooting, leadin
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
             <span class="pnl-val down">$-54</span>
-            <span class="dim">33W/79L (112 trades)</span>
+            <span class="dim">33W/80L (113 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -400,11 +400,11 @@ The current momentum coefficient of 0.002 is causing severe overshooting, leadin
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>17</strong> facts:
-                <span class="esc">12 escalatory</span>,
+                <strong>15</strong> facts:
+                <span class="esc">10 escalatory</span>,
                 <span class="deesc">5 de-escalatory</span>,
                 0 neutral
-            </div><div class="fact"><span class="dim">[diplomatic_signals]</span> US President Donald Trump extended a ceasefire with Iran indefinitely on April 21, 2026, conditional</div><div class="fact"><span class="dim">[military_pressure]</span> The US maintains a naval blockade on Iranian ports and the Strait of Hormuz as of April 22, 2026.</div><div class="fact"><span class="dim">[military_pressure]</span> IRGC spokesperson Ibrahim Zulfagari stated on April 21 that forces are at &#x27;100% readiness with finge</div>
+            </div><div class="fact"><span class="dim">[military_pressure]</span> An Iranian oil tanker named Sili City breached the US naval blockade in the Arabian Sea under IRGC p</div><div class="fact"><span class="dim">[military_pressure]</span> President Trump extended a fragile ceasefire between the US and Iran conditionally while warning of </div><div class="fact"><span class="dim">[diplomatic_signals]</span> Iran rejected joining diplomatic talks in Pakistan, with negotiations stalled amid US threats of air</div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ The current momentum coefficient of 0.002 is causing severe overshooting, leadin
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Iran navigates a precarious diplomatic window as Trump extends the ceasefire indefinitely pending Iranian proposals, while simultaneously maintaining naval blockade and maximum financial pressure; int</div>
+                <div class="state-status">Iran faces an acute crisis as the April 22 ceasefire expiration deadline approaches with diplomatic talks stalled; the regime simultaneously confronts military brinkmanship (tanker blockade-running, v</div>
                 <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-21 11:14 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-22 02:38 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
