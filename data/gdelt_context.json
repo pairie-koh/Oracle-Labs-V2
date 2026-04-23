@@ -1,17 +1,78 @@
 {
-  "fetched_at": "2026-04-23T17:32:30Z",
+  "fetched_at": "2026-04-23T21:06:01Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "What the 2015 Iran nuclear deal actually did and why it still matters today",
+          "domain": "moneycontrol.com",
+          "date": "20260422T100000Z",
+          "country": "India"
+        },
+        {
+          "title": "Nuclear Weapon Talks and the Long Shadow of the Iran Deal",
+          "domain": "el-balad.com",
+          "date": "20260422T130000Z",
+          "country": "Egypt"
+        },
+        {
+          "title": "Trump threatens to bomb Iran if deal not reached today",
+          "domain": "theshillongtimes.com",
+          "date": "20260422T043000Z",
+          "country": "India"
+        },
+        {
+          "title": "Trump Extends Iran Ceasefire Indefinitely , Says Hormuz BlockadeTo Continue – 22 April 2026",
+          "domain": "heraldgoa.in",
+          "date": "20260422T101500Z",
+          "country": "India"
+        },
+        {
+          "title": "Irans refusal to put nuclear file back on negotiating table grounded in martyred Leaders warnings",
+          "domain": "presstv.ir",
+          "date": "20260423T001500Z",
+          "country": "Iran"
+        },
+        {
+          "title": "Irans refusal to put nuclear file back on negotiating table grounded in martyred Leaders warnings",
+          "domain": "presstv.ir",
+          "date": "20260423T090000Z",
+          "country": "Iran"
+        },
+        {
+          "title": "Why is Iran hesitating to attend Islamabad talks with US ?",
+          "domain": "pakobserver.net",
+          "date": "20260421T223000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "US Expands  Economic Fury  Sanctions on Iran as Trump Declares Ceasefire",
+          "domain": "truthout.org",
+          "date": "20260422T230000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US - Iran War Day 54 : Trump hits pause for now as Pakistan continues brokering  peace , but Hormuz future remains in limbo",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260422T043000Z",
+          "country": "India"
+        },
+        {
+          "title": "US Demands Iran Surrender Enriched Uranium Stockpile in Peace",
+          "domain": "dailyk2.com",
+          "date": "20260423T084500Z",
+          "country": "Pakistan"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -91,6 +152,12 @@
       ],
       "headlines": [
         {
+          "title": "Moment Keir Starmer eviscerated by his own furious MP :  You must resign ! | TV & Radio | Showbiz & TV",
+          "domain": "express.co.uk",
+          "date": "20260423T171500Z",
+          "country": "United Kingdom"
+        },
+        {
           "title": "Myanmar considering  good thing for detained Aung San Suu Kyi : Thailand",
           "domain": "channelnewsasia.com",
           "date": "20260422T204500Z",
@@ -143,22 +210,77 @@
           "domain": "bworldonline.com",
           "date": "20260422T104500Z",
           "country": "Philippines"
-        },
-        {
-          "title": "Luxembourg foreign minister on clash with ousted Hungary leader",
-          "domain": "attitude.co.uk",
-          "date": "20260423T143000Z",
-          "country": "United Kingdom"
         }
       ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Mexican green card holder convicted of illegally voting in US elections : DHS",
+          "domain": "foxnews.com",
+          "date": "20260423T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Report : John Thune blocking election - integrity move that 8 of 10 Americans WANT ! * WorldNetDaily * by Bob Unruh",
+          "domain": "wnd.com",
+          "date": "20260422T001500Z",
+          "country": "United States"
+        },
+        {
+          "title": "America First Legal urges USPS to enforce Trump mail - in ballot order",
+          "domain": "foxnews.com",
+          "date": "20260422T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "How Florida SAVE Act will affect voter registration",
+          "domain": "wesh.com",
+          "date": "20260421T220000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Susan Collins is voting to undermine secure elections",
+          "domain": "pressherald.com",
+          "date": "20260422T113000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Susan Collins is voting to undermine secure elections",
+          "domain": "centralmaine.com",
+          "date": "20260422T110000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Sen John Kennedy SAVE America Act voter ID amendment fails 48 - 50",
+          "domain": "foxnews.com",
+          "date": "20260423T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mexican national convicted of illegally voting in US after false citizenship claims faces removal : DHS",
+          "domain": "foxwilmington.com",
+          "date": "20260423T090000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AFA - SAVE America or Bust ? … Contact your U . S . Senator Today",
+          "domain": "afa.net",
+          "date": "20260423T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump SAVE Act put aside by the US Senate ….",
+          "domain": "politicaldog101.com",
+          "date": "20260423T041500Z",
+          "country": "United States"
+        }
+      ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -167,6 +289,24 @@
         "us-recession-by-end-of-2026"
       ],
       "headlines": [
+        {
+          "title": "Is Australia in recession ? Poll reveals that many people think the economy is already there",
+          "domain": "smh.com.au",
+          "date": "20260423T194500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Is Australia in recession ? Poll reveals that many people think the economy is already there",
+          "domain": "theage.com.au",
+          "date": "20260423T203000Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Is Australia in recession ? Poll reveals that many people think the economy is already there",
+          "domain": "brisbanetimes.com.au",
+          "date": "20260423T194500Z",
+          "country": "Australia"
+        },
         {
           "title": "West Asia Conflict Drags India Activity Gauge To Five - month Low : Icra",
           "domain": "businessworld.in",
@@ -208,24 +348,6 @@
           "domain": "theguardian.com",
           "date": "20260422T011500Z",
           "country": "United Kingdom"
-        },
-        {
-          "title": "Putin Oil Windfall Isnt Enough to Revive Russia Economy",
-          "domain": "athens-times.com",
-          "date": "20260422T070000Z",
-          "country": "Greece"
-        },
-        {
-          "title": "Goldman Sachs Group chief Solomon says US recession risk could be  one tweet away",
-          "domain": "moneycontrol.com",
-          "date": "20260421T183000Z",
-          "country": "India"
-        },
-        {
-          "title": "German private sector contracts for first time in nearly a year , PMI shows",
-          "domain": "marketscreener.com",
-          "date": "20260423T081500Z",
-          "country": ""
         }
       ]
     },
@@ -242,12 +364,6 @@
           "title": "Warsh signals that he would lead a less - transparent Federal Reserve",
           "domain": "finance.yahoo.com",
           "date": "20260422T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Warsh insists he wouldnt do Trump bidding as Fed chair",
-          "domain": "americanbanker.com",
-          "date": "20260421T193000Z",
           "country": "United States"
         },
         {
@@ -275,12 +391,6 @@
           "country": "United States"
         },
         {
-          "title": "Warsh faces Senate test as inflation and Trump pressure mount",
-          "domain": "wlwt.com",
-          "date": "20260421T200000Z",
-          "country": "United States"
-        },
-        {
           "title": "Warsh Fed Confirmation Hearing Starts Tomorrow . 3 Huge Things Investors Should Listen For",
           "domain": "finance.yahoo.com",
           "date": "20260422T071500Z",
@@ -297,6 +407,18 @@
           "domain": "marketscreener.com",
           "date": "20260422T101500Z",
           "country": ""
+        },
+        {
+          "title": "No  sock puppet ? What to expect from Trump pick for the Fed chair",
+          "domain": "smh.com.au",
+          "date": "20260422T024500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "No  sock puppet ? What to expect from Trump pick for the Fed chair",
+          "domain": "theage.com.au",
+          "date": "20260422T023000Z",
+          "country": "Australia"
         }
       ]
     },
@@ -362,150 +484,28 @@
           "country": "United Kingdom"
         },
         {
-          "title": "UK CPI Hits 3 . 3 % as Fuel Costs Drive Inflation Higher , Pipeline Pressures Build",
-          "domain": "actionforex.com",
-          "date": "20260422T073000Z",
+          "title": "UK inflation accelerates after Iran war drives sharp rise in fuel prices",
+          "domain": "echo-news.co.uk",
+          "date": "20260422T070000Z",
           "country": "United Kingdom"
         }
       ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Bitcoin ETFs Surpass March Inflow Streak With $1 . 9B",
-          "domain": "cointelegraph.com",
-          "date": "20260423T143000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Buyers Show Renewed Conviction as BTC Tops $79K",
-          "domain": "cointelegraph.com",
-          "date": "20260423T143000Z",
-          "country": "China"
-        },
-        {
-          "title": "Back At $76K : Is Bitcoin Riding the Ceasefire Rally Wave ?",
-          "domain": "newsbtc.com",
-          "date": "20260422T093000Z",
-          "country": "United States"
-        },
-        {
-          "title": "BTC , MSTR , COIN , CRCL price news : Crypto rally accelerates as bitcoin tops $79 , 000",
-          "domain": "coindesk.com",
-          "date": "20260422T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The single chart for bitcoin long term investors shows bulls are fine",
-          "domain": "investinglive.com",
-          "date": "20260423T113000Z",
-          "country": ""
-        },
-        {
-          "title": "Bitcoin Taps $78 , 000 , But The Road To $80 , 000 Could Be Even Harder",
-          "domain": "benzinga.com",
-          "date": "20260423T163000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Strategy Now Holds More Bitcoin Than BlackRock",
-          "domain": "marketscreener.com",
-          "date": "20260422T151500Z",
-          "country": ""
-        },
-        {
-          "title": "Anthony Scaramucci Puts Bitcoin Market Cap At $21 Trillion , So How Much Will 1 BTC Be ?",
-          "domain": "newsbtc.com",
-          "date": "20260422T004500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Bull Cycle Is Right On Schedule : Analyst Reveals When The Bull Run Will Begin",
-          "domain": "newsbtc.com",
-          "date": "20260423T090000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Price Prediction : Hayes Says $500K Needs Fed Pivot",
-          "domain": "forbes.com",
-          "date": "20260423T073000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": [
-        {
-          "title": "Gas Prices Decline Slightly | Z100 Portland",
-          "domain": "z100portland.iheart.com",
-          "date": "20260422T000000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas Prices Decline Slightly | 106 . 7 The Eagle",
-          "domain": "1067theeagle.iheart.com",
-          "date": "20260422T001500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas Prices Decline Slightly | JAMN 107 . 5",
-          "domain": "jamn1075.iheart.com",
-          "date": "20260422T031500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why Have Gasoline and Heating Oil Futures Diverged ?",
-          "domain": "finance.yahoo.com",
-          "date": "20260423T063000Z",
-          "country": "United States"
-        },
-        {
-          "title": "oil prices today : Why are oil prices up today , and will US WTI , Brent crude futures continue to rise or fall again ? Analysts insights , market outlook and investor guide",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260422T203000Z",
-          "country": "India"
-        },
-        {
-          "title": "Clarksville Gas Prices Rank Third Cheapest Across Tennessee - Clarksville Online - Clarksville News , Sports , Events and Information",
-          "domain": "clarksvilleonline.com",
-          "date": "20260421T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Dow Jones Top Energy Headlines at 4 AM ET : WTI Crude Prices Shaped by Tug - Of - War Between Risk , Reality | Secretive ...",
-          "domain": "morningstar.com",
-          "date": "20260423T091500Z",
-          "country": "China"
-        },
-        {
-          "title": "Crude Oil Prices Rally as US - Iran Talks on Hold",
-          "domain": "finance.yahoo.com",
-          "date": "20260423T070000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Current price of oil as of April 22 , 2026",
-          "domain": "fortune.com",
-          "date": "20260422T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "IEA Chief Warns Energy Crisis Is Worsening -- - 2 -",
-          "domain": "marketscreener.com",
-          "date": "20260423T144500Z",
-          "country": ""
-        }
-      ]
+      "headlines": []
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -518,72 +518,11 @@
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "Which nations , teams have qualified for the 2026 FIFA World Cup ?",
-          "domain": "foxla.com",
-          "date": "20260423T160000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
-          "domain": "kenyastar.com",
-          "date": "20260422T201500Z",
-          "country": "Kenya"
-        },
-        {
-          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
-          "domain": "heraldglobe.com",
-          "date": "20260422T193000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
-          "domain": "cambodiantimes.com",
-          "date": "20260422T194500Z",
-          "country": "Cambodia"
-        },
-        {
-          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
-          "domain": "trinidadtimes.com",
-          "date": "20260422T194500Z",
-          "country": "Trinidad and Tobago"
-        },
-        {
-          "title": "Toronto Stock Exchange : FIFA World Cup 2026 Opens the Market",
-          "domain": "finanznachrichten.de",
-          "date": "20260423T151500Z",
-          "country": "Germany"
-        },
-        {
-          "title": "FIFA Sets Training Camp Date for World Cup Referees",
-          "domain": "moroccoworldnews.com",
-          "date": "20260421T221500Z",
-          "country": "Morocco"
-        },
-        {
-          "title": "You qualify on the pitch : Italy rejects Trump envoy suggestion it should replace Iran at World Cup",
-          "domain": "thejournal.ie",
-          "date": "20260423T144500Z",
-          "country": "Ireland"
-        },
-        {
-          "title": "Boston Mayor Michelle Wu details plans for FIFA Fan Festival on City Hall Plaza ahead of World Cup",
-          "domain": "wcvb.com",
-          "date": "20260421T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "2026 World Cup Play - offs : NFF , Chelle to Finalise Players List This Week",
-          "domain": "silverbirdtv.com",
-          "date": "20260423T070000Z",
-          "country": "Nigeria"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -663,9 +602,33 @@
       ],
       "headlines": [
         {
+          "title": "I Am Officially 0 . 1 % More Excited About the Future of ChatGPT",
+          "domain": "gizmodo.com",
+          "date": "20260423T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI Launches ChatGPT 5 . 5 With Stronger Coding and Computer - Use Skills to Take on Claude 4 . 7",
+          "domain": "propakistani.pk",
+          "date": "20260423T203000Z",
+          "country": "Pakistan"
+        },
+        {
           "title": "Atropos Health Launches Alexandria : The World Largest Medical Evidence Library",
           "domain": "hitconsultant.net",
           "date": "20260422T004500Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI releases GPT - 5 . 5 , bringing company one step closer to an AI  superapp",
+          "domain": "techcrunch.com",
+          "date": "20260423T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI says its new GPT - 5 . 5 model is more efficient and better at coding",
+          "domain": "theverge.com",
+          "date": "20260423T193000Z",
           "country": "United States"
         },
         {
@@ -675,21 +638,9 @@
           "country": "United States"
         },
         {
-          "title": "Google has a Sergey Brin problem , and it called Claude Code",
-          "domain": "digit.in",
-          "date": "20260421T200000Z",
-          "country": "India"
-        },
-        {
           "title": "OpenAI Briefs Governments On New Cyber AI Model Amid Anthropic Claude Rivalry",
           "domain": "benzinga.com",
           "date": "20260422T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Google Cloud next big moment and what it needs to continue its ascent",
-          "domain": "fortune.com",
-          "date": "20260421T191500Z",
           "country": "United States"
         },
         {
@@ -705,32 +656,81 @@
           "country": "United States"
         },
         {
-          "title": "Not just generating images . It thinking  ChatGPT Images 2 . 0 could fundamentally change how you make AI images",
-          "domain": "techradar.com",
-          "date": "20260422T000000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Nvidia Is Cooling , Microsoft Is Stumbling , and the Fed Wont Cut . Here Why Im Still Buying Artificial Intelligence ( AI ) Stocks .",
-          "domain": "fool.com",
-          "date": "20260422T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The secret Gemini integration in Google Sheets means I never have to manually format a budget again",
-          "domain": "androidpolice.com",
-          "date": "20260422T151500Z",
-          "country": "United States"
+          "title": "OpenAI Unveils Efficient , Enhanced GPT - 5 . 5 Model for Superior Coding",
+          "domain": "el-balad.com",
+          "date": "20260423T191500Z",
+          "country": "Egypt"
         }
       ]
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "GTA Carcer City Combines GTA III And Manhunt And It Rules",
+          "domain": "kotaku.com",
+          "date": "20260422T171500Z",
+          "country": "Japan"
+        },
+        {
+          "title": "GTA Online final 420 event launches ahead of upcoming sequel release",
+          "domain": "arynews.tv",
+          "date": "20260423T083000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "GTA 6 Official Release Date Update Confirmed , Brace Yourselves",
+          "domain": "screenrant.com",
+          "date": "20260423T143000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA : Carcer City , a San Andreas mod which turns Rockstar dark snuff game Manhunt into a full - on open world , has a demo out",
+          "domain": "rockpapershotgun.com",
+          "date": "20260423T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Witcher 3 Official 2026 DLC Release Date Massively Narrowed Down",
+          "domain": "screenrant.com",
+          "date": "20260423T143000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 sickos in a frenzy as Rockstar owner Take - Two finally announces delayed financial call , fueling speculation a big reveal will fill the gap",
+          "domain": "gamesradar.com",
+          "date": "20260423T171500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fans Noticed GTA 6 Might Have Discreetly Advanced Driving AI",
+          "domain": "gameranx.com",
+          "date": "20260422T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Real - Life Cluckin  Bell Restaurant Appears To Have Been GTA IP Infringement After All",
+          "domain": "gameranx.com",
+          "date": "20260422T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gaming industry could unlock US$22bil from AI cost cuts , says Morgan Stanley",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260422T161500Z",
+          "country": "Malaysia"
+        },
+        {
+          "title": "Microsoft doesnt know what to do with Call of Duty",
+          "domain": "windowscentral.com",
+          "date": "20260423T143000Z",
+          "country": "United States"
+        }
+      ]
     }
   }
 }
