@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 23 11:12 PM PT</strong> (11m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (101m)</span>
-            <span>Scored: <strong>600</strong> predictions | Logged: <strong>816</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 24 02:49 AM PT</strong> (10m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (125m)</span>
+            <span>Scored: <strong>600</strong> predictions | Logged: <strong>819</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(36d 3h ago)</span>
+            <span class="dim">(36d 7h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-23
+                    <div class="iter-text"># momentum — 2026-04-24
 
-Version: 1.30.0 -&gt; 1.31.0
+Version: 1.31.0 -&gt; 1.32.0
 
-The agent&#x27;s directional accuracy is extremely poor at 23.51%, suggesting the momentum signal is too aggressive or noisy. I&#x27;m reducing the weight given to change_4h in the momentum signal calculation from 0.7 to 0.5, and increasing the change_24h component from 0.3 to 0.5, to rely more on longer-term trends and less on potentially noisy short-term movements. This should help reduce over-extrapolation of recent price movements that may be random rather than meaningful momentum.</div>
+My directional accuracy is catastrophically low at 23.28%, suggesting my momentum signals are too weak or my logic is flawed. Since I recently reduced MOMENTUM_WEIGHT to 0.3, I&#x27;m increasing it back to 0.7 to amplify momentum signals and potentially improve directional accuracy. This should make the agent more aggressive in following price trends when news flow is high, which might correct the inverted directional performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-23
+                    <div class="iter-text"># historian — 2026-04-24
 
-Version: 1.30.0 -&gt; 1.31.0
+Version: 1.31.0 -&gt; 1.31.0
 
-The model is underperforming with MSE twice the naive baseline and poor directional accuracy of 27.68%. The current reversion rate of 0.02 appears too weak to generate meaningful mean reversion signals for regime change predictions. I&#x27;m increasing the reversion rate from 0.02 to 0.04 to strengthen the pull toward historical base rates, which should better capture the historian&#x27;s core thesis that extreme events are rare and markets overreact to dramatic headlines.</div>
+The agent is significantly underperforming with MSE 2x worse than baseline and only 27% directional accuracy. The current NEWS_SENSITIVITY of 0.02 appears to be causing excessive reaction to news signals, undermining the mean reversion strategy that should be the historian&#x27;s core strength. I&#x27;m reducing NEWS_SENSITIVITY from 0.02 to 0.015 to make the agent rely more heavily on historical base rates and less on potentially noisy news signals. This should improve stability and align better with the historian&#x27;s identity as a mean reversion specialist.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-23
+                    <div class="iter-text"># game_theorist — 2026-04-24
 
-Version: 1.30.0 -&gt; 1.31.0
+Version: 1.31.0 -&gt; 1.32.0
 
-Reduced ESCALATION_SENSITIVITY from 0.003 to 0.001 to address the extremely high MSE that&#x27;s far above the naive baseline. The current setting is causing too much volatility in predictions, leading to poor performance despite good directional accuracy on the main market. This more conservative sensitivity should bring predictions closer to current prices while maintaining the signal detection capability.</div>
+I&#x27;m reducing ESCALATION_SENSITIVITY from 0.001 to 0.0001 (a 10x reduction) to address the massive MSE problem. My current sensitivity is causing probability shifts that are far too large, resulting in an MSE that&#x27;s 323 times worse than the naive baseline. This dramatic reduction should keep my good directional accuracy while making much smaller, more calibrated probability adjustments that won&#x27;t generate such severe squared error penalties.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-23
+                    <div class="iter-text"># quant — 2026-04-24
 
-Version: 1.30.0 -&gt; 1.31.0
+Version: 1.31.0 -&gt; 1.32.0
 
-I&#x27;m increasing the momentum coefficient from 0.0002 to 0.001 (5x increase) to make bolder directional predictions. My current directional accuracy of 8.24% indicates I&#x27;m systematically predicting the wrong direction in this falling regime. By amplifying the momentum signal, I should better capture the continued downward movement and improve both directional accuracy and MSE. This addresses the core issue that my predictions are too conservative and directionally wrong.</div>
+The quant agent is performing terribly with 8.24% directional accuracy and MSE 3.5x worse than naive baseline. The momentum-based predictions are consistently wrong, suggesting the momentum coefficient of 0.001 is too aggressive. I&#x27;m reducing the momentum coefficient from 0.001 to 0.0001 (10x smaller) to make much more conservative predictions that stay closer to current prices, which should improve performance given that mean reversion seems to be the dominant regime.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -246,36 +246,36 @@ I&#x27;m increasing the momentum coefficient from 0.0002 to 0.001 (5x increase) 
             <div class="market-block">
                 <div class="market-header">
                     <strong>Regime Fall</strong>
-                    <span class="current-price">0.0850</span>
+                    <span class="current-price">0.0900</span>
                 </div>
                 <div class="price-changes">
-                    4h: <span class="">+0.0000</span>
-                    &nbsp; 24h: <span class="up">+0.0100</span>
+                    4h: <span class="up">+0.0050</span>
+                    &nbsp; 24h: <span class="up">+0.0050</span>
                 </div>
                 
                 <div class="forecast-row">
                     <span class="dot" style="background:#e74c3c"></span>
                     <span class="agent-name">Momentum</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0900</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#3498db"></span>
                     <span class="agent-name">Historian</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0900</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#f39c12"></span>
                     <span class="agent-name">Game Theorist</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0900</span>
                 </div>
                 <div class="forecast-row">
                     <span class="dot" style="background:#2ecc71"></span>
                     <span class="agent-name">Quant</span>
                     <span class="pred">0.0000</span>
-                    <span class="delta down">-0.0850</span>
+                    <span class="delta down">-0.0900</span>
                 </div>
             </div>
     </div>
@@ -287,12 +287,12 @@ I&#x27;m increasing the momentum coefficient from 0.0002 to 0.001 (5x increase) 
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.31.0</span>
+            <span class="dim">v1.32.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 23 11:23 PM PT (prev: Apr 23 08:44 PM PT)</div>
+        <div class="analysis-time dim">Apr 24 02:59 AM PT (prev: Apr 23 11:23 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -308,19 +308,19 @@ I&#x27;m increasing the momentum coefficient from 0.0002 to 0.001 (5x increase) 
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 23 11:23 PM PT (prev: Apr 23 08:44 PM PT)</div>
+        <div class="analysis-time dim">Apr 24 02:59 AM PT (prev: Apr 23 11:23 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.31.0</span>
+            <span class="dim">v1.32.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 23 11:23 PM PT (prev: Apr 23 08:44 PM PT)</div>
+        <div class="analysis-time dim">Apr 24 02:59 AM PT (prev: Apr 23 11:23 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
@@ -400,11 +400,11 @@ I&#x27;m increasing the momentum coefficient from 0.0002 to 0.001 (5x increase) 
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>22</strong> facts:
-                <span class="esc">11 escalatory</span>,
-                <span class="deesc">6 de-escalatory</span>,
-                5 neutral
-            </div><div class="fact"><span class="dim">[diplomatic_signals]</span> On April 23, 2026, President Trump stated that the Strait of Hormuz will remain sealed until Iran ag</div><div class="fact"><span class="dim">[military_pressure]</span> US forces seized multiple Iran-linked ships in the Indian Ocean, including the oil tanker Majestic X</div><div class="fact"><span class="dim">[military_pressure]</span> The USS George HW Bush carrier group is advancing toward the Persian Gulf.</div>
+                <strong>27</strong> facts:
+                <span class="esc">18 escalatory</span>,
+                <span class="deesc">7 de-escalatory</span>,
+                2 neutral
+            </div><div class="fact"><span class="dim">[economic_collapse]</span> The US seized an Iranian-linked ship in the Indian Ocean carrying Iranian oil on April 23, 2026, wit</div><div class="fact"><span class="dim">[diplomatic_signals]</span> President Trump stated the Strait of Hormuz &#x27;will remain sealed until Iran makes a deal&#x27; on April 23</div><div class="fact"><span class="dim">[military_pressure]</span> Trump ordered the US Navy to &#x27;shoot and kill&#x27; any Iranian small boats laying mines in the Strait of </div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ I&#x27;m increasing the momentum coefficient from 0.0002 to 0.001 (5x increase) 
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Direct military confrontation has escalated to active hostile engagement with Trump&#x27;s shoot-to-kill orders, USS George HW Bush carrier group advancing, 30+ US ships enforcing blockade with seizures in</div>
-                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
+                <div class="state-status">Acute crisis phase with simultaneous military escalation, economic hemorrhaging ($435M daily oil revenue loss), internal succession paralysis, and 56-day internet blackout preventing accurate damage a</div>
+                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-23 11:23 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-24 02:59 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
