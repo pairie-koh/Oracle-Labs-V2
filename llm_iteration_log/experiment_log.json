@@ -144,5 +144,14 @@
     "action": "no_change",
     "before_avg_se": 0.07658329230769229,
     "result": "no_change"
+  },
+  {
+    "date": "2026-04-24",
+    "summary": "Temperature contracts show persistent underperformance (49-50% accuracy vs 84% for Bitcoin) despite recent weather prompt improvements. Sample predictions reveal the LLM is still putting only 30-35% on the NWS forecast bucket instead of the recommended 70-80%. The current guidance mentions \"65-80%\" ",
+    "action": "change",
+    "replacements_applied": 1,
+    "before_avg_se": 0.07494752416356876,
+    "after_avg_se": null,
+    "result": "pending"
   }
 ]

@@ -191,14 +191,14 @@ CATEGORY_CUES = {
 - How reliable has the source company been with previous timelines?""",
 
     "weather": """Think about:
-- What does the NWS forecast say for today's high temperature? This is your PRIMARY signal - trust it heavily.
-- Same-day weather forecasts are highly accurate (>90%) — the NWS forecast high is almost certainly correct within 1-2°F.
-- Which temperature bucket contains the NWS forecast high? Put 65-80% of your probability there.
-- Put 10-20% in each immediately adjacent bucket (±1 bucket) for minor forecast errors.
-- Put only 1-3% in non-adjacent buckets unless there's documented extreme uncertainty.
-- Don't overthink it: if NWS says 67°F and bucket is 65-69°F, that bucket gets 70-80% probability.
-- The market often under-weights how accurate same-day forecasts are — be more confident than the crowd.
-- Avoid spreading probability evenly across multiple buckets — concentrate on the forecast bucket.""",
+- What does the NWS forecast say for today's high temperature? This is your PRIMARY and DOMINANT signal.
+- Same-day weather forecasts are highly accurate (>90%) — treat the NWS forecast high as nearly certain within 1-2°F.
+- Which temperature bucket contains the NWS forecast high? Put EXACTLY 75-85% of your probability there. This is not a suggestion - be aggressive.
+- Put 8-15% in each immediately adjacent bucket (only ±1 bucket) for minor forecast errors.  
+- Put only 1-2% in all other non-adjacent buckets combined unless there's extreme documented uncertainty.
+- CONCRETE EXAMPLE: if NWS says 67°F and bucket is 65-69°F, assign 80% to that bucket, 10% to 63-67°F, 8% to 67-71°F, 2% to all others.
+- The market consistently under-weights same-day forecast accuracy — be significantly more confident than market prices suggest.
+- CRITICAL: Do not hedge or spread probability evenly. The NWS forecast bucket gets 75-85%. Period.""",
 }
 
 # Fallback for unknown categories
