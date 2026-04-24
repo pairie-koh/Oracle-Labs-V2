@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-24T13:57:02Z",
+  "fetched_at": "2026-04-24T17:12:12Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -67,193 +67,376 @@
           "country": "Pakistan"
         },
         {
-          "title": "Trump Extends Iran Ceasefire : What Do the US and Iran Want to Achieve from the High - Stakes Negotiations ?",
-          "domain": "ibtimes.com",
-          "date": "20260422T140000Z",
-          "country": "United States"
+          "title": "Trump signals possible military action against Iran , says no rush for deal",
+          "domain": "morungexpress.com",
+          "date": "20260424T051500Z",
+          "country": "India"
         }
       ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Only five ships pass through Strait of Hormuz in 24 hours",
+          "domain": "marketscreener.com",
+          "date": "20260424T113000Z",
+          "country": ""
+        },
+        {
+          "title": "US diverts Iranian oil tankers in Asian waters - Pakistan Today",
+          "domain": "pakistantoday.com.pk",
+          "date": "20260423T063000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "US and Iran continue seizing ships in tense Hormuz standoff",
+          "domain": "euronews.com",
+          "date": "20260423T151500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran war : US intercepts three Iranian oil tankers in Asian waters , sources say",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260423T020000Z",
+          "country": "India"
+        },
+        {
+          "title": "Trump issues  shoot - to - kill  order for Iranian vessels in Hormuz",
+          "domain": "theshillongtimes.com",
+          "date": "20260424T020000Z",
+          "country": "India"
+        },
+        {
+          "title": "US intercepts three Iranian oil tankers in Asian waters , sources say",
+          "domain": "bworldonline.com",
+          "date": "20260423T034500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "US intercepts three Iranian oil tankers in Asian waters : Report",
+          "domain": "moneycontrol.com",
+          "date": "20260423T040000Z",
+          "country": "India"
+        },
+        {
+          "title": "UAE Business : Oil tops $105 as Iran – US maritime standoff jolts market",
+          "domain": "gdnonline.com",
+          "date": "20260424T130000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US intercepts three Iranian oil tankers in Asian waters , sources say",
+          "domain": "straitstimes.com",
+          "date": "20260423T031500Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "US intercepts three Iranian oil tankers in Asian waters , sources say",
+          "domain": "channelnewsasia.com",
+          "date": "20260423T050000Z",
+          "country": "United States"
+        }
+      ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "ASEAN chair urges Myanmar to free more prisoners",
+          "domain": "perthnow.com.au",
+          "date": "20260424T104500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "ASEAN chair urges Myanmar to free more prisoners including Aung San Suu Kyi",
+          "domain": "bworldonline.com",
+          "date": "20260424T081500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Moment Keir Starmer eviscerated by his own furious MP :  You must resign ! | TV & Radio | Showbiz & TV",
+          "domain": "express.co.uk",
+          "date": "20260423T171500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "ASEAN chair urges Myanmar to free more prisoners including Aung San Suu Kyi",
+          "domain": "interaksyon.philstar.com",
+          "date": "20260424T103000Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Myanmar considering  good thing for detained Aung San Suu Kyi : Thailand",
+          "domain": "channelnewsasia.com",
+          "date": "20260422T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "He wanted us to strike : Ex - US top official reveals three presidents rejected Netanyahu Iran war push before Trump agreed",
+          "domain": "aninews.in",
+          "date": "20260423T043000Z",
+          "country": "India"
+        },
+        {
+          "title": "Myanmar considering  good thing for detained Aung San Suu Kyi , Thailand says",
+          "domain": "asiaone.com",
+          "date": "20260423T040000Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "Myanmar considering  good thing for detained Aung San Suu Kyi , Thailand says",
+          "domain": "asiaone.com",
+          "date": "20260423T043000Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "US soldier charged with making $400 , 000 on Maduro removal bets",
+          "domain": "jpost.com",
+          "date": "20260424T024500Z",
+          "country": "Israel"
+        },
+        {
+          "title": "US soldier charged with making $400 , 000 on Maduro removal bets",
+          "domain": "jpost.com",
+          "date": "20260424T011500Z",
+          "country": "Israel"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "RIGHT SPEAK : Majority Of Voters Want The SAVE America Act Passed Before The Midterms , Poll Finds ; Sources : SAVE America Act Not Dead Yet ,  Still The Pending Business In The Senate",
+          "domain": "rightspeak.net",
+          "date": "20260424T074500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mexican green card holder convicted of illegally voting in US elections : DHS",
+          "domain": "foxnews.com",
+          "date": "20260423T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Former Kansas mayor pleads guilty to voter fraud , false citizenship claim",
+          "domain": "foxnews.com",
+          "date": "20260423T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "America First Legal urges USPS to enforce Trump mail - in ballot order",
+          "domain": "foxnews.com",
+          "date": "20260422T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Sen John Kennedy SAVE America Act voter ID amendment fails 48 - 50",
+          "domain": "foxnews.com",
+          "date": "20260423T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mexican national convicted of illegally voting in US after false citizenship claims faces removal : DHS",
+          "domain": "foxwilmington.com",
+          "date": "20260423T090000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AFA - SAVE America or Bust ? … Contact your U . S . Senator Today",
+          "domain": "afa.net",
+          "date": "20260423T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Traitor Thom  Tillis ( RINO - NC ) again blocks SAVE Act which would ensure election intergrity",
+          "domain": "beaufortcountynow.com",
+          "date": "20260423T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump SAVE Act put aside by the US Senate ….",
+          "domain": "politicaldog101.com",
+          "date": "20260423T041500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Civil Rights Groups Sue over Florida New Election Law | Real Radio 104 . 1",
+          "domain": "realradio.iheart.com",
+          "date": "20260423T204500Z",
+          "country": "United States"
+        }
+      ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Is Australia in recession ? Poll reveals that many people think the economy is already there",
+          "domain": "smh.com.au",
+          "date": "20260423T194500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Is Australia in recession ? Poll reveals that many people think the economy is already there",
+          "domain": "theage.com.au",
+          "date": "20260423T203000Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Is Australia in recession ? Poll reveals that many people think the economy is already there",
+          "domain": "brisbanetimes.com.au",
+          "date": "20260423T194500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "West Asia Conflict Drags India Activity Gauge To Five - month Low : Icra",
+          "domain": "businessworld.in",
+          "date": "20260423T121500Z",
+          "country": "India"
+        },
+        {
+          "title": "Per capita GDP hits all - time high of $ 5 , 003 in 2025",
+          "domain": "ft.lk",
+          "date": "20260423T043000Z",
+          "country": "Sri Lanka"
+        },
+        {
+          "title": "India Growth Resilient to High Oil Prices , Says Assocham",
+          "domain": "newkerala.com",
+          "date": "20260423T040000Z",
+          "country": "India"
+        },
+        {
+          "title": "Eurozone PMI Composite Falls to 48 . 6 , Signals - 0 . 1 % GDP Contraction in Q2",
+          "domain": "actionforex.com",
+          "date": "20260423T103000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "EU PMI contracts on the back of Middle - East conflict",
+          "domain": "thepeninsulaqatar.com",
+          "date": "20260424T061500Z",
+          "country": "Qatar"
+        },
+        {
+          "title": "India can grow above 7 pc even with crude at $90 – 100 : Industry",
+          "domain": "ianslive.in",
+          "date": "20260422T174500Z",
+          "country": "India"
+        },
+        {
+          "title": "The Triumph of Economic Freedom ?",
+          "domain": "pjmedia.com",
+          "date": "20260423T060000Z",
+          "country": "United States"
+        }
+      ]
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
-      "headlines": [
-        {
-          "title": "Warsh signals that he would lead a less - transparent Federal Reserve",
-          "domain": "finance.yahoo.com",
-          "date": "20260422T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "President Donald Trump Right - Hand Man at the Federal Reserve Is Reconsidering His Interest - Rate Outlook . Are Rate Cuts Off the Table in 2026 ?",
-          "domain": "fool.com",
-          "date": "20260423T121500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Breitbart Business Digest : What Happens if There No Confirmation Before Powell Term Ends ?",
-          "domain": "breitbart.com",
-          "date": "20260424T021500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Will softer growth open door to Fed cuts ? | Hellenic Shipping News Worldwide",
-          "domain": "hellenicshippingnews.com",
-          "date": "20260422T230000Z",
-          "country": "China"
-        },
-        {
-          "title": "Kevin Warsh Fed Record : What It Signals for Interest Rates",
-          "domain": "finance.yahoo.com",
-          "date": "20260423T090000Z",
-          "country": "United States"
-        },
-        {
-          "title": "How Fed rate cuts and hikes affect the price of gold",
-          "domain": "fortune.com",
-          "date": "20260422T204500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Morning Minute : Bitcoin Passes $78k as Trump Extends Ceasefire Indefinitely",
-          "domain": "finance.yahoo.com",
-          "date": "20260423T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Warsh says he got no pressure from Trump to cut rates even as president publicly pushes for them",
-          "domain": "dailyadvance.com",
-          "date": "20260422T140000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump Federal Reserve chair nominee Kevin Warsh testifies before Congress amid Powell probe – KTBB News , Weather , Talk",
-          "domain": "ktbb.com",
-          "date": "20260422T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Wall Street Takeaways From Kevin Warsh Testimony in Congress",
-          "domain": "businessinsider.com",
-          "date": "20260422T203000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": [
-        {
-          "title": "Inflation increases in March - but full impact of Middle East war still to come",
-          "domain": "citizen.co.za",
-          "date": "20260422T170000Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Japan Inflation Rises in March Amid Energy Price Surge and Middle East Tensions",
-          "domain": "econotimes.com",
-          "date": "20260424T064500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Inflated expectations",
-          "domain": "propertyweek.com",
-          "date": "20260422T230000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Japan core inflation stays below BOJ target , energy risks grow",
-          "domain": "marketscreener.com",
-          "date": "20260424T010000Z",
-          "country": ""
-        },
-        {
-          "title": "Japan core inflation holds at 1 . 8 % but energy shock threatens renewed surge",
-          "domain": "investinglive.com",
-          "date": "20260424T013000Z",
-          "country": ""
-        },
-        {
-          "title": "Singapore core inflation inches up to 1 . 7 % in March ; headline inflation at 1 . 8 %",
-          "domain": "businesstimes.com.sg",
-          "date": "20260423T054500Z",
-          "country": "Singapore"
-        },
-        {
-          "title": "Baystreet . ca - united kingdom Inflation Set to Jump to 3 . 3 % as Iran War Hits Petrol , Airfares , and Rent",
-          "domain": "baystreet.ca",
-          "date": "20260424T070000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Clothing and footwear prices fall 0 . 8 % as united kingdom inflation rises",
-          "domain": "just-style.com",
-          "date": "20260422T153000Z",
-          "country": "United States"
-        },
-        {
-          "title": "UK inflation jumps but Bank of England hikes seen off the table",
-          "domain": "finance.yahoo.com",
-          "date": "20260423T183000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Cost of living rises by 3 , 1 % in March",
-          "domain": "enca.com",
-          "date": "20260422T151500Z",
-          "country": "South Africa"
-        }
-      ]
+      "headlines": []
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Bitcoin Prices Above $80K Needed To Confirm Trend Change",
+          "domain": "cointelegraph.com",
+          "date": "20260424T040000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Nears $80 , 000 : Two Scenarios That May Decide Q2 Bulls Or Bears ?",
+          "domain": "newsbtc.com",
+          "date": "20260423T184500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Price Prediction as BTC Hits $78K Again : Can It Clear $80K ?",
+          "domain": "finance.yahoo.com",
+          "date": "20260424T083000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin ETFs Surpass March Inflow Streak With $1 . 9B",
+          "domain": "cointelegraph.com",
+          "date": "20260423T143000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Buyers Show Renewed Conviction as BTC Tops $79K",
+          "domain": "cointelegraph.com",
+          "date": "20260423T143000Z",
+          "country": "China"
+        },
+        {
+          "title": "BTC , MSTR , COIN , CRCL price news : Crypto rally accelerates as bitcoin tops $79 , 000",
+          "domain": "coindesk.com",
+          "date": "20260422T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Taps $78 , 000 , But The Road To $80 , 000 Could Be Even Harder",
+          "domain": "benzinga.com",
+          "date": "20260423T163000Z",
+          "country": "United States"
+        },
+        {
+          "title": "The single chart for bitcoin long term investors shows bulls are fine",
+          "domain": "investinglive.com",
+          "date": "20260423T113000Z",
+          "country": ""
+        },
+        {
+          "title": "Altcoins May See Upside After Bitcoin Reclaims $86K : Analyst",
+          "domain": "cointelegraph.com",
+          "date": "20260424T040000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Bull Cycle Is Right On Schedule : Analyst Reveals When The Bull Run Will Begin",
+          "domain": "newsbtc.com",
+          "date": "20260423T090000Z",
+          "country": "United States"
+        }
+      ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -293,12 +476,6 @@
           "country": "United States"
         },
         {
-          "title": "Current price of oil as of April 22 , 2026",
-          "domain": "fortune.com",
-          "date": "20260422T170000Z",
-          "country": "United States"
-        },
-        {
           "title": "IEA Chief Warns Energy Crisis Is Worsening -- - 2 -",
           "domain": "marketscreener.com",
           "date": "20260423T144500Z",
@@ -317,10 +494,16 @@
           "country": "United States"
         },
         {
-          "title": "Secretive Shipments of Iranian Oil to China Are Under Threat by U . S . -- Commodities Roundup",
-          "domain": "marketscreener.com",
-          "date": "20260422T160000Z",
-          "country": ""
+          "title": "Oil Prices : Oil prices today : Crude edges lower after sharp gains as Iran – US tensions keep markets on edge",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260423T041500Z",
+          "country": "India"
+        },
+        {
+          "title": "The US keeps talking about gas prices but its diesel costs that could impact your life the most",
+          "domain": "finance.yahoo.com",
+          "date": "20260423T163000Z",
+          "country": "United States"
         }
       ]
     },
@@ -375,12 +558,6 @@
           "country": "United States"
         },
         {
-          "title": "Newsom claims victory as Virginia votes to redraw redistricting map",
-          "domain": "foxnews.com",
-          "date": "20260422T163000Z",
-          "country": "United States"
-        },
-        {
           "title": "Democrats are winning the redistricting war for now",
           "domain": "vox.com",
           "date": "20260423T151500Z",
@@ -391,16 +568,83 @@
           "domain": "npr.org",
           "date": "20260422T190000Z",
           "country": "United States"
+        },
+        {
+          "title": "Democrats dominate midterm fundraising , but Republicans have a huge cash advantage",
+          "domain": "ypradio.org",
+          "date": "20260423T103000Z",
+          "country": "United States"
         }
       ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "US says Iran can play in Fifa World Cup but IRGC - linked individuals wont be allowed",
+          "domain": "geo.tv",
+          "date": "20260424T100000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Meet the 4 World Cup debut teams reshaping the 2026 tournament",
+          "domain": "fox5dc.com",
+          "date": "20260424T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Which nations , teams have qualified for the 2026 FIFA World Cup ?",
+          "domain": "foxla.com",
+          "date": "20260423T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "FIFA has  sole discretion  but no plan to gift Iran World Cup 2026 place to Italy : report",
+          "domain": "fourfourtwo.com",
+          "date": "20260423T191500Z",
+          "country": "Spain"
+        },
+        {
+          "title": "Manuel Neuer triggers hope for another year in Bayern",
+          "domain": "china.org.cn",
+          "date": "20260424T034500Z",
+          "country": "China"
+        },
+        {
+          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
+          "domain": "kenyastar.com",
+          "date": "20260422T201500Z",
+          "country": "Kenya"
+        },
+        {
+          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
+          "domain": "heraldglobe.com",
+          "date": "20260422T193000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
+          "domain": "cambodiantimes.com",
+          "date": "20260422T194500Z",
+          "country": "Cambodia"
+        },
+        {
+          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
+          "domain": "trinidadtimes.com",
+          "date": "20260422T194500Z",
+          "country": "Trinidad and Tobago"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox5dc.com",
+          "date": "20260424T144500Z",
+          "country": "United States"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -452,9 +696,9 @@
           "country": "United States"
         },
         {
-          "title": "Wednesday NBA Best Bets April 22 NBA Predictions & Picks",
+          "title": "Friday NBA Best Bets April 24 NBA Predictions & Picks",
           "domain": "thespread.com",
-          "date": "20260422T154500Z",
+          "date": "20260424T144500Z",
           "country": "United States"
         },
         {
