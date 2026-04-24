@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-24T03:30:04Z",
+  "fetched_at": "2026-04-24T06:19:26Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -23,12 +23,6 @@
           "domain": "el-balad.com",
           "date": "20260422T130000Z",
           "country": "Egypt"
-        },
-        {
-          "title": "Trump threatens to bomb Iran if deal not reached today",
-          "domain": "theshillongtimes.com",
-          "date": "20260422T043000Z",
-          "country": "India"
         },
         {
           "title": "Trump Extends Iran Ceasefire Indefinitely , Says Hormuz BlockadeTo Continue – 22 April 2026",
@@ -55,15 +49,21 @@
           "country": "United States"
         },
         {
+          "title": "Trump messaging blitz divides advisers as Iran talks waver",
+          "domain": "moneycontrol.com",
+          "date": "20260424T033000Z",
+          "country": "India"
+        },
+        {
           "title": "Trump Iran deal may need him to do the unthinkable",
           "domain": "watoday.com.au",
           "date": "20260423T233000Z",
           "country": "Australia"
         },
         {
-          "title": "US - Iran War Day 54 : Trump hits pause for now as Pakistan continues brokering  peace , but Hormuz future remains in limbo",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260422T043000Z",
+          "title": "Trump signals possible military action against Iran , says no rush for deal",
+          "domain": "prokerala.com",
+          "date": "20260424T031500Z",
           "country": "India"
         },
         {
@@ -170,12 +170,6 @@
           "country": "India"
         },
         {
-          "title": "The politicized Constitutional Court",
-          "domain": "thaipoliticalprisoners.wordpress.com",
-          "date": "20260422T040000Z",
-          "country": "United States"
-        },
-        {
           "title": "Myanmar considering  good thing for detained Aung San Suu Kyi , Thailand says",
           "domain": "asiaone.com",
           "date": "20260423T040000Z",
@@ -210,6 +204,12 @@
           "domain": "internazionale.it",
           "date": "20260422T064500Z",
           "country": "Italy"
+        },
+        {
+          "title": "Thailand offers backing for Myanmar bid to normalise ASEAN ties",
+          "domain": "marketscreener.com",
+          "date": "20260422T064500Z",
+          "country": ""
         }
       ]
     },
@@ -424,210 +424,27 @@
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": [
-        {
-          "title": "Utilities and hospitality drive slight uptick in CPI in March",
-          "domain": "timeslive.co.za",
-          "date": "20260422T100000Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "UK inflation rises to 3 . 3 % in March as Iran war drives up fuel prices",
-          "domain": "marketscreener.com",
-          "date": "20260422T064500Z",
-          "country": ""
-        },
-        {
-          "title": "Inflation increases in March - but full impact of Middle East war still to come",
-          "domain": "citizen.co.za",
-          "date": "20260422T170000Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Indonesia to maintain inflation rate at 2 , 51 percent : BI",
-          "domain": "en.antaranews.com",
-          "date": "20260422T130000Z",
-          "country": "Indonesia"
-        },
-        {
-          "title": "UK inflation accelerates after Iran war drives sharp rise in fuel prices",
-          "domain": "theargus.co.uk",
-          "date": "20260422T073000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "UK inflation accelerates after Iran war drives sharp rise in fuel prices",
-          "domain": "yorkpress.co.uk",
-          "date": "20260422T073000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Inflated expectations",
-          "domain": "propertyweek.com",
-          "date": "20260422T230000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Japan core inflation stays below BOJ target , energy risks grow",
-          "domain": "marketscreener.com",
-          "date": "20260424T010000Z",
-          "country": ""
-        },
-        {
-          "title": "Japan core inflation holds at 1 . 8 % but energy shock threatens renewed surge",
-          "domain": "investinglive.com",
-          "date": "20260424T013000Z",
-          "country": ""
-        },
-        {
-          "title": "UK inflation jumps in March as Mideast war propels energy prices",
-          "domain": "freemalaysiatoday.com",
-          "date": "20260422T110000Z",
-          "country": "Malaysia"
-        }
-      ]
+      "headlines": []
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Bitcoin Nears $80 , 000 : Two Scenarios That May Decide Q2 Bulls Or Bears ?",
-          "domain": "newsbtc.com",
-          "date": "20260423T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin ETFs Surpass March Inflow Streak With $1 . 9B",
-          "domain": "cointelegraph.com",
-          "date": "20260423T143000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Buyers Show Renewed Conviction as BTC Tops $79K",
-          "domain": "cointelegraph.com",
-          "date": "20260423T143000Z",
-          "country": "China"
-        },
-        {
-          "title": "Back At $76K : Is Bitcoin Riding the Ceasefire Rally Wave ?",
-          "domain": "newsbtc.com",
-          "date": "20260422T093000Z",
-          "country": "United States"
-        },
-        {
-          "title": "BTC , MSTR , COIN , CRCL price news : Crypto rally accelerates as bitcoin tops $79 , 000",
-          "domain": "coindesk.com",
-          "date": "20260422T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The single chart for bitcoin long term investors shows bulls are fine",
-          "domain": "investinglive.com",
-          "date": "20260423T113000Z",
-          "country": ""
-        },
-        {
-          "title": "Bitcoin Taps $78 , 000 , But The Road To $80 , 000 Could Be Even Harder",
-          "domain": "benzinga.com",
-          "date": "20260423T163000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Strategy Now Holds More Bitcoin Than BlackRock",
-          "domain": "marketscreener.com",
-          "date": "20260422T151500Z",
-          "country": ""
-        },
-        {
-          "title": "Bitcoin Bull Cycle Is Right On Schedule : Analyst Reveals When The Bull Run Will Begin",
-          "domain": "newsbtc.com",
-          "date": "20260423T090000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Price Prediction : Hayes Says $500K Needs Fed Pivot",
-          "domain": "forbes.com",
-          "date": "20260423T073000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": [
-        {
-          "title": "Why Have Gasoline and Heating Oil Futures Diverged ?",
-          "domain": "finance.yahoo.com",
-          "date": "20260423T063000Z",
-          "country": "United States"
-        },
-        {
-          "title": "oil prices today : Why are oil prices up today , and will US WTI , Brent crude futures continue to rise or fall again ? Analysts insights , market outlook and investor guide",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260422T203000Z",
-          "country": "India"
-        },
-        {
-          "title": "Dow Jones Top Energy Headlines at 4 AM ET : WTI Crude Prices Shaped by Tug - Of - War Between Risk , Reality | Secretive ...",
-          "domain": "morningstar.com",
-          "date": "20260423T091500Z",
-          "country": "China"
-        },
-        {
-          "title": "Crude Oil Prices Rally as US - Iran Talks on Hold",
-          "domain": "finance.yahoo.com",
-          "date": "20260423T070000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Current price of oil as of April 22 , 2026",
-          "domain": "fortune.com",
-          "date": "20260422T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "IEA Chief Warns Energy Crisis Is Worsening -- - 2 -",
-          "domain": "marketscreener.com",
-          "date": "20260423T144500Z",
-          "country": ""
-        },
-        {
-          "title": "What are the differences in crude oil ?",
-          "domain": "marketplace.org",
-          "date": "20260423T171500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Current price of oil as of April 23 , 2026",
-          "domain": "fortune.com",
-          "date": "20260423T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Secretive Shipments of Iranian Oil to China Are Under Threat by U . S . -- Commodities Roundup",
-          "domain": "marketscreener.com",
-          "date": "20260422T160000Z",
-          "country": ""
-        },
-        {
-          "title": "Oil Prices : Oil prices today : Crude edges lower after sharp gains as Iran – US tensions keep markets on edge",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260423T041500Z",
-          "country": "India"
-        }
-      ]
+      "headlines": []
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -701,80 +518,80 @@
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "Which nations , teams have qualified for the 2026 FIFA World Cup ?",
-          "domain": "foxla.com",
-          "date": "20260423T160000Z",
-          "country": "United States"
-        },
-        {
-          "title": "FIFA has  sole discretion  but no plan to gift Iran World Cup 2026 place to Italy : report",
-          "domain": "fourfourtwo.com",
-          "date": "20260423T191500Z",
-          "country": "Spain"
-        },
-        {
-          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
-          "domain": "kenyastar.com",
-          "date": "20260422T201500Z",
-          "country": "Kenya"
-        },
-        {
-          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
-          "domain": "heraldglobe.com",
-          "date": "20260422T193000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
-          "domain": "cambodiantimes.com",
-          "date": "20260422T194500Z",
-          "country": "Cambodia"
-        },
-        {
-          "title": "Germany F Serge Gnabry ( thigh ) to miss World Cup",
-          "domain": "trinidadtimes.com",
-          "date": "20260422T194500Z",
-          "country": "Trinidad and Tobago"
-        },
-        {
-          "title": "Toronto Stock Exchange : FIFA World Cup 2026 Opens the Market",
-          "domain": "finanznachrichten.de",
-          "date": "20260423T151500Z",
-          "country": "Germany"
-        },
-        {
-          "title": "FIFA makes more World Cup tickets available , but soccer fans criticize lack of transparency",
-          "domain": "cbc.ca",
-          "date": "20260423T224500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Will real grass force BC Place roof closed during FIFA World Cup ? | Daily Hive",
-          "domain": "dailyhive.com",
-          "date": "20260423T204500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "You qualify on the pitch : Italy rejects Trump envoy suggestion it should replace Iran at World Cup",
-          "domain": "thejournal.ie",
-          "date": "20260423T144500Z",
-          "country": "Ireland"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "NBA Playoffs 2026 : First - Round Matchups , TV Schedule , How to Watch Tonight Games",
+          "domain": "cnet.com",
+          "date": "20260422T230000Z",
+          "country": "Japan"
+        },
+        {
+          "title": "Ratings - ESPN Opens NBA Playoffs with Most - Watched Playoff Game of Opening Weekend",
+          "domain": "thefutoncritic.com",
+          "date": "20260423T011500Z",
+          "country": "United States"
+        },
+        {
+          "title": "FanDuel Promo Code : Claim $250 Bonus for Nuggets vs . Timberwolves , NBA Playoff Games Tonight",
+          "domain": "covers.com",
+          "date": "20260423T230000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Knicks vs Hawks LIVE Score Updates in NBA Playoffs Game ( 0 - 0 ) | 04 / 23 / 2026",
+          "domain": "vavel.com",
+          "date": "20260423T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Phoenix Suns vs Oklahoma City Thunder LIVE Score Updates in NBA Playoffs Game | 04 / 22 / 2026",
+          "domain": "vavel.com",
+          "date": "20260422T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Meta Threads is going live with chats for big moments , like the NBA Finals",
+          "domain": "androidcentral.com",
+          "date": "20260423T114500Z",
+          "country": "China"
+        },
+        {
+          "title": "Bucks are finalizing a deal with Taylor Jenkins to take over as coach , AP source says",
+          "domain": "baltimoresun.com",
+          "date": "20260424T021500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Wednesday NBA Best Bets April 22 NBA Predictions & Picks",
+          "domain": "thespread.com",
+          "date": "20260422T154500Z",
+          "country": "United States"
+        },
+        {
+          "title": "NBA Playoffs Power Rankings for the remaining teams",
+          "domain": "thebiglead.com",
+          "date": "20260423T123000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Thursday NBA Best Bets April 23 NBA Predictions & Picks",
+          "domain": "thespread.com",
+          "date": "20260423T151500Z",
+          "country": "United States"
+        }
+      ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
@@ -803,10 +620,22 @@
           "country": "Pakistan"
         },
         {
+          "title": "GPT - 5 . 5 launched : OpenAI says ChatGPT can now debug code and operate software",
+          "domain": "livemint.com",
+          "date": "20260424T040000Z",
+          "country": "India"
+        },
+        {
           "title": "OpenAI releases GPT - 5 . 5 , bringing company one step closer to an AI  superapp",
           "domain": "techcrunch.com",
           "date": "20260423T191500Z",
           "country": "United States"
+        },
+        {
+          "title": "ChatGPT Just Got a Massive Upgrade : Here What New With The GPT - 5 . 5 Model",
+          "domain": "freepressjournal.in",
+          "date": "20260424T053000Z",
+          "country": "India"
         },
         {
           "title": "OpenAI says its new GPT - 5 . 5 model is more efficient and better at coding",
@@ -830,18 +659,6 @@
           "title": "OpenAI Launches ChatGPT for Clinicians : Free AI Documentation and Research Tool for Verified Physicians",
           "domain": "hitconsultant.net",
           "date": "20260424T003000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Leak of OpenAI Next Major Release : GPT - 5 . 5 .",
-          "domain": "techstory.in",
-          "date": "20260424T010000Z",
-          "country": "India"
-        },
-        {
-          "title": "OpenAI Briefs Governments On New Cyber AI Model Amid Anthropic Claude Rivalry",
-          "domain": "benzinga.com",
-          "date": "20260422T203000Z",
           "country": "United States"
         }
       ]
