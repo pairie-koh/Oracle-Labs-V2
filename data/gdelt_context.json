@@ -1,17 +1,78 @@
 {
-  "fetched_at": "2026-04-25T02:59:36Z",
+  "fetched_at": "2026-04-25T05:58:45Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Promises , pressure , pullout : Why US nuclear talks with Iran were never about a deal",
+          "domain": "presstv.ir",
+          "date": "20260424T103000Z",
+          "country": "Iran"
+        },
+        {
+          "title": "Irans refusal to put nuclear file back on negotiating table grounded in martyred Leaders warnings",
+          "domain": "presstv.ir",
+          "date": "20260423T090000Z",
+          "country": "Iran"
+        },
+        {
+          "title": "Trump messaging blitz divides advisers as Iran talks waver",
+          "domain": "moneycontrol.com",
+          "date": "20260424T033000Z",
+          "country": "India"
+        },
+        {
+          "title": "Trump Iran deal may need him to do the unthinkable",
+          "domain": "watoday.com.au",
+          "date": "20260423T233000Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Trump signals possible military action against Iran , says no rush for deal",
+          "domain": "prokerala.com",
+          "date": "20260424T031500Z",
+          "country": "India"
+        },
+        {
+          "title": "President Trump must  give up something  for Iran deal : Zakaria",
+          "domain": "tribune.com.pk",
+          "date": "20260424T224500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Trump Warns Iran : Military Action Possible if Talks Fail",
+          "domain": "newkerala.com",
+          "date": "20260424T060000Z",
+          "country": "India"
+        },
+        {
+          "title": "US Demands Iran Surrender Enriched Uranium Stockpile in Peace",
+          "domain": "dailyk2.com",
+          "date": "20260423T084500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "CNN Zakaria to Trump : make concessions",
+          "domain": "tribune.com.pk",
+          "date": "20260424T224500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Hormuz at Edge - Tests of Diplomacy and Economics",
+          "domain": "dailyexcelsior.com",
+          "date": "20260425T001500Z",
+          "country": "India"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -46,18 +107,6 @@
           "country": "India"
         },
         {
-          "title": "US intercepts three Iranian oil tankers in Asian waters , sources say",
-          "domain": "bworldonline.com",
-          "date": "20260423T034500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "US intercepts three Iranian oil tankers in Asian waters : Report",
-          "domain": "moneycontrol.com",
-          "date": "20260423T040000Z",
-          "country": "India"
-        },
-        {
           "title": "Iran - Iraq Tanker War redux ? Why the Strait of Hormuz crisis is different - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
           "domain": "dominicanrepublicpost.com",
           "date": "20260424T180000Z",
@@ -70,16 +119,28 @@
           "country": "United States"
         },
         {
-          "title": "US intercepts three Iranian oil tankers in Asian waters , sources say",
-          "domain": "straitstimes.com",
-          "date": "20260423T031500Z",
-          "country": "Singapore"
+          "title": "Trump orders Iran mine - layers sunk as Iran tolls tankers",
+          "domain": "geo.tv",
+          "date": "20260423T194500Z",
+          "country": "Pakistan"
         },
         {
-          "title": "US intercepts three Iranian oil tankers in Asian waters , sources say",
-          "domain": "channelnewsasia.com",
-          "date": "20260423T050000Z",
-          "country": "United States"
+          "title": "US intercepts 3 Iranian oil tankers in Asian waters , sources say",
+          "domain": "emirates247.com",
+          "date": "20260423T064500Z",
+          "country": "United Arab Emirates"
+        },
+        {
+          "title": "US - Iran tensions escalate as Trump orders navy to  shoot and kill  in Hormuz",
+          "domain": "tribuneindia.com",
+          "date": "20260423T223000Z",
+          "country": "India"
+        },
+        {
+          "title": "The uncertainty and helplessness is overwhelming , says oil tanker captain stuck in Strait of Hormuz",
+          "domain": "lbc.co.uk",
+          "date": "20260423T160000Z",
+          "country": "United Kingdom"
         }
       ]
     },
@@ -121,24 +182,6 @@
           "country": "Taiwan"
         },
         {
-          "title": "He wanted us to strike : Ex - US top official reveals three presidents rejected Netanyahu Iran war push before Trump agreed",
-          "domain": "aninews.in",
-          "date": "20260423T043000Z",
-          "country": "India"
-        },
-        {
-          "title": "Myanmar considering  good thing for detained Aung San Suu Kyi , Thailand says",
-          "domain": "asiaone.com",
-          "date": "20260423T040000Z",
-          "country": "Singapore"
-        },
-        {
-          "title": "Myanmar considering  good thing for detained Aung San Suu Kyi , Thailand says",
-          "domain": "asiaone.com",
-          "date": "20260423T043000Z",
-          "country": "Singapore"
-        },
-        {
           "title": "US soldier charged with making $400 , 000 on Maduro removal bets",
           "domain": "jpost.com",
           "date": "20260424T024500Z",
@@ -149,6 +192,24 @@
           "domain": "jpost.com",
           "date": "20260424T011500Z",
           "country": "Israel"
+        },
+        {
+          "title": "Myanmar military - backed government imposes martial law in 60 townships",
+          "domain": "thedailystar.net",
+          "date": "20260424T104500Z",
+          "country": "Bangladesh"
+        },
+        {
+          "title": "ASEAN chair urges Myanmar to free more prisoners",
+          "domain": "queanbeyanage.com.au",
+          "date": "20260424T113000Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Luxembourg foreign minister on clash with ousted Hungary leader",
+          "domain": "attitude.co.uk",
+          "date": "20260423T143000Z",
+          "country": "United Kingdom"
         }
       ]
     },
@@ -375,6 +436,18 @@
           "country": "United States"
         },
         {
+          "title": "Savers given  higher for longer  boost - but there  £1 , 700  alert",
+          "domain": "mirror.co.uk",
+          "date": "20260425T041500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Savers given  higher for longer  boost - but there  £1 , 700  alert",
+          "domain": "dailystar.co.uk",
+          "date": "20260425T041500Z",
+          "country": "United Kingdom"
+        },
+        {
           "title": "Japan core inflation stays below BOJ target , energy risks grow",
           "domain": "marketscreener.com",
           "date": "20260424T010000Z",
@@ -385,12 +458,6 @@
           "domain": "investinglive.com",
           "date": "20260424T013000Z",
           "country": ""
-        },
-        {
-          "title": "Singapore core inflation inches up to 1 . 7 % in March ; headline inflation at 1 . 8 %",
-          "domain": "businesstimes.com.sg",
-          "date": "20260423T054500Z",
-          "country": "Singapore"
         },
         {
           "title": "Baystreet . ca - united kingdom Inflation Set to Jump to 3 . 3 % as Iran War Hits Petrol , Airfares , and Rent",
@@ -421,83 +488,16 @@
           "domain": "cityam.com",
           "date": "20260424T103000Z",
           "country": "United Kingdom"
-        },
-        {
-          "title": "No , stocks are not a good inflation hedge : Joachim Klement",
-          "domain": "zawya.com",
-          "date": "20260424T063000Z",
-          "country": "United Arab Emirates"
         }
       ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Bitcoin Prices Above $80K Needed To Confirm Trend Change",
-          "domain": "cointelegraph.com",
-          "date": "20260424T040000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Nears $80 , 000 : Two Scenarios That May Decide Q2 Bulls Or Bears ?",
-          "domain": "newsbtc.com",
-          "date": "20260423T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Price Prediction as BTC Hits $78K Again : Can It Clear $80K ?",
-          "domain": "finance.yahoo.com",
-          "date": "20260424T083000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin ETFs Surpass March Inflow Streak With $1 . 9B",
-          "domain": "cointelegraph.com",
-          "date": "20260423T143000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Buyers Show Renewed Conviction as BTC Tops $79K",
-          "domain": "cointelegraph.com",
-          "date": "20260423T143000Z",
-          "country": "China"
-        },
-        {
-          "title": "Will Bitcoin Fill The $82K CME Gap ? $10B Could Be Liquidated But Bulls May Hate What Follows",
-          "domain": "newsbtc.com",
-          "date": "20260424T231500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Is Existing Exchanges At An Alarming Rate , But How Are BTC Investors Faring In Terms Of Profit ?",
-          "domain": "newsbtc.com",
-          "date": "20260424T231500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Strategy Could Surpass Satoshi Bitcoin Holdings , Says Galaxy Research",
-          "domain": "finance.yahoo.com",
-          "date": "20260425T013000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Taps $78 , 000 , But The Road To $80 , 000 Could Be Even Harder",
-          "domain": "benzinga.com",
-          "date": "20260423T163000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The single chart for bitcoin long term investors shows bulls are fine",
-          "domain": "investinglive.com",
-          "date": "20260423T113000Z",
-          "country": ""
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -555,10 +555,10 @@
           "country": "United States"
         },
         {
-          "title": "Oil Prices : Oil prices today : Crude edges lower after sharp gains as Iran – US tensions keep markets on edge",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260423T041500Z",
-          "country": "India"
+          "title": "1 Canadian Energy Stock That Looks Like a Compelling Buy Right Now",
+          "domain": "fool.ca",
+          "date": "20260425T044500Z",
+          "country": "Canada"
         },
         {
           "title": "The US keeps talking about gas prices but its diesel costs that could impact your life the most",
@@ -709,72 +709,11 @@
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": [
-        {
-          "title": "FanDuel Promo Code : Claim $250 Bonus for Nuggets vs . Timberwolves , NBA Playoff Games Tonight",
-          "domain": "covers.com",
-          "date": "20260423T230000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Knicks vs Hawks LIVE Score Updates in NBA Playoffs Game ( 0 - 0 ) | 04 / 23 / 2026",
-          "domain": "vavel.com",
-          "date": "20260423T234500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Meta Threads is going live with chats for big moments , like the NBA Finals",
-          "domain": "androidcentral.com",
-          "date": "20260423T114500Z",
-          "country": "China"
-        },
-        {
-          "title": "Bucks are finalizing a deal with Taylor Jenkins to take over as coach , AP source says",
-          "domain": "baltimoresun.com",
-          "date": "20260424T021500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Friday NBA Best Bets April 24 NBA Predictions & Picks",
-          "domain": "thespread.com",
-          "date": "20260424T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "NBA Playoffs Power Rankings for the remaining teams",
-          "domain": "thebiglead.com",
-          "date": "20260423T123000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Thursday NBA Best Bets April 23 NBA Predictions & Picks",
-          "domain": "thespread.com",
-          "date": "20260423T151500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Thunder Lose Jalen Williams to Hamstring Injury",
-          "domain": "blazersedge.com",
-          "date": "20260423T221500Z",
-          "country": "United States"
-        },
-        {
-          "title": "FanDuel Promo Code : Claim $250 Bonus for MLB , NBA , and NHL Games on Friday",
-          "domain": "covers.com",
-          "date": "20260424T163000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bucks are finalizing a deal with Taylor Jenkins to take over as coach , AP source says – KTBB News , Weather , Talk",
-          "domain": "ktbb.com",
-          "date": "20260424T020000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
