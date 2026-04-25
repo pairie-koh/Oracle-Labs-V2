@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-25T05:51:37Z",
+  "fetched_at": "2026-04-25T09:00:40Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -16,24 +16,6 @@
       "tonight_low": 43,
       "tonight_forecast": "Rain Showers",
       "hourly": [
-        {
-          "hour": "2026-04-25T01:00:00-04:00",
-          "temp": 51,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-04-25T02:00:00-04:00",
-          "temp": 50,
-          "unit": "F",
-          "short": "Cloudy"
-        },
-        {
-          "hour": "2026-04-25T03:00:00-04:00",
-          "temp": 50,
-          "unit": "F",
-          "short": "Cloudy"
-        },
         {
           "hour": "2026-04-25T04:00:00-04:00",
           "temp": 49,
@@ -155,8 +137,8 @@
           "short": "Rain Showers"
         }
       ],
-      "peak_temp": 51,
-      "peak_hour": "2026-04-25T01:00:00-04:00"
+      "peak_temp": 50,
+      "peak_hour": "2026-04-25T09:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
@@ -165,60 +147,36 @@
       ],
       "today_high": 88,
       "today_high_unit": "F",
-      "today_forecast": "Sunny then Chance Showers And Thunderstorms",
-      "today_detail": "A chance of showers and thunderstorms after 3pm. Sunny, with a high near 88. East wind 1 to 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
-      "wind": "1 to 5 mph",
-      "wind_direction": "E",
+      "today_forecast": "Patchy Fog then Chance Showers And Thunderstorms",
+      "today_detail": "Patchy fog before 9am, then a chance of showers and thunderstorms. Sunny, with a high near 88. Southeast wind around 3 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible.",
+      "wind": "3 mph",
+      "wind_direction": "SE",
       "tonight_low": 62,
-      "tonight_forecast": "Chance Showers And Thunderstorms then Partly Cloudy",
+      "tonight_forecast": "Chance Showers And Thunderstorms then Patchy Fog",
       "hourly": [
-        {
-          "hour": "2026-04-25T01:00:00-04:00",
-          "temp": 65,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-04-25T02:00:00-04:00",
-          "temp": 65,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-04-25T03:00:00-04:00",
-          "temp": 64,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-04-25T04:00:00-04:00",
-          "temp": 62,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
         {
           "hour": "2026-04-25T05:00:00-04:00",
           "temp": 62,
           "unit": "F",
-          "short": "Mostly Clear"
+          "short": "Patchy Fog"
         },
         {
           "hour": "2026-04-25T06:00:00-04:00",
           "temp": 62,
           "unit": "F",
-          "short": "Mostly Sunny"
+          "short": "Patchy Fog"
         },
         {
           "hour": "2026-04-25T07:00:00-04:00",
           "temp": 61,
           "unit": "F",
-          "short": "Sunny"
+          "short": "Patchy Fog"
         },
         {
           "hour": "2026-04-25T08:00:00-04:00",
           "temp": 63,
           "unit": "F",
-          "short": "Sunny"
+          "short": "Patchy Fog"
         },
         {
           "hour": "2026-04-25T09:00:00-04:00",
@@ -258,7 +216,7 @@
         },
         {
           "hour": "2026-04-25T15:00:00-04:00",
-          "temp": 86,
+          "temp": 87,
           "unit": "F",
           "short": "Slight Chance Showers And Thunderstorms"
         },
@@ -266,17 +224,17 @@
           "hour": "2026-04-25T16:00:00-04:00",
           "temp": 86,
           "unit": "F",
-          "short": "Chance Showers And Thunderstorms"
+          "short": "Slight Chance Showers And Thunderstorms"
         },
         {
           "hour": "2026-04-25T17:00:00-04:00",
-          "temp": 87,
+          "temp": 86,
           "unit": "F",
           "short": "Chance Showers And Thunderstorms"
         },
         {
           "hour": "2026-04-25T18:00:00-04:00",
-          "temp": 84,
+          "temp": 83,
           "unit": "F",
           "short": "Chance Showers And Thunderstorms"
         },
@@ -290,17 +248,17 @@
           "hour": "2026-04-25T20:00:00-04:00",
           "temp": 77,
           "unit": "F",
-          "short": "Mostly Cloudy"
+          "short": "Slight Chance Showers And Thunderstorms"
         },
         {
           "hour": "2026-04-25T21:00:00-04:00",
-          "temp": 73,
+          "temp": 72,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-04-25T22:00:00-04:00",
-          "temp": 70,
+          "temp": 71,
           "unit": "F",
           "short": "Partly Cloudy"
         },
@@ -312,7 +270,7 @@
         }
       ],
       "peak_temp": 87,
-      "peak_hour": "2026-04-25T17:00:00-04:00"
+      "peak_hour": "2026-04-25T15:00:00-04:00"
     }
   }
 }

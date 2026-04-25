@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-04-25T05:51:34Z",
+  "fetched_at": "2026-04-25T09:00:37Z",
   "source": "Hyperliquid perpetual futures (24/7)",
   "prices": {
     "BTC": {
-      "price": 77487.5,
+      "price": 77609.5,
       "label": "Bitcoin",
       "coin": "BTC",
       "relevant_to": [
@@ -13,23 +13,23 @@
       "daily_open": 77402.0,
       "daily_high": 77679.0,
       "daily_low": 77273.0,
-      "intraday_pct_change": 0.11,
+      "intraday_pct_change": 0.27,
       "intraday_direction": "UP"
     },
     "ETH": {
-      "price": 2314.15,
+      "price": 2319.05,
       "label": "Ethereum",
       "coin": "ETH",
       "relevant_to": []
     },
     "SOL": {
-      "price": 86.1595,
+      "price": 86.5695,
       "label": "Solana",
       "coin": "SOL",
       "relevant_to": []
     },
     "OIL": {
-      "price": 95.193,
+      "price": 94.963,
       "label": "WTI Crude Oil",
       "coin": "xyz:CL",
       "relevant_to": [
@@ -38,12 +38,18 @@
       ]
     },
     "SP500": {
-      "price": 7134.4,
+      "price": 7138.6,
       "label": "S&P 500",
       "coin": "xyz:SP500",
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ]
+    },
+    "GOLD": {
+      "price": 4712.9,
+      "label": "Gold",
+      "coin": "xyz:GOLD",
+      "relevant_to": []
     }
   }
 }
