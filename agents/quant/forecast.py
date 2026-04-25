@@ -30,11 +30,11 @@ from constants import MARKETS, PRICE_CSV, FORECAST_HORIZONS
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.32.0"
+METHODOLOGY_VERSION = "1.33.0"
 
 MOMENTUM_LOOKBACK = 6       # number of recent price points for momentum (linear slope)
 REVERSION_LOOKBACK = 24     # number of recent price points for long-term mean
-BASE_MOMENTUM_BLEND = 0.2   # reduced from 0.5: favor mean reversion in falling regime
+BASE_MOMENTUM_BLEND = 0.7   # increased from 0.2: favor momentum in trending regime
 NEWS_FEATURE_WEIGHT = 0.0   # zeroed: news was anti-predictive (escalation bias in stable market)
 
 SOURCE_WEIGHTS = {
