@@ -1,17 +1,78 @@
 {
-  "fetched_at": "2026-04-26T03:37:30Z",
+  "fetched_at": "2026-04-26T06:18:27Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Trump Says Iran Preparing Proposal as US , Iranian Envoys Head to Pakistan Talks",
+          "domain": "khaama.com",
+          "date": "20260425T080000Z",
+          "country": "Afghanistan"
+        },
+        {
+          "title": "Promises , pressure , pullout : Why US nuclear talks with Iran were never about a deal",
+          "domain": "presstv.ir",
+          "date": "20260424T103000Z",
+          "country": "Iran"
+        },
+        {
+          "title": "The exits America ignored : Why Islamabad is the last chance",
+          "domain": "pakobserver.net",
+          "date": "20260426T051500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Aborted Pakistan trip leaves Trump with tough choices on Iran talks",
+          "domain": "livemint.com",
+          "date": "20260426T044500Z",
+          "country": "India"
+        },
+        {
+          "title": "Can Trump secure a deal  far better  than the 2015 Iran nuclear deal ?",
+          "domain": "washingtonexaminer.com",
+          "date": "20260425T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "President Trump must  give up something  for Iran deal : Zakaria",
+          "domain": "tribune.com.pk",
+          "date": "20260424T224500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "CNN Zakaria to Trump : make concessions",
+          "domain": "tribune.com.pk",
+          "date": "20260424T224500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Hormuz at Edge - Tests of Diplomacy and Economics",
+          "domain": "dailyexcelsior.com",
+          "date": "20260425T001500Z",
+          "country": "India"
+        },
+        {
+          "title": "US Iran war LIVE updates : Trump calls off envoy Pak visit , says Tehran  offered a lot but not enough",
+          "domain": "hindustantimes.com",
+          "date": "20260426T040000Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran war : What happening on day 57 as US envoys head to Pakistan ? - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+          "domain": "dominicanrepublicpost.com",
+          "date": "20260425T043000Z",
+          "country": "United States"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -76,9 +137,9 @@
           "country": "United States"
         },
         {
-          "title": "World News : US  intercepts three Iranian oil tankers in Asian waters",
-          "domain": "gdnonline.com",
-          "date": "20260424T051500Z",
+          "title": "Oil tanker captain continues sailing near Strait of Hormuz | National News",
+          "domain": "wbkb11.com",
+          "date": "20260426T040000Z",
           "country": "United States"
         }
       ]
@@ -145,10 +206,10 @@
           "country": "Australia"
         },
         {
-          "title": "Resign as PM on May 4 : TMC Derek OBrien challenges Modi as West Bengal logs record turnout",
-          "domain": "moneycontrol.com",
-          "date": "20260424T060000Z",
-          "country": "India"
+          "title": "Greens leader calls on PM to resign",
+          "domain": "yle.fi",
+          "date": "20260425T151500Z",
+          "country": "Finland"
         }
       ]
     },
@@ -245,6 +306,18 @@
           "country": "United States"
         },
         {
+          "title": "What To Expect From The Federal Reserve Meeting Wednesday",
+          "domain": "finance.yahoo.com",
+          "date": "20260426T050000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US Fed set to hold rates steady again on cost hikes from Iran war",
+          "domain": "moneycontrol.com",
+          "date": "20260426T051500Z",
+          "country": "India"
+        },
+        {
           "title": "DOJ investigation into Jerome Powell dropped ahead of Fed chair transition",
           "domain": "10news.com",
           "date": "20260424T194500Z",
@@ -285,18 +358,6 @@
           "domain": "12news.com",
           "date": "20260424T174500Z",
           "country": "United States"
-        },
-        {
-          "title": "Justice Department drops criminal probe of Federal Reserve chair Jerome Powell",
-          "domain": "wusa9.com",
-          "date": "20260424T173000Z",
-          "country": "United States"
-        },
-        {
-          "title": "U . S . DOJ drops criminal probe into Federal Reserve chair Jerome Powell - National",
-          "domain": "globalnews.ca",
-          "date": "20260424T170000Z",
-          "country": "Canada"
         }
       ]
     },
@@ -332,12 +393,6 @@
           "country": "Canada"
         },
         {
-          "title": "NZ inflation still above threshold",
-          "domain": "ragtrader.com.au",
-          "date": "20260424T060000Z",
-          "country": "Australia"
-        },
-        {
           "title": "Bank of England : Firms are bracing for price rises and job cuts",
           "domain": "cityam.com",
           "date": "20260424T103000Z",
@@ -366,85 +421,91 @@
           "domain": "finance.yahoo.com",
           "date": "20260425T160000Z",
           "country": "United States"
+        },
+        {
+          "title": "Americans Largely Blame Trump Over Gas Price Surge As Election - Year Pressure Builds , Poll Shows",
+          "domain": "ibtimes.com",
+          "date": "20260424T190000Z",
+          "country": "United States"
         }
       ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Bitcoin Prices Above $80K Needed To Confirm Trend Change",
-          "domain": "cointelegraph.com",
-          "date": "20260424T040000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Price Prediction as BTC Hits $78K Again : Can It Clear $80K ?",
-          "domain": "finance.yahoo.com",
-          "date": "20260424T083000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why investors are flocking to BlackRock bitcoin options to hedge against a wild global economy",
-          "domain": "coindesk.com",
-          "date": "20260425T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Crypto Has Another Positive Week As Investor Sentiment Improves",
-          "domain": "finance.yahoo.com",
-          "date": "20260426T030000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin BTC USD rally April 2026 reason explained : Bitcoin price ( BTC USD ) nears $80 , 000 : How ETF inflows and Michael Saylor Strategy are driving the crypto rally - here what traders need to know",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260425T153000Z",
-          "country": "India"
-        },
-        {
-          "title": "Bitcoin ETFs See Best Streak Since October As Inflows Hit $2 . 4B",
-          "domain": "newsbtc.com",
-          "date": "20260425T083000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Whales  Accumulating Rapidly  As BTC Climbs To $80K : Santiment",
-          "domain": "cointelegraph.com",
-          "date": "20260425T031500Z",
-          "country": "China"
-        },
-        {
-          "title": "Will Bitcoin Fill The $82K CME Gap ? $10B Could Be Liquidated But Bulls May Hate What Follows",
-          "domain": "newsbtc.com",
-          "date": "20260424T231500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Is Existing Exchanges At An Alarming Rate , But How Are BTC Investors Faring In Terms Of Profit ?",
-          "domain": "newsbtc.com",
-          "date": "20260424T231500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Strategy Could Surpass Satoshi Bitcoin Holdings , Says Galaxy Research",
-          "domain": "finance.yahoo.com",
-          "date": "20260425T013000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "AAA Gas Check : Bit of relief at the pump as national average goes down",
+          "domain": "yumasun.com",
+          "date": "20260424T080000Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Canadian Energy Dividend Stocks Worth Watching Right Now",
+          "domain": "fool.ca",
+          "date": "20260425T004500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Why the oil market hasnt seen the Iran war doomsday scenario that experts warned about",
+          "domain": "finance.yahoo.com",
+          "date": "20260425T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "1 Canadian Energy Stock That Looks Like a Compelling Buy Right Now",
+          "domain": "fool.ca",
+          "date": "20260425T044500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "FinancialContent - APA Corporation ( APA ) Stock Trades Down , Here Is Why",
+          "domain": "markets.financialcontent.com",
+          "date": "20260424T190000Z",
+          "country": "United States"
+        },
+        {
+          "title": "CPC to leave domestic gasoline , diesel prices steady for next week",
+          "domain": "focustaiwan.tw",
+          "date": "20260425T093000Z",
+          "country": "Taiwan"
+        },
+        {
+          "title": "CPC to leave domestic gasoline , diesel prices steady for next week",
+          "domain": "focustaiwan.tw",
+          "date": "20260425T093000Z",
+          "country": "Taiwan"
+        },
+        {
+          "title": "Trump Says He Expected Oil to Spike to $200 . Here Why It Hasnt .",
+          "domain": "businessinsider.com",
+          "date": "20260425T100000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Crude oil prices rise again",
+          "domain": "srilankamirror.com",
+          "date": "20260424T073000Z",
+          "country": "Sri Lanka"
+        },
+        {
+          "title": "Americans Largely Blame Trump Over Gas Price Surge As Election - Year Pressure Builds , Poll Shows",
+          "domain": "ibtimes.com",
+          "date": "20260424T190000Z",
+          "country": "United States"
+        }
+      ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -518,72 +579,11 @@
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "US says Iran can play in Fifa World Cup but IRGC - linked individuals wont be allowed",
-          "domain": "geo.tv",
-          "date": "20260424T100000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Meet the 4 World Cup debut teams reshaping the 2026 tournament",
-          "domain": "fox5atlanta.com",
-          "date": "20260425T171500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Meet the 4 World Cup debut teams reshaping the 2026 tournament",
-          "domain": "fox2detroit.com",
-          "date": "20260425T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Meet the 4 World Cup debut teams reshaping the 2026 tournament",
-          "domain": "fox5dc.com",
-          "date": "20260424T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Manuel Neuer triggers hope for another year in Bayern",
-          "domain": "china.org.cn",
-          "date": "20260424T034500Z",
-          "country": "China"
-        },
-        {
-          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
-          "domain": "fox5atlanta.com",
-          "date": "20260425T171500Z",
-          "country": "United States"
-        },
-        {
-          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
-          "domain": "fox2detroit.com",
-          "date": "20260425T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
-          "domain": "fox13news.com",
-          "date": "20260425T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
-          "domain": "fox9.com",
-          "date": "20260425T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
-          "domain": "fox5dc.com",
-          "date": "20260424T144500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -656,12 +656,73 @@
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "ChatGPT GPT - 5 . 5 vs Claude Opus 4 . 7 vs Gemini 3 . 1 Pro : How does OpenAI latest model compare against rivals ?",
+          "domain": "livemint.com",
+          "date": "20260426T044500Z",
+          "country": "India"
+        },
+        {
+          "title": "DeepSeek is back : China AI claims to surpass ChatGPT and Gemini in key benchmarks",
+          "domain": "livemint.com",
+          "date": "20260424T063000Z",
+          "country": "India"
+        },
+        {
+          "title": "DeepSeek V4 is here : How it compares to ChatGPT , Claude , Gemini",
+          "domain": "mashable.com",
+          "date": "20260424T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "DeepSeek V4 Is Here Its Pro Version Costs 98 % Less Than GPT 5 . 5 Pro",
+          "domain": "tech.yahoo.com",
+          "date": "20260424T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gpt 5 . 5 Looks Stronger on Benchmarks , but GPT - 5 . 5 Still Faces a Deeper Test",
+          "domain": "el-balad.com",
+          "date": "20260425T100000Z",
+          "country": "Egypt"
+        },
+        {
+          "title": "China DeepSeek rolls out a long - anticipated update of its AI model",
+          "domain": "tech.yahoo.com",
+          "date": "20260426T024500Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI Releases GPT - 5 . 5 : Chatgpt New Capabilities with  Agentic & Omnimodal  Intelligence",
+          "domain": "en.liputan6.com",
+          "date": "20260425T021500Z",
+          "country": "Indonesia"
+        },
+        {
+          "title": "BT Explainer : OpenAI GPT 5 . 5 brings autonomy into focus , takes on Anthropic Mythos",
+          "domain": "businesstoday.in",
+          "date": "20260424T083000Z",
+          "country": "India"
+        },
+        {
+          "title": "China DeepSeek rolls out a long - anticipated update of its AI model",
+          "domain": "baltimoresun.com",
+          "date": "20260424T213000Z",
+          "country": "United States"
+        },
+        {
+          "title": "China DeepSeek rolls out a long - anticipated update of its AI model",
+          "domain": "ksat.com",
+          "date": "20260424T173000Z",
+          "country": "United States"
+        }
+      ]
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
