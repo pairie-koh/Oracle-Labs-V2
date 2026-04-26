@@ -27,7 +27,7 @@ LIVE_DELAY = 0.03
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.33.0"
+METHODOLOGY_VERSION = "1.34.0"
 
 # Actor profiles: each source category has an escalation bias and credibility score
 ACTORS = {
@@ -45,7 +45,7 @@ ACTORS = {
 # Signal weights by confidence level
 SIGNAL_WEIGHTS = {"high": 1.0, "medium": 0.5, "low": 0.2}
 
-ESCALATION_SENSITIVITY = 0.01      # how much each unit of net signal moves the forecast
+ESCALATION_SENSITIVITY = 0.005     # how much each unit of net signal moves the forecast
 COSTLY_SIGNAL_BONUS = 1.2       # multiplier for signals against speaker's bias
 CONSENSUS_HIGH_THRESHOLD = 0.8  # above this, scale sensitivity up
 CONSENSUS_LOW_THRESHOLD = 0.6   # below this, scale sensitivity down
