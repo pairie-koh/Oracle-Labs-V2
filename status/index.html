@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 25 11:11 PM PT</strong> (10m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (103m)</span>
-            <span>Scored: <strong>636</strong> predictions | Logged: <strong>852</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 26 02:08 AM PT</strong> (9m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (167m)</span>
+            <span>Scored: <strong>639</strong> predictions | Logged: <strong>855</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(38d 3h ago)</span>
+            <span class="dim">(38d 6h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-25
+                    <div class="iter-text"># momentum — 2026-04-26
 
-Version: 1.32.0 -&gt; 1.33.0
+Version: 1.33.0 -&gt; 1.34.0
 
-I&#x27;m inverting the blend logic in the sigmoid calculation. Currently high news intensity favors momentum and low intensity favors reversion, but my terrible directional accuracy (23.75%) suggests this is backwards. I&#x27;m changing it so high news intensity uses reversion (contrarian approach during high news flow) and low news intensity uses momentum (trend-following during quiet periods). This counterintuitive change may help correct the consistently wrong directional predictions.</div>
+I&#x27;m fixing the inverted sigmoid logic that was causing terrible directional accuracy. Previously, high news intensity was triggering reversion mode when it should trigger momentum mode. The sigmoid blend was backwards - when there&#x27;s lots of news (high intensity), markets should exhibit momentum as information gets incorporated, not revert to equilibrium. I&#x27;ve removed the inversion so that high news intensity now properly triggers momentum mode and low news intensity triggers reversion mode.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-25
+                    <div class="iter-text"># historian — 2026-04-26
 
-Version: 1.31.0 -&gt; 1.32.0
+Version: 1.32.0 -&gt; 1.33.0
 
-The current MSE (0.00056729) is significantly higher than the naive baseline (0.00027887), indicating the model is fighting genuine price movements too aggressively. The reversion rate of 0.04 appears too strong, causing excessive pulls toward the historical base rate. I&#x27;m reducing REVERSION_RATE from 0.04 to 0.025 to allow for more natural price evolution while maintaining some mean reversion. This should reduce the MSE by making smaller, less disruptive adjustments to current prices.</div>
+I&#x27;m reducing the REVERSION_RATE from 0.025 to 0.015 because my current MSE is double the naive baseline, indicating I&#x27;m fighting market trends too aggressively. While my directional accuracy on 24h forecasts is 100%, my magnitude adjustments are too large. A gentler reversion rate should allow me to capture genuine price movements while still providing mean reversion value during stable periods.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-25
+                    <div class="iter-text"># game_theorist — 2026-04-26
 
-Version: 1.32.0 -&gt; 1.33.0
+Version: 1.33.0 -&gt; 1.34.0
 
-The current ESCALATION_SENSITIVITY of 0.0001 is far too low, causing predictions to barely differ from current prices. This explains the poor MSE performance (319x worse than naive baseline) and terrible directional accuracy (26%). I&#x27;m increasing ESCALATION_SENSITIVITY from 0.0001 to 0.01 (100x increase) to make the model more responsive to signals and generate meaningful predictions that can capture actual market movements rather than just returning near-current prices.</div>
+My MSE is 316 times worse than the naive baseline, indicating my signal processing is adding harmful noise rather than value. The escalation sensitivity of 0.01 is still causing too much movement from potentially noisy signals. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.01 to 0.005 to make smaller, more conservative adjustments and get closer to the baseline performance before making other refinements.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-25
+                    <div class="iter-text"># quant — 2026-04-26
 
-Version: 1.32.0 -&gt; 1.33.0
+Version: 1.33.0 -&gt; 1.34.0
 
-The model is showing terrible directional accuracy (8.24%) which is worse than random chance, suggesting systematic bias. The current heavy bias toward mean reversion (BASE_MOMENTUM_BLEND = 0.2) may be fighting against a trending market. I&#x27;m increasing the momentum blend from 0.2 to 0.7 to give much more weight to momentum signals and less to mean reversion, which should help capture directional trends better in what appears to be a trending &quot;regime_fall&quot; environment.</div>
+I&#x27;m drastically reducing the momentum coefficient from 0.0001 to 0.00001 (10x smaller) to make predictions much more conservative and closer to the current price. The current approach is clearly overshooting with directional accuracy of only 8.24% and MSE much worse than naive baseline. By making much smaller adjustments from the current price, I should get closer to the naive baseline performance while still incorporating some statistical signal. This represents a fundamental shift toward more conservative, incremental predictions rather than attempting larger moves that are consistently wrong.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -250,7 +250,7 @@ The model is showing terrible directional accuracy (8.24%) which is worse than r
                 </div>
                 <div class="price-changes">
                     4h: <span class="">+0.0000</span>
-                    &nbsp; 24h: <span class="up">+0.0100</span>
+                    &nbsp; 24h: <span class="">+0.0000</span>
                 </div>
                 
                 <div class="forecast-row">
@@ -287,12 +287,12 @@ The model is showing terrible directional accuracy (8.24%) which is worse than r
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.33.0</span>
+            <span class="dim">v1.34.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 25 11:21 PM PT (prev: Apr 25 08:51 PM PT)</div>
+        <div class="analysis-time dim">Apr 26 02:17 AM PT (prev: Apr 25 11:21 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,24 +303,24 @@ The model is showing terrible directional accuracy (8.24%) which is worse than r
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.32.0</span>
+            <span class="dim">v1.33.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 25 11:21 PM PT (prev: Apr 25 08:51 PM PT)</div>
+        <div class="analysis-time dim">Apr 26 02:17 AM PT (prev: Apr 25 11:21 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.33.0</span>
+            <span class="dim">v1.34.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 25 11:21 PM PT (prev: Apr 25 08:51 PM PT)</div>
+        <div class="analysis-time dim">Apr 26 02:17 AM PT (prev: Apr 25 11:21 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
@@ -343,20 +343,20 @@ The model is showing terrible directional accuracy (8.24%) which is worse than r
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,27.5 60.0,24.7 90.0,21.6 120.0,28.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.000000</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,27.6 30.0,25.3 60.0,22.8 90.0,28.0 120.0,2.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.002429</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,16.1 60.0,28.0 90.0,13.3 120.0,27.1" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="27.1" r="3" fill="#3498db" /></svg></span>
-            <span class="trend-val">0.000001</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,7.0 30.0,28.0 60.0,2.0 90.0,26.5 120.0,16.9" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="16.9" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.000010</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,3.5 30.0,25.3 60.0,18.9 90.0,2.0 120.0,28.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#f39c12" /></svg></span>
-            <span class="trend-val">0.000004</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,27.9 30.0,27.5 60.0,26.6 90.0,28.0 120.0,2.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.001296</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -374,7 +374,7 @@ The model is showing terrible directional accuracy (8.24%) which is worse than r
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
             <span class="pnl-val down">$-24</span>
-            <span class="dim">24W/63L (87 trades)</span>
+            <span class="dim">24W/64L (88 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#3498db"></span>
@@ -386,7 +386,7 @@ The model is showing terrible directional accuracy (8.24%) which is worse than r
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
             <span class="pnl-val down">$-56</span>
-            <span class="dim">36W/92L (128 trades)</span>
+            <span class="dim">36W/93L (129 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -400,11 +400,11 @@ The model is showing terrible directional accuracy (8.24%) which is worse than r
         <h2>Newswire</h2>
         
             <div class="news-summary">
-                <strong>22</strong> facts:
-                <span class="esc">15 escalatory</span>,
-                <span class="deesc">5 de-escalatory</span>,
-                2 neutral
-            </div><div class="fact"><span class="dim">[succession_dynamics]</span> Mohammad Bagher Ghalibaf, head of Iran&#x27;s negotiating team with the United States, stepped down amid </div><div class="fact"><span class="dim">[military_pressure]</span> The US has widened its naval blockade of Iranian ports, deploying multiple aircraft carriers and con</div><div class="fact"><span class="dim">[military_pressure]</span> US military planners have considered targeting individual Iranian leaders, such as IRGC commander-in</div>
+                <strong>23</strong> facts:
+                <span class="esc">19 escalatory</span>,
+                <span class="deesc">3 de-escalatory</span>,
+                1 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> The U.S. maintains a naval blockade of Iranian ports near the Strait of Hormuz, with Secretary of Wa</div><div class="fact"><span class="dim">[military_pressure]</span> U.S. CENTCOM reported directing 34 vessels to turn around to Iranian ports since the blockade&#x27;s star</div><div class="fact"><span class="dim">[military_pressure]</span> U.S. forces intercepted and boarded another vessel linked to Iran in the Strait of Hormuz region.</div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ The model is showing terrible directional accuracy (8.24%) which is worse than r
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Iran faces intensifying multi-front crisis with active military confrontation (Isfahan strikes, naval seizures, ~3,300 war deaths), severe internal fractures exposed by Ghalibaf&#x27;s resignation and secr</div>
-                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: high</span><span class="indicator level-high">international response: high</span></div>
+                <div class="state-status">Iran faces an escalating military and economic siege with a U.S. naval blockade (34+ vessels redirected) and Iranian counter-closure of the Strait of Hormuz, while internal fractures deepen as civil o</div>
+                <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: critical</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: high</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-25 11:21 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-26 02:17 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
