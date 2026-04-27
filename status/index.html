@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 26 11:32 PM PT</strong> (7m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (84m)</span>
-            <span>Scored: <strong>654</strong> predictions | Logged: <strong>870</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 27 03:22 AM PT</strong> (6m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (95m)</span>
+            <span>Scored: <strong>657</strong> predictions | Logged: <strong>873</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(39d 4h ago)</span>
+            <span class="dim">(39d 7h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-26
+                    <div class="iter-text"># momentum — 2026-04-27
 
-Version: 1.33.0 -&gt; 1.34.0
+Version: 1.34.0 -&gt; 1.35.0
 
-I&#x27;m fixing the inverted sigmoid logic that was causing terrible directional accuracy. Previously, high news intensity was triggering reversion mode when it should trigger momentum mode. The sigmoid blend was backwards - when there&#x27;s lots of news (high intensity), markets should exhibit momentum as information gets incorporated, not revert to equilibrium. I&#x27;ve removed the inversion so that high news intensity now properly triggers momentum mode and low news intensity triggers reversion mode.</div>
+The agent&#x27;s directional accuracy is catastrophically low at 23.69%, indicating the momentum logic is too aggressive and consistently wrong. I&#x27;m reducing MOMENTUM_WEIGHT from 0.7 to 0.3 to make predictions more conservative and closer to current prices. This should help improve directional accuracy by reducing the magnitude of predictions that are going in the wrong direction. The MSE is also 10x worse than baseline, so more conservative predictions should help bring this closer to the naive baseline performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-26
+                    <div class="iter-text"># historian — 2026-04-27
 
-Version: 1.32.0 -&gt; 1.33.0
+Version: 1.33.0 -&gt; 1.34.0
 
-I&#x27;m reducing the REVERSION_RATE from 0.025 to 0.015 because my current MSE is double the naive baseline, indicating I&#x27;m fighting market trends too aggressively. While my directional accuracy on 24h forecasts is 100%, my magnitude adjustments are too large. A gentler reversion rate should allow me to capture genuine price movements while still providing mean reversion value during stable periods.</div>
+Increased NEWS_SENSITIVITY from 0.015 to 0.025 to make the historian more responsive to news signals. The current performance shows I&#x27;m fighting market trends too aggressively with overly conservative parameters. By increasing sensitivity to escalation/de-escalation indicators while maintaining the same reversion rate, I should better capture directional moves while still providing the mean-reversion perspective that defines my approach.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-26
+                    <div class="iter-text"># game_theorist — 2026-04-27
 
-Version: 1.33.0 -&gt; 1.34.0
+Version: 1.34.0 -&gt; 1.35.0
 
-My MSE is 316 times worse than the naive baseline, indicating my signal processing is adding harmful noise rather than value. The escalation sensitivity of 0.01 is still causing too much movement from potentially noisy signals. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.01 to 0.005 to make smaller, more conservative adjustments and get closer to the baseline performance before making other refinements.</div>
+The agent is performing dramatically worse than the naive baseline (324x higher MSE) and has terrible directional accuracy of 25.92%. The core issue is overshooting on predictions due to excessive sensitivity to signals. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.005 to 0.002 (60% reduction) to make smaller, more conservative moves away from current prices. This should help reduce the massive MSE while potentially improving directional accuracy by making more measured adjustments based on the costly signaling framework.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-26
+                    <div class="iter-text"># quant — 2026-04-27
 
-Version: 1.33.0 -&gt; 1.34.0
+Version: 1.34.0 -&gt; 1.35.0
 
-I&#x27;m drastically reducing the momentum coefficient from 0.0001 to 0.00001 (10x smaller) to make predictions much more conservative and closer to the current price. The current approach is clearly overshooting with directional accuracy of only 8.24% and MSE much worse than naive baseline. By making much smaller adjustments from the current price, I should get closer to the naive baseline performance while still incorporating some statistical signal. This represents a fundamental shift toward more conservative, incremental predictions rather than attempting larger moves that are consistently wrong.</div>
+The current momentum-based approach is failing catastrophically with only 8.24% directional accuracy, performing 3.5x worse than the naive baseline. I&#x27;m reversing the momentum signal by making the momentum coefficient negative (-0.00001 instead of +0.00001), which will make the model predict moves opposite to recent trends. This addresses the systematic bias that&#x27;s causing such poor performance across all metrics. The change tests whether recent price momentum is actually a contrarian signal in this market regime.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -287,12 +287,12 @@ I&#x27;m drastically reducing the momentum coefficient from 0.0001 to 0.00001 (1
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.34.0</span>
+            <span class="dim">v1.35.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 26 11:40 PM PT (prev: Apr 26 08:57 PM PT)</div>
+        <div class="analysis-time dim">Apr 27 03:29 AM PT (prev: Apr 26 11:40 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,24 +303,24 @@ I&#x27;m drastically reducing the momentum coefficient from 0.0001 to 0.00001 (1
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.33.0</span>
+            <span class="dim">v1.34.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 26 11:40 PM PT (prev: Apr 26 08:57 PM PT)</div>
+        <div class="analysis-time dim">Apr 27 03:29 AM PT (prev: Apr 26 11:40 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.34.0</span>
+            <span class="dim">v1.35.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 26 11:40 PM PT (prev: Apr 26 08:57 PM PT)</div>
+        <div class="analysis-time dim">Apr 27 03:29 AM PT (prev: Apr 26 11:40 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
@@ -343,20 +343,20 @@ I&#x27;m drastically reducing the momentum coefficient from 0.0001 to 0.00001 (1
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,15.5 60.0,24.9 90.0,17.0 120.0,28.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.000162</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,7.9 30.0,23.1 60.0,10.3 90.0,28.0 120.0,2.0" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="2.0" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.001573</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,12.9 60.0,12.0 90.0,11.7 120.0,28.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#3498db" /></svg></span>
-            <span class="trend-val">0.000002</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,3.9 30.0,2.5 60.0,2.0 90.0,28.0 120.0,9.8" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="9.8" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-val">0.000005</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,28.0 30.0,15.5 60.0,2.0 90.0,15.8 120.0,22.7" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="22.7" r="3" fill="#f39c12" /></svg></span>
-            <span class="trend-val">0.030276</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,18.9 30.0,2.0 60.0,19.4 90.0,28.0 120.0,7.9" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="7.9" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-val">0.117580</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -374,7 +374,7 @@ I&#x27;m drastically reducing the momentum coefficient from 0.0001 to 0.00001 (1
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
             <span class="pnl-val down">$-24</span>
-            <span class="dim">24W/68L (92 trades)</span>
+            <span class="dim">24W/69L (93 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#3498db"></span>
@@ -386,7 +386,7 @@ I&#x27;m drastically reducing the momentum coefficient from 0.0001 to 0.00001 (1
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
             <span class="pnl-val down">$-56</span>
-            <span class="dim">36W/98L (134 trades)</span>
+            <span class="dim">36W/99L (135 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -417,7 +417,7 @@ I&#x27;m drastically reducing the momentum coefficient from 0.0001 to 0.00001 (1
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-26 11:40 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-27 03:29 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>

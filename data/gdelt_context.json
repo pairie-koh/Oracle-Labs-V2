@@ -1,156 +1,95 @@
 {
-  "fetched_at": "2026-04-27T06:40:33Z",
+  "fetched_at": "2026-04-27T10:29:24Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Nukes , Hormuz and frozen billions : Why Iran is refusing Trump deal for now",
+          "domain": "moneycontrol.com",
+          "date": "20260426T070000Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran wont negotiate under pressure , says President Pezeshkian",
+          "domain": "aninews.in",
+          "date": "20260426T064500Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran wont negotiate under pressure , says President Pezeshkian",
+          "domain": "news.webindia123.com",
+          "date": "20260426T071500Z",
+          "country": "India"
+        },
+        {
+          "title": "Turkey FM Holds Calls With Iran , Pakistan on U . S .- Iran Talks",
+          "domain": "khaama.com",
+          "date": "20260427T080000Z",
+          "country": "Afghanistan"
+        },
+        {
+          "title": "Iran Wont Negotiate Under Pressure : Pezeshkian",
+          "domain": "newkerala.com",
+          "date": "20260426T060000Z",
+          "country": "India"
+        },
+        {
+          "title": "US - Iran war : Tehran reportedly offers deal to US to reopen Strait of Hormuz and delay nuclear talks",
+          "domain": "brisbanetimes.com.au",
+          "date": "20260427T083000Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Iran Araghchi visits Russia as talks with US on hold",
+          "domain": "dw.com",
+          "date": "20260427T063000Z",
+          "country": "Germany"
+        },
+        {
+          "title": "Iran offers deal to break deadlock with US Axios",
+          "domain": "batonrougepost.com",
+          "date": "20260427T094500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran offers deal to break deadlock with US Axios",
+          "domain": "bignewsnetwork.com",
+          "date": "20260427T093000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Can Trump secure a deal  far better  than the 2015 Iran nuclear deal ?",
+          "domain": "washingtonexaminer.com",
+          "date": "20260425T131500Z",
+          "country": "United States"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": [
-        {
-          "title": "Strait of Hormuz Shipping Crisis Deepens as Traffic Plunges Amid Iran - U . S . Tensions",
-          "domain": "econotimes.com",
-          "date": "20260427T033000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oil Prices : Oil prices today : Crude jumps nearly 2 % as US - Iran talks stall , Hormuz disruptions tighten supply",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260427T040000Z",
-          "country": "India"
-        },
-        {
-          "title": "Only five ships pass through Strait of Hormuz in 24 hours",
-          "domain": "graphic.com.gh",
-          "date": "20260425T150000Z",
-          "country": "Ghana"
-        },
-        {
-          "title": "Shadow Fleet Escalation : Why the Indian Ocean Seizure Changes the Maritime Fight",
-          "domain": "el-balad.com",
-          "date": "20260426T010000Z",
-          "country": "Egypt"
-        },
-        {
-          "title": "Oil Climbs Nearly 2 % as US - Iran Peace Talks Stall",
-          "domain": "english.aawsat.com",
-          "date": "20260427T053000Z",
-          "country": "Syria"
-        },
-        {
-          "title": "U . S . Military Reportedly Drawing Up Plans To Strike Strait Of Hormuz Defenses If Ceasefire Collapses",
-          "domain": "ibtimes.com",
-          "date": "20260425T151500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oil climbs nearly 2 % as US - Iran peace talks stall",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260427T013000Z",
-          "country": "India"
-        },
-        {
-          "title": "Oil climbs nearly 2 % as US - Iran peace talks stall",
-          "domain": "asiaone.com",
-          "date": "20260427T013000Z",
-          "country": "Singapore"
-        },
-        {
-          "title": "Shipping Tribune",
-          "domain": "shippingtribune.com",
-          "date": "20260425T120000Z",
-          "country": "India"
-        },
-        {
-          "title": "Russian oligarch $500M yacht gets Iran pass as Hormuz traffic is choked",
-          "domain": "ynetnews.com",
-          "date": "20260425T204500Z",
-          "country": "Israel"
-        }
-      ]
+      "headlines": []
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Syria opens trials against Assad - era figures",
-          "domain": "hurriyetdailynews.com",
-          "date": "20260426T133000Z",
-          "country": "Turkey"
-        },
-        {
-          "title": "John Downing : Will Bulgaria new prime minister Rumen Radev step in to Viktor Orban  awkward squad  role ?",
-          "domain": "independent.ie",
-          "date": "20260426T073000Z",
-          "country": "Ireland"
-        },
-        {
-          "title": "Syria new government opens public trial of former Assad regime official",
-          "domain": "jpost.com",
-          "date": "20260426T150000Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Greens leader calls on PM to resign",
-          "domain": "yle.fi",
-          "date": "20260425T151500Z",
-          "country": "Finland"
-        },
-        {
-          "title": "Rule by Secrecy – How Covert Regime Change Shaped Our World",
-          "domain": "original.antiwar.com",
-          "date": "20260427T034500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Blow to Keir Starmer as  half of Brits think he should step down as PM  | Politics | News",
-          "domain": "express.co.uk",
-          "date": "20260426T183000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Labour members say PM mishandled Mandelson saga , but split over need for new leadership",
-          "domain": "labourlist.org",
-          "date": "20260426T010000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "After US - Israeli strikes , it time for regime change in Iran",
-          "domain": "jpost.com",
-          "date": "20260425T104500Z",
-          "country": "Israel"
-        },
-        {
-          "title": "After US - Israeli strikes , it time for regime change in Iran",
-          "domain": "jpost.com",
-          "date": "20260425T093000Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Holyrood election Scotland chance to vote  no confidence  in Starmer – Flynn",
-          "domain": "edp24.co.uk",
-          "date": "20260426T024500Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -247,10 +186,10 @@
           "country": "United States"
         },
         {
-          "title": "28 old photos from a Weymouth night out in April 2009",
-          "domain": "dorsetecho.co.uk",
-          "date": "20260425T071500Z",
-          "country": "United Kingdom"
+          "title": "Iran Economy Under Prolonged  No War , No Peace : Structural Erosion Under Maritime Constraint",
+          "domain": "albawaba.com",
+          "date": "20260427T083000Z",
+          "country": "Israel"
         },
         {
           "title": "Stagflation risk : Could 1970s - style inflation and low growth return ?",
@@ -283,9 +222,9 @@
           "country": "United States"
         },
         {
-          "title": "Iran is suffering in a standoff with the US – but may be betting Trump ...",
-          "domain": "article.wn.com",
-          "date": "20260426T121500Z",
+          "title": "Carolina economy adding few jobs",
+          "domain": "carolinajournal.com",
+          "date": "20260427T070000Z",
           "country": "United States"
         }
       ]
@@ -338,6 +277,12 @@
           "country": ""
         },
         {
+          "title": "Fox News calls the economy  possibly a disaster  as Trump approval drops to 30 % here what could save Republicans",
+          "domain": "finance.yahoo.com",
+          "date": "20260425T160000Z",
+          "country": "United States"
+        },
+        {
           "title": "Asia week ahead : Japan rate decision and key data from China and Australia | Hellenic Shipping News Worldwide",
           "domain": "hellenicshippingnews.com",
           "date": "20260426T181500Z",
@@ -350,21 +295,15 @@
           "country": "Macau"
         },
         {
-          "title": "Fox News calls the economy  possibly a disaster  as Trump approval drops to 30 % here what could save Republicans",
-          "domain": "finance.yahoo.com",
-          "date": "20260425T160000Z",
-          "country": "United States"
+          "title": "DWP paying less in specific health benefit in May",
+          "domain": "birminghammail.co.uk",
+          "date": "20260427T100000Z",
+          "country": "United Kingdom"
         },
         {
           "title": "Fed Meeting Tracker 2026 : How Interest Rate Shifts Shape Investor Strategy",
           "domain": "forbes.com",
           "date": "20260426T114500Z",
-          "country": "United States"
-        },
-        {
-          "title": "U . S . Consumer Sentiment Hits Record Low as Iran Conflict Fuels Inflation Concerns",
-          "domain": "econotimes.com",
-          "date": "20260427T033000Z",
           "country": "United States"
         }
       ]
@@ -387,12 +326,6 @@
           "domain": "economictimes.indiatimes.com",
           "date": "20260425T153000Z",
           "country": "India"
-        },
-        {
-          "title": "Bitcoin ETFs See Best Streak Since October As Inflows Hit $2 . 4B",
-          "domain": "newsbtc.com",
-          "date": "20260425T083000Z",
-          "country": "United States"
         },
         {
           "title": "Crypto Has Another Positive Week As Investor Sentiment Improves",
@@ -425,16 +358,22 @@
           "country": "Philippines"
         },
         {
-          "title": "How SpaceX $75 billion IPO could drain the liquidity that been lifting bitcoin",
-          "domain": "coindesk.com",
-          "date": "20260425T083000Z",
-          "country": "United States"
-        },
-        {
           "title": "Crypto News : Pepeto DeFi Project Crosses $9 , 575 , 434 Raised While Bitcoin Price Prediction Reaches $300 , 000 to $500 , 000",
           "domain": "portal.sina.com.hk",
           "date": "20260426T183000Z",
           "country": "Hong Kong"
+        },
+        {
+          "title": "Bitcoin Price Prediction : SEC Project Crypto Eyes $80K",
+          "domain": "forbes.com",
+          "date": "20260426T034500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Stalls At $77K As Major On - Chain Resistance Kicks In",
+          "domain": "newsbtc.com",
+          "date": "20260426T124500Z",
+          "country": "United States"
         }
       ]
     },
@@ -446,6 +385,12 @@
       ],
       "headlines": [
         {
+          "title": "Petrol , Diesel Prices Today ( April 27 ): Check Fuel Rates in Delhi , Mumbai , Kolkata As Crude Oil Prices Rise Over 2 %",
+          "domain": "newsx.com",
+          "date": "20260427T084500Z",
+          "country": "India"
+        },
+        {
           "title": "Trump Says He Has  All The Card As Iran Talks Halt : Brent Crude Jumps To $107 , Dow Futures Slip 52 Poin",
           "domain": "benzinga.com",
           "date": "20260427T034500Z",
@@ -456,6 +401,24 @@
           "domain": "timesofindia.indiatimes.com",
           "date": "20260427T040000Z",
           "country": "India"
+        },
+        {
+          "title": "Virginia Gas Prices : Cheapest and most expensive places to fill up",
+          "domain": "wsls.com",
+          "date": "20260427T100000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil up almost 3 % as US - Iran peace talks stall",
+          "domain": "marketscreener.com",
+          "date": "20260427T093000Z",
+          "country": ""
+        },
+        {
+          "title": "Oil climbs nearly 2 % as US - Iran peace talks stall",
+          "domain": "dunyanews.tv",
+          "date": "20260427T093000Z",
+          "country": "Pakistan"
         },
         {
           "title": "Oil Climbs Nearly 2 % as US - Iran Peace Talks Stall",
@@ -476,34 +439,10 @@
           "country": "Singapore"
         },
         {
-          "title": "Oil Prices Hold Above $100 as Iran Tensions and Supply Fears Grip Global Markets",
-          "domain": "ibtimes.com.au",
-          "date": "20260426T141500Z",
-          "country": "Australia"
-        },
-        {
           "title": "Why the oil market hasnt seen the Iran war doomsday scenario that experts warned about",
           "domain": "finance.yahoo.com",
           "date": "20260425T131500Z",
           "country": "United States"
-        },
-        {
-          "title": "GasBuddy flags worrisome gas price trend , sends message on what next",
-          "domain": "finance.yahoo.com",
-          "date": "20260426T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The U . S . Feels Higher Prices While The World Is Facing Fuel Shortages",
-          "domain": "forbes.com",
-          "date": "20260426T173000Z",
-          "country": "United States"
-        },
-        {
-          "title": "CPC to leave domestic gasoline , diesel prices steady for next week",
-          "domain": "focustaiwan.tw",
-          "date": "20260425T093000Z",
-          "country": "Taiwan"
         }
       ]
     },
@@ -579,11 +518,72 @@
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Meet the 4 World Cup debut teams reshaping the 2026 tournament",
+          "domain": "fox5atlanta.com",
+          "date": "20260425T171500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Meet the 4 World Cup debut teams reshaping the 2026 tournament",
+          "domain": "fox2detroit.com",
+          "date": "20260425T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox5atlanta.com",
+          "date": "20260425T171500Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox2detroit.com",
+          "date": "20260425T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox13news.com",
+          "date": "20260425T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox9.com",
+          "date": "20260425T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "FIFA World Cup Trophy Tour sees excited fans in North Texas",
+          "domain": "fox4news.com",
+          "date": "20260426T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox13seattle.com",
+          "date": "20260425T183000Z",
+          "country": ""
+        },
+        {
+          "title": "FIFA set to increase 2026 World Cup prize money",
+          "domain": "thefrontierpost.com",
+          "date": "20260426T203000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "FIFA likely to increase funding , fees for teams",
+          "domain": "bignewsnetwork.com",
+          "date": "20260427T033000Z",
+          "country": "United States"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -605,16 +605,16 @@
           "country": "United States"
         },
         {
-          "title": "Knicks vs . Hawks Game 4 prediction : NBA playoffs picks , odds , best bets Saturday",
-          "domain": "nypost.com",
-          "date": "20260425T191500Z",
-          "country": "United States"
-        },
-        {
           "title": "NBA postseason guide : Schedule , stories , betting odds , how to watch and more",
           "domain": "yoursourceone.com",
           "date": "20260426T144500Z",
           "country": ""
+        },
+        {
+          "title": "Knicks vs . Hawks Game 4 prediction : NBA playoffs picks , odds , best bets Saturday",
+          "domain": "nypost.com",
+          "date": "20260425T191500Z",
+          "country": "United States"
         },
         {
           "title": "The  5+ NBA championship quiz",
@@ -675,12 +675,6 @@
           "country": "India"
         },
         {
-          "title": "Gpt 5 . 5 Looks Stronger on Benchmarks , but GPT - 5 . 5 Still Faces a Deeper Test",
-          "domain": "el-balad.com",
-          "date": "20260425T100000Z",
-          "country": "Egypt"
-        },
-        {
           "title": "China DeepSeek rolls out a long - anticipated update of its AI model",
           "domain": "tech.yahoo.com",
           "date": "20260426T024500Z",
@@ -715,6 +709,12 @@
           "domain": "businesstoday.in",
           "date": "20260426T054500Z",
           "country": "India"
+        },
+        {
+          "title": "After GPT - 5 . 5 release , Sam Altman warns AGI could trigger  economic collapse",
+          "domain": "thenews.com.pk",
+          "date": "20260427T100000Z",
+          "country": "Pakistan"
         },
         {
           "title": "DeepSeek Launches V4 on Huawei Chips in Challenge to US AI",
@@ -780,16 +780,16 @@
           "country": "United States"
         },
         {
+          "title": "A detective descent : 7 games where the truth is a trap , from  The Witcher 3  to  Alan Wake",
+          "domain": "theweek.in",
+          "date": "20260427T070000Z",
+          "country": "India"
+        },
+        {
           "title": "Best RPG Cities Inspired by Real - World Cultures Like Clair Obscur Lumiere",
           "domain": "gamerant.com",
           "date": "20260425T134500Z",
           "country": "United States"
-        },
-        {
-          "title": "A Staten Island NYPD officer racked up 547 school zone speeding tickets since 2022 . The department says it not their problem",
-          "domain": "attackofthefanboy.com",
-          "date": "20260425T163000Z",
-          "country": "Japan"
         }
       ]
     }
