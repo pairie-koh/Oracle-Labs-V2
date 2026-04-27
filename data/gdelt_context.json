@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-27T14:13:48Z",
+  "fetched_at": "2026-04-27T17:33:03Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -43,9 +43,21 @@
           "country": "India"
         },
         {
+          "title": "Iran heads to Russia for help on US war why ?",
+          "domain": "newsweek.com",
+          "date": "20260427T150000Z",
+          "country": "United States"
+        },
+        {
           "title": "Have US - Iran talks failed ? Why no deal yet doesnt mean diplomacy is dead | US - Israel war on Iran News",
           "domain": "aljazeera.com",
           "date": "20260427T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran foreign minister meets Putin as US - Iran nuclear talks collapse",
+          "domain": "foxnews.com",
+          "date": "20260427T164500Z",
           "country": "United States"
         },
         {
@@ -59,18 +71,6 @@
           "domain": "brisbanetimes.com.au",
           "date": "20260427T083000Z",
           "country": "Australia"
-        },
-        {
-          "title": "Iran Araghchi visits Russia as talks with US on hold",
-          "domain": "dw.com",
-          "date": "20260427T063000Z",
-          "country": "Germany"
-        },
-        {
-          "title": "Iran offers deal to break deadlock with US Axios",
-          "domain": "batonrougepost.com",
-          "date": "20260427T094500Z",
-          "country": "United States"
         }
       ]
     },
@@ -95,16 +95,16 @@
           "country": "Pakistan"
         },
         {
-          "title": "Only five ships pass through Strait of Hormuz in 24 hours",
-          "domain": "graphic.com.gh",
-          "date": "20260425T150000Z",
-          "country": "Ghana"
-        },
-        {
           "title": "Oil Prices : Oil prices today : Crude jumps nearly 2 % as US - Iran talks stall , Hormuz disruptions tighten supply",
           "domain": "timesofindia.indiatimes.com",
           "date": "20260427T040000Z",
           "country": "India"
+        },
+        {
+          "title": "Crude climbs 3 % as Strait of Hormuz restrictions continue",
+          "domain": "finance.yahoo.com",
+          "date": "20260427T141500Z",
+          "country": "United States"
         },
         {
           "title": "Shadow Fleet Escalation : Why the Indian Ocean Seizure Changes the Maritime Fight",
@@ -117,12 +117,6 @@
           "domain": "marketscreener.com",
           "date": "20260427T093000Z",
           "country": ""
-        },
-        {
-          "title": "U . S . Military Reportedly Drawing Up Plans To Strike Strait Of Hormuz Defenses If Ceasefire Collapses",
-          "domain": "ibtimes.com",
-          "date": "20260425T151500Z",
-          "country": "United States"
         },
         {
           "title": "Shipping traffic through Hormuz remains muted with no US - Iran deal in sight",
@@ -141,16 +135,83 @@
           "domain": "dunyanews.tv",
           "date": "20260427T093000Z",
           "country": "Pakistan"
+        },
+        {
+          "title": "Oil Climbs Nearly 2 % as US - Iran Peace Talks Stall",
+          "domain": "english.aawsat.com",
+          "date": "20260427T053000Z",
+          "country": "Syria"
         }
       ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Syria opens trials against Assad - era figures",
+          "domain": "hurriyetdailynews.com",
+          "date": "20260426T133000Z",
+          "country": "Turkey"
+        },
+        {
+          "title": "John Downing : Will Bulgaria new prime minister Rumen Radev step in to Viktor Orban  awkward squad  role ?",
+          "domain": "independent.ie",
+          "date": "20260426T073000Z",
+          "country": "Ireland"
+        },
+        {
+          "title": "Syria new government opens public trial of former Assad regime official",
+          "domain": "jpost.com",
+          "date": "20260426T150000Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Sheikh Hasina was held in custody in 1983 , tribunal told",
+          "domain": "thedailystar.net",
+          "date": "20260427T111500Z",
+          "country": "Bangladesh"
+        },
+        {
+          "title": "Rule by Secrecy – How Covert Regime Change Shaped Our World",
+          "domain": "original.antiwar.com",
+          "date": "20260427T034500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Blow to Keir Starmer as  half of Brits think he should step down as PM  | Politics | News",
+          "domain": "express.co.uk",
+          "date": "20260426T183000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Labour members say PM mishandled Mandelson saga , but split over need for new leadership",
+          "domain": "labourlist.org",
+          "date": "20260426T010000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Burundi President Ndayishmiye named ruling party candidate for 2027 election",
+          "domain": "africanews.com",
+          "date": "20260427T101500Z",
+          "country": "Nigeria"
+        },
+        {
+          "title": "Obasanjo Opens Up :  Murtala would not have been killed this way  – P . M . News",
+          "domain": "pmnewsnigeria.com",
+          "date": "20260427T100000Z",
+          "country": "Nigeria"
+        },
+        {
+          "title": "Holyrood election Scotland chance to vote  no confidence  in Starmer – Flynn",
+          "domain": "edp24.co.uk",
+          "date": "20260426T024500Z",
+          "country": "United Kingdom"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -162,72 +223,11 @@
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "How Netflix Could Perform in a Mild vs . a Severe Recession",
-          "domain": "fool.com",
-          "date": "20260425T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Consumer confidence hits record low amid Iran war fears , K - shaped economy concerns",
-          "domain": "ktvu.com",
-          "date": "20260426T211500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Triumph of Economic Freedom ?",
-          "domain": "hotair.com",
-          "date": "20260426T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran Economy Under Prolonged  No War , No Peace : Structural Erosion Under Maritime Constraint",
-          "domain": "albawaba.com",
-          "date": "20260427T083000Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Stagflation risk : Could 1970s - style inflation and low growth return ?",
-          "domain": "nzherald.co.nz",
-          "date": "20260426T173000Z",
-          "country": "New Zealand"
-        },
-        {
-          "title": "Economic performance across the region remained subdued last year - CDB",
-          "domain": "nationnews.com",
-          "date": "20260427T133000Z",
-          "country": "Barbados"
-        },
-        {
-          "title": "Changing places on the Prairies | Investment Executive",
-          "domain": "investmentexecutive.com",
-          "date": "20260426T101500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "STOSSEL : The triumph of economic freedom ?",
-          "domain": "calgarysun.com",
-          "date": "20260426T051500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "EU Commissioner Dombrovskis to  N : The Recovery and Resilience Facility is finalizing in August",
-          "domain": "naftemporiki.gr",
-          "date": "20260427T121500Z",
-          "country": "Greece"
-        },
-        {
-          "title": "Moody Upgrades China Outlook , Citing Resilience in Face of Challenges",
-          "domain": "marketscreener.com",
-          "date": "20260427T113000Z",
-          "country": ""
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -238,6 +238,12 @@
         "who-will-be-confirmed-as-fed-chair"
       ],
       "headlines": [
+        {
+          "title": "The Fed Meets on Rates This Week . What Should Investors Expect ?",
+          "domain": "finance.yahoo.com",
+          "date": "20260427T170000Z",
+          "country": "United States"
+        },
         {
           "title": "Fed Meeting Tracker 2026 : How Interest Rate Shifts Shape Investor Strategy",
           "domain": "forbes.com",
@@ -254,6 +260,12 @@
           "title": "The Federal Reserve April Inflation Forecast Has Been Updated , and It a Good News - Bad News Scenario for Wall Street",
           "domain": "fool.com",
           "date": "20260427T110000Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Federal Reserve April Inflation Forecast Has Been Updated , and It a Good News - Bad News Scenario for Wall Street",
+          "domain": "fool.com",
+          "date": "20260427T150000Z",
           "country": "United States"
         },
         {
@@ -275,28 +287,16 @@
           "country": "United States"
         },
         {
+          "title": "Fed Rates Seen on Hold at April Policy Meeting",
+          "domain": "morningstar.com",
+          "date": "20260427T141500Z",
+          "country": "China"
+        },
+        {
           "title": "Fed likely to hold rates steady as Powell prepares to exit",
           "domain": "freemalaysiatoday.com",
           "date": "20260427T123000Z",
           "country": "Malaysia"
-        },
-        {
-          "title": "Forget Tariffs ! This Is the Single Greatest Threat to the Trump Bull Market , and It Expected to Become a Reality on May 15 .",
-          "domain": "fool.com",
-          "date": "20260426T121500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Forget Tariffs ! This Is the Single Greatest Threat to the Trump Bull Market , and It Expected to Become a Reality on May 15 .",
-          "domain": "fool.com",
-          "date": "20260426T171500Z",
-          "country": "United States"
-        },
-        {
-          "title": "U . S . Fed likely to hold rates steady",
-          "domain": "bnnbloomberg.ca",
-          "date": "20260427T121500Z",
-          "country": "Canada"
         }
       ]
     },
@@ -307,6 +307,12 @@
         "march-inflation-us-annual"
       ],
       "headlines": [
+        {
+          "title": "Blockbuster Week  Preview : Fed , ECB , BOJ On Deck , Earnings Avalanche , GDP , PCE",
+          "domain": "zerohedge.com",
+          "date": "20260427T170000Z",
+          "country": "United States"
+        },
         {
           "title": "Key Market Events for the Week of April 27 – May 1 , 2026",
           "domain": "riotimesonline.com",
@@ -344,22 +350,16 @@
           "country": "United States"
         },
         {
-          "title": "Fox News calls the economy  possibly a disaster  as Trump approval drops to 30 % here what could save Republicans",
-          "domain": "finance.yahoo.com",
-          "date": "20260425T160000Z",
-          "country": "United States"
+          "title": "MACAU DAILY TIMES 澳門每日時報March inflation rises 1 . 06 % y - o - y | MACAU DAILY TIMES 澳門每日時報",
+          "domain": "macaudailytimes.com.mo",
+          "date": "20260427T011500Z",
+          "country": "Macau"
         },
         {
           "title": "Asia week ahead : Japan rate decision and key data from China and Australia | Hellenic Shipping News Worldwide",
           "domain": "hellenicshippingnews.com",
           "date": "20260426T181500Z",
           "country": "China"
-        },
-        {
-          "title": "MACAU DAILY TIMES 澳門每日時報March inflation rises 1 . 06 % y - o - y | MACAU DAILY TIMES 澳門每日時報",
-          "domain": "macaudailytimes.com.mo",
-          "date": "20260427T011500Z",
-          "country": "Macau"
         },
         {
           "title": "DWP paying less in specific health benefit in May",
@@ -383,12 +383,6 @@
           "country": "United States"
         },
         {
-          "title": "Bitcoin BTC USD rally April 2026 reason explained : Bitcoin price ( BTC USD ) nears $80 , 000 : How ETF inflows and Michael Saylor Strategy are driving the crypto rally - here what traders need to know",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260425T153000Z",
-          "country": "India"
-        },
-        {
           "title": "Crypto Has Another Positive Week As Investor Sentiment Improves",
           "domain": "finance.yahoo.com",
           "date": "20260426T030000Z",
@@ -407,6 +401,18 @@
           "country": "United States"
         },
         {
+          "title": "Cryptos Muted As FOMC Looms",
+          "domain": "finanznachrichten.de",
+          "date": "20260427T160000Z",
+          "country": "Germany"
+        },
+        {
+          "title": "Bitcoin Price Prediction Faces a New Signal as BTC ETFs Print $2",
+          "domain": "openpr.com",
+          "date": "20260427T140000Z",
+          "country": "United States"
+        },
+        {
           "title": "Bitcoin Price Prediction : Bitcoin Targets $80K While AlphaPepe",
           "domain": "openpr.com",
           "date": "20260425T180000Z",
@@ -419,21 +425,15 @@
           "country": "Philippines"
         },
         {
-          "title": "Bitcoin and ethereum price today , Monday , April 27 , 2026 : Prices hold ahead of potential peace talks and Fed meeting",
-          "domain": "finance.yahoo.com",
-          "date": "20260427T121500Z",
+          "title": "Cryptos Muted As FOMC Looms",
+          "domain": "rttnews.com",
+          "date": "20260427T170000Z",
           "country": "United States"
         },
         {
-          "title": "Crypto News : Pepeto DeFi Project Crosses $9 , 575 , 434 Raised While Bitcoin Price Prediction Reaches $300 , 000 to $500 , 000",
-          "domain": "portal.sina.com.hk",
-          "date": "20260426T183000Z",
-          "country": "Hong Kong"
-        },
-        {
-          "title": "Bitcoin Stalls At $77K As Major On - Chain Resistance Kicks In",
-          "domain": "newsbtc.com",
-          "date": "20260426T124500Z",
+          "title": "Bitcoin and ethereum price today , Monday , April 27 , 2026 : Prices hold ahead of potential peace talks and Fed meeting",
+          "domain": "finance.yahoo.com",
+          "date": "20260427T121500Z",
           "country": "United States"
         }
       ]
@@ -446,6 +446,18 @@
       ],
       "headlines": [
         {
+          "title": "Gas prices are expected to keep rising in the absence of a US - Iran deal",
+          "domain": "finance.yahoo.com",
+          "date": "20260427T154500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices hit two - week high as Iran talks stall and Strait shipments lag",
+          "domain": "marketscreener.com",
+          "date": "20260427T150000Z",
+          "country": ""
+        },
+        {
           "title": "AAA : Bit of Relief at the Pump as the National Average Drops - Woodall Campground Magazine",
           "domain": "woodallscm.com",
           "date": "20260427T111500Z",
@@ -456,6 +468,12 @@
           "domain": "newsx.com",
           "date": "20260427T084500Z",
           "country": "India"
+        },
+        {
+          "title": "Michigan gas prices on the rise again",
+          "domain": "macombdaily.com",
+          "date": "20260427T153000Z",
+          "country": "United States"
         },
         {
           "title": "Trump Says He Has  All The Card As Iran Talks Halt : Brent Crude Jumps To $107 , Dow Futures Slip 52 Poin",
@@ -486,104 +504,86 @@
           "domain": "tribune.com.pk",
           "date": "20260427T123000Z",
           "country": "Pakistan"
-        },
-        {
-          "title": "Oil prices rise as US - Iran peace talks stall",
-          "domain": "marketscreener.com",
-          "date": "20260427T124500Z",
-          "country": ""
-        },
-        {
-          "title": "Research Roundup : RBC analyst top stocks picks in dividend - oriented energy infrastructure sector",
-          "domain": "theglobeandmail.com",
-          "date": "20260427T123000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Oil up almost 3 % as US - Iran peace talks stall",
-          "domain": "marketscreener.com",
-          "date": "20260427T093000Z",
-          "country": ""
         }
       ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": [
-        {
-          "title": "Exclusive | House GOP expands its  MAGA Majority  program for battleground races as midterms heat up",
-          "domain": "nypost.com",
-          "date": "20260427T123000Z",
-          "country": "United States"
-        },
-        {
-          "title": "3 Market Trends That Could Shape the Rest of 2026",
-          "domain": "fool.com",
-          "date": "20260425T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Susan Collin Chances of Losing Senate Seat Hit All - Time High",
-          "domain": "newsweek.com",
-          "date": "20260425T171500Z",
-          "country": "United States"
-        },
-        {
-          "title": "3 Market Trends That Could Shape the Rest of 2026",
-          "domain": "finance.yahoo.com",
-          "date": "20260427T050000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Republicans retool midterm strategy : Trump policies , but less Trump",
-          "domain": "straitstimes.com",
-          "date": "20260425T141500Z",
-          "country": "Singapore"
-        },
-        {
-          "title": "Rep . Hakeem Jeffries seizes edge in House fight with Virginia win",
-          "domain": "nydailynews.com",
-          "date": "20260425T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Republican Party weighs strategy as Iran war impacts voters",
-          "domain": "middleeasteye.net",
-          "date": "20260426T054500Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Internal email reveals Senate GOP  terrified  as 3 states shift :  The left is crushing us",
-          "domain": "rawstory.com",
-          "date": "20260425T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Colorado candidates square off up and down the ballot ahead of primary election",
-          "domain": "gazette.com",
-          "date": "20260425T151500Z",
-          "country": "United States"
-        },
-        {
-          "title": "NAACP Says SPLC Indictment Is a  Chilling Attack on Civil Rights Advocacy  – Twitchy",
-          "domain": "twitchy.com",
-          "date": "20260426T040000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Meet the 4 World Cup debut teams reshaping the 2026 tournament",
+          "domain": "fox2detroit.com",
+          "date": "20260425T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox2detroit.com",
+          "date": "20260425T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox13news.com",
+          "date": "20260425T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox9.com",
+          "date": "20260425T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "FIFA World Cup Trophy Tour sees excited fans in North Texas",
+          "domain": "fox4news.com",
+          "date": "20260426T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "World Cup final tickets listed for over $2M on FIFA resale site",
+          "domain": "fox13seattle.com",
+          "date": "20260425T183000Z",
+          "country": ""
+        },
+        {
+          "title": "FIFA set to increase 2026 World Cup prize money",
+          "domain": "thefrontierpost.com",
+          "date": "20260426T203000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "FIFA likely to increase funding , fees for teams",
+          "domain": "haitisun.com",
+          "date": "20260427T041500Z",
+          "country": "United States"
+        },
+        {
+          "title": "FIFA likely to increase funding , fees for teams",
+          "domain": "news-daily.com",
+          "date": "20260427T051500Z",
+          "country": "United States"
+        },
+        {
+          "title": "FIFA likely to increase funding , fees for teams",
+          "domain": "caribbeanherald.com",
+          "date": "20260427T043000Z",
+          "country": "United States"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -593,10 +593,10 @@
       ],
       "headlines": [
         {
-          "title": "Saturday NBA Best Bets April 25 NBA Predictions & Picks",
-          "domain": "thespread.com",
-          "date": "20260425T151500Z",
-          "country": "United States"
+          "title": "Nuggets face elimination , Thunder could sweep , and Pistons looking to bounce back in NBA playoff action on TSN",
+          "domain": "tsn.ca",
+          "date": "20260427T170000Z",
+          "country": "Canada"
         },
         {
           "title": "FanDuel Promo Code : Get $250 in Bonus Bets for Pistons vs . Magic , NBA Games on Saturday",
@@ -614,12 +614,6 @@
           "title": "Knicks vs . Hawks Game 4 prediction : NBA playoffs picks , odds , best bets Saturday",
           "domain": "nypost.com",
           "date": "20260425T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The  5+ NBA championship quiz",
-          "domain": "yardbarker.com",
-          "date": "20260425T154500Z",
           "country": "United States"
         },
         {
@@ -641,15 +635,21 @@
           "country": "United States"
         },
         {
-          "title": "Wolve Anthony Edwards has bone bruise in left knee , AP source says . He likely to miss weeks",
-          "domain": "durangoherald.com",
-          "date": "20260426T181500Z",
+          "title": "NBA postseason guide : Schedule , stories , betting odds , how to watch and more",
+          "domain": "wvax.com",
+          "date": "20260427T170000Z",
           "country": "United States"
         },
         {
-          "title": "How to live stream Lakers vs Rockets : NBA Playoffs , TV channel",
-          "domain": "thebiglead.com",
-          "date": "20260427T051500Z",
+          "title": "NBA postseason guide : Schedule , stories , betting odds , how to watch and more",
+          "domain": "wklh.com",
+          "date": "20260427T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "NBA postseason guide : Schedule , stories , betting odds , how to watch and more",
+          "domain": "rewind943.com",
+          "date": "20260427T154500Z",
           "country": "United States"
         }
       ]
@@ -687,6 +687,12 @@
           "country": "Macau"
         },
         {
+          "title": "DeepSeek Previews V4 AI Model With  World - Clas Reasoning",
+          "domain": "explosion.com",
+          "date": "20260427T170000Z",
+          "country": "Japan"
+        },
+        {
           "title": "AMCAP Global Steers Global Finance Into the Agentic Era With Proprietary Multi - Model AI Framework",
           "domain": "manilatimes.net",
           "date": "20260427T101500Z",
@@ -711,16 +717,10 @@
           "country": "United States"
         },
         {
-          "title": "BT explainer : Inside Claude Mythos , the AI is forcing a rethink of global cybersecurity",
-          "domain": "businesstoday.in",
-          "date": "20260426T054500Z",
-          "country": "India"
-        },
-        {
-          "title": "After GPT - 5 . 5 release , Sam Altman warns AGI could trigger  economic collapse",
-          "domain": "thenews.com.pk",
-          "date": "20260427T100000Z",
-          "country": "Pakistan"
+          "title": "3 things I wish I knew before vibe coding my first app with GitHub Copilot",
+          "domain": "howtogeek.com",
+          "date": "20260427T140000Z",
+          "country": "United States"
         }
       ]
     },
@@ -738,34 +738,10 @@
           "country": "United States"
         },
         {
-          "title": "GTA 6 Boss Delivers Promising Update On AI Use In Games",
-          "domain": "screenrant.com",
-          "date": "20260425T173000Z",
-          "country": "United States"
-        },
-        {
           "title": "10 Red Dead Redemption 2 Systems that Could Make GTA 6 Rockstar Finest Masterpiece",
           "domain": "dualshockers.com",
           "date": "20260425T181500Z",
           "country": "Japan"
-        },
-        {
-          "title": "The Empty 2026 Game Release Calendar Just Filled In A Big Blank",
-          "domain": "kotaku.com",
-          "date": "20260425T164500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "Red Dead Redemption Official May Return Divides Gamers",
-          "domain": "screenrant.com",
-          "date": "20260425T164500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Is The PlayStation 4 Still Worth Buying In 2026 ?",
-          "domain": "bgr.com",
-          "date": "20260425T150000Z",
-          "country": "United States"
         },
         {
           "title": "Why Kosmos Energy ( KOS ) Is Up 11 . 5 % After Riding Higher Brent and LNG Revenue Trends",
@@ -780,16 +756,40 @@
           "country": "India"
         },
         {
-          "title": "A Staten Island NYPD officer racked up 547 school zone speeding tickets since 2022 . The department says it not their problem",
-          "domain": "attackofthefanboy.com",
-          "date": "20260425T163000Z",
-          "country": "Japan"
-        },
-        {
           "title": "Tomb Raider : Legacy of Atlantis Gets A Very Promising Update",
           "domain": "screenrant.com",
           "date": "20260425T194500Z",
           "country": "United States"
+        },
+        {
+          "title": "EDITORIAL : How Canada became a business wasteland",
+          "domain": "torontosun.com",
+          "date": "20260427T003000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Ottawa man , 41 , dies in boating mishap on St . Lawrence River",
+          "domain": "torontosun.com",
+          "date": "20260427T051500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Rihanna Learns Bharatanatyam Mudras And Internet Reacts Fast",
+          "domain": "glamsham.com",
+          "date": "20260427T100000Z",
+          "country": "India"
+        },
+        {
+          "title": "Viral video shows Rihanna learning Bharatnatyam mudras , internet reacts",
+          "domain": "news.webindia123.com",
+          "date": "20260426T183000Z",
+          "country": "India"
+        },
+        {
+          "title": "Highway 401 closure : eastbound lanes closed in Pickering",
+          "domain": "cp24.com",
+          "date": "20260426T181500Z",
+          "country": "Canada"
         }
       ]
     }
