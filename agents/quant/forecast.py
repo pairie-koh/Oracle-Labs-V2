@@ -30,7 +30,7 @@ from constants import MARKETS, PRICE_CSV, FORECAST_HORIZONS
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.34.0"
+METHODOLOGY_VERSION = "1.35.0"
 
 MOMENTUM_LOOKBACK = 6       # number of recent price points for momentum (linear slope)
 REVERSION_LOOKBACK = 24     # number of recent price points for long-term mean
@@ -199,7 +199,7 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
         time.sleep(LIVE_DELAY * 3)
 
     # Long-term mean for reversion target
-    long_mean = compute_long_term_mean(series, REVERSION_LOOKBACK)
+    long_mean = compute_long_term_mean(series, REVERSION_LOOKBOOK)
 
     if live:
         print(f"\n{BOLD}▸ Long-term mean {DIM}(lookback={REVERSION_LOOKBACK}){RESET}")
@@ -222,8 +222,8 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
     # Fixed blend (no longer adaptive)
     fixed_blend = BASE_MOMENTUM_BLEND
 
-    # Momentum forecast: use projected momentum value with scaled coefficient (reduced from 0.0001 to 0.00001)
-    momentum_coefficient = 0.00001 * horizon_scale  # reduced 10x again for much more conservative predictions
+    # Momentum forecast: REVERSED momentum coefficient to test contrarian signal
+    momentum_coefficient = -0.00001 * horizon_scale  # NOW NEGATIVE - contrarian momentum
     momentum_forecast = current + (momentum_projection - current) * momentum_coefficient
 
     # Reversion forecast: pull toward long-term mean (scaled by horizon)
@@ -275,7 +275,7 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
         "prediction": round(prediction, 6),
         "current": current,
         "momentum_projection": round(momentum_projection, 6),
-        "long_term_mean": round(long_term_mean, 6),
+        "long_term_mean": round(long_mean, 6),
         "momentum_forecast": round(momentum_forecast, 6),
         "reversion_forecast": round(reversion_forecast, 6),
         "blended": round(blended, 6),

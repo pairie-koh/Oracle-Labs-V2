@@ -27,9 +27,9 @@ LIVE_DELAY = 0.03
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 # The iteration cycle modifies these based on performance.
 
-METHODOLOGY_VERSION = "1.34.0"
+METHODOLOGY_VERSION = "1.35.0"
 
-MOMENTUM_WEIGHT = 0.7
+MOMENTUM_WEIGHT = 0.3
 REVERSION_WEIGHT = 0.4
 NEWS_THRESHOLD = 5       # midpoint of sigmoid blend
 SIGMOID_STEEPNESS = 0.5  # how sharp the transition from reversion to momentum
