@@ -30,7 +30,7 @@ from constants import MARKETS, PRICE_CSV, FORECAST_HORIZONS
 
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 
-METHODOLOGY_VERSION = "1.35.0"
+METHODOLOGY_VERSION = "1.36.0"
 
 MOMENTUM_LOOKBACK = 6       # number of recent price points for momentum (linear slope)
 REVERSION_LOOKBACK = 24     # number of recent price points for long-term mean
@@ -199,7 +199,7 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
         time.sleep(LIVE_DELAY * 3)
 
     # Long-term mean for reversion target
-    long_mean = compute_long_term_mean(series, REVERSION_LOOKBOOK)
+    long_mean = compute_long_term_mean(series, REVERSION_LOOKBACK)
 
     if live:
         print(f"\n{BOLD}▸ Long-term mean {DIM}(lookback={REVERSION_LOOKBACK}){RESET}")
@@ -222,8 +222,8 @@ def forecast_market(market_key, market_data, facts, horizon_hours=4, live=False)
     # Fixed blend (no longer adaptive)
     fixed_blend = BASE_MOMENTUM_BLEND
 
-    # Momentum forecast: REVERSED momentum coefficient to test contrarian signal
-    momentum_coefficient = -0.00001 * horizon_scale  # NOW NEGATIVE - contrarian momentum
+    # Momentum forecast: POSITIVE momentum coefficient to follow trends
+    momentum_coefficient = 0.00001 * horizon_scale  # NOW POSITIVE - follow momentum
     momentum_forecast = current + (momentum_projection - current) * momentum_coefficient
 
     # Reversion forecast: pull toward long-term mean (scaled by horizon)

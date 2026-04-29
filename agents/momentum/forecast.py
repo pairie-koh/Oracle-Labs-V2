@@ -27,7 +27,7 @@ LIVE_DELAY = 0.03
 # ── Tunable Parameters ───────────────────────────────────────────────────────
 # The iteration cycle modifies these based on performance.
 
-METHODOLOGY_VERSION = "1.35.0"
+METHODOLOGY_VERSION = "1.36.0"
 
 MOMENTUM_WEIGHT = 0.3
 REVERSION_WEIGHT = 0.4
@@ -114,14 +114,14 @@ def forecast_market(market_key, market_data, facts, now_utc, horizon_hours=4, li
 
     intensity = compute_news_intensity(facts, market_key, now_utc, live=live)
 
-    # Standard momentum signal: blend short-term and normalized long-term
-    momentum_signal = 0.5 * change_4h + 0.5 * (change_24h / 6.0)
+    # Contrarian momentum signal: invert recent price moves (testing mean reversion hypothesis)
+    momentum_signal = -0.5 * change_4h - 0.5 * (change_24h / 6.0)
 
     if live:
-        print(f"\n{BOLD}▸ Momentum signal{RESET}")
+        print(f"\n{BOLD}▸ Contrarian momentum signal{RESET}")
         print(f"  change_4h:  {CYAN}{change_4h:+.3f}{RESET}")
         print(f"  change_24h: {CYAN}{change_24h:+.3f}{RESET}")
-        print(f"  signal = 0.5 × {change_4h:.3f} + 0.5 × ({change_24h:.3f}/6) = "
+        print(f"  signal = -0.5 × {change_4h:.3f} - 0.5 × ({change_24h:.3f}/6) = "
               f"{GREEN}{momentum_signal:+.4f}{RESET}")
         time.sleep(LIVE_DELAY * 3)
 
