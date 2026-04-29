@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T21:12:14Z",
+  "fetched_at": "2026-04-29T03:38:11Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -9,115 +9,43 @@
       ],
       "today_high": 60,
       "today_high_unit": "F",
-      "today_forecast": "Slight Chance Light Rain",
-      "today_detail": "A slight chance of rain after 5pm. Mostly cloudy. High near 60, with temperatures falling to around 57 in the afternoon. Southeast wind around 10 mph. Chance of precipitation is 20%.",
-      "wind": "10 mph",
+      "today_forecast": "Partly Sunny then Chance Rain Showers",
+      "today_detail": "A chance of rain showers after 5pm. Partly sunny. High near 60, with temperatures falling to around 53 in the afternoon. Southeast wind 5 to 12 mph. Chance of precipitation is 30%.",
+      "wind": "5 to 12 mph",
       "wind_direction": "SE",
-      "tonight_low": 51,
-      "tonight_forecast": "Slight Chance Light Rain then Mostly Cloudy",
+      "tonight_low": 50,
+      "tonight_forecast": "Showers And Thunderstorms",
       "hourly": [
         {
-          "hour": "2026-04-28T16:00:00-04:00",
-          "temp": 58,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-04-28T17:00:00-04:00",
-          "temp": 57,
-          "unit": "F",
-          "short": "Slight Chance Light Rain"
-        },
-        {
-          "hour": "2026-04-28T18:00:00-04:00",
-          "temp": 56,
-          "unit": "F",
-          "short": "Slight Chance Light Rain"
-        },
-        {
-          "hour": "2026-04-28T19:00:00-04:00",
-          "temp": 55,
-          "unit": "F",
-          "short": "Slight Chance Light Rain"
-        },
-        {
-          "hour": "2026-04-28T20:00:00-04:00",
-          "temp": 54,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-04-28T21:00:00-04:00",
-          "temp": 54,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
           "hour": "2026-04-28T22:00:00-04:00",
-          "temp": 53,
+          "temp": 54,
           "unit": "F",
           "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-04-28T23:00:00-04:00",
-          "temp": 53,
+          "temp": 55,
           "unit": "F",
           "short": "Mostly Cloudy"
         }
       ],
-      "peak_temp": 58,
-      "peak_hour": "2026-04-28T16:00:00-04:00"
+      "peak_temp": 55,
+      "peak_hour": "2026-04-28T23:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
       "relevant_to": [
         "miami_temp"
       ],
-      "today_high": 90,
+      "today_high": 92,
       "today_high_unit": "F",
       "today_forecast": "Sunny",
-      "today_detail": "Sunny, with a high near 90. Northeast wind around 7 mph.",
-      "wind": "7 mph",
-      "wind_direction": "NE",
-      "tonight_low": 62,
+      "today_detail": "Sunny, with a high near 92. South wind around 3 mph.",
+      "wind": "3 mph",
+      "wind_direction": "S",
+      "tonight_low": 64,
       "tonight_forecast": "Mostly Clear",
       "hourly": [
-        {
-          "hour": "2026-04-28T17:00:00-04:00",
-          "temp": 88,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-04-28T18:00:00-04:00",
-          "temp": 87,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-28T19:00:00-04:00",
-          "temp": 84,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-28T20:00:00-04:00",
-          "temp": 79,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-04-28T21:00:00-04:00",
-          "temp": 76,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-04-28T22:00:00-04:00",
-          "temp": 73,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
         {
           "hour": "2026-04-28T23:00:00-04:00",
           "temp": 71,
@@ -125,8 +53,8 @@
           "short": "Mostly Clear"
         }
       ],
-      "peak_temp": 88,
-      "peak_hour": "2026-04-28T17:00:00-04:00"
+      "peak_temp": 71,
+      "peak_hour": "2026-04-28T23:00:00-04:00"
     }
   }
 }
