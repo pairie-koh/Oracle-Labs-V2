@@ -1,87 +1,87 @@
 {
-  "fetched_at": "2026-04-29T17:51:36Z",
+  "fetched_at": "2026-04-29T21:19:34Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": [
-        {
-          "title": "War theater : Trump claims Iran sent  Much Better  peace proposal minutes after he canceled high - level trip – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "date": "20260428T020000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump not satisfied with Iran new peace proposal : Report",
-          "domain": "prokerala.com",
-          "date": "20260428T073000Z",
-          "country": "India"
-        },
-        {
-          "title": "Diplomacy vs . Direct Messaging : The Growing Gap in US - Iran Peace Talks",
-          "domain": "1290wlby.com",
-          "date": "20260429T003000Z",
-          "country": "United States"
-        },
-        {
-          "title": "US - Iran war : Iran is knocking on Putin door as Pakistan talks stall ; here why",
-          "domain": "hindustantimes.com",
-          "date": "20260428T004500Z",
-          "country": "India"
-        },
-        {
-          "title": "Mr . Araghchi Goes to Russia - LewRockwell",
-          "domain": "lewrockwell.com",
-          "date": "20260429T050000Z",
-          "country": "United States"
-        },
-        {
-          "title": "US secretary of state says Iran  seriou about deal",
-          "domain": "aa.com.tr",
-          "date": "20260427T194500Z",
-          "country": "Turkey"
-        },
-        {
-          "title": "US secretary of state says Iran  seriou about deal",
-          "domain": "tribune.com.pk",
-          "date": "20260427T194500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "US secretary of state says Iran  seriou about deal – Middle East Monitor",
-          "domain": "middleeastmonitor.com",
-          "date": "20260427T221500Z",
-          "country": "Israel"
-        },
-        {
-          "title": "U . S . sanctions Iran shadow banking network as peace talks stall",
-          "domain": "upi.com",
-          "date": "20260429T094500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The real reason Iran and the US cannot end the war : Money",
-          "domain": "middleeasteye.net",
-          "date": "20260427T221500Z",
-          "country": "Israel"
-        }
-      ]
+      "headlines": []
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Oil Prices Rise as U . S .- Iran Tensions Disrupt Strait of Hormuz Shipping – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "date": "20260429T004500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices rise 3 % as Iran war stand - off persists",
+          "domain": "bizcommunity.com",
+          "date": "20260428T141500Z",
+          "country": "South Africa"
+        },
+        {
+          "title": "Oil prices rise as no end to Iran war stand - off seems in sight",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260428T020000Z",
+          "country": "India"
+        },
+        {
+          "title": "Oil prices rise as no end to Iran war stand - off seems in sight",
+          "domain": "asiaone.com",
+          "date": "20260428T043000Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "Oil rises nearly 3 % as Hormuz risks offset UAE Opec exit",
+          "domain": "thestar.com.my",
+          "date": "20260429T021500Z",
+          "country": "Malaysia"
+        },
+        {
+          "title": "Oil prices up 2 % as no end to Iran war stand - off seems in sight",
+          "domain": "arabnews.com",
+          "date": "20260428T074500Z",
+          "country": "Saudi Arabia"
+        },
+        {
+          "title": "Japanese tanker carrying Saudi oil crosses Strait of Hormuz",
+          "domain": "koreatimes.co.kr",
+          "date": "20260429T054500Z",
+          "country": "South Korea"
+        },
+        {
+          "title": "Tanker Carrying Saudi Oil Crosses Strait Of Hormuz",
+          "domain": "marinelink.com",
+          "date": "20260428T190000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices rise as no end to Iran war stand - off , Hormuz blockade seem in sight",
+          "domain": "businesstimes.com.sg",
+          "date": "20260428T064500Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "Idemitsu Maru tanker carrying Saudi oil crosses Strait of Hormuz | The Asahi Shimbun : Breaking News , Japan News and Analysis",
+          "domain": "asahi.com",
+          "date": "20260429T020000Z",
+          "country": "Japan"
+        }
+      ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
@@ -196,12 +196,6 @@
           "country": "United States"
         },
         {
-          "title": "Trump attacks on mail - in voting may hurt his own supporters in Washington | Northwest",
-          "domain": "yakimaherald.com",
-          "date": "20260427T191500Z",
-          "country": "United States"
-        },
-        {
           "title": "Judge thwarts Trump administration attempt to access Arizona voter rolls",
           "domain": "yahoo.com",
           "date": "20260429T020000Z",
@@ -218,6 +212,12 @@
           "domain": "aol.co.uk",
           "date": "20260429T020000Z",
           "country": "United Kingdom"
+        },
+        {
+          "title": "Federal judge blocks Trump admin from accessing Arizona voter rolls",
+          "domain": "foxnews.com",
+          "date": "20260429T121500Z",
+          "country": "United States"
         }
       ]
     },
@@ -306,9 +306,45 @@
           "country": "India"
         },
         {
+          "title": "Federal Reserve holds interest rates steady for third straight meeting",
+          "domain": "finance.yahoo.com",
+          "date": "20260429T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Jerome Powell - led US Federal Reserve keeps interest rates unchanged ; cites Middle East conflict uncertainty , rising energy prices",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260429T200000Z",
+          "country": "India"
+        },
+        {
+          "title": "Federal Reserve keeps key rate unchanged , with Powell attending his last meeting as chair",
+          "domain": "wwmt.com",
+          "date": "20260429T193000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Federal Reserve keeps key rate unchanged , with Powell attending his last meeting as chair",
+          "domain": "ktul.com",
+          "date": "20260429T193000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed Holds Rates Steady in Powell Final Meeting",
+          "domain": "athens-times.com",
+          "date": "20260429T200000Z",
+          "country": "Greece"
+        },
+        {
           "title": "Will the Fed cut interest rates ? Here what to expect at Wednesday meeting .",
           "domain": "cbsnews.com",
           "date": "20260428T103000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Federal Reserve keeps key rate unchanged , with Powell attending his last meeting as chair",
+          "domain": "wlos.com",
+          "date": "20260429T200000Z",
           "country": "United States"
         },
         {
@@ -322,113 +358,16 @@
           "domain": "mynews13.com",
           "date": "20260429T001500Z",
           "country": "United States"
-        },
-        {
-          "title": "Here everything to expect when the Fed issues its latest interest rate decision Wednesday",
-          "domain": "cnbc.com",
-          "date": "20260428T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "FxWirePro : NZD / USD bulls struggles as upside momentum fades",
-          "domain": "econotimes.com",
-          "date": "20260428T080000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Decision - Day Guide : Fed chair Powell future a bigger question than rates",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260429T050000Z",
-          "country": "India"
-        },
-        {
-          "title": "Federal Reserve to announce latest interest rate decision",
-          "domain": "upi.com",
-          "date": "20260429T161500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Baystreet . ca - Will Markets Jump or Slump After Fed Rate Decision ?",
-          "domain": "baystreet.ca",
-          "date": "20260428T121500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Fed likely to hold rates steady amid oil spike ahead of Powell exit",
-          "domain": "wset.com",
-          "date": "20260427T211500Z",
-          "country": "United States"
         }
       ]
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": [
-        {
-          "title": "Bulgarian Inflation Climbs To 7 . 1 %, Highest Since August 2023",
-          "domain": "finanzen.ch",
-          "date": "20260429T143000Z",
-          "country": "Switzerland"
-        },
-        {
-          "title": "Bulgarian Inflation Climbs To 7 . 1 %, Highest Since August 2023",
-          "domain": "finanznachrichten.de",
-          "date": "20260429T140000Z",
-          "country": "Germany"
-        },
-        {
-          "title": "Zimbabwe Inflation Hits 2 , 8 Percent As Middle East Conflict Pushes Up Costs",
-          "domain": "allafrica.com",
-          "date": "20260428T103000Z",
-          "country": "Nigeria"
-        },
-        {
-          "title": "Why did the ASX 200 just rebound following the hottest inflation print since 2023 ?",
-          "domain": "fool.com.au",
-          "date": "20260429T041500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Zimbabwe inflation hits 2 , 8 % as Middle East conflict pushes up costs",
-          "domain": "newzimbabwe.com",
-          "date": "20260428T053000Z",
-          "country": "Zimbabwe"
-        },
-        {
-          "title": "New inflation data drops tomorrow . Be ready with Sensible Emily hip pocket guide to the CPI",
-          "domain": "abc.net.au",
-          "date": "20260427T204500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Australia Q1 consumer prices jump as Mideast war drives up fuel costs",
-          "domain": "marketscreener.com",
-          "date": "20260429T034500Z",
-          "country": ""
-        },
-        {
-          "title": "Australia consumer prices jump in Q1 , core inflation stays high",
-          "domain": "marketscreener.com",
-          "date": "20260429T021500Z",
-          "country": ""
-        },
-        {
-          "title": "Qatar CPI increases 0 . 76 % in March driven by food prices",
-          "domain": "arabnews.com",
-          "date": "20260429T120000Z",
-          "country": "Saudi Arabia"
-        },
-        {
-          "title": "Zimbabwe inflation rises to 2 , 8 %",
-          "domain": "bulawayo24.com",
-          "date": "20260428T121500Z",
-          "country": "Zimbabwe"
-        }
-      ]
+      "headlines": []
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
@@ -448,6 +387,12 @@
           "domain": "moneycontrol.com",
           "date": "20260428T080000Z",
           "country": "India"
+        },
+        {
+          "title": "Three Bitcoin Analysts Give Three Very Different Outlooks : Who Right ?",
+          "domain": "benzinga.com",
+          "date": "20260429T194500Z",
+          "country": "United States"
         },
         {
           "title": "These Three Bitcoin Charts Say BTC Price Set for Recovery to $82 , 000",
@@ -474,99 +419,32 @@
           "country": "United States"
         },
         {
-          "title": "Cryptos Firm Ahead Of Fed Decision",
-          "domain": "finanznachrichten.de",
-          "date": "20260429T154500Z",
-          "country": "Germany"
-        },
-        {
           "title": "Bitcoin Whale Holdings Hit 5 Month High At 3 . 09M BTC",
           "domain": "cointelegraph.com",
           "date": "20260427T221500Z",
           "country": "China"
         },
         {
+          "title": "Cryptos Firm Ahead Of Fed Decision",
+          "domain": "finanznachrichten.de",
+          "date": "20260429T154500Z",
+          "country": "Germany"
+        },
+        {
           "title": "Crypto Markets Today , April 27 : Bitcoin Slips Below $77 , 000 as Rally Falters",
           "domain": "finance.yahoo.com",
           "date": "20260427T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Crypto News : AlphaPepe Product Progress Hits New Peak whilst Bitcoin Price Prediction Aims at $250 , 000",
-          "domain": "mykxlg.com",
-          "date": "20260428T014500Z",
           "country": "United States"
         }
       ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": [
-        {
-          "title": "Gas Prices Continue Rise | Z100 Portland",
-          "domain": "z100portland.iheart.com",
-          "date": "20260429T003000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas Prices Continue Rise | 106 . 7 The Eagle | Portland Local News",
-          "domain": "1067theeagle.iheart.com",
-          "date": "20260429T014500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas Prices Continue Rise | 105 . 9 The Brew",
-          "domain": "1059thebrew.iheart.com",
-          "date": "20260429T011500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas Prices Continue Rise | News Radio 1190 KEX",
-          "domain": "1190kex.iheart.com",
-          "date": "20260428T233000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Latest updates on energy prices worldwide at 0200 GMT , April 28",
-          "domain": "bignewsnetwork.com",
-          "date": "20260428T033000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Tennessee gas prices hold steady",
-          "domain": "wbbjtv.com",
-          "date": "20260427T193000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Clarksville Continues Trend of Low Fuel Costs , Ranking Second in Tennessee - Clarksville Online - Clarksville News , Sports , Events and Information",
-          "domain": "clarksvilleonline.com",
-          "date": "20260429T163000Z",
-          "country": "United States"
-        },
-        {
-          "title": "oil price today : Why are oil prices down now , and will Brent , US WTI crude futures continue to drop or rise again ? Oil slips after UAE exits OPEC and Strait tensions continue",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260429T054500Z",
-          "country": "India"
-        },
-        {
-          "title": "Oil rises on reports US will extend Iran blockade , prolonging Mideast supply disruptions",
-          "domain": "moneycontrol.com",
-          "date": "20260429T040000Z",
-          "country": "India"
-        },
-        {
-          "title": "Global Oil Prices surge past $111 amid Hormuz Crisis , UAE Exit from OPEC",
-          "domain": "en.dailypakistan.com.pk",
-          "date": "20260429T093000Z",
-          "country": "Pakistan"
-        }
-      ]
+      "headlines": []
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -589,52 +467,52 @@
           "country": "United States"
         },
         {
+          "title": "Florida House approves redistricting map favoring Republicans",
+          "domain": "nbcmiami.com",
+          "date": "20260429T190000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Florida lawmakers pass a voting map that could help Republicans flip four House seats",
+          "domain": "knpr.org",
+          "date": "20260429T201500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Florida lawmakers pass a voting map that could help Republicans flip four House seats",
+          "domain": "northcountrypublicradio.org",
+          "date": "20260429T200000Z",
+          "country": "United States"
+        },
+        {
           "title": "Early voting underway for Georgia 2026 midterm primaries",
           "domain": "wtoc.com",
           "date": "20260428T004500Z",
           "country": "United States"
         },
         {
-          "title": "SCOTUS reinforces ruling on Texas congressional map | FOX 4 Dallas - Fort Worth",
-          "domain": "fox4news.com",
-          "date": "20260427T190000Z",
+          "title": "Florida lawmakers pass a voting map that could help Republicans flip four House seats",
+          "domain": "wkyufm.org",
+          "date": "20260429T193000Z",
           "country": "United States"
         },
         {
-          "title": "SCOTUS reinforces ruling on Texas congressional map",
-          "domain": "fox10phoenix.com",
-          "date": "20260427T181500Z",
+          "title": "Florida lawmakers pass a voting map that could help Republicans flip four House seats",
+          "domain": "kazu.org",
+          "date": "20260429T193000Z",
           "country": "United States"
         },
         {
-          "title": "SCOTUS reinforces ruling on Texas congressional map",
-          "domain": "ktvu.com",
-          "date": "20260427T204500Z",
+          "title": "Florida lawmakers pass a voting map that could help Republicans flip four House seats",
+          "domain": "tspr.org",
+          "date": "20260429T200000Z",
           "country": "United States"
         },
         {
-          "title": "SCOTUS reinforces ruling on Texas congressional map",
-          "domain": "fox26houston.com",
-          "date": "20260427T194500Z",
+          "title": "Florida lawmakers pass a voting map that could help Republicans flip four House seats",
+          "domain": "wwno.org",
+          "date": "20260429T200000Z",
           "country": "United States"
-        },
-        {
-          "title": "SCOTUS reinforces ruling on Texas congressional map",
-          "domain": "fox32chicago.com",
-          "date": "20260427T194500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Florida lawmakers return for high - stakes redistricting session that could reshape U . S . House",
-          "domain": "wtsp.com",
-          "date": "20260429T031500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Dozens in Congress retiring before the 2026 Midterms - mostly Republicans",
-          "domain": "express.co.uk",
-          "date": "20260428T124500Z",
-          "country": "United Kingdom"
         }
       ]
     },
@@ -646,16 +524,16 @@
       ],
       "headlines": [
         {
+          "title": "Why there could be more cards than ever before at World Cup 2026",
+          "domain": "fourfourtwo.com",
+          "date": "20260429T190000Z",
+          "country": "Spain"
+        },
+        {
           "title": "Texas congressman calls for National Guard to address drone threats at World Cup",
           "domain": "fox26houston.com",
           "date": "20260429T001500Z",
           "country": "United States"
-        },
-        {
-          "title": "FIFA makes a big change for the 2026 World Cup",
-          "domain": "gazetaexpress.com",
-          "date": "20260427T204500Z",
-          "country": "Kosovo"
         },
         {
           "title": "FIFA and LOC announce tournament dates for FIFA U - 17 World Cup Qatar 2026",
@@ -667,12 +545,6 @@
           "title": "$2 Million Tickets For The Final ? It The Rich People World Cup",
           "domain": "forbes.com",
           "date": "20260428T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Mamdani , Hochul reveal 5 free fan events for FIFA World Cup",
-          "domain": "fox5ny.com",
-          "date": "20260427T184500Z",
           "country": "United States"
         },
         {
@@ -692,6 +564,12 @@
           "domain": "tribune.com.pk",
           "date": "20260429T080000Z",
           "country": "Pakistan"
+        },
+        {
+          "title": "What Can Canadians Expect the 2026 World Cup ? | Entertainment",
+          "domain": "thesuburban.com",
+          "date": "20260429T180000Z",
+          "country": "Canada"
         },
         {
           "title": "FIFA Enacts New World Cup Rule on Yellow Cards to Help Avoid Player Bans in Knockout Rounds",
@@ -715,12 +593,6 @@
       ],
       "headlines": [
         {
-          "title": "FanDuel Promo Code : Bet $5 , Get $250 if it Wins for NBA , NHL and MLB Action on Monday",
-          "domain": "covers.com",
-          "date": "20260427T191500Z",
-          "country": "United States"
-        },
-        {
           "title": "Wembanyama Gives Spurs Realistic 20 % Title Shot in 2026 , Finals MVP Favorite if They Win",
           "domain": "ibtimes.com.au",
           "date": "20260428T034500Z",
@@ -736,12 +608,6 @@
           "title": "New on Peacock in May 2026 : All the new shows and movies to watch",
           "domain": "tomsguide.com",
           "date": "20260429T121500Z",
-          "country": "United States"
-        },
-        {
-          "title": "NEW DraftKings Promo Code : Get $100 Bonus Instantly for a $5 First Bet on NBA , NHL or MLB",
-          "domain": "covers.com",
-          "date": "20260427T191500Z",
           "country": "United States"
         },
         {
@@ -769,9 +635,21 @@
           "country": "Jamaica"
         },
         {
+          "title": "Dallas teen forward Flagg voted NBA Rookie of the Year",
+          "domain": "guampdn.com",
+          "date": "20260428T010000Z",
+          "country": "Guam"
+        },
+        {
           "title": "NBA Playoff Predictions - Point Spreads , Betting Odds , Picks",
           "domain": "thespread.com",
           "date": "20260428T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mark Kiszla : Nuggets shut yap of Howlin  Wolf Jaden McDaniels in blowout victory",
+          "domain": "gazette.com",
+          "date": "20260428T181500Z",
           "country": "United States"
         }
       ]
@@ -848,11 +726,72 @@
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "grand theft auto 6 pricing : GTA 6 release date may hinge on May 21 : Why this key date could confirm or shake the November launch",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260429T104500Z",
+          "country": "India"
+        },
+        {
+          "title": "Take - Two still wont give GTA 6 an actual price , but says  our job is to charge way , way , way less of the value",
+          "domain": "eurogamer.net",
+          "date": "20260429T154500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "GTA 5 Officially Getting A Ton Of New Missions",
+          "domain": "screenrant.com",
+          "date": "20260429T121500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 Official Price Tag Update Is Definitely Positive",
+          "domain": "screenrant.com",
+          "date": "20260429T121500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 : Take - Two CEO shares new details about price , release date",
+          "domain": "arynews.tv",
+          "date": "20260429T151500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Take - Two Still Wont Commit To A  GTA 6  Price Yet",
+          "domain": "forbes.com",
+          "date": "20260429T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Take - Two boss hints at  reasonable  GTA VI price",
+          "domain": "femalefirst.co.uk",
+          "date": "20260429T123000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "GTA 6 Marketing is Starting Soon , Says Take - Two CEO",
+          "domain": "gamerant.com",
+          "date": "20260429T151500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Even GTA 6 price needs to feel  reasonable , says Take - Two boss : hiking past $70 to match inflation  doesnt make a whole lot of sense",
+          "domain": "rockpapershotgun.com",
+          "date": "20260429T154500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 flu to return as boss expects fans to call in  sick  at game launch",
+          "domain": "metro.co.uk",
+          "date": "20260429T193000Z",
+          "country": "United Kingdom"
+        }
+      ]
     }
   }
 }

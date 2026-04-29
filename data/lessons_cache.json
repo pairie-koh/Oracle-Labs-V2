@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-04-29T17:51:48Z",
-  "n_files_scanned": 191,
+  "generated_at": "2026-04-29T21:19:36Z",
+  "n_files_scanned": 192,
   "per_contract": {
     "bitcoin_daily": {
-      "n_predictions": 191,
+      "n_predictions": 192,
       "history": [
-        {
-          "timestamp": "2026-04-29T03:43:22Z",
-          "tier": "haiku",
-          "type": "binary",
-          "prediction": 0.82,
-          "market_price": 0.79,
-          "signed_error": 0.029999999999999916
-        },
         {
           "timestamp": "2026-04-29T06:34:42Z",
           "tier": "haiku",
@@ -44,6 +36,14 @@
           "prediction": 0.0005,
           "market_price": 0.0005,
           "signed_error": 0.0
+        },
+        {
+          "timestamp": "2026-04-29T21:19:34Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.0,
+          "market_price": 0.0,
+          "signed_error": 0.0
         }
       ],
       "avg_signed_error": 0.006,
@@ -51,16 +51,8 @@
       "bias": "neutral"
     },
     "nyc_temp": {
-      "n_predictions": 191,
+      "n_predictions": 192,
       "history": [
-        {
-          "timestamp": "2026-04-29T03:43:22Z",
-          "tier": "sonnet",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.02222772681863591,
-          "max_outcome_div": 0.08052497502497502,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-04-29T06:34:42Z",
           "tier": "opus",
@@ -92,21 +84,21 @@
           "avg_outcome_div": 0.0,
           "max_outcome_div": 0.0,
           "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-04-29T21:19:34Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 11
         }
       ],
       "avg_multi_div": 0.02
     },
     "miami_temp": {
-      "n_predictions": 185,
+      "n_predictions": 186,
       "history": [
-        {
-          "timestamp": "2026-04-29T03:43:22Z",
-          "tier": "opus",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.02495454545454545,
-          "max_outcome_div": 0.09999999999999998,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-04-29T06:34:42Z",
           "tier": "opus",
@@ -133,6 +125,14 @@
         },
         {
           "timestamp": "2026-04-29T17:51:36Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-04-29T21:19:34Z",
           "tier": "haiku",
           "type": "multi-outcome",
           "avg_outcome_div": 0.0,
