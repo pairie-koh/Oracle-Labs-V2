@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-29T10:17:44Z",
+  "fetched_at": "2026-04-29T14:18:40Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -58,12 +58,6 @@
           "country": "Malaysia"
         },
         {
-          "title": "Oil up almost 3 % as US - Iran peace talks stall",
-          "domain": "tribune.com.pk",
-          "date": "20260427T123000Z",
-          "country": "Pakistan"
-        },
-        {
           "title": "Oil prices up 2 % as no end to Iran war stand - off seems in sight",
           "domain": "arabnews.com",
           "date": "20260428T074500Z",
@@ -80,6 +74,12 @@
           "domain": "marinelink.com",
           "date": "20260428T190000Z",
           "country": "United States"
+        },
+        {
+          "title": "Oil prices rise as no end to Iran war stand - off , Hormuz blockade seem in sight",
+          "domain": "businesstimes.com.sg",
+          "date": "20260428T064500Z",
+          "country": "Singapore"
         }
       ]
     },
@@ -162,82 +162,82 @@
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "How the K - shaped economy explains why it feels like we are in a recession",
+          "domain": "marketplace.org",
+          "date": "20260428T004500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Tech Stocks to Lag As Famed Recession Signal Flashes Warning : Strategist",
+          "domain": "businessinsider.com",
+          "date": "20260427T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "NIESR cuts united kingdom growth forecast , warns Iran war will keep inflation above target until 2028",
+          "domain": "investinglive.com",
+          "date": "20260429T030000Z",
+          "country": ""
+        },
+        {
+          "title": "US in stagflation for first time in decades 2008 crash prophet",
+          "domain": "europesun.com",
+          "date": "20260429T091500Z",
+          "country": "Russia"
+        },
+        {
+          "title": "US in stagflation for first time in decades 2008 crash prophet",
+          "domain": "caribbeanherald.com",
+          "date": "20260429T091500Z",
+          "country": "United States"
+        },
+        {
+          "title": "US in stagflation for first time in decades 2008 crash prophet",
+          "domain": "massachusettssun.com",
+          "date": "20260429T091500Z",
+          "country": "United States"
+        },
+        {
+          "title": "US in stagflation for first time in decades 2008 crash prophet",
+          "domain": "greekherald.com",
+          "date": "20260429T084500Z",
+          "country": "Greece"
+        },
+        {
+          "title": "US in stagflation for first time in decades 2008 crash prophet",
+          "domain": "oklahomacitysun.com",
+          "date": "20260429T091500Z",
+          "country": "United States"
+        },
+        {
+          "title": "US in stagflation for first time in decades 2008 crash prophet",
+          "domain": "newyorktelegraph.com",
+          "date": "20260429T103000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US in stagflation for first time in decades 2008 crash prophet",
+          "domain": "ohiostandard.com",
+          "date": "20260429T091500Z",
+          "country": "United States"
+        }
+      ]
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
-      "headlines": [
-        {
-          "title": "US Fed meeting outcome today : Here time , expectations , when & where to watch Jerome Powell speech",
-          "domain": "livemint.com",
-          "date": "20260429T091500Z",
-          "country": "India"
-        },
-        {
-          "title": "Will the Fed cut interest rates ? Here what to expect at Wednesday meeting .",
-          "domain": "cbsnews.com",
-          "date": "20260428T103000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Fed Meets on Rates This Week . What Should Investors Expect ?",
-          "domain": "finance.yahoo.com",
-          "date": "20260427T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Fed Meets on Rates This Week . What Should Investors Expect ?",
-          "domain": "fool.com",
-          "date": "20260427T171500Z",
-          "country": "United States"
-        },
-        {
-          "title": "No rate cut expected as Powell term as chair nears end",
-          "domain": "mynews13.com",
-          "date": "20260429T030000Z",
-          "country": "United States"
-        },
-        {
-          "title": "No rate cut expected as Powell term as chair nears end",
-          "domain": "mynews13.com",
-          "date": "20260429T001500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Here everything to expect when the Fed issues its latest interest rate decision Wednesday",
-          "domain": "cnbc.com",
-          "date": "20260428T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Federal Reserve April Inflation Forecast Has Been Updated , and It a Good News - Bad News Scenario for Wall Street",
-          "domain": "fool.com",
-          "date": "20260427T110000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Federal Reserve April Inflation Forecast Has Been Updated , and It a Good News - Bad News Scenario for Wall Street",
-          "domain": "fool.com",
-          "date": "20260427T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Alcoa Corporation ( AA ) Stock Forecasts",
-          "domain": "finance.yahoo.com",
-          "date": "20260427T121500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
@@ -283,6 +283,12 @@
           "country": ""
         },
         {
+          "title": "Qatar CPI increases 0 . 76 % in March driven by food prices",
+          "domain": "arabnews.com",
+          "date": "20260429T120000Z",
+          "country": "Saudi Arabia"
+        },
+        {
           "title": "Zimbabwe inflation rises to 2 , 8 %",
           "domain": "bulawayo24.com",
           "date": "20260428T121500Z",
@@ -299,108 +305,224 @@
           "domain": "brokernews.com.au",
           "date": "20260429T021500Z",
           "country": "Australia"
-        },
-        {
-          "title": "Red meat tops list of domestic food price inflation items",
-          "domain": "beefcentral.com",
-          "date": "20260429T064500Z",
-          "country": "Australia"
         }
       ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
-    },
-    "Gas prices / oil prices": {
-      "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
-      "relevant_to": [
-        "will-gas-hit-by-end-of-march"
-      ],
       "headlines": [
         {
-          "title": "Gas Prices Continue Rise | Z100 Portland",
-          "domain": "z100portland.iheart.com",
+          "title": "XRP Price Prediction : We Asked AI if XRP Will Hit $5 Before Bitcoin Hits $200K",
+          "domain": "finance.yahoo.com",
+          "date": "20260428T110000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin slips below $77K as US - Iran tensions , oil surge weigh on sentiment",
+          "domain": "moneycontrol.com",
+          "date": "20260428T080000Z",
+          "country": "India"
+        },
+        {
+          "title": "These Three Bitcoin Charts Say BTC Price Set for Recovery to $82 , 000",
+          "domain": "cointelegraph.com",
+          "date": "20260428T073000Z",
+          "country": "China"
+        },
+        {
+          "title": "Crypto News : AlphaPepe Product Progress Hits New Peak whilst Bitcoin Price Prediction Aims at $250 , 000",
+          "domain": "manilatimes.net",
+          "date": "20260428T020000Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Bitcoin To $88 , 000 ? Analysts Eye May Breakout After Key Close",
+          "domain": "newsbtc.com",
+          "date": "20260428T081500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Cryptos Muted As FOMC Looms",
+          "domain": "finanznachrichten.de",
+          "date": "20260427T160000Z",
+          "country": "Germany"
+        },
+        {
+          "title": "CryptoQuant CEO Warns Bitcoin Demand Imbalance",
+          "domain": "finance.yahoo.com",
           "date": "20260429T003000Z",
           "country": "United States"
         },
         {
-          "title": "Gas Prices Continue Rise | 106 . 7 The Eagle | Portland Local News",
-          "domain": "1067theeagle.iheart.com",
-          "date": "20260429T014500Z",
-          "country": "United States"
+          "title": "Bitcoin Whale Holdings Hit 5 Month High At 3 . 09M BTC",
+          "domain": "cointelegraph.com",
+          "date": "20260427T221500Z",
+          "country": "China"
         },
         {
-          "title": "Gas Prices Continue Rise | 105 . 9 The Brew",
-          "domain": "1059thebrew.iheart.com",
-          "date": "20260429T011500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas Prices Continue Rise | News Radio 1190 KEX",
-          "domain": "1190kex.iheart.com",
-          "date": "20260428T233000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices are expected to keep rising in the absence of a US - Iran deal",
+          "title": "Crypto Markets Today , April 27 : Bitcoin Slips Below $77 , 000 as Rally Falters",
           "domain": "finance.yahoo.com",
-          "date": "20260427T154500Z",
+          "date": "20260427T224500Z",
           "country": "United States"
         },
         {
-          "title": "Latest updates on energy prices worldwide at 0200 GMT , April 28",
-          "domain": "bignewsnetwork.com",
-          "date": "20260428T033000Z",
+          "title": "Crypto News : AlphaPepe Product Progress Hits New Peak whilst Bitcoin Price Prediction Aims at $250 , 000",
+          "domain": "mykxlg.com",
+          "date": "20260428T014500Z",
           "country": "United States"
-        },
-        {
-          "title": "Tennessee gas prices hold steady",
-          "domain": "wbbjtv.com",
-          "date": "20260427T193000Z",
-          "country": "United States"
-        },
-        {
-          "title": "oil price today : Why are oil prices down now , and will Brent , US WTI crude futures continue to drop or rise again ? Oil slips after UAE exits OPEC and Strait tensions continue",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260429T054500Z",
-          "country": "India"
-        },
-        {
-          "title": "Oil rises on reports US will extend Iran blockade , prolonging Mideast supply disruptions",
-          "domain": "moneycontrol.com",
-          "date": "20260429T040000Z",
-          "country": "India"
-        },
-        {
-          "title": "Global Oil Prices surge past $111 amid Hormuz Crisis , UAE Exit from OPEC",
-          "domain": "en.dailypakistan.com.pk",
-          "date": "20260429T093000Z",
-          "country": "Pakistan"
         }
       ]
     },
+    "Gas prices / oil prices": {
+      "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
+      "article_count": 0,
+      "relevant_to": [
+        "will-gas-hit-by-end-of-march"
+      ],
+      "headlines": []
+    },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Democrats may have a chance to retake the Senate - The Highlander Newspaper",
+          "domain": "highlandernews.org",
+          "date": "20260429T023000Z",
+          "country": "United States"
+        },
+        {
+          "title": "House Republicans Expand Their Target List",
+          "domain": "politicalwire.com",
+          "date": "20260427T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "SCOTUS reinforces ruling on Texas congressional map",
+          "domain": "fox7austin.com",
+          "date": "20260427T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Early voting underway for Georgia 2026 midterm primaries",
+          "domain": "wtoc.com",
+          "date": "20260428T004500Z",
+          "country": "United States"
+        },
+        {
+          "title": "SCOTUS reinforces ruling on Texas congressional map | FOX 4 Dallas - Fort Worth",
+          "domain": "fox4news.com",
+          "date": "20260427T190000Z",
+          "country": "United States"
+        },
+        {
+          "title": "SCOTUS reinforces ruling on Texas congressional map",
+          "domain": "fox10phoenix.com",
+          "date": "20260427T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "SCOTUS reinforces ruling on Texas congressional map",
+          "domain": "ktvu.com",
+          "date": "20260427T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "SCOTUS reinforces ruling on Texas congressional map",
+          "domain": "fox26houston.com",
+          "date": "20260427T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "SCOTUS reinforces ruling on Texas congressional map",
+          "domain": "fox32chicago.com",
+          "date": "20260427T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Florida DeSantis unveils a voting map that could add to Trump GOP redistricting",
+          "domain": "northcountrypublicradio.org",
+          "date": "20260427T164500Z",
+          "country": "United States"
+        }
+      ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Texas congressman calls for National Guard to address drone threats at World Cup",
+          "domain": "fox26houston.com",
+          "date": "20260429T001500Z",
+          "country": "United States"
+        },
+        {
+          "title": "FIFA makes a big change for the 2026 World Cup",
+          "domain": "gazetaexpress.com",
+          "date": "20260427T204500Z",
+          "country": "Kosovo"
+        },
+        {
+          "title": "$2 Million Tickets For The Final ? It The Rich People World Cup",
+          "domain": "forbes.com",
+          "date": "20260428T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mamdani , Hochul reveal 5 free fan events for FIFA World Cup",
+          "domain": "fox5ny.com",
+          "date": "20260427T184500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Armenia , Georgia discuss Youth World Cup plans",
+          "domain": "panarmenian.net",
+          "date": "20260429T123000Z",
+          "country": "Armenia"
+        },
+        {
+          "title": "FIFA , LOC announce tournament dates for FIFA U - 17 World Cup Qatar 2026",
+          "domain": "thepeninsulaqatar.com",
+          "date": "20260429T133000Z",
+          "country": "Qatar"
+        },
+        {
+          "title": "World Cup to get cash boost as FIFA unveils red card crackdown",
+          "domain": "tribune.com.pk",
+          "date": "20260429T080000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "FIFA Enacts New World Cup Rule on Yellow Cards to Help Avoid Player Bans in Knockout Rounds",
+          "domain": "english.aawsat.com",
+          "date": "20260429T093000Z",
+          "country": "Syria"
+        },
+        {
+          "title": "Toronto World Cup seats off FIFA resale site as org . works to comply with price cap – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "date": "20260428T171500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Armenia , Georgia to host FIFA youth World Cup",
+          "domain": "panarmenian.net",
+          "date": "20260429T084500Z",
+          "country": "Armenia"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -434,21 +556,27 @@
           "country": "United States"
         },
         {
+          "title": "New on Peacock in May 2026 : All the new shows and movies to watch",
+          "domain": "tomsguide.com",
+          "date": "20260429T121500Z",
+          "country": "United States"
+        },
+        {
           "title": "NEW DraftKings Promo Code : Get $100 Bonus Instantly for a $5 First Bet on NBA , NHL or MLB",
           "domain": "covers.com",
           "date": "20260427T191500Z",
           "country": "United States"
         },
         {
-          "title": "The NBA Proposed Anti - Tanking Fix Could Create a Bigger Problem",
-          "domain": "si.com",
-          "date": "20260429T040000Z",
-          "country": "United States"
-        },
-        {
           "title": "NBA injury that keeps putting careers at risk",
           "domain": "thebiglead.com",
           "date": "20260428T051500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The NBA Proposed Anti - Tanking Fix Could Create a Bigger Problem",
+          "domain": "si.com",
+          "date": "20260429T040000Z",
           "country": "United States"
         },
         {
@@ -462,12 +590,6 @@
           "domain": "jamaicaobserver.com",
           "date": "20260428T020000Z",
           "country": "Jamaica"
-        },
-        {
-          "title": "NBA Playoff Predictions - Point Spreads , Betting Odds , Picks",
-          "domain": "thespread.com",
-          "date": "20260428T234500Z",
-          "country": "United States"
         }
       ]
     },
@@ -522,9 +644,9 @@
           "country": "Canada"
         },
         {
-          "title": "3 things I wish I knew before vibe coding my first app with GitHub Copilot",
-          "domain": "howtogeek.com",
-          "date": "20260427T140000Z",
+          "title": "DeepSeek V4 Signals a New Phase in the U . S .- China AI Rivalry | Council on Foreign Relations",
+          "domain": "cfr.org",
+          "date": "20260429T133000Z",
           "country": "United States"
         },
         {
