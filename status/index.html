@@ -123,9 +123,9 @@
     <div class="header">
         <h1>Oracle Lab</h1>
         <div class="meta">
-            <span>Last cycle: <strong>Apr 28 11:28 PM PT</strong> (10m ago)</span>
-            <span>Next cycle: <strong>01:05 AM PT</strong> (86m)</span>
-            <span>Scored: <strong>687</strong> predictions | Logged: <strong>906</strong> forecasts</span>
+            <span>Last cycle: <strong>Apr 29 03:11 AM PT</strong> (9m ago)</span>
+            <span>Next cycle: <strong>05:05 AM PT</strong> (103m)</span>
+            <span>Scored: <strong>690</strong> predictions | Logged: <strong>910</strong> forecasts</span>
         </div>
     </div>
         
@@ -143,7 +143,7 @@
         <div class="iter-summary">
             <span class="iter-badge iter-ok">ALL OK</span>
             <span>Mar 18 07:30 PM PT</span>
-            <span class="dim">(41d 4h ago)</span>
+            <span class="dim">(41d 7h ago)</span>
         </div>
             <div class="iter-agent-row">
                 <span class="dot" style="background:#e74c3c"></span>
@@ -176,38 +176,38 @@
                 <div class="iter-change-note">
                     <span class="dot" style="background:#e74c3c"></span>
                     <strong>Momentum</strong>
-                    <div class="iter-text"># momentum — 2026-04-27
+                    <div class="iter-text"># momentum — 2026-04-29
 
-Version: 1.34.0 -&gt; 1.35.0
+Version: 1.35.0 -&gt; 1.36.0
 
-The agent&#x27;s directional accuracy is catastrophically low at 23.69%, indicating the momentum logic is too aggressive and consistently wrong. I&#x27;m reducing MOMENTUM_WEIGHT from 0.7 to 0.3 to make predictions more conservative and closer to current prices. This should help improve directional accuracy by reducing the magnitude of predictions that are going in the wrong direction. The MSE is also 10x worse than baseline, so more conservative predictions should help bring this closer to the naive baseline performance.</div>
+I&#x27;m inverting the momentum signal from `0.5 * change_4h + 0.5 * (change_24h / 6.0)` to `-0.5 * change_4h - 0.5 * (change_24h / 6.0)` to test a contrarian momentum hypothesis. The current 22.4% directional accuracy suggests my momentum direction is systematically wrong - when I predict up, markets go down and vice versa. By inverting the signal, I&#x27;m testing whether recent price moves tend to reverse rather than continue, which could explain the poor performance.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#3498db"></span>
                     <strong>Historian</strong>
-                    <div class="iter-text"># historian — 2026-04-27
+                    <div class="iter-text"># historian — 2026-04-29
 
-Version: 1.33.0 -&gt; 1.34.0
+Version: 1.34.0 -&gt; 1.35.0
 
-Increased NEWS_SENSITIVITY from 0.015 to 0.025 to make the historian more responsive to news signals. The current performance shows I&#x27;m fighting market trends too aggressively with overly conservative parameters. By increasing sensitivity to escalation/de-escalation indicators while maintaining the same reversion rate, I should better capture directional moves while still providing the mean-reversion perspective that defines my approach.</div>
+I&#x27;m reducing the reversion rate from 0.015 to 0.012 to be less aggressive about pulling toward the base rate. The strong recent MSE improvement trend suggests my current approach is working, but I may be over-correcting. A gentler reversion rate should help me track actual price movements more closely while still maintaining my mean-reversion edge during calm periods. This small adjustment preserves the successful recent trajectory while addressing the directional accuracy issues.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#f39c12"></span>
                     <strong>Game Theorist</strong>
-                    <div class="iter-text"># game_theorist — 2026-04-27
+                    <div class="iter-text"># game_theorist — 2026-04-29
 
-Version: 1.34.0 -&gt; 1.35.0
+Version: 1.35.0 -&gt; 1.36.0
 
-The agent is performing dramatically worse than the naive baseline (324x higher MSE) and has terrible directional accuracy of 25.92%. The core issue is overshooting on predictions due to excessive sensitivity to signals. I&#x27;m reducing ESCALATION_SENSITIVITY from 0.005 to 0.002 (60% reduction) to make smaller, more conservative moves away from current prices. This should help reduce the massive MSE while potentially improving directional accuracy by making more measured adjustments based on the costly signaling framework.</div>
+I&#x27;m reducing ESCALATION_SENSITIVITY from 0.002 to 0.0005 to dramatically reduce the magnitude of price movements. The current MSE of 0.082 is over 300x worse than the naive baseline, indicating I&#x27;m making predictions that are far too extreme. By cutting sensitivity by 75%, I should stay much closer to current prices while still incorporating signal direction, which should improve both MSE and directional accuracy.</div>
                 </div>
                 <div class="iter-change-note">
                     <span class="dot" style="background:#2ecc71"></span>
                     <strong>Quant</strong>
-                    <div class="iter-text"># quant — 2026-04-27
+                    <div class="iter-text"># quant — 2026-04-29
 
-Version: 1.34.0 -&gt; 1.35.0
+Version: 1.35.0 -&gt; 1.36.0
 
-The current momentum-based approach is failing catastrophically with only 8.24% directional accuracy, performing 3.5x worse than the naive baseline. I&#x27;m reversing the momentum signal by making the momentum coefficient negative (-0.00001 instead of +0.00001), which will make the model predict moves opposite to recent trends. This addresses the systematic bias that&#x27;s causing such poor performance across all metrics. The change tests whether recent price momentum is actually a contrarian signal in this market regime.</div>
+I&#x27;m fixing the critical typo bug (`REVERSION_LOOKBOOK` → `REVERSION_LOOKBACK`) and reverting the contrarian momentum approach. The negative momentum coefficient was clearly wrong - I&#x27;m changing it back to positive 0.00001 to follow momentum rather than fight it. This should immediately improve the terrible 8.24% directional accuracy since the current approach is doing worse than random chance.</div>
                 </div>
             <div class="iter-history">
                 <div class="dim" style="margin-bottom:6px">Recent iterations:</div>
@@ -287,12 +287,12 @@ The current momentum-based approach is failing catastrophically with only 8.24% 
         <div class="analysis-header">
             <span class="dot" style="background:#e74c3c"></span>
             <strong>Momentum</strong>
-            <span class="dim">v1.35.0</span>
+            <span class="dim">v1.36.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 28 11:38 PM PT (prev: Apr 28 08:58 PM PT)</div>
+        <div class="analysis-time dim">Apr 29 03:21 AM PT (prev: Apr 28 11:38 PM PT)</div>
         <div class="analysis-metrics">
             <div class="analysis-metric">
                 <span class="metric-label">Mode</span>
@@ -303,36 +303,36 @@ The current momentum-based approach is failing catastrophically with only 8.24% 
         <div class="analysis-header">
             <span class="dot" style="background:#3498db"></span>
             <strong>Historian</strong>
-            <span class="dim">v1.34.0</span>
+            <span class="dim">v1.35.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 28 11:38 PM PT (prev: Apr 28 08:58 PM PT)</div>
+        <div class="analysis-time dim">Apr 29 03:21 AM PT (prev: Apr 28 11:38 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#f39c12"></span>
             <strong>Game Theorist</strong>
-            <span class="dim">v1.35.0</span>
+            <span class="dim">v1.36.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 28 11:38 PM PT (prev: Apr 28 08:58 PM PT)</div>
+        <div class="analysis-time dim">Apr 29 03:21 AM PT (prev: Apr 28 11:38 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     <div class="analysis-card">
         <div class="analysis-header">
             <span class="dot" style="background:#2ecc71"></span>
             <strong>Quant</strong>
-            <span class="dim">v1.17.0</span>
+            <span class="dim">v1.36.0</span>
         </div>
         <div class="analysis-pred">
             0.0000 &rarr; <strong>0.0000</strong>
         </div>
-        <div class="analysis-time dim">Apr 05 11:09 PM PT (prev: Apr 05 08:16 PM PT)</div>
+        <div class="analysis-time dim">Apr 29 03:21 AM PT (prev: Apr 05 11:09 PM PT)</div>
         <div class="analysis-metrics"></div>
     </div>
     </div>
@@ -343,19 +343,19 @@ The current momentum-based approach is failing catastrophically with only 8.24% 
         <div class="trend-row">
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,14.4 60.0,28.0 90.0,25.4 120.0,22.3" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="22.3" r="3" fill="#e74c3c" /></svg></span>
-            <span class="trend-val">0.001999</span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,28.0 60.0,23.1 90.0,17.1 120.0,15.1" fill="none" stroke="#e74c3c" stroke-width="2" /><circle cx="120.0" cy="15.1" r="3" fill="#e74c3c" /></svg></span>
+            <span class="trend-val">0.002019</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#3498db"></span>
             <span class="agent-name">Historian</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,12.7 60.0,27.6 90.0,27.8 120.0,28.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#3498db" /></svg></span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,27.2 60.0,27.5 90.0,27.9 120.0,28.0" fill="none" stroke="#3498db" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#3498db" /></svg></span>
             <span class="trend-val">0.000007</span>
         </div>
         <div class="trend-row">
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
-            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,27.3 60.0,28.0 90.0,28.0 120.0,28.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#f39c12" /></svg></span>
+            <span class="trend-sparkline"><svg width="120" height="30" viewBox="0 0 120 30"><polyline points="0.0,2.0 30.0,28.0 60.0,28.0 90.0,28.0 120.0,28.0" fill="none" stroke="#f39c12" stroke-width="2" /><circle cx="120.0" cy="28.0" r="3" fill="#f39c12" /></svg></span>
             <span class="trend-val">0.003819</span>
         </div>
         <div class="trend-row">
@@ -374,7 +374,7 @@ The current momentum-based approach is failing catastrophically with only 8.24% 
             <span class="dot" style="background:#e74c3c"></span>
             <span class="agent-name">Momentum</span>
             <span class="pnl-val down">$-30</span>
-            <span class="dim">24W/79L (103 trades)</span>
+            <span class="dim">24W/80L (104 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#3498db"></span>
@@ -386,7 +386,7 @@ The current momentum-based approach is failing catastrophically with only 8.24% 
             <span class="dot" style="background:#f39c12"></span>
             <span class="agent-name">Game Theorist</span>
             <span class="pnl-val down">$-60</span>
-            <span class="dim">37W/108L (145 trades)</span>
+            <span class="dim">37W/109L (146 trades)</span>
         </div>
         <div class="pnl-row">
             <span class="dot" style="background:#2ecc71"></span>
@@ -401,10 +401,10 @@ The current momentum-based approach is failing catastrophically with only 8.24% 
         
             <div class="news-summary">
                 <strong>23</strong> facts:
-                <span class="esc">20 escalatory</span>,
-                <span class="deesc">3 de-escalatory</span>,
-                0 neutral
-            </div><div class="fact"><span class="dim">[military_pressure]</span> US Marine boarding attempt on a commercial vessel linked to sanctions evasion was repelled by IRGC b</div><div class="fact"><span class="dim">[military_pressure]</span> US Central Command intercepted the Iranian tanker MT Stream using USS Rafael Peralta as part of a bl</div><div class="fact"><span class="dim">[military_pressure]</span> IRGC gunboats fired on a container ship and cargo ship in the Strait of Hormuz around April 29, 2026</div>
+                <span class="esc">15 escalatory</span>,
+                <span class="deesc">6 de-escalatory</span>,
+                2 neutral
+            </div><div class="fact"><span class="dim">[military_pressure]</span> US forces deployed thousands of additional troops to the Middle East as President Trump extended an </div><div class="fact"><span class="dim">[military_pressure]</span> The USS Rafael Peralta intercepted the tanker MT Stream en route to an Iranian port as part of a US </div><div class="fact"><span class="dim">[military_pressure]</span> IRGC boats repelled a US Marines boarding attempt via radio warnings and boat interception.</div>
     </div>
         
     <div class="section">
@@ -412,12 +412,12 @@ The current momentum-based approach is failing catastrophically with only 8.24% 
         
             <div class="state-block">
                 <div class="dim">Regime Fall</div>
-                <div class="state-status">Iran faces an acute convergence of external military pressure (US naval blockade with 39 vessels inspected/redirected, ongoing Israeli strikes, IRGC attacks on shipping) and the most severe domestic u</div>
+                <div class="state-status">Iran faces an unprecedented convergence of existential pressures: Trump rejected Iran&#x27;s Hormuz reopening offer and issued a 3-day ultimatum threatening pipeline destruction while deploying thousands o</div>
                 <div class="indicators"><span class="indicator level-high">military pressure: critical</span><span class="indicator level-high">internal stability: critical</span><span class="indicator level-high">succession dynamics: high</span><span class="indicator level-high">diplomatic signals: critical</span><span class="indicator level-high">economic collapse: critical</span><span class="indicator level-high">international response: critical</span></div>
             </div>
     </div>
         <div class="footer">
-            Generated 2026-04-28 11:38 PM PT &middot; Auto-refreshes every 15 min
+            Generated 2026-04-29 03:21 AM PT &middot; Auto-refreshes every 15 min
         </div>
     </div>
 </body>
