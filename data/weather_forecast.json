@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-01T17:02:21Z",
+  "fetched_at": "2026-05-01T20:58:34Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -7,39 +7,15 @@
       "relevant_to": [
         "nyc_temp"
       ],
-      "today_high": 62,
+      "today_high": 61,
       "today_high_unit": "F",
       "today_forecast": "Sunny",
-      "today_detail": "Sunny, with a high near 62. West wind 6 to 10 mph.",
-      "wind": "6 to 10 mph",
-      "wind_direction": "W",
+      "today_detail": "Sunny. High near 61, with temperatures falling to around 59 in the afternoon. South wind 7 to 10 mph.",
+      "wind": "7 to 10 mph",
+      "wind_direction": "S",
       "tonight_low": 51,
-      "tonight_forecast": "Chance Rain Showers",
+      "tonight_forecast": "Chance Light Rain",
       "hourly": [
-        {
-          "hour": "2026-05-01T12:00:00-04:00",
-          "temp": 57,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-01T13:00:00-04:00",
-          "temp": 58,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-01T14:00:00-04:00",
-          "temp": 60,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-01T15:00:00-04:00",
-          "temp": 60,
-          "unit": "F",
-          "short": "Sunny"
-        },
         {
           "hour": "2026-05-01T16:00:00-04:00",
           "temp": 60,
@@ -48,7 +24,7 @@
         },
         {
           "hour": "2026-05-01T17:00:00-04:00",
-          "temp": 61,
+          "temp": 59,
           "unit": "F",
           "short": "Sunny"
         },
@@ -56,17 +32,17 @@
           "hour": "2026-05-01T18:00:00-04:00",
           "temp": 59,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-01T19:00:00-04:00",
           "temp": 58,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-01T20:00:00-04:00",
-          "temp": 58,
+          "temp": 57,
           "unit": "F",
           "short": "Partly Cloudy"
         },
@@ -74,11 +50,11 @@
           "hour": "2026-05-01T21:00:00-04:00",
           "temp": 56,
           "unit": "F",
-          "short": "Mostly Cloudy"
+          "short": "Partly Cloudy"
         },
         {
           "hour": "2026-05-01T22:00:00-04:00",
-          "temp": 56,
+          "temp": 55,
           "unit": "F",
           "short": "Partly Cloudy"
         },
@@ -86,11 +62,11 @@
           "hour": "2026-05-01T23:00:00-04:00",
           "temp": 55,
           "unit": "F",
-          "short": "Slight Chance Rain Showers"
+          "short": "Slight Chance Light Rain"
         }
       ],
-      "peak_temp": 61,
-      "peak_hour": "2026-05-01T17:00:00-04:00"
+      "peak_temp": 60,
+      "peak_hour": "2026-05-01T16:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
@@ -104,35 +80,17 @@
       "wind": "7 mph",
       "wind_direction": "SW",
       "tonight_low": 64,
-      "tonight_forecast": "Partly Cloudy",
+      "tonight_forecast": "Mostly Clear",
       "hourly": [
         {
-          "hour": "2026-05-01T13:00:00-04:00",
-          "temp": 89,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-01T14:00:00-04:00",
-          "temp": 91,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-01T15:00:00-04:00",
-          "temp": 91,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
           "hour": "2026-05-01T16:00:00-04:00",
-          "temp": 93,
+          "temp": 91,
           "unit": "F",
           "short": "Sunny"
         },
         {
           "hour": "2026-05-01T17:00:00-04:00",
-          "temp": 91,
+          "temp": 92,
           "unit": "F",
           "short": "Sunny"
         },
@@ -146,35 +104,35 @@
           "hour": "2026-05-01T19:00:00-04:00",
           "temp": 87,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-01T20:00:00-04:00",
-          "temp": 80,
+          "temp": 82,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-01T21:00:00-04:00",
-          "temp": 76,
+          "temp": 77,
           "unit": "F",
-          "short": "Mostly Clear"
+          "short": "Clear"
         },
         {
           "hour": "2026-05-01T22:00:00-04:00",
           "temp": 73,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-01T23:00:00-04:00",
-          "temp": 71,
+          "temp": 70,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         }
       ],
-      "peak_temp": 93,
-      "peak_hour": "2026-05-01T16:00:00-04:00"
+      "peak_temp": 92,
+      "peak_hour": "2026-05-01T17:00:00-04:00"
     }
   }
 }
