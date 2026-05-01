@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-05-01T13:43:34Z",
-  "n_files_scanned": 202,
+  "generated_at": "2026-05-01T17:08:13Z",
+  "n_files_scanned": 203,
   "per_contract": {
     "bitcoin_daily": {
-      "n_predictions": 202,
+      "n_predictions": 203,
       "history": [
-        {
-          "timestamp": "2026-04-30T21:12:03Z",
-          "tier": "haiku",
-          "type": "binary",
-          "prediction": 1.0,
-          "market_price": 1.0,
-          "signed_error": 0.0
-        },
         {
           "timestamp": "2026-05-01T03:56:24Z",
           "tier": "haiku",
@@ -44,23 +36,23 @@
           "prediction": 0.9875,
           "market_price": 0.9875,
           "signed_error": 0.0
+        },
+        {
+          "timestamp": "2026-05-01T17:08:11Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.9995,
+          "market_price": 0.9995,
+          "signed_error": 0.0
         }
       ],
       "avg_signed_error": 0.006,
-      "avg_abs_error": 0.057,
+      "avg_abs_error": 0.056,
       "bias": "neutral"
     },
     "nyc_temp": {
-      "n_predictions": 202,
+      "n_predictions": 203,
       "history": [
-        {
-          "timestamp": "2026-04-30T21:12:03Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-05-01T03:56:24Z",
           "tier": "haiku",
@@ -87,6 +79,14 @@
         },
         {
           "timestamp": "2026-05-01T13:43:05Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-05-01T17:08:11Z",
           "tier": "haiku",
           "type": "multi-outcome",
           "avg_outcome_div": 0.0,
@@ -94,19 +94,11 @@
           "n_outcomes": 11
         }
       ],
-      "avg_multi_div": 0.019
+      "avg_multi_div": 0.018
     },
     "miami_temp": {
-      "n_predictions": 196,
+      "n_predictions": 197,
       "history": [
-        {
-          "timestamp": "2026-04-30T21:12:03Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-05-01T03:56:24Z",
           "tier": "haiku",
@@ -133,6 +125,14 @@
         },
         {
           "timestamp": "2026-05-01T13:43:05Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-05-01T17:08:11Z",
           "tier": "haiku",
           "type": "multi-outcome",
           "avg_outcome_div": 0.0,
