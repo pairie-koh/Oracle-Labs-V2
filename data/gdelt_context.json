@@ -1,17 +1,78 @@
 {
-  "fetched_at": "2026-05-02T06:18:46Z",
+  "fetched_at": "2026-05-02T09:19:10Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Iran Drops Sanctions Precondition in New US Peace Bid",
+          "domain": "athens-times.com",
+          "date": "20260501T231500Z",
+          "country": "Greece"
+        },
+        {
+          "title": "Report : Iran signaled flexibility in latest proposal to US",
+          "domain": "israelnationalnews.com",
+          "date": "20260501T210000Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Trump  Not Satisfied  with Latest Iranian Proposal :  May Never Be a Deal",
+          "domain": "breitbart.com",
+          "date": "20260502T031500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump Doubts Iran Deal , Warns Force Option Remains",
+          "domain": "newkerala.com",
+          "date": "20260501T201500Z",
+          "country": "India"
+        },
+        {
+          "title": "Strait Blockade Yields Result as Iran Adjusts Hormuz Demands , Paving the Way for Ceasefire Talks While Decoupling Nuclear Issue",
+          "domain": "ibtimes.co.uk",
+          "date": "20260501T234500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Trump Unhappy with Latest Iranian Negotiation Proposal",
+          "domain": "arynews.tv",
+          "date": "20260501T200000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Trump says he not satisfied with Iran latest proposal for talks",
+          "domain": "internazionale.it",
+          "date": "20260501T184500Z",
+          "country": "Italy"
+        },
+        {
+          "title": "Iran has shown great resilience : Why Donald Trump pressure strategy is failing",
+          "domain": "moneycontrol.com",
+          "date": "20260430T113000Z",
+          "country": "India"
+        },
+        {
+          "title": "New Iran plan  disjointed , US wont leave early : Trump",
+          "domain": "perthnow.com.au",
+          "date": "20260501T224500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Iran softens terms in new war proposal , but US says gaps remain on nukes , Hormuz",
+          "domain": "ynetnews.com",
+          "date": "20260502T000000Z",
+          "country": "Israel"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -31,12 +92,6 @@
           "title": "Strait of Hormuz blockade sends oil to $100 , Bitcoin below $76 , 000 as Asian energy crisis deepens – NaturalNews . com",
           "domain": "naturalnews.com",
           "date": "20260430T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran War Week 9 , Day 6 : make no small plans to restart military operations",
-          "domain": "dailykos.com",
-          "date": "20260430T073000Z",
           "country": "United States"
         },
         {
@@ -80,32 +135,221 @@
           "domain": "kvia.com",
           "date": "20260430T141500Z",
           "country": "United States"
+        },
+        {
+          "title": "Nice Try : Iran $800M Oil Smuggling Scheme Using Fake Iraqi Tankers Falls Apart – RedState",
+          "domain": "redstate.com",
+          "date": "20260430T161500Z",
+          "country": "United States"
         }
       ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "UN Chief  appreciate Myanmar military moving Aung San Suu Kyi from prison to home detention",
+          "domain": "prokerala.com",
+          "date": "20260501T014500Z",
+          "country": "India"
+        },
+        {
+          "title": "Myanmar leader Aung San Suu Kyi moved from prison to home detention",
+          "domain": "morungexpress.com",
+          "date": "20260501T050000Z",
+          "country": "India"
+        },
+        {
+          "title": "Aung San Suu Kyi Moved to House Detention",
+          "domain": "newkerala.com",
+          "date": "20260501T013000Z",
+          "country": "India"
+        },
+        {
+          "title": "UN Chief  appreciate Myanmar military moving Aung San Suu Kyi from prison to home detention",
+          "domain": "mangalorean.com",
+          "date": "20260501T040000Z",
+          "country": "India"
+        },
+        {
+          "title": "Aung San Suu Kyi son Kim Aris hit outs at Myanmar token prison sentence cut :  This is not justice",
+          "domain": "aol.co.uk",
+          "date": "20260501T131500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Leader of Welsh council to step down but denies  coup  claim",
+          "domain": "walesonline.co.uk",
+          "date": "20260430T204500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Hungary Péter Magyar defends appointing brother - in - law as country justice minister",
+          "domain": "euronews.com",
+          "date": "20260501T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Public invited to name lion cubs at Dehiwala Zoo",
+          "domain": "srilankamirror.com",
+          "date": "20260501T051500Z",
+          "country": "Sri Lanka"
+        },
+        {
+          "title": "Myanmar ex - leader Aung San Suu Kyi moved to house arrest",
+          "domain": "srilankamirror.com",
+          "date": "20260501T051500Z",
+          "country": "Sri Lanka"
+        },
+        {
+          "title": "Detained Myanmar ex - leader Suu Kyi to meet legal team this weekend",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260501T051500Z",
+          "country": "Malaysia"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "34 , 000 dead people found on voter rolls prompts expert to slam Dems for resisting  commonsense  cleanup",
+          "domain": "yahoo.com",
+          "date": "20260501T051500Z",
+          "country": "United States"
+        },
+        {
+          "title": "34 , 000 dead people found on voter rolls prompts expert to slam Dems for resisting  commonsense  cleanup",
+          "domain": "wfmd.com",
+          "date": "20260430T170000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Our election security is in dire need of an upgrade",
+          "domain": "theblaze.com",
+          "date": "20260501T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "That Thing That Never Happens Just Happened Again Feds Charge Multiple Aliens With Illegally Voting",
+          "domain": "redstate.com",
+          "date": "20260502T023000Z",
+          "country": "United States"
+        },
+        {
+          "title": "U . S . Representative candidates discuss inflation , Iran , and SAVE Act",
+          "domain": "chicagotribune.com",
+          "date": "20260430T150000Z",
+          "country": "United States"
+        },
+        {
+          "title": "The politics of belonging in West Bengal",
+          "domain": "tribune.com.pk",
+          "date": "20260430T204500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Senate Dems Claim Victory Over Thune on SAVE America Act",
+          "domain": "dailysignal.com",
+          "date": "20260430T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The real election integrity solution : A constitutional amendment * WorldNetDaily * by Avi Fortenberry , Real Clear Wire",
+          "domain": "wnd.com",
+          "date": "20260430T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Letters to the editor | News , Sports , Jobs - The Mining Gazette",
+          "domain": "mininggazette.com",
+          "date": "20260501T103000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Four noncitizens charged with illegally voting in 2020 , 2022 and 2024 federal elections in New Jersey",
+          "domain": "yahoo.com",
+          "date": "20260502T041500Z",
+          "country": "United States"
+        }
+      ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Cuba Economic Challenges : GDP Predicted to Plummet by 6 . 5 % in 2026",
+          "domain": "cubaheadlines.com",
+          "date": "20260430T211500Z",
+          "country": "Cuba"
+        },
+        {
+          "title": "The global economy has a month eight weeks at most to avoid a recession , warns top economist",
+          "domain": "finance.yahoo.com",
+          "date": "20260501T084500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mohammed El - Erian : Global recession could happen within a month if Strait of Hormuz stays closed",
+          "domain": "fortune.com",
+          "date": "20260430T120000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US economy grew 2 percent in early 2026",
+          "domain": "bostonglobe.com",
+          "date": "20260430T230000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Real GDP Grew Just Shy of Expectations in the First Quarter of 2026",
+          "domain": "businessinsider.com",
+          "date": "20260430T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "How EU Accession Reduced Poverty in Croatia - The Borgen Project",
+          "domain": "borgenproject.org",
+          "date": "20260430T111500Z",
+          "country": "United States"
+        },
+        {
+          "title": "How Long Can Cuba Regime Last ? An Economist Weighs In",
+          "domain": "cubaheadlines.com",
+          "date": "20260430T211500Z",
+          "country": "Cuba"
+        },
+        {
+          "title": "First Quarter Economic Data Shows Stable U . S . Economy and Strong Job Market",
+          "domain": "theconservativetreehouse.com",
+          "date": "20260501T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Weakening Bank Regulations Is A Risk Americans Cant Afford",
+          "domain": "forbes.com",
+          "date": "20260430T201500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Tax refunds , AI boom have offset some US economic pain , so far",
+          "domain": "bostonglobe.com",
+          "date": "20260430T213000Z",
+          "country": "United States"
+        }
+      ]
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -180,19 +424,141 @@
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "April monthly inflation seen at 3 . 2 percent",
+          "domain": "hurriyetdailynews.com",
+          "date": "20260501T113000Z",
+          "country": "Turkey"
+        },
+        {
+          "title": "Tokyo Inflation Slows Despite Energy Pressures and BOJ Policy Outlook",
+          "domain": "econotimes.com",
+          "date": "20260501T030000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Core inflation in Tokyo slows , seen accelerating on energy shock",
+          "domain": "finance.yahoo.com",
+          "date": "20260501T013000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Core inflation in Tokyo slows , seen accelerating on energy shock",
+          "domain": "marketscreener.com",
+          "date": "20260501T014500Z",
+          "country": ""
+        },
+        {
+          "title": "Core inflation in Tokyo slows , seen accelerating on energy shock",
+          "domain": "businesstimes.com.sg",
+          "date": "20260501T040000Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "Economy  hanging in there  as reports show slow growth , rising inflation",
+          "domain": "komonews.com",
+          "date": "20260430T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Economy  hanging in there  as reports show slow growth , rising inflation",
+          "domain": "wcti12.com",
+          "date": "20260430T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Economy  hanging in there  as reports show slow growth , rising inflation",
+          "domain": "katu.com",
+          "date": "20260430T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Economy  hanging in there  as reports show slow growth , rising inflation",
+          "domain": "wjla.com",
+          "date": "20260430T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Economy  hanging in there  as reports show slow growth , rising inflation",
+          "domain": "wwmt.com",
+          "date": "20260501T000000Z",
+          "country": "United States"
+        }
+      ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Analyst Calls Local Bitcoin Top , Reveals Why The Price Is Headed Below $60 , 000",
+          "domain": "newsbtc.com",
+          "date": "20260430T123000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin ( BTC ) Price Prediction : BTC Reclaims $78K While IBIT Holds Steady $80K Breakout in Sight",
+          "domain": "bravenewcoin.com",
+          "date": "20260502T001500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin April Rally Fueled By Futures Trading As Spot Demand Weakens , Data Shows",
+          "domain": "ibtimes.com",
+          "date": "20260501T203000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Crash Is Coming : Pundit Says It Time To Sell All Your BTC",
+          "domain": "newsbtc.com",
+          "date": "20260430T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Cost Basis Cluster Forms Near $75K Support",
+          "domain": "cointelegraph.com",
+          "date": "20260430T220000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Stalls Below $77K As Spot Volumes , Leverage Decline",
+          "domain": "cointelegraph.com",
+          "date": "20260430T220000Z",
+          "country": "China"
+        },
+        {
+          "title": "Crypto News : Pepeto DeFi Project Announces $9 . 77M Raised While Bitcoin Price Prediction Points to $300 , 000",
+          "domain": "manilatimes.net",
+          "date": "20260502T031500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "New Crypto With 300x Math Emerges as Eric Trump Calls BTC",
+          "domain": "openpr.com",
+          "date": "20260501T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Demand , Spot And Institutional Flows Increase As Bulls Chase $80K",
+          "domain": "cointelegraph.com",
+          "date": "20260501T213000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Sells Off Under New Fed Chairs : Will History Repeat Itself Under Kevin Warsh ?",
+          "domain": "benzinga.com",
+          "date": "20260501T191500Z",
+          "country": "United States"
+        }
+      ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -428,16 +794,16 @@
           "country": "United States"
         },
         {
-          "title": "Timberwolves eliminate Jokic Nuggets from NBA playoffs",
-          "domain": "guampdn.com",
-          "date": "20260501T083000Z",
-          "country": "Guam"
-        },
-        {
           "title": "Lakers vs . Rockets Prediction , Odds and Best Prop Bets for NBA Playoffs Game 6",
           "domain": "si.com",
           "date": "20260501T131500Z",
           "country": "United States"
+        },
+        {
+          "title": "Timberwolves eliminate Jokic Nuggets from NBA playoffs",
+          "domain": "guampdn.com",
+          "date": "20260501T083000Z",
+          "country": "Guam"
         },
         {
           "title": "Jaden McDaniels leads the T - wolves on both ends of the court in 110 - 98 clincher to oust Nuggets in 6",
@@ -486,12 +852,6 @@
           "country": "United States"
         },
         {
-          "title": "I put ChatGPT - 5 . 5 vs Gemini 3 . 1 Pro through 7 impossible tests and the winner surprised me",
-          "domain": "tomsguide.com",
-          "date": "20260430T073000Z",
-          "country": "United States"
-        },
-        {
           "title": "Explained : What went wrong with ChatGPT ? How did  goblin enter OpenAI chatbot ?",
           "domain": "livemint.com",
           "date": "20260430T104500Z",
@@ -516,12 +876,6 @@
           "country": "India"
         },
         {
-          "title": "Sam Altman just dropped a big hint that GPT - 6 is coming soon  with extra goblins",
-          "domain": "techradar.com",
-          "date": "20260430T090000Z",
-          "country": "United Kingdom"
-        },
-        {
           "title": "OpenAI explains why ChatGPT suddenly loved goblins",
           "domain": "mashable.com",
           "date": "20260501T180000Z",
@@ -537,6 +891,18 @@
           "title": "Google Profits Soar 81 % Fueled by AI - Driven Cloud Growth",
           "domain": "breitbart.com",
           "date": "20260501T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Google Profits Soar 81 % Fueled by AI - Driven Cloud Growth",
+          "domain": "breitbart.com",
+          "date": "20260502T031500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Pentagon announces AI deals with OpenAI , Google , Microsoft , Amazon , Nvidia , and more LLMs to be deployed on classified Department of War networks  for lawful operational use",
+          "domain": "tomshardware.com",
+          "date": "20260501T164500Z",
           "country": "United States"
         }
       ]

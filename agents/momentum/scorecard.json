@@ -1,79 +1,79 @@
 {
   "agent": "momentum",
-  "last_updated": "2026-05-02T06:18:48Z",
-  "total_predictions": 223,
+  "last_updated": "2026-05-02T09:19:12Z",
+  "total_predictions": 224,
   "overall": {
-    "mse": 0.00250822,
-    "directional_accuracy": 0.2243,
-    "naive_baseline_mse": 0.00023608
+    "mse": 0.00251627,
+    "directional_accuracy": 0.2233,
+    "naive_baseline_mse": 0.00023681
   },
   "per_market": {
     "regime_fall": {
-      "mse": 0.00250822,
+      "mse": 0.00251627,
       "directional_accuracy": 0.9955,
-      "naive_baseline_mse": 0.00023608,
-      "count": 223
+      "naive_baseline_mse": 0.00023681,
+      "count": 224
     }
   },
   "mse_trend_last_5": [
-    0.00214036,
     0.00215807,
     0.0021696,
     0.00419476,
-    0.00430507
+    0.00430507,
+    0.00431097
   ],
   "source_performance": {
     "wire_service": {
       "correct": 50,
-      "total": 223,
-      "directional_accuracy": 0.2242
+      "total": 224,
+      "directional_accuracy": 0.2232
     },
     "us_prestige": {
       "correct": 50,
-      "total": 223,
-      "directional_accuracy": 0.2242
+      "total": 224,
+      "directional_accuracy": 0.2232
     },
     "uk_prestige": {
       "correct": 50,
-      "total": 223,
-      "directional_accuracy": 0.2242
+      "total": 224,
+      "directional_accuracy": 0.2232
     },
     "regional_specialist": {
       "correct": 50,
-      "total": 223,
-      "directional_accuracy": 0.2242
+      "total": 224,
+      "directional_accuracy": 0.2232
     },
     "government_official": {
       "correct": 50,
-      "total": 223,
-      "directional_accuracy": 0.2242
+      "total": 224,
+      "directional_accuracy": 0.2232
     },
     "think_tank": {
       "correct": 50,
-      "total": 223,
-      "directional_accuracy": 0.2242
+      "total": 224,
+      "directional_accuracy": 0.2232
     },
     "osint": {
       "correct": 50,
-      "total": 223,
-      "directional_accuracy": 0.2242
+      "total": 224,
+      "directional_accuracy": 0.2232
     },
     "social_media": {
       "correct": 50,
-      "total": 223,
-      "directional_accuracy": 0.2242
+      "total": 224,
+      "directional_accuracy": 0.2232
     },
     "market_commentary": {
       "correct": 50,
-      "total": 223,
-      "directional_accuracy": 0.2242
+      "total": 224,
+      "directional_accuracy": 0.2232
     }
   },
   "virtual_pnl": {
-    "total": -31.0,
-    "trades": 121,
+    "total": -33.0,
+    "trades": 122,
     "wins": 28,
-    "losses": 93
+    "losses": 94
   },
   "methodology_version": "1.36.0",
   "per_horizon": {
@@ -84,10 +84,10 @@
       "count": 1
     },
     "24h": {
-      "mse": 0.00281445,
-      "directional_accuracy": 0.9949,
-      "naive_baseline_mse": 0.00025582,
-      "count": 198
+      "mse": 0.00282197,
+      "directional_accuracy": 0.995,
+      "naive_baseline_mse": 0.00025654,
+      "count": 199
     }
   }
 }
