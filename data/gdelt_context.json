@@ -1,156 +1,95 @@
 {
-  "fetched_at": "2026-05-03T09:29:56Z",
+  "fetched_at": "2026-05-03T13:26:55Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": [
-        {
-          "title": "Iranian proposal rejected by Trump would open strait before nuclear talks , Iran official says",
-          "domain": "tribune.com.pk",
-          "date": "20260502T164500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Iranian proposal rejected by Trump would open strait before nuclear talks , Iran official says",
-          "domain": "yahoo.com",
-          "date": "20260502T104500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Strait of Hormuz : When will Strait of Hormuz ​reopen ? Iran officials reveal Tehran plans",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260502T101500Z",
-          "country": "India"
-        },
-        {
-          "title": "Iranian proposal rejected by Trump would open strait before nuclear talks , Iran official says",
-          "domain": "nbcnews.com",
-          "date": "20260502T114500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iranian proposal rejected by Trump would open strait",
-          "domain": "arynews.tv",
-          "date": "20260502T160000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Iranian proposal rejected by Trump would open strait before nuclear talks , Iran official says",
-          "domain": "marketscreener.com",
-          "date": "20260502T104500Z",
-          "country": ""
-        },
-        {
-          "title": "Iranian proposal rejected by Trump would open strait before nuclear talks , Iran official says",
-          "domain": "al-monitor.com",
-          "date": "20260502T111500Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Iran offers Strait of Hormuz deal ; Trump prefers non - military path",
-          "domain": "cnbc.com",
-          "date": "20260502T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Donald Trump says US could restart Iran strikes  if they misbehave",
-          "domain": "arynews.tv",
-          "date": "20260503T071500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Iran offers strait deal , Trump says he not satisfied",
-          "domain": "marketscreener.com",
-          "date": "20260502T230000Z",
-          "country": ""
-        }
-      ]
+      "headlines": []
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": []
-    },
-    "World leaders / regime change": {
-      "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
-      "relevant_to": [
-        "next-leader-out-of-power-before-2027-795"
-      ],
       "headlines": [
         {
-          "title": "Military - Led Myanmar Transfers Suu Kyi From Jail To House Arrest",
-          "domain": "indiawest.com",
-          "date": "20260502T191500Z",
+          "title": "Iranian super tanker slips past US blockade with $220 million oil cargo",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260503T081500Z",
           "country": "India"
         },
         {
-          "title": "Aung San Suu Kyi son Kim Aris hit outs at Myanmar token prison sentence cut :  This is not justice",
-          "domain": "aol.co.uk",
-          "date": "20260501T131500Z",
+          "title": "Kuwait halts crude exports in April as Strait of Hormuz blockade bites",
+          "domain": "middleeasteye.net",
+          "date": "20260502T223000Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Iranian Oil Smuggling Scheme Uses Fake Iraqi Ship Identities to Evade U . S . Blockade , Intelligence Firm Says – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "date": "20260502T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iranian Tanker Successfully Bypasses US Navy Blockade : What It Means",
+          "domain": "rediff.com",
+          "date": "20260503T100000Z",
+          "country": "India"
+        },
+        {
+          "title": "India - linked tanker Sarv Shakti carrying cooking fuel crosses Strait of Hormuz",
+          "domain": "moneycontrol.com",
+          "date": "20260502T154500Z",
+          "country": "India"
+        },
+        {
+          "title": "India - linked tanker laden with 45 , 000 tonnes cooking fuel attempts Hormuz exit",
+          "domain": "moneycontrol.com",
+          "date": "20260502T103000Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran Considers Arming Dolphins with Mines Against US Warships as Blockade Bites",
+          "domain": "jp.ibtimes.com",
+          "date": "20260502T050000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran Considers Arming Dolphins with Mines Against US Warships as Blockade Bites",
+          "domain": "ibtimes.co.uk",
+          "date": "20260501T184500Z",
           "country": "United Kingdom"
         },
         {
-          "title": "Legal team plans to meet with detained Myanmar ex - leader Suu Kyi by Sunday ( May 2 )",
-          "domain": "thestar.com.my",
-          "date": "20260502T140000Z",
-          "country": "Malaysia"
+          "title": "India - linked LPG tanker crosses Strait of Hormuz amid country deepening fuel crisis",
+          "domain": "thehindubusinessline.com",
+          "date": "20260502T180000Z",
+          "country": "India"
         },
         {
-          "title": "Hungary Péter Magyar defends appointing brother - in - law as country justice minister",
-          "domain": "euronews.com",
-          "date": "20260501T200000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Indonesia genocide case puts spotlight on Myanmar atrocities",
-          "domain": "manilatimes.net",
-          "date": "20260502T201500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "US calls for Suu Kyi immediate release | The Manila Times",
-          "domain": "manilatimes.net",
-          "date": "20260502T164500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "Trump Tells Prime Minister Starmer to be More Like King Charles",
-          "domain": "breitbart.com",
-          "date": "20260501T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump Tells Prime Minister Starmer to be More Like King Charles",
-          "domain": "breitbart.com",
-          "date": "20260502T031500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Govt takes steps to reopen closed factories : PM",
-          "domain": "bssnews.net",
-          "date": "20260501T154500Z",
-          "country": "Bangladesh"
-        },
-        {
-          "title": "Legal team to meet Myanmar detained Suu Kyi soon",
-          "domain": "maitlandmercury.com.au",
-          "date": "20260501T103000Z",
-          "country": "Australia"
+          "title": "Why Iran Navigational Order Will Be Difficult to Overturn | The Washington Institute",
+          "domain": "washingtoninstitute.org",
+          "date": "20260501T221500Z",
+          "country": "Iran"
         }
       ]
+    },
+    "World leaders / regime change": {
+      "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
+      "article_count": 0,
+      "relevant_to": [
+        "next-leader-out-of-power-before-2027-795"
+      ],
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -184,6 +123,12 @@
           "country": "United States"
         },
         {
+          "title": "Trump Torches  Human Garbage  Democrats for Their Desperate Midterm Election Interference Plot",
+          "domain": "redstate.com",
+          "date": "20260503T124500Z",
+          "country": "United States"
+        },
+        {
           "title": "Four New Jersey residents charged with illegally voting and lying on citizenship forms",
           "domain": "mynorthwest.com",
           "date": "20260502T193000Z",
@@ -208,12 +153,6 @@
           "country": "Turkey"
         },
         {
-          "title": "Letters to the editor | News , Sports , Jobs - The Mining Gazette",
-          "domain": "mininggazette.com",
-          "date": "20260501T103000Z",
-          "country": "United States"
-        },
-        {
           "title": "New Jersey : Democrat Ex - Mayoral Candidate Pleads Guilty to Forging 1 , 000 Voter Registration Applications",
           "domain": "breitbart.com",
           "date": "20260502T224500Z",
@@ -223,72 +162,11 @@
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "Why the oil price surge threatens a US recession",
-          "domain": "thedailystar.net",
-          "date": "20260503T013000Z",
-          "country": "Bangladesh"
-        },
-        {
-          "title": "Recession taking its toll on Tanzania tourism as thousands of jobs get axed",
-          "domain": "eturbonews.com",
-          "date": "20260502T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Top economist Gary Shilling says a recession and a deep stock - market plunge are likely by year - end",
-          "domain": "finance.yahoo.com",
-          "date": "20260502T230000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The War in West Asia",
-          "domain": "epw.in",
-          "date": "20260502T093000Z",
-          "country": "India"
-        },
-        {
-          "title": "CSUF economists raise inflation forecasts for Southern California",
-          "domain": "ocregister.com",
-          "date": "20260501T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "CSUF economists raise inflation forecasts for Southern California",
-          "domain": "dailynews.com",
-          "date": "20260501T233000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Jamie Dimon says the next credit crisis will be  worse than people expect  here what big bank earnings have revealed",
-          "domain": "finance.yahoo.com",
-          "date": "20260502T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Workers mark Labour Day amid rising unemployment and poverty in Afghanistan",
-          "domain": "khaama.com",
-          "date": "20260502T141500Z",
-          "country": "Afghanistan"
-        },
-        {
-          "title": "CSUF economists raise inflation forecasts for Southern California",
-          "domain": "presstelegram.com",
-          "date": "20260501T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "CSUF economists raise inflation forecasts for Southern California",
-          "domain": "pasadenastarnews.com",
-          "date": "20260501T224500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -302,141 +180,19 @@
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": [
-        {
-          "title": "April monthly inflation seen at 3 . 2 percent",
-          "domain": "hurriyetdailynews.com",
-          "date": "20260501T113000Z",
-          "country": "Turkey"
-        },
-        {
-          "title": "Inflation spikes to two - year high of 10 . 9 %",
-          "domain": "tribune.com.pk",
-          "date": "20260502T014500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Pakistan inflation rises to 10 . 9 pct in April - Xinhua",
-          "domain": "english.news.cn",
-          "date": "20260502T084500Z",
-          "country": ""
-        },
-        {
-          "title": "Oil Will Stay High , the Fed Blew It",
-          "domain": "lewrockwell.com",
-          "date": "20260502T081500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bulgaria Tops Eurozone Inflation Rankings as Prices Rise 6 . 2 % in April - Novinite . com",
-          "domain": "novinite.com",
-          "date": "20260503T013000Z",
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Bulgaria Tops Eurozone Inflation Rankings as Prices Rise 6 . 2 % in April - Novinite . com",
-          "domain": "novinite.com",
-          "date": "20260502T091500Z",
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Pakistan sees double - digit inflation return at 10 . 9pc",
-          "domain": "pakobserver.net",
-          "date": "20260502T084500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "The American household just took an 81 % margin cut . Wall Street hasnt priced it in",
-          "domain": "finance.yahoo.com",
-          "date": "20260502T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The American household just took an 81 % margin cut . Wall Street hasnt priced it in",
-          "domain": "fortune.com",
-          "date": "20260502T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "America In Focus : Inflation jumps and gas soars but American consumers seemed to take it in stride",
-          "domain": "finance.yahoo.com",
-          "date": "20260502T191500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Bitcoin ( BTC ) Price Prediction : BTC Reclaims $78K While IBIT Holds Steady $80K Breakout in Sight",
-          "domain": "bravenewcoin.com",
-          "date": "20260502T001500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Posts Strongest Monthly Gain In 12 months In April",
-          "domain": "cointelegraph.com",
-          "date": "20260503T064500Z",
-          "country": "China"
-        },
-        {
-          "title": "Analyst Predicts Exactly When To Sell Bitcoin For The Most Return",
-          "domain": "newsbtc.com",
-          "date": "20260503T024500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin April Rally Fueled By Futures Trading As Spot Demand Weakens , Data Shows",
-          "domain": "ibtimes.com",
-          "date": "20260501T203000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Crypto News : Pepeto DeFi Project Announces $9 . 77M Raised While Bitcoin Price Prediction Points to $300 , 000",
-          "domain": "manilatimes.net",
-          "date": "20260502T031500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "New Crypto With 300x Math Emerges as Eric Trump Calls BTC",
-          "domain": "openpr.com",
-          "date": "20260501T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Demand , Spot And Institutional Flows Increase As Bulls Chase $80K",
-          "domain": "cointelegraph.com",
-          "date": "20260501T213000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Sells Off Under New Fed Chairs : Will History Repeat Itself Under Kevin Warsh ?",
-          "domain": "benzinga.com",
-          "date": "20260501T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Price Yet To Bottom Based On MVRV Bands $43K Still Possible ?",
-          "domain": "newsbtc.com",
-          "date": "20260502T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Clings To Key Support : EMA Reclaim Vs $78 , 000 Resistance Showdown",
-          "domain": "newsbtc.com",
-          "date": "20260502T214500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -458,10 +214,34 @@
           "country": "United States"
         },
         {
+          "title": "What in the Price of a Gallon of Gas ? | naked capitalism",
+          "domain": "nakedcapitalism.com",
+          "date": "20260503T114500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Crude futures fall on new Iran proposal for peace talks",
+          "domain": "thepeninsulaqatar.com",
+          "date": "20260503T103000Z",
+          "country": "Qatar"
+        },
+        {
           "title": "Gas Nears $5 in Thumb as Michigan Prices Surge",
           "domain": "tuscolatoday.com",
           "date": "20260502T113000Z",
           "country": "United States"
+        },
+        {
+          "title": "Why Occidental Petroleum ( OXY ) Stock Is Trading Lower Today",
+          "domain": "finance.yahoo.com",
+          "date": "20260503T110000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Crude beyond $120 : Oil prices touch four - year peak , here what analysts are saying",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260503T124500Z",
+          "country": "India"
         },
         {
           "title": "Gas prices are surging fastest in 5 states that backed Trump and consumer sentiment hit an all - time low",
@@ -480,30 +260,6 @@
           "domain": "kbat.com",
           "date": "20260501T143000Z",
           "country": "United States"
-        },
-        {
-          "title": "Texas Gas Prices Hit Highest Level Since 2022 This Week",
-          "domain": "kissfm969.com",
-          "date": "20260501T153000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Texas Gas Prices Hit Highest Level Since 2022 This Week",
-          "domain": "103kkcn.com",
-          "date": "20260501T161500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Texas Gas Prices Hit Highest Level Since 2022 This Week",
-          "domain": "kkyr.com",
-          "date": "20260501T164500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Texas Gas Prices Hit Highest Level Since 2022 This Week",
-          "domain": "lonestar995fm.com",
-          "date": "20260501T164500Z",
-          "country": "United States"
         }
       ]
     },
@@ -520,6 +276,12 @@
           "domain": "geo.tv",
           "date": "20260503T064500Z",
           "country": "Pakistan"
+        },
+        {
+          "title": "Democrats have early 2026 lead , but GOP sees new path forward",
+          "domain": "washingtonexaminer.com",
+          "date": "20260503T120000Z",
+          "country": "United States"
         },
         {
           "title": "US midterm race enters last 6 months with Congress at stake",
@@ -568,12 +330,6 @@
           "domain": "dailycaller.com",
           "date": "20260501T204500Z",
           "country": "United States"
-        },
-        {
-          "title": "President Donald Trump endorses Rep . Andy Barr in Kentucky U . S . Senate race",
-          "domain": "wlwt.com",
-          "date": "20260502T044500Z",
-          "country": "United States"
         }
       ]
     },
@@ -603,16 +359,16 @@
           "country": "United States"
         },
         {
-          "title": "Iran can play at World Cup , insists Donald Trump",
-          "domain": "lbc.co.uk",
-          "date": "20260501T101500Z",
-          "country": "United Kingdom"
-        },
-        {
           "title": "FIFA and YouTube team up for the 2026 World Cup : Key details explained",
           "domain": "thenews.com.pk",
           "date": "20260502T093000Z",
           "country": "Pakistan"
+        },
+        {
+          "title": "TVRI , RRI , ANTARA promote 2026 World Cup broadcast",
+          "domain": "en.antaranews.com",
+          "date": "20260503T091500Z",
+          "country": "Indonesia"
         },
         {
           "title": "U - 20 WWCQ : Aduku targets big victory against Malawi",
@@ -621,16 +377,16 @@
           "country": "Nigeria"
         },
         {
-          "title": "Spain confirms warm - up against Iraq for FIFA World Cup 2026 preparation",
-          "domain": "prokerala.com",
-          "date": "20260502T130000Z",
-          "country": "India"
-        },
-        {
           "title": "Norway soccer chief calls for abolition of FIFA Peace Prize",
           "domain": "jpost.com",
           "date": "20260503T064500Z",
           "country": "Israel"
+        },
+        {
+          "title": "Spain confirms warm - up against Iraq for FIFA World Cup 2026 preparation",
+          "domain": "prokerala.com",
+          "date": "20260502T130000Z",
+          "country": "India"
         },
         {
           "title": "U - 20 WWCQ : Falconets over​come Malawi 2 - 0 in Ikenne",
@@ -684,15 +440,15 @@
           "country": "United States"
         },
         {
-          "title": "Lakers vs . Rockets Prediction , Odds and Best Prop Bets for NBA Playoffs Game 6",
-          "domain": "si.com",
-          "date": "20260501T131500Z",
-          "country": "United States"
-        },
-        {
           "title": "Jaden McDaniels leads Timberwolves on both ends of the court in 110 - 98 clincher to oust Nuggets in 6",
           "domain": "durangoherald.com",
           "date": "20260502T003000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Boston Celtics lose massive NBA star ahead of decisive Game 7",
+          "domain": "thebiglead.com",
+          "date": "20260503T023000Z",
           "country": "United States"
         },
         {
@@ -717,73 +473,12 @@
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "GenOptima Outperforms Traditional GEO Vendors : 2026 Q1 Performance Benchmark – II",
-          "domain": "mykxlg.com",
-          "date": "20260502T220000Z",
-          "country": "United States"
-        },
-        {
-          "title": "DeepSeek V4 almost on the frontier , a fraction of the price",
-          "domain": "simonwillison.net",
-          "date": "20260502T121500Z",
-          "country": ""
-        },
-        {
-          "title": "GitHub - 0xhimanshu / governor : Claude Code usage governor : compact professional output , context slimming , tool - output filtering , telemetry , and drift guardrails .",
-          "domain": "github.com",
-          "date": "20260502T051500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GPT 5 . 5 Reportedly Ahead of Anthropic Hyped Up Mythos in Cybersecurity Test",
-          "domain": "propakistani.pk",
-          "date": "20260502T174500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "OpenAI explains why ChatGPT suddenly loved goblins",
-          "domain": "mashable.com",
-          "date": "20260501T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Here why ChatGPT kept talking about goblins for a while",
-          "domain": "androidauthority.com",
-          "date": "20260501T180000Z",
-          "country": "China"
-        },
-        {
-          "title": "GitHub - nexu - io / open - design : 🎨 Local - first , open - source alternative to Anthropic Claude Design . ⚡ 19 Skills · ✨ 71 brand - grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sand...",
-          "domain": "github.com",
-          "date": "20260502T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Google Profits Soar 81 % Fueled by AI - Driven Cloud Growth",
-          "domain": "breitbart.com",
-          "date": "20260502T031500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Google Profits Soar 81 % Fueled by AI - Driven Cloud Growth",
-          "domain": "breitbart.com",
-          "date": "20260501T234500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Pentagon announces AI deals with OpenAI , Google , Microsoft , Amazon , Nvidia , and more LLMs to be deployed on classified Department of War networks  for lawful operational use",
-          "domain": "tomshardware.com",
-          "date": "20260501T164500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
@@ -792,6 +487,12 @@
         "gta-6-launch-postponed-again"
       ],
       "headlines": [
+        {
+          "title": "A blessing in disguise : Grand Theft Auto VI data breach | New University",
+          "domain": "newuniversity.org",
+          "date": "20260503T091500Z",
+          "country": "United States"
+        },
         {
           "title": "GTA 6 Boss Comments on Potential Product Placement in the Game",
           "domain": "gamerant.com",
@@ -817,15 +518,15 @@
           "country": "United States"
         },
         {
-          "title": "Dont Expect Brand Product Placement in GTA 6",
-          "domain": "ign.com",
-          "date": "20260501T123000Z",
-          "country": "United States"
+          "title": "GTA boss refuses to commit to a price as $100 price - tag rumours loom large",
+          "domain": "mirror.co.uk",
+          "date": "20260503T091500Z",
+          "country": "United Kingdom"
         },
         {
-          "title": "GTA 6 Official Price Update Confirmed Ahead Of Trailer 3",
+          "title": "GTA 6 Official Price Tag Is Causing Concern For Gamers",
           "domain": "screenrant.com",
-          "date": "20260501T113000Z",
+          "date": "20260503T104500Z",
           "country": "United States"
         },
         {
@@ -845,12 +546,6 @@
           "domain": "gamingbolt.com",
           "date": "20260501T171500Z",
           "country": "Japan"
-        },
-        {
-          "title": "Games That Let You Do Anything",
-          "domain": "gamerant.com",
-          "date": "20260503T010000Z",
-          "country": "United States"
         }
       ]
     }
