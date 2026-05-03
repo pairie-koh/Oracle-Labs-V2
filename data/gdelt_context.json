@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-03T03:48:20Z",
+  "fetched_at": "2026-05-03T06:36:53Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -85,11 +85,72 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Military - Led Myanmar Transfers Suu Kyi From Jail To House Arrest",
+          "domain": "indiawest.com",
+          "date": "20260502T191500Z",
+          "country": "India"
+        },
+        {
+          "title": "Aung San Suu Kyi son Kim Aris hit outs at Myanmar token prison sentence cut :  This is not justice",
+          "domain": "aol.co.uk",
+          "date": "20260501T131500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Legal team plans to meet with detained Myanmar ex - leader Suu Kyi by Sunday ( May 2 )",
+          "domain": "thestar.com.my",
+          "date": "20260502T140000Z",
+          "country": "Malaysia"
+        },
+        {
+          "title": "Hungary Péter Magyar defends appointing brother - in - law as country justice minister",
+          "domain": "euronews.com",
+          "date": "20260501T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Indonesia genocide case puts spotlight on Myanmar atrocities",
+          "domain": "manilatimes.net",
+          "date": "20260502T201500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Legal team plans to meet detained Myanmar ex - leader Suu Kyi this weekend",
+          "domain": "straitstimes.com",
+          "date": "20260501T074500Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "US calls for Suu Kyi immediate release | The Manila Times",
+          "domain": "manilatimes.net",
+          "date": "20260502T164500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "MYANMAR Lawyers seek access to Aung San Suu Kyi , after authorities announce she is under house arrest .",
+          "domain": "asianews.it",
+          "date": "20260501T091500Z",
+          "country": "Italy"
+        },
+        {
+          "title": "Trump Tells Prime Minister Starmer to be More Like King Charles",
+          "domain": "breitbart.com",
+          "date": "20260501T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump Tells Prime Minister Starmer to be More Like King Charles",
+          "domain": "breitbart.com",
+          "date": "20260502T031500Z",
+          "country": "United States"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -101,72 +162,11 @@
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "The global economy has a month eight weeks at most to avoid a recession , warns top economist",
-          "domain": "finance.yahoo.com",
-          "date": "20260501T084500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why the oil price surge threatens a US recession",
-          "domain": "thedailystar.net",
-          "date": "20260503T013000Z",
-          "country": "Bangladesh"
-        },
-        {
-          "title": "Recession taking its toll on Tanzania tourism as thousands of jobs get axed",
-          "domain": "eturbonews.com",
-          "date": "20260502T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Top economist Gary Shilling says a recession and a deep stock - market plunge are likely by year - end",
-          "domain": "finance.yahoo.com",
-          "date": "20260502T230000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Saudi economy shows resilience despite regional conflicts",
-          "domain": "tradearabia.com",
-          "date": "20260501T081500Z",
-          "country": "United Arab Emirates"
-        },
-        {
-          "title": "The War in West Asia",
-          "domain": "epw.in",
-          "date": "20260502T093000Z",
-          "country": "India"
-        },
-        {
-          "title": "JPMorgan CEO has an urgent message for bond market investors",
-          "domain": "finance.yahoo.com",
-          "date": "20260501T070000Z",
-          "country": "United States"
-        },
-        {
-          "title": "CSUF economists raise inflation forecasts for Southern California",
-          "domain": "ocregister.com",
-          "date": "20260501T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "CSUF economists raise inflation forecasts for Southern California",
-          "domain": "dailynews.com",
-          "date": "20260501T233000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Jamie Dimon says the next credit crisis will be  worse than people expect  here what big bank earnings have revealed",
-          "domain": "finance.yahoo.com",
-          "date": "20260502T133000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -232,10 +232,10 @@
           "country": "United States"
         },
         {
-          "title": "Baystreet . ca - Will Markets Jump or Slump After Fed Rate Decision ?",
-          "domain": "baystreet.ca",
-          "date": "20260501T051500Z",
-          "country": "Canada"
+          "title": "Federal Reserve holds rates steady for fourth straight meeting as inflation risks persist",
+          "domain": "logisticsmgmt.com",
+          "date": "20260501T204500Z",
+          "country": "United States"
         }
       ]
     },
@@ -251,12 +251,6 @@
           "domain": "hurriyetdailynews.com",
           "date": "20260501T113000Z",
           "country": "Turkey"
-        },
-        {
-          "title": "Core inflation in Tokyo slows , seen accelerating on energy shock",
-          "domain": "businesstimes.com.sg",
-          "date": "20260501T040000Z",
-          "country": "Singapore"
         },
         {
           "title": "Yen Weakens After Intervention Spike as Dollar Stabilizes Amid Global Tensions",
@@ -305,94 +299,161 @@
           "domain": "finance.yahoo.com",
           "date": "20260502T174500Z",
           "country": "United States"
+        },
+        {
+          "title": "The American household just took an 81 % margin cut . Wall Street hasnt priced it in",
+          "domain": "fortune.com",
+          "date": "20260502T141500Z",
+          "country": "United States"
         }
       ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
-    },
-    "Gas prices / oil prices": {
-      "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
-      "relevant_to": [
-        "will-gas-hit-by-end-of-march"
-      ],
       "headlines": [
         {
-          "title": "Higher gas prices are eating into American tax refunds",
-          "domain": "finance.yahoo.com",
-          "date": "20260502T140000Z",
+          "title": "Bitcoin ( BTC ) Price Prediction : BTC Reclaims $78K While IBIT Holds Steady $80K Breakout in Sight",
+          "domain": "bravenewcoin.com",
+          "date": "20260502T001500Z",
           "country": "United States"
         },
         {
-          "title": "Gas Nears $5 in Thumb as Michigan Prices Surge",
-          "domain": "tuscolatoday.com",
-          "date": "20260502T113000Z",
+          "title": "Bitcoin April Rally Fueled By Futures Trading As Spot Demand Weakens , Data Shows",
+          "domain": "ibtimes.com",
+          "date": "20260501T203000Z",
           "country": "United States"
         },
         {
-          "title": "Worker Day : Nigerians buy petrol at N1440 per liter as NNPCL , others increase fuel price",
-          "domain": "dailypost.ng",
-          "date": "20260501T063000Z",
-          "country": "Nigeria"
-        },
-        {
-          "title": "Gas prices are surging fastest in 5 states that backed Trump and consumer sentiment hit an all - time low",
-          "domain": "finance.yahoo.com",
-          "date": "20260502T164500Z",
+          "title": "Analyst Predicts Exactly When To Sell Bitcoin For The Most Return",
+          "domain": "newsbtc.com",
+          "date": "20260503T024500Z",
           "country": "United States"
         },
         {
-          "title": "UAE Business : Oil continues upward trend as US , Iran harden stances",
-          "domain": "gdnonline.com",
-          "date": "20260501T074500Z",
+          "title": "Crypto News : Pepeto DeFi Project Announces $9 . 77M Raised While Bitcoin Price Prediction Points to $300 , 000",
+          "domain": "manilatimes.net",
+          "date": "20260502T031500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "New Crypto With 300x Math Emerges as Eric Trump Calls BTC",
+          "domain": "openpr.com",
+          "date": "20260501T180000Z",
           "country": "United States"
         },
         {
-          "title": "Oil prices spike , national average up nearly 30 cents in one week",
-          "domain": "yumasun.com",
-          "date": "20260501T074500Z",
+          "title": "Bitcoin Demand , Spot And Institutional Flows Increase As Bulls Chase $80K",
+          "domain": "cointelegraph.com",
+          "date": "20260501T213000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Sells Off Under New Fed Chairs : Will History Repeat Itself Under Kevin Warsh ?",
+          "domain": "benzinga.com",
+          "date": "20260501T191500Z",
           "country": "United States"
         },
         {
-          "title": "Texas Gas Prices Hit Highest Level Since 2022 This Week",
-          "domain": "us105fm.com",
-          "date": "20260501T171500Z",
+          "title": "Bitcoin Price Yet To Bottom Based On MVRV Bands $43K Still Possible ?",
+          "domain": "newsbtc.com",
+          "date": "20260502T214500Z",
           "country": "United States"
         },
         {
-          "title": "Texas Gas Prices Hit Highest Level Since 2022 This Week",
-          "domain": "kbat.com",
-          "date": "20260501T143000Z",
+          "title": "Bitcoin Clings To Key Support : EMA Reclaim Vs $78 , 000 Resistance Showdown",
+          "domain": "newsbtc.com",
+          "date": "20260502T214500Z",
           "country": "United States"
         },
         {
-          "title": "Texas Gas Prices Hit Highest Level Since 2022 This Week",
-          "domain": "kissfm969.com",
-          "date": "20260501T153000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Texas Gas Prices Hit Highest Level Since 2022 This Week",
-          "domain": "103kkcn.com",
-          "date": "20260501T161500Z",
+          "title": "Why Bitcoin Still Looks Like Crypto Best Generational Wealth Bet",
+          "domain": "fool.com",
+          "date": "20260502T141500Z",
           "country": "United States"
         }
       ]
     },
+    "Gas prices / oil prices": {
+      "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
+      "article_count": 0,
+      "relevant_to": [
+        "will-gas-hit-by-end-of-march"
+      ],
+      "headlines": []
+    },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "US midterm race enters last 6 months with Congress at stake",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260503T050000Z",
+          "country": "Malaysia"
+        },
+        {
+          "title": "Need to Cheat to Win : The Supreme Court Just Handed Republicans a Weapon Against Black Voters , and Theyre Already Using It to Erase Democratic Seats Off the Map",
+          "domain": "atlantablackstar.com",
+          "date": "20260501T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Vance , Cruz head to Iowa on 2026 missions as 2028 GOP race to succeed Trump heats up",
+          "domain": "yahoo.com",
+          "date": "20260501T190000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Alabama Is Set to Make a Huge Redistricting Move Ahead of the Midterms",
+          "domain": "townhall.com",
+          "date": "20260502T020000Z",
+          "country": "United States"
+        },
+        {
+          "title": "How Black leaders are pushing back after Supreme Court Voting Rights Act decision",
+          "domain": "amsterdamnews.com",
+          "date": "20260501T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump Endorses Andy Barr for Kentucky Senate : What Polls Say",
+          "domain": "newsweek.com",
+          "date": "20260502T080000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Becerra rise in California governor race sparks  red boxing  accusations",
+          "domain": "washingtonexaminer.com",
+          "date": "20260501T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Alabama Will Redraw Congressional Map Despite Court Order",
+          "domain": "dailycaller.com",
+          "date": "20260501T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "President Donald Trump endorses Rep . Andy Barr in Kentucky U . S . Senate race",
+          "domain": "wlwt.com",
+          "date": "20260502T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "A Guide to State Redistricting Efforts Before 2026 Midterm Elections",
+          "domain": "theroot.com",
+          "date": "20260502T003000Z",
+          "country": "United States"
+        }
+      ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
@@ -465,28 +526,211 @@
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Nuggets , Bucks And The NBA Between - Dynasty Missed Opportunities",
+          "domain": "forbes.com",
+          "date": "20260501T184500Z",
+          "country": "United States"
+        },
+        {
+          "title": "76ers vs . Celtics Prediction , Odds and Best Prop Bets for NBA Playoffs Game 7",
+          "domain": "si.com",
+          "date": "20260502T130000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Road to the NBA Finals : NBA Playoff Predictions , Picks for 76ers vs . Celtics on Saturday",
+          "domain": "si.com",
+          "date": "20260502T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Celtics vs . 76ers Game 7 History : Who Holds the Edge in the Most Common Game 7 Matchup in the NBA ?",
+          "domain": "si.com",
+          "date": "20260502T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "LeBron James Addresses 4 - 6 Finals Record and Jordan Comparisons",
+          "domain": "thesource.com",
+          "date": "20260502T163000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Lakers vs . Rockets Prediction , Odds and Best Prop Bets for NBA Playoffs Game 6",
+          "domain": "si.com",
+          "date": "20260501T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Timberwolves eliminate Jokic Nuggets from NBA playoffs",
+          "domain": "guampdn.com",
+          "date": "20260501T083000Z",
+          "country": "Guam"
+        },
+        {
+          "title": "Jaden McDaniels leads Timberwolves on both ends of the court in 110 - 98 clincher to oust Nuggets in 6",
+          "domain": "durangoherald.com",
+          "date": "20260502T003000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Saturday NBA Best Bets May 2 NBA Predictions & Picks",
+          "domain": "thespread.com",
+          "date": "20260502T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "How The Celtics And 76ers Have Fared In Game 7 Matchups",
+          "domain": "forbes.com",
+          "date": "20260501T184500Z",
+          "country": "United States"
+        }
+      ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "GenOptima Outperforms Traditional GEO Vendors : 2026 Q1 Performance Benchmark – II",
+          "domain": "mykxlg.com",
+          "date": "20260502T220000Z",
+          "country": "United States"
+        },
+        {
+          "title": "DeepSeek V4 almost on the frontier , a fraction of the price",
+          "domain": "simonwillison.net",
+          "date": "20260502T121500Z",
+          "country": ""
+        },
+        {
+          "title": "GitHub - 0xhimanshu / governor : Claude Code usage governor : compact professional output , context slimming , tool - output filtering , telemetry , and drift guardrails .",
+          "domain": "github.com",
+          "date": "20260502T051500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GPT 5 . 5 Reportedly Ahead of Anthropic Hyped Up Mythos in Cybersecurity Test",
+          "domain": "propakistani.pk",
+          "date": "20260502T174500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "OpenAI explains why ChatGPT suddenly loved goblins",
+          "domain": "mashable.com",
+          "date": "20260501T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Here why ChatGPT kept talking about goblins for a while",
+          "domain": "androidauthority.com",
+          "date": "20260501T180000Z",
+          "country": "China"
+        },
+        {
+          "title": "GitHub - nexu - io / open - design : 🎨 Local - first , open - source alternative to Anthropic Claude Design . ⚡ 19 Skills · ✨ 71 brand - grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sand...",
+          "domain": "github.com",
+          "date": "20260502T154500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Google Profits Soar 81 % Fueled by AI - Driven Cloud Growth",
+          "domain": "breitbart.com",
+          "date": "20260502T031500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Google Profits Soar 81 % Fueled by AI - Driven Cloud Growth",
+          "domain": "breitbart.com",
+          "date": "20260501T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Pentagon announces AI deals with OpenAI , Google , Microsoft , Amazon , Nvidia , and more LLMs to be deployed on classified Department of War networks  for lawful operational use",
+          "domain": "tomshardware.com",
+          "date": "20260501T164500Z",
+          "country": "United States"
+        }
+      ]
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "GTA 6 Boss Comments on Potential Product Placement in the Game",
+          "domain": "gamerant.com",
+          "date": "20260502T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "It Officially Time to Start Worrying About Grand Theft Auto 6 Release Date",
+          "domain": "gamerant.com",
+          "date": "20260502T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Grand Theft Auto 6 Fans Are Betting On Another Release Date Delay",
+          "domain": "gamerant.com",
+          "date": "20260501T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 Boss Comments on the Game Price",
+          "domain": "gamerant.com",
+          "date": "20260501T164500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Dont Expect Brand Product Placement in GTA 6",
+          "domain": "ign.com",
+          "date": "20260501T123000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 Official Price Update Confirmed Ahead Of Trailer 3",
+          "domain": "screenrant.com",
+          "date": "20260501T113000Z",
+          "country": "United States"
+        },
+        {
+          "title": "The GTA 6 Characters You Need To Know Now",
+          "domain": "gamerant.com",
+          "date": "20260502T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 isnt  even at risk  of having product placement  because all the brands are made up , Take - Two CEO says :  I think that keeps us pure",
+          "domain": "gamesradar.com",
+          "date": "20260501T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Grand Theft Auto 6 Release Scares Take - Two CEO  a Billion  Times More Than Other Games",
+          "domain": "gamingbolt.com",
+          "date": "20260501T171500Z",
+          "country": "Japan"
+        },
+        {
+          "title": "Games That Let You Do Anything",
+          "domain": "gamerant.com",
+          "date": "20260503T010000Z",
+          "country": "United States"
+        }
+      ]
     }
   }
 }
