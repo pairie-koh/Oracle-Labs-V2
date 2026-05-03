@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-02T20:50:55Z",
+  "fetched_at": "2026-05-03T03:42:34Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -9,55 +9,13 @@
       ],
       "today_high": 60,
       "today_high_unit": "F",
-      "today_forecast": "Partly Sunny",
-      "today_detail": "Partly sunny, with a high near 60. Northwest wind around 7 mph.",
-      "wind": "7 mph",
+      "today_forecast": "Sunny",
+      "today_detail": "Sunny. High near 60, with temperatures falling to around 58 in the afternoon. Northwest wind 16 to 22 mph.",
+      "wind": "16 to 22 mph",
       "wind_direction": "NW",
-      "tonight_low": 46,
-      "tonight_forecast": "Mostly Cloudy",
+      "tonight_low": 51,
+      "tonight_forecast": "Mostly Clear",
       "hourly": [
-        {
-          "hour": "2026-05-02T16:00:00-04:00",
-          "temp": 59,
-          "unit": "F",
-          "short": "Partly Sunny"
-        },
-        {
-          "hour": "2026-05-02T17:00:00-04:00",
-          "temp": 59,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-05-02T18:00:00-04:00",
-          "temp": 58,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-05-02T19:00:00-04:00",
-          "temp": 57,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-05-02T20:00:00-04:00",
-          "temp": 56,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-05-02T21:00:00-04:00",
-          "temp": 55,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-05-02T22:00:00-04:00",
-          "temp": 55,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
         {
           "hour": "2026-05-02T23:00:00-04:00",
           "temp": 54,
@@ -65,65 +23,23 @@
           "short": "Mostly Cloudy"
         }
       ],
-      "peak_temp": 59,
-      "peak_hour": "2026-05-02T16:00:00-04:00"
+      "peak_temp": 54,
+      "peak_hour": "2026-05-02T23:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
       "relevant_to": [
         "miami_temp"
       ],
-      "today_high": 93,
+      "today_high": 80,
       "today_high_unit": "F",
-      "today_forecast": "Sunny",
-      "today_detail": "Sunny, with a high near 93. Southwest wind around 14 mph, with gusts as high as 26 mph.",
-      "wind": "14 mph",
-      "wind_direction": "SW",
-      "tonight_low": 67,
-      "tonight_forecast": "Mostly Cloudy then Chance Showers And Thunderstorms",
+      "today_forecast": "Showers And Thunderstorms Likely then Chance Showers And Thunderstorms",
+      "today_detail": "Showers and thunderstorms likely before 11am, then a chance of showers and thunderstorms between 11am and 1pm, then showers and thunderstorms likely. Mostly cloudy. High near 80, with temperatures falling to around 76 in the afternoon. North wind 3 to 7 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible.",
+      "wind": "3 to 7 mph",
+      "wind_direction": "N",
+      "tonight_low": 64,
+      "tonight_forecast": "Showers And Thunderstorms Likely",
       "hourly": [
-        {
-          "hour": "2026-05-02T16:00:00-04:00",
-          "temp": 92,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-02T17:00:00-04:00",
-          "temp": 91,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-02T18:00:00-04:00",
-          "temp": 89,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-05-02T19:00:00-04:00",
-          "temp": 86,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-05-02T20:00:00-04:00",
-          "temp": 80,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-05-02T21:00:00-04:00",
-          "temp": 78,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-05-02T22:00:00-04:00",
-          "temp": 75,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
         {
           "hour": "2026-05-02T23:00:00-04:00",
           "temp": 73,
@@ -131,8 +47,8 @@
           "short": "Mostly Cloudy"
         }
       ],
-      "peak_temp": 92,
-      "peak_hour": "2026-05-02T16:00:00-04:00"
+      "peak_temp": 73,
+      "peak_hour": "2026-05-02T23:00:00-04:00"
     }
   }
 }
