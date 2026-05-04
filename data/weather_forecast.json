@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-04T03:41:01Z",
+  "fetched_at": "2026-05-04T06:44:17Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -10,45 +10,297 @@
       "today_high": 69,
       "today_high_unit": "F",
       "today_forecast": "Sunny",
-      "today_detail": "Sunny. High near 69, with temperatures falling to around 67 in the afternoon. Southwest wind 14 to 17 mph.",
-      "wind": "14 to 17 mph",
+      "today_detail": "Sunny. High near 69, with temperatures falling to around 67 in the afternoon. Southwest wind around 16 mph.",
+      "wind": "16 mph",
       "wind_direction": "SW",
       "tonight_low": 58,
       "tonight_forecast": "Mostly Clear",
       "hourly": [
         {
-          "hour": "2026-05-03T23:00:00-04:00",
-          "temp": 55,
+          "hour": "2026-05-04T02:00:00-04:00",
+          "temp": 53,
+          "unit": "F",
+          "short": "Clear"
+        },
+        {
+          "hour": "2026-05-04T03:00:00-04:00",
+          "temp": 52,
+          "unit": "F",
+          "short": "Clear"
+        },
+        {
+          "hour": "2026-05-04T04:00:00-04:00",
+          "temp": 52,
+          "unit": "F",
+          "short": "Clear"
+        },
+        {
+          "hour": "2026-05-04T05:00:00-04:00",
+          "temp": 51,
+          "unit": "F",
+          "short": "Clear"
+        },
+        {
+          "hour": "2026-05-04T06:00:00-04:00",
+          "temp": 51,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T07:00:00-04:00",
+          "temp": 51,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T08:00:00-04:00",
+          "temp": 52,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T09:00:00-04:00",
+          "temp": 56,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T10:00:00-04:00",
+          "temp": 59,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T11:00:00-04:00",
+          "temp": 61,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T12:00:00-04:00",
+          "temp": 63,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T13:00:00-04:00",
+          "temp": 65,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T14:00:00-04:00",
+          "temp": 65,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T15:00:00-04:00",
+          "temp": 66,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T16:00:00-04:00",
+          "temp": 67,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T17:00:00-04:00",
+          "temp": 67,
+          "unit": "F",
+          "short": "Sunny"
+        },
+        {
+          "hour": "2026-05-04T18:00:00-04:00",
+          "temp": 66,
+          "unit": "F",
+          "short": "Mostly Clear"
+        },
+        {
+          "hour": "2026-05-04T19:00:00-04:00",
+          "temp": 66,
+          "unit": "F",
+          "short": "Mostly Clear"
+        },
+        {
+          "hour": "2026-05-04T20:00:00-04:00",
+          "temp": 64,
+          "unit": "F",
+          "short": "Mostly Clear"
+        },
+        {
+          "hour": "2026-05-04T21:00:00-04:00",
+          "temp": 63,
+          "unit": "F",
+          "short": "Mostly Clear"
+        },
+        {
+          "hour": "2026-05-04T22:00:00-04:00",
+          "temp": 62,
+          "unit": "F",
+          "short": "Mostly Clear"
+        },
+        {
+          "hour": "2026-05-04T23:00:00-04:00",
+          "temp": 61,
           "unit": "F",
           "short": "Mostly Clear"
         }
       ],
-      "peak_temp": 55,
-      "peak_hour": "2026-05-03T23:00:00-04:00"
+      "peak_temp": 67,
+      "peak_hour": "2026-05-04T16:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
       "relevant_to": [
         "miami_temp"
       ],
-      "today_high": 82,
+      "today_high": 83,
       "today_high_unit": "F",
-      "today_forecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
-      "today_detail": "A slight chance of rain showers between 10am and 11am, then a slight chance of showers and thunderstorms between 11am and noon, then a chance of showers and thunderstorms between noon and 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 82. Northeast wind 3 to 8 mph, with gusts as high as 18 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
-      "wind": "3 to 8 mph",
-      "wind_direction": "NE",
-      "tonight_low": 64,
-      "tonight_forecast": "Slight Chance Showers And Thunderstorms",
+      "today_forecast": "Chance Showers And Thunderstorms",
+      "today_detail": "A slight chance of rain showers between 7am and noon, then a chance of showers and thunderstorms between noon and 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 83. North wind 5 to 9 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible.",
+      "wind": "5 to 9 mph",
+      "wind_direction": "N",
+      "tonight_low": 63,
+      "tonight_forecast": "Chance Showers And Thunderstorms then Partly Cloudy",
       "hourly": [
         {
-          "hour": "2026-05-03T23:00:00-04:00",
-          "temp": 69,
+          "hour": "2026-05-04T02:00:00-04:00",
+          "temp": 67,
+          "unit": "F",
+          "short": "Slight Chance Rain Showers"
+        },
+        {
+          "hour": "2026-05-04T03:00:00-04:00",
+          "temp": 66,
+          "unit": "F",
+          "short": "Chance Rain Showers"
+        },
+        {
+          "hour": "2026-05-04T04:00:00-04:00",
+          "temp": 65,
+          "unit": "F",
+          "short": "Mostly Cloudy"
+        },
+        {
+          "hour": "2026-05-04T05:00:00-04:00",
+          "temp": 65,
+          "unit": "F",
+          "short": "Mostly Cloudy"
+        },
+        {
+          "hour": "2026-05-04T06:00:00-04:00",
+          "temp": 64,
+          "unit": "F",
+          "short": "Partly Sunny"
+        },
+        {
+          "hour": "2026-05-04T07:00:00-04:00",
+          "temp": 65,
+          "unit": "F",
+          "short": "Slight Chance Rain Showers"
+        },
+        {
+          "hour": "2026-05-04T08:00:00-04:00",
+          "temp": 67,
+          "unit": "F",
+          "short": "Slight Chance Rain Showers"
+        },
+        {
+          "hour": "2026-05-04T09:00:00-04:00",
+          "temp": 70,
+          "unit": "F",
+          "short": "Slight Chance Rain Showers"
+        },
+        {
+          "hour": "2026-05-04T10:00:00-04:00",
+          "temp": 75,
+          "unit": "F",
+          "short": "Slight Chance Rain Showers"
+        },
+        {
+          "hour": "2026-05-04T11:00:00-04:00",
+          "temp": 77,
+          "unit": "F",
+          "short": "Slight Chance Rain Showers"
+        },
+        {
+          "hour": "2026-05-04T12:00:00-04:00",
+          "temp": 79,
           "unit": "F",
           "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-04T13:00:00-04:00",
+          "temp": 79,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-04T14:00:00-04:00",
+          "temp": 81,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-04T15:00:00-04:00",
+          "temp": 81,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-04T16:00:00-04:00",
+          "temp": 80,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-04T17:00:00-04:00",
+          "temp": 81,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-04T18:00:00-04:00",
+          "temp": 79,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-04T19:00:00-04:00",
+          "temp": 77,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-04T20:00:00-04:00",
+          "temp": 74,
+          "unit": "F",
+          "short": "Mostly Cloudy"
+        },
+        {
+          "hour": "2026-05-04T21:00:00-04:00",
+          "temp": 72,
+          "unit": "F",
+          "short": "Partly Cloudy"
+        },
+        {
+          "hour": "2026-05-04T22:00:00-04:00",
+          "temp": 69,
+          "unit": "F",
+          "short": "Partly Cloudy"
+        },
+        {
+          "hour": "2026-05-04T23:00:00-04:00",
+          "temp": 68,
+          "unit": "F",
+          "short": "Partly Cloudy"
         }
       ],
-      "peak_temp": 69,
-      "peak_hour": "2026-05-03T23:00:00-04:00"
+      "peak_temp": 81,
+      "peak_hour": "2026-05-04T14:00:00-04:00"
     }
   }
 }
