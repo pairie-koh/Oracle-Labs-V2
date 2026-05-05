@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-05T10:12:10Z",
+  "fetched_at": "2026-05-05T17:49:22Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -15,89 +15,150 @@
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
+      "headlines": []
+    },
+    "World leaders / regime change": {
+      "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
+      "article_count": 10,
+      "relevant_to": [
+        "next-leader-out-of-power-before-2027-795"
+      ],
       "headlines": [
         {
-          "title": "UAE condemns Iran drone attack on Hormuz oil tanker",
-          "domain": "hurriyetdailynews.com",
-          "date": "20260504T133000Z",
-          "country": "Turkey"
+          "title": "New BJP govt in West Bengal to take oath on May 9 ; focus on probable CM post",
+          "domain": "hindustantimes.com",
+          "date": "20260505T084500Z",
+          "country": "India"
         },
         {
-          "title": "Iran attacks cargo ship in Strait of Hormuz",
-          "domain": "nypost.com",
+          "title": "Thai foreign minister seeks ASEAN talks with Myanmar counterpart",
+          "domain": "marketscreener.com",
+          "date": "20260505T114500Z",
+          "country": ""
+        },
+        {
+          "title": "Obama Claims Israel Tried To Drag Him Into War With Iran , Too",
+          "domain": "dailycaller.com",
+          "date": "20260504T223000Z",
+          "country": "United States"
+        },
+        {
+          "title": "May 9 set for Bengal govt swearing - in : State BJP chief",
+          "domain": "rediff.com",
+          "date": "20260505T091500Z",
+          "country": "India"
+        },
+        {
+          "title": "Flynn slams Labour game of  celebrity traitors",
+          "domain": "morningstaronline.co.uk",
+          "date": "20260504T210000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "I just want to see her again  says son of imprisoned Myanmar ex - leader Aung San Suu Kyi",
+          "domain": "kalw.org",
+          "date": "20260503T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "I just want to see her again  says son of imprisoned Myanmar ex - leader Aung San Suu Kyi",
+          "domain": "kpbs.org",
+          "date": "20260503T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Shah Named BJP Central Observer For Election Of Legislative Party Leader In West Bengal",
+          "domain": "dailyexcelsior.com",
+          "date": "20260505T110000Z",
+          "country": "India"
+        },
+        {
+          "title": "I just want to see her again  says son of imprisoned Myanmar ex - leader Aung San Suu Kyi",
+          "domain": "houstonpublicmedia.org",
+          "date": "20260503T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "I urged that our objective be regime change ... so did Netanyahu",
+          "domain": "heraldglobe.com",
+          "date": "20260503T203000Z",
+          "country": "United States"
+        }
+      ]
+    },
+    "SAVE Act / election law": {
+      "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
+      "article_count": 10,
+      "relevant_to": [
+        "save-act-signed-into-law-in-2026"
+      ],
+      "headlines": [
+        {
+          "title": "GOP Senators Renew Calls to Nuke Filibuster After Voter ID Bill Languishes",
+          "domain": "arizonadailyindependent.com",
+          "date": "20260505T041500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Democrats in Congress warn SAVE Act would make voting harder for millions",
+          "domain": "kpbs.org",
+          "date": "20260505T010000Z",
+          "country": "United States"
+        },
+        {
+          "title": "4 Non - Citizens Charged In New Jersey With Voting In Federal Elections",
+          "domain": "dailycaller.com",
           "date": "20260503T180000Z",
           "country": "United States"
         },
         {
-          "title": "uae iran conflict : Will UAE fight back Iran ? US Navy reopens Strait of Hormuz as UAE faces Iranian missile and drone attacks",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260504T200000Z",
-          "country": "India"
-        },
-        {
-          "title": "Any vessel violating Iran rules will be stopped by force , says IRGC",
-          "domain": "middleeasteye.net",
-          "date": "20260504T103000Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Morning update",
-          "domain": "middleeasteye.net",
-          "date": "20260504T074500Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Iran live updates : Trump  Project Freedom  begins Monday amid attacks in strait",
-          "domain": "yahoo.com",
-          "date": "20260504T134500Z",
+          "title": "Scott Presler pressures GOP on SAVE America Act as party fights to hold Congress",
+          "domain": "washingtonexaminer.com",
+          "date": "20260504T150000Z",
           "country": "United States"
         },
         {
-          "title": "US denies Iranian claim that it hit American warship trying to enter Strait of Hormuz",
-          "domain": "the-star.co.ke",
-          "date": "20260504T144500Z",
-          "country": "Kenya"
+          "title": "DJT on Democrats  looking into  voter integrity : Same  human garbage  that rigged 2020 election – World Tribune : U . S . Politics and Culture , Geostrategy , China , North Korea , Corporate Watch , Media Watch",
+          "domain": "worldtribune.com",
+          "date": "20260504T000000Z",
+          "country": "United States"
         },
         {
-          "title": "India - bound LPG tanker clears Hormuz , supply relief cargo heads to Vizag",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260503T161500Z",
-          "country": "India"
+          "title": "The Washington Post Documents that Non - Citizen Votes are Swinging Elections to Democrats",
+          "domain": "conservativehq.com",
+          "date": "20260505T170000Z",
+          "country": "United States"
         },
         {
-          "title": "Iran denies US claims of sinking its military boats",
-          "domain": "aa.com.tr",
-          "date": "20260504T200000Z",
-          "country": "Turkey"
+          "title": "Show ID to eat ? Todd Blanche makes awkward analogy to support federal voter ID law",
+          "domain": "salon.com",
+          "date": "20260503T224500Z",
+          "country": "United States"
         },
         {
-          "title": "Iran says it forced US warship back from Strait of Hormuz",
-          "domain": "geo.tv",
-          "date": "20260504T161500Z",
-          "country": "Pakistan"
+          "title": "Early voting for gubernatorial primary begins in San Diego County",
+          "domain": "cbs8.com",
+          "date": "20260504T223000Z",
+          "country": "United States"
+        },
+        {
+          "title": "4 New Jersey residents charged with illegally voting , lying on citizenship forms",
+          "domain": "6abc.com",
+          "date": "20260504T141500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Early voting for Tuesday primary soars in Lake , Porter counties",
+          "domain": "chicagotribune.com",
+          "date": "20260504T220000Z",
+          "country": "United States"
         }
       ]
-    },
-    "World leaders / regime change": {
-      "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
-      "relevant_to": [
-        "next-leader-out-of-power-before-2027-795"
-      ],
-      "headlines": []
-    },
-    "SAVE Act / election law": {
-      "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 0,
-      "relevant_to": [
-        "save-act-signed-into-law-in-2026"
-      ],
-      "headlines": []
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -145,6 +206,12 @@
           "country": "United States"
         },
         {
+          "title": "Bitcoin Closes 2 Green Monthly Candles : Here What Historical Data Says Is Coming Next",
+          "domain": "newsbtc.com",
+          "date": "20260505T123000Z",
+          "country": "United States"
+        },
+        {
           "title": "Bitcoin Price May Hit $96K as Institutions Absorb 500 % of Daily New BTC Supply",
           "domain": "cointelegraph.com",
           "date": "20260504T154500Z",
@@ -175,110 +242,165 @@
           "country": "China"
         },
         {
-          "title": "Bitcoin Price : BTC Is Up 19 % in 30 Days Is the Bear Market Officially Over ?",
-          "domain": "finance.yahoo.com",
-          "date": "20260504T174500Z",
+          "title": "Bitcoin ( BTC ) defies inflation playbook , rallies 19 %. Here what has changed",
+          "domain": "coindesk.com",
+          "date": "20260505T114500Z",
           "country": "United States"
         },
         {
-          "title": "Bitcoin Next Stop May Be $85K : Here Why",
-          "domain": "cointelegraph.com",
-          "date": "20260505T013000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Reclaims $80 , 000 as Iran Strikes Test the Rally",
-          "domain": "bravenewcoin.com",
-          "date": "20260504T231500Z",
+          "title": "Sudden Bitcoin Price Surge Fuels Huge $16 Trillion  Supercycle  Prediction",
+          "domain": "forbes.com",
+          "date": "20260505T130000Z",
           "country": "United States"
         }
       ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": []
-    },
-    "2026 midterm elections": {
-      "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 10,
-      "relevant_to": [
-        "which-party-will-win-the-house-in-2026",
-        "balance-of-power-2026-midterms"
-      ],
       "headlines": [
         {
-          "title": "AP Decision Notes : What to expect in Ohio state primaries – Winnipeg Free Press",
-          "domain": "winnipegfreepress.com",
-          "date": "20260504T123000Z",
+          "title": "AAA : Average Rhode Island gas price rockets up 31 cents",
+          "domain": "thewesterlysun.com",
+          "date": "20260504T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "AAA says TN Gas Prices Reach $4 per Gallon",
+          "domain": "wivk.com",
+          "date": "20260505T041500Z",
+          "country": "United States"
+        },
+        {
+          "title": "RI Gas Prices Jump 31 Cents This Week",
+          "domain": "golocalprov.com",
+          "date": "20260504T184500Z",
+          "country": "United States"
+        },
+        {
+          "title": "AAA : TN Gas Prices Reach $4",
+          "domain": "939theduck.com",
+          "date": "20260504T211500Z",
+          "country": ""
+        },
+        {
+          "title": "Tennessee gas prices reach $4 per gallon",
+          "domain": "wbbjtv.com",
+          "date": "20260504T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices surged on the first day of Trump  Project Freedom  plan to unblock Hormuz",
+          "domain": "us.cnn.com",
+          "date": "20260505T064500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil prices surged on the first day of Trump  Project Freedom  plan to unblock Hormuz",
+          "domain": "cnn.com",
+          "date": "20260505T064500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Could volatile Vancouver gas prices break a record this year ? | Daily Hive",
+          "domain": "dailyhive.com",
+          "date": "20260504T191500Z",
           "country": "Canada"
         },
         {
-          "title": "Democrats have early 2026 lead , but GOP sees new path forward",
-          "domain": "washingtonexaminer.com",
-          "date": "20260503T120000Z",
+          "title": "Michigan gas prices jump up 85 cents in one week",
+          "domain": "macombdaily.com",
+          "date": "20260504T143000Z",
           "country": "United States"
         },
         {
-          "title": "What to know ahead of the Ohio primary election | US Midterm Elections 2026 News",
-          "domain": "aljazeera.com",
-          "date": "20260505T094500Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Ohio state primaries",
-          "domain": "seattletimes.com",
-          "date": "20260504T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Ohio state primaries",
-          "domain": "clickondetroit.com",
-          "date": "20260504T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Ohio state primaries",
-          "domain": "clickorlando.com",
-          "date": "20260504T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to expect in Ohio state primaries",
-          "domain": "cleveland19.com",
-          "date": "20260504T200000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Ohio state primaries | News , Sports , Jobs",
-          "domain": "mauinews.com",
-          "date": "20260505T091500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to expect in Ohio state primaries",
-          "domain": "13abc.com",
-          "date": "20260504T161500Z",
-          "country": "United States"
-        },
-        {
-          "title": "How to register to vote for 2026 Pennsylvania Primary",
-          "domain": "fox29.com",
-          "date": "20260504T163000Z",
+          "title": "Gas prices hit 4 - year high in Florida after 40 - cent jump , with West Palm Beach leading",
+          "domain": "cbs12.com",
+          "date": "20260504T133000Z",
           "country": "United States"
         }
       ]
     },
+    "2026 midterm elections": {
+      "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
+      "article_count": 0,
+      "relevant_to": [
+        "which-party-will-win-the-house-in-2026",
+        "balance-of-power-2026-midterms"
+      ],
+      "headlines": []
+    },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "FIFA rejects JioStar $20 million offer , World Cup India rights remain unsold",
+          "domain": "bestmediainfo.com",
+          "date": "20260505T070000Z",
+          "country": "India"
+        },
+        {
+          "title": "FIFA World Cup winner odds",
+          "domain": "thebiglead.com",
+          "date": "20260505T143000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fair Park residents can cash in with FIFA World Cup 2026 parking permits : how to apply , fees and rules",
+          "domain": "wfaa.com",
+          "date": "20260504T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Millions in India , China may not be able to watch 2026 World Cup",
+          "domain": "marketscreener.com",
+          "date": "20260504T200000Z",
+          "country": ""
+        },
+        {
+          "title": "Fifa faces World Cup broadcast crisis as India Reliance offers $25m , China deal unannounced",
+          "domain": "asiaone.com",
+          "date": "20260505T030000Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "Fifa faces World Cup broadcast crisis as India Reliance offers $25m , China deal unannounced",
+          "domain": "asiaone.com",
+          "date": "20260505T031500Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "Reliance offers $20m for World Cup broadcast rights in India a fraction of FIFA ask",
+          "domain": "dealstreetasia.com",
+          "date": "20260505T030000Z",
+          "country": "India"
+        },
+        {
+          "title": "Vivid World Cup 2026 volunteer uniforms unveiled",
+          "domain": "atlantamagazine.com",
+          "date": "20260504T094500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Broadcast uncertainty clouds FIFA World Cup 2026 in India , China",
+          "domain": "geosuper.tv",
+          "date": "20260505T140000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Fifa faces World Cup broadcast crisis as India Reliance offers US$20mil , China deal pending",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260504T141500Z",
+          "country": "Malaysia"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -290,73 +412,12 @@
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "GenOptima Outperforms Traditional GEO Vendors : 2026 Q1 Performance Benchmark – II",
-          "domain": "floydct.com",
-          "date": "20260503T111500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Claude Sonnet 4 . 8 Leaks and Gemini 3 . 5 Arena Tests",
-          "domain": "geeky-gadgets.com",
-          "date": "20260505T081500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "OpenAI Reportedly Missed Revenue and User Targets -- These 2 Stocks Could Be Big Winners",
-          "domain": "fool.com",
-          "date": "20260503T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "OpenAI Reportedly Missed Revenue and User Targets -- These 2 Stocks Could Be Big Winners",
-          "domain": "fool.com",
-          "date": "20260503T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "US Government report claims China 8 months behind : Is the AI lead real or a benchmark illusion ?",
-          "domain": "digit.in",
-          "date": "20260504T140000Z",
-          "country": "India"
-        },
-        {
-          "title": "Image AI models now drive app growth , beating chatbot upgrades",
-          "domain": "techcrunch.com",
-          "date": "20260504T193000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AI chatbots continue feeding into our worst delusions , finds worrying report on ChatGPT and Grok",
-          "domain": "digitaltrends.com",
-          "date": "20260504T110000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AI did not just hallucinate my wife , it stereotyped her",
-          "domain": "taipeitimes.com",
-          "date": "20260503T194500Z",
-          "country": "Taiwan"
-        },
-        {
-          "title": "Yes , you should probably be nicer to your AI here why that not as ridiculous as it sounds",
-          "domain": "digitaltrends.com",
-          "date": "20260503T103000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Anthropic Launches Claude Security Amid Mythos Concerns",
-          "domain": "medianama.com",
-          "date": "20260504T134500Z",
-          "country": "India"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
