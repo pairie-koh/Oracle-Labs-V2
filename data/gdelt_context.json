@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-05T06:28:45Z",
+  "fetched_at": "2026-05-05T10:12:10Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -22,12 +22,6 @@
       ],
       "headlines": [
         {
-          "title": "Iranian super tanker slips past US blockade with $220 million oil cargo",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260503T081500Z",
-          "country": "India"
-        },
-        {
           "title": "UAE condemns Iran drone attack on Hormuz oil tanker",
           "domain": "hurriyetdailynews.com",
           "date": "20260504T133000Z",
@@ -38,12 +32,6 @@
           "domain": "nypost.com",
           "date": "20260503T180000Z",
           "country": "United States"
-        },
-        {
-          "title": "Iranian Tanker Successfully Bypasses US Navy Blockade : What It Means",
-          "domain": "rediff.com",
-          "date": "20260503T100000Z",
-          "country": "India"
         },
         {
           "title": "uae iran conflict : Will UAE fight back Iran ? US Navy reopens Strait of Hormuz as UAE faces Iranian missile and drone attacks",
@@ -80,6 +68,18 @@
           "domain": "timesofindia.indiatimes.com",
           "date": "20260503T161500Z",
           "country": "India"
+        },
+        {
+          "title": "Iran denies US claims of sinking its military boats",
+          "domain": "aa.com.tr",
+          "date": "20260504T200000Z",
+          "country": "Turkey"
+        },
+        {
+          "title": "Iran says it forced US warship back from Strait of Hormuz",
+          "domain": "geo.tv",
+          "date": "20260504T161500Z",
+          "country": "Pakistan"
         }
       ]
     },
@@ -93,141 +93,19 @@
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": [
-        {
-          "title": "GOP Senators Renew Calls to Nuke Filibuster After Voter ID Bill Languishes",
-          "domain": "arizonadailyindependent.com",
-          "date": "20260505T041500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Democrats in Congress warn SAVE Act would make voting harder for millions",
-          "domain": "kpbs.org",
-          "date": "20260505T010000Z",
-          "country": "United States"
-        },
-        {
-          "title": "4 Non - Citizens Charged In New Jersey With Voting In Federal Elections",
-          "domain": "dailycaller.com",
-          "date": "20260503T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "DJT on Democrats  looking into  voter integrity : Same  human garbage  that rigged 2020 election – World Tribune : U . S . Politics and Culture , Geostrategy , China , North Korea , Corporate Watch , Media Watch",
-          "domain": "worldtribune.com",
-          "date": "20260504T000000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Scott Presler pressures GOP on SAVE America Act as party fights to hold Congress",
-          "domain": "washingtonexaminer.com",
-          "date": "20260504T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Show ID to eat ? Todd Blanche makes awkward analogy to support federal voter ID law",
-          "domain": "salon.com",
-          "date": "20260503T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Researchers sound alarm over Trump new election plot :  At least two could flip red",
-          "domain": "rawstory.com",
-          "date": "20260503T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Early voting for gubernatorial primary begins in San Diego County",
-          "domain": "cbs8.com",
-          "date": "20260504T223000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump Torches  Human Garbage  Democrats for Their Desperate Midterm Election Interference Plot",
-          "domain": "redstate.com",
-          "date": "20260503T124500Z",
-          "country": "United States"
-        },
-        {
-          "title": "4 New Jersey residents charged with illegally voting , lying on citizenship forms",
-          "domain": "6abc.com",
-          "date": "20260504T141500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "The RBA is risking a recession by raising interest rates but feels there nothing else it can do",
-          "domain": "abc.net.au",
-          "date": "20260505T054500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "The seven factors that will decide if the RBA raises interest rates on Tuesday",
-          "domain": "abc.net.au",
-          "date": "20260503T201500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Global Recession Could Happen Within a Month If Strait of Hormuz Stays Closed  | Peak Oil News and Message Boards",
-          "domain": "peakoil.com",
-          "date": "20260503T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Euro Devastated Southern Europe And Greece Is Proof",
-          "domain": "armstrongeconomics.com",
-          "date": "20260504T080000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Unemployment data : Why economists fear stagflation risk for NZ jobs – The Front Page",
-          "domain": "nzherald.co.nz",
-          "date": "20260504T060000Z",
-          "country": "New Zealand"
-        },
-        {
-          "title": "Yemen Workers Face Harsh Unemployment and Unrelenting Hardship",
-          "domain": "english.aawsat.com",
-          "date": "20260503T130000Z",
-          "country": "Syria"
-        },
-        {
-          "title": "The state of SA economy : What needs to be done to turn the corner",
-          "domain": "dailymaverick.co.za",
-          "date": "20260503T191500Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Why solving the debt - ceiling conundrum matters - Investment Executive",
-          "domain": "investmentexecutive.com",
-          "date": "20260504T164500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Currency Chaos : Cuba Informal Market Reaches New Heights on Sunday",
-          "domain": "cubaheadlines.com",
-          "date": "20260503T133000Z",
-          "country": "Cuba"
-        },
-        {
-          "title": "It a boom : Wall Street sees more market gains as strong earnings fuel the AI trade",
-          "domain": "finance.yahoo.com",
-          "date": "20260503T133000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -258,12 +136,6 @@
           "title": "Bitcoin Analysts Flip Bullish at $80K : Key BTC Price Levels to Watch Next",
           "domain": "cointelegraph.com",
           "date": "20260504T154500Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Posts Strongest Monthly Gain In 12 months In April",
-          "domain": "cointelegraph.com",
-          "date": "20260503T064500Z",
           "country": "China"
         },
         {
@@ -309,6 +181,12 @@
           "country": "United States"
         },
         {
+          "title": "Bitcoin Next Stop May Be $85K : Here Why",
+          "domain": "cointelegraph.com",
+          "date": "20260505T013000Z",
+          "country": "China"
+        },
+        {
           "title": "Bitcoin Reclaims $80 , 000 as Iran Strikes Test the Rally",
           "domain": "bravenewcoin.com",
           "date": "20260504T231500Z",
@@ -318,72 +196,11 @@
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": [
-        {
-          "title": "AAA : Average Rhode Island gas price rockets up 31 cents",
-          "domain": "thewesterlysun.com",
-          "date": "20260504T204500Z",
-          "country": "United States"
-        },
-        {
-          "title": "AAA says TN Gas Prices Reach $4 per Gallon",
-          "domain": "wivk.com",
-          "date": "20260505T041500Z",
-          "country": "United States"
-        },
-        {
-          "title": "RI Gas Prices Jump 31 Cents This Week",
-          "domain": "golocalprov.com",
-          "date": "20260504T184500Z",
-          "country": "United States"
-        },
-        {
-          "title": "AAA : TN Gas Prices Reach $4",
-          "domain": "939theduck.com",
-          "date": "20260504T211500Z",
-          "country": ""
-        },
-        {
-          "title": "Tennessee gas prices reach $4 per gallon",
-          "domain": "wbbjtv.com",
-          "date": "20260504T221500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What in the price of a gallon of gas ? | Local | daytondailynews . com",
-          "domain": "daytondailynews.com",
-          "date": "20260503T083000Z",
-          "country": "United States"
-        },
-        {
-          "title": "What in the Price of a Gallon of Gas ? | naked capitalism",
-          "domain": "nakedcapitalism.com",
-          "date": "20260503T114500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Could volatile Vancouver gas prices break a record this year ? | Daily Hive",
-          "domain": "dailyhive.com",
-          "date": "20260504T191500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Michigan gas prices jump up 85 cents in one week",
-          "domain": "macombdaily.com",
-          "date": "20260504T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas prices hit 4 - year high in Florida after 40 - cent jump , with West Palm Beach leading",
-          "domain": "cbs12.com",
-          "date": "20260504T133000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -394,12 +211,6 @@
       ],
       "headlines": [
         {
-          "title": "US midterm race enters last six months with Congress at stake",
-          "domain": "geo.tv",
-          "date": "20260503T064500Z",
-          "country": "Pakistan"
-        },
-        {
           "title": "AP Decision Notes : What to expect in Ohio state primaries – Winnipeg Free Press",
           "domain": "winnipegfreepress.com",
           "date": "20260504T123000Z",
@@ -409,6 +220,12 @@
           "title": "Democrats have early 2026 lead , but GOP sees new path forward",
           "domain": "washingtonexaminer.com",
           "date": "20260503T120000Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know ahead of the Ohio primary election | US Midterm Elections 2026 News",
+          "domain": "aljazeera.com",
+          "date": "20260505T094500Z",
           "country": "United States"
         },
         {
@@ -436,6 +253,12 @@
           "country": "United States"
         },
         {
+          "title": "AP Decision Notes : What to expect in Ohio state primaries | News , Sports , Jobs",
+          "domain": "mauinews.com",
+          "date": "20260505T091500Z",
+          "country": "United States"
+        },
+        {
           "title": "What to expect in Ohio state primaries",
           "domain": "13abc.com",
           "date": "20260504T161500Z",
@@ -446,230 +269,102 @@
           "domain": "fox29.com",
           "date": "20260504T163000Z",
           "country": "United States"
-        },
-        {
-          "title": "Democrats aim to reclaim House majority by boosting eight  top - tier candidate | Democrats",
-          "domain": "theguardian.com",
-          "date": "20260504T161500Z",
-          "country": "United Kingdom"
         }
       ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "Fair Park residents can cash in with FIFA World Cup 2026 parking permits : how to apply , fees and rules",
-          "domain": "wfaa.com",
-          "date": "20260504T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Millions in India , China may not be able to watch 2026 World Cup",
-          "domain": "marketscreener.com",
-          "date": "20260504T200000Z",
-          "country": ""
-        },
-        {
-          "title": "Fifa faces World Cup broadcast crisis as India Reliance offers $25m , China deal unannounced",
-          "domain": "asiaone.com",
-          "date": "20260505T030000Z",
-          "country": "Singapore"
-        },
-        {
-          "title": "Fifa faces World Cup broadcast crisis as India Reliance offers $25m , China deal unannounced",
-          "domain": "asiaone.com",
-          "date": "20260505T031500Z",
-          "country": "Singapore"
-        },
-        {
-          "title": "Reliance offers $20m for World Cup broadcast rights in India a fraction of FIFA ask",
-          "domain": "dealstreetasia.com",
-          "date": "20260505T030000Z",
-          "country": "India"
-        },
-        {
-          "title": "Vivid World Cup 2026 volunteer uniforms unveiled",
-          "domain": "atlantamagazine.com",
-          "date": "20260504T094500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Fifa faces World Cup broadcast crisis as India Reliance offers US$20mil , China deal pending",
-          "domain": "freemalaysiatoday.com",
-          "date": "20260504T141500Z",
-          "country": "Malaysia"
-        },
-        {
-          "title": "TVRI , RRI , ANTARA promote 2026 World Cup broadcast",
-          "domain": "en.antaranews.com",
-          "date": "20260503T091500Z",
-          "country": "Indonesia"
-        },
-        {
-          "title": "How to Watch the 2026 FIFA World Cup",
-          "domain": "southernminn.com",
-          "date": "20260504T213000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Rabat , Washington Deepen Coordination Ahead of 2026 World Cup",
-          "domain": "moroccoworldnews.com",
-          "date": "20260503T211500Z",
-          "country": "Morocco"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": [
-        {
-          "title": "Thunder odds - on NBA title favorites as second round begins",
-          "domain": "cambodiantimes.com",
-          "date": "20260505T014500Z",
-          "country": "Cambodia"
-        },
-        {
-          "title": "Thunder odds - on NBA title favorites as second round begins",
-          "domain": "austinglobe.com",
-          "date": "20260505T051500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Thunder odds - on NBA title favorites as second round begins",
-          "domain": "640wxsm.com",
-          "date": "20260505T023000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Thunder odds - on NBA title favorites as second round begins",
-          "domain": "kmjnow.com",
-          "date": "20260505T020000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Thunder odds - on NBA title favorites as second round begins",
-          "domain": "dallassun.com",
-          "date": "20260505T024500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Thunder odds - on NBA title favorites as second round begins",
-          "domain": "joxfm.com",
-          "date": "20260505T024500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Thunder odds - on NBA title favorites as second round begins",
-          "domain": "740thefan.com",
-          "date": "20260505T031500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Thunder odds - on NBA title favorites as second round begins",
-          "domain": "krro.com",
-          "date": "20260505T031500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Thunder odds - on NBA title favorites as second round begins",
-          "domain": "ktop1490.com",
-          "date": "20260505T054500Z",
-          "country": "United States"
-        },
-        {
-          "title": "LeBron James biggest underdog of career vs Oklahoma City Thunder Game 1",
-          "domain": "newson6.com",
-          "date": "20260505T024500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": []
-    },
-    "GTA 6 release": {
-      "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 10,
-      "relevant_to": [
-        "gta-6-launch-postponed-again"
-      ],
       "headlines": [
         {
-          "title": "GTA 6 PC Release Date Is Being Delayed on Purpose , Says Take - Two CEO",
-          "domain": "vice.com",
-          "date": "20260504T221500Z",
+          "title": "GenOptima Outperforms Traditional GEO Vendors : 2026 Q1 Performance Benchmark – II",
+          "domain": "floydct.com",
+          "date": "20260503T111500Z",
           "country": "United States"
         },
         {
-          "title": "Why GTA 6 isnt coming to PC at launch",
-          "domain": "shacknews.com",
-          "date": "20260504T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "A blessing in disguise : Grand Theft Auto VI data breach | New University",
-          "domain": "newuniversity.org",
-          "date": "20260503T091500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Fans Are Hoping and Praying Pre - Orders Go Live Soon",
-          "domain": "gamerant.com",
-          "date": "20260503T211500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 not coming to PC at launch because console gamers are the  core consumer , CEO says",
-          "domain": "destructoid.com",
-          "date": "20260504T221500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "GTA Fans Split Over New Rockstar Remasters",
-          "domain": "screenrant.com",
-          "date": "20260503T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Analyst Says GTA 6 Should Be $80 So It Doesnt Make $70 Games Look Bad",
-          "domain": "kotaku.com",
-          "date": "20260505T001500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "Take - Two CEO Reveals Why GTA 6 is Coming to Consoles Before PC",
-          "domain": "gamerant.com",
-          "date": "20260505T014500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA boss refuses to commit to a price as $100 price - tag rumours loom large",
-          "domain": "mirror.co.uk",
-          "date": "20260503T091500Z",
+          "title": "Claude Sonnet 4 . 8 Leaks and Gemini 3 . 5 Arena Tests",
+          "domain": "geeky-gadgets.com",
+          "date": "20260505T081500Z",
           "country": "United Kingdom"
         },
         {
-          "title": "GTA 6 Devs Report Unpaid Overtime , 3AM Shifts , and Extreme Hours Ahead of Release",
-          "domain": "propakistani.pk",
-          "date": "20260504T143000Z",
-          "country": "Pakistan"
+          "title": "OpenAI Reportedly Missed Revenue and User Targets -- These 2 Stocks Could Be Big Winners",
+          "domain": "fool.com",
+          "date": "20260503T134500Z",
+          "country": "United States"
+        },
+        {
+          "title": "OpenAI Reportedly Missed Revenue and User Targets -- These 2 Stocks Could Be Big Winners",
+          "domain": "fool.com",
+          "date": "20260503T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "US Government report claims China 8 months behind : Is the AI lead real or a benchmark illusion ?",
+          "domain": "digit.in",
+          "date": "20260504T140000Z",
+          "country": "India"
+        },
+        {
+          "title": "Image AI models now drive app growth , beating chatbot upgrades",
+          "domain": "techcrunch.com",
+          "date": "20260504T193000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AI chatbots continue feeding into our worst delusions , finds worrying report on ChatGPT and Grok",
+          "domain": "digitaltrends.com",
+          "date": "20260504T110000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AI did not just hallucinate my wife , it stereotyped her",
+          "domain": "taipeitimes.com",
+          "date": "20260503T194500Z",
+          "country": "Taiwan"
+        },
+        {
+          "title": "Yes , you should probably be nicer to your AI here why that not as ridiculous as it sounds",
+          "domain": "digitaltrends.com",
+          "date": "20260503T103000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Anthropic Launches Claude Security Amid Mythos Concerns",
+          "domain": "medianama.com",
+          "date": "20260504T134500Z",
+          "country": "India"
         }
       ]
+    },
+    "GTA 6 release": {
+      "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
+      "article_count": 0,
+      "relevant_to": [
+        "gta-6-launch-postponed-again"
+      ],
+      "headlines": []
     }
   }
 }

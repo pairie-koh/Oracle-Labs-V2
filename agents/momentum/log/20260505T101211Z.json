@@ -1,0 +1,50 @@
+{
+  "agent": "momentum",
+  "timestamp": "2026-05-05T10:12:11Z",
+  "predictions": {
+    "regime_fall": {
+      "24h": {
+        "prediction": 0.104348,
+        "current": 0.055,
+        "change_4h": 0.0,
+        "change_24h": 0.0,
+        "news_intensity_raw": 0.0,
+        "decay_adjusted_intensity": 0.0,
+        "blend_weight": 0.0759,
+        "momentum_signal": -0.0,
+        "mode": "reversion"
+      },
+      "7d": {
+        "prediction": 0.400439,
+        "current": 0.055,
+        "change_4h": 0.0,
+        "change_24h": 0.0,
+        "news_intensity_raw": 0.0,
+        "decay_adjusted_intensity": 0.0,
+        "blend_weight": 0.0759,
+        "momentum_signal": -0.0,
+        "mode": "reversion"
+      }
+    }
+  },
+  "methodology_version": "1.36.0",
+  "source_weights": {
+    "wire_service": 1.0,
+    "us_prestige": 0.9,
+    "uk_prestige": 0.85,
+    "regional_specialist": 0.8,
+    "government_official": 1.0,
+    "think_tank": 0.7,
+    "osint": 0.6,
+    "social_media": 0.3,
+    "market_commentary": 0.4
+  },
+  "parameters": {
+    "momentum_weight": 0.3,
+    "reversion_weight": 0.4,
+    "news_threshold": 5,
+    "sigmoid_steepness": 0.5,
+    "lookbook_hours": 24,
+    "decay_half_life_hours": 12
+  }
+}
