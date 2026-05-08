@@ -1,40 +1,40 @@
 {
-  "date": "2026-05-07",
-  "fetched_at": "2026-05-07T21:10:39Z",
+  "date": "2026-05-08",
+  "fetched_at": "2026-05-08T03:32:38Z",
   "contracts": {
     "bitcoin_daily": {
       "name": "Bitcoin Up or Down",
-      "slug": "bitcoin-up-or-down-on-may-7-2026",
-      "event_id": "452014",
+      "slug": "bitcoin-up-or-down-on-may-8-2026",
+      "event_id": "455571",
       "category": "economics",
       "type": "binary",
       "status": "active",
       "markets": [
         {
-          "question": "Bitcoin Up or Down on May 7?",
-          "slug": "bitcoin-up-or-down-on-may-7-2026",
-          "condition_id": "0xb12c1f6bbc6610b01c6184932d9abb350f2548ae46dd333f404b6e852e2a2f11",
+          "question": "Bitcoin Up or Down on May 8?",
+          "slug": "bitcoin-up-or-down-on-may-8-2026",
+          "condition_id": "0xd3ca3fd896eef3e8392d5c1a0644df1af3e2db7a15294830178473c84b701edb",
           "token_ids": [
-            "84770910803640767151428366531799353560069357022615074667595819693631052172924",
-            "107528611881904872881584123288776346496679568011863505792184791512641571838683"
+            "104580602155868672384283264983432544450833404831137223127290715269303634709028",
+            "7244688131519973468837492067755719853789564748767875601324042190976916967656"
           ],
           "outcomes": [
             "Up",
             "Down"
           ],
           "prices": [
-            0.0,
-            1.0
+            0.395,
+            0.605
           ],
-          "volume": 340961.60092999984,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T16:00:00Z"
+          "volume": 39761.80081399999,
+          "liquidity": 26671.0619,
+          "end_date": "2026-05-08T16:00:00Z"
         }
       ]
     },
     "oil_daily": {
       "name": "Crude Oil (CL) Up or Down",
-      "slug": "cl-up-or-down-on-may-7-2026",
+      "slug": "cl-up-or-down-on-may-8-2026",
       "category": "economics",
       "type": "binary",
       "status": "not_found",
@@ -42,99 +42,199 @@
     },
     "nyc_temp": {
       "name": "Highest temperature in NYC",
-      "slug": "highest-temperature-in-nyc-on-may-7-2026",
-      "event_id": "450186",
+      "slug": "highest-temperature-in-nyc-on-may-8-2026",
+      "event_id": "453808",
       "category": "weather",
       "type": "multi-outcome",
       "status": "active",
       "markets": [
         {
-          "question": "Will the highest temperature in New York City be 55\u00b0F or below on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-55forbelow",
-          "condition_id": "0x01be254d13be00481e98e5b7bb2ab00bbf0c1022ff7aaf6d8224aca93c00d727",
+          "question": "Will the highest temperature in New York City be 55\u00b0F or below on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-55forbelow",
+          "condition_id": "0x70e3d2fa331c10e2fc20387476fbcc1c835bddcce26506062e8d26af4afe78cc",
           "token_ids": [
-            "82685150179097079470518080517981556697891134119222220951964839115038050244666",
-            "48350917304571447339890766042454262310855173642690224180416238699977137174729"
+            "74427204511653312927905452692588166512709226344901264996252470781404001450133",
+            "98567237090664500868846609769881974539698823162197646568536301792495603151837"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0,
-            1.0
+            0.003,
+            0.997
           ],
-          "volume": 4910.7037279999995,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
+          "volume": 2310.0737080000013,
+          "liquidity": 4470.75067,
+          "end_date": "2026-05-08T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 56-57\u00b0F on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-56-57f",
-          "condition_id": "0x3cb6b1205162689a5f8edc84dd2e2548c294952ab4d6efcf99349cf18b0f868f",
+          "question": "Will the highest temperature in New York City be between 56-57\u00b0F on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-56-57f",
+          "condition_id": "0xa75ac61a116f31453d8c1fc367a0d5a2e94c0c1e562195341bb23142d3ebe87d",
           "token_ids": [
-            "92894192237559514082761965110697861583111367514719193236372571408581927473756",
-            "20788816703946567360440353502002204700472520818269221024878796981002000819687"
+            "15253324183737529979805011361114861487885118969677745164216171914172499586421",
+            "29347183404517811054643311266554686407137209540361623725484125420462271605796"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0,
-            1.0
+            0.0065,
+            0.9935
           ],
-          "volume": 9223.199492,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
+          "volume": 2021.3075700000009,
+          "liquidity": 2711.81944,
+          "end_date": "2026-05-08T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 58-59\u00b0F on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-58-59f",
-          "condition_id": "0xdbe3f48d2aa1749c16016bf35a0c1f99ac5ee736c8876d9d29ee53c274d8506c",
+          "question": "Will the highest temperature in New York City be between 58-59\u00b0F on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-58-59f",
+          "condition_id": "0xc7ff6040f7e33a27932675db71eafe9209b68025b35a07016680852e47b908dc",
           "token_ids": [
-            "102537064394525808417544062643262538121061759074184406199300630740515944494374",
-            "24608216819399920778999953715417801615929235311657353888832932242308856724874"
+            "65722165257958502920242854394909072240229179671978198783793004390010089325003",
+            "17718301391651553143933285599822937434433007992670328351001024744181145600514"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0,
-            1.0
+            0.0085,
+            0.9915
           ],
-          "volume": 24313.586984999994,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
+          "volume": 2295.8618490000003,
+          "liquidity": 1675.44789,
+          "end_date": "2026-05-08T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 60-61\u00b0F on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-60-61f",
-          "condition_id": "0x94ff76ffe5d9be0de7ae5d39861f5cc516adf99be28498d6b18e2b7141aaa3af",
+          "question": "Will the highest temperature in New York City be between 60-61\u00b0F on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-60-61f",
+          "condition_id": "0xb6269aa9316f8697c45289f5c722cf97196a606d67aaee6dec3dedd877a7cbee",
           "token_ids": [
-            "14678213985820454580185981051836903246755802073685965485453125091152383539071",
-            "58619628839929513693451218111566956966476573521072944901803805229416971685139"
+            "22517032133797081798990552696569551678404364900640655157566166625435279441782",
+            "14682838027482200482061774972952818093060778554393605280623257217471844701811"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0,
-            1.0
+            0.055,
+            0.945
           ],
-          "volume": 18943.97406500001,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
+          "volume": 4320.520498000001,
+          "liquidity": 1779.3961,
+          "end_date": "2026-05-08T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 62-63\u00b0F on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-62-63f",
-          "condition_id": "0x79f3f8a1d1b9acf38b99296a9705ecdbe8f2d87defdc3144b48078ade78891ee",
+          "question": "Will the highest temperature in New York City be between 62-63\u00b0F on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-62-63f",
+          "condition_id": "0x0523b760e695ecc95b9e1f7c56da5b6f7f310023ff907286cadda7b4e05bddd2",
           "token_ids": [
-            "96420453395394755254637720856448322549663204160482722428860055962851234257401",
-            "69210631506721873297616318354819382998254850671189361869738681693802160579505"
+            "25220533682326197925818895133847095781315094910250862749637018890371494489874",
+            "61590865726987102029395845525607126175282074352886580064130297495441650352674"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.4,
+            0.6
+          ],
+          "volume": 2611.590915000001,
+          "liquidity": 1062.6268,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 64-65\u00b0F on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-64-65f",
+          "condition_id": "0xdf4514fb9148dde33c65e8490ae6690192d7913742dd8f6ae494d6dbe955e4d7",
+          "token_ids": [
+            "85163239670585120450799400949097413833387626793499996671260989054888555368234",
+            "9129175207443106444684545213459012322314368172408805611393775029137185954763"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.47,
+            0.53
+          ],
+          "volume": 3326.373063999999,
+          "liquidity": 1045.5817,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 66-67\u00b0F on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-66-67f",
+          "condition_id": "0x37d180208f5c962ca2a464cb0475c843b07d9c59f04905e789d28d66fbdff1f5",
+          "token_ids": [
+            "105395839621041700431779970889289773777129144196017065731512216376179131651551",
+            "63705239514443950766219413193829256369511676903327908541755785833815163723196"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.065,
+            0.935
+          ],
+          "volume": 2016.5234710000007,
+          "liquidity": 2127.9531,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 68-69\u00b0F on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-68-69f",
+          "condition_id": "0x3d4c0745f77674363717f84ecb6e8fd23889d80d6cf6165bee8a17a0a8dfe8ae",
+          "token_ids": [
+            "10286726814727724247255132738542964921172545787487651427106514031207160814728",
+            "97948899223083409102864780480099503748823020352665692634511368265356616038756"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.0135,
+            0.9865
+          ],
+          "volume": 1689.4549060000006,
+          "liquidity": 1519.47305,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 70-71\u00b0F on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-70-71f",
+          "condition_id": "0xaa5bad54ac172918803333e65d29e88f03debc9cac0a10c9da087119b938a77a",
+          "token_ids": [
+            "36486599395290088064516871762250877348703573849746734818203693371733423147069",
+            "2783792025863171950581576942687949502704660137554012552262615395688879572272"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.0085,
+            0.9915
+          ],
+          "volume": 2873.204435,
+          "liquidity": 2534.87192,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in New York City be between 72-73\u00b0F on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-72-73f",
+          "condition_id": "0xa96c47f26f864d7896d992a4b825fe651f7cd38becf6e876a0233c453a1acb05",
+          "token_ids": [
+            "86577849842041158449177594748003925520581910150088089827546320641204209255739",
+            "83266017635115410211640218042313733459254783254480764749143887451827711370043"
           ],
           "outcomes": [
             "Yes",
@@ -144,287 +244,47 @@
             0.0035,
             0.9965
           ],
-          "volume": 29530.032541000055,
-          "liquidity": 54349.01263,
-          "end_date": "2026-05-07T12:00:00Z"
+          "volume": 1687.7828440000008,
+          "liquidity": 3047.39331,
+          "end_date": "2026-05-08T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in New York City be between 64-65\u00b0F on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-64-65f",
-          "condition_id": "0xde0cc8672f3b3a1c2b23cf36d1047d3ab705cea251ed6bbd77f6eb919170b3ba",
+          "question": "Will the highest temperature in New York City be 74\u00b0F or higher on May 8?",
+          "slug": "highest-temperature-in-nyc-on-may-8-2026-74forhigher",
+          "condition_id": "0x282f4586c1182726f6f51385521b1aea9f19dfcf514236778cab733c66fe8c1c",
           "token_ids": [
-            "35762063342246636908739943371080750383959679757131914478237545529085927092702",
-            "67311452143934357621945755469812258476153557851873657384320060616022463402036"
+            "36708756362248625078528257745826009491840477951831405724645072902394765801429",
+            "38193687789671851018875260646599083522926109414732225688639414309757158970647"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.978,
-            0.022
+            0.004,
+            0.996
           ],
-          "volume": 18923.17273000001,
-          "liquidity": 224.34449,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be between 66-67\u00b0F on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-66-67f",
-          "condition_id": "0x89de23488fd7b24565c2120b7478062e06e1db9b517b8ff8e9233b19af5a1141",
-          "token_ids": [
-            "91228353114791984729691766058129088884909005716921479618999343472318465640381",
-            "101259020994758559134621497012529850960783860953022711159796980214557968752087"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0195,
-            0.9805
-          ],
-          "volume": 19769.101224000005,
-          "liquidity": 1004.47894,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be between 68-69\u00b0F on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-68-69f",
-          "condition_id": "0xe0eb3be6d5f68090a787bff389809f80a7d74e6ee87c77881166d3d26b1cf457",
-          "token_ids": [
-            "91480089006239442144545571305883157656384621085794665642968080189382172169513",
-            "15955782095981314613040684672967084838741061431130563503948268495082427367641"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.003,
-            0.997
-          ],
-          "volume": 12479.447938000001,
-          "liquidity": 1613.90217,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be between 70-71\u00b0F on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-70-71f",
-          "condition_id": "0x73fea4a4ef3d9769c969aa2422043cacef067026ea0a23306f28af1fd57df2c7",
-          "token_ids": [
-            "81031615476304034477070238365755092783993667361111553911025155284338464438928",
-            "113422021848718638634226069297638579862584352007400333549670031359586729595807"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0005,
-            0.9995
-          ],
-          "volume": 9093.847904,
-          "liquidity": 2855.49269,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be between 72-73\u00b0F on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-72-73f",
-          "condition_id": "0x7c1195a22527b996a13bb2078cc5f597ab3aea3ebf4c2051dc81426fee4652c9",
-          "token_ids": [
-            "21669992101747897454957860801170253793043066203657836483291601000264653661560",
-            "34462369037637896256277208466003070573035644567820771493520161800775448010313"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0005,
-            0.9995
-          ],
-          "volume": 6653.198396999997,
-          "liquidity": 2641.66682,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in New York City be 74\u00b0F or higher on May 7?",
-          "slug": "highest-temperature-in-nyc-on-may-7-2026-74forhigher",
-          "condition_id": "0xcf103099171c0e70b1d1db246165694fdb2eef772374db8cba9ae4579cfa19cf",
-          "token_ids": [
-            "27418174834387734559150519614193036623165292243551992291140629913283824876420",
-            "96332317985857852921832453544069212975388539832195518747500290331650203425625"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0005,
-            0.9995
-          ],
-          "volume": 7392.339844000001,
-          "liquidity": 2513.48832,
-          "end_date": "2026-05-07T12:00:00Z"
+          "volume": 1723.5308000000007,
+          "liquidity": 5310.56166,
+          "end_date": "2026-05-08T12:00:00Z"
         }
       ]
     },
     "miami_temp": {
       "name": "Highest temperature in Miami",
-      "slug": "highest-temperature-in-miami-on-may-7-2026",
-      "event_id": "450189",
+      "slug": "highest-temperature-in-miami-on-may-8-2026",
+      "event_id": "453811",
       "category": "weather",
       "type": "multi-outcome",
       "status": "active",
       "markets": [
         {
-          "question": "Will the highest temperature in Miami be 79\u00b0F or below on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-79forbelow",
-          "condition_id": "0xb0f1e2cfac766be0335993ec48705c1227089d5f9235a1aa707f7cd7ab49f8e3",
+          "question": "Will the highest temperature in Miami be 79\u00b0F or below on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-79forbelow",
+          "condition_id": "0xdcd170968d0c9cccbc97883bba08b0913a3eeef25aabbf43c46679584cc6a13e",
           "token_ids": [
-            "112888838023016385491018698600301377087458754060003616112277044919452737075007",
-            "35190141567994596562444975318105747397037214919795354074171972232284819846570"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 1789.2074920000002,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in Miami be between 80-81\u00b0F on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-80-81f",
-          "condition_id": "0x1c94d245b6c3fe5508730df57c168806c05fa925357545ecd491ad6e637f0216",
-          "token_ids": [
-            "49817851719199512826480303892669875765745533013065376266796257800622385830192",
-            "62409422612792165094565570593716320586787219020685931903208613890436057141117"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 1103.7071210000001,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in Miami be between 82-83\u00b0F on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-82-83f",
-          "condition_id": "0x043276a779a11cbb994f80556f434e38f7ab98ae8dc5b5b24be4cf02ca8f3665",
-          "token_ids": [
-            "260541695373541943145489744580886618144694413141106389674052724097751878696",
-            "55361235508785704150903569533091808397162316597551763070754674434059949414481"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 2601.3943380000005,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in Miami be between 84-85\u00b0F on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-84-85f",
-          "condition_id": "0xe88333016a55672866fdc6d884b0584c1ca50291dd925565bdcea334251e208c",
-          "token_ids": [
-            "24530685605758255970920017050475676803326561849932269496175869698757304347081",
-            "32062100884907025634059650362949119797574887123220039109243666412052981165845"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 7539.253527,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in Miami be between 86-87\u00b0F on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-86-87f",
-          "condition_id": "0x433ec610ec2c8d6591e7f2a4e107c9a1585eb5df7035cf299ef1c70c0dcb97c0",
-          "token_ids": [
-            "54813224768285892568812598657469128163815634806183417938472738820403875500413",
-            "16212464622162856658590153585148805859581026379498044121014522428370637796718"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 10512.091482000003,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in Miami be between 88-89\u00b0F on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-88-89f",
-          "condition_id": "0xc5683c346b18f764aaa11d57f3dc8820cdf8ed89f8290b155ecf7b419fb96f98",
-          "token_ids": [
-            "73703756567041157282856141256406377231942307811601679363980975725202546329968",
-            "72555220600050270710252712580929915104940278138965468860363620956191068799275"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.0,
-            1.0
-          ],
-          "volume": 8272.651650000003,
-          "liquidity": 0.0,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in Miami be between 90-91\u00b0F on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-90-91f",
-          "condition_id": "0x6272ee2ce9276bf42e57216d0160c6b765bd5547e410a84f9e1a7132ef0320b8",
-          "token_ids": [
-            "17759248557308509290244003016375558976373318733224100036946617829121794999965",
-            "5222279431846440899043672469639120134803607812178417882455926726939870901665"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.996,
-            0.004
-          ],
-          "volume": 9549.564879000003,
-          "liquidity": 955.46335,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in Miami be between 92-93\u00b0F on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-92-93f",
-          "condition_id": "0x293c4914840c52b975d51ba29c3a2b58c322121a21222a5698867852d5090f81",
-          "token_ids": [
-            "73630984716927605672893065612897292386471894021106532340445751762655871470027",
-            "109240654025513532303265301682573039948364124692919437529979234735267858568577"
+            "34365192118012991426378482187081961593375878930151508034658567150856207429554",
+            "114983256697513312241281923026735311484338460560356626832458830702105684250175"
           ],
           "outcomes": [
             "Yes",
@@ -434,37 +294,17 @@
             0.0025,
             0.9975
           ],
-          "volume": 9820.65092699999,
-          "liquidity": 569.16318,
-          "end_date": "2026-05-07T12:00:00Z"
+          "volume": 6556.5782709999985,
+          "liquidity": 6724.05476,
+          "end_date": "2026-05-08T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be between 94-95\u00b0F on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-94-95f",
-          "condition_id": "0xab9f28a03b67137c5bef68c708eb492ac9bbbc96c2f4979187fdda4f41a57eb4",
+          "question": "Will the highest temperature in Miami be between 80-81\u00b0F on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-80-81f",
+          "condition_id": "0x00fa91b031d5c4bbfc5c28c2a88eca034ad91f84cc920ff0098daccc7d942a52",
           "token_ids": [
-            "92037376106867346282866990769570615499106279024519563875952468290599619993430",
-            "19036126889942901118945495736159399720720139584733638696425957651799230872447"
-          ],
-          "outcomes": [
-            "Yes",
-            "No"
-          ],
-          "prices": [
-            0.003,
-            0.997
-          ],
-          "volume": 7613.014701000001,
-          "liquidity": 958.73661,
-          "end_date": "2026-05-07T12:00:00Z"
-        },
-        {
-          "question": "Will the highest temperature in Miami be between 96-97\u00b0F on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-96-97f",
-          "condition_id": "0xe33ed593db5097b2ca90f5b8f146b1d58ca0d539d8d665baaf102082743dbbf5",
-          "token_ids": [
-            "96424112422482345298258446441278555068468972855445735674174705075604632106497",
-            "3781515195645315024375054901344446400012484781381928527525025076974835384827"
+            "41955763642040870780267999954091603119610273438581344230391826533350206132479",
+            "106392900152985361420730321221878550180281133025046292088374574454763098073211"
           ],
           "outcomes": [
             "Yes",
@@ -474,29 +314,189 @@
             0.0025,
             0.9975
           ],
-          "volume": 9528.615127000005,
-          "liquidity": 2278.12399,
-          "end_date": "2026-05-07T12:00:00Z"
+          "volume": 1767.8707130000003,
+          "liquidity": 5972.90151,
+          "end_date": "2026-05-08T12:00:00Z"
         },
         {
-          "question": "Will the highest temperature in Miami be 98\u00b0F or higher on May 7?",
-          "slug": "highest-temperature-in-miami-on-may-7-2026-98forhigher",
-          "condition_id": "0x7bd85238f2bc2c95dc34ec3894206bbe358deed9ec8f8f3b921e0b04ad2a0d54",
+          "question": "Will the highest temperature in Miami be between 82-83\u00b0F on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-82-83f",
+          "condition_id": "0x67e814b9c46f3bea229f044204f4ffe0a6c8823dfb6ab30e13e77bf108eabed7",
           "token_ids": [
-            "36151009844658226307323249567310877296938438214747012987801941601476352187207",
-            "52587622033723517666108552954036824017695879058270832583867119659347641944663"
+            "70032707516067096775898618689791243364482317033758384522385398787458453148314",
+            "79573654596205899051552235570654012553545526646060185809661005938418429235658"
           ],
           "outcomes": [
             "Yes",
             "No"
           ],
           "prices": [
-            0.0005,
-            0.9995
+            0.0025,
+            0.9975
           ],
-          "volume": 5723.728419000001,
-          "liquidity": 4014.39207,
-          "end_date": "2026-05-07T12:00:00Z"
+          "volume": 1783.168295,
+          "liquidity": 3218.75498,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in Miami be between 84-85\u00b0F on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-84-85f",
+          "condition_id": "0xde7d9c23e35ad8847fd88de49732b8ee42a7b52fd45109ee013b3d52d998c6f8",
+          "token_ids": [
+            "76779142418217560948293765491113838473534493016724418586135913835175942920762",
+            "6357879408506800125895141475773378258022724580975743897936439859343320220368"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.007,
+            0.993
+          ],
+          "volume": 2165.4084379999995,
+          "liquidity": 2238.95925,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in Miami be between 86-87\u00b0F on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-86-87f",
+          "condition_id": "0x956e9fcbb2ab1a8796efddef35899cb915131ecac28ccf2fdd9283e12c6c9725",
+          "token_ids": [
+            "24320911141214139806321128766872008525917895678350032906717308759149256539518",
+            "50196038081414131337845322277057294683562725764600229755636552522402952334789"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.011,
+            0.989
+          ],
+          "volume": 4178.959560999999,
+          "liquidity": 1439.08141,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in Miami be between 88-89\u00b0F on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-88-89f",
+          "condition_id": "0xc19b9a7eba96c1cada34da894951de6b5e35347c7efdad886d95d7862dd01248",
+          "token_ids": [
+            "49938813052265501237731464775778177182401338232805767319143413342489728682338",
+            "46959982091470829415152124734400070299333339789269495598374283745288369193778"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.125,
+            0.875
+          ],
+          "volume": 2596.2365929999996,
+          "liquidity": 1482.9705,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in Miami be between 90-91\u00b0F on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-90-91f",
+          "condition_id": "0x6893832f365993d18fad711be6d9a706d179d33d0d9dc407754e53511696b7ef",
+          "token_ids": [
+            "83638859951895618935659369147885403618145906565116359296275848790433868496274",
+            "39463266403646468568712340321569027605413824386641134605273023936252740859059"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.455,
+            0.545
+          ],
+          "volume": 1420.0397240000002,
+          "liquidity": 697.4894,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in Miami be between 92-93\u00b0F on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-92-93f",
+          "condition_id": "0xbd11131352adec61b5ce6184f4e3fa795a89e32f526ef0735d803d70c6ee30ca",
+          "token_ids": [
+            "85523354116712052143729901167550280677588648940717611604625337042361709007379",
+            "104338651089680956478180577410683610503242739525678260350760901651314567601323"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.35,
+            0.65
+          ],
+          "volume": 2285.028641,
+          "liquidity": 887.2479,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in Miami be between 94-95\u00b0F on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-94-95f",
+          "condition_id": "0xb103656df19a3419c667fc5465883d71898797d54290585b5967c0cb6873ba89",
+          "token_ids": [
+            "79809536493529051222702647154653418917034414256830434222441717629673110744280",
+            "3293350806561434133846173657217662299927818172472942373116825233919041536704"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.0805,
+            0.9195
+          ],
+          "volume": 1659.9025800000002,
+          "liquidity": 1534.38111,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in Miami be between 96-97\u00b0F on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-96-97f",
+          "condition_id": "0x5e32ea0a7a5f4b3800765013cb8bc575f98a0aa3928ef60f0208e36a6a3cb8ed",
+          "token_ids": [
+            "54364790926758727323009855824985511574177446912185110752412240995062527612283",
+            "52487623908958759785993625914451651146181341527470232873909139588860374715451"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.0085,
+            0.9915
+          ],
+          "volume": 2213.6368260000004,
+          "liquidity": 1426.84487,
+          "end_date": "2026-05-08T12:00:00Z"
+        },
+        {
+          "question": "Will the highest temperature in Miami be 98\u00b0F or higher on May 8?",
+          "slug": "highest-temperature-in-miami-on-may-8-2026-98forhigher",
+          "condition_id": "0xe68f24bba4543a5a3ca645c27762a0d96cd962065c57f25a580a5c82ef90b15b",
+          "token_ids": [
+            "58915017493936280016652457666089801482101579739227719663181782822101435270662",
+            "81225641802454082439263213829796538045450462487165817197338692032053899357900"
+          ],
+          "outcomes": [
+            "Yes",
+            "No"
+          ],
+          "prices": [
+            0.0065,
+            0.9935
+          ],
+          "volume": 2430.5161999999996,
+          "liquidity": 2751.12498,
+          "end_date": "2026-05-08T12:00:00Z"
         }
       ]
     }
