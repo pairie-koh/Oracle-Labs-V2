@@ -1,78 +1,17 @@
 {
-  "fetched_at": "2026-05-08T03:40:28Z",
+  "fetched_at": "2026-05-08T06:10:00Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": [
-        {
-          "title": "US , Iran near one - page memo to end war : What in the 14 - point deal and what could derail it",
-          "domain": "moneycontrol.com",
-          "date": "20260506T120000Z",
-          "country": "India"
-        },
-        {
-          "title": "US , Iran nearing on a memo to declare end of war : media report",
-          "domain": "arynews.tv",
-          "date": "20260506T113000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Pakistan brokers fragile truce : U . S . and Iran edge toward 30 - day ceasefire – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "date": "20260507T183000Z",
-          "country": "United States"
-        },
-        {
-          "title": "US , Iran near short deal to end hostilities",
-          "domain": "usa.chinadaily.com.cn",
-          "date": "20260507T021500Z",
-          "country": "China"
-        },
-        {
-          "title": "US , Iran near short deal to end hostilities",
-          "domain": "africa.chinadaily.com.cn",
-          "date": "20260507T044500Z",
-          "country": "China"
-        },
-        {
-          "title": "Iran - US talks near breakthrough ? Tehran to respond to ceasefire , nuclear pause proposal today",
-          "domain": "moneycontrol.com",
-          "date": "20260507T030000Z",
-          "country": "India"
-        },
-        {
-          "title": "US , Iran Close to One - Page Deal to End War , Set Terms for Nuclear Talks",
-          "domain": "kyivpost.com",
-          "date": "20260506T141500Z",
-          "country": "Ukraine"
-        },
-        {
-          "title": "Axios reports the U . S . and Iran are negotiating a one - page , 14 - point memo to end the war , and a response is expected within 48 hours",
-          "domain": "attackofthefanboy.com",
-          "date": "20260506T181500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "US and Iran nearing 14 - point memorandum , launch 30 - day negotiation window to end war : Reports",
-          "domain": "indiatvnews.com",
-          "date": "20260506T160000Z",
-          "country": "India"
-        },
-        {
-          "title": "Tehran Draws Red Lines in Beijing as Nuclear Diplomacy Advances Amid War Tensions",
-          "domain": "bearingdrift.com",
-          "date": "20260506T194500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -146,149 +85,88 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
-    },
-    "SAVE Act / election law": {
-      "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 10,
-      "relevant_to": [
-        "save-act-signed-into-law-in-2026"
-      ],
       "headlines": [
         {
-          "title": "Senate Republicans Defy Trump and Shelve Voter ID Bill",
-          "domain": "newrepublic.com",
-          "date": "20260507T200000Z",
-          "country": "United States"
+          "title": "Solomon Islands PM Jeremiah Manele Ousted After Just Over Two Years In Power",
+          "domain": "scoop.co.nz",
+          "date": "20260508T044500Z",
+          "country": "New Zealand"
         },
         {
-          "title": "Florida in Secret Talks With Trump on Closing  Alligator Alcatraz",
-          "domain": "newrepublic.com",
-          "date": "20260507T200000Z",
-          "country": "United States"
-        },
-        {
-          "title": "SUFFS vs the Save Act 5 - 6 - 26 The Village",
-          "domain": "dailykos.com",
-          "date": "20260506T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Two GOP challengers will face longtime incumbent U . S . Rep . Mike Simpson in May election",
-          "domain": "idahostatejournal.com",
-          "date": "20260507T200000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Turning Point threatens to primary John Thune over SAVE America Act",
-          "domain": "washingtonexaminer.com",
-          "date": "20260507T211500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Texas DPS proposes citizenship checks for handgun licenses , security guards , and more",
-          "domain": "fox4news.com",
-          "date": "20260506T061500Z",
-          "country": "United States"
-        },
-        {
-          "title": "18 Voter Fraud Prosecutions Racking Up As SAVE Act Languishes",
-          "domain": "thefederalist.com",
-          "date": "20260506T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Judge : Trump DOJ May Keep 2020 Election Ballots FBI Seized in Georgia",
-          "domain": "breitbart.com",
-          "date": "20260507T200000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Save America ? Or Make America Great Again ?",
-          "domain": "centralmaine.com",
-          "date": "20260506T201500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Indiana Primaries Should Be A Wakeup Call For Senate RINOs",
-          "domain": "thefederalist.com",
-          "date": "20260506T144500Z",
-          "country": "United States"
-        }
-      ]
-    },
-    "US recession signals": {
-      "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
-      "relevant_to": [
-        "us-recession-by-end-of-2026"
-      ],
-      "headlines": [
-        {
-          "title": "Input price  surge  bites Irish services sector as output shrinks in April – The Irish Times",
-          "domain": "irishtimes.com",
-          "date": "20260506T050000Z",
-          "country": "Ireland"
-        },
-        {
-          "title": "Oil shock drags Philippine GDP growth to 2 . 8 % - BusinessWorld Online",
-          "domain": "bworldonline.com",
-          "date": "20260507T220000Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "Private Credit : The $2 Trillion Time Bomb Nobody Stress - Tested",
-          "domain": "benzinga.com",
-          "date": "20260506T211500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Services sector contracts for first time in 5 years",
-          "domain": "rte.ie",
-          "date": "20260506T081500Z",
-          "country": "Ireland"
-        },
-        {
-          "title": "War in Middle East set to push 200 , 000 households into poverty",
-          "domain": "birminghammail.co.uk",
+          "title": "Romania Faces Historic Crisis As Pro - EU PM Ilie Bolojan Is Removed From Power During Critical Economic Countdown",
+          "domain": "ibtimes.co.uk",
           "date": "20260506T140000Z",
           "country": "United Kingdom"
         },
         {
-          "title": "Kenya private sector activity drops for second time",
-          "domain": "capitalfm.co.ke",
-          "date": "20260506T130000Z",
-          "country": "Kenya"
+          "title": "UK votes in key local and regional elections",
+          "domain": "dw.com",
+          "date": "20260507T083000Z",
+          "country": "Germany"
         },
         {
-          "title": "Global debt hits record of near $353 trillion , with signs of move away from US",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260506T160000Z",
+          "title": "Hun Sen backs shift to international legal route , rejects bilateral talks after Thai MoU withdrawal",
+          "domain": "phnompenhpost.com",
+          "date": "20260506T063000Z",
+          "country": "Cambodia"
+        },
+        {
+          "title": "Solomon Islands PM Jeremiah Manele ousted after just over two years in power",
+          "domain": "rnz.co.nz",
+          "date": "20260507T061500Z",
+          "country": ""
+        },
+        {
+          "title": "Thai Foreign Minister seeks ASEAN talks with Myanmar counterpart",
+          "domain": "thehindu.com",
+          "date": "20260506T061500Z",
           "country": "India"
         },
         {
-          "title": "Economic Update : Mainland China and South - East Asia",
-          "domain": "icaew.com",
-          "date": "20260507T150000Z",
+          "title": "Mamata Banerjee lost faith , respect of her own people : Shobhaa De",
+          "domain": "theshillongtimes.com",
+          "date": "20260507T084500Z",
+          "country": "India"
+        },
+        {
+          "title": "Hartlepool Labour MP calls for Keir Starmer to resign after Reform clean sweep",
+          "domain": "gazettelive.co.uk",
+          "date": "20260508T034500Z",
           "country": "United Kingdom"
         },
         {
-          "title": "Eurozone Private Sector Shrinks For First Time Since 2024",
-          "domain": "finanzen.ch",
-          "date": "20260506T121500Z",
-          "country": "Switzerland"
+          "title": "Furious Labour MP calls for Keir Starmer to resign after Reform clean sweep",
+          "domain": "express.co.uk",
+          "date": "20260508T033000Z",
+          "country": "United Kingdom"
         },
         {
-          "title": "Nigerians Wont Eat GDP  - ADC Tells FG - Information Nigeria",
-          "domain": "informationng.com",
-          "date": "20260506T211500Z",
-          "country": "Nigeria"
+          "title": "Mamata Banerjee lost faith , respect of her own people : Shobhaa De ( IANS Exclusive )",
+          "domain": "prokerala.com",
+          "date": "20260507T124500Z",
+          "country": "India"
         }
       ]
+    },
+    "SAVE Act / election law": {
+      "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
+      "article_count": 0,
+      "relevant_to": [
+        "save-act-signed-into-law-in-2026"
+      ],
+      "headlines": []
+    },
+    "US recession signals": {
+      "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
+      "article_count": 0,
+      "relevant_to": [
+        "us-recession-by-end-of-2026"
+      ],
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -363,80 +241,80 @@
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": []
-    },
-    "Bitcoin / crypto markets": {
-      "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
-      "relevant_to": [
-        "what-price-will-bitcoin-hit-before-2027"
-      ],
       "headlines": [
         {
-          "title": "Crypto News : Pepeto Presale Advancement Whilst Bitcoin Price Prediction Targets $225 , 000 After BTC Clears $81 , 000",
-          "domain": "manilatimes.net",
-          "date": "20260506T133000Z",
-          "country": "Philippines"
+          "title": "CPI rise moderate despite oil shocks",
+          "domain": "taipeitimes.com",
+          "date": "20260507T211500Z",
+          "country": "Taiwan"
         },
         {
-          "title": "If The Bitcoin Price Crosses $400 , 000 , Will The Solana Price Reach $1 , 500 ?",
-          "domain": "newsbtc.com",
-          "date": "20260507T204500Z",
+          "title": "How Gas Prices and the Iran Conflict Are Shaping Your 2027 Social Security Raise",
+          "domain": "fool.com",
+          "date": "20260507T200000Z",
           "country": "United States"
         },
         {
-          "title": "Bitcoin Has Entered Its  Most Dangerous Quarter , And This Expert Is Warning Investors",
-          "domain": "newsbtc.com",
-          "date": "20260506T173000Z",
-          "country": "United States"
+          "title": "Sweden Consumer Prices Unexpectedly Fall 0 . 1 %",
+          "domain": "finanzen.ch",
+          "date": "20260506T083000Z",
+          "country": "Switzerland"
         },
         {
-          "title": "Key Bitcoin Metric Suggest BTC Price Has Room for Further Expansion",
-          "domain": "cointelegraph.com",
-          "date": "20260506T113000Z",
-          "country": "China"
+          "title": "Sweden Consumer Prices Unexpectedly Fall 0 . 1 %",
+          "domain": "finanznachrichten.de",
+          "date": "20260506T081500Z",
+          "country": "Germany"
         },
         {
-          "title": "Bitcoin Surges Past $80K Can It Break $84K Resistance And Hit $88K ?",
-          "domain": "ibtimes.co.uk",
-          "date": "20260506T130000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "This Cryptocurrency 700 - Day Clock Is Ticking and History Says It Points to $160 , 000",
-          "domain": "benzinga.com",
-          "date": "20260506T211500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Fund Managers Boost BTC Exposure as Crypto Sentiment Rebounds : CoinShares",
-          "domain": "cointelegraph.com",
-          "date": "20260508T003000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Exchange Reserves See $8B Outflow : Will BTC Rally Higher ?",
-          "domain": "cointelegraph.com",
-          "date": "20260508T003000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin BTC USD price drop today reason : BTC USD price today : Bitcoin falls below $80 , 000 amid US – Iran tensions and why crypto traders rush to lock in profits after 37 % rally",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260507T194500Z",
+          "title": "S & P Global lowers India growth forecast to 6 . 6 % for FY27",
+          "domain": "thehindubusinessline.com",
+          "date": "20260506T164500Z",
           "country": "India"
         },
         {
-          "title": "Bitcoin institutional demand builds as fund managers add crypto exposure",
-          "domain": "financial-news.co.uk",
-          "date": "20260507T230000Z",
-          "country": "United Kingdom"
+          "title": "India growth to moderate to 6 . 6 % in FY27 ; reforms key to achieve Viksit Bharat goal : S & P",
+          "domain": "moneycontrol.com",
+          "date": "20260506T163000Z",
+          "country": "India"
+        },
+        {
+          "title": "GDP growth seen down on year at 6 . 6 %, inflation up at 5 . 1 % due to West Asia crisis : CRISIL Chief Economist",
+          "domain": "news.webindia123.com",
+          "date": "20260506T171500Z",
+          "country": "India"
+        },
+        {
+          "title": "GDP growth seen down on year at 6 . 6 %, inflation up at 5 . 1 % due to West Asia crisis : CRISIL Chief Economist",
+          "domain": "aninews.in",
+          "date": "20260506T184500Z",
+          "country": "India"
+        },
+        {
+          "title": "Taiwan consumer price index rises 1 . 74 % in April",
+          "domain": "focustaiwan.tw",
+          "date": "20260507T133000Z",
+          "country": "Taiwan"
+        },
+        {
+          "title": "Taiwan consumer price index rises 1 . 74 % in April",
+          "domain": "focustaiwan.tw",
+          "date": "20260507T133000Z",
+          "country": "Taiwan"
         }
       ]
+    },
+    "Bitcoin / crypto markets": {
+      "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
+      "article_count": 0,
+      "relevant_to": [
+        "what-price-will-bitcoin-hit-before-2027"
+      ],
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -476,18 +354,6 @@
           "country": "United States"
         },
         {
-          "title": "Oregon drivers see gas hit $5 . 30 as national average jumps 31 cents to $4 . 48",
-          "domain": "kcby.com",
-          "date": "20260506T041500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oregon drivers see gas hit $5 . 30 as national average jumps 31 cents to $4 . 48",
-          "domain": "kpic.com",
-          "date": "20260506T041500Z",
-          "country": "United States"
-        },
-        {
           "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
           "domain": "seattletimes.com",
           "date": "20260506T224500Z",
@@ -503,6 +369,18 @@
           "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
           "domain": "fox13now.com",
           "date": "20260506T230000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
+          "domain": "baltimoresun.com",
+          "date": "20260506T201500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
+          "domain": "sun-sentinel.com",
+          "date": "20260506T180000Z",
           "country": "United States"
         }
       ]
@@ -579,158 +457,158 @@
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "Iranian FA says will meet FIFA for World Cup assurances in next few days",
-          "domain": "jpost.com",
-          "date": "20260507T131500Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Seminole Hard Rock Casino Named Official Miami World Cup 2026™ Host City Supporter",
-          "domain": "manilatimes.net",
-          "date": "20260507T181500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "Andor Lead Netflix FIFA Comedy Arrives at the Perfect Time",
-          "domain": "comingsoon.net",
-          "date": "20260507T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Want to get paid $50K to watch the World Cup ? FOX is hiring",
-          "domain": "fox5ny.com",
-          "date": "20260506T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Shakira Announces Official 2026 FIFA World Cup Song With Burna Boy",
-          "domain": "justjared.com",
-          "date": "20260507T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "World Cup broadcast talks unresolved in India , China - Pakistan Today",
-          "domain": "pakistantoday.com.pk",
-          "date": "20260506T064500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Shakira teases new song for FIFA World Cup 2026 ; unveils  Dai Dai  with Afrobeats star Burna Boy - WATCH |",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260507T220000Z",
-          "country": "India"
-        },
-        {
-          "title": "A MARKETER GUIDE TO WINNING THE 2026 FIFA WORLD CUP – APAC Edition",
-          "domain": "contenthub.marketing-interactive.com",
-          "date": "20260507T230000Z",
-          "country": "Singapore"
-        },
-        {
-          "title": "FIFA invites Iran to headquarters for World Cup talks",
-          "domain": "arynews.tv",
-          "date": "20260506T131500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Seminole Hard Rock Casino Named Official Miami World Cup 2026™ Host City Supporter",
-          "domain": "thailand-business-news.com",
-          "date": "20260507T183000Z",
-          "country": "Thailand"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": [
-        {
-          "title": "Who are the 2026 NBA MVP favorites ?",
-          "domain": "thebiglead.com",
-          "date": "20260506T041500Z",
-          "country": "United States"
-        },
-        {
-          "title": "When is the 2026 NBA Draft Lottery ?",
-          "domain": "thebiglead.com",
-          "date": "20260507T043000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Ranking every team after conference semifinal Game 1s",
-          "domain": "tsn.ca",
-          "date": "20260506T163000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "76ers vs . Knicks Game 2 Odds Make Massive Shift Following Joel Embiid Injury News",
-          "domain": "si.com",
-          "date": "20260507T014500Z",
-          "country": "United States"
-        },
-        {
-          "title": "WWE star The Miz informs ESPN host Cavaliers have NBA title",
-          "domain": "thebiglead.com",
-          "date": "20260507T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "NBA Playoffs Predictions - Point Spreads , Betting Odds , Picks",
-          "domain": "thespread.com",
-          "date": "20260507T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Who has the best odds to win NBA Draft Lottery : Complete list",
-          "domain": "thebiglead.com",
-          "date": "20260506T233000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Tiago Splitter Not Expected to Retain Trail Blazers Coaching Position",
-          "domain": "blazersedge.com",
-          "date": "20260507T230000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Best NBA Betting Promos : Betting Promos for the NBA Playoffs",
-          "domain": "rotowire.com",
-          "date": "20260507T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Ratings - NBC and Peacock Deliver the Most - Watched First Round Game 7 in NBA History for Saturday Night 76ers - Celtics",
-          "domain": "thefutoncritic.com",
-          "date": "20260506T040000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "New AI Model  Subquadratic  Destroys Context Window Records With Clever New Architecture",
+          "domain": "propakistani.pk",
+          "date": "20260506T140000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "OpenAI GPT - 5 . 5 Fastest Growing API Launch Overview",
+          "domain": "sci-tech-today.com",
+          "date": "20260506T094500Z",
+          "country": "United States"
+        },
+        {
+          "title": "7 Best AI Models of 2026 : Ranked by Real - World Performance",
+          "domain": "memeburn.com",
+          "date": "20260507T033000Z",
+          "country": "South Africa"
+        },
+        {
+          "title": "OpenAI releases GPT - 5 . 5 Instant , a new default model for ChatGPT",
+          "domain": "businessghana.com",
+          "date": "20260507T044500Z",
+          "country": "Ghana"
+        },
+        {
+          "title": "Zyphra Releases ZAYA1 - 8B , a Reasoning Model trained on AMD and Optimized for Maximum Intelligence Density per Parameter",
+          "domain": "prnewswire.com",
+          "date": "20260506T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Claude Sonic 4 . 8 Leaks and Anthropic Jupiter Model",
+          "domain": "geeky-gadgets.com",
+          "date": "20260507T134500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "OpenAI rolls out new GPT - 5 . 5 - Cyber to vetted cybersecurity teams",
+          "domain": "cnbc.com",
+          "date": "20260507T230000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AI bots auditioning for Wall Street trading are mostly losing",
+          "domain": "unionleader.com",
+          "date": "20260507T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "83 % of Restaurants Are Invisible in AI Search : New Uberall Report Reveals the Discovery Gap Reshaping the Quick Service Restaurant Industry",
+          "domain": "finanznachrichten.de",
+          "date": "20260507T181500Z",
+          "country": "Germany"
+        },
+        {
+          "title": "How China Is Winning the Global AI Race",
+          "domain": "foreignpolicy.com",
+          "date": "20260507T153000Z",
+          "country": "United States"
+        }
+      ]
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "GTA 6 Report Gives Update on Release Date , Trailer # 3 , and Special PS5 Version",
+          "domain": "comicbook.com",
+          "date": "20260507T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Amazing  Take - Two CEO Teases GTA 6 After Early Preview",
+          "domain": "gamerant.com",
+          "date": "20260507T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA Online  Confirmed to Get Major Summer Update That May Be Its Last",
+          "domain": "gamenguide.com",
+          "date": "20260508T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 was delayed to avoid crunch , claims Take - Two CEO , comparing notoriously crunchy Rockstar to college :  You do your homework , you dont pull an all - nighter",
+          "domain": "gamesradar.com",
+          "date": "20260507T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 Insider Shares Promising Release Date Update and Trailer 3 Details",
+          "domain": "gamerant.com",
+          "date": "20260506T151500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 production budget sounds so astronomical you will have a hard time believing it",
+          "domain": "digitaltrends.com",
+          "date": "20260507T164500Z",
+          "country": "United States"
+        },
+        {
+          "title": "It been exactly 1 year since GTA 6 Trailer 2 , and fans are being as normal about that as youd expect :  Trailer 3 is definitely around the corner",
+          "domain": "gamesradar.com",
+          "date": "20260506T190000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 Delay Slammed By Gamers Following Official Update",
+          "domain": "screenrant.com",
+          "date": "20260506T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Red Dead Redemption Free Download Available Right Now",
+          "domain": "screenrant.com",
+          "date": "20260506T130000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 5 : The Dark Mysteries of Ursula Explained",
+          "domain": "gamerant.com",
+          "date": "20260507T113000Z",
+          "country": "United States"
+        }
+      ]
     }
   }
 }
