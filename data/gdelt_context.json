@@ -1,156 +1,95 @@
 {
-  "fetched_at": "2026-05-08T06:10:00Z",
+  "fetched_at": "2026-05-08T09:53:30Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "US , Iran near one - page memo to end war : What in the 14 - point deal and what could derail it",
+          "domain": "moneycontrol.com",
+          "date": "20260506T120000Z",
+          "country": "India"
+        },
+        {
+          "title": "US , Iran nearing on a memo to declare end of war : media report",
+          "domain": "arynews.tv",
+          "date": "20260506T113000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Pakistan brokers fragile truce : U . S . and Iran edge toward 30 - day ceasefire – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "date": "20260507T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US , Iran near short deal to end hostilities",
+          "domain": "usa.chinadaily.com.cn",
+          "date": "20260507T021500Z",
+          "country": "China"
+        },
+        {
+          "title": "US , Iran near short deal to end hostilities",
+          "domain": "africa.chinadaily.com.cn",
+          "date": "20260507T044500Z",
+          "country": "China"
+        },
+        {
+          "title": "Iran - US talks near breakthrough ? Tehran to respond to ceasefire , nuclear pause proposal today",
+          "domain": "moneycontrol.com",
+          "date": "20260507T030000Z",
+          "country": "India"
+        },
+        {
+          "title": "US , Iran Close to One - Page Deal to End War , Set Terms for Nuclear Talks",
+          "domain": "kyivpost.com",
+          "date": "20260506T141500Z",
+          "country": "Ukraine"
+        },
+        {
+          "title": "Axios reports the U . S . and Iran are negotiating a one - page , 14 - point memo to end the war , and a response is expected within 48 hours",
+          "domain": "attackofthefanboy.com",
+          "date": "20260506T181500Z",
+          "country": "Japan"
+        },
+        {
+          "title": "US and Iran nearing 14 - point memorandum , launch 30 - day negotiation window to end war : Reports",
+          "domain": "indiatvnews.com",
+          "date": "20260506T160000Z",
+          "country": "India"
+        },
+        {
+          "title": "Tehran Draws Red Lines in Beijing as Nuclear Diplomacy Advances Amid War Tensions",
+          "domain": "bearingdrift.com",
+          "date": "20260506T194500Z",
+          "country": "United States"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": [
-        {
-          "title": "Iran war : Will tensions escalate in the Strait of Hormuz ?",
-          "domain": "dw.com",
-          "date": "20260506T141500Z",
-          "country": "Germany"
-        },
-        {
-          "title": "Trump threatens to resume bombing if Iran doesnt agree to peace deal",
-          "domain": "fox13now.com",
-          "date": "20260506T183000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump threatens to resume bombing if Iran doesnt agree to peace deal",
-          "domain": "wcpo.com",
-          "date": "20260506T163000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump threatens to resume bombing if Iran doesnt agree to peace deal",
-          "domain": "wkbw.com",
-          "date": "20260506T190000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump threatens to resume bombing if Iran doesnt agree to peace deal",
-          "domain": "wtkr.com",
-          "date": "20260506T151500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump threatens to resume bombing if Iran doesnt agree to peace deal",
-          "domain": "fox17online.com",
-          "date": "20260506T173000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump threatens to resume bombing if Iran doesnt agree to peace deal",
-          "domain": "kristv.com",
-          "date": "20260506T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "No ships pass through Strait of Hormuz in last 24 hours amid rising security risks",
-          "domain": "tribune.com.pk",
-          "date": "20260507T121500Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "Adnoc LNG Tankers Go Dark to Get Gas Through Hormuz",
-          "domain": "rigzone.com",
-          "date": "20260507T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "US says it disabled Iranian - flagged tanker - Pakistan Today",
-          "domain": "pakistantoday.com.pk",
-          "date": "20260506T233000Z",
-          "country": "Pakistan"
-        }
-      ]
+      "headlines": []
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Solomon Islands PM Jeremiah Manele Ousted After Just Over Two Years In Power",
-          "domain": "scoop.co.nz",
-          "date": "20260508T044500Z",
-          "country": "New Zealand"
-        },
-        {
-          "title": "Romania Faces Historic Crisis As Pro - EU PM Ilie Bolojan Is Removed From Power During Critical Economic Countdown",
-          "domain": "ibtimes.co.uk",
-          "date": "20260506T140000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "UK votes in key local and regional elections",
-          "domain": "dw.com",
-          "date": "20260507T083000Z",
-          "country": "Germany"
-        },
-        {
-          "title": "Hun Sen backs shift to international legal route , rejects bilateral talks after Thai MoU withdrawal",
-          "domain": "phnompenhpost.com",
-          "date": "20260506T063000Z",
-          "country": "Cambodia"
-        },
-        {
-          "title": "Solomon Islands PM Jeremiah Manele ousted after just over two years in power",
-          "domain": "rnz.co.nz",
-          "date": "20260507T061500Z",
-          "country": ""
-        },
-        {
-          "title": "Thai Foreign Minister seeks ASEAN talks with Myanmar counterpart",
-          "domain": "thehindu.com",
-          "date": "20260506T061500Z",
-          "country": "India"
-        },
-        {
-          "title": "Mamata Banerjee lost faith , respect of her own people : Shobhaa De",
-          "domain": "theshillongtimes.com",
-          "date": "20260507T084500Z",
-          "country": "India"
-        },
-        {
-          "title": "Hartlepool Labour MP calls for Keir Starmer to resign after Reform clean sweep",
-          "domain": "gazettelive.co.uk",
-          "date": "20260508T034500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Furious Labour MP calls for Keir Starmer to resign after Reform clean sweep",
-          "domain": "express.co.uk",
-          "date": "20260508T033000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Mamata Banerjee lost faith , respect of her own people : Shobhaa De ( IANS Exclusive )",
-          "domain": "prokerala.com",
-          "date": "20260507T124500Z",
-          "country": "India"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -259,18 +198,6 @@
           "country": "United States"
         },
         {
-          "title": "Sweden Consumer Prices Unexpectedly Fall 0 . 1 %",
-          "domain": "finanzen.ch",
-          "date": "20260506T083000Z",
-          "country": "Switzerland"
-        },
-        {
-          "title": "Sweden Consumer Prices Unexpectedly Fall 0 . 1 %",
-          "domain": "finanznachrichten.de",
-          "date": "20260506T081500Z",
-          "country": "Germany"
-        },
-        {
           "title": "S & P Global lowers India growth forecast to 6 . 6 % for FY27",
           "domain": "thehindubusinessline.com",
           "date": "20260506T164500Z",
@@ -305,6 +232,18 @@
           "domain": "focustaiwan.tw",
           "date": "20260507T133000Z",
           "country": "Taiwan"
+        },
+        {
+          "title": "Pharma , auto sectors could be key hedges in an inflationary environment : Report",
+          "domain": "moneycontrol.com",
+          "date": "20260507T093000Z",
+          "country": "India"
+        },
+        {
+          "title": "BSP says it may resort to  more drastic  action if inflation expectations worsen",
+          "domain": "bworldonline.com",
+          "date": "20260507T220000Z",
+          "country": "Philippines"
         }
       ]
     },
@@ -394,15 +333,15 @@
       ],
       "headlines": [
         {
-          "title": "Tennessee Redistricting Effort Advances in the Legislature As Chaos and Protests Engulf the Capitol",
-          "domain": "townhall.com",
-          "date": "20260507T204500Z",
+          "title": "Raffensperger backs Kemp on redistricting as Carter pushes to redraw maps",
+          "domain": "wjcl.com",
+          "date": "20260508T054500Z",
           "country": "United States"
         },
         {
-          "title": "Ohio and Indiana election results test Republican loyalty to Trump , Democratic enthusiasm",
-          "domain": "ideastream.org",
-          "date": "20260506T061500Z",
+          "title": "Tennessee Redistricting Effort Advances in the Legislature As Chaos and Protests Engulf the Capitol",
+          "domain": "townhall.com",
+          "date": "20260507T204500Z",
           "country": "United States"
         },
         {
@@ -465,11 +404,72 @@
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "When is the 2026 NBA Draft Lottery ?",
+          "domain": "thebiglead.com",
+          "date": "20260507T043000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Ranking every team after conference semifinal Game 1s",
+          "domain": "tsn.ca",
+          "date": "20260506T163000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "76ers vs . Knicks Game 2 Odds Make Massive Shift Following Joel Embiid Injury News",
+          "domain": "si.com",
+          "date": "20260507T014500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Lakers vs . Thunder Game 2 Livestream : How to Watch Tonight NBA Playoff Games",
+          "domain": "pcmag.com",
+          "date": "20260508T054500Z",
+          "country": "United States"
+        },
+        {
+          "title": "WWE star The Miz informs ESPN host Cavaliers have NBA title",
+          "domain": "thebiglead.com",
+          "date": "20260507T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "NBA Playoffs Predictions - Point Spreads , Betting Odds , Picks",
+          "domain": "thespread.com",
+          "date": "20260507T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Who has the best odds to win NBA Draft Lottery : Complete list",
+          "domain": "thebiglead.com",
+          "date": "20260506T233000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Tiago Splitter Not Expected to Retain Trail Blazers Coaching Position",
+          "domain": "blazersedge.com",
+          "date": "20260507T230000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Best NBA Betting Promos : Betting Promos for the NBA Playoffs",
+          "domain": "rotowire.com",
+          "date": "20260507T224500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Milwaukee Bucks introduce new head coach Taylor Jenkins",
+          "domain": "wpr.org",
+          "date": "20260507T024500Z",
+          "country": "United States"
+        }
+      ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
@@ -484,12 +484,6 @@
           "domain": "propakistani.pk",
           "date": "20260506T140000Z",
           "country": "Pakistan"
-        },
-        {
-          "title": "OpenAI GPT - 5 . 5 Fastest Growing API Launch Overview",
-          "domain": "sci-tech-today.com",
-          "date": "20260506T094500Z",
-          "country": "United States"
         },
         {
           "title": "7 Best AI Models of 2026 : Ranked by Real - World Performance",
@@ -537,6 +531,12 @@
           "title": "How China Is Winning the Global AI Race",
           "domain": "foreignpolicy.com",
           "date": "20260507T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "PYMNTS | Apple Next iOS Turns iPhone Into an AI Marketplace",
+          "domain": "pymnts.com",
+          "date": "20260507T200000Z",
           "country": "United States"
         }
       ]
