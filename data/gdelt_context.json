@@ -1,26 +1,148 @@
 {
-  "fetched_at": "2026-05-09T09:28:49Z",
+  "fetched_at": "2026-05-09T13:35:34Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Trump new Iran gamble : Military brinkmanship and nuclear diplomacy",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260509T084500Z",
+          "country": "India"
+        },
+        {
+          "title": "Is the Iran nuclear agreement back to square one ?",
+          "domain": "rte.ie",
+          "date": "20260509T100000Z",
+          "country": "Ireland"
+        },
+        {
+          "title": "Pakistan brokers fragile truce : U . S . and Iran edge toward 30 - day ceasefire – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "date": "20260507T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Israel and Iranian nukes remain biggest variables as US and Iran near deal to end war",
+          "domain": "hani.co.kr",
+          "date": "20260508T093000Z",
+          "country": "South Korea"
+        },
+        {
+          "title": "Israel and Iranian nukes remain biggest variables as US and Iran near deal to end war",
+          "domain": "english.hani.co.kr",
+          "date": "20260508T104500Z",
+          "country": "South Korea"
+        },
+        {
+          "title": "Military force has got the US nowhere with Iran – here is what a realistic negotiation would look like | Christopher S Chivvis",
+          "domain": "theguardian.com",
+          "date": "20260508T100000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "What included in talks to end the Iran war and reopen Hormuz ?",
+          "domain": "marketscreener.com",
+          "date": "20260507T133000Z",
+          "country": ""
+        },
+        {
+          "title": "US - Iran talks may resume in Islamabad next week",
+          "domain": "samaa.tv",
+          "date": "20260509T070000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Trump Iran Strategy Collides with Hormuz Reality",
+          "domain": "gcaptain.com",
+          "date": "20260509T014500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump punts thorniest Iran challenges in push to reopen Hormuz",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260509T014500Z",
+          "country": "India"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "US military strikes and disables 2 Iranian oil tankers attempting to breach blockade",
+          "domain": "stripes.com",
+          "date": "20260508T164500Z",
+          "country": "United States"
+        },
+        {
+          "title": "US Navy strikes two Iranian tankers in Strait of Hormuz ; Pentagon releases footage",
+          "domain": "moneycontrol.com",
+          "date": "20260509T080000Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran creates agency to collect Strait of Hormuz tolls : shipping journal",
+          "domain": "dunyanews.tv",
+          "date": "20260508T144500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Iran Detains  Ocean Koi  Tanker Apparently Hauling Iranian Oil",
+          "domain": "gcaptain.com",
+          "date": "20260508T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US fires on and disables 2 more Iranian tankers as tensions rise",
+          "domain": "denverpost.com",
+          "date": "20260508T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Adnoc LNG Tankers Go Dark to Get Gas Through Hormuz",
+          "domain": "rigzone.com",
+          "date": "20260507T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran reviews US deal proposal as Trump pressures Tehran",
+          "domain": "theshillongtimes.com",
+          "date": "20260508T024500Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran : US Forces Fled After Strait of Hormuz Missile Attack",
+          "domain": "military.com",
+          "date": "20260508T003000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran Strait of Hormuz blockade leaves 1 , 500 ships , 20 , 000 crew stranded : IMO",
+          "domain": "moneycontrol.com",
+          "date": "20260507T180000Z",
+          "country": "India"
+        },
+        {
+          "title": "US attacks Iranian vessel near Strait of Hormuz ; Tehran says 10 sailors wounded , five missing",
+          "domain": "moneycontrol.com",
+          "date": "20260508T141500Z",
+          "country": "India"
+        }
+      ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
@@ -29,6 +151,12 @@
         "next-leader-out-of-power-before-2027-795"
       ],
       "headlines": [
+        {
+          "title": "Starmer refusing to quit even as top cabinet members wont publicly back him | News Politics",
+          "domain": "metro.co.uk",
+          "date": "20260509T100000Z",
+          "country": "United Kingdom"
+        },
         {
           "title": "Why South Africa President Cyril Ramaphosa dey face calls to resign",
           "domain": "pidgin.informationng.com",
@@ -48,10 +176,28 @@
           "country": "New Zealand"
         },
         {
+          "title": "Local election results live : Starmer faces mounting pressure from MPs and unions",
+          "domain": "independent.co.uk",
+          "date": "20260509T100000Z",
+          "country": "United Kingdom"
+        },
+        {
           "title": "UK Labour suffers early losses in crunch local polls",
           "domain": "freemalaysiatoday.com",
           "date": "20260508T100000Z",
           "country": "Malaysia"
+        },
+        {
+          "title": "Pressure mounts on PM to resign following brutal election wipeout - as defiant Sir Keir calls for  unity",
+          "domain": "lbc.co.uk",
+          "date": "20260509T091500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Magyar to become Hungary  regime change  PM",
+          "domain": "thedailystar.net",
+          "date": "20260509T113000Z",
+          "country": "Bangladesh"
         },
         {
           "title": "South Africa president faces call to resign after court ruling",
@@ -63,30 +209,6 @@
           "title": "Putin paranoia parade",
           "domain": "newsweek.com",
           "date": "20260509T070000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Pacific . scoop . co . nz » Solomon Islands PM Jeremiah Manele Ousted After Just Over Two Years In Power",
-          "domain": "pacific.scoop.co.nz",
-          "date": "20260508T073000Z",
-          "country": "New Zealand"
-        },
-        {
-          "title": "Solomon Islands PM Jeremiah Manele ousted after just over two years in power",
-          "domain": "rnz.co.nz",
-          "date": "20260508T054500Z",
-          "country": ""
-        },
-        {
-          "title": "Hartlepool Labour MP calls for Keir Starmer to resign after Reform clean sweep",
-          "domain": "gazettelive.co.uk",
-          "date": "20260508T034500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "UK PM Starmer vows to fight on after local polls drubbing",
-          "domain": "channelnewsasia.com",
-          "date": "20260509T001500Z",
           "country": "United States"
         }
       ]
@@ -101,21 +223,143 @@
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Young Canadians face sputtering job economy",
+          "domain": "cp24.com",
+          "date": "20260509T030000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Payrolls Rise 115 , 000 In April As Labor Market Stabilizes",
+          "domain": "forbes.com",
+          "date": "20260508T163000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oil shock drags Philippine GDP growth to 2 . 8 % - BusinessWorld Online",
+          "domain": "bworldonline.com",
+          "date": "20260507T220000Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Pakistan GDP growth to slow as inflation likely to rise : IMF",
+          "domain": "dunyanews.tv",
+          "date": "20260509T101500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "UN panel urges countries to move beyond GDP as sole measure of progress",
+          "domain": "thehindubusinessline.com",
+          "date": "20260508T073000Z",
+          "country": "India"
+        },
+        {
+          "title": "UN panel urges countries to move beyond GDP as sole measure of progress",
+          "domain": "aninews.in",
+          "date": "20260508T061500Z",
+          "country": "India"
+        },
+        {
+          "title": "Economic Update : Mainland China and South - East Asia",
+          "domain": "icaew.com",
+          "date": "20260507T150000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "IMF forecasts slower growth , higher inflation for Pakistan",
+          "domain": "samaa.tv",
+          "date": "20260509T070000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Jobs data comes in strong , crushing estimates . This is what it means for advisors",
+          "domain": "investmentnews.com",
+          "date": "20260508T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Rewane : Nigeria Experiencing Growth Without Prosperity , Citizens Getting Poorer – THISDAYLIVE",
+          "domain": "thisdaylive.com",
+          "date": "20260509T064500Z",
+          "country": "Nigeria"
+        }
+      ]
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Cautious bond traders race to reset Fed rate bets",
+          "domain": "finance.yahoo.com",
+          "date": "20260507T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "U . S . added 115K jobs in April , nearly doubling expectations",
+          "domain": "coindesk.com",
+          "date": "20260508T154500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Jobs Market Beat the Forecast by Double and Wages Grew Slower Than Expected . Here Is What April Jobs Report Is Telling Investors About the Fed Possible Next Move",
+          "domain": "fool.com",
+          "date": "20260508T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Federal Reserve is quickly running out of reasons to cut interest rates",
+          "domain": "cnbc.com",
+          "date": "20260508T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Strong US jobs data complicates any Warsh push for lower rates",
+          "domain": "virginiabusiness.com",
+          "date": "20260508T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Fed Officials Voice Growing Concern Over Inflation And Supply Chain Pressure From Iran War",
+          "domain": "ibtimes.com",
+          "date": "20260507T150000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gold firms and heads for weekly gain on US - Iran deal hopes",
+          "domain": "marketscreener.com",
+          "date": "20260508T164500Z",
+          "country": ""
+        },
+        {
+          "title": "Moore : Time For Jerome Powell To Go Home",
+          "domain": "zerohedge.com",
+          "date": "20260507T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Jobs report showed hiring slowed , but exceeded expectations",
+          "domain": "abc11.com",
+          "date": "20260508T154500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Jobs report showed hiring slowed , but exceeded expectations",
+          "domain": "abc7.com",
+          "date": "20260508T144500Z",
+          "country": "United States"
+        }
+      ]
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
@@ -149,24 +393,6 @@
           "country": "United States"
         },
         {
-          "title": "Taiwan consumer price index rises 1 . 74 % in April",
-          "domain": "focustaiwan.tw",
-          "date": "20260507T133000Z",
-          "country": "Taiwan"
-        },
-        {
-          "title": "Taiwan consumer price index rises 1 . 74 % in April",
-          "domain": "focustaiwan.tw",
-          "date": "20260507T133000Z",
-          "country": "Taiwan"
-        },
-        {
-          "title": "Pharma , auto sectors could be key hedges in an inflationary environment : Report",
-          "domain": "moneycontrol.com",
-          "date": "20260507T093000Z",
-          "country": "India"
-        },
-        {
           "title": "Wall Street Week Ahead : Data , Iran , US - China meeting in focus for scorching US stock market",
           "domain": "economictimes.indiatimes.com",
           "date": "20260509T050000Z",
@@ -183,6 +409,24 @@
           "domain": "finance.yahoo.com",
           "date": "20260508T050000Z",
           "country": "United States"
+        },
+        {
+          "title": "Asia heatwaves spell double trouble for economies hit by oil",
+          "domain": "businesstimes.com.sg",
+          "date": "20260508T064500Z",
+          "country": "Singapore"
+        },
+        {
+          "title": "Cyprus Inflation Climbs To 22 - month High",
+          "domain": "finanznachrichten.de",
+          "date": "20260507T150000Z",
+          "country": "Germany"
+        },
+        {
+          "title": "Economics Week Ahead - ActionForex",
+          "domain": "actionforex.com",
+          "date": "20260509T063000Z",
+          "country": "United Kingdom"
         }
       ]
     },
@@ -203,6 +447,12 @@
           "title": "If The Bitcoin Price Crosses $400 , 000 , Will The Solana Price Reach $1 , 500 ?",
           "domain": "newsbtc.com",
           "date": "20260507T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Correction Over ? Tom Lee Sets $200K Year - End Target",
+          "domain": "newsbtc.com",
+          "date": "20260509T101500Z",
           "country": "United States"
         },
         {
@@ -246,12 +496,6 @@
           "domain": "cointelegraph.com",
           "date": "20260508T003000Z",
           "country": "China"
-        },
-        {
-          "title": "Bitcoin BTC USD price drop today reason : BTC USD price today : Bitcoin falls below $80 , 000 amid US – Iran tensions and why crypto traders rush to lock in profits after 37 % rally",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260507T194500Z",
-          "country": "India"
         }
       ]
     },
@@ -287,6 +531,12 @@
           "country": "United States"
         },
         {
+          "title": "American drivers are in for gas prices deja vu this summer",
+          "domain": "finance.yahoo.com",
+          "date": "20260509T093000Z",
+          "country": "United States"
+        },
+        {
           "title": "US oil exports hit record high . What does this mean for gas prices ?  | Peak Oil News and Message Boards",
           "domain": "peakoil.com",
           "date": "20260507T224500Z",
@@ -302,12 +552,6 @@
           "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
           "domain": "greatbendpost.com",
           "date": "20260507T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
-          "domain": "hayspost.com",
-          "date": "20260507T131500Z",
           "country": "United States"
         },
         {
@@ -351,45 +595,45 @@
           "country": "United States"
         },
         {
-          "title": "Republicans once saw Michigan as ripe for a takeover , but the mood is shifting",
-          "domain": "yahoo.com",
-          "date": "20260507T100000Z",
-          "country": "United States"
-        },
-        {
           "title": "Tenn . passes new potential 9 - 0 GOP U . S . House map , eight days after SCOTUS guts Voting Rights Act",
           "domain": "yahoo.com",
           "date": "20260507T191500Z",
           "country": "United States"
         },
         {
-          "title": "Republicans once saw Michigan as ripe for a takeover , but the mood is shifting",
-          "domain": "ksat.com",
-          "date": "20260507T124500Z",
+          "title": "Republicans once saw Michigan as ripe for takeover , but mood shifting",
+          "domain": "capitalgazette.com",
+          "date": "20260507T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Republicans once saw Michigan as ripe for takeover , but mood shifting",
+          "domain": "presstelegram.com",
+          "date": "20260507T183000Z",
           "country": "United States"
         },
         {
           "title": "Republicans once saw Michigan as ripe for a takeover , but the mood is shifting",
-          "domain": "clickondetroit.com",
-          "date": "20260507T110000Z",
+          "domain": "wfmj.com",
+          "date": "20260507T150000Z",
           "country": "United States"
         },
         {
-          "title": "Republicans once saw Michigan as ripe for a takeover , but the mood is shifting",
-          "domain": "mynorthwest.com",
-          "date": "20260507T103000Z",
+          "title": "Tennessee Redistricting Effort Advances in the Legislature as Chaos and Protests Engulf the Capitol",
+          "domain": "wcbm.com",
+          "date": "20260507T190000Z",
           "country": "United States"
         },
         {
-          "title": "Republicans once saw Michigan as ripe for a takeover , but the mood is shifting",
-          "domain": "news4jax.com",
-          "date": "20260507T103000Z",
+          "title": "Republicans once saw Michigan as ripe for takeover , but mood shifting",
+          "domain": "dailybulletin.com",
+          "date": "20260507T200000Z",
           "country": "United States"
         },
         {
-          "title": "Republicans once saw Michigan as ripe for a takeover , but the mood is shifting",
-          "domain": "wsls.com",
-          "date": "20260507T103000Z",
+          "title": "Republicans once saw Michigan as ripe for takeover , but mood shifting",
+          "domain": "sbsun.com",
+          "date": "20260507T194500Z",
           "country": "United States"
         }
       ]
@@ -401,12 +645,6 @@
         "2026-fifa-world-cup-winner-595"
       ],
       "headlines": [
-        {
-          "title": "Iranian FA says will meet FIFA for World Cup assurances in next few days",
-          "domain": "jpost.com",
-          "date": "20260507T131500Z",
-          "country": "Israel"
-        },
         {
           "title": "Decision made on Moises Caicedo eligibility for World Cup 2026 : report",
           "domain": "fourfourtwo.com",
@@ -444,10 +682,10 @@
           "country": "Philippines"
         },
         {
-          "title": "Andor Lead Netflix FIFA Comedy Arrives at the Perfect Time",
-          "domain": "comingsoon.net",
-          "date": "20260507T133000Z",
-          "country": "United States"
+          "title": "Shakira , Burna Boy set to release FIFA World Cup song",
+          "domain": "theeagleonline.com.ng",
+          "date": "20260509T101500Z",
+          "country": "Nigeria"
         },
         {
           "title": "BLACKPINK Lisa To Headline FIFA World Cup 2026 Opening Ceremony",
@@ -460,16 +698,83 @@
           "domain": "justjared.com",
           "date": "20260507T210000Z",
           "country": "United States"
+        },
+        {
+          "title": "Nora Fatehi to perform and sing at FIFA World Cup 2026 opening ceremony in Toronto",
+          "domain": "bollywoodhungama.com",
+          "date": "20260509T083000Z",
+          "country": "India"
         }
       ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Lakers vs . Thunder Game 2 Livestream : How to Watch Tonight NBA Playoff Games",
+          "domain": "pcmag.com",
+          "date": "20260508T054500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Knicks vs . 76ers Game 3 Livestream : How to Watch Tonight NBA Playoff Games",
+          "domain": "pcmag.com",
+          "date": "20260508T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "WWE star The Miz informs ESPN host Cavaliers have NBA title",
+          "domain": "thebiglead.com",
+          "date": "20260507T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "NBA tipoff : Round 2 continues Friday with Knicks - 76ers , Spurs - Timberwolves",
+          "domain": "kimt.com",
+          "date": "20260508T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Five Teams With the Most at Stake Entering the 2026 NBA Draft Lottery",
+          "domain": "si.com",
+          "date": "20260508T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "76ers vs Knicks LIVE Score Updates : The visit wants to surprise ( 63 - 70 ) | 05 / 08 / 2026",
+          "domain": "vavel.com",
+          "date": "20260509T064500Z",
+          "country": "United States"
+        },
+        {
+          "title": "P . J . Tucker Announces Retirement After Journeyman Career in NBA",
+          "domain": "si.com",
+          "date": "20260508T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "How Does the NBA Draft Lottery Work ? Explaining the League Complicated Annual Event",
+          "domain": "si.com",
+          "date": "20260508T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Tiago Splitter Not Expected to Retain Trail Blazers Coaching Position",
+          "domain": "blazersedge.com",
+          "date": "20260507T230000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Best NBA Betting Promos : Betting Promos for the NBA Playoffs",
+          "domain": "rotowire.com",
+          "date": "20260507T224500Z",
+          "country": "United States"
+        }
+      ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
@@ -543,72 +848,11 @@
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": [
-        {
-          "title": "GTA 6 Report Gives Update on Release Date , Trailer # 3 , and Special PS5 Version",
-          "domain": "comicbook.com",
-          "date": "20260507T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Leak Reveals New Version of the Game",
-          "domain": "comicbook.com",
-          "date": "20260508T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Amazing  Take - Two CEO Teases GTA 6 After Early Preview",
-          "domain": "gamerant.com",
-          "date": "20260507T194500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA Online Final Major Update Before GTA 6 Has Gamers Pumped",
-          "domain": "screenrant.com",
-          "date": "20260508T183000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA Online  Confirmed to Get Major Summer Update That May Be Its Last",
-          "domain": "gamenguide.com",
-          "date": "20260508T044500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 was delayed to avoid crunch , claims Take - Two CEO , comparing notoriously crunchy Rockstar to college :  You do your homework , you dont pull an all - nighter",
-          "domain": "gamesradar.com",
-          "date": "20260507T181500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 production budget sounds so astronomical you will have a hard time believing it",
-          "domain": "digitaltrends.com",
-          "date": "20260507T164500Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 fans could get early look as Rockstar teases GTA Online event | Gaming | Entertainment",
-          "domain": "express.co.uk",
-          "date": "20260508T124500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "GTA 5 : The Dark Mysteries of Ursula Explained",
-          "domain": "gamerant.com",
-          "date": "20260507T113000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA Online Set for  Exciting  Update This Summer Could It Tease GTA 6 ?",
-          "domain": "ign.com",
-          "date": "20260507T221500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     }
   }
 }
