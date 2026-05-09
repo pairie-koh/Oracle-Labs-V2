@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-09T13:35:34Z",
+  "fetched_at": "2026-05-09T17:09:12Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -49,12 +49,6 @@
           "country": "United Kingdom"
         },
         {
-          "title": "What included in talks to end the Iran war and reopen Hormuz ?",
-          "domain": "marketscreener.com",
-          "date": "20260507T133000Z",
-          "country": ""
-        },
-        {
           "title": "US - Iran talks may resume in Islamabad next week",
           "domain": "samaa.tv",
           "date": "20260509T070000Z",
@@ -71,6 +65,12 @@
           "domain": "economictimes.indiatimes.com",
           "date": "20260509T014500Z",
           "country": "India"
+        },
+        {
+          "title": "Tehran yet to respond to US proposals : Esmaeil Baghaei",
+          "domain": "dunyanews.tv",
+          "date": "20260508T054500Z",
+          "country": "Pakistan"
         }
       ]
     },
@@ -152,10 +152,22 @@
       ],
       "headlines": [
         {
+          "title": "UK Starmer vows to  listen to voter after election drubbing",
+          "domain": "digitaljournal.com",
+          "date": "20260509T134500Z",
+          "country": "United States"
+        },
+        {
           "title": "Starmer refusing to quit even as top cabinet members wont publicly back him | News Politics",
           "domain": "metro.co.uk",
           "date": "20260509T100000Z",
           "country": "United Kingdom"
+        },
+        {
+          "title": "Magyar to become Hungary  regime change  PM",
+          "domain": "thehindu.com",
+          "date": "20260509T073000Z",
+          "country": "India"
         },
         {
           "title": "Why South Africa President Cyril Ramaphosa dey face calls to resign",
@@ -165,9 +177,9 @@
         },
         {
           "title": "Magyar to become Hungary  regime change  PM",
-          "domain": "thehindu.com",
-          "date": "20260509T073000Z",
-          "country": "India"
+          "domain": "hurriyetdailynews.com",
+          "date": "20260509T144500Z",
+          "country": "Turkey"
         },
         {
           "title": "Solomon Islands PM Jeremiah Manele Ousted After Just Over Two Years In Power",
@@ -182,44 +194,93 @@
           "country": "United Kingdom"
         },
         {
-          "title": "UK Labour suffers early losses in crunch local polls",
-          "domain": "freemalaysiatoday.com",
-          "date": "20260508T100000Z",
-          "country": "Malaysia"
-        },
-        {
           "title": "Pressure mounts on PM to resign following brutal election wipeout - as defiant Sir Keir calls for  unity",
           "domain": "lbc.co.uk",
           "date": "20260509T091500Z",
           "country": "United Kingdom"
         },
         {
+          "title": "UK Labour suffers early losses in crunch local polls",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260508T100000Z",
+          "country": "Malaysia"
+        },
+        {
           "title": "Magyar to become Hungary  regime change  PM",
           "domain": "thedailystar.net",
           "date": "20260509T113000Z",
           "country": "Bangladesh"
-        },
-        {
-          "title": "South Africa president faces call to resign after court ruling",
-          "domain": "graphic.com.gh",
-          "date": "20260508T124500Z",
-          "country": "Ghana"
-        },
-        {
-          "title": "Putin paranoia parade",
-          "domain": "newsweek.com",
-          "date": "20260509T070000Z",
-          "country": "United States"
         }
       ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Senate Republicans Defy Trump and Shelve Voter ID Bill",
+          "domain": "newrepublic.com",
+          "date": "20260507T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Florida in Secret Talks With Trump on Closing  Alligator Alcatraz",
+          "domain": "newrepublic.com",
+          "date": "20260507T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Two GOP challengers will face longtime incumbent U . S . Rep . Mike Simpson in May election",
+          "domain": "idahostatejournal.com",
+          "date": "20260507T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Turning Point threatens to primary John Thune over SAVE America Act",
+          "domain": "washingtonexaminer.com",
+          "date": "20260507T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Hundreds of Ballots Found Unopened After Election Certified in California",
+          "domain": "newsweek.com",
+          "date": "20260508T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Judge : Trump DOJ May Keep 2020 Election Ballots FBI Seized in Georgia",
+          "domain": "breitbart.com",
+          "date": "20260507T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Two GOP challengers will face longtime incumbent U . S . Rep . Mike Simpson in May election",
+          "domain": "postregister.com",
+          "date": "20260507T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "New Winnipeg group aims to register expat U . S . voters ahead of midterms",
+          "domain": "cbc.ca",
+          "date": "20260509T134500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "RIGHT SPEAK : 18 Voter Fraud Prosecutions Racking Up While Republican - Led Congress Ignores SAVE Act : Every Time Politicians Torpedo Needed Election Reforms Like the SAVE America Act They are Damaging Our Republic",
+          "domain": "rightspeak.net",
+          "date": "20260508T064500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bill preventing illegal immigrants from driving also impacts state voter ID laws",
+          "domain": "homenewshere.com",
+          "date": "20260507T204500Z",
+          "country": "United States"
+        }
+      ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -265,10 +326,16 @@
           "country": "India"
         },
         {
-          "title": "Economic Update : Mainland China and South - East Asia",
-          "domain": "icaew.com",
-          "date": "20260507T150000Z",
-          "country": "United Kingdom"
+          "title": "The unsinkable U . S . economy cruises on , despite headwinds from the Iran war",
+          "domain": "morningstar.com",
+          "date": "20260509T144500Z",
+          "country": "China"
+        },
+        {
+          "title": "This economist studied 400 years of recessions . His bleak conclusion : stop trying to predict them",
+          "domain": "fortune.com",
+          "date": "20260509T143000Z",
+          "country": "United States"
         },
         {
           "title": "IMF forecasts slower growth , higher inflation for Pakistan",
@@ -281,12 +348,6 @@
           "domain": "investmentnews.com",
           "date": "20260508T140000Z",
           "country": "United States"
-        },
-        {
-          "title": "Rewane : Nigeria Experiencing Growth Without Prosperity , Citizens Getting Poorer – THISDAYLIVE",
-          "domain": "thisdaylive.com",
-          "date": "20260509T064500Z",
-          "country": "Nigeria"
         }
       ]
     },
@@ -303,6 +364,18 @@
           "title": "Cautious bond traders race to reset Fed rate bets",
           "domain": "finance.yahoo.com",
           "date": "20260507T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
+          "domain": "fool.com",
+          "date": "20260509T134500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
+          "domain": "finance.yahoo.com",
+          "date": "20260509T140000Z",
           "country": "United States"
         },
         {
@@ -330,12 +403,6 @@
           "country": "United States"
         },
         {
-          "title": "Fed Officials Voice Growing Concern Over Inflation And Supply Chain Pressure From Iran War",
-          "domain": "ibtimes.com",
-          "date": "20260507T150000Z",
-          "country": "United States"
-        },
-        {
           "title": "Gold firms and heads for weekly gain on US - Iran deal hopes",
           "domain": "marketscreener.com",
           "date": "20260508T164500Z",
@@ -351,12 +418,6 @@
           "title": "Jobs report showed hiring slowed , but exceeded expectations",
           "domain": "abc11.com",
           "date": "20260508T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Jobs report showed hiring slowed , but exceeded expectations",
-          "domain": "abc7.com",
-          "date": "20260508T144500Z",
           "country": "United States"
         }
       ]
@@ -417,16 +478,16 @@
           "country": "Singapore"
         },
         {
-          "title": "Cyprus Inflation Climbs To 22 - month High",
-          "domain": "finanznachrichten.de",
-          "date": "20260507T150000Z",
-          "country": "Germany"
-        },
-        {
           "title": "Economics Week Ahead - ActionForex",
           "domain": "actionforex.com",
           "date": "20260509T063000Z",
           "country": "United Kingdom"
+        },
+        {
+          "title": "Stocks plunge as market succumbs to profit taking",
+          "domain": "philstar.com",
+          "date": "20260508T164500Z",
+          "country": "Philippines"
         }
       ]
     },
@@ -544,18 +605,6 @@
         },
         {
           "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
-          "domain": "jcpost.com",
-          "date": "20260507T164500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
-          "domain": "greatbendpost.com",
-          "date": "20260507T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
           "domain": "northfortmyersneighbor.com",
           "date": "20260507T213000Z",
           "country": "United States"
@@ -565,6 +614,18 @@
           "domain": "bangkokpost.com",
           "date": "20260509T003000Z",
           "country": "Thailand"
+        },
+        {
+          "title": "Bill Seeks Moratorium on US Oil Exports",
+          "domain": "rigzone.com",
+          "date": "20260508T163000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Risk of $5 gas  can no longer be missed , JP Morgan warns amid Iran war oil shocks",
+          "domain": "finance.yahoo.com",
+          "date": "20260508T211500Z",
+          "country": "United States"
         }
       ]
     },
@@ -613,12 +674,6 @@
           "country": "United States"
         },
         {
-          "title": "Republicans once saw Michigan as ripe for a takeover , but the mood is shifting",
-          "domain": "wfmj.com",
-          "date": "20260507T150000Z",
-          "country": "United States"
-        },
-        {
           "title": "Tennessee Redistricting Effort Advances in the Legislature as Chaos and Protests Engulf the Capitol",
           "domain": "wcbm.com",
           "date": "20260507T190000Z",
@@ -634,6 +689,12 @@
           "title": "Republicans once saw Michigan as ripe for takeover , but mood shifting",
           "domain": "sbsun.com",
           "date": "20260507T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Republicans once saw Michigan as ripe for takeover , but mood shifting",
+          "domain": "sgvtribune.com",
+          "date": "20260507T190000Z",
           "country": "United States"
         }
       ]
@@ -715,9 +776,27 @@
       ],
       "headlines": [
         {
+          "title": "NBA Playoff Predictions May 9 - Point Spreads , Betting , Picks",
+          "domain": "thespread.com",
+          "date": "20260509T134500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Pistons vs . Cavaliers , Thunder vs . Lakers Live : How to Watch Today NBA Playoff Games",
+          "domain": "pcmag.com",
+          "date": "20260509T143000Z",
+          "country": "United States"
+        },
+        {
           "title": "Lakers vs . Thunder Game 2 Livestream : How to Watch Tonight NBA Playoff Games",
           "domain": "pcmag.com",
           "date": "20260508T054500Z",
+          "country": "United States"
+        },
+        {
+          "title": "NBA tipoff : Round 2 of the playoffs continues Tuesday with Cavs - Pistons , Lakers - Thunder",
+          "domain": "harrisondaily.com",
+          "date": "20260509T140000Z",
           "country": "United States"
         },
         {
@@ -745,33 +824,15 @@
           "country": "United States"
         },
         {
+          "title": "Detroit Pistons vs Cleveland Cavaliers LIVE Score Updates in NBA Playoffs Game | 05 / 09 / 2026",
+          "domain": "vavel.com",
+          "date": "20260509T163000Z",
+          "country": "United States"
+        },
+        {
           "title": "76ers vs Knicks LIVE Score Updates : The visit wants to surprise ( 63 - 70 ) | 05 / 08 / 2026",
           "domain": "vavel.com",
           "date": "20260509T064500Z",
-          "country": "United States"
-        },
-        {
-          "title": "P . J . Tucker Announces Retirement After Journeyman Career in NBA",
-          "domain": "si.com",
-          "date": "20260508T160000Z",
-          "country": "United States"
-        },
-        {
-          "title": "How Does the NBA Draft Lottery Work ? Explaining the League Complicated Annual Event",
-          "domain": "si.com",
-          "date": "20260508T204500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Tiago Splitter Not Expected to Retain Trail Blazers Coaching Position",
-          "domain": "blazersedge.com",
-          "date": "20260507T230000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Best NBA Betting Promos : Betting Promos for the NBA Playoffs",
-          "domain": "rotowire.com",
-          "date": "20260507T224500Z",
           "country": "United States"
         }
       ]
@@ -791,10 +852,10 @@
           "country": "United States"
         },
         {
-          "title": "Claude Sonic 4 . 8 Leaks and Anthropic Jupiter Model",
-          "domain": "geeky-gadgets.com",
-          "date": "20260507T134500Z",
-          "country": "United Kingdom"
+          "title": "Small On - Device AI Model Beats Claude Sonnet 4 . 5 and GPT 5",
+          "domain": "propakistani.pk",
+          "date": "20260509T153000Z",
+          "country": "Pakistan"
         },
         {
           "title": "GPT Realtime 2 : OpenAI Advanced Voice Model Launches",
@@ -839,20 +900,81 @@
           "country": "United States"
         },
         {
-          "title": "How China Is Winning the Global AI Race",
-          "domain": "foreignpolicy.com",
-          "date": "20260507T153000Z",
+          "title": "PYMNTS | Apple Next iOS Turns iPhone Into an AI Marketplace",
+          "domain": "pymnts.com",
+          "date": "20260507T200000Z",
           "country": "United States"
         }
       ]
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "GTA 6 Report Gives Update on Release Date , Trailer # 3 , and Special PS5 Version",
+          "domain": "comicbook.com",
+          "date": "20260507T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 Leak Reveals New Version of the Game",
+          "domain": "comicbook.com",
+          "date": "20260508T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Amazing  Take - Two CEO Teases GTA 6 After Early Preview",
+          "domain": "gamerant.com",
+          "date": "20260507T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA Online Final Major Update Before GTA 6 Has Gamers Pumped",
+          "domain": "screenrant.com",
+          "date": "20260508T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Take - Two CEO Reveals Why AI Didnt Help GTA 6 Development",
+          "domain": "vice.com",
+          "date": "20260509T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA Online  Confirmed to Get Major Summer Update That May Be Its Last",
+          "domain": "gamenguide.com",
+          "date": "20260508T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 was delayed to avoid crunch , claims Take - Two CEO , comparing notoriously crunchy Rockstar to college :  You do your homework , you dont pull an all - nighter",
+          "domain": "gamesradar.com",
+          "date": "20260507T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 fans could get early look as Rockstar teases GTA Online event | Gaming | Entertainment",
+          "domain": "express.co.uk",
+          "date": "20260508T124500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Why isnt Grand Theft Auto VI not launching on PC",
+          "domain": "femalefirst.co.uk",
+          "date": "20260509T101500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "PlayStation Urges PS4 Players to Upgrade to PS5 for GTA 6",
+          "domain": "pushsquare.com",
+          "date": "20260509T161500Z",
+          "country": "Japan"
+        }
+      ]
     }
   }
 }
