@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T21:07:35Z",
+  "fetched_at": "2026-05-09T03:32:36Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -7,57 +7,15 @@
       "relevant_to": [
         "nyc_temp"
       ],
-      "today_high": 63,
+      "today_high": 62,
       "today_high_unit": "F",
-      "today_forecast": "Slight Chance Rain Showers",
-      "today_detail": "A slight chance of rain showers after 5pm. Mostly sunny, with a high near 63. West wind around 17 mph. Chance of precipitation is 20%.",
-      "wind": "17 mph",
-      "wind_direction": "W",
-      "tonight_low": 52,
-      "tonight_forecast": "Slight Chance Rain Showers",
+      "today_forecast": "Showers And Thunderstorms",
+      "today_detail": "Rain showers likely before 2pm, then showers and thunderstorms. Cloudy. High near 62, with temperatures falling to around 60 in the afternoon. South wind 7 to 12 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible.",
+      "wind": "7 to 12 mph",
+      "wind_direction": "S",
+      "tonight_low": 55,
+      "tonight_forecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
       "hourly": [
-        {
-          "hour": "2026-05-08T16:00:00-04:00",
-          "temp": 61,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-05-08T17:00:00-04:00",
-          "temp": 62,
-          "unit": "F",
-          "short": "Slight Chance Rain Showers"
-        },
-        {
-          "hour": "2026-05-08T18:00:00-04:00",
-          "temp": 62,
-          "unit": "F",
-          "short": "Slight Chance Rain Showers"
-        },
-        {
-          "hour": "2026-05-08T19:00:00-04:00",
-          "temp": 61,
-          "unit": "F",
-          "short": "Slight Chance Rain Showers"
-        },
-        {
-          "hour": "2026-05-08T20:00:00-04:00",
-          "temp": 61,
-          "unit": "F",
-          "short": "Slight Chance Rain Showers"
-        },
-        {
-          "hour": "2026-05-08T21:00:00-04:00",
-          "temp": 59,
-          "unit": "F",
-          "short": "Slight Chance Rain Showers"
-        },
-        {
-          "hour": "2026-05-08T22:00:00-04:00",
-          "temp": 58,
-          "unit": "F",
-          "short": "Slight Chance Rain Showers"
-        },
         {
           "hour": "2026-05-08T23:00:00-04:00",
           "temp": 57,
@@ -65,59 +23,23 @@
           "short": "Slight Chance Rain Showers"
         }
       ],
-      "peak_temp": 62,
-      "peak_hour": "2026-05-08T17:00:00-04:00"
+      "peak_temp": 57,
+      "peak_hour": "2026-05-08T23:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
       "relevant_to": [
         "miami_temp"
       ],
-      "today_high": 95,
+      "today_high": 96,
       "today_high_unit": "F",
-      "today_forecast": "Mostly Sunny",
-      "today_detail": "Mostly sunny, with a high near 95. Northeast wind around 2 mph.",
-      "wind": "2 mph",
-      "wind_direction": "NE",
-      "tonight_low": 69,
-      "tonight_forecast": "Mostly Clear",
+      "today_forecast": "Sunny",
+      "today_detail": "Sunny, with a high near 96. Heat index values as high as 100. Southwest wind 1 to 7 mph.",
+      "wind": "1 to 7 mph",
+      "wind_direction": "SW",
+      "tonight_low": 70,
+      "tonight_forecast": "Partly Cloudy",
       "hourly": [
-        {
-          "hour": "2026-05-08T17:00:00-04:00",
-          "temp": 95,
-          "unit": "F",
-          "short": "Mostly Sunny"
-        },
-        {
-          "hour": "2026-05-08T18:00:00-04:00",
-          "temp": 93,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
-        {
-          "hour": "2026-05-08T19:00:00-04:00",
-          "temp": 91,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-05-08T20:00:00-04:00",
-          "temp": 87,
-          "unit": "F",
-          "short": "Mostly Cloudy"
-        },
-        {
-          "hour": "2026-05-08T21:00:00-04:00",
-          "temp": 81,
-          "unit": "F",
-          "short": "Partly Cloudy"
-        },
-        {
-          "hour": "2026-05-08T22:00:00-04:00",
-          "temp": 78,
-          "unit": "F",
-          "short": "Mostly Clear"
-        },
         {
           "hour": "2026-05-08T23:00:00-04:00",
           "temp": 76,
@@ -125,8 +47,8 @@
           "short": "Mostly Clear"
         }
       ],
-      "peak_temp": 95,
-      "peak_hour": "2026-05-08T17:00:00-04:00"
+      "peak_temp": 76,
+      "peak_hour": "2026-05-08T23:00:00-04:00"
     }
   }
 }
