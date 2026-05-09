@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-09T06:27:44Z",
+  "fetched_at": "2026-05-09T09:28:49Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -24,80 +24,80 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
-    },
-    "SAVE Act / election law": {
-      "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 10,
-      "relevant_to": [
-        "save-act-signed-into-law-in-2026"
-      ],
       "headlines": [
         {
-          "title": "Senate Republicans Defy Trump and Shelve Voter ID Bill",
-          "domain": "newrepublic.com",
-          "date": "20260507T200000Z",
-          "country": "United States"
+          "title": "Why South Africa President Cyril Ramaphosa dey face calls to resign",
+          "domain": "pidgin.informationng.com",
+          "date": "20260509T021500Z",
+          "country": "Nigeria"
         },
         {
-          "title": "Florida in Secret Talks With Trump on Closing  Alligator Alcatraz",
-          "domain": "newrepublic.com",
-          "date": "20260507T200000Z",
-          "country": "United States"
+          "title": "Magyar to become Hungary  regime change  PM",
+          "domain": "thehindu.com",
+          "date": "20260509T073000Z",
+          "country": "India"
         },
         {
-          "title": "Two GOP challengers will face longtime incumbent U . S . Rep . Mike Simpson in May election",
-          "domain": "idahostatejournal.com",
-          "date": "20260507T200000Z",
-          "country": "United States"
+          "title": "Solomon Islands PM Jeremiah Manele Ousted After Just Over Two Years In Power",
+          "domain": "scoop.co.nz",
+          "date": "20260508T044500Z",
+          "country": "New Zealand"
         },
         {
-          "title": "Turning Point threatens to primary John Thune over SAVE America Act",
-          "domain": "washingtonexaminer.com",
-          "date": "20260507T211500Z",
-          "country": "United States"
+          "title": "UK Labour suffers early losses in crunch local polls",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260508T100000Z",
+          "country": "Malaysia"
         },
         {
-          "title": "Hundreds of Ballots Found Unopened After Election Certified in California",
+          "title": "South Africa president faces call to resign after court ruling",
+          "domain": "graphic.com.gh",
+          "date": "20260508T124500Z",
+          "country": "Ghana"
+        },
+        {
+          "title": "Putin paranoia parade",
           "domain": "newsweek.com",
-          "date": "20260508T181500Z",
+          "date": "20260509T070000Z",
           "country": "United States"
         },
         {
-          "title": "Judge : Trump DOJ May Keep 2020 Election Ballots FBI Seized in Georgia",
-          "domain": "breitbart.com",
-          "date": "20260507T200000Z",
-          "country": "United States"
+          "title": "Pacific . scoop . co . nz » Solomon Islands PM Jeremiah Manele Ousted After Just Over Two Years In Power",
+          "domain": "pacific.scoop.co.nz",
+          "date": "20260508T073000Z",
+          "country": "New Zealand"
         },
         {
-          "title": "Two GOP challengers will face longtime incumbent U . S . Rep . Mike Simpson in May election",
-          "domain": "postregister.com",
-          "date": "20260507T194500Z",
-          "country": "United States"
+          "title": "Solomon Islands PM Jeremiah Manele ousted after just over two years in power",
+          "domain": "rnz.co.nz",
+          "date": "20260508T054500Z",
+          "country": ""
         },
         {
-          "title": "RIGHT SPEAK : 18 Voter Fraud Prosecutions Racking Up While Republican - Led Congress Ignores SAVE Act : Every Time Politicians Torpedo Needed Election Reforms Like the SAVE America Act They are Damaging Our Republic",
-          "domain": "rightspeak.net",
-          "date": "20260508T064500Z",
-          "country": "United States"
+          "title": "Hartlepool Labour MP calls for Keir Starmer to resign after Reform clean sweep",
+          "domain": "gazettelive.co.uk",
+          "date": "20260508T034500Z",
+          "country": "United Kingdom"
         },
         {
-          "title": "Bill preventing illegal immigrants from driving also impacts state voter ID laws",
-          "domain": "homenewshere.com",
-          "date": "20260507T204500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bill preventing illegal immigrants from driving also impacts state voter ID laws",
-          "domain": "suncommercial.com",
-          "date": "20260507T230000Z",
+          "title": "UK PM Starmer vows to fight on after local polls drubbing",
+          "domain": "channelnewsasia.com",
+          "date": "20260509T001500Z",
           "country": "United States"
         }
       ]
+    },
+    "SAVE Act / election law": {
+      "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
+      "article_count": 0,
+      "relevant_to": [
+        "save-act-signed-into-law-in-2026"
+      ],
+      "headlines": []
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -109,29 +109,31 @@
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
+      "headlines": []
+    },
+    "US inflation / CPI": {
+      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
+      "article_count": 10,
+      "relevant_to": [
+        "march-inflation-us-annual"
+      ],
       "headlines": [
         {
-          "title": "Cautious bond traders race to reset Fed rate bets",
-          "domain": "finance.yahoo.com",
-          "date": "20260507T174500Z",
-          "country": "United States"
+          "title": "CPI rise moderate despite oil shocks",
+          "domain": "taipeitimes.com",
+          "date": "20260507T211500Z",
+          "country": "Taiwan"
         },
         {
-          "title": "Citadel Ken Griffin Just Said the Quiet Part Out Loud About Inflation -- and Wall Street Isnt Going to Like It",
+          "title": "How Gas Prices and the Iran Conflict Are Shaping Your 2027 Social Security Raise",
           "domain": "fool.com",
-          "date": "20260507T103000Z",
-          "country": "United States"
-        },
-        {
-          "title": "U . S . added 115K jobs in April , nearly doubling expectations",
-          "domain": "coindesk.com",
-          "date": "20260508T154500Z",
+          "date": "20260507T200000Z",
           "country": "United States"
         },
         {
@@ -141,58 +143,117 @@
           "country": "United States"
         },
         {
-          "title": "The Federal Reserve is quickly running out of reasons to cut interest rates",
-          "domain": "cnbc.com",
+          "title": "Prices for everyday household items rise",
+          "domain": "supermarketnews.com",
           "date": "20260508T191500Z",
           "country": "United States"
         },
         {
-          "title": "Strong US jobs data complicates any Warsh push for lower rates",
-          "domain": "virginiabusiness.com",
-          "date": "20260508T191500Z",
-          "country": "United States"
+          "title": "Taiwan consumer price index rises 1 . 74 % in April",
+          "domain": "focustaiwan.tw",
+          "date": "20260507T133000Z",
+          "country": "Taiwan"
         },
         {
-          "title": "Trump wants rate cuts . His own policies may prevent them .",
-          "domain": "newsweek.com",
-          "date": "20260507T103000Z",
-          "country": "United States"
+          "title": "Taiwan consumer price index rises 1 . 74 % in April",
+          "domain": "focustaiwan.tw",
+          "date": "20260507T133000Z",
+          "country": "Taiwan"
         },
         {
-          "title": "Fed officials are growing anxious about the Iran war",
-          "domain": "us.cnn.com",
-          "date": "20260507T103000Z",
-          "country": "United States"
+          "title": "Pharma , auto sectors could be key hedges in an inflationary environment : Report",
+          "domain": "moneycontrol.com",
+          "date": "20260507T093000Z",
+          "country": "India"
         },
         {
-          "title": "Fed officials are growing anxious about the Iran war",
-          "domain": "cnn.com",
-          "date": "20260507T083000Z",
-          "country": "United States"
+          "title": "Wall Street Week Ahead : Data , Iran , US - China meeting in focus for scorching US stock market",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260509T050000Z",
+          "country": "India"
         },
         {
-          "title": "Fed Officials Voice Growing Concern Over Inflation And Supply Chain Pressure From Iran War",
-          "domain": "ibtimes.com",
-          "date": "20260507T150000Z",
+          "title": "BSP says it may resort to  more drastic  action if inflation expectations worsen",
+          "domain": "bworldonline.com",
+          "date": "20260507T220000Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Treasury raises Series I bond rate after CPI shocks markets",
+          "domain": "finance.yahoo.com",
+          "date": "20260508T050000Z",
           "country": "United States"
         }
       ]
     },
-    "US inflation / CPI": {
-      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 0,
-      "relevant_to": [
-        "march-inflation-us-annual"
-      ],
-      "headlines": []
-    },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "BTC Holders May Sell To Realize Profits Following April Rally",
+          "domain": "cointelegraph.com",
+          "date": "20260508T194500Z",
+          "country": "China"
+        },
+        {
+          "title": "If The Bitcoin Price Crosses $400 , 000 , Will The Solana Price Reach $1 , 500 ?",
+          "domain": "newsbtc.com",
+          "date": "20260507T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Price Tops $81 , 000 for the First Time Since January 2026 – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "date": "20260508T034500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin ETF : Morgan Stanley MSBT Just Hit $233M AUM Here Why It Climbing Fast",
+          "domain": "finance.yahoo.com",
+          "date": "20260508T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Easiest Way to Get Bitcoin Exposure Without Buying It Directly",
+          "domain": "fool.com",
+          "date": "20260508T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin ETF outflows hit $268M as BTC stalls near $80 , 000",
+          "domain": "financial-news.co.uk",
+          "date": "20260509T031500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Bitcoin  Overbought  RSI Hints at BTC Price Dropping to Test $78K",
+          "domain": "cointelegraph.com",
+          "date": "20260508T194500Z",
+          "country": "China"
+        },
+        {
+          "title": "Fund Managers Boost BTC Exposure as Crypto Sentiment Rebounds : CoinShares",
+          "domain": "cointelegraph.com",
+          "date": "20260508T003000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Exchange Reserves See $8B Outflow : Will BTC Rally Higher ?",
+          "domain": "cointelegraph.com",
+          "date": "20260508T003000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin BTC USD price drop today reason : BTC USD price today : Bitcoin falls below $80 , 000 amid US – Iran tensions and why crypto traders rush to lock in profits after 37 % rally",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260507T194500Z",
+          "country": "India"
+        }
+      ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -217,12 +278,6 @@
           "title": "AAA Gas Check : Arizona gas prices rose 17 cents since last week",
           "domain": "yumasun.com",
           "date": "20260508T060000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
-          "domain": "decaturdaily.com",
-          "date": "20260507T073000Z",
           "country": "United States"
         },
         {
@@ -260,6 +315,12 @@
           "domain": "northfortmyersneighbor.com",
           "date": "20260507T213000Z",
           "country": "United States"
+        },
+        {
+          "title": "Bangkok Post - Markets to track if peace in Middle East breaks out",
+          "domain": "bangkokpost.com",
+          "date": "20260509T003000Z",
+          "country": "Thailand"
         }
       ]
     },
@@ -271,6 +332,12 @@
         "balance-of-power-2026-midterms"
       ],
       "headlines": [
+        {
+          "title": "Independent congressional candidate sues Tennessee over new redistricting maps",
+          "domain": "fox17.com",
+          "date": "20260509T063000Z",
+          "country": "United States"
+        },
         {
           "title": "Raffensperger backs Kemp on redistricting as Carter pushes to redraw maps",
           "domain": "wjcl.com",
@@ -324,22 +391,77 @@
           "domain": "wsls.com",
           "date": "20260507T103000Z",
           "country": "United States"
-        },
-        {
-          "title": "Republicans once saw Michigan as ripe for a takeover , but the mood is shifting",
-          "domain": "ktar.com",
-          "date": "20260507T110000Z",
-          "country": "United States"
         }
       ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Iranian FA says will meet FIFA for World Cup assurances in next few days",
+          "domain": "jpost.com",
+          "date": "20260507T131500Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Decision made on Moises Caicedo eligibility for World Cup 2026 : report",
+          "domain": "fourfourtwo.com",
+          "date": "20260509T010000Z",
+          "country": "Spain"
+        },
+        {
+          "title": "Messi : Neymar one of best , has to be at World Cup",
+          "domain": "china.org.cn",
+          "date": "20260509T024500Z",
+          "country": "China"
+        },
+        {
+          "title": "Fifa World Cup 2026 Opening Ceremonies To Feature Katy Perry , Lisa , J Balvin And More",
+          "domain": "glamsham.com",
+          "date": "20260509T071500Z",
+          "country": "India"
+        },
+        {
+          "title": "Seminole Hard Rock Casino Named Official Miami World Cup 2026™ Host City Supporter",
+          "domain": "manilatimes.net",
+          "date": "20260507T181500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "World Cup 2026 Tickets : Best Deals on Tickets , Promo Codes , Pricing",
+          "domain": "hollywoodreporter.com",
+          "date": "20260508T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "ArabWorldCupBet Launches Data - Driven 2026 World Cup Betting Analysis Platform for Arab Audiences",
+          "domain": "manilatimes.net",
+          "date": "20260508T124500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Andor Lead Netflix FIFA Comedy Arrives at the Perfect Time",
+          "domain": "comingsoon.net",
+          "date": "20260507T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "BLACKPINK Lisa To Headline FIFA World Cup 2026 Opening Ceremony",
+          "domain": "soompi.com",
+          "date": "20260509T080000Z",
+          "country": "South Korea"
+        },
+        {
+          "title": "Shakira Announces Official 2026 FIFA World Cup Song With Burna Boy",
+          "domain": "justjared.com",
+          "date": "20260507T210000Z",
+          "country": "United States"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -382,6 +504,12 @@
           "country": "United States"
         },
         {
+          "title": "AI models can hack computers and self - replicate onto new machines , new research finds",
+          "domain": "euronews.com",
+          "date": "20260509T084500Z",
+          "country": "United States"
+        },
+        {
           "title": "Do you need a paid AI subscription plan ?",
           "domain": "thehindu.com",
           "date": "20260509T041500Z",
@@ -410,22 +538,77 @@
           "domain": "foreignpolicy.com",
           "date": "20260507T153000Z",
           "country": "United States"
-        },
-        {
-          "title": "PYMNTS | Apple Next iOS Turns iPhone Into an AI Marketplace",
-          "domain": "pymnts.com",
-          "date": "20260507T200000Z",
-          "country": "United States"
         }
       ]
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "GTA 6 Report Gives Update on Release Date , Trailer # 3 , and Special PS5 Version",
+          "domain": "comicbook.com",
+          "date": "20260507T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 Leak Reveals New Version of the Game",
+          "domain": "comicbook.com",
+          "date": "20260508T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Amazing  Take - Two CEO Teases GTA 6 After Early Preview",
+          "domain": "gamerant.com",
+          "date": "20260507T194500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA Online Final Major Update Before GTA 6 Has Gamers Pumped",
+          "domain": "screenrant.com",
+          "date": "20260508T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA Online  Confirmed to Get Major Summer Update That May Be Its Last",
+          "domain": "gamenguide.com",
+          "date": "20260508T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 was delayed to avoid crunch , claims Take - Two CEO , comparing notoriously crunchy Rockstar to college :  You do your homework , you dont pull an all - nighter",
+          "domain": "gamesradar.com",
+          "date": "20260507T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 production budget sounds so astronomical you will have a hard time believing it",
+          "domain": "digitaltrends.com",
+          "date": "20260507T164500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 fans could get early look as Rockstar teases GTA Online event | Gaming | Entertainment",
+          "domain": "express.co.uk",
+          "date": "20260508T124500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "GTA 5 : The Dark Mysteries of Ursula Explained",
+          "domain": "gamerant.com",
+          "date": "20260507T113000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA Online Set for  Exciting  Update This Summer Could It Tease GTA 6 ?",
+          "domain": "ign.com",
+          "date": "20260507T221500Z",
+          "country": "United States"
+        }
+      ]
     }
   }
 }
