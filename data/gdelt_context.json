@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T03:52:16Z",
+  "fetched_at": "2026-05-10T06:42:34Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -24,11 +24,72 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "UK Starmer vows to  listen to voter after election drubbing",
+          "domain": "digitaljournal.com",
+          "date": "20260509T134500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gord help us as under - fire Starmer brings in failed PM to help him hold power",
+          "domain": "dailystar.co.uk",
+          "date": "20260509T210000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Starmer refusing to quit even as top cabinet members wont publicly back him | News Politics",
+          "domain": "metro.co.uk",
+          "date": "20260509T100000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Magyar to become Hungary  regime change  PM",
+          "domain": "thehindu.com",
+          "date": "20260509T073000Z",
+          "country": "India"
+        },
+        {
+          "title": "Why South Africa President Cyril Ramaphosa dey face calls to resign",
+          "domain": "pidgin.informationng.com",
+          "date": "20260509T021500Z",
+          "country": "Nigeria"
+        },
+        {
+          "title": "Magyar to become Hungary  regime change  PM",
+          "domain": "hurriyetdailynews.com",
+          "date": "20260509T144500Z",
+          "country": "Turkey"
+        },
+        {
+          "title": "Local election results live : Starmer faces mounting pressure from MPs and unions",
+          "domain": "independent.co.uk",
+          "date": "20260509T100000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Pressure mounts on PM to resign following brutal election wipeout - as defiant Sir Keir calls for  unity",
+          "domain": "lbc.co.uk",
+          "date": "20260509T091500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "PETER BRUCE | Cyril finally has to account , and it about time",
+          "domain": "timeslive.co.za",
+          "date": "20260510T003000Z",
+          "country": "South Africa"
+        },
+        {
+          "title": "UK Labour suffers early losses in crunch local polls",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260508T100000Z",
+          "country": "Malaysia"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -109,37 +170,21 @@
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
+      "headlines": []
+    },
+    "US inflation / CPI": {
+      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
+      "article_count": 10,
+      "relevant_to": [
+        "march-inflation-us-annual"
+      ],
       "headlines": [
-        {
-          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
-          "domain": "fool.com",
-          "date": "20260509T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
-          "domain": "fool.com",
-          "date": "20260509T210000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
-          "domain": "finance.yahoo.com",
-          "date": "20260509T140000Z",
-          "country": "United States"
-        },
-        {
-          "title": "U . S . added 115K jobs in April , nearly doubling expectations",
-          "domain": "coindesk.com",
-          "date": "20260508T154500Z",
-          "country": "United States"
-        },
         {
           "title": "The Jobs Market Beat the Forecast by Double and Wages Grew Slower Than Expected . Here Is What April Jobs Report Is Telling Investors About the Fed Possible Next Move",
           "domain": "fool.com",
@@ -147,113 +192,68 @@
           "country": "United States"
         },
         {
-          "title": "The Federal Reserve is quickly running out of reasons to cut interest rates",
-          "domain": "cnbc.com",
+          "title": "Prices for everyday household items rise",
+          "domain": "supermarketnews.com",
           "date": "20260508T191500Z",
           "country": "United States"
         },
         {
-          "title": "Strong US jobs data complicates any Warsh push for lower rates",
-          "domain": "virginiabusiness.com",
-          "date": "20260508T191500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gold firms and heads for weekly gain on US - Iran deal hopes",
-          "domain": "marketscreener.com",
-          "date": "20260508T164500Z",
-          "country": ""
-        },
-        {
-          "title": "Jobs report showed hiring slowed , but exceeded expectations",
-          "domain": "abc11.com",
-          "date": "20260508T154500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Jobs report showed hiring slowed , but exceeded expectations",
-          "domain": "abc7.com",
-          "date": "20260508T144500Z",
-          "country": "United States"
-        }
-      ]
-    },
-    "US inflation / CPI": {
-      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 0,
-      "relevant_to": [
-        "march-inflation-us-annual"
-      ],
-      "headlines": []
-    },
-    "Bitcoin / crypto markets": {
-      "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
-      "relevant_to": [
-        "what-price-will-bitcoin-hit-before-2027"
-      ],
-      "headlines": [
-        {
-          "title": "BTC Holders May Sell To Realize Profits Following April Rally",
-          "domain": "cointelegraph.com",
-          "date": "20260508T194500Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Correction Over ? Tom Lee Sets $200K Year - End Target",
-          "domain": "newsbtc.com",
-          "date": "20260509T101500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin ETF : Morgan Stanley MSBT Just Hit $233M AUM Here Why It Climbing Fast",
-          "domain": "finance.yahoo.com",
-          "date": "20260508T174500Z",
-          "country": "United States"
-        },
-        {
-          "title": "The Easiest Way to Get Bitcoin Exposure Without Buying It Directly",
-          "domain": "fool.com",
-          "date": "20260508T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin ETF outflows hit $268M as BTC stalls near $80 , 000",
-          "domain": "financial-news.co.uk",
-          "date": "20260509T031500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Bitcoin  Overbought  RSI Hints at BTC Price Dropping to Test $78K",
-          "domain": "cointelegraph.com",
-          "date": "20260508T194500Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Miners Bag Profit : 3 , 400 BTC Flow Out Of Reserves Since April",
-          "domain": "newsbtc.com",
-          "date": "20260509T193000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin holds near $80 , 000 after rejection at $82 , 500 ; ETF outflows trigger cautious sentiment",
+          "title": "Wall Street Week Ahead : Data , Iran , US - China meeting in focus for scorching US stock market",
           "domain": "economictimes.indiatimes.com",
-          "date": "20260509T071500Z",
+          "date": "20260509T050000Z",
           "country": "India"
         },
         {
-          "title": "Bitcoin Traders Have These Support Levels in Mind as $80 , 000 Battle Returns",
-          "domain": "cointelegraph.com",
-          "date": "20260508T144500Z",
-          "country": "China"
+          "title": "Asia heatwaves spell double trouble for economies hit by oil",
+          "domain": "businesstimes.com.sg",
+          "date": "20260508T064500Z",
+          "country": "Singapore"
         },
         {
-          "title": "Bitcoin ETFs Reverse Inflows as Bitcoin Falls Below $80K",
-          "domain": "cointelegraph.com",
-          "date": "20260508T100000Z",
-          "country": "China"
+          "title": "International Business : Trump - Xi talks and war in focus for scorching US stock market",
+          "domain": "gdnonline.com",
+          "date": "20260509T221500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Economics Week Ahead - ActionForex",
+          "domain": "actionforex.com",
+          "date": "20260509T063000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "ELSTAT : Inflation rose to 5 . 4 % in April",
+          "domain": "sofokleous10.gr",
+          "date": "20260508T141500Z",
+          "country": "Greece"
+        },
+        {
+          "title": "Stocks plunge as market succumbs to profit taking",
+          "domain": "philstar.com",
+          "date": "20260508T164500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "City of Reno approves tentative new budget",
+          "domain": "kolotv.com",
+          "date": "20260508T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Inflation rate for territory up for the second consecutive month",
+          "domain": "samoanews.com",
+          "date": "20260508T200000Z",
+          "country": "Samoa"
         }
       ]
+    },
+    "Bitcoin / crypto markets": {
+      "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
+      "article_count": 0,
+      "relevant_to": [
+        "what-price-will-bitcoin-hit-before-2027"
+      ],
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -274,72 +274,11 @@
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": [
-        {
-          "title": "Decision made on Moises Caicedo eligibility for World Cup 2026 : report",
-          "domain": "fourfourtwo.com",
-          "date": "20260509T010000Z",
-          "country": "Spain"
-        },
-        {
-          "title": "Messi : Neymar one of best , has to be at World Cup",
-          "domain": "china.org.cn",
-          "date": "20260509T024500Z",
-          "country": "China"
-        },
-        {
-          "title": "Fifa World Cup 2026 Opening Ceremonies To Feature Katy Perry , Lisa , J Balvin And More",
-          "domain": "glamsham.com",
-          "date": "20260509T071500Z",
-          "country": "India"
-        },
-        {
-          "title": "World Cup 2026 Tickets : Best Deals on Tickets , Promo Codes , Pricing",
-          "domain": "hollywoodreporter.com",
-          "date": "20260508T153000Z",
-          "country": "United States"
-        },
-        {
-          "title": "ArabWorldCupBet Launches Data - Driven 2026 World Cup Betting Analysis Platform for Arab Audiences",
-          "domain": "manilatimes.net",
-          "date": "20260508T124500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "Shakira , Burna Boy set to release FIFA World Cup song",
-          "domain": "theeagleonline.com.ng",
-          "date": "20260509T101500Z",
-          "country": "Nigeria"
-        },
-        {
-          "title": "BLACKPINK Lisa To Headline FIFA World Cup 2026 Opening Ceremony",
-          "domain": "soompi.com",
-          "date": "20260509T080000Z",
-          "country": "South Korea"
-        },
-        {
-          "title": "Nora Fatehi to perform and sing at FIFA World Cup 2026 opening ceremony in Toronto",
-          "domain": "bollywoodhungama.com",
-          "date": "20260509T083000Z",
-          "country": "India"
-        },
-        {
-          "title": "Burna Boy to feature on official 2026 FIFA World Cup anthem",
-          "domain": "dailypost.ng",
-          "date": "20260508T063000Z",
-          "country": "Nigeria"
-        },
-        {
-          "title": "Shakira teases the official anthem for the 2026 FIFA World Cup featuring Burna Boy",
-          "domain": "hola.com",
-          "date": "20260508T154500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
@@ -358,12 +297,6 @@
           "title": "Pistons vs . Cavaliers , Thunder vs . Lakers Live : How to Watch Today NBA Playoff Games",
           "domain": "pcmag.com",
           "date": "20260509T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Lakers vs . Thunder Game 2 Livestream : How to Watch Tonight NBA Playoff Games",
-          "domain": "pcmag.com",
-          "date": "20260508T054500Z",
           "country": "United States"
         },
         {
@@ -406,6 +339,12 @@
           "title": "P . J . Tucker Announces Retirement After Journeyman Career in NBA",
           "domain": "si.com",
           "date": "20260508T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "How Does the NBA Draft Lottery Work ? Explaining the League Complicated Annual Event",
+          "domain": "si.com",
+          "date": "20260508T204500Z",
           "country": "United States"
         }
       ]
