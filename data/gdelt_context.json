@@ -1,26 +1,148 @@
 {
-  "fetched_at": "2026-05-10T06:42:34Z",
+  "fetched_at": "2026-05-10T09:50:04Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "U . S .- Iran peace talks advance as Tehran reviews 14 - point proposal to end war – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "date": "20260510T033000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump new Iran gamble : Military brinkmanship and nuclear diplomacy",
+          "domain": "timesofindia.indiatimes.com",
+          "date": "20260509T084500Z",
+          "country": "India"
+        },
+        {
+          "title": "Is the Iran nuclear agreement back to square one ?",
+          "domain": "rte.ie",
+          "date": "20260509T100000Z",
+          "country": "Ireland"
+        },
+        {
+          "title": "Why Trump keeps repeating the same Iran war message even as the conflict changes",
+          "domain": "moneycontrol.com",
+          "date": "20260510T091500Z",
+          "country": "India"
+        },
+        {
+          "title": "Israel and Iranian nukes remain biggest variables as US and Iran near deal to end war",
+          "domain": "english.hani.co.kr",
+          "date": "20260508T104500Z",
+          "country": "South Korea"
+        },
+        {
+          "title": "Military force has got the US nowhere with Iran – here is what a realistic negotiation would look like | Christopher S Chivvis",
+          "domain": "theguardian.com",
+          "date": "20260508T100000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Calm returns to Strait of Hormuz amid US - Iran deadlock",
+          "domain": "samaa.tv",
+          "date": "20260510T063000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "US - Iran talks may resume in Islamabad next week",
+          "domain": "samaa.tv",
+          "date": "20260509T070000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Trump Iran Strategy Collides with Hormuz Reality",
+          "domain": "gcaptain.com",
+          "date": "20260509T014500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump punts thorniest Iran challenges in push to reopen Hormuz",
+          "domain": "economictimes.indiatimes.com",
+          "date": "20260509T014500Z",
+          "country": "India"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Tanker struck off Qatar as Iran warns of US sanction supporters",
+          "domain": "jpost.com",
+          "date": "20260510T074500Z",
+          "country": "Israel"
+        },
+        {
+          "title": "Qatari LNG Tanker Transits Hormuz As U . S . Awaits Iran Response To Peace Deal",
+          "domain": "zerohedge.com",
+          "date": "20260509T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US military strikes and disables 2 Iranian oil tankers attempting to breach blockade",
+          "domain": "stripes.com",
+          "date": "20260508T164500Z",
+          "country": "United States"
+        },
+        {
+          "title": "US Navy strikes two Iranian tankers in Strait of Hormuz ; Pentagon releases footage",
+          "domain": "moneycontrol.com",
+          "date": "20260509T080000Z",
+          "country": "India"
+        },
+        {
+          "title": "Iran creates agency to collect Strait of Hormuz tolls : shipping journal",
+          "domain": "dunyanews.tv",
+          "date": "20260508T144500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Iran Detains  Ocean Koi  Tanker Apparently Hauling Iranian Oil",
+          "domain": "gcaptain.com",
+          "date": "20260508T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US fires on and disables 2 more Iranian tankers as tensions rise",
+          "domain": "denverpost.com",
+          "date": "20260508T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Tensions continue after HMS Dragon sets sail for Middle East as Iran issues fresh warning",
+          "domain": "lbc.co.uk",
+          "date": "20260510T091500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Qatari LNG Tanker heads for Strait of Hormuz as peace talks await Iran response",
+          "domain": "tradearabia.com",
+          "date": "20260510T053000Z",
+          "country": "United Arab Emirates"
+        },
+        {
+          "title": "TSX : BTE Forum Post | lensgto - 36995377 | oil spill near Iran main export hub at Kharg Island ,",
+          "domain": "stockhouse.com",
+          "date": "20260510T020000Z",
+          "country": "United States"
+        }
+      ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
@@ -78,16 +200,16 @@
           "country": "United Kingdom"
         },
         {
-          "title": "PETER BRUCE | Cyril finally has to account , and it about time",
-          "domain": "timeslive.co.za",
-          "date": "20260510T003000Z",
-          "country": "South Africa"
-        },
-        {
           "title": "UK Labour suffers early losses in crunch local polls",
           "domain": "freemalaysiatoday.com",
           "date": "20260508T100000Z",
           "country": "Malaysia"
+        },
+        {
+          "title": "PETER BRUCE | Cyril finally has to account , and it about time",
+          "domain": "timeslive.co.za",
+          "date": "20260510T003000Z",
+          "country": "South Africa"
         }
       ]
     },
@@ -109,12 +231,6 @@
           "domain": "cbc.ca",
           "date": "20260509T134500Z",
           "country": "Canada"
-        },
-        {
-          "title": "RIGHT SPEAK : 18 Voter Fraud Prosecutions Racking Up While Republican - Led Congress Ignores SAVE Act : Every Time Politicians Torpedo Needed Election Reforms Like the SAVE America Act They are Damaging Our Republic",
-          "domain": "rightspeak.net",
-          "date": "20260508T064500Z",
-          "country": "United States"
         },
         {
           "title": "Virginia Supreme Court strikes down Democrat redistricting plan",
@@ -157,26 +273,154 @@
           "domain": "wdbj7.com",
           "date": "20260508T160000Z",
           "country": "United States"
+        },
+        {
+          "title": "CA County Discovers Nearly 600 Uncounted Mail - In Ballots Months After Redistricting Vote",
+          "domain": "dailycaller.com",
+          "date": "20260508T160000Z",
+          "country": "United States"
         }
       ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Young Canadians face sputtering job economy",
+          "domain": "cp24.com",
+          "date": "20260509T030000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Payrolls Rise 115 , 000 In April As Labor Market Stabilizes",
+          "domain": "forbes.com",
+          "date": "20260508T163000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Pakistan GDP growth to slow as inflation likely to rise : IMF",
+          "domain": "dunyanews.tv",
+          "date": "20260509T101500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "The unsinkable U . S . economy cruises on , despite headwinds from the Iran war",
+          "domain": "morningstar.com",
+          "date": "20260509T144500Z",
+          "country": "China"
+        },
+        {
+          "title": "This economist studied 400 years of recessions . His bleak conclusion : stop trying to predict them",
+          "domain": "fortune.com",
+          "date": "20260509T143000Z",
+          "country": "United States"
+        },
+        {
+          "title": "IMF forecasts slower growth , higher inflation for Pakistan",
+          "domain": "samaa.tv",
+          "date": "20260509T070000Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Jobs data comes in strong , crushing estimates . This is what it means for advisors",
+          "domain": "investmentnews.com",
+          "date": "20260508T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Rewane : Nigeria Experiencing Growth Without Prosperity , Citizens Getting Poorer – THISDAYLIVE",
+          "domain": "thisdaylive.com",
+          "date": "20260509T064500Z",
+          "country": "Nigeria"
+        },
+        {
+          "title": "Recession Fears Are Back : Here Is Why That Should Not Change Your Strategy",
+          "domain": "finance.yahoo.com",
+          "date": "20260510T064500Z",
+          "country": "United States"
+        },
+        {
+          "title": "What Chevron CEO Just Said About Global  Supply Outage Could Derail Trump Economic Momentum",
+          "domain": "finance.yahoo.com",
+          "date": "20260509T214500Z",
+          "country": "United States"
+        }
+      ]
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "President Donald Trump May Force the Fed Hand -- but Not in the Way Youd Expect",
+          "domain": "fool.com",
+          "date": "20260510T090000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
+          "domain": "fool.com",
+          "date": "20260509T134500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
+          "domain": "fool.com",
+          "date": "20260509T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
+          "domain": "finance.yahoo.com",
+          "date": "20260509T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "President Donald Trump May Force the Fed Hand -- but Not in the Way Youd Expect",
+          "domain": "finance.yahoo.com",
+          "date": "20260510T090000Z",
+          "country": "United States"
+        },
+        {
+          "title": "U . S . added 115K jobs in April , nearly doubling expectations",
+          "domain": "coindesk.com",
+          "date": "20260508T154500Z",
+          "country": "United States"
+        },
+        {
+          "title": "The Jobs Market Beat the Forecast by Double and Wages Grew Slower Than Expected . Here Is What April Jobs Report Is Telling Investors About the Fed Possible Next Move",
+          "domain": "fool.com",
+          "date": "20260508T174500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gold firms , heads for weekly gain",
+          "domain": "thedailystar.net",
+          "date": "20260510T060000Z",
+          "country": "Bangladesh"
+        },
+        {
+          "title": "The Federal Reserve is quickly running out of reasons to cut interest rates",
+          "domain": "cnbc.com",
+          "date": "20260508T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Strong US jobs data complicates any Warsh push for lower rates",
+          "domain": "virginiabusiness.com",
+          "date": "20260508T191500Z",
+          "country": "United States"
+        }
+      ]
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
@@ -185,6 +429,12 @@
         "march-inflation-us-annual"
       ],
       "headlines": [
+        {
+          "title": "Stock Markets Brace For Volatile Week Ahead , West Asia Tensions & Crude Oil Prices To Dictate Investor Sentiment",
+          "domain": "freepressjournal.in",
+          "date": "20260510T074500Z",
+          "country": "India"
+        },
         {
           "title": "The Jobs Market Beat the Forecast by Double and Wages Grew Slower Than Expected . Here Is What April Jobs Report Is Telling Investors About the Fed Possible Next Move",
           "domain": "fool.com",
@@ -202,12 +452,6 @@
           "domain": "economictimes.indiatimes.com",
           "date": "20260509T050000Z",
           "country": "India"
-        },
-        {
-          "title": "Asia heatwaves spell double trouble for economies hit by oil",
-          "domain": "businesstimes.com.sg",
-          "date": "20260508T064500Z",
-          "country": "Singapore"
         },
         {
           "title": "International Business : Trump - Xi talks and war in focus for scorching US stock market",
@@ -257,97 +501,219 @@
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Diamondback bets on wider WTI - Brent gap amid US export ban concerns",
+          "domain": "marketscreener.com",
+          "date": "20260508T193000Z",
+          "country": ""
+        },
+        {
+          "title": "PolitiFact | Trump is wrong : Gas prices have reached near record highs , not  come down very substantially",
+          "domain": "politifact.com",
+          "date": "20260509T001500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Prices Surge Again as National Average Jumps 25 Cents for Second Straight Week - Clarksville Online - Clarksville News , Sports , Events and Information",
+          "domain": "clarksvilleonline.com",
+          "date": "20260509T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "American drivers are in for gas prices deja vu this summer",
+          "domain": "finance.yahoo.com",
+          "date": "20260509T093000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bangkok Post - Markets to track if peace in Middle East breaks out",
+          "domain": "bangkokpost.com",
+          "date": "20260509T003000Z",
+          "country": "Thailand"
+        },
+        {
+          "title": "Bill Seeks Moratorium on US Oil Exports",
+          "domain": "rigzone.com",
+          "date": "20260508T163000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Risk of $5 gas  can no longer be missed , JP Morgan warns amid Iran war oil shocks",
+          "domain": "finance.yahoo.com",
+          "date": "20260508T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gavin Newsom pushes back on gas tax suspension",
+          "domain": "nypost.com",
+          "date": "20260509T011500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Regular gas down 20 cents , diesel drops 79 cents",
+          "domain": "guampdn.com",
+          "date": "20260508T123000Z",
+          "country": "Guam"
+        },
+        {
+          "title": "Crude oil prices tumble , but gas prices offer major caveat",
+          "domain": "finance.yahoo.com",
+          "date": "20260509T014500Z",
+          "country": "United States"
+        }
+      ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": []
-    },
-    "FIFA World Cup 2026": {
-      "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
-      "relevant_to": [
-        "2026-fifa-world-cup-winner-595"
-      ],
-      "headlines": []
-    },
-    "NBA Finals 2026": {
-      "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 10,
-      "relevant_to": [
-        "2026-nba-champion"
-      ],
       "headlines": [
         {
-          "title": "NBA Playoff Predictions May 9 - Point Spreads , Betting , Picks",
-          "domain": "thespread.com",
-          "date": "20260509T134500Z",
+          "title": "Independent congressional candidate sues Tennessee over new redistricting maps",
+          "domain": "wcyb.com",
+          "date": "20260510T024500Z",
           "country": "United States"
         },
         {
-          "title": "Pistons vs . Cavaliers , Thunder vs . Lakers Live : How to Watch Today NBA Playoff Games",
-          "domain": "pcmag.com",
-          "date": "20260509T143000Z",
+          "title": "Independent congressional candidate sues Tennessee over new redistricting maps",
+          "domain": "fox17.com",
+          "date": "20260509T063000Z",
           "country": "United States"
         },
         {
-          "title": "NBA tipoff : Round 2 of the playoffs continues Tuesday with Cavs - Pistons , Lakers - Thunder",
-          "domain": "harrisondaily.com",
-          "date": "20260509T140000Z",
+          "title": "Tennessee passes new map as Democrats protest with airhorns",
+          "domain": "washingtonexaminer.com",
+          "date": "20260508T133000Z",
           "country": "United States"
         },
         {
-          "title": "Knicks vs . 76ers Game 3 Livestream : How to Watch Tonight NBA Playoff Games",
-          "domain": "pcmag.com",
-          "date": "20260508T191500Z",
+          "title": "Virginia Supreme Court strikes down Democrat redistricting plan",
+          "domain": "baltimoresun.com",
+          "date": "20260508T144500Z",
           "country": "United States"
         },
         {
-          "title": "NBA tipoff : Round 2 continues Friday with Knicks - 76ers , Spurs - Timberwolves",
-          "domain": "kimt.com",
-          "date": "20260508T174500Z",
+          "title": "What to know about the latest wave of changes to congressional districts",
+          "domain": "abcnews.com",
+          "date": "20260510T071500Z",
           "country": "United States"
         },
         {
-          "title": "The Five Teams With the Most at Stake Entering the 2026 NBA Draft Lottery",
-          "domain": "si.com",
-          "date": "20260508T204500Z",
+          "title": "Virginia Supreme Court strikes down Democrat redistricting plan",
+          "domain": "twincities.com",
+          "date": "20260508T144500Z",
           "country": "United States"
         },
         {
-          "title": "Detroit Pistons vs Cleveland Cavaliers LIVE Score Updates in NBA Playoffs Game | 05 / 09 / 2026",
-          "domain": "vavel.com",
-          "date": "20260509T163000Z",
+          "title": "AL Republicans look to set new House primaries if redistricting OKd",
+          "domain": "bostonherald.com",
+          "date": "20260508T143000Z",
           "country": "United States"
         },
         {
-          "title": "76ers vs Knicks LIVE Score Updates : The visit wants to surprise ( 63 - 70 ) | 05 / 08 / 2026",
-          "domain": "vavel.com",
-          "date": "20260509T064500Z",
+          "title": "AL Republicans look to set new House primaries if redistricting OKd",
+          "domain": "dailynews.com",
+          "date": "20260508T143000Z",
           "country": "United States"
         },
         {
-          "title": "P . J . Tucker Announces Retirement After Journeyman Career in NBA",
-          "domain": "si.com",
-          "date": "20260508T160000Z",
+          "title": "Georgia Senate Race Tracker : Ossoff Latest Odds of Beating GOP",
+          "domain": "newsweek.com",
+          "date": "20260508T181500Z",
           "country": "United States"
         },
         {
-          "title": "How Does the NBA Draft Lottery Work ? Explaining the League Complicated Annual Event",
-          "domain": "si.com",
-          "date": "20260508T204500Z",
+          "title": "AL Republicans look to set new House primaries if redistricting OKd",
+          "domain": "dailypress.com",
+          "date": "20260508T151500Z",
           "country": "United States"
         }
       ]
+    },
+    "FIFA World Cup 2026": {
+      "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
+      "article_count": 10,
+      "relevant_to": [
+        "2026-fifa-world-cup-winner-595"
+      ],
+      "headlines": [
+        {
+          "title": "Decision made on Moises Caicedo eligibility for World Cup 2026 : report",
+          "domain": "fourfourtwo.com",
+          "date": "20260509T010000Z",
+          "country": "Spain"
+        },
+        {
+          "title": "Messi : Neymar one of best , has to be at World Cup",
+          "domain": "china.org.cn",
+          "date": "20260509T024500Z",
+          "country": "China"
+        },
+        {
+          "title": "Fifa World Cup 2026 Opening Ceremonies To Feature Katy Perry , Lisa , J Balvin And More",
+          "domain": "glamsham.com",
+          "date": "20260509T071500Z",
+          "country": "India"
+        },
+        {
+          "title": "World Cup 2026 Tickets : Best Deals on Tickets , Promo Codes , Pricing",
+          "domain": "hollywoodreporter.com",
+          "date": "20260508T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "ArabWorldCupBet Launches Data - Driven 2026 World Cup Betting Analysis Platform for Arab Audiences",
+          "domain": "manilatimes.net",
+          "date": "20260508T124500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Shakira , Burna Boy set to release FIFA World Cup song",
+          "domain": "theeagleonline.com.ng",
+          "date": "20260509T101500Z",
+          "country": "Nigeria"
+        },
+        {
+          "title": "BLACKPINK Lisa To Headline FIFA World Cup 2026 Opening Ceremony",
+          "domain": "soompi.com",
+          "date": "20260509T080000Z",
+          "country": "South Korea"
+        },
+        {
+          "title": "Nora Fatehi to perform and sing at FIFA World Cup 2026 opening ceremony in Toronto",
+          "domain": "bollywoodhungama.com",
+          "date": "20260509T083000Z",
+          "country": "India"
+        },
+        {
+          "title": "Shakira teases the official anthem for the 2026 FIFA World Cup featuring Burna Boy",
+          "domain": "hola.com",
+          "date": "20260508T154500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Nora Fatehi to perform at FIFA World Cup 2026 opening ceremony in Toronto",
+          "domain": "moneycontrol.com",
+          "date": "20260509T103000Z",
+          "country": "India"
+        }
+      ]
+    },
+    "NBA Finals 2026": {
+      "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
+      "article_count": 0,
+      "relevant_to": [
+        "2026-nba-champion"
+      ],
+      "headlines": []
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
@@ -360,11 +726,72 @@
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "GTA 6 Leak Reveals New Version of the Game",
+          "domain": "comicbook.com",
+          "date": "20260508T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA Online Final Major Update Before GTA 6 Has Gamers Pumped",
+          "domain": "screenrant.com",
+          "date": "20260508T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Take - Two CEO Reveals Why AI Didnt Help GTA 6 Development",
+          "domain": "vice.com",
+          "date": "20260509T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "PlayStation is Officially Asking PS4 Players to Upgrade to PS5",
+          "domain": "gamerant.com",
+          "date": "20260509T203000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 fans could get early look as Rockstar teases GTA Online event | Gaming | Entertainment",
+          "domain": "express.co.uk",
+          "date": "20260508T124500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Why isnt Grand Theft Auto VI not launching on PC",
+          "domain": "femalefirst.co.uk",
+          "date": "20260509T101500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "PlayStation Urges PS4 Players to Upgrade to PS5 for GTA 6",
+          "domain": "pushsquare.com",
+          "date": "20260509T161500Z",
+          "country": "Japan"
+        },
+        {
+          "title": "GTA 6 Fans Torn On Announcement For Trailer 3",
+          "domain": "screenrant.com",
+          "date": "20260509T140000Z",
+          "country": "United States"
+        },
+        {
+          "title": "GTA 6 Fans Think a New Trailer Is Coming . Here What Actually Going On",
+          "domain": "gamerheadlines.com",
+          "date": "20260510T003000Z",
+          "country": "Japan"
+        },
+        {
+          "title": "GTA 6 Fans Are Going Gaga Waiting for New Trailer , Believe PS5 Pre - Orders Could Start Next Week",
+          "domain": "pushsquare.com",
+          "date": "20260509T210000Z",
+          "country": "Japan"
+        }
+      ]
     }
   }
 }
