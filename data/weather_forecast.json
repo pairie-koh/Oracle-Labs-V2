@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T17:01:48Z",
+  "fetched_at": "2026-05-10T20:55:19Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -9,42 +9,18 @@
       ],
       "today_high": 70,
       "today_high_unit": "F",
-      "today_forecast": "Partly Sunny then Chance Rain Showers",
-      "today_detail": "A chance of rain showers after 2pm. Partly sunny. High near 70, with temperatures falling to around 66 in the afternoon. South wind 5 to 10 mph. Chance of precipitation is 30%.",
-      "wind": "5 to 10 mph",
+      "today_forecast": "Chance Showers And Thunderstorms",
+      "today_detail": "A chance of showers and thunderstorms. Mostly sunny. High near 70, with temperatures falling to around 66 in the afternoon. South wind around 9 mph. Chance of precipitation is 30%.",
+      "wind": "9 mph",
       "wind_direction": "S",
-      "tonight_low": 52,
-      "tonight_forecast": "Chance Rain Showers",
+      "tonight_low": 51,
+      "tonight_forecast": "Rain Showers Likely",
       "hourly": [
-        {
-          "hour": "2026-05-10T12:00:00-04:00",
-          "temp": 59,
-          "unit": "F",
-          "short": "Partly Sunny"
-        },
-        {
-          "hour": "2026-05-10T13:00:00-04:00",
-          "temp": 65,
-          "unit": "F",
-          "short": "Partly Sunny"
-        },
-        {
-          "hour": "2026-05-10T14:00:00-04:00",
-          "temp": 66,
-          "unit": "F",
-          "short": "Slight Chance Rain Showers"
-        },
-        {
-          "hour": "2026-05-10T15:00:00-04:00",
-          "temp": 65,
-          "unit": "F",
-          "short": "Slight Chance Rain Showers"
-        },
         {
           "hour": "2026-05-10T16:00:00-04:00",
           "temp": 65,
           "unit": "F",
-          "short": "Chance Rain Showers"
+          "short": "Slight Chance Showers And Thunderstorms"
         },
         {
           "hour": "2026-05-10T17:00:00-04:00",
@@ -54,13 +30,13 @@
         },
         {
           "hour": "2026-05-10T18:00:00-04:00",
-          "temp": 67,
+          "temp": 66,
           "unit": "F",
           "short": "Chance Rain Showers"
         },
         {
           "hour": "2026-05-10T19:00:00-04:00",
-          "temp": 67,
+          "temp": 68,
           "unit": "F",
           "short": "Chance Rain Showers"
         },
@@ -68,29 +44,29 @@
           "hour": "2026-05-10T20:00:00-04:00",
           "temp": 66,
           "unit": "F",
-          "short": "Slight Chance Rain Showers"
+          "short": "Rain Showers Likely"
         },
         {
           "hour": "2026-05-10T21:00:00-04:00",
-          "temp": 64,
+          "temp": 62,
           "unit": "F",
-          "short": "Slight Chance Rain Showers"
+          "short": "Rain Showers Likely"
         },
         {
           "hour": "2026-05-10T22:00:00-04:00",
-          "temp": 64,
+          "temp": 61,
           "unit": "F",
-          "short": "Chance Rain Showers"
+          "short": "Rain Showers Likely"
         },
         {
           "hour": "2026-05-10T23:00:00-04:00",
-          "temp": 65,
+          "temp": 61,
           "unit": "F",
           "short": "Chance Rain Showers"
         }
       ],
-      "peak_temp": 67,
-      "peak_hour": "2026-05-10T18:00:00-04:00"
+      "peak_temp": 68,
+      "peak_hour": "2026-05-10T19:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
@@ -100,11 +76,63 @@
       "today_high": 95,
       "today_high_unit": "F",
       "today_forecast": "Chance Showers And Thunderstorms",
-      "today_detail": "A chance of showers and thunderstorms after 3pm. Mostly sunny, with a high near 95. Heat index values as high as 100. South wind around 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
-      "wind": "5 mph",
-      "wind_direction": "S",
+      "today_detail": "A chance of showers and thunderstorms. Partly sunny, with a high near 95. Heat index values as high as 100. Southwest wind around 3 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
+      "wind": "3 mph",
+      "wind_direction": "SW",
       "tonight_low": 71,
-      "tonight_forecast": "Chance Showers And Thunderstorms then Mostly Cloudy"
+      "tonight_forecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
+      "hourly": [
+        {
+          "hour": "2026-05-10T16:00:00-04:00",
+          "temp": 93,
+          "unit": "F",
+          "short": "Slight Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-10T17:00:00-04:00",
+          "temp": 93,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-10T18:00:00-04:00",
+          "temp": 90,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-10T19:00:00-04:00",
+          "temp": 88,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-10T20:00:00-04:00",
+          "temp": 85,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-10T21:00:00-04:00",
+          "temp": 80,
+          "unit": "F",
+          "short": "Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-10T22:00:00-04:00",
+          "temp": 77,
+          "unit": "F",
+          "short": "Slight Chance Showers And Thunderstorms"
+        },
+        {
+          "hour": "2026-05-10T23:00:00-04:00",
+          "temp": 76,
+          "unit": "F",
+          "short": "Slight Chance Rain Showers"
+        }
+      ],
+      "peak_temp": 93,
+      "peak_hour": "2026-05-10T16:00:00-04:00"
     }
   }
 }
