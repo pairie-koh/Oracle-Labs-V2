@@ -1,87 +1,87 @@
 {
-  "fetched_at": "2026-05-11T11:36:00Z",
+  "fetched_at": "2026-05-11T15:28:17Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Iran war cease - fire grows shaky after Trump rejects latest proposal",
+          "domain": "bostonglobe.com",
+          "date": "20260511T123000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran war ceasefire grows increasingly shaky after Trump rejects Tehran latest proposal - Boston News , Weather , Sports",
+          "domain": "whdh.com",
+          "date": "20260511T131500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran and the U . S . at an impasse ahead of Trump trip to China – NBC4 Washington",
+          "domain": "nbcwashington.com",
+          "date": "20260511T150000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Has the Iran nuclear deal effectively returned to square one ?",
+          "domain": "jowhar.com",
+          "date": "20260510T151500Z",
+          "country": "Somalia"
+        },
+        {
+          "title": "Iran and the US are at an impasse ahead of Trump China trip",
+          "domain": "11alive.com",
+          "date": "20260511T111500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran and the US are at an impasse ahead of Trump China trip",
+          "domain": "seattletimes.com",
+          "date": "20260511T103000Z",
+          "country": "United States"
+        },
+        {
+          "title": "After Trump rejects Tehran latest proposal , Iran war ceasefire grows increasingly shaky | Politics and Government",
+          "domain": "reviewjournal.com",
+          "date": "20260511T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran and the U . S . at an impasse ahead of Trump trip to China – NBC 5 Dallas - Fort Worth",
+          "domain": "nbcdfw.com",
+          "date": "20260511T134500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran and the U . S . at an impasse ahead of Trump trip to China – NBC Los Angeles",
+          "domain": "nbclosangeles.com",
+          "date": "20260511T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran and the U . S . at an impasse ahead of Trump trip to China – NBC Connecticut",
+          "domain": "nbcconnecticut.com",
+          "date": "20260511T103000Z",
+          "country": "United States"
+        }
+      ]
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "will-iran-close-the-strait-of-hormuz-by-2027"
       ],
-      "headlines": [
-        {
-          "title": "Qatari LNG Tanker Transits Hormuz As U . S . Awaits Iran Response To Peace Deal",
-          "domain": "zerohedge.com",
-          "date": "20260509T173000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Tanker struck off Qatar as Iran warns of US sanction supporters",
-          "domain": "jpost.com",
-          "date": "20260510T074500Z",
-          "country": "Israel"
-        },
-        {
-          "title": "Iran says oil output uninterrupted as tankers crush US blockade , Tehran eyes new revenue from Hormuz",
-          "domain": "globalsecurity.org",
-          "date": "20260510T113000Z",
-          "country": "Syria"
-        },
-        {
-          "title": "Iran Navy seizes oil tanker Ocean Koi off Gulf of Oman over maritime violations",
-          "domain": "globalsecurity.org",
-          "date": "20260510T113000Z",
-          "country": "Syria"
-        },
-        {
-          "title": "Drone hits ship near Qatar as US awaits Iran peace plan response",
-          "domain": "moneycontrol.com",
-          "date": "20260510T151500Z",
-          "country": "India"
-        },
-        {
-          "title": "Trump Rejects Iran Deal as Oil Surges , Strait of Hormuz Crisis Deepen",
-          "domain": "kyivpost.com",
-          "date": "20260511T073000Z",
-          "country": "Ukraine"
-        },
-        {
-          "title": "Iran warns against complying with US sanctions as Gulf attacks reported",
-          "domain": "the-star.co.ke",
-          "date": "20260510T190000Z",
-          "country": "Kenya"
-        },
-        {
-          "title": "Oil slick near Kharg Island ? Iran crude industry at breaking point amid US blockade",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260510T144500Z",
-          "country": "India"
-        },
-        {
-          "title": "TSX : BTE Forum Post | lensgto - 36995377 | oil spill near Iran main export hub at Kharg Island ,",
-          "domain": "stockhouse.com",
-          "date": "20260510T020000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Qatari LNG Tanker heads for Strait of Hormuz as peace talks await Iran response",
-          "domain": "tradearabia.com",
-          "date": "20260510T053000Z",
-          "country": "United Arab Emirates"
-        }
-      ]
+      "headlines": []
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
@@ -90,12 +90,6 @@
         "next-leader-out-of-power-before-2027-795"
       ],
       "headlines": [
-        {
-          "title": "UK Starmer vows to  listen to voter after election drubbing",
-          "domain": "digitaljournal.com",
-          "date": "20260509T134500Z",
-          "country": "United States"
-        },
         {
           "title": "Aung San Suu Kyi Move to House Arrest Is a Calculated Deception – The Diplomat",
           "domain": "thediplomat.com",
@@ -127,16 +121,16 @@
           "country": "United Kingdom"
         },
         {
-          "title": "Magyar to become Hungary  regime change  PM",
-          "domain": "hurriyetdailynews.com",
-          "date": "20260509T144500Z",
-          "country": "Turkey"
-        },
-        {
           "title": "PETER BRUCE | Cyril finally has to account , and it about time",
           "domain": "timeslive.co.za",
           "date": "20260510T003000Z",
           "country": "South Africa"
+        },
+        {
+          "title": "Sara Duterte impeached again , Senate trial in doubt",
+          "domain": "straitstimes.com",
+          "date": "20260511T123000Z",
+          "country": "Singapore"
         },
         {
           "title": "What time is Starmer speech today as PM battles to save his job | News Politics",
@@ -149,146 +143,30 @@
           "domain": "modernghana.com",
           "date": "20260509T201500Z",
           "country": "Ghana"
+        },
+        {
+          "title": "Parole of Thailand Thaksin latest chapter in political odyssey",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260511T054500Z",
+          "country": "Malaysia"
         }
       ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": [
-        {
-          "title": "ESR | They called it Jim Crow . Here what the record actually shows",
-          "domain": "enterstageright.com",
-          "date": "20260511T064500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Kill the Filibuster or Make Them Talk",
-          "domain": "americanthinker.com",
-          "date": "20260511T103000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Poll : Americans disagree on what a  stolen  election means",
-          "domain": "yahoo.com",
-          "date": "20260510T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "New Winnipeg group aims to register expat U . S . voters ahead of midterms",
-          "domain": "cbc.ca",
-          "date": "20260509T134500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "Would Republican candidates for governor try to change Oregon voting system ? Here what they say",
-          "domain": "chronline.com",
-          "date": "20260510T220000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GOP hardliners arent buying into U . S . Rep . Veronica Escobar bipartisan immigration bill",
-          "domain": "yahoo.com",
-          "date": "20260511T103000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Kemi Badenoch  alternative King Speech  as she increases pressure on Keir Starmer",
-          "domain": "dailystar.co.uk",
-          "date": "20260511T093000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "From a 40 , 000 - vote victory to the Cabinet : Why Ashok Kirtania is the BJP  chosen one  for the Matua community",
-          "domain": "indianexpress.com",
-          "date": "20260510T033000Z",
-          "country": "India"
-        },
-        {
-          "title": "Conservatives would quit ECHR and drill in North Sea as they unveil  alternative King Speech",
-          "domain": "aol.co.uk",
-          "date": "20260510T213000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Is women suffrage really the problem ? - American Thinker",
-          "domain": "americanthinker.com",
-          "date": "20260510T163000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "The unsinkable U . S . economy cruises on , despite headwinds from the Iran war",
-          "domain": "morningstar.com",
-          "date": "20260509T144500Z",
-          "country": "China"
-        },
-        {
-          "title": "This economist studied 400 years of recessions . His bleak conclusion : stop trying to predict them",
-          "domain": "fortune.com",
-          "date": "20260509T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Americans are literally getting squeezed : A top economist on why your wages are disappearing",
-          "domain": "fortune.com",
-          "date": "20260510T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Moody Mark Zandi :  Economic fallout  from Trump tariffs is significant – and  the trend lines dont look good . Which numbers look the worst",
-          "domain": "aol.com",
-          "date": "20260510T101500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Recession Fears Are Back : Here Is Why That Should Not Change Your Strategy",
-          "domain": "finance.yahoo.com",
-          "date": "20260510T064500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What Chevron CEO Just Said About Global  Supply Outage Could Derail Trump Economic Momentum",
-          "domain": "finance.yahoo.com",
-          "date": "20260509T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "This Indicator Just Did Something It Hasnt Done in 75 Years . Is It the Biggest Risk to the Bull Market Before Midterms ?",
-          "domain": "247wallst.com",
-          "date": "20260510T151500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran faces mass layoffs as war , internet shutdown and US blockade cripple economy",
-          "domain": "livemint.com",
-          "date": "20260511T011500Z",
-          "country": "India"
-        },
-        {
-          "title": "ECONOMIC WEEK AHEAD | Jobless rate expected to edge higher",
-          "domain": "businessday.co.za",
-          "date": "20260510T161500Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Britain to lose 163 , 000 jobs amid Iran war fallout - with two united kingdom regions hit the hardest",
-          "domain": "mirror.co.uk",
-          "date": "20260511T011500Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -302,11 +180,72 @@
     },
     "US inflation / CPI": {
       "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "march-inflation-us-annual"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "What to Expect From the April CPI Report",
+          "domain": "kiplinger.com",
+          "date": "20260510T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Stock Markets Brace For Volatile Week Ahead , West Asia Tensions & Crude Oil Prices To Dictate Investor Sentiment",
+          "domain": "freepressjournal.in",
+          "date": "20260510T074500Z",
+          "country": "India"
+        },
+        {
+          "title": "China consumer inflation continues mild recovery in April",
+          "domain": "china.org.cn",
+          "date": "20260511T063000Z",
+          "country": "China"
+        },
+        {
+          "title": "Fed official triggers new rate - cut warning",
+          "domain": "finance.yahoo.com",
+          "date": "20260511T050000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Baystreet . ca - China CPI Jumps as Middle East Crisis Pushes Energy Costs Higher",
+          "domain": "baystreet.ca",
+          "date": "20260511T123000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "The overall Inflation Rate rose for the third month in a row . It stood at 6 . 68 percent as of November 2016",
+          "domain": "kachwanya.com",
+          "date": "20260510T110000Z",
+          "country": "Kenya"
+        },
+        {
+          "title": "China consumer prices rise on Iran war oil squeeze",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260511T054500Z",
+          "country": "Malaysia"
+        },
+        {
+          "title": "Here are the 2 big things were watching in the stock market in the week ahead",
+          "domain": "cnbc.com",
+          "date": "20260510T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "China April inflation data beats across board as energy costs reshape price landscape",
+          "domain": "investinglive.com",
+          "date": "20260511T041500Z",
+          "country": ""
+        },
+        {
+          "title": "China consumer prices rise on Iran war oil squeeze",
+          "domain": "bssnews.net",
+          "date": "20260511T043000Z",
+          "country": "Bangladesh"
+        }
+      ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
@@ -326,12 +265,73 @@
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Independent congressional candidate sues Tennessee over new redistricting maps",
+          "domain": "wcyb.com",
+          "date": "20260510T024500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump faces midterm test as battle for Congress enters last six months",
+          "domain": "o.canada.com",
+          "date": "20260511T064500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "AP Decision Notes : What to expect in Nebraska primaries",
+          "domain": "clickorlando.com",
+          "date": "20260511T150000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AP Decision Notes : What to expect in Nebraska primaries",
+          "domain": "mynorthwest.com",
+          "date": "20260511T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AP Decision Notes : What to expect in West Virginia primaries",
+          "domain": "stcatharinesstandard.ca",
+          "date": "20260511T131500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "AP Decision Notes : What to expect in West Virginia primaries",
+          "domain": "elpasoinc.com",
+          "date": "20260511T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "You stupid mother -[ bleeper ]: Watch Dem lawmaker go ballistic on cop during gerrymandering clash * WorldNetDaily * by Daily Caller News Foundation",
+          "domain": "wnd.com",
+          "date": "20260510T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Analysts see political fallout as House plenary votes on Sara impeachment",
+          "domain": "bworldonline.com",
+          "date": "20260510T201500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Early voting starts for Maine primary elections",
+          "domain": "wmtw.com",
+          "date": "20260511T143000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas , groceries and getting by : How voters in one Ohio district see affordability",
+          "domain": "ideastream.org",
+          "date": "20260510T154500Z",
+          "country": "United States"
+        }
+      ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
@@ -343,142 +343,20 @@
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": [
-        {
-          "title": "LeBron James , LA Lakers facing harsh reality after playoff collapse",
-          "domain": "thebiglead.com",
-          "date": "20260511T050000Z",
-          "country": "United States"
-        },
-        {
-          "title": "NBA Playoff Predictions May 9 - Point Spreads , Betting , Picks",
-          "domain": "thespread.com",
-          "date": "20260509T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Pistons vs . Cavaliers , Thunder vs . Lakers Live : How to Watch Today NBA Playoff Games",
-          "domain": "pcmag.com",
-          "date": "20260509T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "NBA tipoff : Round 2 of the playoffs continues Tuesday with Cavs - Pistons , Lakers - Thunder",
-          "domain": "harrisondaily.com",
-          "date": "20260509T140000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Forget 2026 NBA draft lottery : A look back at Magic historic success ( luck ?)",
-          "domain": "orlandosentinel.com",
-          "date": "20260510T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC New York",
-          "domain": "nbcnewyork.com",
-          "date": "20260511T000000Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC 5 Dallas - Fort Worth",
-          "domain": "nbcdfw.com",
-          "date": "20260510T234500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC4 Washington",
-          "domain": "nbcwashington.com",
-          "date": "20260511T004500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC Los Angeles",
-          "domain": "nbclosangeles.com",
-          "date": "20260511T033000Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC 7 San Diego",
-          "domain": "nbcsandiego.com",
-          "date": "20260511T001500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "Discover the Best AI Model In 2026 : Cutting - Edge Insights !",
-          "domain": "clichemag.com",
-          "date": "20260510T104500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Small On - Device AI Model Beats Claude Sonnet 4 . 5 and GPT 5",
-          "domain": "propakistani.pk",
-          "date": "20260509T153000Z",
-          "country": "Pakistan"
-        },
-        {
-          "title": "AICC Report : Enterprise Token Costs Drop 67 % Year - Over - Year as Multi - Model AI Adoption Hits Record High",
-          "domain": "mykxlg.com",
-          "date": "20260510T064500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Everything New in OpenAI ChatGPT 5 . 5 Instant Release",
-          "domain": "geeky-gadgets.com",
-          "date": "20260511T090000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "OpenAI GPT - Realtime - 2 : Everything you need to know about the new voice AI models",
-          "domain": "digit.in",
-          "date": "20260510T073000Z",
-          "country": "India"
-        },
-        {
-          "title": "Last day to get lifetime ChatGPT , Gemini , and more for $75",
-          "domain": "mashable.com",
-          "date": "20260510T101500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Anthropic says internet posts about  Evil AI  behind Claude blackmail threats | Technology News",
-          "domain": "indianexpress.com",
-          "date": "20260510T080000Z",
-          "country": "India"
-        },
-        {
-          "title": "Why Most Entrepreneurs Are Using AI Wrong and Staying Overworked",
-          "domain": "finance.yahoo.com",
-          "date": "20260510T081500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gemini 3 . 1 Pro vs Gemma 4 : Cloud Power vs Local Privacy",
-          "domain": "geeky-gadgets.com",
-          "date": "20260510T080000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "I built a working Android app with no coding experience using Google free tools",
-          "domain": "makeuseof.com",
-          "date": "20260510T193000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
@@ -530,12 +408,6 @@
           "country": "Japan"
         },
         {
-          "title": "GTA 6 Fans Torn On Announcement For Trailer 3",
-          "domain": "screenrant.com",
-          "date": "20260509T140000Z",
-          "country": "United States"
-        },
-        {
           "title": "Youll never guess GTA 6 age rating as Sony pesters PS4 players to upgrade",
           "domain": "metro.co.uk",
           "date": "20260511T101500Z",
@@ -545,6 +417,12 @@
           "title": "GTA 6 Fans Are Going Gaga Waiting for New Trailer , Believe PS5 Pre - Orders Could Start Next Week",
           "domain": "pushsquare.com",
           "date": "20260509T210000Z",
+          "country": "Japan"
+        },
+        {
+          "title": "GTA 6 Fans Think a New Trailer Is Coming . Here What Actually Going On",
+          "domain": "gamerheadlines.com",
+          "date": "20260510T003000Z",
           "country": "Japan"
         }
       ]
