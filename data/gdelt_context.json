@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-11T18:07:12Z",
+  "fetched_at": "2026-05-11T21:27:16Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -85,11 +85,72 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Aung San Suu Kyi Move to House Arrest Is a Calculated Deception – The Diplomat",
+          "domain": "thediplomat.com",
+          "date": "20260511T104500Z",
+          "country": "China"
+        },
+        {
+          "title": "How could Labour remove Keir Starmer ? Four possible routes",
+          "domain": "theguardian.com",
+          "date": "20260510T104500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "How could Labour remove Keir Starmer ? Four possible routes",
+          "domain": "aol.co.uk",
+          "date": "20260510T110000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Starmer crisis : London MP Catherine West in live TV clash with Cabinet minister over her bid to topple PM",
+          "domain": "aol.co.uk",
+          "date": "20260510T131500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Labour MP Drops Threat To Challenge Starmer Premiership",
+          "domain": "huffingtonpost.co.uk",
+          "date": "20260511T161500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Keir Starmer Resignation odds as calls for PM to resign mounts",
+          "domain": "express.co.uk",
+          "date": "20260511T151500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "PETER BRUCE | Cyril finally has to account , and it about time",
+          "domain": "timeslive.co.za",
+          "date": "20260510T003000Z",
+          "country": "South Africa"
+        },
+        {
+          "title": "What time is Starmer speech today as PM battles to save his job | News Politics",
+          "domain": "metro.co.uk",
+          "date": "20260511T093000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Cayetano takes over as Senate ousts Sotto - BusinessWorld Online",
+          "domain": "bworldonline.com",
+          "date": "20260511T201500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Senior Scottish Labour MP calls for Starmer to quit",
+          "domain": "heraldscotland.com",
+          "date": "20260511T200000Z",
+          "country": "United Kingdom"
+        }
+      ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -170,82 +231,82 @@
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
+      "headlines": []
+    },
+    "US inflation / CPI": {
+      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
+      "article_count": 10,
+      "relevant_to": [
+        "march-inflation-us-annual"
+      ],
       "headlines": [
         {
-          "title": "Fed Chair Jerome Powell Just Said 9 Words That Have Firmly Shifted the Narrative on Wall Street",
-          "domain": "fool.com",
-          "date": "20260511T161500Z",
-          "country": "United States"
-        },
-        {
-          "title": "President Donald Trump May Force the Fed Hand -- but Not in the Way Youd Expect",
-          "domain": "fool.com",
-          "date": "20260510T090000Z",
-          "country": "United States"
-        },
-        {
-          "title": "President Donald Trump May Force the Fed Hand -- but Not in the Way Youd Expect",
-          "domain": "fool.com",
+          "title": "What to Expect From the April CPI Report",
+          "domain": "kiplinger.com",
           "date": "20260510T161500Z",
           "country": "United States"
         },
         {
-          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
-          "domain": "fool.com",
-          "date": "20260509T210000Z",
+          "title": "Stock Markets Brace For Volatile Week Ahead , West Asia Tensions & Crude Oil Prices To Dictate Investor Sentiment",
+          "domain": "freepressjournal.in",
+          "date": "20260510T074500Z",
+          "country": "India"
+        },
+        {
+          "title": "China consumer inflation continues mild recovery in April",
+          "domain": "china.org.cn",
+          "date": "20260511T063000Z",
+          "country": "China"
+        },
+        {
+          "title": "Fed official triggers new rate - cut warning",
+          "domain": "finance.yahoo.com",
+          "date": "20260511T050000Z",
           "country": "United States"
         },
         {
-          "title": "President Donald Trump Pick to Lead the Fed , Kevin Warsh , May Be the Trump Bull Market Undoing",
-          "domain": "finance.yahoo.com",
+          "title": "Baystreet . ca - China CPI Jumps as Middle East Crisis Pushes Energy Costs Higher",
+          "domain": "baystreet.ca",
+          "date": "20260511T123000Z",
+          "country": "Canada"
+        },
+        {
+          "title": "The overall Inflation Rate rose for the third month in a row . It stood at 6 . 68 percent as of November 2016",
+          "domain": "kachwanya.com",
           "date": "20260510T110000Z",
+          "country": "Kenya"
+        },
+        {
+          "title": "Inflation reading Tuesday expected to show prices at nearly a three - year high",
+          "domain": "cnbc.com",
+          "date": "20260511T210000Z",
           "country": "United States"
         },
         {
-          "title": "President Donald Trump May Force the Fed Hand -- but Not in the Way Youd Expect",
-          "domain": "finance.yahoo.com",
-          "date": "20260510T090000Z",
+          "title": "China consumer prices rise on Iran war oil squeeze",
+          "domain": "freemalaysiatoday.com",
+          "date": "20260511T054500Z",
+          "country": "Malaysia"
+        },
+        {
+          "title": "Here are the 2 big things were watching in the stock market in the week ahead",
+          "domain": "cnbc.com",
+          "date": "20260510T161500Z",
           "country": "United States"
         },
         {
-          "title": "Donald Trump Vs . Jerome Powell : Keynesian Vs . Keynesian",
-          "domain": "forbes.com",
-          "date": "20260510T153000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gold firms , heads for weekly gain",
-          "domain": "thedailystar.net",
-          "date": "20260510T060000Z",
-          "country": "Bangladesh"
-        },
-        {
-          "title": "Remember , the Federal Reserve could spook your stock portfolio soon",
-          "domain": "finance.yahoo.com",
-          "date": "20260510T111500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Another noneconomist Fed chair isnt what the country needs right now",
-          "domain": "americanbanker.com",
-          "date": "20260511T161500Z",
-          "country": "United States"
+          "title": "China April inflation data beats across board as energy costs reshape price landscape",
+          "domain": "investinglive.com",
+          "date": "20260511T041500Z",
+          "country": ""
         }
       ]
-    },
-    "US inflation / CPI": {
-      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 0,
-      "relevant_to": [
-        "march-inflation-us-annual"
-      ],
-      "headlines": []
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
@@ -254,6 +315,12 @@
         "what-price-will-bitcoin-hit-before-2027"
       ],
       "headlines": [
+        {
+          "title": "Bitcoin Whales Have Stacked 270K BTC in 30 Days : Could It Be a Bottom Signal ?",
+          "domain": "247wallst.com",
+          "date": "20260511T193000Z",
+          "country": "United States"
+        },
         {
           "title": "Bitcoin 4 - Year Cycle Says BTC Should Be at $150 , 000 by End of 2026",
           "domain": "finance.yahoo.com",
@@ -283,12 +350,6 @@
           "domain": "cointelegraph.com",
           "date": "20260511T130000Z",
           "country": "China"
-        },
-        {
-          "title": "Bitcoin Miners Bag Profit : 3 , 400 BTC Flow Out Of Reserves Since April",
-          "domain": "newsbtc.com",
-          "date": "20260509T193000Z",
-          "country": "United States"
         },
         {
           "title": "Soaring Oil Prices Arent Great for Bitcoin . Here Why Investors Shouldnt Panic .",
@@ -326,73 +387,12 @@
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": [
-        {
-          "title": "Independent congressional candidate sues Tennessee over new redistricting maps",
-          "domain": "wcyb.com",
-          "date": "20260510T024500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump faces midterm test as battle for Congress enters last six months",
-          "domain": "o.canada.com",
-          "date": "20260511T064500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Nebraska primaries",
-          "domain": "clickorlando.com",
-          "date": "20260511T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Nebraska primaries",
-          "domain": "mynorthwest.com",
-          "date": "20260511T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Nebraska primaries - Las Vegas Sun News",
-          "domain": "lasvegassun.com",
-          "date": "20260511T161500Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Nebraska primaries",
-          "domain": "ktar.com",
-          "date": "20260511T160000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in West Virginia primaries - Las Vegas Sun News",
-          "domain": "lasvegassun.com",
-          "date": "20260511T161500Z",
-          "country": "United States"
-        },
-        {
-          "title": "What to expect in Nebraska primaries",
-          "domain": "wokv.com",
-          "date": "20260511T160000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in West Virginia primaries",
-          "domain": "stcatharinesstandard.ca",
-          "date": "20260511T131500Z",
-          "country": "Canada"
-        },
-        {
-          "title": "AP Decision Notes : What to expect in Nebraska primaries",
-          "domain": "wingam.com",
-          "date": "20260511T161500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
@@ -561,12 +561,6 @@
           "country": "United States"
         },
         {
-          "title": "PlayStation is Officially Asking PS4 Players to Upgrade to PS5",
-          "domain": "gamerant.com",
-          "date": "20260509T203000Z",
-          "country": "United States"
-        },
-        {
           "title": "10 Best Selling Games on PS2",
           "domain": "comicbook.com",
           "date": "20260510T151500Z",
@@ -585,12 +579,6 @@
           "country": "United Kingdom"
         },
         {
-          "title": "GTA 6 Fans Are Going Gaga Waiting for New Trailer , Believe PS5 Pre - Orders Could Start Next Week",
-          "domain": "pushsquare.com",
-          "date": "20260509T210000Z",
-          "country": "Japan"
-        },
-        {
           "title": "GTA 6 Fans Think a New Trailer Is Coming . Here What Actually Going On",
           "domain": "gamerheadlines.com",
           "date": "20260510T003000Z",
@@ -607,6 +595,18 @@
           "domain": "gamerant.com",
           "date": "20260510T221500Z",
           "country": "United States"
+        },
+        {
+          "title": "Marvel Wolverine release window leaks online : Check details here",
+          "domain": "thenews.com.pk",
+          "date": "20260510T154500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "GTA 6 Fans Dont Want Streamers Getting the Game Early",
+          "domain": "gamerheadlines.com",
+          "date": "20260510T170000Z",
+          "country": "Japan"
         }
       ]
     }
