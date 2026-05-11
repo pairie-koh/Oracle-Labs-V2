@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-11T15:28:17Z",
+  "fetched_at": "2026-05-11T18:07:12Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -17,6 +17,12 @@
           "domain": "bostonglobe.com",
           "date": "20260511T123000Z",
           "country": "United States"
+        },
+        {
+          "title": "Iran calls for immediate end to Lebanon war in latest proposal",
+          "domain": "naharnet.com",
+          "date": "20260511T154500Z",
+          "country": "Syria"
         },
         {
           "title": "Iran war ceasefire grows increasingly shaky after Trump rejects Tehran latest proposal - Boston News , Weather , Sports",
@@ -43,33 +49,27 @@
           "country": "United States"
         },
         {
+          "title": "Iran war ceasefire grows increasingly shaky after Trump rejects Tehran latest proposal – Chicago Tribune",
+          "domain": "chicagotribune.com",
+          "date": "20260511T154500Z",
+          "country": "United States"
+        },
+        {
           "title": "Iran and the US are at an impasse ahead of Trump China trip",
           "domain": "seattletimes.com",
           "date": "20260511T103000Z",
           "country": "United States"
         },
         {
+          "title": "Iran war ceasefire grows increasingly shaky after Trump rejects Tehran latest proposal",
+          "domain": "asiaone.com",
+          "date": "20260511T151500Z",
+          "country": "Singapore"
+        },
+        {
           "title": "After Trump rejects Tehran latest proposal , Iran war ceasefire grows increasingly shaky | Politics and Government",
           "domain": "reviewjournal.com",
           "date": "20260511T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran and the U . S . at an impasse ahead of Trump trip to China – NBC 5 Dallas - Fort Worth",
-          "domain": "nbcdfw.com",
-          "date": "20260511T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran and the U . S . at an impasse ahead of Trump trip to China – NBC Los Angeles",
-          "domain": "nbclosangeles.com",
-          "date": "20260511T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran and the U . S . at an impasse ahead of Trump trip to China – NBC Connecticut",
-          "domain": "nbcconnecticut.com",
-          "date": "20260511T103000Z",
           "country": "United States"
         }
       ]
@@ -85,72 +85,11 @@
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Aung San Suu Kyi Move to House Arrest Is a Calculated Deception – The Diplomat",
-          "domain": "thediplomat.com",
-          "date": "20260511T104500Z",
-          "country": "China"
-        },
-        {
-          "title": "Gord help us as under - fire Starmer brings in failed PM to help him hold power",
-          "domain": "dailystar.co.uk",
-          "date": "20260509T210000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "How could Labour remove Keir Starmer ? Four possible routes",
-          "domain": "theguardian.com",
-          "date": "20260510T104500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "How could Labour remove Keir Starmer ? Four possible routes",
-          "domain": "aol.co.uk",
-          "date": "20260510T110000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Starmer crisis : London MP Catherine West in live TV clash with Cabinet minister over her bid to topple PM",
-          "domain": "aol.co.uk",
-          "date": "20260510T131500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "PETER BRUCE | Cyril finally has to account , and it about time",
-          "domain": "timeslive.co.za",
-          "date": "20260510T003000Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Sara Duterte impeached again , Senate trial in doubt",
-          "domain": "straitstimes.com",
-          "date": "20260511T123000Z",
-          "country": "Singapore"
-        },
-        {
-          "title": "What time is Starmer speech today as PM battles to save his job | News Politics",
-          "domain": "metro.co.uk",
-          "date": "20260511T093000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Hungary lawmakers formally elect Peter Magyar as PM , succeeding Viktor Orban",
-          "domain": "modernghana.com",
-          "date": "20260509T201500Z",
-          "country": "Ghana"
-        },
-        {
-          "title": "Parole of Thailand Thaksin latest chapter in political odyssey",
-          "domain": "freemalaysiatoday.com",
-          "date": "20260511T054500Z",
-          "country": "Malaysia"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -162,98 +101,220 @@
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Which Asset Types Have Held Up Best in Recessions ?",
+          "domain": "morningstar.com",
+          "date": "20260511T130000Z",
+          "country": "China"
+        },
+        {
+          "title": "Rapid adoption of 2027 budget would confirm for rating agencies continuation of fiscal consolidation ( minister )",
+          "domain": "stiripesurse.ro",
+          "date": "20260511T173000Z",
+          "country": "Romania"
+        },
+        {
+          "title": "Americans are literally getting squeezed : A top economist on why your wages are disappearing",
+          "domain": "fortune.com",
+          "date": "20260510T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Moody Mark Zandi :  Economic fallout  from Trump tariffs is significant – and  the trend lines dont look good . Which numbers look the worst",
+          "domain": "aol.com",
+          "date": "20260510T101500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Recession Fears Are Back : Here Is Why That Should Not Change Your Strategy",
+          "domain": "finance.yahoo.com",
+          "date": "20260510T064500Z",
+          "country": "United States"
+        },
+        {
+          "title": "What Chevron CEO Just Said About Global  Supply Outage Could Derail Trump Economic Momentum",
+          "domain": "finance.yahoo.com",
+          "date": "20260509T214500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran Wartime Internet Blackout Triggers Mass Layoffs , $2 . 6 Billion Losses and Economic Collapse",
+          "domain": "gulfnews.com",
+          "date": "20260511T151500Z",
+          "country": "United Arab Emirates"
+        },
+        {
+          "title": "This Indicator Just Did Something It Hasnt Done in 75 Years . Is It the Biggest Risk to the Bull Market Before Midterms ?",
+          "domain": "247wallst.com",
+          "date": "20260510T151500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Iran faces mass layoffs as war , internet shutdown and US blockade cripple economy",
+          "domain": "livemint.com",
+          "date": "20260511T011500Z",
+          "country": "India"
+        },
+        {
+          "title": "ECONOMIC WEEK AHEAD | Jobless rate expected to edge higher",
+          "domain": "businessday.co.za",
+          "date": "20260510T161500Z",
+          "country": "South Africa"
+        }
+      ]
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "fed-decision-in-april",
         "jerome-powell-out-as-fed-chair-by",
         "who-will-be-confirmed-as-fed-chair"
       ],
-      "headlines": []
-    },
-    "US inflation / CPI": {
-      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
-      "article_count": 10,
-      "relevant_to": [
-        "march-inflation-us-annual"
-      ],
       "headlines": [
         {
-          "title": "What to Expect From the April CPI Report",
-          "domain": "kiplinger.com",
+          "title": "Fed Chair Jerome Powell Just Said 9 Words That Have Firmly Shifted the Narrative on Wall Street",
+          "domain": "fool.com",
+          "date": "20260511T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "President Donald Trump May Force the Fed Hand -- but Not in the Way Youd Expect",
+          "domain": "fool.com",
+          "date": "20260510T090000Z",
+          "country": "United States"
+        },
+        {
+          "title": "President Donald Trump May Force the Fed Hand -- but Not in the Way Youd Expect",
+          "domain": "fool.com",
           "date": "20260510T161500Z",
           "country": "United States"
         },
         {
-          "title": "Stock Markets Brace For Volatile Week Ahead , West Asia Tensions & Crude Oil Prices To Dictate Investor Sentiment",
-          "domain": "freepressjournal.in",
-          "date": "20260510T074500Z",
-          "country": "India"
+          "title": "Oof ! The Federal Reserve May Inflation Forecast Is In , and Things Just Got Uglier for Wall Street .",
+          "domain": "fool.com",
+          "date": "20260509T210000Z",
+          "country": "United States"
         },
         {
-          "title": "China consumer inflation continues mild recovery in April",
-          "domain": "china.org.cn",
-          "date": "20260511T063000Z",
-          "country": "China"
-        },
-        {
-          "title": "Fed official triggers new rate - cut warning",
+          "title": "President Donald Trump Pick to Lead the Fed , Kevin Warsh , May Be the Trump Bull Market Undoing",
           "domain": "finance.yahoo.com",
-          "date": "20260511T050000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Baystreet . ca - China CPI Jumps as Middle East Crisis Pushes Energy Costs Higher",
-          "domain": "baystreet.ca",
-          "date": "20260511T123000Z",
-          "country": "Canada"
-        },
-        {
-          "title": "The overall Inflation Rate rose for the third month in a row . It stood at 6 . 68 percent as of November 2016",
-          "domain": "kachwanya.com",
           "date": "20260510T110000Z",
-          "country": "Kenya"
-        },
-        {
-          "title": "China consumer prices rise on Iran war oil squeeze",
-          "domain": "freemalaysiatoday.com",
-          "date": "20260511T054500Z",
-          "country": "Malaysia"
-        },
-        {
-          "title": "Here are the 2 big things were watching in the stock market in the week ahead",
-          "domain": "cnbc.com",
-          "date": "20260510T161500Z",
           "country": "United States"
         },
         {
-          "title": "China April inflation data beats across board as energy costs reshape price landscape",
-          "domain": "investinglive.com",
-          "date": "20260511T041500Z",
-          "country": ""
+          "title": "President Donald Trump May Force the Fed Hand -- but Not in the Way Youd Expect",
+          "domain": "finance.yahoo.com",
+          "date": "20260510T090000Z",
+          "country": "United States"
         },
         {
-          "title": "China consumer prices rise on Iran war oil squeeze",
-          "domain": "bssnews.net",
-          "date": "20260511T043000Z",
+          "title": "Donald Trump Vs . Jerome Powell : Keynesian Vs . Keynesian",
+          "domain": "forbes.com",
+          "date": "20260510T153000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gold firms , heads for weekly gain",
+          "domain": "thedailystar.net",
+          "date": "20260510T060000Z",
           "country": "Bangladesh"
+        },
+        {
+          "title": "Remember , the Federal Reserve could spook your stock portfolio soon",
+          "domain": "finance.yahoo.com",
+          "date": "20260510T111500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Another noneconomist Fed chair isnt what the country needs right now",
+          "domain": "americanbanker.com",
+          "date": "20260511T161500Z",
+          "country": "United States"
         }
       ]
     },
+    "US inflation / CPI": {
+      "query": "(CPI inflation OR consumer price index OR inflation rate US)",
+      "article_count": 0,
+      "relevant_to": [
+        "march-inflation-us-annual"
+      ],
+      "headlines": []
+    },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Bitcoin 4 - Year Cycle Says BTC Should Be at $150 , 000 by End of 2026",
+          "domain": "finance.yahoo.com",
+          "date": "20260510T181500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Traders Prepare for New Local Highs as $80 , 000 Holds",
+          "domain": "cointelegraph.com",
+          "date": "20260511T130000Z",
+          "country": "China"
+        },
+        {
+          "title": "Analyst Predicts Biggest Bitcoin Bull Trap Of The Cycle , Calls Out 50 % Crash To $42 , 000",
+          "domain": "newsbtc.com",
+          "date": "20260510T044500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin  Trend Reversal Signal  Flashes as $82 . 5K Resistance Key for Bulls",
+          "domain": "cointelegraph.com",
+          "date": "20260511T171500Z",
+          "country": "China"
+        },
+        {
+          "title": "Crypto Inflows Hit $858M as CLARITY Lifts Sentiment",
+          "domain": "cointelegraph.com",
+          "date": "20260511T130000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Miners Bag Profit : 3 , 400 BTC Flow Out Of Reserves Since April",
+          "domain": "newsbtc.com",
+          "date": "20260509T193000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Soaring Oil Prices Arent Great for Bitcoin . Here Why Investors Shouldnt Panic .",
+          "domain": "fool.com",
+          "date": "20260510T051500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin , Nasdaq investors are celebrating , while U . S . consumers turn gloomy .",
+          "domain": "coindesk.com",
+          "date": "20260511T103000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin maintains its recovery - London Business News | Londonlovesbusiness . com",
+          "domain": "londonlovesbusiness.com",
+          "date": "20260511T143000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Soaring Oil Prices Arent Great for Bitcoin . Here Why Investors Shouldnt Panic .",
+          "domain": "finance.yahoo.com",
+          "date": "20260510T053000Z",
+          "country": "United States"
+        }
+      ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -296,58 +357,180 @@
           "country": "United States"
         },
         {
+          "title": "AP Decision Notes : What to expect in Nebraska primaries - Las Vegas Sun News",
+          "domain": "lasvegassun.com",
+          "date": "20260511T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "AP Decision Notes : What to expect in Nebraska primaries",
+          "domain": "ktar.com",
+          "date": "20260511T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "AP Decision Notes : What to expect in West Virginia primaries - Las Vegas Sun News",
+          "domain": "lasvegassun.com",
+          "date": "20260511T161500Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to expect in Nebraska primaries",
+          "domain": "wokv.com",
+          "date": "20260511T160000Z",
+          "country": "United States"
+        },
+        {
           "title": "AP Decision Notes : What to expect in West Virginia primaries",
           "domain": "stcatharinesstandard.ca",
           "date": "20260511T131500Z",
           "country": "Canada"
         },
         {
-          "title": "AP Decision Notes : What to expect in West Virginia primaries",
-          "domain": "elpasoinc.com",
-          "date": "20260511T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "You stupid mother -[ bleeper ]: Watch Dem lawmaker go ballistic on cop during gerrymandering clash * WorldNetDaily * by Daily Caller News Foundation",
-          "domain": "wnd.com",
-          "date": "20260510T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Analysts see political fallout as House plenary votes on Sara impeachment",
-          "domain": "bworldonline.com",
-          "date": "20260510T201500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "Early voting starts for Maine primary elections",
-          "domain": "wmtw.com",
-          "date": "20260511T143000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Gas , groceries and getting by : How voters in one Ohio district see affordability",
-          "domain": "ideastream.org",
-          "date": "20260510T154500Z",
+          "title": "AP Decision Notes : What to expect in Nebraska primaries",
+          "domain": "wingam.com",
+          "date": "20260511T161500Z",
           "country": "United States"
         }
       ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-fifa-world-cup-winner-595"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "U - 17 WWCQ : Flamingos arrive  Ikenne for Guinea showdown",
+          "domain": "promptnewsonline.com",
+          "date": "20260511T153000Z",
+          "country": "Nigeria"
+        },
+        {
+          "title": "2026 FIFA World Cup betting primer : Odds , trends , picks , and market news with one month to go",
+          "domain": "nypost.com",
+          "date": "20260511T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "How to favourite your FIFA World Cup 2026™ team and never miss a single moment of the action",
+          "domain": "sbs.com.au",
+          "date": "20260511T041500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "African artistes to feature at the FIFA World Cup 2026 opening ceremony",
+          "domain": "kawowo.com",
+          "date": "20260510T111500Z",
+          "country": "Uganda"
+        },
+        {
+          "title": "Elyanna releases World Cup track",
+          "domain": "arabnews.com",
+          "date": "20260510T113000Z",
+          "country": "Saudi Arabia"
+        },
+        {
+          "title": "Nora Fatehi to perform , sing at FIFA World Cup 2026 Opening Ceremony in Toronto",
+          "domain": "timesofoman.com",
+          "date": "20260510T044500Z",
+          "country": "Oman"
+        },
+        {
+          "title": "FIFA introduces World Cup debut patches for first - time playe",
+          "domain": "punchng.com",
+          "date": "20260510T213000Z",
+          "country": "Nigeria"
+        },
+        {
+          "title": "World Cup spending good investment Milton Burlington MP says",
+          "domain": "bramptonguardian.com",
+          "date": "20260510T131500Z",
+          "country": "Canada"
+        },
+        {
+          "title": "Anxiety , anticipation as World Cup one - month countdown begins",
+          "domain": "manilatimes.net",
+          "date": "20260510T154500Z",
+          "country": "Philippines"
+        },
+        {
+          "title": "Nj Transit cuts World Cup train fares from $150 to $30",
+          "domain": "nj1015.com",
+          "date": "20260510T230000Z",
+          "country": "United States"
+        }
+      ]
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "LeBron James , LA Lakers facing harsh reality after playoff collapse",
+          "domain": "thebiglead.com",
+          "date": "20260511T050000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Forget 2026 NBA draft lottery : A look back at Magic historic success ( luck ?)",
+          "domain": "orlandosentinel.com",
+          "date": "20260510T144500Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC New York",
+          "domain": "nbcnewyork.com",
+          "date": "20260511T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC 5 Dallas - Fort Worth",
+          "domain": "nbcdfw.com",
+          "date": "20260510T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC4 Washington",
+          "domain": "nbcwashington.com",
+          "date": "20260511T004500Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC Los Angeles",
+          "domain": "nbclosangeles.com",
+          "date": "20260511T033000Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC 7 San Diego",
+          "domain": "nbcsandiego.com",
+          "date": "20260511T001500Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC Bay Area",
+          "domain": "nbcbayarea.com",
+          "date": "20260511T001500Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC Chicago",
+          "domain": "nbcchicago.com",
+          "date": "20260510T233000Z",
+          "country": "United States"
+        },
+        {
+          "title": "What to know about 2026 NBA conference finals as teams clinch – NBC Connecticut",
+          "domain": "nbcconnecticut.com",
+          "date": "20260511T003000Z",
+          "country": "United States"
+        }
+      ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
@@ -378,12 +561,6 @@
           "country": "United States"
         },
         {
-          "title": "Take - Two CEO Reveals Why AI Didnt Help GTA 6 Development",
-          "domain": "vice.com",
-          "date": "20260509T153000Z",
-          "country": "United States"
-        },
-        {
           "title": "PlayStation is Officially Asking PS4 Players to Upgrade to PS5",
           "domain": "gamerant.com",
           "date": "20260509T203000Z",
@@ -402,12 +579,6 @@
           "country": "United States"
         },
         {
-          "title": "PlayStation Urges PS4 Players to Upgrade to PS5 for GTA 6",
-          "domain": "pushsquare.com",
-          "date": "20260509T161500Z",
-          "country": "Japan"
-        },
-        {
           "title": "Youll never guess GTA 6 age rating as Sony pesters PS4 players to upgrade",
           "domain": "metro.co.uk",
           "date": "20260511T101500Z",
@@ -424,6 +595,18 @@
           "domain": "gamerheadlines.com",
           "date": "20260510T003000Z",
           "country": "Japan"
+        },
+        {
+          "title": "Rifle Finally Unlocked In Bully 20 Years Later Thanks To Wild Glitch",
+          "domain": "kotaku.com",
+          "date": "20260510T160000Z",
+          "country": "Japan"
+        },
+        {
+          "title": "Gears of War E - Day Fans Think New Sponsorship Could Be Teasing the Game Release Window",
+          "domain": "gamerant.com",
+          "date": "20260510T221500Z",
+          "country": "United States"
         }
       ]
     }
