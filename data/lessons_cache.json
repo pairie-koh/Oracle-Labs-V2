@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-05-12T18:11:32Z",
-  "n_files_scanned": 267,
+  "generated_at": "2026-05-12T21:29:01Z",
+  "n_files_scanned": 268,
   "per_contract": {
     "bitcoin_daily": {
-      "n_predictions": 267,
+      "n_predictions": 268,
       "history": [
-        {
-          "timestamp": "2026-05-12T03:47:26Z",
-          "tier": "haiku",
-          "type": "binary",
-          "prediction": 0.405,
-          "market_price": 0.405,
-          "signed_error": 0.0
-        },
         {
           "timestamp": "2026-05-12T06:47:48Z",
           "tier": "haiku",
@@ -44,6 +36,14 @@
           "prediction": 0.0,
           "market_price": 0.0,
           "signed_error": 0.0
+        },
+        {
+          "timestamp": "2026-05-12T21:28:58Z",
+          "tier": "haiku",
+          "type": "binary",
+          "prediction": 0.0,
+          "market_price": 0.0,
+          "signed_error": 0.0
         }
       ],
       "avg_signed_error": 0.004,
@@ -51,16 +51,8 @@
       "bias": "neutral"
     },
     "nyc_temp": {
-      "n_predictions": 267,
+      "n_predictions": 268,
       "history": [
-        {
-          "timestamp": "2026-05-12T03:47:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-05-12T06:47:48Z",
           "tier": "haiku",
@@ -87,6 +79,14 @@
         },
         {
           "timestamp": "2026-05-12T18:11:29Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-05-12T21:28:58Z",
           "tier": "haiku",
           "type": "multi-outcome",
           "avg_outcome_div": 0.0,
@@ -97,16 +97,8 @@
       "avg_multi_div": 0.014
     },
     "miami_temp": {
-      "n_predictions": 261,
+      "n_predictions": 262,
       "history": [
-        {
-          "timestamp": "2026-05-12T03:47:26Z",
-          "tier": "haiku",
-          "type": "multi-outcome",
-          "avg_outcome_div": 0.0,
-          "max_outcome_div": 0.0,
-          "n_outcomes": 11
-        },
         {
           "timestamp": "2026-05-12T06:47:48Z",
           "tier": "haiku",
@@ -133,6 +125,14 @@
         },
         {
           "timestamp": "2026-05-12T18:11:29Z",
+          "tier": "haiku",
+          "type": "multi-outcome",
+          "avg_outcome_div": 0.0,
+          "max_outcome_div": 0.0,
+          "n_outcomes": 11
+        },
+        {
+          "timestamp": "2026-05-12T21:28:58Z",
           "tier": "haiku",
           "type": "multi-outcome",
           "avg_outcome_div": 0.0,
