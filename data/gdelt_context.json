@@ -1,78 +1,17 @@
 {
-  "fetched_at": "2026-05-13T10:41:04Z",
+  "fetched_at": "2026-05-13T14:52:20Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
   "queries": {
     "Iran nuclear deal / diplomacy": {
       "query": "(iran nuclear deal OR iran negotiations OR iran diplomacy OR iran sanctions)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-iran-nuclear-deal-before-2027",
         "us-iran-nuclear-deal-by-april-30"
       ],
-      "headlines": [
-        {
-          "title": "Iran war cease - fire grows shaky after Trump rejects latest proposal",
-          "domain": "bostonglobe.com",
-          "date": "20260511T123000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran calls for immediate end to Lebanon war in latest proposal",
-          "domain": "naharnet.com",
-          "date": "20260511T154500Z",
-          "country": "Syria"
-        },
-        {
-          "title": "Iran war ceasefire grows increasingly shaky after Trump rejects Tehran latest proposal - Boston News , Weather , Sports",
-          "domain": "whdh.com",
-          "date": "20260511T131500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Iran and the U . S . at an impasse ahead of Trump trip to China – NBC4 Washington",
-          "domain": "nbcwashington.com",
-          "date": "20260511T150000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump Casts Doubt on Iran Ceasefire , Criticizes Proposal",
-          "domain": "kyivpost.com",
-          "date": "20260511T211500Z",
-          "country": "Ukraine"
-        },
-        {
-          "title": "Iran and the US are at an impasse ahead of Trump China trip",
-          "domain": "11alive.com",
-          "date": "20260511T111500Z",
-          "country": "United States"
-        },
-        {
-          "title": "US dismisses  unacceptable  Iran demands",
-          "domain": "europe.chinadaily.com.cn",
-          "date": "20260512T023000Z",
-          "country": "China"
-        },
-        {
-          "title": "US dismisses  unacceptable  Iran demands",
-          "domain": "africa.chinadaily.com.cn",
-          "date": "20260512T024500Z",
-          "country": "China"
-        },
-        {
-          "title": "US dismisses  unacceptable  Iran demands",
-          "domain": "usa.chinadaily.com.cn",
-          "date": "20260512T023000Z",
-          "country": "China"
-        },
-        {
-          "title": "Iran war ceasefire grows increasingly shaky after Trump rejects Tehran latest proposal – Chicago Tribune",
-          "domain": "chicagotribune.com",
-          "date": "20260511T154500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Strait of Hormuz / shipping": {
       "query": "(strait of hormuz OR hormuz shipping OR hormuz blockade OR iran oil tanker)",
@@ -87,6 +26,12 @@
           "domain": "thestar.com.my",
           "date": "20260513T033000Z",
           "country": "Malaysia"
+        },
+        {
+          "title": "Chinese crude oil tanker seen sailing via Strait of Hormuz",
+          "domain": "aa.com.tr",
+          "date": "20260513T110000Z",
+          "country": "Turkey"
         },
         {
           "title": "Vietnam state oil company urges US Navy to allow tanker through blockade , document shows",
@@ -131,87 +76,20 @@
           "country": "Pakistan"
         },
         {
-          "title": "Very Wide Gap Between US & Iranian Positions As Tehran Blasts White House  Unreasonable Demands",
-          "domain": "zerohedge.com",
-          "date": "20260511T130000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump says US - Iran ceasefire is  on life support",
-          "domain": "perthnow.com.au",
-          "date": "20260511T181500Z",
-          "country": "Australia"
+          "title": "Chinese supertanker attempts Hormuz passage , data show",
+          "domain": "arabnews.com",
+          "date": "20260513T123000Z",
+          "country": "Saudi Arabia"
         }
       ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Cayetano : Senate to move quickly on Sara Duterte impeachment",
-          "domain": "philstar.com",
-          "date": "20260513T001500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "Aung San Suu Kyi Move to House Arrest Is a Calculated Deception – The Diplomat",
-          "domain": "thediplomat.com",
-          "date": "20260511T104500Z",
-          "country": "China"
-        },
-        {
-          "title": "UK leader Starmer fights to save premiership as scores of Labour lawmakers urge him to resign",
-          "domain": "us.cnn.com",
-          "date": "20260512T020000Z",
-          "country": "United States"
-        },
-        {
-          "title": "UK leader Starmer fights to save premiership as scores of Labour lawmakers urge him to resign",
-          "domain": "kvia.com",
-          "date": "20260512T030000Z",
-          "country": "United States"
-        },
-        {
-          "title": "UK leader Starmer fights to save premiership as scores of Labour lawmakers urge him to resign",
-          "domain": "krdo.com",
-          "date": "20260512T024500Z",
-          "country": "United States"
-        },
-        {
-          "title": "UK leader Starmer fights to save premiership as scores of Labour lawmakers urge him to resign",
-          "domain": "krdo.com",
-          "date": "20260512T124500Z",
-          "country": "United States"
-        },
-        {
-          "title": "UK leader Starmer fights to save premiership as scores of Labour lawmakers urge him to resign - LocalNews8 . com",
-          "domain": "localnews8.com",
-          "date": "20260512T010000Z",
-          "country": "United States"
-        },
-        {
-          "title": "UK leader Starmer fights to save premiership as scores of Labour lawmakers urge him to resign",
-          "domain": "ktvz.com",
-          "date": "20260512T033000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Defiant Keir Starmer challenges Labour rebels to oust him as embattled PM vows to carry on",
-          "domain": "lbc.co.uk",
-          "date": "20260512T140000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Stand - off in Downing Street as Labour right splits",
-          "domain": "morningstaronline.co.uk",
-          "date": "20260512T190000Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
@@ -223,72 +101,11 @@
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "Russian economy on solid footing despite slowdown deputy PM",
-          "domain": "middleeaststar.com",
-          "date": "20260512T230000Z",
-          "country": "Syria"
-        },
-        {
-          "title": "Russian economy on solid footing despite slowdown deputy PM",
-          "domain": "austinglobe.com",
-          "date": "20260512T233000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Russian economy on solid footing despite slowdown",
-          "domain": "russiaherald.com",
-          "date": "20260512T233000Z",
-          "country": "Russia"
-        },
-        {
-          "title": "Russian economy on solid footing despite slowdown deputy PM",
-          "domain": "russiaherald.com",
-          "date": "20260512T233000Z",
-          "country": "Russia"
-        },
-        {
-          "title": "Russian economy on solid footing despite slowdown deputy PM",
-          "domain": "heraldglobe.com",
-          "date": "20260512T223000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Which Asset Types Have Held Up Best in Recessions ?",
-          "domain": "morningstar.com",
-          "date": "20260511T130000Z",
-          "country": "China"
-        },
-        {
-          "title": "Rapid adoption of 2027 budget would confirm for rating agencies continuation of fiscal consolidation ( minister )",
-          "domain": "stiripesurse.ro",
-          "date": "20260511T173000Z",
-          "country": "Romania"
-        },
-        {
-          "title": "Get ready for a budget slowdown . But Chalmers insists we wont see a recession",
-          "domain": "theconversation.com",
-          "date": "20260512T121500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Morgan Stanley maps four oil shock scenarios from Fed hikes to global recession",
-          "domain": "investinglive.com",
-          "date": "20260513T030000Z",
-          "country": ""
-        },
-        {
-          "title": "No recession in Switzerland despite oil crisis , says study",
-          "domain": "swissinfo.ch",
-          "date": "20260512T073000Z",
-          "country": "Switzerland"
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -310,72 +127,11 @@
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Bitcoin price drops as crypto weakens : Why is BTC falling ? Will Bitcoin price go up today as crypto market loses $23 billion amid Iran tensions and oil fears ?",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260512T141500Z",
-          "country": "India"
-        },
-        {
-          "title": "Bitcoin ( BTC ) Price Prediction : Can Bitcoin Hit $85K in May ?",
-          "domain": "247wallst.com",
-          "date": "20260513T014500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin Whales Have Stacked 270K BTC in 30 Days : Could It Be a Bottom Signal ?",
-          "domain": "247wallst.com",
-          "date": "20260511T193000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin ETF inflows may reshape its bear market correction : Analyst",
-          "domain": "cointelegraph.com",
-          "date": "20260512T171500Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Funding Flips Positive , Is $85K Next ?",
-          "domain": "cointelegraph.com",
-          "date": "20260512T023000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Traders Prepare for New Local Highs as $80 , 000 Holds",
-          "domain": "cointelegraph.com",
-          "date": "20260511T130000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin  Trend Reversal Signal  Flashes as $82 . 5K Resistance Key for Bulls",
-          "domain": "cointelegraph.com",
-          "date": "20260511T171500Z",
-          "country": "China"
-        },
-        {
-          "title": "Crypto Inflows Hit $858M as CLARITY Lifts Sentiment",
-          "domain": "cointelegraph.com",
-          "date": "20260511T130000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Trader Records $13M in Unrealized Losses As BTC",
-          "domain": "cointelegraph.com",
-          "date": "20260512T171500Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin slips below $81K after Trump rejects Iran peace proposal ; institutional investors continue accumulating BTC",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260512T081500Z",
-          "country": "India"
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -433,9 +189,9 @@
           "country": "United States"
         },
         {
-          "title": "Gas prices drop 14 cents from a week ago",
-          "domain": "wnmufm.org",
-          "date": "20260511T111500Z",
+          "title": "Why Bernie Sanders Is Wrong About Gas Prices",
+          "domain": "zerohedge.com",
+          "date": "20260511T211500Z",
           "country": "United States"
         },
         {
@@ -448,12 +204,73 @@
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "which-party-will-win-the-house-in-2026",
         "balance-of-power-2026-midterms"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "2026 Midterm elections | Candidates on the ballot in Central Georgia for House , Senate , General Assembly",
+          "domain": "13wmaz.com",
+          "date": "20260511T193000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mid - decade redistricting battle : How each state has played out",
+          "domain": "wyff4.com",
+          "date": "20260511T204500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mid - decade redistricting battle : How each state has played out",
+          "domain": "wmur.com",
+          "date": "20260511T211500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mid - decade redistricting battle : How each state has played out",
+          "domain": "wtae.com",
+          "date": "20260511T210000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mid - decade redistricting battle : How each state has played out",
+          "domain": "kcci.com",
+          "date": "20260511T223000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mid - decade redistricting battle : How each state has played out",
+          "domain": "kcra.com",
+          "date": "20260511T200000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mid - decade redistricting battle : How each state has played out",
+          "domain": "wgal.com",
+          "date": "20260511T191500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Mid - decade redistricting battle : How each state has played out",
+          "domain": "wmtw.com",
+          "date": "20260511T190000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Sen . Pete Ricketts wins Nebraska primary , faces Dan Osborn in fall",
+          "domain": "foxnews.com",
+          "date": "20260513T020000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Can Talarico win in Texas ? My analysis says  Yes !",
+          "domain": "dailykos.com",
+          "date": "20260513T013000Z",
+          "country": "United States"
+        }
+      ]
     },
     "FIFA World Cup 2026": {
       "query": "(FIFA World Cup 2026 OR world cup qualifier OR world cup odds)",
@@ -465,11 +282,72 @@
     },
     "NBA Finals 2026": {
       "query": "(NBA playoffs 2026 OR NBA finals OR NBA championship odds)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "2026-nba-champion"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Shai Gilgeous - Alexander praises LeBron James after Lakers - Thunder series",
+          "domain": "yardbarker.com",
+          "date": "20260512T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Top 10 rivalries in the NBA",
+          "domain": "thebiglead.com",
+          "date": "20260512T041500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Knicks sweep past 76ers into NBA finals",
+          "domain": "tribune.com.pk",
+          "date": "20260511T171500Z",
+          "country": "Pakistan"
+        },
+        {
+          "title": "Timberwolves vs Spurs LIVE Score Updates : Tight Game ( 30 - 34 ) | 05 / 12 / 2026",
+          "domain": "vavel.com",
+          "date": "20260513T020000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Knicks need Mikal Bridges more than ever to finally end Finals drought",
+          "domain": "dailyknicks.com",
+          "date": "20260513T021500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Kendrick Perkins Boldly Declares LeBron James , Steph Curry and Kevin Durant Done Winning NBA Titles",
+          "domain": "ibtimes.com.au",
+          "date": "20260513T131500Z",
+          "country": "Australia"
+        },
+        {
+          "title": "Report : Sixers President of Basketball Operations Daryl Morey out ; head coach Nick Nurse remains in place",
+          "domain": "phillyvoice.com",
+          "date": "20260513T031500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Stephen A . Smith gives his top 5 landing spots for LeBron James next season",
+          "domain": "thebiglead.com",
+          "date": "20260512T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Knick playoff domination is igniting championship hype fans dreamed of",
+          "domain": "dailyknicks.com",
+          "date": "20260513T021500Z",
+          "country": "United States"
+        },
+        {
+          "title": "How Long Has LeBron James Been in the NBA ? These Shocking Stats Put Tenure in Perspective",
+          "domain": "si.com",
+          "date": "20260512T223000Z",
+          "country": "United States"
+        }
+      ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
@@ -482,72 +360,11 @@
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": [
-        {
-          "title": "GTA 6 trailer 3 nowhere in sight , despite fan theories",
-          "domain": "polygon.com",
-          "date": "20260512T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Pre - Orders Have Gamers Losing Their Heads",
-          "domain": "screenrant.com",
-          "date": "20260511T104500Z",
-          "country": "United States"
-        },
-        {
-          "title": "10 GTA 6 Leaks Were Really Hoping Arent True",
-          "domain": "screenrant.com",
-          "date": "20260511T221500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why Fans Are Creating Their Own GTA 6 Preorder Sites Now",
-          "domain": "psxextreme.com",
-          "date": "20260512T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "As Fans Wait for GTA 6 Trailer 3 Today , Rockstar Tweets About Red Dead Online And The Internet Reaction is Exactly as Youd Expect",
-          "domain": "ign.com",
-          "date": "20260512T153000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Is Carrying Rockstar Biggest Expectations Ever",
-          "domain": "gamingbolt.com",
-          "date": "20260512T141500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "GTA 6 Fan Tracking Foot Traffic At Cafe Near Rockstar Games",
-          "domain": "kotaku.com",
-          "date": "20260512T194500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "GTA 6 Pre - Order Page Spotted Ahead Of Trailer 3",
-          "domain": "screenrant.com",
-          "date": "20260512T114500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Take - Two Interactive named top US gaming pick by UBS on GTA VI optimism",
-          "domain": "finance.yahoo.com",
-          "date": "20260513T053000Z",
-          "country": "United States"
-        },
-        {
-          "title": "How Rockstar Squeezed a Whole City into Your PS2",
-          "domain": "pushsquare.com",
-          "date": "20260512T023000Z",
-          "country": "Japan"
-        }
-      ]
+      "headlines": []
     }
   }
 }
