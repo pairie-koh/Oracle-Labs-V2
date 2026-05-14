@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T03:57:26Z",
+  "fetched_at": "2026-05-14T06:55:43Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -125,12 +125,6 @@
           "country": "Turkey"
         },
         {
-          "title": "Peace deal hopes fade after Trump rejects Iran proposal",
-          "domain": "rte.ie",
-          "date": "20260512T041500Z",
-          "country": "Ireland"
-        },
-        {
           "title": "REPORT : Iran Tries To Woo China Ahead Of Xi High - Stakes Meeting With Trump",
           "domain": "dailycaller.com",
           "date": "20260513T214500Z",
@@ -141,146 +135,30 @@
           "domain": "whbl.com",
           "date": "20260513T050000Z",
           "country": "United States"
+        },
+        {
+          "title": "Chinese supertanker attempts Hormuz passage , data show",
+          "domain": "arabnews.com",
+          "date": "20260513T123000Z",
+          "country": "Saudi Arabia"
         }
       ]
     },
     "World leaders / regime change": {
       "query": "(leader resign OR president impeach OR prime minister ousted OR coup OR regime change)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "next-leader-out-of-power-before-2027-795"
       ],
-      "headlines": [
-        {
-          "title": "Cayetano : Senate to move quickly on Sara Duterte impeachment",
-          "domain": "philstar.com",
-          "date": "20260513T001500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "UK leader Starmer fights to save premiership as scores of Labour lawmakers urge him to resign",
-          "domain": "krdo.com",
-          "date": "20260512T124500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Defiant Keir Starmer challenges Labour rebels to oust him as embattled PM vows to carry on",
-          "domain": "lbc.co.uk",
-          "date": "20260512T140000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Stand - off in Downing Street as Labour right splits",
-          "domain": "morningstaronline.co.uk",
-          "date": "20260512T190000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Who is Hungary dancing health minister ? Former NHS doctor who plays air guitar at political rallies",
-          "domain": "independent.co.uk",
-          "date": "20260512T163000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "After Senate coup , ousted committee chairs push to save unfinished business",
-          "domain": "philstar.com",
-          "date": "20260513T024500Z",
-          "country": "Philippines"
-        },
-        {
-          "title": "Labour turmoil continues as Streeting mulls leadership challenge",
-          "domain": "edp24.co.uk",
-          "date": "20260514T023000Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Labour turmoil continues as Streeting mulls leadership challenge",
-          "domain": "bournemouthecho.co.uk",
-          "date": "20260514T024500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Labour turmoil continues as Streeting mulls leadership challenge",
-          "domain": "thetelegraphandargus.co.uk",
-          "date": "20260514T031500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Labour turmoil continues as Streeting mulls leadership challenge",
-          "domain": "theargus.co.uk",
-          "date": "20260514T030000Z",
-          "country": "United Kingdom"
-        }
-      ]
+      "headlines": []
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": [
-        {
-          "title": "Trump accuses Schumer of trying to  interfere in our election with latest strategy",
-          "domain": "yahoo.com",
-          "date": "20260512T123000Z",
-          "country": "United States"
-        },
-        {
-          "title": "New Mexico House Republican Leadership Urges Immediate Passage Of SAVE Act",
-          "domain": "ladailypost.com",
-          "date": "20260513T183000Z",
-          "country": "United States"
-        },
-        {
-          "title": "White House previews wish list for third reconciliation bill",
-          "domain": "washingtonexaminer.com",
-          "date": "20260514T004500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump so far failing in quest for power over elections as midterms approach",
-          "domain": "miamitimesonline.com",
-          "date": "20260512T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oregon election officials discuss Trump attacks on voting and what at stake",
-          "domain": "bendbulletin.com",
-          "date": "20260512T170000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oregon election officials discuss Trump attacks on voting and what at stake",
-          "domain": "eastoregonian.com",
-          "date": "20260512T164500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oregon election officials discuss Trump attacks on voting and what at stake",
-          "domain": "dailyastorian.com",
-          "date": "20260512T173000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Oregon Officials Discuss Trump Attacks on Voting and What at Stake",
-          "domain": "corvallisadvocate.com",
-          "date": "20260513T013000Z",
-          "country": "United States"
-        },
-        {
-          "title": "State senators look for ways to address concerns raised over recently passed SHIELD Act",
-          "domain": "wdam.com",
-          "date": "20260514T030000Z",
-          "country": "United States"
-        },
-        {
-          "title": "States Have Passed Nearly 2 . 5 Times as Many Election Measures This Year as at the Same Point Four Years Ago",
-          "domain": "cantechletter.com",
-          "date": "20260512T141500Z",
-          "country": "Canada"
-        }
-      ]
+      "headlines": []
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
@@ -493,72 +371,11 @@
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": [
-        {
-          "title": "Bitcoin price drops as crypto weakens : Why is BTC falling ? Will Bitcoin price go up today as crypto market loses $23 billion amid Iran tensions and oil fears ?",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260512T141500Z",
-          "country": "India"
-        },
-        {
-          "title": "Bitcoin ( BTC ) Price Prediction : Can Bitcoin Hit $85K in May ?",
-          "domain": "247wallst.com",
-          "date": "20260513T014500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin ETF inflows may reshape its bear market correction : Analyst",
-          "domain": "cointelegraph.com",
-          "date": "20260512T171500Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Rally $80 , 000 Has One Glaring Problem",
-          "domain": "benzinga.com",
-          "date": "20260513T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin ETF inflows hit $706M in sixth straight week",
-          "domain": "financial-news.co.uk",
-          "date": "20260513T234500Z",
-          "country": "United Kingdom"
-        },
-        {
-          "title": "Bitcoin Bulls Target $100K as Strategy STRC Enables More BTC Buying This Week",
-          "domain": "cointelegraph.com",
-          "date": "20260513T123000Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin Trader Records $13M in Unrealized Losses As BTC",
-          "domain": "cointelegraph.com",
-          "date": "20260512T171500Z",
-          "country": "China"
-        },
-        {
-          "title": "Bitcoin slips below $81K after Trump rejects Iran peace proposal ; institutional investors continue accumulating BTC",
-          "domain": "economictimes.indiatimes.com",
-          "date": "20260512T081500Z",
-          "country": "India"
-        },
-        {
-          "title": "$11 . 77T Charles Schwab Launches Spot Bitcoin Trading",
-          "domain": "bitcoinmagazine.com",
-          "date": "20260513T134500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Bitcoin News : Why Schwab $12 Trillion Crypto Launch Is Bigger Than Investors Realize",
-          "domain": "247wallst.com",
-          "date": "20260513T183000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
@@ -610,12 +427,6 @@
           "country": "India"
         },
         {
-          "title": "Why gasoline costs 52 % more in the US than it did before the Iran war",
-          "domain": "keysnews.com",
-          "date": "20260512T041500Z",
-          "country": "United States"
-        },
-        {
           "title": "Illinois diesel prices break record Tuesday that was set six days ago",
           "domain": "theintelligencer.com",
           "date": "20260512T160000Z",
@@ -626,6 +437,12 @@
           "domain": "myjournalcourier.com",
           "date": "20260513T001500Z",
           "country": "United States"
+        },
+        {
+          "title": "Why Pennsylvania low - income residents are feeling the squeeze as gas prices rise",
+          "domain": "theconversation.com",
+          "date": "20260513T133000Z",
+          "country": "Australia"
         }
       ]
     },
@@ -672,12 +489,6 @@
           "country": "United States"
         },
         {
-          "title": "Top 10 rivalries in the NBA",
-          "domain": "thebiglead.com",
-          "date": "20260512T041500Z",
-          "country": "United States"
-        },
-        {
           "title": "Timberwolves vs Spurs LIVE Score Updates : Tight Game ( 30 - 34 ) | 05 / 12 / 2026",
           "domain": "vavel.com",
           "date": "20260513T020000Z",
@@ -711,6 +522,12 @@
           "title": "Knick playoff domination is igniting championship hype fans dreamed of",
           "domain": "dailyknicks.com",
           "date": "20260513T021500Z",
+          "country": "United States"
+        },
+        {
+          "title": "How Long Has LeBron James Been in the NBA ? These Shocking Stats Put Tenure in Perspective",
+          "domain": "si.com",
+          "date": "20260512T223000Z",
           "country": "United States"
         }
       ]
@@ -835,6 +652,12 @@
           "country": "United States"
         },
         {
+          "title": "Strauss Zelnick Lifts Gta 6 Pre Order to Nov . 19",
+          "domain": "el-balad.com",
+          "date": "20260514T060000Z",
+          "country": "Egypt"
+        },
+        {
           "title": "One of The Year Most Anticipated New Games Is Looking Like the Next GTA 6 ( And Not in a Good Way )",
           "domain": "comicbook.com",
           "date": "20260513T203000Z",
@@ -845,12 +668,6 @@
           "domain": "dualshockers.com",
           "date": "20260514T001500Z",
           "country": "Japan"
-        },
-        {
-          "title": "Take - Two Interactive named top US gaming pick by UBS on GTA VI optimism",
-          "domain": "finance.yahoo.com",
-          "date": "20260513T053000Z",
-          "country": "United States"
         }
       ]
     }
