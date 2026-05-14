@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T10:31:59Z",
+  "fetched_at": "2026-05-14T14:34:11Z",
   "timespan": "2d",
   "source": "GDELT DOC 2.0 API (global news monitoring)",
   "num_queries": 14,
@@ -55,20 +55,20 @@
           "country": "United States"
         },
         {
-          "title": "Trump says Iran ceasefire is on  life support , proposes gas tax pause as strait stays closed - Boston News , Weather , Sports",
-          "domain": "whdh.com",
-          "date": "20260512T124500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Trump says Iran ceasefire is on  life support  and proposes gas tax pause as strait stays closed",
-          "domain": "wandtv.com",
-          "date": "20260512T141500Z",
+          "title": "Trump Calls Iran Ceasefire  On Life Support  as Talks Stall",
+          "domain": "wham1180.iheart.com",
+          "date": "20260512T231500Z",
           "country": "United States"
         },
         {
           "title": "Trump Calls Iran Ceasefire  On Life Support  as Talks Stall",
-          "domain": "wham1180.iheart.com",
+          "domain": "1360kktx.iheart.com",
+          "date": "20260512T231500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump Calls Iran Ceasefire  On Life Support  as Talks Stall",
+          "domain": "wiba.iheart.com",
           "date": "20260512T231500Z",
           "country": "United States"
         }
@@ -131,15 +131,15 @@
           "country": "Israel"
         },
         {
+          "title": "UKMTO : Ship seized off UAE Fujairah headed toward Iranian waters",
+          "domain": "jpost.com",
+          "date": "20260514T113000Z",
+          "country": "Israel"
+        },
+        {
           "title": "REPORT : Iran Tries To Woo China Ahead Of Xi High - Stakes Meeting With Trump",
           "domain": "dailycaller.com",
           "date": "20260513T214500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Vietnam state oil company urges US Navy to allow tanker through blockade , document shows",
-          "domain": "whbl.com",
-          "date": "20260513T050000Z",
           "country": "United States"
         }
       ]
@@ -158,22 +158,10 @@
           "country": "Philippines"
         },
         {
-          "title": "UK leader Starmer fights to save premiership as scores of Labour lawmakers urge him to resign",
-          "domain": "krdo.com",
-          "date": "20260512T124500Z",
-          "country": "United States"
-        },
-        {
           "title": "Regime change : Hungary Magyar exposes Orban decadence",
           "domain": "dw.com",
           "date": "20260514T063000Z",
           "country": "Germany"
-        },
-        {
-          "title": "Defiant Keir Starmer challenges Labour rebels to oust him as embattled PM vows to carry on",
-          "domain": "lbc.co.uk",
-          "date": "20260512T140000Z",
-          "country": "United Kingdom"
         },
         {
           "title": "Stand - off in Downing Street as Labour right splits",
@@ -210,85 +198,97 @@
           "domain": "thetelegraphandargus.co.uk",
           "date": "20260514T031500Z",
           "country": "United Kingdom"
+        },
+        {
+          "title": "Labour turmoil continues as Streeting mulls leadership challenge",
+          "domain": "theargus.co.uk",
+          "date": "20260514T030000Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Labour turmoil continues as Streeting mulls leadership challenge",
+          "domain": "salisburyjournal.co.uk",
+          "date": "20260514T020000Z",
+          "country": "United Kingdom"
         }
       ]
     },
     "SAVE Act / election law": {
       "query": "(SAVE Act OR election integrity bill OR voter citizenship)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "save-act-signed-into-law-in-2026"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "How Trump SAVE America Act could make it harder for married women to vote",
+          "domain": "highlandcountypress.com",
+          "date": "20260514T054500Z",
+          "country": "United States"
+        },
+        {
+          "title": "New Mexico House Republican Leadership Urges Immediate Passage Of SAVE Act",
+          "domain": "ladailypost.com",
+          "date": "20260513T183000Z",
+          "country": "United States"
+        },
+        {
+          "title": "White House previews wish list for third reconciliation bill",
+          "domain": "washingtonexaminer.com",
+          "date": "20260514T004500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Trump so far failing in quest for power over elections as midterms approach",
+          "domain": "miamitimesonline.com",
+          "date": "20260512T180000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oregon election officials discuss Trump attacks on voting and what at stake",
+          "domain": "bendbulletin.com",
+          "date": "20260512T170000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oregon election officials discuss Trump attacks on voting and what at stake",
+          "domain": "eastoregonian.com",
+          "date": "20260512T164500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oregon election officials discuss Trump attacks on voting and what at stake",
+          "domain": "dailyastorian.com",
+          "date": "20260512T173000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Oregon Officials Discuss Trump Attacks on Voting and What at Stake",
+          "domain": "corvallisadvocate.com",
+          "date": "20260513T013000Z",
+          "country": "United States"
+        },
+        {
+          "title": "State senators look for ways to address concerns raised over recently passed SHIELD Act",
+          "domain": "wdam.com",
+          "date": "20260514T030000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Immigration authorities detain former Kansas mayor who fears deportation",
+          "domain": "pilotonline.com",
+          "date": "20260514T000000Z",
+          "country": "United States"
+        }
+      ]
     },
     "US recession signals": {
       "query": "(US recession OR economic downturn OR GDP contraction OR unemployment rising)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "us-recession-by-end-of-2026"
       ],
-      "headlines": [
-        {
-          "title": "Russian economy on solid footing despite slowdown deputy PM",
-          "domain": "middleeaststar.com",
-          "date": "20260512T230000Z",
-          "country": "Syria"
-        },
-        {
-          "title": "Russian economy on solid footing despite slowdown deputy PM",
-          "domain": "austinglobe.com",
-          "date": "20260512T233000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Russian economy on solid footing despite slowdown",
-          "domain": "russiaherald.com",
-          "date": "20260512T233000Z",
-          "country": "Russia"
-        },
-        {
-          "title": "Russian economy on solid footing despite slowdown deputy PM",
-          "domain": "russiaherald.com",
-          "date": "20260512T233000Z",
-          "country": "Russia"
-        },
-        {
-          "title": "Russian economy on solid footing despite slowdown deputy PM",
-          "domain": "heraldglobe.com",
-          "date": "20260512T223000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Weak economic growth driving SA job crisis , says economist",
-          "domain": "ecr.co.za",
-          "date": "20260513T113000Z",
-          "country": "South Africa"
-        },
-        {
-          "title": "Get ready for a budget slowdown . But Chalmers insists we wont see a recession",
-          "domain": "theconversation.com",
-          "date": "20260512T121500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "Morgan Stanley maps four oil shock scenarios from Fed hikes to global recession",
-          "domain": "investinglive.com",
-          "date": "20260513T030000Z",
-          "country": ""
-        },
-        {
-          "title": "Wall Street Sees Recession Risk Fading in 2026 but 2027 Flashing Warning Signs",
-          "domain": "finance.yahoo.com",
-          "date": "20260512T224500Z",
-          "country": "United States"
-        },
-        {
-          "title": "RoEM report predicts 0 . 5 % economic contraction in Romania this year , driven by political crisis",
-          "domain": "romania-insider.com",
-          "date": "20260513T113000Z",
-          "country": "Romania"
-        }
-      ]
+      "headlines": []
     },
     "Federal Reserve / interest rates": {
       "query": "(federal reserve rate OR fed funds rate OR FOMC decision OR jerome powell rate)",
@@ -324,6 +324,12 @@
           "country": "India"
         },
         {
+          "title": "Big Changes Are Coming to the Federal Reserve Tomorrow , and It Could Spell Trouble for Wall Street",
+          "domain": "fool.com",
+          "date": "20260514T124500Z",
+          "country": "United States"
+        },
+        {
           "title": "US Senate confirms Trump - nominee Warsh to Federal Reserve board",
           "domain": "freemalaysiatoday.com",
           "date": "20260512T230000Z",
@@ -333,12 +339,6 @@
           "title": "US Senate confirms Trump - nominee Warsh to Federal Reserve board",
           "domain": "digitaljournal.com",
           "date": "20260512T183000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Forget Interest Rate Cuts . Here Why the Fed May Actually Hike Rates No Matter Who Chair",
-          "domain": "finance.yahoo.com",
-          "date": "20260512T140000Z",
           "country": "United States"
         },
         {
@@ -354,9 +354,9 @@
           "country": "United States"
         },
         {
-          "title": "Senate confirms Kevin Warsh to Fed Board ahead of chair vote",
-          "domain": "staradvertiser.com",
-          "date": "20260512T213000Z",
+          "title": "Big Changes Are Coming to the Federal Reserve Tomorrow , and It Could Spell Trouble for Wall Street",
+          "domain": "finance.yahoo.com",
+          "date": "20260514T114500Z",
           "country": "United States"
         }
       ]
@@ -368,12 +368,6 @@
         "march-inflation-us-annual"
       ],
       "headlines": [
-        {
-          "title": "Retail inflation inches up to 3 . 48 % in April : Govt data",
-          "domain": "thehindu.com",
-          "date": "20260512T124500Z",
-          "country": "India"
-        },
         {
           "title": "April CPI Report Shows Inflation Surge",
           "domain": "wbhpam.iheart.com",
@@ -427,24 +421,152 @@
           "domain": "wgy.iheart.com",
           "date": "20260512T171500Z",
           "country": "United States"
+        },
+        {
+          "title": "April CPI Report Shows Inflation Surge | NewsTalk 1320 KWHN",
+          "domain": "kwhn.iheart.com",
+          "date": "20260512T171500Z",
+          "country": "United States"
         }
       ]
     },
     "Bitcoin / crypto markets": {
       "query": "(bitcoin price OR BTC rally OR crypto market OR bitcoin ETF)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "what-price-will-bitcoin-hit-before-2027"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Bitcoin ( BTC ) Price Prediction : Can Bitcoin Hit $85K in May ?",
+          "domain": "247wallst.com",
+          "date": "20260513T014500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin ETF inflows may reshape its bear market correction : Analyst",
+          "domain": "cointelegraph.com",
+          "date": "20260512T171500Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Dip Below $80K Could Be  Short - Lived  as STRC Cycle Looms",
+          "domain": "finance.yahoo.com",
+          "date": "20260514T133000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Bitcoin Rally $80 , 000 Has One Glaring Problem",
+          "domain": "benzinga.com",
+          "date": "20260513T134500Z",
+          "country": "United States"
+        },
+        {
+          "title": "JPMorgan Boosts Bitcoin ETF Holdings in Q1 2026 Filing",
+          "domain": "cointelegraph.com",
+          "date": "20260514T120000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin ETF inflows hit $706M in sixth straight week",
+          "domain": "financial-news.co.uk",
+          "date": "20260513T234500Z",
+          "country": "United Kingdom"
+        },
+        {
+          "title": "Watch These Bitcoin Price Levels Ahead of the CLARITY Act Vote",
+          "domain": "cointelegraph.com",
+          "date": "20260514T120000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Bulls Target $100K as Strategy STRC Enables More BTC Buying This Week",
+          "domain": "cointelegraph.com",
+          "date": "20260513T123000Z",
+          "country": "China"
+        },
+        {
+          "title": "Bitcoin Trader Records $13M in Unrealized Losses As BTC",
+          "domain": "cointelegraph.com",
+          "date": "20260512T171500Z",
+          "country": "China"
+        },
+        {
+          "title": "$11 . 77T Charles Schwab Launches Spot Bitcoin Trading",
+          "domain": "bitcoinmagazine.com",
+          "date": "20260513T134500Z",
+          "country": "United States"
+        }
+      ]
     },
     "Gas prices / oil prices": {
       "query": "(gas prices OR gasoline prices OR oil prices OR crude oil WTI)",
-      "article_count": 0,
+      "article_count": 10,
       "relevant_to": [
         "will-gas-hit-by-end-of-march"
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Oregon gas prices soar to $5 . 32 a gallon , national average reaches $4 . 50",
+          "domain": "ktvz.com",
+          "date": "20260513T024500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Price Increases Slow | 105 . 9 The Brew",
+          "domain": "1059thebrew.iheart.com",
+          "date": "20260512T234500Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Price Increases Slow | Z100 Portland",
+          "domain": "z100portland.iheart.com",
+          "date": "20260512T213000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Price Increases Slow | News Radio 1190 KEX",
+          "domain": "1190kex.iheart.com",
+          "date": "20260512T213000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Gas Price Increases Slow | JAMN 107 . 5",
+          "domain": "jamn1075.iheart.com",
+          "date": "20260513T000000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Illinois diesel prices break record Tuesday that was set six days ago",
+          "domain": "thetelegraph.com",
+          "date": "20260512T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "US faces $300 billion nightmare from Iran war : How gas prices , mortgages , and wages are set to",
+          "domain": "bankingnews.gr",
+          "date": "20260514T124500Z",
+          "country": "Greece"
+        },
+        {
+          "title": "US faces $300 billion nightmare from Iran war : How gas prices , mortgages , and wages are set to",
+          "domain": "bankingnews.gr",
+          "date": "20260514T124500Z",
+          "country": "Greece"
+        },
+        {
+          "title": "Illinois diesel prices break record Tuesday that was set six days ago",
+          "domain": "theintelligencer.com",
+          "date": "20260512T160000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Illinois diesel prices break record Tuesday that was set six days ago",
+          "domain": "myjournalcourier.com",
+          "date": "20260513T001500Z",
+          "country": "United States"
+        }
+      ]
     },
     "2026 midterm elections": {
       "query": "(2026 midterm OR midterm election OR house race 2026 OR senate race 2026)",
@@ -491,12 +613,6 @@
           "country": "United States"
         },
         {
-          "title": "Gerrymandering cant fix the GOP voter problem",
-          "domain": "salon.com",
-          "date": "20260512T114500Z",
-          "country": "United States"
-        },
-        {
           "title": "Kemp calls special session to draw new Georgia map for 2028",
           "domain": "washingtonexaminer.com",
           "date": "20260513T221500Z",
@@ -506,6 +622,12 @@
           "title": "Denise Powell wins Democratic primary for Nebraska 2nd congressional district",
           "domain": "knpr.org",
           "date": "20260514T050000Z",
+          "country": "United States"
+        },
+        {
+          "title": "Rs may gerrymander , but it wont save them - Tuesday GNR",
+          "domain": "dailykos.com",
+          "date": "20260514T133000Z",
           "country": "United States"
         },
         {
@@ -535,6 +657,12 @@
           "title": "OKC Thunder Make History With Sweep of Lakers",
           "domain": "si.com",
           "date": "20260513T223000Z",
+          "country": "United States"
+        },
+        {
+          "title": "OG Anunoby Eastern Conference finals MVP odds are too good to ignore",
+          "domain": "nypost.com",
+          "date": "20260514T133000Z",
           "country": "United States"
         },
         {
@@ -584,153 +712,25 @@
           "domain": "dailyknicks.com",
           "date": "20260513T021500Z",
           "country": "United States"
-        },
-        {
-          "title": "How Long Has LeBron James Been in the NBA ? These Shocking Stats Put Tenure in Perspective",
-          "domain": "si.com",
-          "date": "20260512T223000Z",
-          "country": "United States"
         }
       ]
     },
     "AI model rankings / benchmarks": {
       "query": "(AI model benchmark OR best AI model OR Claude OR GPT OR Gemini benchmark)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "which-company-has-the-best-ai-model-end-of-march-751",
         "which-company-will-have-the-best-ai-model-for-coding-on-march-31"
       ],
-      "headlines": [
-        {
-          "title": "AI models disagree on which jobs AI will disrupt , study finds",
-          "domain": "thedailystar.net",
-          "date": "20260512T160000Z",
-          "country": "Bangladesh"
-        },
-        {
-          "title": "AI is ready to take over Python programming , but not much else",
-          "domain": "computerworld.com",
-          "date": "20260513T040000Z",
-          "country": "United States"
-        },
-        {
-          "title": "AI is ready to take over Python programming , but not much else",
-          "domain": "infoworld.com",
-          "date": "20260513T034500Z",
-          "country": "United States"
-        },
-        {
-          "title": "AI models are getting better at replacing cybersecurity pros on certain tasks",
-          "domain": "theregister.com",
-          "date": "20260514T080000Z",
-          "country": ""
-        },
-        {
-          "title": "AEO Sensor | AI Visibility Trends , Data , and Updates",
-          "domain": "hubspot.com",
-          "date": "20260514T003000Z",
-          "country": "United States"
-        },
-        {
-          "title": "OpenAI counters Anthropic Mythos with Daybreak and three GPT - 5 . 5 cyber models",
-          "domain": "timesofindia.indiatimes.com",
-          "date": "20260512T110000Z",
-          "country": "India"
-        },
-        {
-          "title": "I asked Gemini , Claude , and ChatGPT to build my portfolio , but only one nailed it",
-          "domain": "howtogeek.com",
-          "date": "20260513T133000Z",
-          "country": "United States"
-        },
-        {
-          "title": "India IT shares near three ‑ year low as OpenAI move revives AI fears | Technology News",
-          "domain": "indianexpress.com",
-          "date": "20260512T114500Z",
-          "country": "India"
-        },
-        {
-          "title": "AI voice chats still feel awkward because assistants dont know when to talk",
-          "domain": "digitaltrends.com",
-          "date": "20260512T144500Z",
-          "country": "United States"
-        },
-        {
-          "title": "I gave Claude broken data and it turned it into a usable spreadsheet",
-          "domain": "makeuseof.com",
-          "date": "20260512T214500Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     },
     "GTA 6 release": {
       "query": "(GTA 6 OR grand theft auto 6 OR GTA VI release OR rockstar games)",
-      "article_count": 10,
+      "article_count": 0,
       "relevant_to": [
         "gta-6-launch-postponed-again"
       ],
-      "headlines": [
-        {
-          "title": "GTA 6 trailer 3 nowhere in sight , despite fan theories",
-          "domain": "polygon.com",
-          "date": "20260512T180000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Red Dead Redemption 2 Official DLC Announcement Leaves GTA 6 Fans Cold",
-          "domain": "screenrant.com",
-          "date": "20260513T123000Z",
-          "country": "United States"
-        },
-        {
-          "title": "Why Fans Are Creating Their Own GTA 6 Preorder Sites Now",
-          "domain": "psxextreme.com",
-          "date": "20260512T141500Z",
-          "country": "United States"
-        },
-        {
-          "title": "As Fans Wait for GTA 6 Trailer 3 Today , Rockstar Tweets About Red Dead Online And The Internet Reaction is Exactly as Youd Expect",
-          "domain": "ign.com",
-          "date": "20260512T153000Z",
-          "country": "United States"
-        },
-        {
-          "title": "GTA 6 Is Carrying Rockstar Biggest Expectations Ever",
-          "domain": "gamingbolt.com",
-          "date": "20260512T141500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "GTA 6 Fan Tracking Foot Traffic At Cafe Near Rockstar Games",
-          "domain": "kotaku.com",
-          "date": "20260512T194500Z",
-          "country": "Japan"
-        },
-        {
-          "title": "GTA 6 Release Date Confirmed as November 19 2026 : Everything We Know About Grand Theft Auto VI",
-          "domain": "ibtimes.com.au",
-          "date": "20260514T091500Z",
-          "country": "Australia"
-        },
-        {
-          "title": "GTA 6 Pre - Order Page Spotted Ahead Of Trailer 3",
-          "domain": "screenrant.com",
-          "date": "20260512T114500Z",
-          "country": "United States"
-        },
-        {
-          "title": "Strauss Zelnick Lifts Gta 6 Pre Order to Nov . 19",
-          "domain": "el-balad.com",
-          "date": "20260514T060000Z",
-          "country": "Egypt"
-        },
-        {
-          "title": "One of The Year Most Anticipated New Games Is Looking Like the Next GTA 6 ( And Not in a Good Way )",
-          "domain": "comicbook.com",
-          "date": "20260513T203000Z",
-          "country": "United States"
-        }
-      ]
+      "headlines": []
     }
   }
 }
