@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T17:03:12Z",
+  "fetched_at": "2026-05-17T20:59:55Z",
   "source": "National Weather Service API (weather.gov)",
   "cities": {
     "nyc": {
@@ -7,39 +7,15 @@
       "relevant_to": [
         "nyc_temp"
       ],
-      "today_high": 82,
+      "today_high": 84,
       "today_high_unit": "F",
       "today_forecast": "Sunny",
-      "today_detail": "Sunny. High near 82, with temperatures falling to around 78 in the afternoon. Southwest wind 6 to 14 mph.",
-      "wind": "6 to 14 mph",
-      "wind_direction": "SW",
+      "today_detail": "Sunny. High near 84, with temperatures falling to around 76 in the afternoon. South wind around 13 mph.",
+      "wind": "13 mph",
+      "wind_direction": "S",
       "tonight_low": 65,
       "tonight_forecast": "Partly Cloudy",
       "hourly": [
-        {
-          "hour": "2026-05-17T12:00:00-04:00",
-          "temp": 76,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-17T13:00:00-04:00",
-          "temp": 78,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-17T14:00:00-04:00",
-          "temp": 77,
-          "unit": "F",
-          "short": "Sunny"
-        },
-        {
-          "hour": "2026-05-17T15:00:00-04:00",
-          "temp": 77,
-          "unit": "F",
-          "short": "Sunny"
-        },
         {
           "hour": "2026-05-17T16:00:00-04:00",
           "temp": 78,
@@ -48,49 +24,49 @@
         },
         {
           "hour": "2026-05-17T17:00:00-04:00",
-          "temp": 78,
+          "temp": 76,
           "unit": "F",
           "short": "Sunny"
         },
         {
           "hour": "2026-05-17T18:00:00-04:00",
-          "temp": 78,
+          "temp": 75,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-17T19:00:00-04:00",
-          "temp": 80,
+          "temp": 75,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-17T20:00:00-04:00",
-          "temp": 78,
+          "temp": 77,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-17T21:00:00-04:00",
           "temp": 75,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-17T22:00:00-04:00",
-          "temp": 75,
+          "temp": 73,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Clear"
         },
         {
           "hour": "2026-05-17T23:00:00-04:00",
-          "temp": 73,
+          "temp": 72,
           "unit": "F",
           "short": "Partly Cloudy"
         }
       ],
-      "peak_temp": 80,
-      "peak_hour": "2026-05-17T19:00:00-04:00"
+      "peak_temp": 78,
+      "peak_hour": "2026-05-17T16:00:00-04:00"
     },
     "miami": {
       "label": "Miami",
@@ -99,42 +75,18 @@
       ],
       "today_high": 91,
       "today_high_unit": "F",
-      "today_forecast": "Partly Sunny then Chance Showers And Thunderstorms",
-      "today_detail": "A chance of showers and thunderstorms between noon and 5pm, then showers and thunderstorms likely. Partly sunny. High near 91, with temperatures falling to around 86 in the afternoon. East wind 3 to 8 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
-      "wind": "3 to 8 mph",
+      "today_forecast": "Showers And Thunderstorms Likely",
+      "today_detail": "Showers and thunderstorms likely before 5pm, then showers and thunderstorms likely. Partly sunny. High near 91, with temperatures falling to around 86 in the afternoon. East wind around 7 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible.",
+      "wind": "7 mph",
       "wind_direction": "E",
-      "tonight_low": 70,
+      "tonight_low": 69,
       "tonight_forecast": "Chance Showers And Thunderstorms then Partly Cloudy",
       "hourly": [
-        {
-          "hour": "2026-05-17T12:00:00-04:00",
-          "temp": 88,
-          "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-05-17T13:00:00-04:00",
-          "temp": 89,
-          "unit": "F",
-          "short": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-05-17T14:00:00-04:00",
-          "temp": 89,
-          "unit": "F",
-          "short": "Chance Showers And Thunderstorms"
-        },
-        {
-          "hour": "2026-05-17T15:00:00-04:00",
-          "temp": 89,
-          "unit": "F",
-          "short": "Chance Showers And Thunderstorms"
-        },
         {
           "hour": "2026-05-17T16:00:00-04:00",
           "temp": 89,
           "unit": "F",
-          "short": "Chance Showers And Thunderstorms"
+          "short": "Showers And Thunderstorms Likely"
         },
         {
           "hour": "2026-05-17T17:00:00-04:00",
@@ -144,27 +96,27 @@
         },
         {
           "hour": "2026-05-17T18:00:00-04:00",
-          "temp": 86,
+          "temp": 85,
           "unit": "F",
           "short": "Chance Showers And Thunderstorms"
         },
         {
           "hour": "2026-05-17T19:00:00-04:00",
-          "temp": 84,
+          "temp": 83,
           "unit": "F",
           "short": "Chance Showers And Thunderstorms"
         },
         {
           "hour": "2026-05-17T20:00:00-04:00",
-          "temp": 79,
+          "temp": 78,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-05-17T21:00:00-04:00",
-          "temp": 77,
+          "temp": 76,
           "unit": "F",
-          "short": "Partly Cloudy"
+          "short": "Mostly Cloudy"
         },
         {
           "hour": "2026-05-17T22:00:00-04:00",
@@ -180,7 +132,7 @@
         }
       ],
       "peak_temp": 89,
-      "peak_hour": "2026-05-17T13:00:00-04:00"
+      "peak_hour": "2026-05-17T16:00:00-04:00"
     }
   }
 }
